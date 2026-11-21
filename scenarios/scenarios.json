@@ -1,0 +1,577 @@
+{
+ "version": 1,
+ "days": 30,
+ "slot_minutes": 30,
+ "night_window": ["00:00", "05:00"],
+ "weekend_factor": 1.12,
+ "round_trip_efficiency": 0.9,
+ "start_dates": {
+  "winter": "2027-01-04",
+  "spring": "2027-05-03",
+  "summer": "2027-07-05",
+  "autumn": "2027-11-08"
+ },
+ "shapes": {
+  "morning": [6.5, 9],
+  "evening": [17, 21],
+  "heat_pump_morning": [6, 9],
+  "heat_pump_evening": [17, 22],
+  "heating": [5, 22],
+  "flex": [[0.3, 6, 8], [0.2, 12, 14], [0.5, 17, 20]]
+ },
+ "ev": {
+  "daily_kwh": 10.0,
+  "charger_kw": 7.0,
+  "arrival": "18:00",
+  "miles_a_month": 1000
+ },
+ "solar": {
+  "kwp": 4.0,
+  "kwp_with_ev": 6.0,
+  "seasons": {
+   "winter": {
+    "kwh_per_kwp_a_day": 0.9,
+    "sunrise": 8.0,
+    "sunset": 16.0
+   },
+   "spring": {
+    "kwh_per_kwp_a_day": 3.0,
+    "sunrise": 6.0,
+    "sunset": 20.0
+   },
+   "summer": {
+    "kwh_per_kwp_a_day": 4.4,
+    "sunrise": 5.0,
+    "sunset": 21.0
+   },
+   "autumn": {
+    "kwh_per_kwp_a_day": 1.7,
+    "sunrise": 7.0,
+    "sunset": 17.5
+   }
+  }
+ },
+ "batteries": {
+  "battery5": {
+   "nominal_kwh": 5,
+   "usable_kwh": 4.5,
+   "power_kw": 3.0
+  },
+  "battery": {
+   "nominal_kwh": 10,
+   "usable_kwh": 9.0,
+   "power_kw": 5.0
+  },
+  "battery15": {
+   "nominal_kwh": 15,
+   "usable_kwh": 13.5,
+   "power_kw": 5.0
+  }
+ },
+ "bases": {
+  "winter-home": {
+   "season": "winter",
+   "household": "Three-bedroom home, non-electric heating",
+   "month_kwh": 340,
+   "flex_share": 0.22,
+   "weights": {
+    "morning": 0.25,
+    "evening": 0.45,
+    "flat": 0.3
+   },
+   "seed": 1101,
+   "heat_pump": false
+  },
+  "winter-flat": {
+   "season": "winter",
+   "household": "Small flat, two people out in the day",
+   "month_kwh": 130,
+   "flex_share": 0.12,
+   "weights": {
+    "morning": 0.2,
+    "evening": 0.4,
+    "flat": 0.4
+   },
+   "seed": 1102,
+   "heat_pump": false
+  },
+  "winter-heat-pump": {
+   "season": "winter",
+   "household": "Home with an air-source heat pump",
+   "month_kwh": 1000,
+   "flex_share": 0.15,
+   "weights": {
+    "morning": 0.3,
+    "evening": 0.3,
+    "flat": 0.4
+   },
+   "seed": 1103,
+   "heat_pump": true
+  },
+  "spring-home": {
+   "season": "spring",
+   "household": "Three-bedroom home, light heating",
+   "month_kwh": 280,
+   "flex_share": 0.24,
+   "weights": {
+    "morning": 0.25,
+    "evening": 0.43,
+    "flat": 0.32
+   },
+   "seed": 1104,
+   "heat_pump": false
+  },
+  "summer-home": {
+   "season": "summer",
+   "household": "Three-bedroom home, no heating",
+   "month_kwh": 240,
+   "flex_share": 0.27,
+   "weights": {
+    "morning": 0.22,
+    "evening": 0.4,
+    "flat": 0.38
+   },
+   "seed": 1105,
+   "heat_pump": false
+  },
+  "autumn-home": {
+   "season": "autumn",
+   "household": "Three-bedroom home, light heating",
+   "month_kwh": 300,
+   "flex_share": 0.23,
+   "weights": {
+    "morning": 0.25,
+    "evening": 0.44,
+    "flat": 0.31
+   },
+   "seed": 1106,
+   "heat_pump": false
+  }
+ },
+ "scenarios": {
+  "winter-home": {
+   "base": "winter-home",
+   "options": []
+  },
+  "winter-home+solar": {
+   "base": "winter-home",
+   "options": ["solar"],
+   "compared_with": "winter-home"
+  },
+  "winter-home+battery": {
+   "base": "winter-home",
+   "options": ["battery"],
+   "compared_with": "winter-home"
+  },
+  "winter-home+shift": {
+   "base": "winter-home",
+   "options": ["shift"],
+   "compared_with": "winter-home"
+  },
+  "winter-home+shift+battery": {
+   "base": "winter-home",
+   "options": ["shift", "battery"],
+   "compared_with": "winter-home"
+  },
+  "winter-home+solar+battery": {
+   "base": "winter-home",
+   "options": ["solar", "battery"],
+   "compared_with": "winter-home"
+  },
+  "winter-home+solar+shift+battery": {
+   "base": "winter-home",
+   "options": ["solar", "shift", "battery"],
+   "compared_with": "winter-home"
+  },
+  "winter-home+ev": {
+   "base": "winter-home",
+   "options": ["ev"],
+   "compared_with": "winter-home"
+  },
+  "winter-home+ev+solar": {
+   "base": "winter-home",
+   "options": ["ev", "solar"],
+   "compared_with": "winter-home+ev"
+  },
+  "winter-home+ev+battery": {
+   "base": "winter-home",
+   "options": ["ev", "battery"],
+   "compared_with": "winter-home+ev"
+  },
+  "winter-home+ev+shift": {
+   "base": "winter-home",
+   "options": ["ev", "shift"],
+   "compared_with": "winter-home+ev"
+  },
+  "winter-home+ev+shift+battery": {
+   "base": "winter-home",
+   "options": ["ev", "shift", "battery"],
+   "compared_with": "winter-home+ev"
+  },
+  "winter-home+ev+solar+battery": {
+   "base": "winter-home",
+   "options": ["ev", "solar", "battery"],
+   "compared_with": "winter-home+ev"
+  },
+  "winter-home+ev+solar+shift+battery": {
+   "base": "winter-home",
+   "options": ["ev", "solar", "shift", "battery"],
+   "compared_with": "winter-home+ev"
+  },
+  "spring-home": {
+   "base": "spring-home",
+   "options": []
+  },
+  "spring-home+solar": {
+   "base": "spring-home",
+   "options": ["solar"],
+   "compared_with": "spring-home"
+  },
+  "spring-home+battery": {
+   "base": "spring-home",
+   "options": ["battery"],
+   "compared_with": "spring-home"
+  },
+  "spring-home+shift": {
+   "base": "spring-home",
+   "options": ["shift"],
+   "compared_with": "spring-home"
+  },
+  "spring-home+shift+battery": {
+   "base": "spring-home",
+   "options": ["shift", "battery"],
+   "compared_with": "spring-home"
+  },
+  "spring-home+solar+battery": {
+   "base": "spring-home",
+   "options": ["solar", "battery"],
+   "compared_with": "spring-home"
+  },
+  "spring-home+solar+shift+battery": {
+   "base": "spring-home",
+   "options": ["solar", "shift", "battery"],
+   "compared_with": "spring-home"
+  },
+  "spring-home+ev": {
+   "base": "spring-home",
+   "options": ["ev"],
+   "compared_with": "spring-home"
+  },
+  "spring-home+ev+solar": {
+   "base": "spring-home",
+   "options": ["ev", "solar"],
+   "compared_with": "spring-home+ev"
+  },
+  "spring-home+ev+battery": {
+   "base": "spring-home",
+   "options": ["ev", "battery"],
+   "compared_with": "spring-home+ev"
+  },
+  "spring-home+ev+shift": {
+   "base": "spring-home",
+   "options": ["ev", "shift"],
+   "compared_with": "spring-home+ev"
+  },
+  "spring-home+ev+shift+battery": {
+   "base": "spring-home",
+   "options": ["ev", "shift", "battery"],
+   "compared_with": "spring-home+ev"
+  },
+  "spring-home+ev+solar+battery": {
+   "base": "spring-home",
+   "options": ["ev", "solar", "battery"],
+   "compared_with": "spring-home+ev"
+  },
+  "spring-home+ev+solar+shift+battery": {
+   "base": "spring-home",
+   "options": ["ev", "solar", "shift", "battery"],
+   "compared_with": "spring-home+ev"
+  },
+  "summer-home": {
+   "base": "summer-home",
+   "options": []
+  },
+  "summer-home+solar": {
+   "base": "summer-home",
+   "options": ["solar"],
+   "compared_with": "summer-home"
+  },
+  "summer-home+battery": {
+   "base": "summer-home",
+   "options": ["battery"],
+   "compared_with": "summer-home"
+  },
+  "summer-home+shift": {
+   "base": "summer-home",
+   "options": ["shift"],
+   "compared_with": "summer-home"
+  },
+  "summer-home+shift+battery": {
+   "base": "summer-home",
+   "options": ["shift", "battery"],
+   "compared_with": "summer-home"
+  },
+  "summer-home+solar+battery": {
+   "base": "summer-home",
+   "options": ["solar", "battery"],
+   "compared_with": "summer-home"
+  },
+  "summer-home+solar+shift+battery": {
+   "base": "summer-home",
+   "options": ["solar", "shift", "battery"],
+   "compared_with": "summer-home"
+  },
+  "summer-home+ev": {
+   "base": "summer-home",
+   "options": ["ev"],
+   "compared_with": "summer-home"
+  },
+  "summer-home+ev+solar": {
+   "base": "summer-home",
+   "options": ["ev", "solar"],
+   "compared_with": "summer-home+ev"
+  },
+  "summer-home+ev+battery": {
+   "base": "summer-home",
+   "options": ["ev", "battery"],
+   "compared_with": "summer-home+ev"
+  },
+  "summer-home+ev+shift": {
+   "base": "summer-home",
+   "options": ["ev", "shift"],
+   "compared_with": "summer-home+ev"
+  },
+  "summer-home+ev+shift+battery": {
+   "base": "summer-home",
+   "options": ["ev", "shift", "battery"],
+   "compared_with": "summer-home+ev"
+  },
+  "summer-home+ev+solar+battery": {
+   "base": "summer-home",
+   "options": ["ev", "solar", "battery"],
+   "compared_with": "summer-home+ev"
+  },
+  "summer-home+ev+solar+shift+battery": {
+   "base": "summer-home",
+   "options": ["ev", "solar", "shift", "battery"],
+   "compared_with": "summer-home+ev"
+  },
+  "autumn-home": {
+   "base": "autumn-home",
+   "options": []
+  },
+  "autumn-home+solar": {
+   "base": "autumn-home",
+   "options": ["solar"],
+   "compared_with": "autumn-home"
+  },
+  "autumn-home+battery": {
+   "base": "autumn-home",
+   "options": ["battery"],
+   "compared_with": "autumn-home"
+  },
+  "autumn-home+shift": {
+   "base": "autumn-home",
+   "options": ["shift"],
+   "compared_with": "autumn-home"
+  },
+  "autumn-home+shift+battery": {
+   "base": "autumn-home",
+   "options": ["shift", "battery"],
+   "compared_with": "autumn-home"
+  },
+  "autumn-home+solar+battery": {
+   "base": "autumn-home",
+   "options": ["solar", "battery"],
+   "compared_with": "autumn-home"
+  },
+  "autumn-home+solar+shift+battery": {
+   "base": "autumn-home",
+   "options": ["solar", "shift", "battery"],
+   "compared_with": "autumn-home"
+  },
+  "autumn-home+ev": {
+   "base": "autumn-home",
+   "options": ["ev"],
+   "compared_with": "autumn-home"
+  },
+  "autumn-home+ev+solar": {
+   "base": "autumn-home",
+   "options": ["ev", "solar"],
+   "compared_with": "autumn-home+ev"
+  },
+  "autumn-home+ev+battery": {
+   "base": "autumn-home",
+   "options": ["ev", "battery"],
+   "compared_with": "autumn-home+ev"
+  },
+  "autumn-home+ev+shift": {
+   "base": "autumn-home",
+   "options": ["ev", "shift"],
+   "compared_with": "autumn-home+ev"
+  },
+  "autumn-home+ev+shift+battery": {
+   "base": "autumn-home",
+   "options": ["ev", "shift", "battery"],
+   "compared_with": "autumn-home+ev"
+  },
+  "autumn-home+ev+solar+battery": {
+   "base": "autumn-home",
+   "options": ["ev", "solar", "battery"],
+   "compared_with": "autumn-home+ev"
+  },
+  "autumn-home+ev+solar+shift+battery": {
+   "base": "autumn-home",
+   "options": ["ev", "solar", "shift", "battery"],
+   "compared_with": "autumn-home+ev"
+  },
+  "winter-heat-pump": {
+   "base": "winter-heat-pump",
+   "options": []
+  },
+  "winter-heat-pump+shift": {
+   "base": "winter-heat-pump",
+   "options": ["shift"],
+   "compared_with": "winter-heat-pump"
+  },
+  "winter-heat-pump+shift+battery": {
+   "base": "winter-heat-pump",
+   "options": ["shift", "battery"],
+   "compared_with": "winter-heat-pump"
+  },
+  "winter-heat-pump+solar+shift+battery": {
+   "base": "winter-heat-pump",
+   "options": ["solar", "shift", "battery"],
+   "compared_with": "winter-heat-pump"
+  },
+  "winter-heat-pump+ev": {
+   "base": "winter-heat-pump",
+   "options": ["ev"],
+   "compared_with": "winter-heat-pump"
+  },
+  "winter-heat-pump+ev+shift": {
+   "base": "winter-heat-pump",
+   "options": ["ev", "shift"],
+   "compared_with": "winter-heat-pump+ev"
+  },
+  "winter-heat-pump+ev+shift+battery": {
+   "base": "winter-heat-pump",
+   "options": ["ev", "shift", "battery"],
+   "compared_with": "winter-heat-pump+ev"
+  },
+  "winter-heat-pump+ev+solar+shift+battery": {
+   "base": "winter-heat-pump",
+   "options": ["ev", "solar", "shift", "battery"],
+   "compared_with": "winter-heat-pump+ev"
+  },
+  "winter-flat": {
+   "base": "winter-flat",
+   "options": []
+  },
+  "winter-flat+shift": {
+   "base": "winter-flat",
+   "options": ["shift"],
+   "compared_with": "winter-flat"
+  },
+  "winter-home+battery5": {
+   "base": "winter-home",
+   "options": ["battery5"],
+   "compared_with": "winter-home"
+  },
+  "winter-home+solar+shift+battery5": {
+   "base": "winter-home",
+   "options": ["solar", "shift", "battery5"],
+   "compared_with": "winter-home"
+  },
+  "winter-home+battery15": {
+   "base": "winter-home",
+   "options": ["battery15"],
+   "compared_with": "winter-home"
+  },
+  "winter-home+solar+shift+battery15": {
+   "base": "winter-home",
+   "options": ["solar", "shift", "battery15"],
+   "compared_with": "winter-home"
+  },
+  "spring-home+battery5": {
+   "base": "spring-home",
+   "options": ["battery5"],
+   "compared_with": "spring-home"
+  },
+  "spring-home+solar+shift+battery5": {
+   "base": "spring-home",
+   "options": ["solar", "shift", "battery5"],
+   "compared_with": "spring-home"
+  },
+  "spring-home+battery15": {
+   "base": "spring-home",
+   "options": ["battery15"],
+   "compared_with": "spring-home"
+  },
+  "spring-home+solar+shift+battery15": {
+   "base": "spring-home",
+   "options": ["solar", "shift", "battery15"],
+   "compared_with": "spring-home"
+  },
+  "summer-home+battery5": {
+   "base": "summer-home",
+   "options": ["battery5"],
+   "compared_with": "summer-home"
+  },
+  "summer-home+solar+shift+battery5": {
+   "base": "summer-home",
+   "options": ["solar", "shift", "battery5"],
+   "compared_with": "summer-home"
+  },
+  "summer-home+battery15": {
+   "base": "summer-home",
+   "options": ["battery15"],
+   "compared_with": "summer-home"
+  },
+  "summer-home+solar+shift+battery15": {
+   "base": "summer-home",
+   "options": ["solar", "shift", "battery15"],
+   "compared_with": "summer-home"
+  },
+  "autumn-home+battery5": {
+   "base": "autumn-home",
+   "options": ["battery5"],
+   "compared_with": "autumn-home"
+  },
+  "autumn-home+solar+shift+battery5": {
+   "base": "autumn-home",
+   "options": ["solar", "shift", "battery5"],
+   "compared_with": "autumn-home"
+  },
+  "autumn-home+battery15": {
+   "base": "autumn-home",
+   "options": ["battery15"],
+   "compared_with": "autumn-home"
+  },
+  "autumn-home+solar+shift+battery15": {
+   "base": "autumn-home",
+   "options": ["solar", "shift", "battery15"],
+   "compared_with": "autumn-home"
+  },
+  "winter-heat-pump+shift+battery5": {
+   "base": "winter-heat-pump",
+   "options": ["shift", "battery5"],
+   "compared_with": "winter-heat-pump"
+  },
+  "winter-heat-pump+solar+shift+battery5": {
+   "base": "winter-heat-pump",
+   "options": ["solar", "shift", "battery5"],
+   "compared_with": "winter-heat-pump"
+  },
+  "winter-heat-pump+shift+battery15": {
+   "base": "winter-heat-pump",
+   "options": ["shift", "battery15"],
+   "compared_with": "winter-heat-pump"
+  },
+  "winter-heat-pump+solar+shift+battery15": {
+   "base": "winter-heat-pump",
+   "options": ["solar", "shift", "battery15"],
+   "compared_with": "winter-heat-pump"
+  }
+ }
+}
