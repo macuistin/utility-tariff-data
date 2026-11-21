@@ -1,8 +1,7 @@
 # Utility tariff data
 
 Open electricity tariff data as JSON, one folder per country, supplier and tariff. Each file is one
-revision of a tariff, with its prices, bands and dates. Files named `<n>.usage.json` hold the priced
-results for sample usage.
+revision of a tariff, with its prices, bands and dates.
 
 - Layout: `tariffs/electricity/<country>/<supplier>/<tariff>/<n>.json`, with an `index.json` at each
   level.

@@ -1,11 +1,11 @@
-Last updated: 2026-11-18
+Last updated: 2026-11-21
 
 # Ireland: electricity tariff status
 
 [All countries](../STATUS.md)
 
 - Coverage: available.
-- Held: 11 providers and 48 tariffs. 48 current, 0 upcoming, 0 ended, as of the date above.
+- Held: 11 providers and 50 tariffs. 50 current, 0 upcoming, 0 ended, as of the date above.
 
 | Provider | Tariff | Direction | Status today | Valid from | Valid to | Revisions | Last changed | Source |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -28,13 +28,15 @@ Last updated: 2026-11-18
 | Electric Ireland | Green Electricity | import | Current | 2026-10-01 | open | 2 | 2026-11-13 | electric-ireland |
 | Electric Ireland | Green Electricity NightSaver | import | Current | 2026-10-01 | open | 2 | 2026-11-13 | electric-ireland |
 | Electric Ireland | Home Electric+ Night Boost | import | Current | 2026-10-01 | open | 2 | 2026-11-13 | electric-ireland |
+| Electric Ireland | Home Electric+ Saver 10 | import | Current | 2026-11-13 | open | 1 | 2026-11-13 | electric-ireland |
 | Electric Ireland | Home Electric + Saver 14% | import | Current | 2026-11-13 | open | 1 | 2026-11-13 | electric-ireland |
 | Electric Ireland | Home Electric+ Saver 16% | import | Current | 2026-10-01 | open | 2 | 2026-11-13 | electric-ireland |
+| Electric Ireland | Home Electric+ SST | import | Current | 2026-11-13 | open | 1 | 2026-11-13 | electric-ireland |
 | Electric Ireland | Home Electric + SST Saver 14% | import | Current | 2026-11-13 | open | 1 | 2026-11-13 | electric-ireland |
 | Electric Ireland | Home Electric + SST Saver 16% | import | Current | 2026-10-01 | open | 2 | 2026-11-13 | electric-ireland |
 | Electric Ireland | Microgen Export | export | Current | 2026-11-13 | open | 1 | 2026-11-13 | electric-ireland |
-| Electric Ireland | NightSaver Standard Green | import | Current | 2026-11-09 | open | 1 | 2026-11-09 | selectra-ie |
-| Electric Ireland | Standard, 24hr Standard Green | import | Current | 2026-11-09 | open | 1 | 2026-11-09 | selectra-ie |
+| Electric Ireland | NightSaver Standard Green | import | Current | 2026-11-09 | open | 2 | 2026-11-21 | selectra-ie |
+| Electric Ireland | Standard, 24hr Standard Green | import | Current | 2026-11-09 | open | 2 | 2026-11-21 | selectra-ie |
 | Energia | EV Smart Drive Plus Variable price | import | Current | 2026-11-17 | open | 1 | 2026-11-17 | selectra-ie |
 | Energia | EV Smart Drive Variable price | import | Current | 2026-11-16 | open | 1 | 2026-11-16 | selectra-ie |
 | Energia | Energia Microgen Export | export | Current | 2026-11-01 | open | 1 | 2026-11-01 | selectra-ie |

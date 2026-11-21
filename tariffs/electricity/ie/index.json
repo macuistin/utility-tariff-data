@@ -286,6 +286,16 @@
             }
           }
         },
+        "electric-ireland-home-electric-saver-10": {
+          "name": "Home Electric+ Saver 10",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:f52ef2a8906e2fcae045ca431ef0d510b73cf67cc7d4e947f5f114dea9e31b63",
+              "effective_from": "2026-11-13",
+              "effective_to": null
+            }
+          }
+        },
         "electric-ireland-home-electric-saver-14": {
           "name": "Home Electric + Saver 14%",
           "revisions": {
@@ -306,6 +316,16 @@
             },
             "2": {
               "checksum": "sha256:8ea1d08c80b696acc4254ca44dd991332557d3ea10e19817a5f28450e0e30c7b",
+              "effective_from": "2026-11-13",
+              "effective_to": null
+            }
+          }
+        },
+        "electric-ireland-home-electric-sst": {
+          "name": "Home Electric+ SST",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:2401b6f7237792387d89c470d39d0ee73a386c3984cce2b03a50e351d97dbc3d",
               "effective_from": "2026-11-13",
               "effective_to": null
             }
@@ -353,6 +373,11 @@
             "1": {
               "checksum": "sha256:165aee423278f12923c96a8a5f806b8032bfab47ef25c93e6730da0dd9df6ebb",
               "effective_from": "2026-11-09",
+              "effective_to": "2026-11-21"
+            },
+            "2": {
+              "checksum": "sha256:6863aaf5edf0c0a16203714bdbab78ed0b81a9bfe9de982057e20a2d03d0ba51",
+              "effective_from": "2026-11-21",
               "effective_to": null
             }
           }
@@ -363,6 +388,11 @@
             "1": {
               "checksum": "sha256:68e621ce200e22194ba1010c8ed15acbc1849dc4b888a5e367ac4bb7a560aa10",
               "effective_from": "2026-11-09",
+              "effective_to": "2026-11-21"
+            },
+            "2": {
+              "checksum": "sha256:9c0452a88f83ec9bf2dbd4032c1ee46afb20b40a4fce90d02c06c098c0844f93",
+              "effective_from": "2026-11-21",
               "effective_to": null
             }
           }
