@@ -2,8 +2,8 @@
   "schema": 1,
   "feed": "energyzero",
   "area": "nl",
-  "latest": "2026-11-21",
+  "latest": "2026-11-22",
   "months": {
-    "2026-11": "sha256:925be1f7200552fca561a7b27bea37b4d691a5c9f347b56f0f7d21b5791a1ac5"
+    "2026-11": "sha256:41157560a368c62f68c3a70f3da5a6cfb0dd7b3175a073109171b4d0c8618b7c"
   }
 }
