@@ -1,0 +1,67 @@
+{
+  "schema": 1,
+  "name": "Residential Service - Single Phase",
+  "provider": "Tri-County Elec Member Corp",
+  "timezone": "America/New_York",
+  "effective_from": "2025-03-01",
+  "source": {
+    "id": "openei-urdb-us",
+    "url": "https://apps.openei.org/USURDB/rate/view/689e5e975dae61518305426e"
+  },
+  "bill": {
+    "period": {
+      "rule": "monthly",
+      "start_day": "$input.bill_start_day"
+    },
+    "total": {
+      "kind": "sum",
+      "of": {
+        "energy_p1": {
+          "bands": [
+            "Period 1"
+          ],
+          "blocks": {
+            "tier_1": {
+              "from_kwh": "0",
+              "price": "0.1051",
+              "upto_kwh": "1000"
+            },
+            "tier_2": {
+              "from_kwh": "1000",
+              "price": "0.1204"
+            }
+          },
+          "kind": "tiered_energy",
+          "limits": "month"
+        },
+        "fixed": {
+          "amount": "40",
+          "kind": "per_period",
+          "per": "month",
+          "share": "whole"
+        }
+      }
+    }
+  },
+  "inputs": {
+    "bill_start_day": {
+      "default": 1,
+      "max": 28,
+      "min": 1,
+      "type": "integer"
+    }
+  },
+  "bands": [
+    {
+      "name": "Period 1"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "Period 1": "0.1051"
+      },
+      "standing": "0"
+    }
+  }
+}

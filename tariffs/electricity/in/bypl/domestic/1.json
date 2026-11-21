@@ -1,0 +1,96 @@
+{
+  "schema": 1,
+  "name": "Domestic",
+  "provider": "BYPL",
+  "effective_from": "2026-04-01",
+  "source": {
+    "id": "in-openbijli",
+    "url": "https://github.com/byjoellobo/openbijli/blob/main/data/tariffs/dl-derc/2026-27.json"
+  },
+  "prices_include_tax": false,
+  "bill": {
+    "total": {
+      "kind": "sum",
+      "of": {
+        "base": {
+          "kind": "adjust",
+          "name": "Surcharges and duty",
+          "of": {
+            "kind": "sum",
+            "of": {
+              "energy": {
+                "blocks": {
+                  "slab_1": {
+                    "from_kwh": "0",
+                    "price": "3",
+                    "upto_kwh": "200"
+                  },
+                  "slab_2": {
+                    "from_kwh": "200",
+                    "price": "4.5",
+                    "upto_kwh": "400"
+                  },
+                  "slab_3": {
+                    "from_kwh": "400",
+                    "price": "6.5",
+                    "upto_kwh": "800"
+                  },
+                  "slab_4": {
+                    "from_kwh": "800",
+                    "price": "7",
+                    "upto_kwh": "1200"
+                  },
+                  "slab_5": {
+                    "from_kwh": "1200",
+                    "price": "8"
+                  }
+                },
+                "kind": "tiered_energy",
+                "limits": "month"
+              },
+              "fixed": {
+                "bands": {
+                  "band_1": {
+                    "price": "20",
+                    "upto_kw": "2"
+                  },
+                  "band_2": {
+                    "price": "50",
+                    "upto_kw": "5"
+                  },
+                  "band_3": {
+                    "price": "100",
+                    "upto_kw": "15"
+                  },
+                  "band_4": {
+                    "price": "200",
+                    "upto_kw": "25"
+                  },
+                  "band_5": {
+                    "price": "250"
+                  }
+                },
+                "kind": "connected_load",
+                "load": "sanctioned"
+              }
+            }
+          },
+          "percent": "25"
+        }
+      }
+    }
+  },
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "All day": "3"
+      },
+      "standing": "0"
+    }
+  }
+}

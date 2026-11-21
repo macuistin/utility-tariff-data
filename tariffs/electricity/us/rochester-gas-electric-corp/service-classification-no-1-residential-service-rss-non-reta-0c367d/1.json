@@ -1,0 +1,52 @@
+{
+  "schema": 1,
+  "name": "SERVICE CLASSIFICATION NO. 1 - RESIDENTIAL SERVICE RSS (Non-Retail Access Choice)",
+  "provider": "Rochester Gas & Electric Corp",
+  "timezone": "America/New_York",
+  "effective_from": "2025-05-01",
+  "source": {
+    "id": "openei-urdb-us",
+    "url": "https://apps.openei.org/USURDB/rate/view/68c87662584527c3070c367d"
+  },
+  "bill": {
+    "period": {
+      "rule": "monthly",
+      "start_day": "$input.bill_start_day"
+    },
+    "total": {
+      "kind": "sum",
+      "of": {
+        "energy": {
+          "kind": "energy_by_band"
+        },
+        "fixed": {
+          "amount": "23.99",
+          "kind": "per_period",
+          "per": "month",
+          "share": "whole"
+        }
+      }
+    }
+  },
+  "inputs": {
+    "bill_start_day": {
+      "default": 1,
+      "max": 28,
+      "min": 1,
+      "type": "integer"
+    }
+  },
+  "bands": [
+    {
+      "name": "Period 1"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "Period 1": "0.174527"
+      },
+      "standing": "0"
+    }
+  }
+}

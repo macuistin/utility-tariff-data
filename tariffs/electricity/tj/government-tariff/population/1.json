@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "name": "Household tariff (population)",
+  "provider": "Government of Tajikistan, decree tariff",
+  "effective_from": "2025-04-01",
+  "source": {
+    "id": "tj-mewr",
+    "url": "https://mewr.tj/?lang=tj&p=4502"
+  },
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "All day": "0.3536"
+      },
+      "standing": "0"
+    }
+  }
+}

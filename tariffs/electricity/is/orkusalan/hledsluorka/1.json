@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "name": "HleðsluOrka",
+  "provider": "Orkusalan",
+  "effective_from": "2026-05-01",
+  "source": {
+    "id": "is-orkusalan",
+    "url": "https://www.orkusalan.is/verdskra"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "All day": "8.36"
+      },
+      "standing": "0"
+    }
+  }
+}

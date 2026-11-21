@@ -1,0 +1,77 @@
+{
+  "schema": 1,
+  "name": "Smart Standard",
+  "provider": "Bord Gais Energy",
+  "effective_from": "2026-11-01",
+  "source": {
+    "id": "bord-gais",
+    "url": "https://www.bordgaisenergy.ie/home/our-tariffs"
+  },
+  "export": "bord-gais-energy/bord-gais-energy-microgen-export",
+  "bill": {
+    "total": {
+      "kind": "tax",
+      "mode": "included",
+      "name": "VAT",
+      "of": {
+        "kind": "sum",
+        "of": {
+          "energy": {
+            "kind": "energy_by_band",
+            "round_bands": true
+          },
+          "levy": {
+            "amount": "0.555833",
+            "kind": "per_period",
+            "per": "month",
+            "share": "days_in_period"
+          },
+          "standing": {
+            "kind": "per_day"
+          }
+        }
+      },
+      "percent": "$country.vat_percent"
+    }
+  },
+  "bands": [
+    {
+      "name": "Day"
+    },
+    {
+      "hours": "23:00-08:00",
+      "name": "Night"
+    },
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "hours": "17:00-19:00",
+      "name": "Peak"
+    }
+  ],
+  "areas": {
+    "rural": {
+      "label": "Rural",
+      "rates": {
+        "Day": "0.3521",
+        "Night": "0.2593",
+        "Peak": "0.4298"
+      },
+      "standing": "0.902521"
+    },
+    "urban": {
+      "label": "Urban",
+      "rates": {
+        "Day": "0.3491",
+        "Night": "0.2577",
+        "Peak": "0.4251"
+      },
+      "standing": "0.718849"
+    }
+  }
+}

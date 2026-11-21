@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "name": "EKZ Energie Erneuerbar + EKZ Netz 400ST",
+  "provider": "EKZ (Elektrizitätswerke des Kantons Zürich)",
+  "effective_from": "2026-01-01",
+  "source": {
+    "id": "ch-strompreise-schweiz",
+    "url": "https://data.strompreise-schweiz.ch/ekz/"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "Oct-Mar"
+    },
+    {
+      "hours": "00:00-23:59",
+      "months": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "name": "Apr-Sep"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "Apr-Sep": "0.1998",
+        "Oct-Mar": "0.2428"
+      },
+      "standing": "0.09863"
+    }
+  }
+}

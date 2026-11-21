@@ -1,0 +1,70 @@
+{
+  "schema": 1,
+  "name": "Domestic urban",
+  "provider": "KESCO",
+  "effective_from": "2026-07-02",
+  "source": {
+    "id": "in-openbijli",
+    "url": "https://github.com/byjoellobo/openbijli/blob/main/data/tariffs/up-uppcl/2026-27.json"
+  },
+  "prices_include_tax": false,
+  "bill": {
+    "total": {
+      "kind": "sum",
+      "of": {
+        "base": {
+          "kind": "sum",
+          "of": {
+            "energy": {
+              "blocks": {
+                "slab_1": {
+                  "from_kwh": "0",
+                  "price": "5.5",
+                  "upto_kwh": "100"
+                },
+                "slab_2": {
+                  "from_kwh": "100",
+                  "price": "5.5",
+                  "upto_kwh": "150"
+                },
+                "slab_3": {
+                  "from_kwh": "150",
+                  "price": "6",
+                  "upto_kwh": "300"
+                },
+                "slab_4": {
+                  "from_kwh": "300",
+                  "price": "6.5"
+                }
+              },
+              "kind": "tiered_energy",
+              "limits": "month"
+            },
+            "fixed": {
+              "bands": {
+                "band_1": {
+                  "price": "110"
+                }
+              },
+              "kind": "connected_load",
+              "load": "sanctioned"
+            }
+          }
+        }
+      }
+    }
+  },
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "All day": "5.5"
+      },
+      "standing": "0"
+    }
+  }
+}

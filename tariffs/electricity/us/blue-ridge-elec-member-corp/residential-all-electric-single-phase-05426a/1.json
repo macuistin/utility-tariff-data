@@ -1,0 +1,97 @@
+{
+  "schema": 1,
+  "name": "Residential All Electric - Single Phase",
+  "provider": "Blue Ridge Elec Member Corp",
+  "timezone": "America/New_York",
+  "effective_from": "2024-10-02",
+  "source": {
+    "id": "openei-urdb-us",
+    "url": "https://apps.openei.org/USURDB/rate/view/689e50925dae61518305426a"
+  },
+  "bill": {
+    "period": {
+      "rule": "monthly",
+      "start_day": "$input.bill_start_day"
+    },
+    "total": {
+      "kind": "sum",
+      "of": {
+        "energy_p1": {
+          "bands": [
+            "Period 1"
+          ],
+          "blocks": {
+            "tier_1": {
+              "from_kwh": "0",
+              "price": "0.1095",
+              "upto_kwh": "750"
+            },
+            "tier_2": {
+              "from_kwh": "750",
+              "price": "0.1052",
+              "upto_kwh": "1300"
+            },
+            "tier_3": {
+              "from_kwh": "1300",
+              "price": "0.1028"
+            }
+          },
+          "kind": "tiered_energy",
+          "limits": "month"
+        },
+        "energy_p2": {
+          "bands": [
+            "Period 2"
+          ],
+          "blocks": {
+            "tier_1": {
+              "from_kwh": "0",
+              "price": "0.113"
+            }
+          },
+          "kind": "tiered_energy",
+          "limits": "month"
+        },
+        "fixed": {
+          "amount": "30",
+          "kind": "per_period",
+          "per": "month",
+          "share": "whole"
+        }
+      }
+    }
+  },
+  "inputs": {
+    "bill_start_day": {
+      "default": 1,
+      "max": 28,
+      "min": 1,
+      "type": "integer"
+    }
+  },
+  "bands": [
+    {
+      "name": "Period 1"
+    },
+    {
+      "hours": "00:00-23:59",
+      "months": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "name": "Period 2"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "Period 1": "0.1095",
+        "Period 2": "0.113"
+      },
+      "standing": "0"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema": 1,
+  "name": "EV Smart Drive Plus Variable price",
+  "provider": "Energia",
+  "effective_from": "2026-11-17",
+  "source": {
+    "id": "selectra-ie",
+    "url": "https://selectra.ie/energy/providers/energia"
+  },
+  "export": "energia/energia-microgen-export",
+  "bands": [
+    {
+      "name": "Day"
+    },
+    {
+      "hours": "23:00-08:00",
+      "name": "Night"
+    },
+    {
+      "hours": "17:00-19:00",
+      "name": "Peak"
+    },
+    {
+      "hours": "02:00-06:00",
+      "name": "Electric Car Charge Time"
+    }
+  ],
+  "areas": {
+    "rural": {
+      "label": "Rural",
+      "rates": {
+        "Day": "0.389348",
+        "Electric Car Charge Time": "0.132435",
+        "Night": "0.239909",
+        "Peak": "0.510774"
+      },
+      "standing": "1.181863"
+    },
+    "urban": {
+      "label": "Urban",
+      "rates": {
+        "Day": "0.389348",
+        "Electric Car Charge Time": "0.132435",
+        "Night": "0.239909",
+        "Peak": "0.510774"
+      },
+      "standing": "0.92937"
+    }
+  }
+}

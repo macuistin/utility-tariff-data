@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "name": "Residential conventional (B1)",
+  "provider": "Hidropan",
+  "effective_from": "2026-07-22",
+  "source": {
+    "id": "br-aneel",
+    "url": "https://dadosabertos.aneel.gov.br/dataset/tarifas-distribuidoras-energia-eletrica"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "All day": "0.72897"
+      },
+      "standing": "0"
+    }
+  }
+}

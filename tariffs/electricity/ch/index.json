@@ -1,0 +1,77 @@
+{
+  "schema": 1,
+  "country": "CH",
+  "currency": "CHF",
+  "timezone": "Europe/Zurich",
+  "vat_percent": "8.1",
+  "availability": "partial",
+  "reason": "Only utilities whose tariffs are on the Strompreise Schweiz data hub are held, and for each only the electricity and grid tariffs the utility marks as its standard. Metering, fees and municipal charges are not in the plans, so a bill priced from them is below a real bill.",
+  "reason_local": {
+    "language": "de",
+    "text": "Es sind nur Werke hinterlegt, deren Tarife auf dem Datenportal Strompreise Schweiz stehen, und je Werk nur die Strom- und Netztarife, die das Werk als Standard kennzeichnet. Messung, Gebühren und Gemeindeabgaben sind in den Tarifen nicht enthalten. Eine daraus berechnete Rechnung liegt daher unter einer echten Rechnung."
+  },
+  "inputs": {
+    "bill_start_day": {
+      "default": 1,
+      "max": 28,
+      "min": 1,
+      "type": "integer"
+    }
+  },
+  "bill": {
+    "period": {
+      "rule": "monthly",
+      "start_day": "$input.bill_start_day"
+    },
+    "total": {
+      "kind": "tax",
+      "mode": "added",
+      "name": "GST",
+      "of": {
+        "kind": "sum",
+        "of": {
+          "energy": {
+            "kind": "energy_by_band",
+            "round_bands": true
+          },
+          "standing": {
+            "kind": "per_day"
+          }
+        }
+      },
+      "percent": "$country.vat_percent"
+    }
+  },
+  "providers": {
+    "bkw": {
+      "name": "BKW Energie AG",
+      "tariffs": {
+        "standard": {
+          "name": "Energy Blue + Einheitstarif // Tarif unique",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:3fadcc2f922fde8aff9ff5ea428d847762335a5a0c639d8f02c1badc32e85b59",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "ekz": {
+      "name": "EKZ (Elektrizitätswerke des Kantons Zürich)",
+      "tariffs": {
+        "standard": {
+          "name": "EKZ Energie Erneuerbar + EKZ Netz 400ST",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:b41d98288577addf5504ba0dc263580c13d5ed12c8c2c2e1c94a5b4e66adb24e",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    }
+  }
+}

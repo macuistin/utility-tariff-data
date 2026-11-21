@@ -1,0 +1,92 @@
+{
+  "schema": 1,
+  "name": "Household",
+  "provider": "EVN Home",
+  "effective_from": "2026-01-01",
+  "source": {
+    "id": "mk-evn",
+    "url": "https://www.evn.mk/Invoices.aspx"
+  },
+  "prices_include_tax": false,
+  "bill": {
+    "total": {
+      "kind": "sum",
+      "of": {
+        "high": {
+          "bands": [
+            "High"
+          ],
+          "blocks": {
+            "first_block": {
+              "from_kwh": "0",
+              "price": "4.7074",
+              "upto_kwh": "210"
+            },
+            "over_third_block": {
+              "from_kwh": "1050",
+              "price": "19.1904"
+            },
+            "second_block": {
+              "from_kwh": "210",
+              "price": "5.8976",
+              "upto_kwh": "630"
+            },
+            "third_block": {
+              "from_kwh": "630",
+              "price": "7.8537",
+              "upto_kwh": "1050"
+            }
+          },
+          "kind": "tiered_energy",
+          "limits": "month"
+        },
+        "low": {
+          "bands": [
+            "Low night",
+            "Low midday",
+            "Low Sunday"
+          ],
+          "blocks": {
+            "flat": {
+              "from_kwh": "0",
+              "price": "2.1893"
+            }
+          },
+          "kind": "tiered_energy",
+          "limits": "month"
+        }
+      }
+    }
+  },
+  "bands": [
+    {
+      "name": "High"
+    },
+    {
+      "hours": "22:00-07:00",
+      "name": "Low night"
+    },
+    {
+      "hours": "13:00-15:00",
+      "name": "Low midday"
+    },
+    {
+      "days": [
+        "sun"
+      ],
+      "hours": "07:00-22:00",
+      "name": "Low Sunday"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "High": "4.7074",
+        "Low Sunday": "2.1893",
+        "Low midday": "2.1893",
+        "Low night": "2.1893"
+      },
+      "standing": "0"
+    }
+  }
+}

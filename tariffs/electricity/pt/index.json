@@ -1,0 +1,56 @@
+{
+  "schema": 1,
+  "country": "PT",
+  "currency": "EUR",
+  "timezone": "Europe/Lisbon",
+  "vat_percent": "0",
+  "availability": "partial",
+  "reason": "Only the regulated simple tariff of the last resort supplier for mainland supplies up to 20.7 kVA is held, from the regulator's workbook. VAT and the electricity duty are not in the prices and the VAT rate depends on the supply, so a bill carries no tax line. Most customers are on a market offer, not this tariff.",
+  "reason_local": {
+    "language": "pt",
+    "text": "Apenas a tarifa simples regulada do comercializador de último recurso, para o continente e potências até 20,7 kVA, lida do ficheiro da entidade reguladora. O IVA e o imposto especial sobre o consumo de eletricidade não estão nos preços e a taxa de IVA depende do fornecimento, por isso uma fatura não tem linha de imposto. A maioria dos clientes tem uma oferta de mercado, e não esta tarifa."
+  },
+  "inputs": {
+    "bill_start_day": {
+      "default": 1,
+      "max": 28,
+      "min": 1,
+      "type": "integer"
+    }
+  },
+  "bill": {
+    "period": {
+      "rule": "monthly",
+      "start_day": "$input.bill_start_day"
+    },
+    "total": {
+      "kind": "sum",
+      "of": {
+        "energy": {
+          "kind": "energy_by_band",
+          "round_bands": true
+        },
+        "standing": {
+          "kind": "per_day"
+        }
+      }
+    }
+  },
+  "providers": {
+    "erse-cur": {
+      "name": "ERSE regulated tariff (CUR)",
+      "tariffs": {
+        "simple-mainland": {
+          "name": "Simple tariff, mainland, up to 20.7 kVA",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:d4ec7fcca54db41185c32031a5dadacfa6a81304becf14dc4c7ba5885ecd6946",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    }
+  }
+}

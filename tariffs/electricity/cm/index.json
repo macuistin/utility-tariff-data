@@ -1,0 +1,52 @@
+{
+  "schema": 1,
+  "country": "CM",
+  "currency": "XAF",
+  "timezone": "Africa/Douala",
+  "vat_percent": "19.25",
+  "availability": "partial",
+  "reason": "Only Eneo's residential low-voltage tariff is held, from a regulator decision dated 2012 that is the latest on its page. The tax rate is the general rate and the page states none.",
+  "inputs": {
+    "bill_start_day": {
+      "default": 1,
+      "max": 28,
+      "min": 1,
+      "type": "integer"
+    }
+  },
+  "bill": {
+    "period": {
+      "rule": "monthly",
+      "start_day": "$input.bill_start_day"
+    },
+    "total": {
+      "kind": "sum",
+      "of": {
+        "energy": {
+          "kind": "energy_by_band",
+          "round_bands": true
+        },
+        "standing": {
+          "kind": "per_day"
+        }
+      }
+    }
+  },
+  "providers": {
+    "eneo": {
+      "name": "Eneo Cameroon",
+      "tariffs": {
+        "residential-low-voltage": {
+          "name": "Residential low voltage",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:f5a8c5b8086d320562a2f885b8a99b7de0bb1b41af1b91cbce014ca04e5dfd8f",
+              "effective_from": "2012-06-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    }
+  }
+}

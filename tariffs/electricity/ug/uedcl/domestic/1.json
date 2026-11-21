@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "name": "Domestic (code 10.1)",
+  "provider": "Uganda Electricity Distribution Company",
+  "effective_from": "2026-10-01",
+  "source": {
+    "id": "ug-era",
+    "url": "https://www.era.go.ug/tariff-schedules/"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "All day": "779.4"
+      },
+      "standing": "0"
+    }
+  }
+}

@@ -1,0 +1,627 @@
+{
+  "schema": 1,
+  "country": "AT",
+  "currency": "EUR",
+  "timezone": "Europe/Vienna",
+  "vat_percent": "20",
+  "availability": "partial",
+  "reason": "Only the supplier's energy price and base charge are held, from E-Control's tariff calculator. A bill also has grid charges, levies, the municipal tax and any discounts, none of which are in these plans, so a bill priced from them is below a real bill.",
+  "reason_local": {
+    "language": "de",
+    "text": "Es sind nur der Energiepreis und der Grundpreis des Lieferanten hinterlegt, aus dem Tarifkalkulator der E-Control. Eine Rechnung enthält außerdem Netzentgelte, Abgaben, die Gemeindeabgabe und etwaige Rabatte, die in diesen Tarifen nicht enthalten sind. Eine daraus berechnete Rechnung liegt daher unter einer echten Rechnung."
+  },
+  "inputs": {
+    "bill_start_day": {
+      "default": 1,
+      "max": 28,
+      "min": 1,
+      "type": "integer"
+    }
+  },
+  "bill": {
+    "period": {
+      "rule": "monthly",
+      "start_day": "$input.bill_start_day"
+    },
+    "total": {
+      "kind": "tax",
+      "mode": "added",
+      "name": "GST",
+      "of": {
+        "kind": "sum",
+        "of": {
+          "energy": {
+            "kind": "energy_by_band",
+            "round_bands": true
+          },
+          "standing": {
+            "kind": "per_day"
+          }
+        }
+      },
+      "percent": "$country.vat_percent"
+    }
+  },
+  "providers": {
+    "auri": {
+      "name": "Auri",
+      "tariffs": {
+        "p1273030": {
+          "name": "Auri One",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:91eec42d5ba133987dec68a19e6a7398222d429960c0a54e8e0049b3e85bb7b4",
+              "effective_from": "2026-11-17",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "avia-eigl": {
+      "name": "AVIA Eigl",
+      "tariffs": {
+        "p1239878": {
+          "name": "AVIA Strom Klassik",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:00d04f232ca88cd63b2e4fcc26a9706630dfc3112fb1cf729c7bc9ee206888d1",
+              "effective_from": "2026-11-17",
+              "effective_to": null
+            }
+          }
+        },
+        "p1265184": {
+          "name": "AVIA Naturstrom Plus Monatsfloater",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:9478a45557b112be618333096196170c13dbb333f85d0fb683f3448a0fdd1154",
+              "effective_from": "2026-11-17",
+              "effective_to": null
+            }
+          }
+        },
+        "p1265185": {
+          "name": "AVIA Strom Plus Monatsfloater",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:ce3dcc0643c9a3b5146b65b56d0d9682c197a634f02e76000490602df2cf6adb",
+              "effective_from": "2026-11-17",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "e-werk-schwarz-wagendorffer-co": {
+      "name": "E-Werk Schwarz, Wagendorffer & Co",
+      "tariffs": {
+        "p1200788": {
+          "name": "Ausseer Strom",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:a0b55ef9012890a019060839487046caf3570cf09ff06782f85bab3013781691",
+              "effective_from": "2026-11-17",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "e1-erste-energie": {
+      "name": "E1 Erste Energie",
+      "tariffs": {
+        "p1200781": {
+          "name": "E1 Power Pro",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:3987abf67ef1b455b7fd5a358c9d8c317acf5ebe68e030eb335a56dee6da0664",
+              "effective_from": "2026-11-17",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "efriends-energy": {
+      "name": "eFRIENDS energy",
+      "tariffs": {
+        "p1267083": {
+          "name": "eFriends - der bessere Tarif FLUX",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:4cb295998765444d3690c91528bc55ad4611ab95783796fc0ab33428238c4f1c",
+              "effective_from": "2026-11-17",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "energie-graz-gmbh": {
+      "name": "Energie Graz GmbH",
+      "tariffs": {
+        "p1238834": {
+          "name": "Graz Naturstrom 2026/09",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:036489b39e1796f64a9883d7491c079dfac59066212ae1f72f12b37a658bd54a",
+              "effective_from": "2026-11-17",
+              "effective_to": null
+            }
+          }
+        },
+        "p1239830": {
+          "name": "Graz Strom Privat Klassik 2026/09",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:656268dfab98404b80cfa08dd7d4d975fb543568b32644ce2158d2e283f257ef",
+              "effective_from": "2026-11-17",
+              "effective_to": null
+            }
+          }
+        },
+        "p1267081": {
+          "name": "Graz Strom Privat Flex",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:6ff9cfaa69974a24033b18500856923cea15169d71c2b54f38be76095286f7e1",
+              "effective_from": "2026-11-17",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "energie-klagenfurt-gmbh": {
+      "name": "Energie Klagenfurt GmbH",
+      "tariffs": {
+        "p1267059": {
+          "name": "Strom \"Future\"",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:f931b5f9a801062b65c0f8c460cab985b64b5fd41f09ec818814e4a5f781c175",
+              "effective_from": "2026-11-17",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "energie-steiermark-kunden-gmbh": {
+      "name": "Energie Steiermark Kunden GmbH",
+      "tariffs": {
+        "p1271119": {
+          "name": "SteirerStrom Fix",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:2fda2c70ea1efa8e693086781d4db5680ab3b882f0ff1768ee068219fb3b2296",
+              "effective_from": "2026-11-17",
+              "effective_to": null
+            }
+          }
+        },
+        "p1271164": {
+          "name": "SteirerStrom Flex",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:eb7401025b9b780879a0d98dfd47882aa10453c82e5a483fe53ce5afe8ab301c",
+              "effective_from": "2026-11-17",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "energiedirect-austria-gmbh": {
+      "name": "EnergieDirect Austria GmbH",
+      "tariffs": {
+        "p1248860": {
+          "name": "ED Fix Fair Play 26",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:11c77a246ddd84cad210891285e052c8325cf3f8abf52a7f23d024ada3be5efe",
+              "effective_from": "2026-11-17",
+              "effective_to": null
+            }
+          }
+        },
+        "p1267136": {
+          "name": "ED Flex 1.0",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:cb3befc31136c0651c3eb96c5a2f7f57fc8c2b3462b6e04b2b782c19652cd40a",
+              "effective_from": "2026-11-17",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "enstroga-gmbh": {
+      "name": "ENSTROGA GmbH",
+      "tariffs": {
+        "p1271114": {
+          "name": "Variopower Smaragd KW34",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:43b7dc12871a3017a6e215a37bbd16b14295fb9f13619eb51c474b6bc5c93242",
+              "effective_from": "2026-11-17",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "fairnando-eine-marke-der-redgas-gmbh": {
+      "name": "fairnando - eine Marke der redgas GmbH",
+      "tariffs": {
+        "p1273005": {
+          "name": "Optimal Strom 112026",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:be5793519d0bb7a7ed3245c0db8cebba42b9f4006abd47dbcf35b80deb4cb6b3",
+              "effective_from": "2026-11-17",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "gr-nwelt-energie": {
+      "name": "Grünwelt Energie",
+      "tariffs": {
+        "p1267121": {
+          "name": "grünstrom 24",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:f6cb22b2b12b5e0af79630214145521ca7ecb6a3fa1c1814b0907aa14a7b8eb1",
+              "effective_from": "2026-11-17",
+              "effective_to": null
+            }
+          }
+        },
+        "p1267173": {
+          "name": "grünstrom 12",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:fdc25b1b84ff124c760ea2ba6f1746732ded4cb50c392b289fd6c74df60c9caa",
+              "effective_from": "2026-11-17",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "maxenergy": {
+      "name": "MAXENERGY",
+      "tariffs": {
+        "p1272019": {
+          "name": "MAX Heroes Strom",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:61e10440ef14670879183da2d922523835e19761a0d97f0a3572d8855ca35a09",
+              "effective_from": "2026-11-17",
+              "effective_to": null
+            }
+          }
+        },
+        "p1273028": {
+          "name": "MAX Basic Strom",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:e5bf0dde48a8272bc27d73747448b13c76562ec834c3ec1d5f9756aad94edc77",
+              "effective_from": "2026-11-17",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "mvm-onenergy-austria-gmbh": {
+      "name": "MVM ONEnergy Austria GmbH",
+      "tariffs": {
+        "p1273006": {
+          "name": "Stabilo Strom Oktober 26",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:c2ba4354bc92e013a73da5948748419fdedbf33c07650b82f8dfe3f64e1f6d64",
+              "effective_from": "2026-11-17",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "nobile": {
+      "name": "nobile",
+      "tariffs": {
+        "p1273014": {
+          "name": "nobile Local",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:9ca010377f63dde2c3f3743fccfdd4c886cb676192182cb86ffabf5dda537992",
+              "effective_from": "2026-11-17",
+              "effective_to": null
+            }
+          }
+        },
+        "p1273111": {
+          "name": "nobile Mix",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:c7cab34d01b523a02d653bac12237b57cd7202f5c009c2357cac14fa338c6f64",
+              "effective_from": "2026-11-17",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "pkr-strom": {
+      "name": "PKR Strom",
+      "tariffs": {
+        "p1258022": {
+          "name": "Strom Daheim Aktiv",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:47bb81c18f72a421f3f4157c5e6428381470a5243842fc61fda2efa318161e5e",
+              "effective_from": "2026-11-17",
+              "effective_to": null
+            }
+          }
+        },
+        "p1258074": {
+          "name": "Strom Daheim",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:1a94e4326f158d3fd35a7c1bc40d9b1cd9bf0e5be523b87070ce6132eb299e68",
+              "effective_from": "2026-11-17",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "pullstrom": {
+      "name": "Pullstrom",
+      "tariffs": {
+        "p1262039": {
+          "name": "Pull Classic S 2024",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:cdfe44125f253fbe487a61946dae40f98d68d921784d80c809cffa9b6e86d4ec",
+              "effective_from": "2026-11-17",
+              "effective_to": null
+            }
+          }
+        },
+        "p1267056": {
+          "name": "Pull Futura",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:577a4cd1ea45027f30de638cd97bafc448aebca40d7d05ee17848bc5344a54d4",
+              "effective_from": "2026-11-17",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "rz-pellets-kostrom": {
+      "name": "RZ Pellets & Ökostrom",
+      "tariffs": {
+        "p1257218": {
+          "name": "RZ Ökostrom",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:7fa15978250db7e7f2db85d34c7887d7eafc9889d5688a1d53b139533f5777a9",
+              "effective_from": "2026-11-17",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "stadtwerke-bruck-an-der-mur-gmbh": {
+      "name": "Stadtwerke Bruck an der Mur GmbH",
+      "tariffs": {
+        "p1179796": {
+          "name": "PRIVAT",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:5656f03144869bba901155f7a373db3b2228fa4a181e865e6af334dfebc2eb41",
+              "effective_from": "2026-11-17",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "stadtwerke-judenburg-ag": {
+      "name": "Stadtwerke Judenburg AG",
+      "tariffs": {
+        "p1196866": {
+          "name": "Privat Fix",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:0a8d9ac0acd35c8cc0a30537bd1d14982953ea4036717635e9143417aa175d86",
+              "effective_from": "2026-11-17",
+              "effective_to": null
+            }
+          }
+        },
+        "p1196906": {
+          "name": "Landwirtschaft Fix",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:e4c70155be4a656835c8786e9359b18dc5d351be858b488b1ecdd4ec868f5c53",
+              "effective_from": "2026-11-17",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "sturm-energie": {
+      "name": "STURM ENERGIE",
+      "tariffs": {
+        "p1274021": {
+          "name": "Einfach.Klassisch. Haushalt Q4-2026",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:ef64df5503222ee78524063367820ec906682a2d1ad2d88dc083057fa190fc45",
+              "effective_from": "2026-11-17",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "voltino-eine-marke-der-wels-strom-gmbh": {
+      "name": "Voltino - Eine Marke der Wels Strom GmbH",
+      "tariffs": {
+        "p1257184": {
+          "name": "VOLTINO Fix 26/02",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:44d681a075c22ed892f179fa0bd3df71e1689fce329b9cc5caf6eecbe93db779",
+              "effective_from": "2026-11-17",
+              "effective_to": null
+            }
+          }
+        },
+        "p1257297": {
+          "name": "VOLTINO Flexi 26/02",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:e030a1be2911edc6ab77c6a3a7bfab7fd6e18f7ac42a0e243c5a984b8a6b2caf",
+              "effective_from": "2026-11-17",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "w-e-b-gr-nstrom": {
+      "name": "W.E.B. grünstrom",
+      "tariffs": {
+        "p1257222": {
+          "name": "W.E.B-Grünstrom basic",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:7da79e9a2e9fd343be8b19d44a8d3b9ba1dfcb6a1d83a4ef92a0bfa9b7a22785",
+              "effective_from": "2026-11-17",
+              "effective_to": null
+            }
+          }
+        },
+        "p1260024": {
+          "name": "W.E.B-Grünstrom Floater Q",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:a6e7879d075cba961002923e2697372b56ab42bf29b60694c8185510f76148f4",
+              "effective_from": "2026-11-17",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "w-sterstrom-e-werk-gmbh": {
+      "name": "wüsterstrom E-Werk GmbH",
+      "tariffs": {
+        "p1157721": {
+          "name": "wüsterstrom TOP",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:e25a5bfe08a32c0a169eef53b039bc60b7c5b56fa904b53bc89c499292d235df",
+              "effective_from": "2026-11-17",
+              "effective_to": null
+            }
+          }
+        },
+        "p1258057": {
+          "name": "wüsterstrom one",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:ca42e5cf0302ff02aefbe83ed3b6d702894f820f9e30f407755eeee6a71c4127",
+              "effective_from": "2026-11-17",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "wien-energie": {
+      "name": "Wien Energie",
+      "tariffs": {
+        "p1265091": {
+          "name": "OPTIMA Entspannt plus 100% Öko gebunden",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:ac7f5acb48de32ce96238407ee0b08abcb789db26263ff5ae899cfc8d4747773",
+              "effective_from": "2026-11-17",
+              "effective_to": null
+            }
+          }
+        },
+        "p1265147": {
+          "name": "OPTIMA Entspannt plus 100% Öko ungebunden",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:356234ad946b327533ce384b2523871942f7150667225d8369c444f86548ce84",
+              "effective_from": "2026-11-17",
+              "effective_to": null
+            }
+          }
+        },
+        "p1265190": {
+          "name": "OPTIMA Aktiv 100% Öko ungebunden",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:62baaaa45ae8a66b7a3ae8c57a7f9e87aae58fac9e61254f83796e16ce96f66d",
+              "effective_from": "2026-11-17",
+              "effective_to": null
+            }
+          }
+        },
+        "p1265191": {
+          "name": "OPTIMA Aktiv Basismix ungebunden",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:de57f5fd41c9c229ab7d6a07b2ea64715a0eaa235a747224bb9295863a080af8",
+              "effective_from": "2026-11-17",
+              "effective_to": null
+            }
+          }
+        },
+        "p1265192": {
+          "name": "OPTIMA Aktiv Sonnenmix ungebunden",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:f9a14790b0509df9a373c8a8aa4dafa743a5116a606c5cd698b687d0fb260741",
+              "effective_from": "2026-11-17",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "x-powr": {
+      "name": "X-POWR",
+      "tariffs": {
+        "p1243990": {
+          "name": "X-POWR fair",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:21e044a9f62793505b86fceec69b0496cee75093ccc99aad99d54c688ac1d68d",
+              "effective_from": "2026-11-17",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    }
+  }
+}

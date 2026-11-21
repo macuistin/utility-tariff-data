@@ -1,0 +1,57 @@
+{
+  "schema": 1,
+  "country": "SG",
+  "currency": "SGD",
+  "timezone": "Asia/Singapore",
+  "vat_percent": "9",
+  "availability": "available",
+  "inputs": {
+    "bill_start_day": {
+      "default": 1,
+      "max": 28,
+      "min": 1,
+      "type": "integer"
+    }
+  },
+  "bill": {
+    "period": {
+      "rule": "monthly",
+      "start_day": "$input.bill_start_day"
+    },
+    "total": {
+      "kind": "tax",
+      "mode": "added",
+      "name": "GST",
+      "of": {
+        "kind": "sum",
+        "of": {
+          "energy": {
+            "kind": "energy_by_band",
+            "round_bands": true
+          },
+          "standing": {
+            "kind": "per_day"
+          }
+        }
+      },
+      "percent": "$country.vat_percent"
+    }
+  },
+  "providers": {
+    "sp-group": {
+      "name": "SP Group",
+      "tariffs": {
+        "regulated-tariff": {
+          "name": "Regulated electricity tariff",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:8ae8a32c226fda28a57b6afa21f6db0ef446dd390e9f45593bc4ea84f3c76613",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    }
+  }
+}

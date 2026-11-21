@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "name": "Residential conventional (B1)",
+  "provider": "Equatorial MA",
+  "effective_from": "2026-08-28",
+  "source": {
+    "id": "br-aneel",
+    "url": "https://dadosabertos.aneel.gov.br/dataset/tarifas-distribuidoras-energia-eletrica"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "All day": "0.88884"
+      },
+      "standing": "0"
+    }
+  }
+}

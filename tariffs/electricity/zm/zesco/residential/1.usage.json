@@ -1,0 +1,529 @@
+{
+ "tariff_checksum": "sha256:f3bfbbb1d7a834371db6a9983ce74b63beb2c7cdd758fe0c6e571db841923cc0",
+ "currency": "ZMW",
+ "scenario_set": {
+  "version": 1,
+  "checksum": "sha256:a4ebe2dffe9a2545e40c209b585ca4cfbd4f4c6a11b2fd7917a3d5c93eec6b6b"
+ },
+ "engine": "0.4.0",
+ "area": "all",
+ "prices_include_tax": null,
+ "results": {
+  "winter-home": {
+   "status": "priced",
+   "import": "428.44",
+   "export": "0",
+   "total": "428.44"
+  },
+  "winter-home+solar": {
+   "status": "priced",
+   "import": "333.53",
+   "export": "0",
+   "total": "333.53"
+  },
+  "winter-home+battery": {
+   "status": "priced",
+   "import": "493.33",
+   "export": "0",
+   "total": "493.33"
+  },
+  "winter-home+shift": {
+   "status": "priced",
+   "import": "428.44",
+   "export": "0",
+   "total": "428.44"
+  },
+  "winter-home+shift+battery": {
+   "status": "priced",
+   "import": "490.74",
+   "export": "0",
+   "total": "490.74"
+  },
+  "winter-home+solar+battery": {
+   "status": "priced",
+   "import": "259.49",
+   "export": "0",
+   "total": "259.49"
+  },
+  "winter-home+solar+shift+battery": {
+   "status": "priced",
+   "import": "275.63",
+   "export": "0",
+   "total": "275.63"
+  },
+  "winter-home+ev": {
+   "status": "priced",
+   "import": "1317.06",
+   "export": "0",
+   "total": "1317.06"
+  },
+  "winter-home+ev+solar": {
+   "status": "priced",
+   "import": "1173.85",
+   "export": "0",
+   "total": "1173.85"
+  },
+  "winter-home+ev+battery": {
+   "status": "priced",
+   "import": "1409.31",
+   "export": "0",
+   "total": "1409.31"
+  },
+  "winter-home+ev+shift": {
+   "status": "priced",
+   "import": "1317.06",
+   "export": "0",
+   "total": "1317.06"
+  },
+  "winter-home+ev+shift+battery": {
+   "status": "priced",
+   "import": "1405.61",
+   "export": "0",
+   "total": "1405.61"
+  },
+  "winter-home+ev+solar+battery": {
+   "status": "priced",
+   "import": "1000.17",
+   "export": "0",
+   "total": "1000.17"
+  },
+  "winter-home+ev+solar+shift+battery": {
+   "status": "priced",
+   "import": "1057.95",
+   "export": "0",
+   "total": "1057.95"
+  },
+  "spring-home": {
+   "status": "priced",
+   "import": "310.37",
+   "export": "0",
+   "total": "310.37"
+  },
+  "spring-home+solar": {
+   "status": "priced",
+   "import": "99.92",
+   "export": "0",
+   "total": "99.92"
+  },
+  "spring-home+battery": {
+   "status": "priced",
+   "import": "376.78",
+   "export": "0",
+   "total": "376.78"
+  },
+  "spring-home+shift": {
+   "status": "priced",
+   "import": "310.36",
+   "export": "0",
+   "total": "310.36"
+  },
+  "spring-home+shift+battery": {
+   "status": "priced",
+   "import": "367.63",
+   "export": "0",
+   "total": "367.63"
+  },
+  "spring-home+solar+battery": {
+   "status": "priced",
+   "import": "70.57",
+   "export": "0",
+   "total": "70.57"
+  },
+  "spring-home+solar+shift+battery": {
+   "status": "priced",
+   "import": "102.43",
+   "export": "0",
+   "total": "102.43"
+  },
+  "spring-home+ev": {
+   "status": "priced",
+   "import": "1181.7",
+   "export": "0",
+   "total": "1181.7"
+  },
+  "spring-home+ev+solar": {
+   "status": "priced",
+   "import": "712.18",
+   "export": "0",
+   "total": "712.18"
+  },
+  "spring-home+ev+battery": {
+   "status": "priced",
+   "import": "1276.95",
+   "export": "0",
+   "total": "1276.95"
+  },
+  "spring-home+ev+shift": {
+   "status": "priced",
+   "import": "1181.68",
+   "export": "0",
+   "total": "1181.68"
+  },
+  "spring-home+ev+shift+battery": {
+   "status": "priced",
+   "import": "1263.16",
+   "export": "0",
+   "total": "1263.16"
+  },
+  "spring-home+ev+solar+battery": {
+   "status": "priced",
+   "import": "685.93",
+   "export": "0",
+   "total": "685.93"
+  },
+  "spring-home+ev+solar+shift+battery": {
+   "status": "priced",
+   "import": "774.33",
+   "export": "0",
+   "total": "774.33"
+  },
+  "summer-home": {
+   "status": "priced",
+   "import": "181.44",
+   "export": "0",
+   "total": "181.44"
+  },
+  "summer-home+solar": {
+   "status": "priced",
+   "import": "27.51",
+   "export": "0",
+   "total": "27.51"
+  },
+  "summer-home+battery": {
+   "status": "priced",
+   "import": "237.59",
+   "export": "0",
+   "total": "237.59"
+  },
+  "summer-home+shift": {
+   "status": "priced",
+   "import": "181.43",
+   "export": "0",
+   "total": "181.43"
+  },
+  "summer-home+shift+battery": {
+   "status": "priced",
+   "import": "228.08",
+   "export": "0",
+   "total": "228.08"
+  },
+  "summer-home+solar+battery": {
+   "status": "priced",
+   "import": "27.79",
+   "export": "0",
+   "total": "27.79"
+  },
+  "summer-home+solar+shift+battery": {
+   "status": "priced",
+   "import": "50.29",
+   "export": "0",
+   "total": "50.29"
+  },
+  "summer-home+ev": {
+   "status": "priced",
+   "import": "933.58",
+   "export": "0",
+   "total": "933.58"
+  },
+  "summer-home+ev+solar": {
+   "status": "priced",
+   "import": "416.44",
+   "export": "0",
+   "total": "416.44"
+  },
+  "summer-home+ev+battery": {
+   "status": "priced",
+   "import": "1023.01",
+   "export": "0",
+   "total": "1023.01"
+  },
+  "summer-home+ev+shift": {
+   "status": "priced",
+   "import": "933.57",
+   "export": "0",
+   "total": "933.57"
+  },
+  "summer-home+ev+shift+battery": {
+   "status": "priced",
+   "import": "999.73",
+   "export": "0",
+   "total": "999.73"
+  },
+  "summer-home+ev+solar+battery": {
+   "status": "priced",
+   "import": "465.04",
+   "export": "0",
+   "total": "465.04"
+  },
+  "summer-home+ev+solar+shift+battery": {
+   "status": "priced",
+   "import": "568.23",
+   "export": "0",
+   "total": "568.23"
+  },
+  "autumn-home": {
+   "status": "priced",
+   "import": "231.26",
+   "export": "0",
+   "total": "231.26"
+  },
+  "autumn-home+solar": {
+   "status": "priced",
+   "import": "141.51",
+   "export": "0",
+   "total": "141.51"
+  },
+  "autumn-home+battery": {
+   "status": "priced",
+   "import": "286.37",
+   "export": "0",
+   "total": "286.37"
+  },
+  "autumn-home+shift": {
+   "status": "priced",
+   "import": "231.24",
+   "export": "0",
+   "total": "231.24"
+  },
+  "autumn-home+shift+battery": {
+   "status": "priced",
+   "import": "282.56",
+   "export": "0",
+   "total": "282.56"
+  },
+  "autumn-home+solar+battery": {
+   "status": "priced",
+   "import": "104.95",
+   "export": "0",
+   "total": "104.95"
+  },
+  "autumn-home+solar+shift+battery": {
+   "status": "priced",
+   "import": "125.71",
+   "export": "0",
+   "total": "125.71"
+  },
+  "autumn-home+ev": {
+   "status": "priced",
+   "import": "900.01",
+   "export": "0",
+   "total": "900.01"
+  },
+  "autumn-home+ev+solar": {
+   "status": "priced",
+   "import": "715.29",
+   "export": "0",
+   "total": "715.29"
+  },
+  "autumn-home+ev+battery": {
+   "status": "priced",
+   "import": "981.91",
+   "export": "0",
+   "total": "981.91"
+  },
+  "autumn-home+ev+shift": {
+   "status": "priced",
+   "import": "899.97",
+   "export": "0",
+   "total": "899.97"
+  },
+  "autumn-home+ev+shift+battery": {
+   "status": "priced",
+   "import": "975.55",
+   "export": "0",
+   "total": "975.55"
+  },
+  "autumn-home+ev+solar+battery": {
+   "status": "priced",
+   "import": "627.44",
+   "export": "0",
+   "total": "627.44"
+  },
+  "autumn-home+ev+solar+shift+battery": {
+   "status": "priced",
+   "import": "683.19",
+   "export": "0",
+   "total": "683.19"
+  },
+  "winter-heat-pump": {
+   "status": "priced",
+   "import": "2494.93",
+   "export": "0",
+   "total": "2494.93"
+  },
+  "winter-heat-pump+shift": {
+   "status": "priced",
+   "import": "2495.01",
+   "export": "0",
+   "total": "2495.01"
+  },
+  "winter-heat-pump+shift+battery": {
+   "status": "priced",
+   "import": "2587.32",
+   "export": "0",
+   "total": "2587.32"
+  },
+  "winter-heat-pump+solar+shift+battery": {
+   "status": "priced",
+   "import": "2239.61",
+   "export": "0",
+   "total": "2239.61"
+  },
+  "winter-heat-pump+ev": {
+   "status": "priced",
+   "import": "3467.93",
+   "export": "0",
+   "total": "3467.93"
+  },
+  "winter-heat-pump+ev+shift": {
+   "status": "priced",
+   "import": "3468.01",
+   "export": "0",
+   "total": "3468.01"
+  },
+  "winter-heat-pump+ev+shift+battery": {
+   "status": "priced",
+   "import": "3560.32",
+   "export": "0",
+   "total": "3560.32"
+  },
+  "winter-heat-pump+ev+solar+shift+battery": {
+   "status": "priced",
+   "import": "3044.77",
+   "export": "0",
+   "total": "3044.77"
+  },
+  "winter-flat": {
+   "status": "priced",
+   "import": "59.64",
+   "export": "0",
+   "total": "59.64"
+  },
+  "winter-flat+shift": {
+   "status": "priced",
+   "import": "59.63",
+   "export": "0",
+   "total": "59.63"
+  },
+  "winter-home+battery5": {
+   "status": "priced",
+   "import": "460.86",
+   "export": "0",
+   "total": "460.86"
+  },
+  "winter-home+solar+shift+battery5": {
+   "status": "priced",
+   "import": "258.22",
+   "export": "0",
+   "total": "258.22"
+  },
+  "winter-home+battery15": {
+   "status": "priced",
+   "import": "514.79",
+   "export": "0",
+   "total": "514.79"
+  },
+  "winter-home+solar+shift+battery15": {
+   "status": "priced",
+   "import": "287.11",
+   "export": "0",
+   "total": "287.11"
+  },
+  "spring-home+battery5": {
+   "status": "priced",
+   "import": "343.82",
+   "export": "0",
+   "total": "343.82"
+  },
+  "spring-home+solar+shift+battery5": {
+   "status": "priced",
+   "import": "97.69",
+   "export": "0",
+   "total": "97.69"
+  },
+  "spring-home+battery15": {
+   "status": "priced",
+   "import": "390.7",
+   "export": "0",
+   "total": "390.7"
+  },
+  "spring-home+solar+shift+battery15": {
+   "status": "priced",
+   "import": "107.18",
+   "export": "0",
+   "total": "107.18"
+  },
+  "summer-home+battery5": {
+   "status": "priced",
+   "import": "212.98",
+   "export": "0",
+   "total": "212.98"
+  },
+  "summer-home+solar+shift+battery5": {
+   "status": "priced",
+   "import": "45.54",
+   "export": "0",
+   "total": "45.54"
+  },
+  "summer-home+battery15": {
+   "status": "priced",
+   "import": "249.06",
+   "export": "0",
+   "total": "249.06"
+  },
+  "summer-home+solar+shift+battery15": {
+   "status": "priced",
+   "import": "55.03",
+   "export": "0",
+   "total": "55.03"
+  },
+  "autumn-home+battery5": {
+   "status": "priced",
+   "import": "258.81",
+   "export": "0",
+   "total": "258.81"
+  },
+  "autumn-home+solar+shift+battery5": {
+   "status": "priced",
+   "import": "120.83",
+   "export": "0",
+   "total": "120.83"
+  },
+  "autumn-home+battery15": {
+   "status": "priced",
+   "import": "303.11",
+   "export": "0",
+   "total": "303.11"
+  },
+  "autumn-home+solar+shift+battery15": {
+   "status": "priced",
+   "import": "130.45",
+   "export": "0",
+   "total": "130.45"
+  },
+  "winter-heat-pump+shift+battery5": {
+   "status": "priced",
+   "import": "2541.19",
+   "export": "0",
+   "total": "2541.19"
+  },
+  "winter-heat-pump+solar+shift+battery5": {
+   "status": "priced",
+   "import": "2193.46",
+   "export": "0",
+   "total": "2193.46"
+  },
+  "winter-heat-pump+shift+battery15": {
+   "status": "priced",
+   "import": "2633.46",
+   "export": "0",
+   "total": "2633.46"
+  },
+  "winter-heat-pump+solar+shift+battery15": {
+   "status": "priced",
+   "import": "2285.77",
+   "export": "0",
+   "total": "2285.77"
+  }
+ }
+}

@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "Fixed household price",
+  "provider": "Fixed price for households",
+  "effective_from": "2024-06-01",
+  "effective_to": "2027-04-30",
+  "source": {
+    "id": "ua-nekrekp",
+    "url": "https://www.nerc.gov.ua/sferi-diyalnosti/elektroenergiya/naselennya/cini-ta-tarifi-na-elektroenergiyu-dlya-pobutovih-spozhivachiv-naselennya-v-ukrayini/fiksovani-cini-na-elektrichnu-energiyu-dlya-pobutovih-spozhivachiv-z-01062024"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "All day": "3.6"
+      },
+      "standing": "0"
+    }
+  }
+}

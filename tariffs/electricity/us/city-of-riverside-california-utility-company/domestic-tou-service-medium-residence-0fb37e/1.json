@@ -1,0 +1,260 @@
+{
+  "schema": 1,
+  "name": "Domestic TOU Service - Medium Residence",
+  "provider": "City of Riverside, California (Utility Company)",
+  "timezone": "America/Los_Angeles",
+  "effective_from": "2024-01-01",
+  "source": {
+    "id": "openei-urdb-us",
+    "url": "https://apps.openei.org/USURDB/rate/view/66a12f586e498caaa20fb37e"
+  },
+  "bill": {
+    "period": {
+      "rule": "monthly",
+      "start_day": "$input.bill_start_day"
+    },
+    "total": {
+      "kind": "sum",
+      "of": {
+        "energy_p1": {
+          "bands": [
+            "Period 1 part 1",
+            "Period 1 part 2"
+          ],
+          "blocks": {
+            "tier_1": {
+              "from_kwh": "0",
+              "price": "0.1083",
+              "upto_kwh": "220"
+            },
+            "tier_2": {
+              "from_kwh": "220",
+              "price": "0.1083"
+            }
+          },
+          "kind": "tiered_energy",
+          "limits": "month"
+        },
+        "energy_p2": {
+          "bands": [
+            "Period 2 part 1",
+            "Period 2 part 2"
+          ],
+          "blocks": {
+            "tier_1": {
+              "from_kwh": "0",
+              "price": "0.1294",
+              "upto_kwh": "550"
+            },
+            "tier_2": {
+              "from_kwh": "550",
+              "price": "0.2069"
+            }
+          },
+          "kind": "tiered_energy",
+          "limits": "month"
+        },
+        "energy_p3": {
+          "bands": [
+            "Period 3"
+          ],
+          "blocks": {
+            "tier_1": {
+              "from_kwh": "0",
+              "price": "0.199",
+              "upto_kwh": "330"
+            },
+            "tier_2": {
+              "from_kwh": "330",
+              "price": "0.3184"
+            }
+          },
+          "kind": "tiered_energy",
+          "limits": "month"
+        },
+        "energy_p4": {
+          "bands": [
+            "Period 4 part 1",
+            "Period 4 part 2"
+          ],
+          "blocks": {
+            "tier_1": {
+              "from_kwh": "0",
+              "price": "0.1083",
+              "upto_kwh": "115"
+            },
+            "tier_2": {
+              "from_kwh": "115",
+              "price": "0.1083"
+            }
+          },
+          "kind": "tiered_energy",
+          "limits": "month"
+        },
+        "energy_p5": {
+          "bands": [
+            "Period 5"
+          ],
+          "blocks": {
+            "tier_1": {
+              "from_kwh": "0",
+              "price": "0.1194",
+              "upto_kwh": "250"
+            },
+            "tier_2": {
+              "from_kwh": "250",
+              "price": "0.1911"
+            }
+          },
+          "kind": "tiered_energy",
+          "limits": "month"
+        },
+        "energy_p6": {
+          "bands": [
+            "Period 6"
+          ],
+          "blocks": {
+            "tier_1": {
+              "from_kwh": "0",
+              "price": "0.1493",
+              "upto_kwh": "135"
+            },
+            "tier_2": {
+              "from_kwh": "135",
+              "price": "0.2388"
+            }
+          },
+          "kind": "tiered_energy",
+          "limits": "month"
+        },
+        "fixed": {
+          "amount": "20",
+          "kind": "per_period",
+          "per": "month",
+          "share": "whole"
+        }
+      }
+    }
+  },
+  "inputs": {
+    "bill_start_day": {
+      "default": 1,
+      "max": 28,
+      "min": 1,
+      "type": "integer"
+    }
+  },
+  "bands": [
+    {
+      "name": "Period 5"
+    },
+    {
+      "hours": "00:00-06:00",
+      "months": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "name": "Period 1 part 1"
+    },
+    {
+      "hours": "23:00-00:00",
+      "months": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "name": "Period 1 part 2"
+    },
+    {
+      "hours": "06:00-14:00",
+      "months": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "name": "Period 2 part 1"
+    },
+    {
+      "hours": "19:00-23:00",
+      "months": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "name": "Period 2 part 2"
+    },
+    {
+      "hours": "14:00-19:00",
+      "months": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "name": "Period 3"
+    },
+    {
+      "hours": "00:00-06:00",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        10,
+        11,
+        12
+      ],
+      "name": "Period 4 part 1"
+    },
+    {
+      "hours": "23:00-00:00",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        10,
+        11,
+        12
+      ],
+      "name": "Period 4 part 2"
+    },
+    {
+      "hours": "16:00-21:00",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        10,
+        11,
+        12
+      ],
+      "name": "Period 6"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "Period 1 part 1": "0.1083",
+        "Period 1 part 2": "0.1083",
+        "Period 2 part 1": "0.1294",
+        "Period 2 part 2": "0.1294",
+        "Period 3": "0.199",
+        "Period 4 part 1": "0.1083",
+        "Period 4 part 2": "0.1083",
+        "Period 5": "0.1194",
+        "Period 6": "0.1493"
+      },
+      "standing": "0"
+    }
+  }
+}

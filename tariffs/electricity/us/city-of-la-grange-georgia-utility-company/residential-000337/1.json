@@ -1,0 +1,111 @@
+{
+  "schema": 1,
+  "name": "RESIDENTIAL",
+  "provider": "City of La Grange, Georgia (Utility Company)",
+  "timezone": "America/New_York",
+  "effective_from": "2024-07-01",
+  "source": {
+    "id": "openei-urdb-us",
+    "url": "https://apps.openei.org/USURDB/rate/view/66abbd13f6e91b4a6f000337"
+  },
+  "bill": {
+    "period": {
+      "rule": "monthly",
+      "start_day": "$input.bill_start_day"
+    },
+    "total": {
+      "amount": "30",
+      "kind": "minimum",
+      "of": {
+        "kind": "sum",
+        "of": {
+          "energy_p1": {
+            "bands": [
+              "Period 1"
+            ],
+            "blocks": {
+              "tier_1": {
+                "from_kwh": "0",
+                "price": "0.07",
+                "upto_kwh": "650"
+              },
+              "tier_2": {
+                "from_kwh": "650",
+                "price": "0.06",
+                "upto_kwh": "1000"
+              },
+              "tier_3": {
+                "from_kwh": "1000",
+                "price": "0.06"
+              }
+            },
+            "kind": "tiered_energy",
+            "limits": "month"
+          },
+          "energy_p2": {
+            "bands": [
+              "Period 2"
+            ],
+            "blocks": {
+              "tier_1": {
+                "from_kwh": "0",
+                "price": "0.08",
+                "upto_kwh": "650"
+              },
+              "tier_2": {
+                "from_kwh": "650",
+                "price": "0.1",
+                "upto_kwh": "1000"
+              },
+              "tier_3": {
+                "from_kwh": "1000",
+                "price": "0.12"
+              }
+            },
+            "kind": "tiered_energy",
+            "limits": "month"
+          },
+          "fixed": {
+            "amount": "30",
+            "kind": "per_period",
+            "per": "month",
+            "share": "whole"
+          }
+        }
+      },
+      "per": "month"
+    }
+  },
+  "inputs": {
+    "bill_start_day": {
+      "default": 1,
+      "max": 28,
+      "min": 1,
+      "type": "integer"
+    }
+  },
+  "bands": [
+    {
+      "name": "Period 1"
+    },
+    {
+      "hours": "00:00-23:59",
+      "months": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "name": "Period 2"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "Period 1": "0.07",
+        "Period 2": "0.08"
+      },
+      "standing": "0"
+    }
+  }
+}

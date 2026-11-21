@@ -1,0 +1,63 @@
+{
+  "schema": 1,
+  "name": "Residential consumption tariff",
+  "provider": "Enemalta",
+  "effective_from": "2026-02-06",
+  "source": {
+    "id": "mt-enemalta",
+    "url": "https://enemalta.com.mt/13797-2/"
+  },
+  "bill": {
+    "total": {
+      "kind": "sum",
+      "of": {
+        "energy": {
+          "blocks": {
+            "band_1": {
+              "from_kwh": "0",
+              "price": "0.1047",
+              "upto_kwh": "5.479452"
+            },
+            "band_2": {
+              "from_kwh": "5.479452",
+              "price": "0.1298",
+              "upto_kwh": "16.438356"
+            },
+            "band_3": {
+              "from_kwh": "16.438356",
+              "price": "0.1607",
+              "upto_kwh": "27.397260"
+            },
+            "band_4": {
+              "from_kwh": "27.397260",
+              "price": "0.3420",
+              "upto_kwh": "54.794521"
+            },
+            "band_5": {
+              "from_kwh": "54.794521",
+              "price": "0.6076"
+            }
+          },
+          "kind": "tiered_energy",
+          "limits": "day"
+        },
+        "standing": {
+          "kind": "per_day"
+        }
+      }
+    }
+  },
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "All day": "0.1047"
+      },
+      "standing": "0.178082"
+    }
+  }
+}

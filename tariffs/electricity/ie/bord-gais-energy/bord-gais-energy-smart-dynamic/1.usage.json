@@ -1,0 +1,357 @@
+{
+ "tariff_checksum": "sha256:3a28011612ee24bb27582d9d5c7743ac60b478ee5a3b93ca4e393f828639e63f",
+ "currency": "EUR",
+ "scenario_set": {
+  "version": 1,
+  "checksum": "sha256:a4ebe2dffe9a2545e40c209b585ca4cfbd4f4c6a11b2fd7917a3d5c93eec6b6b"
+ },
+ "engine": "0.4.0",
+ "area": "rural",
+ "prices_include_tax": false,
+ "results": {
+  "winter-home": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "winter-home+solar": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "winter-home+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "winter-home+shift": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "winter-home+shift+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "winter-home+solar+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "winter-home+solar+shift+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "winter-home+ev": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "winter-home+ev+solar": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "winter-home+ev+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "winter-home+ev+shift": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "winter-home+ev+shift+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "winter-home+ev+solar+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "winter-home+ev+solar+shift+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "spring-home": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "spring-home+solar": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "spring-home+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "spring-home+shift": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "spring-home+shift+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "spring-home+solar+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "spring-home+solar+shift+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "spring-home+ev": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "spring-home+ev+solar": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "spring-home+ev+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "spring-home+ev+shift": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "spring-home+ev+shift+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "spring-home+ev+solar+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "spring-home+ev+solar+shift+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "summer-home": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "summer-home+solar": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "summer-home+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "summer-home+shift": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "summer-home+shift+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "summer-home+solar+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "summer-home+solar+shift+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "summer-home+ev": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "summer-home+ev+solar": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "summer-home+ev+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "summer-home+ev+shift": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "summer-home+ev+shift+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "summer-home+ev+solar+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "summer-home+ev+solar+shift+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "autumn-home": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "autumn-home+solar": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "autumn-home+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "autumn-home+shift": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "autumn-home+shift+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "autumn-home+solar+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "autumn-home+solar+shift+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "autumn-home+ev": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "autumn-home+ev+solar": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "autumn-home+ev+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "autumn-home+ev+shift": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "autumn-home+ev+shift+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "autumn-home+ev+solar+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "autumn-home+ev+solar+shift+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "winter-heat-pump": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "winter-heat-pump+shift": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "winter-heat-pump+shift+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "winter-heat-pump+solar+shift+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "winter-heat-pump+ev": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "winter-heat-pump+ev+shift": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "winter-heat-pump+ev+shift+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "winter-heat-pump+ev+solar+shift+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "winter-flat": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "winter-flat+shift": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "winter-home+battery5": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "winter-home+solar+shift+battery5": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "winter-home+battery15": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "winter-home+solar+shift+battery15": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "spring-home+battery5": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "spring-home+solar+shift+battery5": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "spring-home+battery15": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "spring-home+solar+shift+battery15": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "summer-home+battery5": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "summer-home+solar+shift+battery5": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "summer-home+battery15": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "summer-home+solar+shift+battery15": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "autumn-home+battery5": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "autumn-home+solar+shift+battery5": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "autumn-home+battery15": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "autumn-home+solar+shift+battery15": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "winter-heat-pump+shift+battery5": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "winter-heat-pump+solar+shift+battery5": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "winter-heat-pump+shift+battery15": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  },
+  "winter-heat-pump+solar+shift+battery15": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'bord_gais_wholesale'"
+  }
+ }
+}

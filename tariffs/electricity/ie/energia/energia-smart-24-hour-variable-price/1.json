@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "Smart 24 Hour Variable price",
+  "provider": "Energia",
+  "effective_from": "2026-11-16",
+  "source": {
+    "id": "selectra-ie",
+    "url": "https://selectra.ie/energy/providers/energia"
+  },
+  "export": "energia/energia-microgen-export",
+  "bands": [
+    {
+      "name": "24-Hour"
+    }
+  ],
+  "areas": {
+    "rural": {
+      "label": "Rural",
+      "rates": {
+        "24-Hour": "0.300622"
+      },
+      "standing": "0.969507"
+    },
+    "urban": {
+      "label": "Urban",
+      "rates": {
+        "24-Hour": "0.300622"
+      },
+      "standing": "0.762384"
+    }
+  }
+}

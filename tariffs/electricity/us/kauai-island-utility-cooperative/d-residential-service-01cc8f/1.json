@@ -1,0 +1,57 @@
+{
+  "schema": 1,
+  "name": "D Residential Service",
+  "provider": "Kauai Island Utility Cooperative",
+  "timezone": "Pacific/Honolulu",
+  "effective_from": "2025-07-01",
+  "source": {
+    "id": "openei-urdb-us",
+    "url": "https://apps.openei.org/USURDB/rate/view/6877e17da10eb455a701cc8f"
+  },
+  "bill": {
+    "period": {
+      "rule": "monthly",
+      "start_day": "$input.bill_start_day"
+    },
+    "total": {
+      "amount": "13.5",
+      "kind": "minimum",
+      "of": {
+        "kind": "sum",
+        "of": {
+          "energy": {
+            "kind": "energy_by_band"
+          },
+          "fixed": {
+            "amount": "11.42",
+            "kind": "per_period",
+            "per": "month",
+            "share": "whole"
+          }
+        }
+      },
+      "per": "month"
+    }
+  },
+  "inputs": {
+    "bill_start_day": {
+      "default": 1,
+      "max": 28,
+      "min": 1,
+      "type": "integer"
+    }
+  },
+  "bands": [
+    {
+      "name": "Period 1"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "Period 1": "0.34175"
+      },
+      "standing": "0"
+    }
+  }
+}

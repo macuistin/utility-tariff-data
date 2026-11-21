@@ -1,0 +1,100 @@
+{
+  "schema": 1,
+  "name": "RESIDENTIAL TIME OF USE RATE A TOU",
+  "provider": "Town of Belmont, Massachusetts (Utility Company)",
+  "timezone": "America/New_York",
+  "effective_from": "2025-06-01",
+  "source": {
+    "id": "openei-urdb-us",
+    "url": "https://apps.openei.org/USURDB/rate/view/68a624c35363b8c01a0a80fa"
+  },
+  "bill": {
+    "period": {
+      "rule": "monthly",
+      "start_day": "$input.bill_start_day"
+    },
+    "total": {
+      "kind": "sum",
+      "of": {
+        "energy": {
+          "kind": "energy_by_band"
+        },
+        "fixed": {
+          "amount": "12.6",
+          "kind": "per_period",
+          "per": "month",
+          "share": "whole"
+        }
+      }
+    }
+  },
+  "inputs": {
+    "bill_start_day": {
+      "default": 1,
+      "max": 28,
+      "min": 1,
+      "type": "integer"
+    }
+  },
+  "bands": [
+    {
+      "name": "Period 1"
+    },
+    {
+      "hours": "16:00-20:00",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        10,
+        11,
+        12
+      ],
+      "name": "Period 2"
+    },
+    {
+      "hours": "00:00-14:00",
+      "months": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "name": "Period 3 part 1"
+    },
+    {
+      "hours": "19:00-00:00",
+      "months": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "name": "Period 3 part 2"
+    },
+    {
+      "hours": "14:00-19:00",
+      "months": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "name": "Period 4"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "Period 1": "0.14336",
+        "Period 2": "0.34371",
+        "Period 3 part 1": "0.14421",
+        "Period 3 part 2": "0.14421",
+        "Period 4": "0.54232"
+      },
+      "standing": "0"
+    }
+  }
+}

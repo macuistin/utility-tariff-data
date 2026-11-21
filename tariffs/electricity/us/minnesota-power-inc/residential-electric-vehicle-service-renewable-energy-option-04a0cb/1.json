@@ -1,0 +1,64 @@
+{
+  "schema": 1,
+  "name": "Residential Electric Vehicle Service (Renewable Energy Option)",
+  "provider": "Minnesota Power Inc",
+  "timezone": "America/Chicago",
+  "effective_from": "2025-03-01",
+  "source": {
+    "id": "openei-urdb-us",
+    "url": "https://apps.openei.org/USURDB/rate/view/69372a3712630c444204a0cb"
+  },
+  "bill": {
+    "period": {
+      "rule": "monthly",
+      "start_day": "$input.bill_start_day"
+    },
+    "total": {
+      "kind": "sum",
+      "of": {
+        "energy": {
+          "kind": "energy_by_band"
+        },
+        "fixed": {
+          "amount": "6",
+          "kind": "per_period",
+          "per": "month",
+          "share": "whole"
+        }
+      }
+    }
+  },
+  "inputs": {
+    "bill_start_day": {
+      "default": 1,
+      "max": 28,
+      "min": 1,
+      "type": "integer"
+    }
+  },
+  "bands": [
+    {
+      "name": "Period 1"
+    },
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "hours": "08:00-22:00",
+      "name": "Period 2"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "Period 1": "0.03816",
+        "Period 2": "0.12118"
+      },
+      "standing": "0"
+    }
+  }
+}

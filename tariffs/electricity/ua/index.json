@@ -1,0 +1,58 @@
+{
+  "schema": 1,
+  "country": "UA",
+  "currency": "UAH",
+  "timezone": "Europe/Kyiv",
+  "vat_percent": "20",
+  "availability": "partial",
+  "reason": "Only the fixed household supply price is held. The distribution tariff of each network company is not, and neither is the lower price for homes heated by electricity, so a bill priced from this plan is below a real bill.",
+  "inputs": {
+    "bill_start_day": {
+      "default": 1,
+      "max": 28,
+      "min": 1,
+      "type": "integer"
+    }
+  },
+  "bill": {
+    "period": {
+      "rule": "monthly",
+      "start_day": "$input.bill_start_day"
+    },
+    "total": {
+      "kind": "tax",
+      "mode": "added",
+      "name": "VAT",
+      "of": {
+        "kind": "sum",
+        "of": {
+          "energy": {
+            "kind": "energy_by_band",
+            "round_bands": true
+          },
+          "standing": {
+            "kind": "per_day"
+          }
+        }
+      },
+      "percent": "$country.vat_percent"
+    }
+  },
+  "providers": {
+    "household-fixed-price": {
+      "name": "Fixed price for households",
+      "tariffs": {
+        "fixed-price": {
+          "name": "Fixed household price",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:556bc4087954f688b838e22ad8048becf73b078249c1b3fcc721de9621d3ad0d",
+              "effective_from": "2024-06-01",
+              "effective_to": "2027-04-30"
+            }
+          }
+        }
+      }
+    }
+  }
+}

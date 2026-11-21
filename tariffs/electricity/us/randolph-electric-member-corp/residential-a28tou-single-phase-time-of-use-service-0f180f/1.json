@@ -1,0 +1,78 @@
+{
+  "schema": 1,
+  "name": "Residential A28TOU - SINGLE-PHASE TIME OF USE SERVICE",
+  "provider": "Randolph Electric Member Corp",
+  "timezone": "America/New_York",
+  "effective_from": "2025-05-01",
+  "source": {
+    "id": "openei-urdb-us",
+    "url": "https://apps.openei.org/USURDB/rate/view/68b098f75cb9cdfcf20f180f"
+  },
+  "bill": {
+    "period": {
+      "rule": "monthly",
+      "start_day": "$input.bill_start_day"
+    },
+    "total": {
+      "kind": "sum",
+      "of": {
+        "energy": {
+          "kind": "energy_by_band"
+        },
+        "fixed": {
+          "amount": "37.5",
+          "kind": "per_period",
+          "per": "month",
+          "share": "whole"
+        }
+      }
+    }
+  },
+  "inputs": {
+    "bill_start_day": {
+      "default": 1,
+      "max": 28,
+      "min": 1,
+      "type": "integer"
+    }
+  },
+  "bands": [
+    {
+      "name": "Period 1"
+    },
+    {
+      "hours": "06:00-08:00",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        11,
+        12
+      ],
+      "name": "Period 2 part 1"
+    },
+    {
+      "hours": "15:00-18:00",
+      "months": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "name": "Period 2 part 2"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "Period 1": "0.0735",
+        "Period 2 part 1": "0.602",
+        "Period 2 part 2": "0.602"
+      },
+      "standing": "0"
+    }
+  }
+}

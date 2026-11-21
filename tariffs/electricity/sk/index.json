@@ -1,0 +1,62 @@
+{
+  "schema": 1,
+  "country": "SK",
+  "currency": "EUR",
+  "timezone": "Europe/Bratislava",
+  "vat_percent": "23",
+  "availability": "partial",
+  "reason": "Only ZSE's two single-rate household products are held, at the price for supplying the energy. The network charges, the monthly payments, the two-rate products and the targeted energy aid are not, so a bill priced from them differs from a real bill.",
+  "inputs": {
+    "bill_start_day": {
+      "default": 1,
+      "max": 28,
+      "min": 1,
+      "type": "integer"
+    }
+  },
+  "bill": {
+    "period": {
+      "rule": "monthly",
+      "start_day": "$input.bill_start_day"
+    },
+    "total": {
+      "kind": "sum",
+      "of": {
+        "energy": {
+          "kind": "energy_by_band",
+          "round_bands": true
+        },
+        "standing": {
+          "kind": "per_day"
+        }
+      }
+    }
+  },
+  "providers": {
+    "zse": {
+      "name": "ZSE",
+      "tariffs": {
+        "domov-klasik": {
+          "name": "DomovKlasik (DD2)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:652493219875ba8349d51e969424f4fc352f19238c79cfa714e4a5787b8ec206",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        },
+        "domov-mini": {
+          "name": "DomovMini (DD1)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:1b7619dd70b6a16aa461dde809937559f05ce7e06f2e309ef2604c7dca0da2f7",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    }
+  }
+}

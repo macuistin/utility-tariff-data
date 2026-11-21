@@ -1,0 +1,66 @@
+{
+  "schema": 1,
+  "name": "Domestic",
+  "provider": "MESCOM",
+  "effective_from": "2026-04-01",
+  "effective_to": "2027-04-01",
+  "source": {
+    "id": "in-openbijli",
+    "url": "https://github.com/byjoellobo/openbijli/blob/main/data/tariffs/ka-kerc/2026-27.json"
+  },
+  "prices_include_tax": false,
+  "bill": {
+    "total": {
+      "kind": "sum",
+      "of": {
+        "base": {
+          "kind": "adjust",
+          "name": "Surcharges and duty",
+          "of": {
+            "kind": "sum",
+            "of": {
+              "energy": {
+                "blocks": {
+                  "slab_1": {
+                    "from_kwh": "0",
+                    "price": "5.8"
+                  }
+                },
+                "kind": "tiered_energy",
+                "limits": "month"
+              },
+              "fixed": {
+                "bands": {
+                  "band_1": {
+                    "price": "150"
+                  }
+                },
+                "kind": "connected_load",
+                "load": "sanctioned",
+                "min_kw": "1"
+              }
+            }
+          },
+          "percent": "9"
+        },
+        "charge_1": {
+          "amount": "0.35",
+          "kind": "per_kwh"
+        }
+      }
+    }
+  },
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "All day": "5.8"
+      },
+      "standing": "0"
+    }
+  }
+}

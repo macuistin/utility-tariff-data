@@ -1,0 +1,62 @@
+{
+  "schema": 1,
+  "country": "MT",
+  "currency": "EUR",
+  "timezone": "Europe/Malta",
+  "vat_percent": "5",
+  "availability": "partial",
+  "reason": "Only Enemalta's Residential and Domestic consumption tariffs on a single-phase supply are held. The Eco Reduction discount, the three-phase service charge and the maximum demand tariff are not, so a bill priced from them can differ from a real bill.",
+  "inputs": {
+    "bill_start_day": {
+      "default": 1,
+      "max": 28,
+      "min": 1,
+      "type": "integer"
+    }
+  },
+  "bill": {
+    "period": {
+      "rule": "monthly",
+      "start_day": "$input.bill_start_day"
+    },
+    "total": {
+      "kind": "sum",
+      "of": {
+        "energy": {
+          "kind": "energy_by_band",
+          "round_bands": true
+        },
+        "standing": {
+          "kind": "per_day"
+        }
+      }
+    }
+  },
+  "providers": {
+    "enemalta": {
+      "name": "Enemalta",
+      "tariffs": {
+        "domestic": {
+          "name": "Domestic consumption tariff",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:2d64a7c1247d9365db68f84742d73960ce8bcdcdb74efae2a15e48455fac779a",
+              "effective_from": "2026-02-06",
+              "effective_to": null
+            }
+          }
+        },
+        "residential": {
+          "name": "Residential consumption tariff",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:5e918377a855835701c2b12573bfeca0f078469fce11b01b50322ffa4f370032",
+              "effective_from": "2026-02-06",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    }
+  }
+}

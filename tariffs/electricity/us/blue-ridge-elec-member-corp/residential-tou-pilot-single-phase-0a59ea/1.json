@@ -1,0 +1,74 @@
+{
+  "schema": 1,
+  "name": "Residential TOU Pilot - Single Phase",
+  "provider": "Blue Ridge Elec Member Corp",
+  "timezone": "America/New_York",
+  "effective_from": "2024-10-02",
+  "source": {
+    "id": "openei-urdb-us",
+    "url": "https://apps.openei.org/USURDB/rate/view/689e53a5a5efa3bd570a59ea"
+  },
+  "bill": {
+    "period": {
+      "rule": "monthly",
+      "start_day": "$input.bill_start_day"
+    },
+    "total": {
+      "kind": "sum",
+      "of": {
+        "energy": {
+          "kind": "energy_by_band"
+        },
+        "fixed": {
+          "amount": "35.75",
+          "kind": "per_period",
+          "per": "month",
+          "share": "whole"
+        }
+      }
+    }
+  },
+  "inputs": {
+    "bill_start_day": {
+      "default": 1,
+      "max": 28,
+      "min": 1,
+      "type": "integer"
+    }
+  },
+  "bands": [
+    {
+      "name": "Period 2"
+    },
+    {
+      "hours": "00:00-05:00",
+      "name": "Period 1 part 1"
+    },
+    {
+      "hours": "22:00-00:00",
+      "name": "Period 1 part 2"
+    },
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "hours": "12:00-18:00",
+      "name": "Period 3"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "Period 1 part 1": "0.0669",
+        "Period 1 part 2": "0.0669",
+        "Period 2": "0.0911",
+        "Period 3": "0.3813"
+      },
+      "standing": "0"
+    }
+  }
+}

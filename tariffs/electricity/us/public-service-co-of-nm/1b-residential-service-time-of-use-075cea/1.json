@@ -1,0 +1,126 @@
+{
+  "schema": 1,
+  "name": "1B (Residential Service Time-Of-Use)",
+  "provider": "Public Service Co of NM",
+  "timezone": "America/Denver",
+  "effective_from": "2025-11-15",
+  "source": {
+    "id": "openei-urdb-us",
+    "url": "https://apps.openei.org/USURDB/rate/view/69334f7e8be22d009a075cea"
+  },
+  "bill": {
+    "period": {
+      "rule": "monthly",
+      "start_day": "$input.bill_start_day"
+    },
+    "total": {
+      "kind": "sum",
+      "of": {
+        "energy": {
+          "kind": "energy_by_band"
+        },
+        "fixed": {
+          "amount": "30.99",
+          "kind": "per_period",
+          "per": "month",
+          "share": "whole"
+        }
+      }
+    }
+  },
+  "inputs": {
+    "bill_start_day": {
+      "default": 1,
+      "max": 28,
+      "min": 1,
+      "type": "integer"
+    }
+  },
+  "bands": [
+    {
+      "name": "Period 4"
+    },
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "hours": "08:00-20:00",
+      "months": [
+        6,
+        7,
+        8
+      ],
+      "name": "Period 1"
+    },
+    {
+      "hours": "00:00-08:00",
+      "months": [
+        6,
+        7,
+        8
+      ],
+      "name": "Period 2 part 1"
+    },
+    {
+      "hours": "20:00-00:00",
+      "months": [
+        6,
+        7,
+        8
+      ],
+      "name": "Period 2 part 2"
+    },
+    {
+      "days": [
+        "sat",
+        "sun"
+      ],
+      "hours": "08:00-20:00",
+      "months": [
+        6,
+        7,
+        8
+      ],
+      "name": "Period 2 part 3"
+    },
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "hours": "08:00-20:00",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        10,
+        11,
+        12
+      ],
+      "name": "Period 3"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "Period 1": "0.277334",
+        "Period 2 part 1": "0.12388",
+        "Period 2 part 2": "0.12388",
+        "Period 2 part 3": "0.12388",
+        "Period 3": "0.227266",
+        "Period 4": "0.12388"
+      },
+      "standing": "0"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "schema": 1,
+  "country": "UG",
+  "currency": "UGX",
+  "timezone": "Africa/Kampala",
+  "vat_percent": "0",
+  "availability": "partial",
+  "reason": "Domestic and small commercial energy prices from the regulator's quarterly schedule. The schedule states no VAT, so a bill carries no tax line. Lifeline, cooking and time-of-use prices are not stored.",
+  "inputs": {
+    "bill_start_day": {
+      "default": 1,
+      "max": 28,
+      "min": 1,
+      "type": "integer"
+    }
+  },
+  "bill": {
+    "period": {
+      "rule": "monthly",
+      "start_day": "$input.bill_start_day"
+    },
+    "total": {
+      "kind": "sum",
+      "of": {
+        "energy": {
+          "kind": "energy_by_band",
+          "round_bands": true
+        },
+        "standing": {
+          "kind": "per_day"
+        }
+      }
+    }
+  },
+  "providers": {
+    "uedcl": {
+      "name": "Uganda Electricity Distribution Company",
+      "tariffs": {
+        "commercial": {
+          "name": "Commercial (code 10.2)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:2aad1aacef15aebb9f7c76ef4afc27b49661f0539c0d4903e60cf058aa091712",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "domestic": {
+          "name": "Domestic (code 10.1)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:bb34b6d5c6e9210cdee6da2f93c09a96df0169ee863bcfc82000b2e9f6b9e390",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    }
+  }
+}

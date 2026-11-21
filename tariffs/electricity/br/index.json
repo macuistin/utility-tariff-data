@@ -1,0 +1,671 @@
+{
+  "schema": 1,
+  "country": "BR",
+  "currency": "BRL",
+  "timezone": "America/Sao_Paulo",
+  "vat_percent": "0",
+  "availability": "partial",
+  "reason": "Each distributor's residential conventional tariff, read from a third-party copy of ANEEL's tariff table. Taxes (ICMS, PIS and COFINS) and the monthly tariff flag surcharge are not in the prices, so a bill priced from them is below a real bill. The white tariff, low-income and pre-paid tariffs are not held.",
+  "reason_local": {
+    "language": "pt",
+    "text": "A tarifa residencial convencional de cada distribuidora, lida de uma cópia de terceiros da tabela de tarifas da ANEEL. Os impostos (ICMS, PIS e COFINS) e o adicional da bandeira tarifária mensal não estão nos preços, por isso uma fatura calculada com eles fica abaixo de uma fatura real. A tarifa branca, a tarifa social de baixa renda e as tarifas pré-pagas não estão incluídas."
+  },
+  "inputs": {
+    "bill_start_day": {
+      "default": 1,
+      "max": 28,
+      "min": 1,
+      "type": "integer"
+    }
+  },
+  "bill": {
+    "period": {
+      "rule": "monthly",
+      "start_day": "$input.bill_start_day"
+    },
+    "total": {
+      "kind": "sum",
+      "of": {
+        "energy": {
+          "kind": "energy_by_band",
+          "round_bands": true
+        },
+        "standing": {
+          "kind": "per_day"
+        }
+      }
+    }
+  },
+  "providers": {
+    "amazonas-energia": {
+      "name": "Amazonas Energia",
+      "tariffs": {
+        "residential-b1": {
+          "name": "Residential conventional (B1)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:487be6792adf94345c7972343b8df968b9bebc5d09fbcaa44eb145334c2a0107",
+              "effective_from": "2026-05-26",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "celesc-dis": {
+      "name": "Celesc-DIS",
+      "tariffs": {
+        "residential-b1": {
+          "name": "Residential conventional (B1)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:5cd048a74b95bdde3e84095117a98cf72fc77e86db77eb0f9e55787d7a83376f",
+              "effective_from": "2026-08-22",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "cemig-d": {
+      "name": "Cemig-D",
+      "tariffs": {
+        "residential-b1": {
+          "name": "Residential conventional (B1)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:78c1e84644768aa2cb83fc15d116c416f14b463644b58c661a4e67cbbb5405b9",
+              "effective_from": "2026-05-28",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "cocel": {
+      "name": "Cocel",
+      "tariffs": {
+        "residential-b1": {
+          "name": "Residential conventional (B1)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:33b35f2b3976ef13cf9f88b0695da9b78c57c153418fa41c932a1deef8002fd1",
+              "effective_from": "2026-06-29",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "cooperalianca": {
+      "name": "Cooperaliança",
+      "tariffs": {
+        "residential-b1": {
+          "name": "Residential conventional (B1)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:55159ec32d4ffaf911089a54aa7308ae94b5a3949eb5484dee74361fda510c74",
+              "effective_from": "2026-08-29",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "copel-dis": {
+      "name": "Copel-DIS",
+      "tariffs": {
+        "residential-b1": {
+          "name": "Residential conventional (B1)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:199ad33c56aab93ee5d5e3354b084596ef2a92ba8553e7fccbd2ee5ef71e7b48",
+              "effective_from": "2026-06-24",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "cpfl-paulista": {
+      "name": "CPFL Paulista",
+      "tariffs": {
+        "residential-b1": {
+          "name": "Residential conventional (B1)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:dffa65442bcde14343f8c39731b92c0cb98b2d24b14e37452429ad54983517e4",
+              "effective_from": "2026-04-24",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "cpfl-piratininga": {
+      "name": "CPFL Piratininga",
+      "tariffs": {
+        "residential-b1": {
+          "name": "Residential conventional (B1)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:c770ab5e60da2ceca2e53b59eab6942ffcd8a16931336b92fdf19ec41454e14e",
+              "effective_from": "2026-10-23",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "cpfl-santa-cruz": {
+      "name": "CPFL Santa Cruz",
+      "tariffs": {
+        "residential-b1": {
+          "name": "Residential conventional (B1)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:d21eccb21bc8bee1e3aa99c07a1c032d7892e2e29db10bc6324b10d412538bfc",
+              "effective_from": "2026-04-22",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "dcelt": {
+      "name": "Dcelt",
+      "tariffs": {
+        "residential-b1": {
+          "name": "Residential conventional (B1)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:3d5ade7f7837a6dfd63e3a8f0ddd2cd84a2e7c02189768fe875dd3a68c5dd12a",
+              "effective_from": "2026-08-29",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "demei": {
+      "name": "Demei",
+      "tariffs": {
+        "residential-b1": {
+          "name": "Residential conventional (B1)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:a8ead95fc1a304ff529cbe76e0ccf9aeef19ebee3d19e0636caac356589fd28e",
+              "effective_from": "2026-07-22",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "edp-es": {
+      "name": "EDP ES",
+      "tariffs": {
+        "residential-b1": {
+          "name": "Residential conventional (B1)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:7c3c052e644fe7479de22dc2d9a91431b050b7fbdd10c1de438e7c6c2c71a82a",
+              "effective_from": "2026-08-07",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "edp-sp": {
+      "name": "EDP SP",
+      "tariffs": {
+        "residential-b1": {
+          "name": "Residential conventional (B1)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:e0d2e9be7e7b3dd8eb08d9b1a488665e1164d0ebdb25bd461f47747f96a081c6",
+              "effective_from": "2026-10-23",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "efljc": {
+      "name": "EFLJC",
+      "tariffs": {
+        "residential-b1": {
+          "name": "Residential conventional (B1)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:d1ef693ff74f75213f26763ec04bcd7c71f42083f5479f1d202b94474f98cf83",
+              "effective_from": "2026-08-29",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "eflul": {
+      "name": "Eflul",
+      "tariffs": {
+        "residential-b1": {
+          "name": "Residential conventional (B1)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:7d011d225327b214539cec44220ba2cdb2eb470f6296d479397b3d9b5ff64ce0",
+              "effective_from": "2026-08-29",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "eletrocar": {
+      "name": "Eletrocar",
+      "tariffs": {
+        "residential-b1": {
+          "name": "Residential conventional (B1)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:8e0a45ac4edf2fcf659fb7bf15e89a574f6b7295909e0651624480d263e93068",
+              "effective_from": "2026-07-22",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "elfsm": {
+      "name": "ELFSM",
+      "tariffs": {
+        "residential-b1": {
+          "name": "Residential conventional (B1)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:10dcf5312619bfd2f47437703c0649cf7e64949d1ce1b06566f7019cbf71fa59",
+              "effective_from": "2026-09-22",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "enel-rj": {
+      "name": "Enel RJ",
+      "tariffs": {
+        "residential-b1": {
+          "name": "Residential conventional (B1)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:1a47606e7e62197721013d20dcc8105eb4a275e989cd9d24240210337617733b",
+              "effective_from": "2026-03-15",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "enel-sp": {
+      "name": "Enel SP",
+      "tariffs": {
+        "residential-b1": {
+          "name": "Residential conventional (B1)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:7af9b80b71f3e74f59e4c910bb5d7867bfa6316ef9978bbb7d57021dd6a4baa9",
+              "effective_from": "2026-07-04",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "energisa-ac": {
+      "name": "Energisa AC",
+      "tariffs": {
+        "residential-b1": {
+          "name": "Residential conventional (B1)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:cbb90d8f74d06c5e56d4b4c1782f8f42186b0f821c835476a9be3106d5bd257a",
+              "effective_from": "2026-08-26",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "energisa-minas-rio": {
+      "name": "Energisa Minas Rio",
+      "tariffs": {
+        "residential-b1": {
+          "name": "Residential conventional (B1)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:eaf03422c642391e2e16dc791f85111182f1f4cf280b0f050214e8202bc4114b",
+              "effective_from": "2026-06-22",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "energisa-ms": {
+      "name": "Energisa MS",
+      "tariffs": {
+        "residential-b1": {
+          "name": "Residential conventional (B1)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:5f2e8d652b17e06b35f2cbaca56ba424e9bc1dfe40cd1a655ec35686d171e11f",
+              "effective_from": "2026-04-24",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "energisa-mt": {
+      "name": "Energisa MT",
+      "tariffs": {
+        "residential-b1": {
+          "name": "Residential conventional (B1)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:c8c11bd8bd510d0a8f5796b8359731ac1113c6cbd529e97181558fefed4c2d4a",
+              "effective_from": "2026-04-08",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "energisa-pb": {
+      "name": "Energisa PB",
+      "tariffs": {
+        "residential-b1": {
+          "name": "Residential conventional (B1)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:ae766bf8d06f001e900c9ed35033d4e1dcc52685b402bb0e6e3c64fdab578177",
+              "effective_from": "2026-08-28",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "energisa-ro": {
+      "name": "Energisa RO",
+      "tariffs": {
+        "residential-b1": {
+          "name": "Residential conventional (B1)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:f72562831f26c09cc7cc352bdea8144382f9ccba55d29e3a30536908c5609338",
+              "effective_from": "2026-08-26",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "energisa-se": {
+      "name": "Energisa SE",
+      "tariffs": {
+        "residential-b1": {
+          "name": "Residential conventional (B1)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:6ddd6ee63a55d78a6ec693192608d07fda94c9a5d11bdc3c0abadfc414e553c0",
+              "effective_from": "2026-04-22",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "energisa-sul-sudeste": {
+      "name": "Energisa Sul Sudeste",
+      "tariffs": {
+        "residential-b1": {
+          "name": "Residential conventional (B1)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:9fbd2512b85362e09c73944aa2106f5c783b60ba2f8b6cfff7ce351c1ce4aa85",
+              "effective_from": "2026-07-12",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "equatorial-go": {
+      "name": "Equatorial GO",
+      "tariffs": {
+        "residential-b1": {
+          "name": "Residential conventional (B1)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:7190285b697ff80bd05d5f8a482c74c66ff51828751e57026cfa5a8428db5f1a",
+              "effective_from": "2026-10-22",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "equatorial-ma": {
+      "name": "Equatorial MA",
+      "tariffs": {
+        "residential-b1": {
+          "name": "Residential conventional (B1)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:9928652364faee2392a06e2b5231247930d0e771fd4ba4a7dd5d9850f8f463f0",
+              "effective_from": "2026-08-28",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "equatorial-pa": {
+      "name": "Equatorial PA",
+      "tariffs": {
+        "residential-b1": {
+          "name": "Residential conventional (B1)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:34a0117bc920f702f7a5cd7cda6bb0e17f5925ab57302a2cd2787f02e34476c6",
+              "effective_from": "2026-09-18",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "hidropan": {
+      "name": "Hidropan",
+      "tariffs": {
+        "residential-b1": {
+          "name": "Residential conventional (B1)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:52a4d70f2c147bda375fd7c5b875203456b89233a774a16d7ed301f1e4e96849",
+              "effective_from": "2026-07-22",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "light": {
+      "name": "Light",
+      "tariffs": {
+        "residential-b1": {
+          "name": "Residential conventional (B1)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:a27dcd518adc61af479fa285cd326a19f8ab2c77aeb11e7d1e515261ef06e3e9",
+              "effective_from": "2026-03-15",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "muxenergia": {
+      "name": "MuxEnergia",
+      "tariffs": {
+        "residential-b1": {
+          "name": "Residential conventional (B1)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:065e37977839065ac50847943a163404bdee1904a46cb9d6ad88b5bd0928392a",
+              "effective_from": "2026-07-22",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "neoenergia-brasilia": {
+      "name": "Neoenergia Brasília",
+      "tariffs": {
+        "residential-b1": {
+          "name": "Residential conventional (B1)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:30827a53f18a4937255ebf767eb924aec32efdeed04ff8f773616f165b21fb90",
+              "effective_from": "2026-10-22",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "neoenergia-coelba": {
+      "name": "Neoenergia Coelba",
+      "tariffs": {
+        "residential-b1": {
+          "name": "Residential conventional (B1)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:4baa4a6ae7b4e11e433ab8b273b0f308a4ebcf8f1e2440bcd604d09f82555be6",
+              "effective_from": "2026-04-22",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "neoenergia-cosern": {
+      "name": "Neoenergia Cosern",
+      "tariffs": {
+        "residential-b1": {
+          "name": "Residential conventional (B1)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:b897ac2561e9ddb0d6b84e605277f95dfe32e159c1daf00072413cbbd67b6f0c",
+              "effective_from": "2026-04-22",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "neoenergia-elektro": {
+      "name": "Neoenergia Elektro",
+      "tariffs": {
+        "residential-b1": {
+          "name": "Residential conventional (B1)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:3e012f3ecda40b61edd030904c725b51c3671e6f2fcd310e78604ec48b80c6e2",
+              "effective_from": "2026-08-27",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "neoenergia-pernambuco": {
+      "name": "Neoenergia Pernambuco",
+      "tariffs": {
+        "residential-b1": {
+          "name": "Residential conventional (B1)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:d3fbd0e0865b913407f8df5bcafa7e84aa26054aea669f600e4f91fffe79144e",
+              "effective_from": "2026-04-29",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "nova-palma": {
+      "name": "Nova Palma",
+      "tariffs": {
+        "residential-b1": {
+          "name": "Residential conventional (B1)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:0d55879fee459e73f77156219c3307936856a9a339de3a0c9c6c23f8cc00c14b",
+              "effective_from": "2026-07-22",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "pacto-energia": {
+      "name": "Pacto Energia",
+      "tariffs": {
+        "residential-b1": {
+          "name": "Residential conventional (B1)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:c66148a1a2c995518c1d7bd5ead3b195431921d037ea016fe59f9d5e29f97824",
+              "effective_from": "2026-08-26",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "rge": {
+      "name": "RGE",
+      "tariffs": {
+        "residential-b1": {
+          "name": "Residential conventional (B1)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:a8dd51ca797497a2b12c6dcc6a9fd2edd5de0da1cc8d9a8bfa50b9412a0bdd02",
+              "effective_from": "2026-06-19",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "sulgipe": {
+      "name": "Sulgipe",
+      "tariffs": {
+        "residential-b1": {
+          "name": "Residential conventional (B1)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:51ab2d4cc216a72e33f59f911b0d7a98828038afe3663472860e326eff0c753b",
+              "effective_from": "2026-08-26",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    }
+  }
+}

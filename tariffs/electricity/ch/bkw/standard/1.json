@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "name": "Energy Blue + Einheitstarif // Tarif unique",
+  "provider": "BKW Energie AG",
+  "effective_from": "2026-01-01",
+  "source": {
+    "id": "ch-strompreise-schweiz",
+    "url": "https://data.strompreise-schweiz.ch/bkw/"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All year"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "All year": "0.2144"
+      },
+      "standing": "0.369863"
+    }
+  }
+}

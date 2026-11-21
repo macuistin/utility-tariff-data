@@ -1,0 +1,67 @@
+{
+  "schema": 1,
+  "name": "DOMESTIC SERVICE",
+  "provider": "City of Santa Clara, California (Utility Company)",
+  "timezone": "America/Los_Angeles",
+  "effective_from": "2025-01-01",
+  "source": {
+    "id": "openei-urdb-us",
+    "url": "https://apps.openei.org/USURDB/rate/view/5b198ca95457a3d040ce813b"
+  },
+  "bill": {
+    "period": {
+      "rule": "monthly",
+      "start_day": "$input.bill_start_day"
+    },
+    "total": {
+      "kind": "sum",
+      "of": {
+        "energy_p1": {
+          "bands": [
+            "Period 1"
+          ],
+          "blocks": {
+            "tier_1": {
+              "from_kwh": "0",
+              "price": "0.1544",
+              "upto_kwh": "300"
+            },
+            "tier_2": {
+              "from_kwh": "300",
+              "price": "0.17748"
+            }
+          },
+          "kind": "tiered_energy",
+          "limits": "month"
+        },
+        "fixed": {
+          "amount": "4.91",
+          "kind": "per_period",
+          "per": "month",
+          "share": "whole"
+        }
+      }
+    }
+  },
+  "inputs": {
+    "bill_start_day": {
+      "default": 1,
+      "max": 28,
+      "min": 1,
+      "type": "integer"
+    }
+  },
+  "bands": [
+    {
+      "name": "Period 1"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "Period 1": "0.1544"
+      },
+      "standing": "0"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "schema": 1,
+  "country": "IS",
+  "currency": "ISK",
+  "timezone": "Atlantic/Reykjavik",
+  "vat_percent": "24",
+  "availability": "partial",
+  "reason": "Only Orkusalan's energy prices are held. The grid charge from the local network company and the 11% heating rate are not, so a bill priced from these plans is below a real bill.",
+  "inputs": {
+    "bill_start_day": {
+      "default": 1,
+      "max": 28,
+      "min": 1,
+      "type": "integer"
+    }
+  },
+  "bill": {
+    "period": {
+      "rule": "monthly",
+      "start_day": "$input.bill_start_day"
+    },
+    "total": {
+      "kind": "tax",
+      "mode": "added",
+      "name": "VAT",
+      "of": {
+        "kind": "sum",
+        "of": {
+          "energy": {
+            "kind": "energy_by_band",
+            "round_bands": true
+          },
+          "standing": {
+            "kind": "per_day"
+          }
+        }
+      },
+      "percent": "$country.vat_percent"
+    }
+  },
+  "providers": {
+    "orkusalan": {
+      "name": "Orkusalan",
+      "tariffs": {
+        "engin-orkuleid-valin": {
+          "name": "Engin orkuleið valin",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:cc3b785b8e965e5bce508be7a3965d7d2cbbc7c35d501c055ee711ac9cf35e5f",
+              "effective_from": "2026-05-01",
+              "effective_to": null
+            }
+          }
+        },
+        "graenorka": {
+          "name": "GrænOrka",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:501e7cf4b538e305af6c752df78193a5d7ce7f0a4d02b2b3be8367f73fc48716",
+              "effective_from": "2026-05-01",
+              "effective_to": null
+            }
+          }
+        },
+        "hledsluorka": {
+          "name": "HleðsluOrka",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:4bd4fc791315f398dd3fb2e88a828f8e28a44d701720b66f85e2155cec9b486a",
+              "effective_from": "2026-05-01",
+              "effective_to": null
+            }
+          }
+        },
+        "naeturorka": {
+          "name": "NæturOrka",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:062a29a85b74bca09a1d87c22f1d4751fda3caf661212ed9ddcf8a3da83c223a",
+              "effective_from": "2026-05-01",
+              "effective_to": null
+            }
+          }
+        },
+        "sparorka": {
+          "name": "SparOrka",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:ef78902718b6bf20d4e686dc6ead9aedafa546595700e62db284c8b87f0bd35c",
+              "effective_from": "2026-05-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    }
+  }
+}

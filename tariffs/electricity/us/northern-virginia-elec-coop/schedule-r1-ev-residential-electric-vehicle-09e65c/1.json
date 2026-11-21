@@ -1,0 +1,62 @@
+{
+  "schema": 1,
+  "name": "Schedule R1-EV, Residential Electric Vehicle",
+  "provider": "Northern Virginia Elec Coop",
+  "timezone": "America/New_York",
+  "effective_from": "2025-01-01",
+  "source": {
+    "id": "openei-urdb-us",
+    "url": "https://apps.openei.org/USURDB/rate/view/6840c055d0a70ed56909e65c"
+  },
+  "bill": {
+    "period": {
+      "rule": "monthly",
+      "start_day": "$input.bill_start_day"
+    },
+    "total": {
+      "kind": "sum",
+      "of": {
+        "energy": {
+          "kind": "energy_by_band"
+        },
+        "fixed": {
+          "amount": "17.33",
+          "kind": "per_period",
+          "per": "month",
+          "share": "whole"
+        }
+      }
+    }
+  },
+  "inputs": {
+    "bill_start_day": {
+      "default": 1,
+      "max": 28,
+      "min": 1,
+      "type": "integer"
+    }
+  },
+  "bands": [
+    {
+      "name": "Period 2"
+    },
+    {
+      "hours": "00:00-06:00",
+      "name": "Period 1 part 1"
+    },
+    {
+      "hours": "23:00-00:00",
+      "name": "Period 1 part 2"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "Period 1 part 1": "0.0652",
+        "Period 1 part 2": "0.0652",
+        "Period 2": "0.11894"
+      },
+      "standing": "0"
+    }
+  }
+}

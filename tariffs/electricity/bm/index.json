@@ -1,0 +1,52 @@
+{
+  "schema": 1,
+  "country": "BM",
+  "currency": "BMD",
+  "timezone": "Atlantic/Bermuda",
+  "vat_percent": "0",
+  "availability": "partial",
+  "reason": "Only BELCO's residential energy charge, fuel adjustment rate and Regulatory Authority fee are held. The monthly Graduated Facilities Charge depends on average daily use and is not, so a bill priced from them is below a real bill. Commercial rates are not held.",
+  "inputs": {
+    "bill_start_day": {
+      "default": 1,
+      "max": 28,
+      "min": 1,
+      "type": "integer"
+    }
+  },
+  "bill": {
+    "period": {
+      "rule": "monthly",
+      "start_day": "$input.bill_start_day"
+    },
+    "total": {
+      "kind": "sum",
+      "of": {
+        "energy": {
+          "kind": "energy_by_band",
+          "round_bands": true
+        },
+        "standing": {
+          "kind": "per_day"
+        }
+      }
+    }
+  },
+  "providers": {
+    "belco": {
+      "name": "BELCO",
+      "tariffs": {
+        "residential": {
+          "name": "Residential",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:1a0fdee8356fd3fe55cb752bc671ebee28b5a2b50365299dc4ecdd0242ea5ac0",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    }
+  }
+}

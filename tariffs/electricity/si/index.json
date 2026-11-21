@@ -1,0 +1,58 @@
+{
+  "schema": 1,
+  "country": "SI",
+  "currency": "EUR",
+  "timezone": "Europe/Ljubljana",
+  "vat_percent": "22",
+  "availability": "partial",
+  "reason": "Only GEN-I's single-tariff energy price and monthly fee are held. The network charge, levies and other suppliers are not, so a bill priced from this plan is below a real bill.",
+  "inputs": {
+    "bill_start_day": {
+      "default": 1,
+      "max": 28,
+      "min": 1,
+      "type": "integer"
+    }
+  },
+  "bill": {
+    "period": {
+      "rule": "monthly",
+      "start_day": "$input.bill_start_day"
+    },
+    "total": {
+      "kind": "tax",
+      "mode": "added",
+      "name": "VAT",
+      "of": {
+        "kind": "sum",
+        "of": {
+          "energy": {
+            "kind": "energy_by_band",
+            "round_bands": true
+          },
+          "standing": {
+            "kind": "per_day"
+          }
+        }
+      },
+      "percent": "$country.vat_percent"
+    }
+  },
+  "providers": {
+    "gen-i": {
+      "name": "GEN-I",
+      "tariffs": {
+        "redni-cenik-enotna-tarifa": {
+          "name": "Regular price list, single tariff",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:b2b81839fffabc0394e64c4aeef2f802db5cf50416b1474c3a1d824b5989082e",
+              "effective_from": "2025-03-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    }
+  }
+}

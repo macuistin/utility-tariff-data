@@ -1,0 +1,81 @@
+{
+  "schema": 1,
+  "name": "Rate 11: Residential Service with Space Heating",
+  "provider": "NorthWestern Energy",
+  "effective_from": "2025-05-01",
+  "source": {
+    "id": "openei-urdb-us",
+    "url": "https://apps.openei.org/USURDB/rate/view/68a2f86d6c8cf4a2110d3388"
+  },
+  "bill": {
+    "period": {
+      "rule": "monthly",
+      "start_day": "$input.bill_start_day"
+    },
+    "total": {
+      "kind": "sum",
+      "of": {
+        "energy_p1": {
+          "bands": [
+            "Period 1"
+          ],
+          "blocks": {
+            "tier_1": {
+              "from_kwh": "0",
+              "price": "0.1742",
+              "upto_kwh": "200"
+            },
+            "tier_2": {
+              "from_kwh": "200",
+              "price": "0.17238",
+              "upto_kwh": "800"
+            },
+            "tier_3": {
+              "from_kwh": "800",
+              "price": "0.16147",
+              "upto_kwh": "1000"
+            },
+            "tier_4": {
+              "from_kwh": "1000",
+              "price": "0.14143",
+              "upto_kwh": "1200"
+            },
+            "tier_5": {
+              "from_kwh": "1200",
+              "price": "0.09799"
+            }
+          },
+          "kind": "tiered_energy",
+          "limits": "month"
+        },
+        "fixed": {
+          "amount": "7",
+          "kind": "per_period",
+          "per": "month",
+          "share": "whole"
+        }
+      }
+    }
+  },
+  "inputs": {
+    "bill_start_day": {
+      "default": 1,
+      "max": 28,
+      "min": 1,
+      "type": "integer"
+    }
+  },
+  "bands": [
+    {
+      "name": "Period 1"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "Period 1": "0.1742"
+      },
+      "standing": "0"
+    }
+  }
+}

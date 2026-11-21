@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "name": "Landwirtschaft Fix",
+  "provider": "Stadtwerke Judenburg AG",
+  "effective_from": "2026-11-17",
+  "source": {
+    "id": "at-econtrol",
+    "url": "https://www.e-control.at/tarifkalkulator"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "All day": "0.139"
+      },
+      "standing": "0.161096"
+    }
+  }
+}

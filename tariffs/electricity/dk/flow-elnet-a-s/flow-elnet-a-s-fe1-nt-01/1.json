@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "name": "Nettarif C (FE1 NT-01), grid charge only",
+  "provider": "FLOW Elnet A/S",
+  "effective_from": "2026-10-01",
+  "source": {
+    "id": "dk-energinet-datahub-pricelist",
+    "url": "https://www.energidataservice.dk/tso-electricity/DatahubPricelist"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "Base"
+    },
+    {
+      "hours": "17:00-21:00",
+      "name": "17:00-21:00"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "17:00-21:00": "0.5947",
+        "Base": "0.1982"
+      },
+      "standing": "0"
+    }
+  }
+}

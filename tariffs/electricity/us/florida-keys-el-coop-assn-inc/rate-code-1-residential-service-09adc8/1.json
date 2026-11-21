@@ -1,0 +1,48 @@
+{
+  "schema": 1,
+  "name": "Rate Code 1 - Residential Service",
+  "provider": "Florida Keys El Coop Assn, Inc",
+  "effective_from": "2025-07-01",
+  "source": {
+    "id": "openei-urdb-us",
+    "url": "https://apps.openei.org/USURDB/rate/view/6877dda872cfb889f409adc8"
+  },
+  "bill": {
+    "period": {
+      "rule": "monthly",
+      "start_day": "$input.bill_start_day"
+    },
+    "total": {
+      "kind": "sum",
+      "of": {
+        "energy": {
+          "kind": "energy_by_band"
+        },
+        "standing": {
+          "kind": "per_day"
+        }
+      }
+    }
+  },
+  "inputs": {
+    "bill_start_day": {
+      "default": 1,
+      "max": 28,
+      "min": 1,
+      "type": "integer"
+    }
+  },
+  "bands": [
+    {
+      "name": "Period 1"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "Period 1": "0.057215"
+      },
+      "standing": "1"
+    }
+  }
+}

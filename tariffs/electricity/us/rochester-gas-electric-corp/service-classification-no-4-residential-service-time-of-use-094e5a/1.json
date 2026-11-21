@@ -1,0 +1,64 @@
+{
+  "schema": 1,
+  "name": "SERVICE CLASSIFICATION NO. 4 RESIDENTIAL SERVICE - TIME-OF-USE RATE RSS (Non-Retail Access Rate Choice) Schedule I",
+  "provider": "Rochester Gas & Electric Corp",
+  "timezone": "America/New_York",
+  "effective_from": "2025-05-01",
+  "source": {
+    "id": "openei-urdb-us",
+    "url": "https://apps.openei.org/USURDB/rate/view/68c8894d0ecf0fba6b094e5a"
+  },
+  "bill": {
+    "period": {
+      "rule": "monthly",
+      "start_day": "$input.bill_start_day"
+    },
+    "total": {
+      "kind": "sum",
+      "of": {
+        "energy": {
+          "kind": "energy_by_band"
+        },
+        "fixed": {
+          "amount": "27.93",
+          "kind": "per_period",
+          "per": "month",
+          "share": "whole"
+        }
+      }
+    }
+  },
+  "inputs": {
+    "bill_start_day": {
+      "default": 1,
+      "max": 28,
+      "min": 1,
+      "type": "integer"
+    }
+  },
+  "bands": [
+    {
+      "name": "Period 1"
+    },
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "hours": "07:00-21:00",
+      "name": "Period 2"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "Period 1": "0.12913",
+        "Period 2": "0.18283"
+      },
+      "standing": "0"
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "schema": 1,
+  "name": "Residential",
+  "provider": "Peninsula Light Company",
+  "timezone": "America/Los_Angeles",
+  "effective_from": "2025-04-01",
+  "source": {
+    "id": "openei-urdb-us",
+    "url": "https://apps.openei.org/USURDB/rate/view/68dad3c643e529bdb600dd5d"
+  },
+  "bill": {
+    "period": {
+      "rule": "monthly",
+      "start_day": "$input.bill_start_day"
+    },
+    "total": {
+      "kind": "sum",
+      "of": {
+        "energy_p1": {
+          "bands": [
+            "Period 1"
+          ],
+          "blocks": {
+            "tier_1": {
+              "from_kwh": "0",
+              "price": "0.07655",
+              "upto_kwh": "399"
+            },
+            "tier_2": {
+              "from_kwh": "399",
+              "price": "0.08205",
+              "upto_kwh": "1499"
+            },
+            "tier_3": {
+              "from_kwh": "1499",
+              "price": "0.08443"
+            }
+          },
+          "kind": "tiered_energy",
+          "limits": "month"
+        },
+        "energy_p2": {
+          "bands": [
+            "Period 2"
+          ],
+          "blocks": {
+            "tier_1": {
+              "from_kwh": "0",
+              "price": "0.07655",
+              "upto_kwh": "399"
+            },
+            "tier_2": {
+              "from_kwh": "399",
+              "price": "0.08205",
+              "upto_kwh": "3499"
+            },
+            "tier_3": {
+              "from_kwh": "3499",
+              "price": "0.08443"
+            }
+          },
+          "kind": "tiered_energy",
+          "limits": "month"
+        },
+        "fixed": {
+          "amount": "37",
+          "kind": "per_period",
+          "per": "month",
+          "share": "whole"
+        }
+      }
+    }
+  },
+  "inputs": {
+    "bill_start_day": {
+      "default": 1,
+      "max": 28,
+      "min": 1,
+      "type": "integer"
+    }
+  },
+  "bands": [
+    {
+      "name": "Period 2"
+    },
+    {
+      "hours": "00:00-23:59",
+      "months": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "name": "Period 1"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "Period 1": "0.07655",
+        "Period 2": "0.07655"
+      },
+      "standing": "0"
+    }
+  }
+}

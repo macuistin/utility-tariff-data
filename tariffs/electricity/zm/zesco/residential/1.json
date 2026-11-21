@@ -1,0 +1,56 @@
+{
+  "schema": 1,
+  "name": "Residential R1 to R4",
+  "provider": "ZESCO",
+  "effective_from": "2025-11-01",
+  "source": {
+    "id": "zm-zesco",
+    "url": "https://www.zesco.co.zm/tariff"
+  },
+  "prices_include_tax": false,
+  "bill": {
+    "total": {
+      "kind": "sum",
+      "of": {
+        "energy": {
+          "blocks": {
+            "first_100_kwh": {
+              "from_kwh": "0",
+              "price": "0.35",
+              "upto_kwh": "100"
+            },
+            "from_101_to_200_kwh": {
+              "from_kwh": "100",
+              "price": "1",
+              "upto_kwh": "200"
+            },
+            "from_201_to_400_kwh": {
+              "from_kwh": "200",
+              "price": "2.42",
+              "upto_kwh": "400"
+            },
+            "over_400_kwh": {
+              "from_kwh": "400",
+              "price": "3.45"
+            }
+          },
+          "kind": "tiered_energy",
+          "limits": "month"
+        }
+      }
+    }
+  },
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "All day": "0.35"
+      },
+      "standing": "0"
+    }
+  }
+}

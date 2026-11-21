@@ -1,0 +1,107 @@
+{
+  "schema": 1,
+  "name": "TARIFF R-14 RESIDENTIAL SERVICE",
+  "provider": "Orcas Power & Light Coop",
+  "timezone": "America/Los_Angeles",
+  "effective_from": "2025-01-01",
+  "source": {
+    "id": "openei-urdb-us",
+    "url": "https://apps.openei.org/USURDB/rate/view/678a96f74e8070d5b9070eac"
+  },
+  "bill": {
+    "period": {
+      "rule": "monthly",
+      "start_day": "$input.bill_start_day"
+    },
+    "total": {
+      "kind": "sum",
+      "of": {
+        "energy_p1": {
+          "bands": [
+            "Period 1"
+          ],
+          "blocks": {
+            "tier_1": {
+              "from_kwh": "0",
+              "price": "0.1351",
+              "upto_kwh": "4000"
+            },
+            "tier_2": {
+              "from_kwh": "4000",
+              "price": "0.1531",
+              "upto_kwh": "5000"
+            },
+            "tier_3": {
+              "from_kwh": "5000",
+              "price": "0.1762"
+            }
+          },
+          "kind": "tiered_energy",
+          "limits": "month"
+        },
+        "energy_p2": {
+          "bands": [
+            "Period 2"
+          ],
+          "blocks": {
+            "tier_1": {
+              "from_kwh": "0",
+              "price": "0.1351",
+              "upto_kwh": "2000"
+            },
+            "tier_2": {
+              "from_kwh": "2000",
+              "price": "0.1531",
+              "upto_kwh": "3000"
+            },
+            "tier_3": {
+              "from_kwh": "3000",
+              "price": "0.1762"
+            }
+          },
+          "kind": "tiered_energy",
+          "limits": "month"
+        },
+        "fixed": {
+          "amount": "59.99",
+          "kind": "per_period",
+          "per": "month",
+          "share": "whole"
+        }
+      }
+    }
+  },
+  "inputs": {
+    "bill_start_day": {
+      "default": 1,
+      "max": 28,
+      "min": 1,
+      "type": "integer"
+    }
+  },
+  "bands": [
+    {
+      "name": "Period 1"
+    },
+    {
+      "hours": "00:00-23:59",
+      "months": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "name": "Period 2"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "Period 1": "0.1351",
+        "Period 2": "0.1351"
+      },
+      "standing": "0"
+    }
+  }
+}

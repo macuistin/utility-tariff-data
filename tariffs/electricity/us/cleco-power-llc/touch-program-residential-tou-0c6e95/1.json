@@ -1,0 +1,71 @@
+{
+  "schema": 1,
+  "name": "TOUCH Program Residential (TOU)",
+  "provider": "Cleco Power LLC",
+  "timezone": "America/Chicago",
+  "effective_from": "2025-07-01",
+  "source": {
+    "id": "openei-urdb-us",
+    "url": "https://apps.openei.org/USURDB/rate/view/68a1125018cc45e4980c6e95"
+  },
+  "bill": {
+    "period": {
+      "rule": "monthly",
+      "start_day": "$input.bill_start_day"
+    },
+    "total": {
+      "kind": "sum",
+      "of": {
+        "energy": {
+          "kind": "energy_by_band"
+        },
+        "fixed": {
+          "amount": "12",
+          "kind": "per_period",
+          "per": "month",
+          "share": "whole"
+        }
+      }
+    }
+  },
+  "inputs": {
+    "bill_start_day": {
+      "default": 1,
+      "max": 28,
+      "min": 1,
+      "type": "integer"
+    }
+  },
+  "bands": [
+    {
+      "name": "Period 1"
+    },
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "hours": "13:00-19:00",
+      "months": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "name": "Period 2"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "Period 1": "0.1155",
+        "Period 2": "0.28019"
+      },
+      "standing": "0"
+    }
+  }
+}

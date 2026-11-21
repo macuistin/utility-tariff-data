@@ -1,0 +1,50 @@
+{
+  "schema": 1,
+  "name": "Domestic Rate D",
+  "provider": "Hydro-Québec",
+  "timezone": "America/Toronto",
+  "effective_from": "2026-04-01",
+  "source": {
+    "id": "hq-rate-d",
+    "url": "https://www.hydroquebec.com/residential/customer-space/rates/rate-d.html"
+  },
+  "prices_include_tax": false,
+  "bill": {
+    "total": {
+      "kind": "sum",
+      "of": {
+        "energy": {
+          "blocks": {
+            "first_40_kwh_a_day": {
+              "from_kwh": "0",
+              "price": "0.07065",
+              "upto_kwh": "40"
+            },
+            "rest": {
+              "from_kwh": "40",
+              "price": "0.11142"
+            }
+          },
+          "kind": "tiered_energy",
+          "limits": "day"
+        },
+        "standing": {
+          "kind": "per_day"
+        }
+      }
+    }
+  },
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "All day": "0.07065"
+      },
+      "standing": "0.46154"
+    }
+  }
+}

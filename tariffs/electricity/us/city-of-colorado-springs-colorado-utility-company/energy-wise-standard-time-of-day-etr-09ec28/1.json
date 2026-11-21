@@ -1,0 +1,126 @@
+{
+  "schema": 1,
+  "name": "Energy Wise Standard Time of Day (ETR)",
+  "provider": "City of Colorado Springs, Colorado (Utility Company)",
+  "timezone": "America/Denver",
+  "effective_from": "2025-10-01",
+  "source": {
+    "id": "openei-urdb-us",
+    "url": "https://apps.openei.org/USURDB/rate/view/68dc23b016744580e009ec28"
+  },
+  "bill": {
+    "period": {
+      "rule": "monthly",
+      "start_day": "$input.bill_start_day"
+    },
+    "total": {
+      "kind": "sum",
+      "of": {
+        "energy": {
+          "kind": "energy_by_band"
+        },
+        "standing": {
+          "kind": "per_day"
+        }
+      }
+    }
+  },
+  "inputs": {
+    "bill_start_day": {
+      "default": 1,
+      "max": 28,
+      "min": 1,
+      "type": "integer"
+    }
+  },
+  "bands": [
+    {
+      "name": "Period 1"
+    },
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "hours": "17:00-21:00",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        10,
+        11,
+        12
+      ],
+      "name": "Period 2"
+    },
+    {
+      "hours": "00:00-17:00",
+      "months": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "name": "Period 3 part 1"
+    },
+    {
+      "hours": "21:00-00:00",
+      "months": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "name": "Period 3 part 2"
+    },
+    {
+      "days": [
+        "sat",
+        "sun"
+      ],
+      "hours": "17:00-21:00",
+      "months": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "name": "Period 3 part 3"
+    },
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "hours": "17:00-21:00",
+      "months": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "name": "Period 4"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "Period 1": "0.098",
+        "Period 2": "0.1894",
+        "Period 3 part 1": "0.098",
+        "Period 3 part 2": "0.098",
+        "Period 3 part 3": "0.098",
+        "Period 4": "0.3258"
+      },
+      "standing": "0.6461"
+    }
+  }
+}

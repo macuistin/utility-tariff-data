@@ -1,0 +1,88 @@
+{
+  "schema": 1,
+  "name": "Simple tariff, mainland, up to 20.7 kVA",
+  "provider": "ERSE regulated tariff (CUR)",
+  "effective_from": "2026-10-01",
+  "source": {
+    "id": "pt-erse",
+    "url": "https://www.erse.pt/en/activities/market-regulation/tariffs-and-prices-electricity"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "1-15-kva": {
+      "label": "1.15 kVA",
+      "rates": {
+        "All day": "0.1677"
+      },
+      "standing": "0.0893"
+    },
+    "10-35-kva": {
+      "label": "10.35 kVA",
+      "rates": {
+        "All day": "0.1711"
+      },
+      "standing": "0.5397"
+    },
+    "13-8-kva": {
+      "label": "13.8 kVA",
+      "rates": {
+        "All day": "0.1711"
+      },
+      "standing": "0.7136"
+    },
+    "17-25-kva": {
+      "label": "17.25 kVA",
+      "rates": {
+        "All day": "0.1711"
+      },
+      "standing": "0.8875"
+    },
+    "2-3-kva": {
+      "label": "2.3 kVA",
+      "rates": {
+        "All day": "0.1677"
+      },
+      "standing": "0.15"
+    },
+    "20-7-kva": {
+      "label": "20.7 kVA",
+      "rates": {
+        "All day": "0.1711"
+      },
+      "standing": "1.0614"
+    },
+    "3-45-kva": {
+      "label": "3.45 kVA",
+      "rates": {
+        "All day": "0.1711"
+      },
+      "standing": "0.1917"
+    },
+    "4-6-kva": {
+      "label": "4.6 kVA",
+      "rates": {
+        "All day": "0.1711"
+      },
+      "standing": "0.2499"
+    },
+    "5-75-kva": {
+      "label": "5.75 kVA",
+      "rates": {
+        "All day": "0.1711"
+      },
+      "standing": "0.3079"
+    },
+    "6-9-kva": {
+      "label": "6.9 kVA",
+      "rates": {
+        "All day": "0.1711"
+      },
+      "standing": "0.3659"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "name": "DomovKlasik (DD2)",
+  "provider": "ZSE",
+  "effective_from": "2026-01-01",
+  "source": {
+    "id": "sk-zse",
+    "url": "https://www.zse.sk/produkty/cena-elektriny"
+  },
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "All day": "0.1467"
+      },
+      "standing": "0"
+    }
+  }
+}

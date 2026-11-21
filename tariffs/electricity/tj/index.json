@@ -1,0 +1,52 @@
+{
+  "schema": 1,
+  "country": "TJ",
+  "currency": "TJS",
+  "timezone": "Asia/Dushanbe",
+  "vat_percent": "0",
+  "availability": "partial",
+  "reason": "Only the household tariff of the government decree is held. The decree does not say whether the price includes tax or any fixed charge, so a bill priced from it can differ from a real bill.",
+  "inputs": {
+    "bill_start_day": {
+      "default": 1,
+      "max": 28,
+      "min": 1,
+      "type": "integer"
+    }
+  },
+  "bill": {
+    "period": {
+      "rule": "monthly",
+      "start_day": "$input.bill_start_day"
+    },
+    "total": {
+      "kind": "sum",
+      "of": {
+        "energy": {
+          "kind": "energy_by_band",
+          "round_bands": true
+        },
+        "standing": {
+          "kind": "per_day"
+        }
+      }
+    }
+  },
+  "providers": {
+    "government-tariff": {
+      "name": "Government of Tajikistan, decree tariff",
+      "tariffs": {
+        "population": {
+          "name": "Household tariff (population)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:8058cbc585d135ae74515b4fe92a16ad61206e9d30e54839b50ef5752f7f565b",
+              "effective_from": "2025-04-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    }
+  }
+}

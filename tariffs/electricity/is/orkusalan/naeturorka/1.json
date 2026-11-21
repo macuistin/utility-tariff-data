@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "name": "NæturOrka",
+  "provider": "Orkusalan",
+  "effective_from": "2026-05-01",
+  "source": {
+    "id": "is-orkusalan",
+    "url": "https://www.orkusalan.is/verdskra"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "Day"
+    },
+    {
+      "hours": "23:00-07:00",
+      "name": "Night"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "Day": "10.46",
+        "Night": "5.23"
+      },
+      "standing": "0"
+    }
+  }
+}

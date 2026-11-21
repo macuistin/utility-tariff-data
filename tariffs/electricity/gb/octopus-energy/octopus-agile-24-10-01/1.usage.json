@@ -1,0 +1,357 @@
+{
+ "tariff_checksum": "sha256:efd51e4924b63b2ef35f6471168f4766ea68b6fc322f92049e8d4a88f2c0cffe",
+ "currency": "GBP",
+ "scenario_set": {
+  "version": 1,
+  "checksum": "sha256:a4ebe2dffe9a2545e40c209b585ca4cfbd4f4c6a11b2fd7917a3d5c93eec6b6b"
+ },
+ "engine": "0.4.0",
+ "area": "a",
+ "prices_include_tax": true,
+ "results": {
+  "winter-home": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "winter-home+solar": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "winter-home+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "winter-home+shift": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "winter-home+shift+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "winter-home+solar+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "winter-home+solar+shift+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "winter-home+ev": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "winter-home+ev+solar": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "winter-home+ev+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "winter-home+ev+shift": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "winter-home+ev+shift+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "winter-home+ev+solar+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "winter-home+ev+solar+shift+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "spring-home": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "spring-home+solar": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "spring-home+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "spring-home+shift": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "spring-home+shift+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "spring-home+solar+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "spring-home+solar+shift+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "spring-home+ev": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "spring-home+ev+solar": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "spring-home+ev+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "spring-home+ev+shift": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "spring-home+ev+shift+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "spring-home+ev+solar+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "spring-home+ev+solar+shift+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "summer-home": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "summer-home+solar": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "summer-home+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "summer-home+shift": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "summer-home+shift+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "summer-home+solar+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "summer-home+solar+shift+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "summer-home+ev": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "summer-home+ev+solar": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "summer-home+ev+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "summer-home+ev+shift": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "summer-home+ev+shift+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "summer-home+ev+solar+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "summer-home+ev+solar+shift+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "autumn-home": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "autumn-home+solar": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "autumn-home+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "autumn-home+shift": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "autumn-home+shift+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "autumn-home+solar+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "autumn-home+solar+shift+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "autumn-home+ev": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "autumn-home+ev+solar": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "autumn-home+ev+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "autumn-home+ev+shift": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "autumn-home+ev+shift+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "autumn-home+ev+solar+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "autumn-home+ev+solar+shift+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "winter-heat-pump": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "winter-heat-pump+shift": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "winter-heat-pump+shift+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "winter-heat-pump+solar+shift+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "winter-heat-pump+ev": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "winter-heat-pump+ev+shift": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "winter-heat-pump+ev+shift+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "winter-heat-pump+ev+solar+shift+battery": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "winter-flat": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "winter-flat+shift": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "winter-home+battery5": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "winter-home+solar+shift+battery5": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "winter-home+battery15": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "winter-home+solar+shift+battery15": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "spring-home+battery5": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "spring-home+solar+shift+battery5": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "spring-home+battery15": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "spring-home+solar+shift+battery15": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "summer-home+battery5": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "summer-home+solar+shift+battery5": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "summer-home+battery15": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "summer-home+solar+shift+battery15": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "autumn-home+battery5": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "autumn-home+solar+shift+battery5": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "autumn-home+battery15": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "autumn-home+solar+shift+battery15": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "winter-heat-pump+shift+battery5": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "winter-heat-pump+solar+shift+battery5": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "winter-heat-pump+shift+battery15": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  },
+  "winter-heat-pump+solar+shift+battery15": {
+   "status": "skipped",
+   "reason": "MissingSeries: no cost was given for the price series 'octopus_agile'"
+  }
+ }
+}

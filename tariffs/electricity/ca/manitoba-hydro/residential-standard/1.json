@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "name": "Residential standard, up to 200 amp",
+  "provider": "Manitoba Hydro",
+  "timezone": "America/Winnipeg",
+  "effective_from": "2026-01-01",
+  "source": {
+    "id": "ca-manitoba-hydro",
+    "url": "https://www.hydro.mb.ca/accounts_and_services/rates/residential_rates/"
+  },
+  "prices_include_tax": false,
+  "bill": {
+    "total": {
+      "kind": "sum",
+      "of": {
+        "basic": {
+          "amount": "9.84",
+          "kind": "per_period",
+          "per": "month",
+          "share": "days_in_period"
+        },
+        "energy": {
+          "kind": "energy_by_band",
+          "round_bands": true
+        }
+      }
+    }
+  },
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "All day": "0.0997"
+      },
+      "standing": "0"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "name": "Domestic, other accounts and non-Bahraini",
+  "provider": "Electricity and Water Authority",
+  "effective_from": "2026-11-18",
+  "source": {
+    "id": "bh-ewa",
+    "url": "https://www.ewa.bh/en/tariff"
+  },
+  "bill": {
+    "total": {
+      "kind": "sum",
+      "of": {
+        "energy": {
+          "blocks": {
+            "threshold_1": {
+              "from_kwh": "0",
+              "price": "0.032"
+            }
+          },
+          "kind": "tiered_energy",
+          "limits": "month"
+        },
+        "standing": {
+          "kind": "per_day"
+        }
+      }
+    }
+  },
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "All day": "0.032"
+      },
+      "standing": "0"
+    }
+  }
+}

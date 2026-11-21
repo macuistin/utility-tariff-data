@@ -1,0 +1,103 @@
+{
+  "schema": 1,
+  "name": "SINGLE-PHASE SERVICE AP",
+  "provider": "Aiken Electric Coop Inc",
+  "timezone": "America/New_York",
+  "effective_from": "2025-01-01",
+  "source": {
+    "id": "openei-urdb-us",
+    "url": "https://apps.openei.org/USURDB/rate/view/69430f4cfeea97c1d00b30c9"
+  },
+  "bill": {
+    "period": {
+      "rule": "monthly",
+      "start_day": "$input.bill_start_day"
+    },
+    "total": {
+      "kind": "sum",
+      "of": {
+        "energy_p1": {
+          "bands": [
+            "Period 1"
+          ],
+          "blocks": {
+            "tier_1": {
+              "from_kwh": "0",
+              "price": "0.13",
+              "upto_kwh": "200"
+            },
+            "tier_2": {
+              "from_kwh": "200",
+              "price": "0.1085",
+              "upto_kwh": "1000"
+            },
+            "tier_3": {
+              "from_kwh": "1000",
+              "price": "0.121"
+            }
+          },
+          "kind": "tiered_energy",
+          "limits": "month"
+        },
+        "energy_p2": {
+          "bands": [
+            "Period 2"
+          ],
+          "blocks": {
+            "tier_1": {
+              "from_kwh": "0",
+              "price": "0.13",
+              "upto_kwh": "200"
+            },
+            "tier_2": {
+              "from_kwh": "200",
+              "price": "0.1085",
+              "upto_kwh": "1000"
+            },
+            "tier_3": {
+              "from_kwh": "1000",
+              "price": "0.104"
+            }
+          },
+          "kind": "tiered_energy",
+          "limits": "month"
+        },
+        "standing": {
+          "kind": "per_day"
+        }
+      }
+    }
+  },
+  "inputs": {
+    "bill_start_day": {
+      "default": 1,
+      "max": 28,
+      "min": 1,
+      "type": "integer"
+    }
+  },
+  "bands": [
+    {
+      "name": "Period 2"
+    },
+    {
+      "hours": "00:00-23:59",
+      "months": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "name": "Period 1"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "Period 1": "0.13",
+        "Period 2": "0.13"
+      },
+      "standing": "1.35"
+    }
+  }
+}

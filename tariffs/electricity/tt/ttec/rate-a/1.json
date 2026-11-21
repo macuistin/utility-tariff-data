@@ -1,0 +1,57 @@
+{
+  "schema": 1,
+  "name": "Residential Rate A",
+  "provider": "Trinidad and Tobago Electricity Commission",
+  "effective_from": "2009-09-01",
+  "source": {
+    "id": "tt-ttec",
+    "url": "https://ttec.co.tt/tariffs-2/"
+  },
+  "prices_include_tax": false,
+  "bill": {
+    "total": {
+      "kind": "sum",
+      "of": {
+        "customer_charge": {
+          "amount": "3.00",
+          "kind": "per_period",
+          "per": "month",
+          "share": "days_in_period"
+        },
+        "energy": {
+          "blocks": {
+            "tier_1": {
+              "from_kwh": "0",
+              "price": "0.26",
+              "upto_kwh": "200"
+            },
+            "tier_2": {
+              "from_kwh": "200",
+              "price": "0.32",
+              "upto_kwh": "500"
+            },
+            "tier_3": {
+              "from_kwh": "500",
+              "price": "0.37"
+            }
+          },
+          "kind": "tiered_energy",
+          "limits": "month"
+        }
+      }
+    }
+  },
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "All day": "0.26"
+      },
+      "standing": "0"
+    }
+  }
+}

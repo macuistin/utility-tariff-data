@@ -1,0 +1,78 @@
+{
+  "schema": 1,
+  "name": "RESIDENTIAL TIME-OF-USE RATE SCHEDULE RT-25",
+  "provider": "South Carolina Pub Serv Auth",
+  "timezone": "America/New_York",
+  "effective_from": "2025-04-01",
+  "source": {
+    "id": "openei-urdb-us",
+    "url": "https://apps.openei.org/USURDB/rate/view/681172388467f7f9150bffbd"
+  },
+  "bill": {
+    "period": {
+      "rule": "monthly",
+      "start_day": "$input.bill_start_day"
+    },
+    "total": {
+      "kind": "sum",
+      "of": {
+        "energy": {
+          "kind": "energy_by_band"
+        },
+        "fixed": {
+          "amount": "20",
+          "kind": "per_period",
+          "per": "month",
+          "share": "whole"
+        }
+      }
+    }
+  },
+  "inputs": {
+    "bill_start_day": {
+      "default": 1,
+      "max": 28,
+      "min": 1,
+      "type": "integer"
+    }
+  },
+  "bands": [
+    {
+      "name": "Period 1"
+    },
+    {
+      "hours": "15:00-18:00",
+      "months": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "name": "Period 2"
+    },
+    {
+      "hours": "06:00-09:00",
+      "months": [
+        1,
+        2,
+        3,
+        11,
+        12
+      ],
+      "name": "Period 3"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "Period 1": "0.11561",
+        "Period 2": "0.37441",
+        "Period 3": "0.37441"
+      },
+      "standing": "0"
+    }
+  }
+}

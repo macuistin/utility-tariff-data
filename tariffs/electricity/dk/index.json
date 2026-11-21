@@ -1,0 +1,472 @@
+{
+  "schema": 1,
+  "country": "DK",
+  "currency": "DKK",
+  "timezone": "Europe/Copenhagen",
+  "vat_percent": "25",
+  "availability": "partial",
+  "reason": "Only the grid charge of each network company is held, from Energinet's price list. A bill also has the supplier's price, Energinet's charges, the electricity tax and the subscription, none of which are in these plans, so the standing charge is 0 and a bill priced from them is not a real bill.",
+  "reason_local": {
+    "language": "da",
+    "text": "Kun nettariffen for hvert netselskab er med, fra Energinets prisliste. En regning indeholder også elleverandørens pris, Energinets gebyrer, elafgiften og abonnementet, som ikke er med i disse tariffer. Derfor er det faste gebyr 0, og en regning beregnet ud fra dem er ikke en rigtig regning."
+  },
+  "inputs": {
+    "bill_start_day": {
+      "default": 1,
+      "max": 28,
+      "min": 1,
+      "type": "integer"
+    }
+  },
+  "bill": {
+    "period": {
+      "rule": "monthly",
+      "start_day": "$input.bill_start_day"
+    },
+    "total": {
+      "kind": "tax",
+      "mode": "added",
+      "name": "VAT",
+      "of": {
+        "kind": "sum",
+        "of": {
+          "energy": {
+            "kind": "energy_by_band",
+            "round_bands": true
+          },
+          "standing": {
+            "kind": "per_day"
+          }
+        }
+      },
+      "percent": "$country.vat_percent"
+    }
+  },
+  "providers": {
+    "cerius-a-s": {
+      "name": "Cerius A/S",
+      "tariffs": {
+        "cerius-a-s-30tr-c-et": {
+          "name": "Nettarif C (30TR_C_ET), grid charge only",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:4105dc38a90c4ac22cc8ffe99e42dbceba3cf7942b51df787ec69296f79ecf42",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "dinel-a-s": {
+      "name": "Dinel A/S",
+      "tariffs": {
+        "dinel-a-s-tcl-100-02": {
+          "name": "Nettarif C (TCL>100_02), grid charge only",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:2204bed93d269b0aa7d4c46705833395f4e0a3e48780b660d0660fbef242b610",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "elektrus-a-s": {
+      "name": "Elektrus A/S",
+      "tariffs": {
+        "elektrus-a-s-6000091": {
+          "name": "Nettarif C (6000091), grid charge only",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:46f8dac5be160320f994ef939dc76ed235c09f69270be15b410fefc40e0d430c",
+              "effective_from": "2026-11-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "elnet-midt-a-s": {
+      "name": "Elnet Midt A/S",
+      "tariffs": {
+        "elnet-midt-a-s-t3001": {
+          "name": "Nettarif C (T3001), grid charge only",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:768c23a2d906a616e160c3fc78ad6161554b9ce4b63c30353237b722d9c9918c",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "elnet-midt-a-s-t3002": {
+          "name": "Nettarif C (T3002), grid charge only",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:84b5995129656bb230d6e724361877794387fdfae683e0ed22db02fcc62de670",
+              "effective_from": "2023-07-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "flow-elnet-a-s": {
+      "name": "FLOW Elnet A/S",
+      "tariffs": {
+        "flow-elnet-a-s-fe1-nt-01": {
+          "name": "Nettarif C (FE1 NT-01), grid charge only",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:e03cd9ed9ecbc38cc6220690e37a0c990a50133e991ce5cc0adf0b70d553f32d",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "hammel-elforsyning-net-a-s": {
+      "name": "Hammel Elforsyning Net A/S",
+      "tariffs": {
+        "hammel-elforsyning-net-a-s-c-tarif": {
+          "name": "Nettarif C (C-Tarif), grid charge only",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:8e6f72ecb0833be6355b4f0fbf3076866a0b395d64225da2b5089a10c56e9ba6",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "konstant-net-a-s-151": {
+      "name": "Konstant Net A/S - 151",
+      "tariffs": {
+        "konstant-net-a-s-151-c-fbtntr-b": {
+          "name": "Nettarif C (C_FBTNTR_B), grid charge only",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:89894e2e3c3a124cf1d14dfdcb953e1c703d26e49cbb3a6e5d704cfcaea80d71",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "konstant-net-a-s-245": {
+      "name": "Konstant Net A/S - 245",
+      "tariffs": {
+        "konstant-net-a-s-245-c-fbtntr-b": {
+          "name": "Nettarif C (C_FBTNTR_B), grid charge only",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:5f798d2a06925294c38708da96050bee6439427119cc43a4e1f74be6e442713e",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "l-net-a-s": {
+      "name": "L-Net A/S",
+      "tariffs": {
+        "l-net-a-s-3000": {
+          "name": "Nettarif C (3000), grid charge only",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:248359188c8e0190fc74bac1ac51bf858920f44f6c0b002784910d420ab6e659",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "midtfyns-elforsyning-a-m-b-a": {
+      "name": "Midtfyns Elforsyning  A.m.b.A",
+      "tariffs": {
+        "midtfyns-elforsyning-a-m-b-a-tnt15000": {
+          "name": "Nettarif C (TNT15000), grid charge only",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:30ab801b6f7f0097f5764516b324dd32a3bd82eb8a11318813596ddaabace524",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "midtfyns-elforsyning-a-m-b-a-tnt15001": {
+          "name": "Nettarif C (TNT15001), grid charge only",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:867fa6e10d60d67f81b310e494ec605f91d85224e98173fc96cedbeae262815c",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "n1-a-s-016": {
+      "name": "N1 A/S - 016",
+      "tariffs": {
+        "n1-a-s-016-c-tarif": {
+          "name": "Nettarif C (C-Tarif), grid charge only",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:4bb3f1fbcc285ebd5d3e23fd32299724bd1d44c9631deb1baf7fb0d73c509646",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "n1-a-s-131": {
+      "name": "N1 A/S - 131",
+      "tariffs": {
+        "n1-a-s-131-cd": {
+          "name": "Nettarif C (CD), grid charge only",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:c18a48ecfbff2b95a35b32659249d0fa11c5f7f3419d715677c0146aad608dff",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "n1-a-s-344": {
+      "name": "N1 A/S - 344",
+      "tariffs": {
+        "n1-a-s-344-t-c-f-f-td": {
+          "name": "Nettarif C (T-C-F-F-TD), grid charge only",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:99afaa48cb061e26d612ecc4b3734bcdf6480c02f7bca5de5647cf850f94ed9f",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "n1-a-s-344-t-c-f-t-td": {
+          "name": "Nettarif C (T-C-F-T-TD), grid charge only",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:2ab078455cccca73eeda426afa02390deb9dba38c7e8d429a813258313ed03a2",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "netselskabet-elvaerk-a-s": {
+      "name": "Netselskabet Elværk A/S",
+      "tariffs": {
+        "netselskabet-elvaerk-a-s-5ncff": {
+          "name": "Nettarif C (5NCFF), grid charge only",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:d901daf424afc7dbed65bb497c467c985b9c0d0a75890d863f3b32096bf841c3",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "noe-net-a-s": {
+      "name": "NOE Net A/S",
+      "tariffs": {
+        "noe-net-a-s-30030": {
+          "name": "Nettarif C (30030), grid charge only",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:cfd6309bdb8faedbae85a5e736e8b5768e7fa53cdec14306c7c6fc9c09db872e",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "nord-energi-net-a-s": {
+      "name": "Nord Energi Net A/S",
+      "tariffs": {
+        "nord-energi-net-a-s-tac": {
+          "name": "Nettarif C (TAC), grid charge only",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:b564b42148ff97c6a2a800185ffa4350bf84f08aedaec86bc62b783c89836848",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "radius-elnet-a-s": {
+      "name": "Radius Elnet A/S",
+      "tariffs": {
+        "radius-elnet-a-s-dt-c-01": {
+          "name": "Nettarif C (DT_C_01), grid charge only",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:ea71e298d90780c562922fc995b468f8e28c99ac493a34f317e343d04cc1d9ef",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "rah-net-a-s": {
+      "name": "RAH Net A/S",
+      "tariffs": {
+        "rah-net-a-s-rah-c": {
+          "name": "Nettarif C (RAH-C), grid charge only",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:493f3a83ed4828c469a40b300369a0e54ae674a2bdc326e46525d457d560244c",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "ravdex-a-s": {
+      "name": "Ravdex A/S",
+      "tariffs": {
+        "ravdex-a-s-nt-c": {
+          "name": "Nettarif C (NT-C), grid charge only",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:77623134eeded8cf58f68eacb05a1eb929cfe6957adaa0e4ee82274e99bb35bb",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "sunds-net-a-m-b-a": {
+      "name": "Sunds Net A.m.b.a",
+      "tariffs": {
+        "sunds-net-a-m-b-a-sef-nt-05": {
+          "name": "Nettarif C (SEF-NT-05), grid charge only",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:322199bda4defe6ba5f843aeb22c855a61caf7da7fd1bc578926160862229aaf",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "tarm-elvaerk-net-a-s": {
+      "name": "Tarm Elværk Net A/S",
+      "tariffs": {
+        "tarm-elvaerk-net-a-s-tev-nt-01t": {
+          "name": "Nettarif C (TEV-NT-01T), grid charge only",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:1077cb82cf51d4f344949ff79b1798d8b5879c6a29c11c890dcf0701f5ccac2f",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "trefor-el-net-a-s": {
+      "name": "TREFOR El-net A/S",
+      "tariffs": {
+        "trefor-el-net-a-s-c": {
+          "name": "Nettarif C (C), grid charge only",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:da7411e2a7e2fc39ed64d6fc98b6f84efd77310a68ed3a3ff395b7a41c4f3cfe",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "trefor-el-net-oest-a-s": {
+      "name": "TREFOR El-net Øst A/S",
+      "tariffs": {
+        "trefor-el-net-oest-a-s-46": {
+          "name": "Nettarif C (46), grid charge only",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:a7b0210ea06b14be116e0cf6ca0de289cb8400572ba364e877e7275914e8d1a8",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "veksel-a-s": {
+      "name": "Veksel A/S",
+      "tariffs": {
+        "veksel-a-s-nt-01": {
+          "name": "Nettarif C (NT-01), grid charge only",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:a9f2e822ac000af86c89d1bdcfb7df5597b588d5d0875401d2613435be5561e9",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "veksel-a-s-nt-10": {
+          "name": "Nettarif C (NT-10), grid charge only",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:5a6696b321fa742d8ba8f9b556a80d0725f93beb0cba07c98b66ccb1f8bc2653",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "vores-elnet-a-s": {
+      "name": "Vores Elnet A/S",
+      "tariffs": {
+        "vores-elnet-a-s-tnt1009": {
+          "name": "Nettarif C (TNT1009), grid charge only",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:abc51fb59e5ccfcc16f58fcc02ae55d8a3737865f0f997cc8cb2560a72fe7d52",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "vores-elnet-a-s-tnt1011": {
+          "name": "Nettarif C (TNT1011), grid charge only",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:7fcdc8f340622f24118580b2526fcf68a9bc7672157e8ee471dbedbdb9f64fa7",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    }
+  }
+}

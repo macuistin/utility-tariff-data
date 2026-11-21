@@ -1,0 +1,64 @@
+{
+  "schema": 1,
+  "name": "Residential",
+  "provider": "Cuivre River Electric Coop Inc",
+  "timezone": "America/Chicago",
+  "effective_from": "2025-01-01",
+  "source": {
+    "id": "openei-urdb-us",
+    "url": "https://apps.openei.org/USURDB/rate/view/539f6ddcec4f024411ecbb0b"
+  },
+  "bill": {
+    "period": {
+      "rule": "monthly",
+      "start_day": "$input.bill_start_day"
+    },
+    "total": {
+      "kind": "sum",
+      "of": {
+        "energy_p1": {
+          "bands": [
+            "Period 1"
+          ],
+          "blocks": {
+            "tier_1": {
+              "from_kwh": "0",
+              "price": "0.103",
+              "upto_kwh": "800"
+            },
+            "tier_2": {
+              "from_kwh": "800",
+              "price": "0.0855"
+            }
+          },
+          "kind": "tiered_energy",
+          "limits": "month"
+        },
+        "standing": {
+          "kind": "per_day"
+        }
+      }
+    }
+  },
+  "inputs": {
+    "bill_start_day": {
+      "default": 1,
+      "max": 28,
+      "min": 1,
+      "type": "integer"
+    }
+  },
+  "bands": [
+    {
+      "name": "Period 1"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "Period 1": "0.103"
+      },
+      "standing": "0.9"
+    }
+  }
+}

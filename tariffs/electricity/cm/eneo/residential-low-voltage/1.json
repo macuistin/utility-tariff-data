@@ -1,0 +1,65 @@
+{
+  "schema": 1,
+  "name": "Residential low voltage",
+  "provider": "Eneo Cameroon",
+  "effective_from": "2012-06-01",
+  "source": {
+    "id": "cm-arsel",
+    "url": "https://arsel-cm.org/tarifs-basse-tension/"
+  },
+  "prices_include_tax": false,
+  "bill": {
+    "total": {
+      "kind": "tax",
+      "mode": "added",
+      "name": "VAT",
+      "of": {
+        "kind": "sum",
+        "of": {
+          "energy": {
+            "blocks": {
+              "block_1": {
+                "from_kwh": "0",
+                "price": "50",
+                "upto_kwh": "110"
+              },
+              "block_2": {
+                "from_kwh": "110",
+                "price": "79",
+                "upto_kwh": "400"
+              },
+              "block_3": {
+                "from_kwh": "400",
+                "price": "94",
+                "upto_kwh": "800"
+              },
+              "block_4": {
+                "from_kwh": "800",
+                "price": "99"
+              }
+            },
+            "kind": "tiered_energy",
+            "limits": "month"
+          },
+          "standing": {
+            "kind": "per_day"
+          }
+        }
+      },
+      "percent": "$country.vat_percent"
+    }
+  },
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "All day": "50"
+      },
+      "standing": "0"
+    }
+  }
+}

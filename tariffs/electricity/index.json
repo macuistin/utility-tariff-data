@@ -1,0 +1,280 @@
+{
+  "schema": 1,
+  "countries": {
+    "AT": {
+      "availability": "partial",
+      "checksum": "sha256:314320723a86ced55e8d92588175702c6e7642c16f72811edaf87507c2c7bb64",
+      "path": "at/index.json",
+      "providers": 26,
+      "reason": "Only the supplier's energy price and base charge are held, from E-Control's tariff calculator. A bill also has grid charges, levies, the municipal tax and any discounts, none of which are in these plans, so a bill priced from them is below a real bill.",
+      "reason_local": {
+        "language": "de",
+        "text": "Es sind nur der Energiepreis und der Grundpreis des Lieferanten hinterlegt, aus dem Tarifkalkulator der E-Control. Eine Rechnung enthält außerdem Netzentgelte, Abgaben, die Gemeindeabgabe und etwaige Rabatte, die in diesen Tarifen nicht enthalten sind. Eine daraus berechnete Rechnung liegt daher unter einer echten Rechnung."
+      },
+      "tariffs": 45
+    },
+    "AU": {
+      "availability": "partial",
+      "checksum": "sha256:a38e7cfc1b3e6eddd32a1134df1d15bfc5a4c6f139bee0692b5ac1c96b864476",
+      "path": "au/index.json",
+      "providers": 16,
+      "reason": "Retailer plans read from the Consumer Data Right endpoints, about 8 per retailer for 17 of 20 retailers. Plans with seasonal periods, volume tiers or weekday and weekend windows are skipped. Only New South Wales, Victoria, ACT and Tasmania are held, because the country block has one timezone and Queensland, South Australia, Western Australia and the Northern Territory use others.",
+      "tariffs": 126
+    },
+    "BE": {
+      "availability": "unavailable",
+      "checked": "2026-11-10",
+      "reason": "The VREG site timed out and no regulator tariff dataset was found for Brussels or Wallonia. Tariff cards are supplier PDFs."
+    },
+    "BH": {
+      "availability": "partial",
+      "checksum": "sha256:eac935979763b37c2021edd8c83f6e1b1c410206ab179a6a39a16263138a4961",
+      "path": "bh/index.json",
+      "providers": 1,
+      "reason": "Only EWA's domestic electricity tariffs are held. The page states no VAT, no fixed charge and no billing period for the thresholds, so the thresholds are read as monthly.",
+      "tariffs": 2
+    },
+    "BM": {
+      "availability": "partial",
+      "checksum": "sha256:cb293827bbecdfe0958a9160a81c939add33ba6e28ad3a5cc31148015afc4b40",
+      "path": "bm/index.json",
+      "providers": 1,
+      "reason": "Only BELCO's residential energy charge, fuel adjustment rate and Regulatory Authority fee are held. The monthly Graduated Facilities Charge depends on average daily use and is not, so a bill priced from them is below a real bill. Commercial rates are not held.",
+      "tariffs": 1
+    },
+    "BR": {
+      "availability": "partial",
+      "checksum": "sha256:144eb67bbb72aa8616e93f18d4ece7052a4962411f3208907a8006fa8e80ff35",
+      "path": "br/index.json",
+      "providers": 42,
+      "reason": "Each distributor's residential conventional tariff, read from a third-party copy of ANEEL's tariff table. Taxes (ICMS, PIS and COFINS) and the monthly tariff flag surcharge are not in the prices, so a bill priced from them is below a real bill. The white tariff, low-income and pre-paid tariffs are not held.",
+      "reason_local": {
+        "language": "pt",
+        "text": "A tarifa residencial convencional de cada distribuidora, lida de uma cópia de terceiros da tabela de tarifas da ANEEL. Os impostos (ICMS, PIS e COFINS) e o adicional da bandeira tarifária mensal não estão nos preços, por isso uma fatura calculada com eles fica abaixo de uma fatura real. A tarifa branca, a tarifa social de baixa renda e as tarifas pré-pagas não estão incluídas."
+      },
+      "tariffs": 42
+    },
+    "CA": {
+      "availability": "partial",
+      "checksum": "sha256:2030a48e010f7e7e16846c9901e6e0e9e5171263ffa9be92ff79cbe09e5a8a96",
+      "path": "ca/index.json",
+      "providers": 3,
+      "reason": "Only Hydro-Québec's domestic Rate D, Manitoba Hydro's residential standard rates and NB Power's residential rates are held, each from its own rate page or book. Sales tax differs by province and is not in the prices, so a bill carries no tax line. Canada spans six time zones, so a tariff names its own where it differs.",
+      "reason_local": {
+        "language": "fr",
+        "text": "Seuls le tarif D de Hydro-Québec, les tarifs résidentiels standard de Manitoba Hydro et les tarifs résidentiels de NB Power sont inclus, chacun tiré de sa propre page ou de son propre recueil de tarifs. La taxe de vente varie selon la province et n'est pas comprise dans les prix, de sorte qu'une facture ne comporte aucune ligne de taxe. Le Canada couvre six fuseaux horaires, c'est pourquoi un tarif indique le sien lorsqu'il diffère."
+      },
+      "tariffs": 5
+    },
+    "CH": {
+      "availability": "partial",
+      "checksum": "sha256:4c224d05b7ed11f9fbcd2ac01a58ed236680a08079f5cfd38ac2516103719185",
+      "path": "ch/index.json",
+      "providers": 2,
+      "reason": "Only utilities whose tariffs are on the Strompreise Schweiz data hub are held, and for each only the electricity and grid tariffs the utility marks as its standard. Metering, fees and municipal charges are not in the plans, so a bill priced from them is below a real bill.",
+      "reason_local": {
+        "language": "de",
+        "text": "Es sind nur Werke hinterlegt, deren Tarife auf dem Datenportal Strompreise Schweiz stehen, und je Werk nur die Strom- und Netztarife, die das Werk als Standard kennzeichnet. Messung, Gebühren und Gemeindeabgaben sind in den Tarifen nicht enthalten. Eine daraus berechnete Rechnung liegt daher unter einer echten Rechnung."
+      },
+      "tariffs": 2
+    },
+    "CM": {
+      "availability": "partial",
+      "checksum": "sha256:28e8b29cf8143190dce7db8ecea254c99891fdbb5f920d8daa71a72caebd7db6",
+      "path": "cm/index.json",
+      "providers": 1,
+      "reason": "Only Eneo's residential low-voltage tariff is held, from a regulator decision dated 2012 that is the latest on its page. The tax rate is the general rate and the page states none.",
+      "tariffs": 1
+    },
+    "DE": {
+      "availability": "unavailable",
+      "checked": "2026-11-10",
+      "reason": "No regulator tariff register exists. The comparison sites hold the plans and their terms have not been checked."
+    },
+    "DK": {
+      "availability": "partial",
+      "checksum": "sha256:b2c94c7e0c1de7d8b0261771e0834893b79ce60e5df630e002519109683b150a",
+      "path": "dk/index.json",
+      "providers": 25,
+      "reason": "Only the grid charge of each network company is held, from Energinet's price list. A bill also has the supplier's price, Energinet's charges, the electricity tax and the subscription, none of which are in these plans, so the standing charge is 0 and a bill priced from them is not a real bill.",
+      "reason_local": {
+        "language": "da",
+        "text": "Kun nettariffen for hvert netselskab er med, fra Energinets prisliste. En regning indeholder også elleverandørens pris, Energinets gebyrer, elafgiften og abonnementet, som ikke er med i disse tariffer. Derfor er det faste gebyr 0, og en regning beregnet ud fra dem er ikke en rigtig regning."
+      },
+      "tariffs": 30
+    },
+    "ES": {
+      "availability": "unavailable",
+      "checked": "2026-11-10",
+      "reason": "The regulated PVPC tariff is indexed to the hourly wholesale price and has weekday periods, which the format cannot express. The ESIOS API needs a personal token."
+    },
+    "FR": {
+      "availability": "partial",
+      "checksum": "sha256:fa2427d7d87716d7befcc23167e24945c2ee2340111651912a9c6034cd6719b5",
+      "path": "fr/index.json",
+      "providers": 1,
+      "reason": "Regulated Tarif Bleu, Base option only. Off-peak (Heures Creuses) and Tempo options are skipped. Prices are all-taxes figures, and the real VAT is 5.5% on the subscription and 20% on energy.",
+      "reason_local": {
+        "language": "fr",
+        "text": "Seul le Tarif Bleu réglementé, option Base, est inclus. Les options Heures Creuses et Tempo sont ignorées. Les prix sont des montants toutes taxes comprises, alors que la TVA réelle est de 5,5 % sur l'abonnement et de 20 % sur l'énergie."
+      },
+      "tariffs": 5
+    },
+    "GB": {
+      "availability": "available",
+      "checksum": "sha256:ac05f23e99bc81e1fe12169f3223cef9a3241f6e03e2ec7d01c0ef56a442cab8",
+      "path": "gb/index.json",
+      "providers": 2,
+      "tariffs": 11
+    },
+    "IE": {
+      "availability": "available",
+      "checksum": "sha256:0ae9ae457181835a6907e313cba71e28c798855501f4159163de034340e155e4",
+      "path": "ie/index.json",
+      "providers": 11,
+      "tariffs": 48
+    },
+    "IN": {
+      "availability": "partial",
+      "checksum": "sha256:4e5d100c5a19845ff8e7321643788900e8863a3241de3e5e910220dcde7359a2",
+      "path": "in/index.json",
+      "providers": 13,
+      "reason": "Domestic tariffs of Karnataka, Delhi and Uttar Pradesh, read from OpenBijli's tariff books. Each needs the customer's sanctioned load in kW. Only values a book marks verified are held, so a monthly fuel adjustment or duty the book has not confirmed is missing and a bill priced from these is below a real one. Other states need charges per connection, two-month bills or conditions the format cannot hold yet.",
+      "reason_local": {
+        "language": "hi",
+        "text": "केवल कर्नाटक, दिल्ली और उत्तर प्रदेश के घरेलू टैरिफ़ शामिल हैं, जो OpenBijli की टैरिफ़ पुस्तकों से लिए गए हैं। हर टैरिफ़ के लिए ग्राहक का स्वीकृत भार (किलोवाट में) चाहिए। केवल वही मान रखे गए हैं जिन्हें पुस्तक सत्यापित बताती है, इसलिए मासिक ईंधन समायोजन या शुल्क, जिसकी पुस्तक ने पुष्टि नहीं की, शामिल नहीं है और इनसे बना बिल असली बिल से कम होता है। अन्य राज्यों में प्रति कनेक्शन शुल्क, दो महीने के बिल या ऐसी शर्तें हैं जिन्हें यह प्रारूप अभी संभाल नहीं सकता।"
+      },
+      "tariffs": 18
+    },
+    "IS": {
+      "availability": "partial",
+      "checksum": "sha256:66b1bc5f14be324c0fabad677acff6cd5d915230b33002ed5435d5cb5fb9cf4d",
+      "path": "is/index.json",
+      "providers": 1,
+      "reason": "Only Orkusalan's energy prices are held. The grid charge from the local network company and the 11% heating rate are not, so a bill priced from these plans is below a real bill.",
+      "tariffs": 5
+    },
+    "IT": {
+      "availability": "unavailable",
+      "checked": "2026-11-10",
+      "reason": "The ARERA Portale Offerte site is reachable, but the open-data file was not found. Many offers are indexed to the wholesale price, and only fixed-price offers could be held."
+    },
+    "MK": {
+      "availability": "partial",
+      "checksum": "sha256:472f6cf59d59e00c68247eabaa4631fc166b6952b21922bf564d91844769e38e",
+      "path": "mk/index.json",
+      "providers": 1,
+      "reason": "The household supply prices of EVN Home, the universal supplier, from its website. The page states no VAT and the grid charge is separate, so a bill carries no tax line.",
+      "tariffs": 1
+    },
+    "MT": {
+      "availability": "partial",
+      "checksum": "sha256:478b1ebc016f78bc8d66547bc02e0c850f3bfc0659d010632f40390c4dd73a20",
+      "path": "mt/index.json",
+      "providers": 1,
+      "reason": "Only Enemalta's Residential and Domestic consumption tariffs on a single-phase supply are held. The Eco Reduction discount, the three-phase service charge and the maximum demand tariff are not, so a bill priced from them can differ from a real bill.",
+      "tariffs": 2
+    },
+    "NL": {
+      "availability": "unavailable",
+      "checked": "2026-11-10",
+      "reason": "No regulator plan list was found. Searched only briefly."
+    },
+    "PT": {
+      "availability": "partial",
+      "checksum": "sha256:ea4ddee26187d3ebc13f0d6051bd8bc638dd3523da1f77b1ae38e4e4f159d662",
+      "path": "pt/index.json",
+      "providers": 1,
+      "reason": "Only the regulated simple tariff of the last resort supplier for mainland supplies up to 20.7 kVA is held, from the regulator's workbook. VAT and the electricity duty are not in the prices and the VAT rate depends on the supply, so a bill carries no tax line. Most customers are on a market offer, not this tariff.",
+      "reason_local": {
+        "language": "pt",
+        "text": "Apenas a tarifa simples regulada do comercializador de último recurso, para o continente e potências até 20,7 kVA, lida do ficheiro da entidade reguladora. O IVA e o imposto especial sobre o consumo de eletricidade não estão nos preços e a taxa de IVA depende do fornecimento, por isso uma fatura não tem linha de imposto. A maioria dos clientes tem uma oferta de mercado, e não esta tarifa."
+      },
+      "tariffs": 1
+    },
+    "SE": {
+      "availability": "unavailable",
+      "checked": "2026-11-10",
+      "reason": "Elpriskollen is reachable but offers no public API. Many contracts are spot price plus a markup, which the format cannot express."
+    },
+    "SG": {
+      "availability": "available",
+      "checksum": "sha256:0b541a9fd1773dc3dcab1decc4e250e20f209ec9bca6b89b1c3b6271cbd0998f",
+      "path": "sg/index.json",
+      "providers": 1,
+      "tariffs": 1
+    },
+    "SI": {
+      "availability": "partial",
+      "checksum": "sha256:959e149fdc2126ecb49826f0628473d9c69a0d2b1074bacf4ebaef9041912f90",
+      "path": "si/index.json",
+      "providers": 1,
+      "reason": "Only GEN-I's single-tariff energy price and monthly fee are held. The network charge, levies and other suppliers are not, so a bill priced from this plan is below a real bill.",
+      "tariffs": 1
+    },
+    "SK": {
+      "availability": "partial",
+      "checksum": "sha256:13a0ed80daa582911563c1c5693711e45fc3cd6e40a034b1fcff8597075a8a1e",
+      "path": "sk/index.json",
+      "providers": 1,
+      "reason": "Only ZSE's two single-rate household products are held, at the price for supplying the energy. The network charges, the monthly payments, the two-rate products and the targeted energy aid are not, so a bill priced from them differs from a real bill.",
+      "tariffs": 2
+    },
+    "TJ": {
+      "availability": "partial",
+      "checksum": "sha256:530e28b5470118cd7671d656726042be4eb5c16051d01e331e534213f0fee4be",
+      "path": "tj/index.json",
+      "providers": 1,
+      "reason": "Only the household tariff of the government decree is held. The decree does not say whether the price includes tax or any fixed charge, so a bill priced from it can differ from a real bill.",
+      "tariffs": 1
+    },
+    "TT": {
+      "availability": "partial",
+      "checksum": "sha256:f485802ae9294073e7fb50035a33cb098c85176066fbf52607a484e0fc7fa620",
+      "path": "tt/index.json",
+      "providers": 1,
+      "reason": "Only T&TEC's residential Rate A is held, as published on its page with an effective date of September 2009. The minimum bill is not held. VAT on household electricity is not stated, so none is added.",
+      "tariffs": 1
+    },
+    "UA": {
+      "availability": "partial",
+      "checksum": "sha256:ef15406bc5ad177e48578ca3b8bab34dc85f53810b97c218713753ae9331ad32",
+      "path": "ua/index.json",
+      "providers": 1,
+      "reason": "Only the fixed household supply price is held. The distribution tariff of each network company is not, and neither is the lower price for homes heated by electricity, so a bill priced from this plan is below a real bill.",
+      "tariffs": 1
+    },
+    "UG": {
+      "availability": "partial",
+      "checksum": "sha256:6b3fb243ea3a9d18985639c131530f190097e382b0dfac01a7dc06903bc67616",
+      "path": "ug/index.json",
+      "providers": 1,
+      "reason": "Domestic and small commercial energy prices from the regulator's quarterly schedule. The schedule states no VAT, so a bill carries no tax line. Lifeline, cooking and time-of-use prices are not stored.",
+      "tariffs": 2
+    },
+    "US": {
+      "availability": "partial",
+      "checksum": "sha256:72180b9ec7ef1eb045440e4e240bc8afbd8fa1cf20764d2b03fd3a704f914361",
+      "path": "us/index.json",
+      "providers": 36,
+      "reason": "No tariffs are held yet. The United States keeps four main time zones and sales tax differs by state and is not in the prices, so a tariff names its own time zone and a bill carries no tax line. Tariffs will come from the OpenEI utility rate database.",
+      "tariffs": 58
+    },
+    "ZA": {
+      "availability": "partial",
+      "checksum": "sha256:ee1ba193216204ccb15e6f1b7809952d465d3448df570ebb783c457dbda751ae",
+      "path": "za/index.json",
+      "providers": 1,
+      "reason": "Eskom direct residential tariffs from the 2026/27 tariff booklet (Homelight and Homepower). Homeflex, bulk, generation-offset and municipal tariffs are not held.",
+      "tariffs": 6
+    },
+    "ZM": {
+      "availability": "partial",
+      "checksum": "sha256:02e252d8094d8b8a85e646f9a291186c97ba89e499378297546f26f2b9ab3539",
+      "path": "zm/index.json",
+      "providers": 1,
+      "reason": "Only ZESCO's residential tariff for supplies up to 15 kVA is held, from its tariff schedule. The page states no VAT, so a bill carries no tax line.",
+      "tariffs": 1
+    }
+  }
+}

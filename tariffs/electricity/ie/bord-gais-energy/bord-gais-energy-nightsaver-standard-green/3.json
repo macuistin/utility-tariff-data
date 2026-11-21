@@ -1,0 +1,38 @@
+{
+  "schema": 1,
+  "name": "NightSaver Standard Green",
+  "provider": "Bord Gais Energy",
+  "effective_from": "2026-11-16",
+  "source": {
+    "id": "selectra-ie",
+    "url": "https://selectra.ie/energy/providers/bord-gais-energy"
+  },
+  "export": "bord-gais-energy/bord-gais-energy-microgen-export",
+  "bands": [
+    {
+      "name": "Day"
+    },
+    {
+      "hours": "23:00-08:00",
+      "name": "Night"
+    }
+  ],
+  "areas": {
+    "rural": {
+      "label": "Rural",
+      "rates": {
+        "Day": "0.358065",
+        "Night": "0.177016"
+      },
+      "standing": "1.171205"
+    },
+    "urban": {
+      "label": "Urban",
+      "rates": {
+        "Day": "0.351307",
+        "Night": "0.173964"
+      },
+      "standing": "0.94526"
+    }
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "schema": 1,
+  "name": "1A (Residential Service)",
+  "provider": "Public Service Co of NM",
+  "timezone": "America/Denver",
+  "effective_from": "2025-11-15",
+  "source": {
+    "id": "openei-urdb-us",
+    "url": "https://apps.openei.org/USURDB/rate/view/69334a6f265fd7e5c10e834c"
+  },
+  "bill": {
+    "period": {
+      "rule": "monthly",
+      "start_day": "$input.bill_start_day"
+    },
+    "total": {
+      "kind": "sum",
+      "of": {
+        "energy_p1": {
+          "bands": [
+            "Period 1"
+          ],
+          "blocks": {
+            "tier_1": {
+              "from_kwh": "0",
+              "price": "0.136882",
+              "upto_kwh": "450"
+            },
+            "tier_2": {
+              "from_kwh": "450",
+              "price": "0.193198",
+              "upto_kwh": "900"
+            },
+            "tier_3": {
+              "from_kwh": "900",
+              "price": "0.241718"
+            }
+          },
+          "kind": "tiered_energy",
+          "limits": "month"
+        },
+        "energy_p2": {
+          "bands": [
+            "Period 2"
+          ],
+          "blocks": {
+            "tier_1": {
+              "from_kwh": "0",
+              "price": "0.136882",
+              "upto_kwh": "450"
+            },
+            "tier_2": {
+              "from_kwh": "450",
+              "price": "0.173731",
+              "upto_kwh": "900"
+            },
+            "tier_3": {
+              "from_kwh": "900",
+              "price": "0.213105"
+            }
+          },
+          "kind": "tiered_energy",
+          "limits": "month"
+        },
+        "fixed": {
+          "amount": "12.79",
+          "kind": "per_period",
+          "per": "month",
+          "share": "whole"
+        }
+      }
+    }
+  },
+  "inputs": {
+    "bill_start_day": {
+      "default": 1,
+      "max": 28,
+      "min": 1,
+      "type": "integer"
+    }
+  },
+  "bands": [
+    {
+      "name": "Period 2"
+    },
+    {
+      "hours": "00:00-23:59",
+      "months": [
+        6,
+        7,
+        8
+      ],
+      "name": "Period 1"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "Period 1": "0.136882",
+        "Period 2": "0.136882"
+      },
+      "standing": "0"
+    }
+  }
+}

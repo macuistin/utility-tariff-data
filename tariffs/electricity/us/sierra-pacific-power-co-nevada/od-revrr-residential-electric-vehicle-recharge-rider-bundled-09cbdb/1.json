@@ -1,0 +1,111 @@
+{
+  "schema": 1,
+  "name": "OD-REVRR- Residential Electric Vehicle Recharge Rider - Bundled",
+  "provider": "Sierra Pacific Power Co (Nevada)",
+  "timezone": "America/Los_Angeles",
+  "effective_from": "2025-09-30",
+  "source": {
+    "id": "openei-urdb-us",
+    "url": "https://apps.openei.org/USURDB/rate/view/692e276b593e01ff1109cbdb"
+  },
+  "bill": {
+    "period": {
+      "rule": "monthly",
+      "start_day": "$input.bill_start_day"
+    },
+    "total": {
+      "kind": "sum",
+      "of": {
+        "energy": {
+          "kind": "energy_by_band"
+        },
+        "fixed": {
+          "amount": "18.25",
+          "kind": "per_period",
+          "per": "month",
+          "share": "whole"
+        }
+      }
+    }
+  },
+  "inputs": {
+    "bill_start_day": {
+      "default": 1,
+      "max": 28,
+      "min": 1,
+      "type": "integer"
+    }
+  },
+  "bands": [
+    {
+      "name": "Period 1"
+    },
+    {
+      "hours": "00:00-08:00",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        10,
+        11,
+        12
+      ],
+      "name": "Period 2"
+    },
+    {
+      "hours": "08:00-18:00",
+      "months": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "name": "Period 3 part 1"
+    },
+    {
+      "hours": "21:00-00:00",
+      "months": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "name": "Period 3 part 2"
+    },
+    {
+      "hours": "18:00-21:00",
+      "months": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "name": "Period 4"
+    },
+    {
+      "hours": "00:00-08:00",
+      "months": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "name": "Period 5"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "Period 1": "0.08086",
+        "Period 2": "0.07149",
+        "Period 3 part 1": "0.08091",
+        "Period 3 part 2": "0.08091",
+        "Period 4": "0.45561",
+        "Period 5": "0.07153"
+      },
+      "standing": "0"
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "schema": 1,
+  "name": "Residential",
+  "provider": "BELCO",
+  "effective_from": "2026-10-01",
+  "source": {
+    "id": "bm-belco",
+    "url": "https://belco.bm/know-your-rate-and-bill/"
+  },
+  "prices_include_tax": false,
+  "bill": {
+    "total": {
+      "kind": "sum",
+      "of": {
+        "energy": {
+          "blocks": {
+            "first": {
+              "from_kwh": "0",
+              "price": "0.14520",
+              "upto_kwh": "250"
+            },
+            "second": {
+              "from_kwh": "250",
+              "price": "0.25611",
+              "upto_kwh": "700"
+            },
+            "tail": {
+              "from_kwh": "700",
+              "price": "0.39504"
+            }
+          },
+          "kind": "tiered_energy",
+          "limits": "month"
+        },
+        "fuel_adjustment": {
+          "amount": "0.14226",
+          "kind": "per_kwh"
+        },
+        "ra_fee": {
+          "amount": "0.00556",
+          "kind": "per_kwh"
+        }
+      }
+    }
+  },
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "All day": "0.1452"
+      },
+      "standing": "0"
+    }
+  }
+}

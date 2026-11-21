@@ -1,0 +1,63 @@
+{
+  "schema": 1,
+  "name": "Smart Dynamic",
+  "provider": "Bord Gais Energy",
+  "effective_from": "2026-11-01",
+  "source": {
+    "id": "bord-gais",
+    "url": "https://www.bordgaisenergy.ie/home/our-tariffs"
+  },
+  "prices_include_tax": false,
+  "export": "bord-gais-energy/bord-gais-energy-microgen-export",
+  "bill": {
+    "total": {
+      "kind": "tax",
+      "mode": "added",
+      "name": "VAT",
+      "of": {
+        "kind": "sum",
+        "of": {
+          "base": {
+            "kind": "energy_by_band",
+            "round_bands": true
+          },
+          "dynamic": {
+            "kind": "series_energy",
+            "series": "bord_gais_wholesale"
+          },
+          "levy": {
+            "amount": "0.51",
+            "kind": "per_period",
+            "per": "month",
+            "share": "days_in_period"
+          },
+          "standing": {
+            "kind": "per_day"
+          }
+        }
+      },
+      "percent": "$country.vat_percent"
+    }
+  },
+  "bands": [
+    {
+      "name": "Base"
+    }
+  ],
+  "areas": {
+    "rural": {
+      "label": "Rural",
+      "rates": {
+        "Base": "0.1745"
+      },
+      "standing": "1.038192"
+    },
+    "urban": {
+      "label": "Urban",
+      "rates": {
+        "Base": "0.1745"
+      },
+      "standing": "0.873589"
+    }
+  }
+}

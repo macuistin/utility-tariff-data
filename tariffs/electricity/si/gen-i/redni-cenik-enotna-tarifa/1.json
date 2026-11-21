@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "Regular price list, single tariff",
+  "provider": "GEN-I",
+  "effective_from": "2025-03-01",
+  "source": {
+    "id": "si-geni",
+    "url": "https://gen-i.si/dom/elektricna-energija/ceniki-in-akcije/redni-cenik-elektricne-energije-za-gospodinjske-odjemalce/"
+  },
+  "prices_include_tax": false,
+  "bill": {
+    "total": {
+      "kind": "tax",
+      "mode": "added",
+      "name": "VAT",
+      "of": {
+        "kind": "sum",
+        "of": {
+          "energy": {
+            "kind": "energy_by_band",
+            "round_bands": true
+          },
+          "monthly_fee": {
+            "amount": "1.99",
+            "kind": "per_period",
+            "per": "month",
+            "share": "days_in_period"
+          }
+        }
+      },
+      "percent": "$country.vat_percent"
+    }
+  },
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "All day": "0.1089"
+      },
+      "standing": "0"
+    }
+  }
+}

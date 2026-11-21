@@ -1,0 +1,797 @@
+{
+  "schema": 1,
+  "country": "US",
+  "currency": "USD",
+  "timezone": "America/New_York",
+  "vat_percent": "0",
+  "availability": "partial",
+  "reason": "No tariffs are held yet. The United States keeps four main time zones and sales tax differs by state and is not in the prices, so a tariff names its own time zone and a bill carries no tax line. Tariffs will come from the OpenEI utility rate database.",
+  "inputs": {
+    "bill_start_day": {
+      "default": 1,
+      "max": 28,
+      "min": 1,
+      "type": "integer"
+    }
+  },
+  "bill": {
+    "period": {
+      "rule": "monthly",
+      "start_day": "$input.bill_start_day"
+    },
+    "total": {
+      "kind": "sum",
+      "of": {
+        "energy": {
+          "kind": "energy_by_band",
+          "round_bands": true
+        },
+        "standing": {
+          "kind": "per_day"
+        }
+      }
+    }
+  },
+  "providers": {
+    "aiken-electric-coop-inc": {
+      "name": "Aiken Electric Coop Inc",
+      "tariffs": {
+        "single-phase-service-ap-0b30c9": {
+          "name": "SINGLE-PHASE SERVICE AP",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:a25fa3c50a477226f28f6886b11a160761993ea4eebb298b4531bacbeabdfa26",
+              "effective_from": "2025-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "alabama-power-co": {
+      "name": "Alabama Power Co",
+      "tariffs": {
+        "large-farm-service-0c6e1e": {
+          "name": "Large Farm Service",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:963b4cad9d5eecaaa07175c1a616d395930f2ea323906557f86ccbc8020916df",
+              "effective_from": "2025-01-01",
+              "effective_to": null
+            }
+          }
+        },
+        "rate-rta-energy-0ed89d": {
+          "name": "Rate RTA Energy",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:fa8a2e282e2de806cea0e3bc0ae37615d071fefc341994fba0c93cd88787e2fc",
+              "effective_from": "2025-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "anchorage-municipal-light-and-power": {
+      "name": "Anchorage Municipal Light and Power",
+      "tariffs": {
+        "residential-099a3a": {
+          "name": "Residential",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:968ceaa2808c27a89dfb375746d47d7427526bd3840c7027775abedd4ee61315",
+              "effective_from": "2025-07-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "blue-ridge-elec-member-corp": {
+      "name": "Blue Ridge Elec Member Corp",
+      "tariffs": {
+        "residential-all-electric-single-phase-05426a": {
+          "name": "Residential All Electric - Single Phase",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:390f51b134baee353ef7fe73a7388ecfbb5f8b56868989fcb374c12f0eed9cea",
+              "effective_from": "2024-10-02",
+              "effective_to": null
+            }
+          }
+        },
+        "residential-single-phase-032faa": {
+          "name": "Residential - Single Phase",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:5cc94405c5a2e838d0042f20db1dda829d73008ef22cfb35d80dda5de340df44",
+              "effective_from": "2024-10-02",
+              "effective_to": null
+            }
+          }
+        },
+        "residential-tou-pilot-single-phase-0a59ea": {
+          "name": "Residential TOU Pilot - Single Phase",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:3dc21cad208ea39de8c8a2dd64a684b5ffc317a0abe742ff9be9a3d5b0da414a",
+              "effective_from": "2024-10-02",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "bluebonnet-electric-coop-inc": {
+      "name": "Bluebonnet Electric Coop, Inc",
+      "tariffs": {
+        "residential-general-service-0cf6aa": {
+          "name": "Residential General Service",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:9b8234f979e6cf7964fe9d185ff1074e79e10de8d8b2fc12e2d33a6b60a4e2d2",
+              "effective_from": "2025-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "central-electric-membership-corporation": {
+      "name": "Central Electric Membership Corporation",
+      "tariffs": {
+        "residential-all-electric-service-single-phase-0d12ed": {
+          "name": "Residential All Electric Service Single Phase",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:276903d57e46b50d160aca075a92750461c75a4345fa989b5518b7349f0c88da",
+              "effective_from": "2025-04-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "city-of-colorado-springs-colorado-utility-company": {
+      "name": "City of Colorado Springs, Colorado (Utility Company)",
+      "tariffs": {
+        "energy-wise-standard-time-of-day-etr-09ec28": {
+          "name": "Energy Wise Standard Time of Day (ETR)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:32b87712aabc61dd5b2ff68a209640f46e80a107b2472a5f5e262080165f7cac",
+              "effective_from": "2025-10-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "city-of-la-grange-georgia-utility-company": {
+      "name": "City of La Grange, Georgia (Utility Company)",
+      "tariffs": {
+        "residential-000337": {
+          "name": "RESIDENTIAL",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:2512a6b56094ad47e07907cae57b005e88a4942d7b7049ddfdab04f7881b6f84",
+              "effective_from": "2024-07-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "city-of-riverside-california-utility-company": {
+      "name": "City of Riverside, California (Utility Company)",
+      "tariffs": {
+        "domestic-tou-service-medium-residence-0fb37e": {
+          "name": "Domestic TOU Service - Medium Residence",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:db4de4a275901b7acc3dbd875cb9a1c9d40ba28a4ac1f1b664add61c3e17acba",
+              "effective_from": "2024-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "city-of-santa-clara-california-utility-company": {
+      "name": "City of Santa Clara, California (Utility Company)",
+      "tariffs": {
+        "domestic-service-ce813b": {
+          "name": "DOMESTIC SERVICE",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:5d7663472317aa585dacc7f73430bc84585bab055bf408b6abd81693eba3ce27",
+              "effective_from": "2025-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "cleco-power-llc": {
+      "name": "Cleco Power LLC",
+      "tariffs": {
+        "touch-program-residential-tou-0c6e95": {
+          "name": "TOUCH Program Residential (TOU)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:a1a53146eabf9867ae73be7cdec0a099f011021d2a98fe2d7490d2f4a8b99feb",
+              "effective_from": "2025-07-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "cuivre-river-electric-coop-inc": {
+      "name": "Cuivre River Electric Coop Inc",
+      "tariffs": {
+        "residential-ecbb0b": {
+          "name": "Residential",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:8b3e404ec72a22d9da777074337ad43ed1a98d8ff794090ad16b96dfcbb0e678",
+              "effective_from": "2025-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "entergy-mississippi-inc": {
+      "name": "Entergy Mississippi Inc",
+      "tariffs": {
+        "residential-service-single-phase-rs-40c-0cf2db": {
+          "name": "Residential Service Single Phase (RS-40C)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:8b37bfac80703f989d17187374bafc47625fc0c19694cdbcf68a0dead84b3494",
+              "effective_from": "2025-07-01",
+              "effective_to": null
+            }
+          }
+        },
+        "residential-service-three-phase-rs-40c-0832ac": {
+          "name": "Residential Service Three Phase (RS-40C)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:a0402f0b6bd23a102646e7dea2c735dbfdb0f6af0ec91ee66cb581e912c6e820",
+              "effective_from": "2025-07-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "florida-keys-el-coop-assn-inc": {
+      "name": "Florida Keys El Coop Assn, Inc",
+      "tariffs": {
+        "rate-code-1-residential-service-09adc8": {
+          "name": "Rate Code 1 - Residential Service",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:361bb73f146bad301ca7b4cf291b986b97a3696a8b640d734dbb2b0de5b9f320",
+              "effective_from": "2025-07-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "kauai-island-utility-cooperative": {
+      "name": "Kauai Island Utility Cooperative",
+      "tariffs": {
+        "d-residential-service-01cc8f": {
+          "name": "D Residential Service",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:1c6c60ae46147320cfa53350958ef61cce2fc81c3501bee81b3336ad3369a475",
+              "effective_from": "2025-07-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "minnesota-power-inc": {
+      "name": "Minnesota Power Inc",
+      "tariffs": {
+        "residential-electric-vehicle-service-00718a": {
+          "name": "Residential Electric Vehicle Service",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:31fb95a4f152ee08966d6a7208b528cedaa70b8702d917d7170af8c6d4a60034",
+              "effective_from": "2025-03-01",
+              "effective_to": null
+            }
+          }
+        },
+        "residential-electric-vehicle-service-renewable-energy-option-04a0cb": {
+          "name": "Residential Electric Vehicle Service (Renewable Energy Option)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:477bb0d17ce168839976bd9b2c3a625625c56a7c690b9e3fe346b4238886592b",
+              "effective_from": "2025-03-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "mountain-parks-electric-inc": {
+      "name": "Mountain Parks Electric, Inc",
+      "tariffs": {
+        "general-service-small-residential-under-50-kw-0f5b57": {
+          "name": "General Service Small (Residential) (Under 50 kW)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:7ce31c43cee5d61aff0ec38d5d4d6b61148e83e401f885163b620e608f9dda0b",
+              "effective_from": "2025-01-01",
+              "effective_to": null
+            }
+          }
+        },
+        "general-service-whole-house-time-of-use-residential-04e30d": {
+          "name": "General Service Whole House Time of Use (Residential)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:d53e6c5f8c5db4c43575fcf8ac18adc0e9d770ee43527293d9aaa2ea1e62e42e",
+              "effective_from": "2025-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "niagara-mohawk-power-corp": {
+      "name": "Niagara Mohawk Power Corp.",
+      "tariffs": {
+        "sc1-zone-b-0a181e": {
+          "name": "SC1- Zone B",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:6caf6e73e4d3fc3ead859539295957ba929a48c0b397764671786d8bdce49b4b",
+              "effective_from": "2025-01-30",
+              "effective_to": null
+            }
+          }
+        },
+        "sc1-zone-c-0e2bac": {
+          "name": "SC1- Zone C",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:defcc9126f00f663a07cbeb0b3b7e80a0e0451b987e3d279c7ff91fe2345a4bf",
+              "effective_from": "2025-01-30",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "northern-virginia-elec-coop": {
+      "name": "Northern Virginia Elec Coop",
+      "tariffs": {
+        "schedule-r1-ev-residential-electric-vehicle-09e65c": {
+          "name": "Schedule R1-EV, Residential Electric Vehicle",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:affc4649f42989a43e78b2e875d214bea3dcf0e1d3260b700d03453a528b59f6",
+              "effective_from": "2025-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "northwestern-energy": {
+      "name": "NorthWestern Energy",
+      "tariffs": {
+        "rate-10-residential-electric-09d9cc": {
+          "name": "Rate 10: Residential Electric",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:157f062434d12dbd32c07ed26121d4c44ba1897f1264e90a4715787369a9922d",
+              "effective_from": "2025-05-01",
+              "effective_to": null
+            }
+          }
+        },
+        "rate-11-residential-service-with-space-heating-0d3388": {
+          "name": "Rate 11: Residential Service with Space Heating",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:b307421e5f3825d1daae87cb63e41d4913ad11b7b3aca311799a5c2555c7bcd2",
+              "effective_from": "2025-05-01",
+              "effective_to": null
+            }
+          }
+        },
+        "rate-14-residential-space-heating-and-cooling-03b448": {
+          "name": "Rate 14: Residential Space Heating and Cooling",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:e004effbbec25a0b8054fa375d0e6ae415aca84bff02b0a8df82a6f5a05f4317",
+              "effective_from": "2025-05-01",
+              "effective_to": null
+            }
+          }
+        },
+        "rate-15-residential-dual-fuel-and-controlled-service-0d3389": {
+          "name": "Rate 15: Residential Dual Fuel and Controlled Service.",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:515aad634eadff21d30fe8310b1f28f281270fec086b3365e08e4ba9c8d5bec0",
+              "effective_from": "2025-05-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "ohio-power-co": {
+      "name": "Ohio Power Co",
+      "tariffs": {
+        "residential-time-of-day-bundled-ohio-power-rate-zone-rs-tod-025dba": {
+          "name": "Residential Time-of-Day Bundled Ohio Power Rate Zone (RS-TOD)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:1caf3a829e3b169721ab2d02d7b0aeea90e04dd245cb4a81253d612703f55093",
+              "effective_from": "2025-01-01",
+              "effective_to": null
+            }
+          }
+        },
+        "residential-time-of-day-ohio-power-rate-zone-rs-tod-025db9": {
+          "name": "Residential Time-of-Day  Ohio Power Rate Zone (RS-TOD)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:d766296552a6cdd0ca6d6ad5f62a72b2de94af4e94535e1e3e745d8ce329ec3b",
+              "effective_from": "2025-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "orcas-power-light-coop": {
+      "name": "Orcas Power & Light Coop",
+      "tariffs": {
+        "tariff-r-14-residential-service-070eac": {
+          "name": "TARIFF R-14 RESIDENTIAL SERVICE",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:c7e5db34901194539ec54f97d96d1b06a76829bbb78d6622c7d99ed546ba79ba",
+              "effective_from": "2025-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "peninsula-light-company": {
+      "name": "Peninsula Light Company",
+      "tariffs": {
+        "residential-00dd5d": {
+          "name": "Residential",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:b8f466b74092ad1fcc5926cae20f643daaf4bd23af2f80d8ef20332afdafd32f",
+              "effective_from": "2025-04-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "public-service-co-of-nm": {
+      "name": "Public Service Co of NM",
+      "tariffs": {
+        "1a-residential-service-0e834c": {
+          "name": "1A (Residential Service)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:88fa4bb67208a81b48c82a6766a9c50bba7719b003df0564827573db20106275",
+              "effective_from": "2025-11-15",
+              "effective_to": null
+            }
+          }
+        },
+        "1a-residential-whole-house-electric-vehicle-rate-pilot-03d68c": {
+          "name": "1A (Residential Whole House Electric Vehicle Rate Pilot)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:e4b52b7f4e11429097e05d26c2d322ae8cab196a76d6057f8906fbdf934bd11d",
+              "effective_from": "2025-11-15",
+              "effective_to": null
+            }
+          }
+        },
+        "1b-residential-service-time-of-use-075cea": {
+          "name": "1B (Residential Service Time-Of-Use)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:1923eec0ae8b47390fbf6089f2fb703b57a806d119b9cb9e16677b67b02792be",
+              "effective_from": "2025-11-15",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "randolph-electric-member-corp": {
+      "name": "Randolph Electric Member Corp",
+      "tariffs": {
+        "residential-a28-single-phase-service-032fad": {
+          "name": "Residential A28 - SINGLE-PHASE SERVICE",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:bc0bfec0ba2fb571b5b54c7470ae905e1e5390d2ad00a8067c84d6df3290ac49",
+              "effective_from": "2025-05-01",
+              "effective_to": null
+            }
+          }
+        },
+        "residential-a28ee-single-phase-energy-efficient-home-service-034d7a": {
+          "name": "Residential A28EE - SINGLE-PHASE ENERGY EFFICIENT HOME SERVICE",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:aec329e1b7184ae3f5328d26a03b95dc7af2479dd6265c87756e2952f20f3c9e",
+              "effective_from": "2025-05-01",
+              "effective_to": null
+            }
+          }
+        },
+        "residential-a28tou-single-phase-time-of-use-service-0f180f": {
+          "name": "Residential A28TOU - SINGLE-PHASE TIME OF USE SERVICE",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:c8879072d4340018508acf87dd6efd68c637ae04e76c11d5e3c720182fcccd7d",
+              "effective_from": "2025-05-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "roanoke-electric-member-corp": {
+      "name": "Roanoke Electric Member Corp",
+      "tariffs": {
+        "residential-service-0dc18c": {
+          "name": "Residential Service",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:069682eb4a858830f80be4cd654456ea2cfe2d09177d6ec9b696d8d2ed4c47a3",
+              "effective_from": "2025-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "rochester-gas-electric-corp": {
+      "name": "Rochester Gas & Electric Corp",
+      "tariffs": {
+        "service-classification-no-1-residential-service-rss-06c4d4": {
+          "name": "SERVICE CLASSIFICATION NO. 1 - RESIDENTIAL SERVICE RSS",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:71ee397e7cfdd81c2a5bcefb6ab3ec772d4b0b5679abc3ef17ea148e0b7af24f",
+              "effective_from": "2025-05-01",
+              "effective_to": null
+            }
+          }
+        },
+        "service-classification-no-1-residential-service-rss-non-reta-0c367d": {
+          "name": "SERVICE CLASSIFICATION NO. 1 - RESIDENTIAL SERVICE RSS (Non-Retail Access Choice)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:07894683a79f29dd16255a96014df5e3f8d8bd345ce30b81e2d1102cfe6de81c",
+              "effective_from": "2025-05-01",
+              "effective_to": null
+            }
+          }
+        },
+        "service-classification-no-4-residential-service-time-of-use-094e5a": {
+          "name": "SERVICE CLASSIFICATION NO. 4 RESIDENTIAL SERVICE - TIME-OF-USE RATE RSS (Non-Retail Access Rate Choice) Schedule I",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:4df9c6798f07f921f2ac6582949f9d6af2953a5a71f0c81b6b13053b8d1009b3",
+              "effective_from": "2025-05-01",
+              "effective_to": null
+            }
+          }
+        },
+        "service-classification-no-4-residential-service-time-of-use-09f1cc": {
+          "name": "SERVICE CLASSIFICATION NO. 4 RESIDENTIAL SERVICE - TIME-OF-USE RATE RSS - Schedule II",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:54c16073bfcc6e59f511fda76b3701b324c8f27d00ed0ed43ea938cb837be770",
+              "effective_from": "2025-05-01",
+              "effective_to": null
+            }
+          }
+        },
+        "service-classification-no-4-residential-service-time-of-use-0d4c5c": {
+          "name": "SERVICE CLASSIFICATION NO. 4 RESIDENTIAL SERVICE - TIME-OF-USE RATE RSS (Non-Retail Access Rate Choice) Schedule II",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:59f798861339db7945cfdc381ef0bd457ef7c149a393090e2aa20de9d62cdfb1",
+              "effective_from": "2025-05-01",
+              "effective_to": null
+            }
+          }
+        },
+        "service-classification-no-4-residential-service-time-of-use-0ef118": {
+          "name": "SERVICE CLASSIFICATION NO. 4 RESIDENTIAL SERVICE - TIME-OF-USE RATE RSS - Schedule I",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:aef21b8a885bbe0fd331afeed7b174b6a1cd578e9a0d0f2a2d779ca7d530382f",
+              "effective_from": "2025-05-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "sierra-pacific-power-co-nevada": {
+      "name": "Sierra Pacific Power Co (Nevada)",
+      "tariffs": {
+        "od-revrr-residential-electric-vehicle-recharge-rider-bundled-09cbdb": {
+          "name": "OD-REVRR- Residential Electric Vehicle Recharge Rider - Bundled",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:9c04ac494c77e41b330bd91365f833bb068080caf629a255b7607791c9fd4c35",
+              "effective_from": "2025-09-30",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "south-carolina-pub-serv-auth": {
+      "name": "South Carolina Pub Serv Auth",
+      "tariffs": {
+        "residential-time-of-use-rate-schedule-rt-25-0bffbd": {
+          "name": "RESIDENTIAL TIME-OF-USE RATE SCHEDULE RT-25",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:61adc733f92f13054cdb2b95f4445659ffb42e7d27df63010186eae8b0737ff2",
+              "effective_from": "2025-04-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "st-croix-electric-coop": {
+      "name": "St Croix Electric Coop",
+      "tariffs": {
+        "residential-08cb4b": {
+          "name": "Residential",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:c3627fd264cb692eb91a0478ffdf1f1a064b473ed191249adb65e6d27a8de269",
+              "effective_from": "2025-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "superior-water-light-and-power-co": {
+      "name": "Superior Water, Light and Power Co",
+      "tariffs": {
+        "residential-service-time-of-day-single-phase-ertd-0127bf": {
+          "name": "Residential Service Time-of-Day (Single-Phase) ERTD",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:8a1125fe52818a4dc82b798a96808ed473a2ab4f2feec8902f121537adc72e20",
+              "effective_from": "2025-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "town-of-belmont-massachusetts-utility-company": {
+      "name": "Town of Belmont, Massachusetts (Utility Company)",
+      "tariffs": {
+        "residential-time-of-use-rate-a-tou-0a80fa": {
+          "name": "RESIDENTIAL TIME OF USE RATE A TOU",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:2eafe6681f6848b5d6a2e0e89c9f7b0a85f73257c4a68370ecbc2300b3931c1b",
+              "effective_from": "2025-06-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "tri-county-elec-member-corp": {
+      "name": "Tri-County Elec Member Corp",
+      "tariffs": {
+        "residential-prepay-single-phase-03a250": {
+          "name": "Residential Prepay - Single Phase",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:3122c583804cd6b738e6ed7476e57659fe057d46eda09886cab576f550afc2cb",
+              "effective_from": "2025-03-01",
+              "effective_to": null
+            }
+          }
+        },
+        "residential-service-single-phase-05426e": {
+          "name": "Residential Service - Single Phase",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:8224d20bd00aca2e9a0a87704b85a56ff407197549c5ec233a77cca17f54b96b",
+              "effective_from": "2025-03-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "valley-electric-assn-inc-nevada": {
+      "name": "Valley Electric Assn, Inc (Nevada)",
+      "tariffs": {
+        "residential-service-0545fc": {
+          "name": "Residential Service",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:4ca4ef710057f6f2a0dcb1ab99dfbd4872104f9b5f794ef3e563d2a37e530163",
+              "effective_from": "2024-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "village-of-waunakee-wisconsin-utility-company": {
+      "name": "Village of Waunakee, Wisconsin (Utility Company)",
+      "tariffs": {
+        "residential-06adbb": {
+          "name": "Residential",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:8e15cd1cc1b171fe7f17a25c7282d2e59bc65c2701502753d33bcd472f230d33",
+              "effective_from": "2025-01-01",
+              "effective_to": null
+            }
+          }
+        },
+        "residential-nighttime-ev-charging-service-00e820": {
+          "name": "Residential - Nighttime EV Charging Service",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:cb2fb2bff8c74ff5692d25d67c7c58ad32621810e2b5f8beef0143674e4d0270",
+              "effective_from": "2025-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "washington-electric-coop-inc": {
+      "name": "Washington Electric Coop Inc",
+      "tariffs": {
+        "farm-residential-revenue-classes-1-and-2-06730b": {
+          "name": "Farm & Residential Revenue Classes 1 and 2",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:3dbd59db05f6be67ecd9a6beccf15a031d4b8428015239420354b87579d86076",
+              "effective_from": "2025-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    }
+  }
+}

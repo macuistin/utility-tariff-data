@@ -1,0 +1,38 @@
+{
+  "schema": 1,
+  "name": "Smart Day Night Variable price",
+  "provider": "Energia",
+  "effective_from": "2026-11-16",
+  "source": {
+    "id": "selectra-ie",
+    "url": "https://selectra.ie/energy/providers/energia"
+  },
+  "export": "energia/energia-microgen-export",
+  "bands": [
+    {
+      "name": "Day"
+    },
+    {
+      "hours": "23:00-08:00",
+      "name": "Night"
+    }
+  ],
+  "areas": {
+    "rural": {
+      "label": "Rural",
+      "rates": {
+        "Day": "0.351961",
+        "Night": "0.216692"
+      },
+      "standing": "1.214849"
+    },
+    "urban": {
+      "label": "Urban",
+      "rates": {
+        "Day": "0.351961",
+        "Night": "0.216692"
+      },
+      "standing": "0.954986"
+    }
+  }
+}

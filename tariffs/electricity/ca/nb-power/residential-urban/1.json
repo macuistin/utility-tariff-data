@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "name": "Residential, urban",
+  "provider": "NB Power",
+  "timezone": "America/Moncton",
+  "effective_from": "2026-04-14",
+  "source": {
+    "id": "ca-nb-power",
+    "url": "https://www.nbpower.com/en/products-services/residential/rates"
+  },
+  "prices_include_tax": false,
+  "bill": {
+    "total": {
+      "kind": "sum",
+      "of": {
+        "energy": {
+          "kind": "energy_by_band",
+          "round_bands": true
+        },
+        "service": {
+          "amount": "30.82",
+          "kind": "per_period",
+          "share": "whole"
+        }
+      }
+    }
+  },
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "All day": "0.1584"
+      },
+      "standing": "0"
+    }
+  }
+}
