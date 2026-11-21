@@ -36,6 +36,16 @@
     "ewa": {
       "name": "Electricity and Water Authority",
       "tariffs": {
+        "domestic-bahraini-single-account": {
+          "name": "Domestic, Bahraini with a single account",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:0d17b3b2c11685a9a7db2e2a4b3362b0e54fda65bdfa46eadab3e9f810f710f5",
+              "effective_from": "2026-11-18",
+              "effective_to": null
+            }
+          }
+        },
         "domestic-other": {
           "name": "Domestic, other accounts and non-Bahraini",
           "revisions": {

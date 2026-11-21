@@ -28,11 +28,11 @@
     },
     "BH": {
       "availability": "partial",
-      "checksum": "sha256:4df4a69190113f45e020305ae7e48cb5082604decf01220486669a032efa277f",
+      "checksum": "sha256:eac935979763b37c2021edd8c83f6e1b1c410206ab179a6a39a16263138a4961",
       "path": "bh/index.json",
       "providers": 1,
       "reason": "Only EWA's domestic electricity tariffs are held. The page states no VAT, no fixed charge and no billing period for the thresholds, so the thresholds are read as monthly.",
-      "tariffs": 1
+      "tariffs": 2
     },
     "BM": {
       "availability": "partial",
