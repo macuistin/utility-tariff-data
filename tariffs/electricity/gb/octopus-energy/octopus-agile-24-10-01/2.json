@@ -1,0 +1,150 @@
+{
+  "schema": 1,
+  "name": "Agile Octopus October 2024 v1",
+  "provider": "Octopus Energy",
+  "effective_from": "2026-11-21",
+  "source": {
+    "id": "octopus-energy-gb",
+    "url": "https://api.octopus.energy/v1/products/AGILE-24-10-01/"
+  },
+  "export": "octopus-energy/octopus-outgoing-var-24-10-26",
+  "bill": {
+    "total": {
+      "kind": "tax",
+      "mode": "included",
+      "name": "VAT",
+      "of": {
+        "kind": "sum",
+        "of": {
+          "energy": {
+            "kind": "series_energy",
+            "series": "octopus_agile"
+          },
+          "standing": {
+            "kind": "per_day"
+          }
+        }
+      },
+      "percent": "$country.vat_percent"
+    }
+  },
+  "bands": [
+    {
+      "name": "Agile"
+    }
+  ],
+  "areas": {
+    "a": {
+      "label": "Eastern England (A)",
+      "rates": {
+        "Agile": "1"
+      },
+      "region": "GSP-A",
+      "standing": "0.464649"
+    },
+    "b": {
+      "label": "East Midlands (B)",
+      "rates": {
+        "Agile": "1"
+      },
+      "region": "GSP-B",
+      "standing": "0.522352"
+    },
+    "c": {
+      "label": "London (C)",
+      "rates": {
+        "Agile": "1"
+      },
+      "region": "GSP-C",
+      "standing": "0.376525"
+    },
+    "d": {
+      "label": "Merseyside and North Wales (D)",
+      "rates": {
+        "Agile": "1"
+      },
+      "region": "GSP-D",
+      "standing": "0.627004"
+    },
+    "e": {
+      "label": "West Midlands (E)",
+      "rates": {
+        "Agile": "1"
+      },
+      "region": "GSP-E",
+      "standing": "0.586296"
+    },
+    "f": {
+      "label": "North East England (F)",
+      "rates": {
+        "Agile": "1"
+      },
+      "region": "GSP-F",
+      "standing": "0.667126"
+    },
+    "g": {
+      "label": "North West England (G)",
+      "rates": {
+        "Agile": "1"
+      },
+      "region": "GSP-G",
+      "standing": "0.476032"
+    },
+    "h": {
+      "label": "Southern England (H)",
+      "rates": {
+        "Agile": "1"
+      },
+      "region": "GSP-H",
+      "standing": "0.592617"
+    },
+    "j": {
+      "label": "South East England (J)",
+      "rates": {
+        "Agile": "1"
+      },
+      "region": "GSP-J",
+      "standing": "0.531292"
+    },
+    "k": {
+      "label": "South Wales (K)",
+      "rates": {
+        "Agile": "1"
+      },
+      "region": "GSP-K",
+      "standing": "0.591087"
+    },
+    "l": {
+      "label": "South Western England (L)",
+      "rates": {
+        "Agile": "1"
+      },
+      "region": "GSP-L",
+      "standing": "0.629201"
+    },
+    "m": {
+      "label": "Yorkshire (M)",
+      "rates": {
+        "Agile": "1"
+      },
+      "region": "GSP-M",
+      "standing": "0.631074"
+    },
+    "n": {
+      "label": "Southern Scotland (N)",
+      "rates": {
+        "Agile": "1"
+      },
+      "region": "GSP-N",
+      "standing": "0.591606"
+    },
+    "p": {
+      "label": "Northern Scotland (P)",
+      "rates": {
+        "Agile": "1"
+      },
+      "region": "GSP-P",
+      "standing": "0.570745"
+    }
+  }
+}

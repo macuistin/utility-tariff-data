@@ -122,7 +122,7 @@
     },
     "GB": {
       "availability": "available",
-      "checksum": "sha256:ac05f23e99bc81e1fe12169f3223cef9a3241f6e03e2ec7d01c0ef56a442cab8",
+      "checksum": "sha256:5756627288ceb2b1a09ba1d5379d015ce582b2edc1e893e9269c064351eee06b",
       "path": "gb/index.json",
       "providers": 2,
       "tariffs": 11

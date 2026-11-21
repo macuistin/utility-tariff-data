@@ -232,6 +232,11 @@
             "1": {
               "checksum": "sha256:efd51e4924b63b2ef35f6471168f4766ea68b6fc322f92049e8d4a88f2c0cffe",
               "effective_from": "2026-11-17",
+              "effective_to": "2026-11-21"
+            },
+            "2": {
+              "checksum": "sha256:9963384fdd881da1074d922c60ac9f0488c264134f89d2d26757edbab834ec57",
+              "effective_from": "2026-11-21",
               "effective_to": null
             }
           }
@@ -242,16 +247,26 @@
             "1": {
               "checksum": "sha256:872f3a174c963c671a1c8d0b5358e5e7ace507265cca886146ca9d95800c412d",
               "effective_from": "2026-11-09",
+              "effective_to": "2026-11-20"
+            },
+            "2": {
+              "checksum": "sha256:38cf77d5756d58726e4bd520bb463a85a8fdd869aad51d1812c59b4583bad35b",
+              "effective_from": "2026-11-20",
               "effective_to": null
             }
           }
         },
         "octopus-oe-fix-18m-26-11-09": {
-          "name": "Octopus 18M Fixed November 2026",
+          "name": "Octopus 18M Fixed November 2026 v2",
           "revisions": {
             "1": {
               "checksum": "sha256:e81a90b49b0bab696e293ade3fba9bc710cb61f51fb50c76a0ff2b96052667f1",
               "effective_from": "2026-11-09",
+              "effective_to": "2026-11-20"
+            },
+            "2": {
+              "checksum": "sha256:0bc10ddd7f0c5721fa5aab1d02e5d7e8da8633c36f64f455d759e3463c9cf14b",
+              "effective_from": "2026-11-20",
               "effective_to": null
             }
           }
@@ -311,6 +326,11 @@
             "1": {
               "checksum": "sha256:a8f4bf99533d8d469b68c812ab8603723f11584a90a5d56045e07d765495cf73",
               "effective_from": "2026-11-09",
+              "effective_to": "2026-11-21"
+            },
+            "2": {
+              "checksum": "sha256:2148116293555ecb4d060bfb91e2f3edf3274a0fcf4333af3269b17ec13a7d46",
+              "effective_from": "2026-11-21",
               "effective_to": null
             }
           }
