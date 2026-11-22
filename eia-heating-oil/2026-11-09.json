@@ -1,0 +1,235 @@
+{
+  "schema": 1,
+  "service": "heating-oil",
+  "source": "eia-heating-oil",
+  "fuel": "No. 2 heating oil, residential",
+  "currency": "USD",
+  "unit": "l",
+  "price_date": "2026-11-09",
+  "fetched": "2026-11-22",
+  "source_url": "https://www.eia.gov/petroleum/heatingoilpropane/",
+  "credit": "Source: U.S. Energy Information Administration (EIA). EIA does not endorse this store.",
+  "conversion": {
+    "from_unit": "gal",
+    "litres_per_unit": "3.785411784",
+    "note": "Prices are converted from US dollars per US gallon by this store. EIA does not publish them per litre."
+  },
+  "rows": [
+    {
+      "label": "average",
+      "scope": {
+        "area": "R10"
+      },
+      "price": "1.564427",
+      "source_price": "5.922"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "area": "R1X"
+      },
+      "price": "1.544086",
+      "source_price": "5.845"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "area": "R1Y"
+      },
+      "price": "1.585561",
+      "source_price": "6.002"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "area": "R1Z"
+      },
+      "price": "1.541444",
+      "source_price": "5.835"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "area": "R20"
+      },
+      "price": "1.519253",
+      "source_price": "5.751"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "country": "US"
+      },
+      "price": "1.562578",
+      "source_price": "5.915"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "state": "CT"
+      },
+      "price": "1.497063",
+      "source_price": "5.667"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "state": "DE"
+      },
+      "price": "1.617525",
+      "source_price": "6.123"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "state": "IA"
+      },
+      "price": "1.452682",
+      "source_price": "5.499"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "state": "IN"
+      },
+      "price": "1.541180",
+      "source_price": "5.834"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "state": "KY"
+      },
+      "price": "1.536689",
+      "source_price": "5.817"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "state": "MA"
+      },
+      "price": "1.574994",
+      "source_price": "5.962"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "state": "MD"
+      },
+      "price": "1.625186",
+      "source_price": "6.152"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "state": "ME"
+      },
+      "price": "1.540916",
+      "source_price": "5.833"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "state": "MI"
+      },
+      "price": "1.522688",
+      "source_price": "5.764"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "state": "MN"
+      },
+      "price": "1.481741",
+      "source_price": "5.609"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "state": "NC"
+      },
+      "price": "1.525065",
+      "source_price": "5.773"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "state": "NE"
+      },
+      "price": "1.400112",
+      "source_price": "5.3"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "state": "NH"
+      },
+      "price": "1.565484",
+      "source_price": "5.926"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "state": "NJ"
+      },
+      "price": "1.598769",
+      "source_price": "6.052"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "state": "NY"
+      },
+      "price": "1.622545",
+      "source_price": "6.142"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "state": "OH"
+      },
+      "price": "1.587146",
+      "source_price": "6.008"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "state": "PA"
+      },
+      "price": "1.507894",
+      "source_price": "5.708"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "state": "RI"
+      },
+      "price": "1.573673",
+      "source_price": "5.957"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "state": "VA"
+      },
+      "price": "1.553860",
+      "source_price": "5.882"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "state": "VT"
+      },
+      "price": "1.533783",
+      "source_price": "5.806"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "state": "WI"
+      },
+      "price": "1.444493",
+      "source_price": "5.468"
+    }
+  ]
+}
