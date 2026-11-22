@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "name": "Standard Gas",
+  "provider": "SSE Airtricity",
+  "service": "gas",
+  "effective_from": "2026-10-05",
+  "source": {
+    "id": "sse-airtricity-gas",
+    "url": "https://www.sseairtricity.com/ie/pricing"
+  },
+  "bands": [
+    {
+      "name": "Single rate"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "Single rate": "0.13656"
+      },
+      "standing": "0.4173"
+    }
+  }
+}

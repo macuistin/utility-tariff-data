@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "name": "1 Year Home Gas 20% discount",
+  "provider": "SSE Airtricity",
+  "service": "gas",
+  "effective_from": "2026-10-05",
+  "source": {
+    "id": "sse-airtricity-gas",
+    "url": "https://www.sseairtricity.com/assets/Tariffs/ROI/Current/1YR-GAS-20.pdf"
+  },
+  "bands": [
+    {
+      "name": "Single rate"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "Single rate": "0.11116"
+      },
+      "standing": "0.4173"
+    }
+  }
+}

@@ -66,6 +66,41 @@
           }
         }
       }
+    },
+    "sse-airtricity": {
+      "name": "SSE Airtricity",
+      "tariffs": {
+        "sse-airtricity-1yr-gas-16": {
+          "name": "1 Year Home Gas 16% discount",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:dba89af1b1cf4dc23187dfb2c75084bfdaf486090d17bcad20cd885a853e1bb4",
+              "effective_from": "2026-10-05",
+              "effective_to": null
+            }
+          }
+        },
+        "sse-airtricity-1yr-gas-20": {
+          "name": "1 Year Home Gas 20% discount",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:645fda00de8dab1f749733c1af97c5aa7acc635e53e45a86eeb6833290881a91",
+              "effective_from": "2026-10-05",
+              "effective_to": null
+            }
+          }
+        },
+        "sse-airtricity-standard-gas": {
+          "name": "Standard Gas",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:5ddcdb3b3d2040b460e680aca63523572ef4b266ae1fe5e8c8097b2de089238c",
+              "effective_from": "2026-10-05",
+              "effective_to": null
+            }
+          }
+        }
+      }
     }
   }
 }

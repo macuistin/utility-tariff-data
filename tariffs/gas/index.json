@@ -18,10 +18,10 @@
     },
     "IE": {
       "availability": "available",
-      "checksum": "sha256:772855f49bb8289d5957bdb68c19e1f5a16c36c4cfb7e12bc725be9e4223b7ab",
+      "checksum": "sha256:4b2194206e90436335e159a839ec16815377e1f77313203f9f7d0e021c26c35d",
       "path": "ie/index.json",
-      "providers": 1,
-      "tariffs": 2
+      "providers": 2,
+      "tariffs": 5
     }
   }
 }
