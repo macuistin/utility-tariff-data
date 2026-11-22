@@ -1,0 +1,62 @@
+{
+  "schema": 1,
+  "country": "UY",
+  "currency": "UYU",
+  "timezone": "America/Montevideo",
+  "vat_percent": "22",
+  "availability": "partial",
+  "reason": "UTE's Residencial Simple tariff from the yearly tariff decree. The optional time-of-use tariffs and the closed basic-consumption tariff are not held. The bill needs the customer's contracted power in kW.",
+  "reason_local": {
+    "language": "es",
+    "text": "Solo se incluye la tarifa Residencial Simple de UTE, tomada del decreto anual de tarifas. No se incluyen las tarifas opcionales por horario ni la tarifa de consumo básico, que está cerrada. La factura necesita la potencia contratada del cliente en kW."
+  },
+  "inputs": {
+    "bill_start_day": {
+      "default": 1,
+      "max": 28,
+      "min": 1,
+      "type": "integer"
+    }
+  },
+  "bill": {
+    "period": {
+      "rule": "monthly",
+      "start_day": "$input.bill_start_day"
+    },
+    "total": {
+      "kind": "tax",
+      "mode": "added",
+      "name": "IVA",
+      "of": {
+        "kind": "sum",
+        "of": {
+          "energy": {
+            "kind": "energy_by_band",
+            "round_bands": true
+          },
+          "standing": {
+            "kind": "per_day"
+          }
+        }
+      },
+      "percent": "$country.vat_percent"
+    }
+  },
+  "providers": {
+    "ute": {
+      "name": "UTE",
+      "tariffs": {
+        "residencial-simple": {
+          "name": "Residencial Simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:69d670f4fa4b638d66bfec47dc9deab0aef606dbd9e76087fac630c97531127a",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    }
+  }
+}

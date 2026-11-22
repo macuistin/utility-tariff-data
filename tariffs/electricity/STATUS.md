@@ -1,4 +1,4 @@
-Last updated: 2026-11-19
+Last updated: 2026-11-21
 
 # Electricity tariffs: status of every country
 
@@ -36,4 +36,5 @@ Last updated: 2026-11-19
 | Ukraine | UA | partial | 2026-11-18 | [UA](ua/STATUS.md) |
 | United Kingdom | GB | available | 2026-11-11 | [GB](gb/STATUS.md) |
 | United States | US | partial | 2026-11-16 | [US](us/STATUS.md) |
+| Uruguay | UY | partial | 2026-11-21 | [UY](uy/STATUS.md) |
 | Zambia | ZM | partial | 2026-11-18 | [ZM](zm/STATUS.md) |

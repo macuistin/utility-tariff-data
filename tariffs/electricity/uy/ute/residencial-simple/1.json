@@ -1,0 +1,72 @@
+{
+  "schema": 1,
+  "name": "Residencial Simple",
+  "provider": "UTE",
+  "effective_from": "2026-01-01",
+  "source": {
+    "id": "uy-ute-decree",
+    "url": "https://medios.presidencia.gub.uy/legal/2026/decretos/01/miem_113.pdf"
+  },
+  "prices_include_tax": false,
+  "bill": {
+    "total": {
+      "kind": "tax",
+      "mode": "added",
+      "name": "IVA",
+      "of": {
+        "kind": "sum",
+        "of": {
+          "energy": {
+            "blocks": {
+              "block_1": {
+                "from_kwh": "0",
+                "price": "6.744",
+                "upto_kwh": "100"
+              },
+              "block_2": {
+                "from_kwh": "100",
+                "price": "8.452",
+                "upto_kwh": "600"
+              },
+              "block_3": {
+                "from_kwh": "600",
+                "price": "10.539"
+              }
+            },
+            "kind": "tiered_energy",
+            "limits": "month"
+          },
+          "fixed": {
+            "amount": "324.9",
+            "kind": "per_period",
+            "per": "month",
+            "share": "days_in_period"
+          },
+          "power": {
+            "bands": {
+              "all": {
+                "price": "83.2"
+              }
+            },
+            "kind": "connected_load",
+            "load": "contracted"
+          }
+        }
+      },
+      "percent": "$country.vat_percent"
+    }
+  },
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "All day": "6.744"
+      },
+      "standing": "0"
+    }
+  }
+}

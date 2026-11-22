@@ -260,6 +260,18 @@
       "reason": "No tariffs are held yet. The United States keeps four main time zones and sales tax differs by state and is not in the prices, so a tariff names its own time zone and a bill carries no tax line. Tariffs will come from the OpenEI utility rate database.",
       "tariffs": 58
     },
+    "UY": {
+      "availability": "partial",
+      "checksum": "sha256:1933e2a5c8fa5042d866ae3e9cfa6e0f00f07b1a199d7fc38d7683a4c1c3c61d",
+      "path": "uy/index.json",
+      "providers": 1,
+      "reason": "UTE's Residencial Simple tariff from the yearly tariff decree. The optional time-of-use tariffs and the closed basic-consumption tariff are not held. The bill needs the customer's contracted power in kW.",
+      "reason_local": {
+        "language": "es",
+        "text": "Solo se incluye la tarifa Residencial Simple de UTE, tomada del decreto anual de tarifas. No se incluyen las tarifas opcionales por horario ni la tarifa de consumo básico, que está cerrada. La factura necesita la potencia contratada del cliente en kW."
+      },
+      "tariffs": 1
+    },
     "ZA": {
       "availability": "partial",
       "checksum": "sha256:ee1ba193216204ccb15e6f1b7809952d465d3448df570ebb783c457dbda751ae",
