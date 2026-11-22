@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "name": "Gas Standard with new customer discount",
+  "provider": "Bord Gais Energy",
+  "service": "gas",
+  "effective_from": "2026-10-09",
+  "source": {
+    "id": "bord-gais-gas",
+    "url": "https://www.bordgaisenergy.ie/home/our-tariffs"
+  },
+  "bands": [
+    {
+      "name": "Single rate"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "Single rate": "0.12206"
+      },
+      "standing": "0.386082"
+    }
+  }
+}

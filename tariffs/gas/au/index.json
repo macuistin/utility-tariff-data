@@ -1,0 +1,52 @@
+{
+  "schema": 1,
+  "country": "AU",
+  "currency": "AUD",
+  "timezone": "Australia/Sydney",
+  "vat_percent": "10",
+  "availability": "partial",
+  "reason": "Retailer gas plans read from the Consumer Data Right endpoints, added by hand for chosen retailers. Plans with seasonal periods, banded supply charges or tiers quoted for different periods are skipped. Each plan is one area of a retailer, named by its distributor.",
+  "inputs": {
+    "bill_start_day": {
+      "default": 1,
+      "max": 28,
+      "min": 1,
+      "type": "integer"
+    }
+  },
+  "bill": {
+    "period": {
+      "rule": "monthly",
+      "start_day": "$input.bill_start_day"
+    },
+    "total": {
+      "kind": "sum",
+      "of": {
+        "charges": {
+          "kind": "tax",
+          "mode": "added",
+          "name": "GST",
+          "of": {
+            "kind": "sum",
+            "of": {
+              "energy": {
+                "kind": "energy_by_band",
+                "round_bands": true
+              },
+              "standing": {
+                "kind": "per_day"
+              }
+            }
+          },
+          "percent": "$country.vat_percent"
+        }
+      }
+    }
+  },
+  "units": {
+    "gas": {
+      "display": "MJ"
+    }
+  },
+  "providers": {}
+}
