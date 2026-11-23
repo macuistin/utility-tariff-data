@@ -1,0 +1,64 @@
+{
+  "schema": 1,
+  "name": "NightSaver Standard Green",
+  "provider": "Sse Airtricity",
+  "effective_from": "2026-11-23",
+  "source": {
+    "id": "selectra-ie",
+    "url": "https://www.sseairtricity.com/ie/home/help-centre/our-tariffs/current-offers"
+  },
+  "export": "sse-airtricity/sse-airtricity-microgen-export",
+  "bill": {
+    "total": {
+      "kind": "tax",
+      "mode": "included",
+      "name": "VAT",
+      "of": {
+        "kind": "sum",
+        "of": {
+          "energy": {
+            "kind": "energy_by_band",
+            "round_bands": true
+          },
+          "levy": {
+            "amount": "0.5559",
+            "kind": "per_period",
+            "per": "month",
+            "share": "days_in_period"
+          },
+          "standing": {
+            "kind": "per_day"
+          }
+        }
+      },
+      "percent": "$country.vat_percent"
+    }
+  },
+  "bands": [
+    {
+      "name": "Day"
+    },
+    {
+      "hours": "23:00-08:00",
+      "name": "Night"
+    }
+  ],
+  "areas": {
+    "rural": {
+      "label": "Rural",
+      "rates": {
+        "Day": "0.346947",
+        "Night": "0.209934"
+      },
+      "standing": "1.200192"
+    },
+    "urban": {
+      "label": "Urban",
+      "rates": {
+        "Day": "0.346947",
+        "Night": "0.209934"
+      },
+      "standing": "0.985479"
+    }
+  }
+}

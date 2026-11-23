@@ -67,6 +67,11 @@
             "3": {
               "checksum": "sha256:b9d73485befb542e7f3779120316d5ff0997d42557649ea497134cda3b3784a6",
               "effective_from": "2026-11-16",
+              "effective_to": "2026-11-23"
+            },
+            "4": {
+              "checksum": "sha256:8fe9e7ae04b65654b0c06c4874eee6418c3713d0d1f6fe90b6a6b375c33affbb",
+              "effective_from": "2026-11-23",
               "effective_to": null
             }
           }
@@ -152,6 +157,11 @@
             "2": {
               "checksum": "sha256:062a121fcf43d0754ad828f5c7655dd580cf09c7bf31811df9429af854b149d6",
               "effective_from": "2026-11-13",
+              "effective_to": "2026-11-23"
+            },
+            "3": {
+              "checksum": "sha256:15c3ec36205cc1b0c4674e2511bb61e10acb165ac90a178fdc1f3e59e35107e1",
+              "effective_from": "2026-11-23",
               "effective_to": null
             }
           }
@@ -167,6 +177,11 @@
             "1": {
               "checksum": "sha256:cff311885798de49dd9b980390232ed5f156bf6e85ea1eeac141e4c9d06423d1",
               "effective_from": "2026-11-09",
+              "effective_to": "2026-11-23"
+            },
+            "2": {
+              "checksum": "sha256:71926cc8187bf401e64edec45507a927a038eb3c8daa8b233fca4e7988ce3a58",
+              "effective_from": "2026-11-23",
               "effective_to": null
             }
           }
@@ -177,6 +192,11 @@
             "1": {
               "checksum": "sha256:e55e3c961639ce2a2fa0dcadcfb2343580cb5466c7673750bc645c413c6f86e2",
               "effective_from": "2026-11-09",
+              "effective_to": "2026-11-23"
+            },
+            "2": {
+              "checksum": "sha256:3a51d38c6fa0f50f4ad0095fa88d82a2700ac02286e9062d5fd87e544e8d8d88",
+              "effective_from": "2026-11-23",
               "effective_to": null
             }
           }
@@ -192,6 +212,11 @@
             "1": {
               "checksum": "sha256:f3efdbffec97e667c82b92d23313d484d170e3216e696c6a40a40a37f7e330fe",
               "effective_from": "2026-11-09",
+              "effective_to": "2026-11-22"
+            },
+            "2": {
+              "checksum": "sha256:c990a749b532dfd7d98476c937a6f3410abc7c15274bbd32d0f107087295c92f",
+              "effective_from": "2026-11-22",
               "effective_to": null
             }
           }
@@ -202,6 +227,11 @@
             "1": {
               "checksum": "sha256:c1524241ae1e70f3414be033e07c6dfb326602809603d6cbdbd666b18cf1b454",
               "effective_from": "2026-11-09",
+              "effective_to": "2026-11-22"
+            },
+            "2": {
+              "checksum": "sha256:31cd811766bfe19c05c049510d6ea363a6bb8ad57e46d96f01b68e66e37aac2d",
+              "effective_from": "2026-11-22",
               "effective_to": null
             }
           }
@@ -378,6 +408,11 @@
             "2": {
               "checksum": "sha256:6863aaf5edf0c0a16203714bdbab78ed0b81a9bfe9de982057e20a2d03d0ba51",
               "effective_from": "2026-11-21",
+              "effective_to": "2026-11-23"
+            },
+            "3": {
+              "checksum": "sha256:41c389926eb29bf252e26b30d53cc3ba9bef0c45af17102e3c2b37f656f170c8",
+              "effective_from": "2026-11-23",
               "effective_to": null
             }
           }
@@ -393,6 +428,11 @@
             "2": {
               "checksum": "sha256:9c0452a88f83ec9bf2dbd4032c1ee46afb20b40a4fce90d02c06c098c0844f93",
               "effective_from": "2026-11-21",
+              "effective_to": "2026-11-23"
+            },
+            "3": {
+              "checksum": "sha256:22fd6abec22c2216f89076c952295fb548f46b58b4254dc4d6642bb773cf6f06",
+              "effective_from": "2026-11-23",
               "effective_to": null
             }
           }
@@ -408,6 +448,11 @@
             "1": {
               "checksum": "sha256:e6228343e43f9ddae2e08ba2dd605cb6e564d6c575c37ded273c3545f15a6eb2",
               "effective_from": "2026-11-17",
+              "effective_to": "2026-11-23"
+            },
+            "2": {
+              "checksum": "sha256:947fba66942e0b6047820c13dfc468625fcc456a26797f6e6d28afa822cdf382",
+              "effective_from": "2026-11-23",
               "effective_to": null
             }
           }
@@ -418,6 +463,11 @@
             "1": {
               "checksum": "sha256:cd05f8d1fcad404a8b753032fe0b9880c392fbc93a6b537eb6607ca1861c3631",
               "effective_from": "2026-11-16",
+              "effective_to": "2026-11-23"
+            },
+            "2": {
+              "checksum": "sha256:2fa94f40fba71d9cd53612abe3936fc255ab8b3674076ec3c8d4b6404ef0687a",
+              "effective_from": "2026-11-23",
               "effective_to": null
             }
           }
@@ -439,6 +489,11 @@
             "1": {
               "checksum": "sha256:badc5a2a4cd6f12bd74e80632b917ead59770cb0e05e0f1b7c84daf0b1c4b91e",
               "effective_from": "2026-11-16",
+              "effective_to": "2026-11-23"
+            },
+            "2": {
+              "checksum": "sha256:0ffd01883ee59a5a4ec8adb12c80c1bc9b215e4a1b66d2d84d8aa7498fb64895",
+              "effective_from": "2026-11-23",
               "effective_to": null
             }
           }
@@ -449,6 +504,11 @@
             "1": {
               "checksum": "sha256:730c4a30d5eeeb608deacb83af9ac4590bde5f4049798e7b4c0b3678d7394144",
               "effective_from": "2026-11-16",
+              "effective_to": "2026-11-23"
+            },
+            "2": {
+              "checksum": "sha256:2f5ab688aec406587c9ee82243ff565fe1cb1636c09fb16195c6beecf1bcbae6",
+              "effective_from": "2026-11-23",
               "effective_to": null
             }
           }
@@ -459,6 +519,11 @@
             "1": {
               "checksum": "sha256:4af4410c5f307e113e3f2e0f0a733d6f6afbf3dbf883a4833b3296bc85352b1f",
               "effective_from": "2026-11-16",
+              "effective_to": "2026-11-23"
+            },
+            "2": {
+              "checksum": "sha256:b384d984cfd246b6eccd611c0e1e54f103cc493ea4589f1489e26cca064c08d2",
+              "effective_from": "2026-11-23",
               "effective_to": null
             }
           }
@@ -469,6 +534,11 @@
             "1": {
               "checksum": "sha256:6c65a2feba7088f4ad73ccefc1c0061e011c21e47e9b6e0e1ec90199e6f4bb92",
               "effective_from": "2026-11-17",
+              "effective_to": "2026-11-23"
+            },
+            "2": {
+              "checksum": "sha256:000540e594862e7a25c96ff3f35c0d6f6329b96f166d1b29886fb04c5f14c0fb",
+              "effective_from": "2026-11-23",
               "effective_to": null
             }
           }
@@ -484,6 +554,11 @@
             "2": {
               "checksum": "sha256:126aa02c47f5770cfe386e08a0745b8221dea908d44c0718af9e6103d815d19d",
               "effective_from": "2026-11-13",
+              "effective_to": "2026-11-23"
+            },
+            "3": {
+              "checksum": "sha256:1fcfe33fc0ea17c181a10c077f810c4e212f44af3bb218640178f4521db298ed",
+              "effective_from": "2026-11-23",
               "effective_to": null
             }
           }
@@ -515,6 +590,11 @@
             "2": {
               "checksum": "sha256:6f975956d2ce4e8c713f09a8d892ac9ad9fc3aab5073d3d98eb746cc151b9a67",
               "effective_from": "2026-11-13",
+              "effective_to": "2026-11-23"
+            },
+            "3": {
+              "checksum": "sha256:9d4290f45f00005cc63a1290699dd6754801cafce1237f10119e77aa87ebe369",
+              "effective_from": "2026-11-23",
               "effective_to": null
             }
           }
@@ -530,6 +610,11 @@
             "2": {
               "checksum": "sha256:9ef3d1c3507a85cd7c1d690f2d51caccb289d3cdbdccffb0af4ce5e0455819f2",
               "effective_from": "2026-11-13",
+              "effective_to": "2026-11-23"
+            },
+            "3": {
+              "checksum": "sha256:c57491f817dbf08c1a1876fa76fa8da9b951c102e4a9ac6fbb6df1221520229f",
+              "effective_from": "2026-11-23",
               "effective_to": null
             }
           }
@@ -561,6 +646,11 @@
             "2": {
               "checksum": "sha256:723405ce6c34466dca4e37afea7241066bb42e99d1bc35ddcc074a2480fc7033",
               "effective_from": "2026-11-13",
+              "effective_to": "2026-11-23"
+            },
+            "3": {
+              "checksum": "sha256:f42bc9b9c5410d5311c2e35451ab97043d0871ca52e02676356cd4ee9ec5f258",
+              "effective_from": "2026-11-23",
               "effective_to": null
             }
           }
@@ -576,6 +666,11 @@
             "1": {
               "checksum": "sha256:3f908ef47d315ab39f8c2b40b50029cae2709d42d4024a7f836cd8638e64c160",
               "effective_from": "2026-11-09",
+              "effective_to": "2026-11-23"
+            },
+            "2": {
+              "checksum": "sha256:96c09e21e17475e0bb06a51e45a02d4d5d008f6e6c3338cff78061721c2df3cc",
+              "effective_from": "2026-11-23",
               "effective_to": null
             }
           }
@@ -607,6 +702,11 @@
             "2": {
               "checksum": "sha256:7f7aa13133e7e6ccca9e24c9328d7d44a20a8181b9713e1b923a1ac09e8584af",
               "effective_from": "2026-11-13",
+              "effective_to": "2026-11-23"
+            },
+            "3": {
+              "checksum": "sha256:f15e8729eb26fd89299058e34c27498c9e7da98c9a4e50dac7bbbccfe2ba5b2b",
+              "effective_from": "2026-11-23",
               "effective_to": null
             }
           }
@@ -622,6 +722,11 @@
             "2": {
               "checksum": "sha256:bf8c2206654b20bd7f502f66a2175ce9200111e719575a0e2a761c71df7ea209",
               "effective_from": "2026-11-13",
+              "effective_to": "2026-11-23"
+            },
+            "3": {
+              "checksum": "sha256:0c7a829bf7e5905ddcc892ebaf3b9c63d47276e0403d1e90133e7bbe5846657e",
+              "effective_from": "2026-11-23",
               "effective_to": null
             }
           }
@@ -637,6 +742,11 @@
             "1": {
               "checksum": "sha256:ee9be672b7b2a3910a6a695a409311aabf5552155305172d3e6eec14e0077f60",
               "effective_from": "2026-11-09",
+              "effective_to": "2026-11-23"
+            },
+            "2": {
+              "checksum": "sha256:ed6c21e827299445a86bfa1ca2c13febb4382e70e3bc27789356338ad9229aec",
+              "effective_from": "2026-11-23",
               "effective_to": null
             }
           }
@@ -647,6 +757,11 @@
             "1": {
               "checksum": "sha256:92ab5d2fe9a34367de315fe7f64df6e6c886f39326dd9791aa3cf9b5ed48ed5c",
               "effective_from": "2026-11-09",
+              "effective_to": "2026-11-23"
+            },
+            "2": {
+              "checksum": "sha256:4b2dafc5f8667fc9f7c36952fd19855c5f3fe32605130f1da976ee66f0127b6c",
+              "effective_from": "2026-11-23",
               "effective_to": null
             }
           }
@@ -678,6 +793,11 @@
             "2": {
               "checksum": "sha256:a8e66e1f354e979dabd1b38d51ef42192b2b4227d02257a4d06969d2bb93e1f7",
               "effective_from": "2026-11-13",
+              "effective_to": "2026-11-23"
+            },
+            "3": {
+              "checksum": "sha256:c287e90b5ef5e6db9145869d8e95400bd569a6f98d51c0c7fa9ce828b3525d3b",
+              "effective_from": "2026-11-23",
               "effective_to": null
             }
           }
@@ -693,6 +813,11 @@
             "2": {
               "checksum": "sha256:3970f9e4fcbccedf44903143f1995a6af50dcf40ccd5207877a9211d2e15aa39",
               "effective_from": "2026-11-13",
+              "effective_to": "2026-11-23"
+            },
+            "3": {
+              "checksum": "sha256:5edfeac1f635cd062edef4ecae8c52686d08ac9fd0200069604982e01dc77e67",
+              "effective_from": "2026-11-23",
               "effective_to": null
             }
           }

@@ -1,4 +1,4 @@
-Last updated: 2026-11-21
+Last updated: 2026-11-23
 
 # Electricity tariffs: status of every country
 
@@ -7,7 +7,7 @@ Last updated: 2026-11-21
 | Australia | AU | partial | 2026-11-11 | [AU](au/STATUS.md) |
 | Austria | AT | partial | 2026-11-17 | [AT](at/STATUS.md) |
 | Bahrain | BH | partial | 2026-11-18 | [BH](bh/STATUS.md) |
-| Belgium | BE | unavailable | 2026-11-10 (checked) | The VREG site timed out and no regulator tariff dataset was found for Brussels or Wallonia. Tariff cards are supplier PDFs. |
+| Belgium | BE | partial | 2026-11-23 | [BE](be/STATUS.md) |
 | Bermuda | BM | partial | 2026-11-18 | [BM](bm/STATUS.md) |
 | Brazil | BR | partial | 2026-11-18 | [BR](br/STATUS.md) |
 | Cameroon | CM | partial | 2026-11-18 | [CM](cm/STATUS.md) |

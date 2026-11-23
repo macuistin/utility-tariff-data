@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "name": "Zen Fixed",
+  "provider": "Mega",
+  "effective_from": "2026-11-01",
+  "source": {
+    "id": "be-mega",
+    "url": "https://www.mega.be/nl/tariefkaarten"
+  },
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "brussels": {
+      "label": "Brussels",
+      "rates": {
+        "All day": "0.2491"
+      },
+      "region": "BE-BRU",
+      "standing": "0.30137"
+    },
+    "flanders": {
+      "label": "Flanders",
+      "rates": {
+        "All day": "0.2539"
+      },
+      "region": "BE-VLG",
+      "standing": "0.30137"
+    },
+    "wallonia": {
+      "label": "Wallonia",
+      "rates": {
+        "All day": "0.2508"
+      },
+      "region": "BE-WAL",
+      "standing": "0.30137"
+    }
+  }
+}

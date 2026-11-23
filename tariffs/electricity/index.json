@@ -22,9 +22,16 @@
       "tariffs": 126
     },
     "BE": {
-      "availability": "unavailable",
-      "checked": "2026-11-10",
-      "reason": "The VREG site timed out and no regulator tariff dataset was found for Brussels or Wallonia. Tariff cards are supplier PDFs."
+      "availability": "partial",
+      "checksum": "sha256:c9e34bc6ee78524bba0a238b2fbc7b2029df036cba58e5a1842f630b17984e6b",
+      "path": "be/index.json",
+      "providers": 1,
+      "reason": "Only Mega's fixed-price single-rate plans are held, from its monthly tariff cards. A bill also has network costs, the green-power contribution and levies, and a product may carry a sign-up discount, none of which are in these plans, so a bill priced from them is below a real bill.",
+      "reason_local": {
+        "language": "nl",
+        "text": "Alleen de vastprijsplannen met enkelvoudige meter van Mega zijn opgenomen, uit de maandelijkse tariefkaarten. Een factuur bevat ook netwerkkosten, de bijdrage voor groene stroom en heffingen, en een product kan een instapkorting hebben. Die zitten niet in deze plannen, dus een daaruit berekende factuur ligt onder een echte factuur."
+      },
+      "tariffs": 4
     },
     "BH": {
       "availability": "partial",
@@ -129,7 +136,7 @@
     },
     "IE": {
       "availability": "available",
-      "checksum": "sha256:737282fa0e58c18c57f4db0bcbc3c637fcd58365cf861a41b93d11e3580bb463",
+      "checksum": "sha256:ac9570605ea5f57eecde717c4c58ccf7d24f95ba61370ccddad1855278731861",
       "path": "ie/index.json",
       "providers": 11,
       "tariffs": 50

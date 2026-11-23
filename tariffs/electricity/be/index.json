@@ -1,0 +1,92 @@
+{
+  "schema": 1,
+  "country": "BE",
+  "currency": "EUR",
+  "timezone": "Europe/Brussels",
+  "vat_percent": "6",
+  "availability": "partial",
+  "reason": "Only Mega's fixed-price single-rate plans are held, from its monthly tariff cards. A bill also has network costs, the green-power contribution and levies, and a product may carry a sign-up discount, none of which are in these plans, so a bill priced from them is below a real bill.",
+  "reason_local": {
+    "language": "nl",
+    "text": "Alleen de vastprijsplannen met enkelvoudige meter van Mega zijn opgenomen, uit de maandelijkse tariefkaarten. Een factuur bevat ook netwerkkosten, de bijdrage voor groene stroom en heffingen, en een product kan een instapkorting hebben. Die zitten niet in deze plannen, dus een daaruit berekende factuur ligt onder een echte factuur."
+  },
+  "inputs": {
+    "bill_start_day": {
+      "default": 1,
+      "max": 28,
+      "min": 1,
+      "type": "integer"
+    }
+  },
+  "bill": {
+    "period": {
+      "rule": "monthly",
+      "start_day": "$input.bill_start_day"
+    },
+    "total": {
+      "kind": "tax",
+      "mode": "included",
+      "name": "VAT",
+      "of": {
+        "kind": "sum",
+        "of": {
+          "energy": {
+            "kind": "energy_by_band",
+            "round_bands": true
+          },
+          "standing": {
+            "kind": "per_day"
+          }
+        }
+      },
+      "percent": "$country.vat_percent"
+    }
+  },
+  "providers": {
+    "mega": {
+      "name": "Mega",
+      "tariffs": {
+        "cosy-fixed": {
+          "name": "Cosy Fixed",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:d7c8dd898be54c3920b5d789d8d8707aa0473d5237387f95679a002d4972122a",
+              "effective_from": "2026-11-01",
+              "effective_to": null
+            }
+          }
+        },
+        "online-fixed": {
+          "name": "Online Fixed",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:8902dc9832f218a92fb7732d50ac861be0f16b18fb8cc81ee1b460e34ae4c572",
+              "effective_from": "2026-11-01",
+              "effective_to": null
+            }
+          }
+        },
+        "smart-fixed": {
+          "name": "Smart Fixed",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:c770bdbe403772ede30b4f29a19af136dc88d7c3513023ec1b0c9ff1860487f8",
+              "effective_from": "2026-11-01",
+              "effective_to": null
+            }
+          }
+        },
+        "zen-fixed": {
+          "name": "Zen Fixed",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:7e70985d4e8fe640b64f56ac016ae29f2430c351b165967ac21a2b0da7862c30",
+              "effective_from": "2026-11-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    }
+  }
+}

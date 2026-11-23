@@ -1,0 +1,58 @@
+{
+  "schema": 1,
+  "name": "Standard, 24hr Pay-as-you-go Green",
+  "provider": "Pinergy",
+  "effective_from": "2026-11-23",
+  "source": {
+    "id": "selectra-ie",
+    "url": "https://pinergy.ie/home-electricity/pay-as-you-go/"
+  },
+  "export": "pinergy/pinergy-microgen-export",
+  "bill": {
+    "total": {
+      "kind": "tax",
+      "mode": "included",
+      "name": "VAT",
+      "of": {
+        "kind": "sum",
+        "of": {
+          "energy": {
+            "kind": "energy_by_band",
+            "round_bands": true
+          },
+          "levy": {
+            "amount": "0.5559",
+            "kind": "per_period",
+            "per": "month",
+            "share": "days_in_period"
+          },
+          "standing": {
+            "kind": "per_day"
+          }
+        }
+      },
+      "percent": "$country.vat_percent"
+    }
+  },
+  "bands": [
+    {
+      "name": "24-Hour"
+    }
+  ],
+  "areas": {
+    "rural": {
+      "label": "Rural",
+      "rates": {
+        "24-Hour": "0.458018"
+      },
+      "standing": "0.859699"
+    },
+    "urban": {
+      "label": "Urban",
+      "rates": {
+        "24-Hour": "0.458018"
+      },
+      "standing": "0.77663"
+    }
+  }
+}

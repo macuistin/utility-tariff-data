@@ -1,9 +1,5 @@
 {
   "countries": {
-    "BE": {
-      "checked": "2026-11-10",
-      "reason": "The VREG site timed out and no regulator tariff dataset was found for Brussels or Wallonia. Tariff cards are supplier PDFs."
-    },
     "DE": {
       "checked": "2026-11-10",
       "reason": "No regulator tariff register exists. The comparison sites hold the plans and their terms have not been checked."
