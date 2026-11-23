@@ -1,0 +1,56 @@
+{
+  "schema": 1,
+  "name": "Residential Seniors (No Exit Fee) (AGN Metro/Barossa/Peterborough)",
+  "provider": "AGL",
+  "service": "gas",
+  "effective_from": "2026-10-20",
+  "source": {
+    "id": "au-cdr-energy-gas",
+    "url": "https://cdr.energymadeeasy.gov.au/agl/cds-au/v1/energy/plans/AGL360499MRG39@EME"
+  },
+  "prices_include_tax": false,
+  "bill": {
+    "total": {
+      "kind": "tax",
+      "mode": "added",
+      "name": "GST",
+      "of": {
+        "kind": "sum",
+        "of": {
+          "energy": {
+            "blocks": {
+              "tier1": {
+                "from_kwh": "0",
+                "price": "0.168762",
+                "upto_kwh": "30.441389"
+              },
+              "tier2": {
+                "from_kwh": "30.441389",
+                "price": "0.0946"
+              }
+            },
+            "kind": "tiered_energy",
+            "limits": "day"
+          },
+          "standing": {
+            "kind": "per_day"
+          }
+        }
+      },
+      "percent": "$country.vat_percent"
+    }
+  },
+  "bands": [
+    {
+      "name": "Single rate"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "Single rate": "0.168762"
+      },
+      "standing": "0.835312"
+    }
+  }
+}

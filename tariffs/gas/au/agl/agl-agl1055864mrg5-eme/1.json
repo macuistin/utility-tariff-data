@@ -1,0 +1,61 @@
+{
+  "schema": 1,
+  "name": "Residential Smart Saver (AGN Murray Valley (NSW))",
+  "provider": "AGL",
+  "service": "gas",
+  "effective_from": "2026-11-10",
+  "source": {
+    "id": "au-cdr-energy-gas",
+    "url": "https://cdr.energymadeeasy.gov.au/agl/cds-au/v1/energy/plans/AGL1055864MRG5@EME"
+  },
+  "prices_include_tax": false,
+  "bill": {
+    "total": {
+      "kind": "tax",
+      "mode": "added",
+      "name": "GST",
+      "of": {
+        "kind": "sum",
+        "of": {
+          "energy": {
+            "blocks": {
+              "tier1": {
+                "from_kwh": "0",
+                "price": "0.16092",
+                "upto_kwh": "7.611111"
+              },
+              "tier2": {
+                "from_kwh": "7.611111",
+                "price": "0.146196",
+                "upto_kwh": "13.694167"
+              },
+              "tier3": {
+                "from_kwh": "13.694167",
+                "price": "0.11574"
+              }
+            },
+            "kind": "tiered_energy",
+            "limits": "day"
+          },
+          "standing": {
+            "kind": "per_day"
+          }
+        }
+      },
+      "percent": "$country.vat_percent"
+    }
+  },
+  "bands": [
+    {
+      "name": "Single rate"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "Single rate": "0.16092"
+      },
+      "standing": "0.86737"
+    }
+  }
+}

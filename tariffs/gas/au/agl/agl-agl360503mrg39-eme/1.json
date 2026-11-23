@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "Residential Seniors (AGN - Brisbane and Riverview)",
+  "provider": "AGL",
+  "service": "gas",
+  "effective_from": "2026-10-20",
+  "source": {
+    "id": "au-cdr-energy-gas",
+    "url": "https://cdr.energymadeeasy.gov.au/agl/cds-au/v1/energy/plans/AGL360503MRG39@EME"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "Single rate"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "Single rate": "0.154224"
+      },
+      "standing": "0.66052"
+    }
+  }
+}

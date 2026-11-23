@@ -48,5 +48,141 @@
       "display": "MJ"
     }
   },
-  "providers": {}
+  "providers": {
+    "agl": {
+      "name": "AGL",
+      "tariffs": {
+        "agl-agl1055848mrg5-eme": {
+          "name": "Residential Smart Saver (AGN Albury)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:f3832e928d2b1d8e81a80384c668be308511db0af40f4607eab4152d46f1581f",
+              "effective_from": "2026-11-10",
+              "effective_to": null
+            }
+          }
+        },
+        "agl-agl1055864mrg5-eme": {
+          "name": "Residential Smart Saver (AGN Murray Valley (NSW))",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:0f435385e73116476d793d3aa38b2b0f16c3304be8cddbdf524959ee2799662f",
+              "effective_from": "2026-11-10",
+              "effective_to": null
+            }
+          }
+        },
+        "agl-agl360499mrg39-eme": {
+          "name": "Residential Seniors (No Exit Fee) (AGN Metro/Barossa/Peterborough)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:4722c764afc921a6fc53fe3a9407ddcf6e0bcdd93c041e75144595560222cb2c",
+              "effective_from": "2026-10-20",
+              "effective_to": null
+            }
+          }
+        },
+        "agl-agl360503mrg39-eme": {
+          "name": "Residential Seniors (AGN - Brisbane and Riverview)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:5e2f9a472611dcea2e49379d2e154d80244f6c6b803503c392c7a990c22eb3c2",
+              "effective_from": "2026-10-20",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "energyaustralia": {
+      "name": "EnergyAustralia",
+      "tariffs": {
+        "energyaustralia-ene1000068mrg4-eme": {
+          "name": "Balance Plan - My Connect (AGN North (NSW))",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:e93ad95fb487bb9a5d62f67907a448339a9887b2bae0f43d4140eadf446f5bb8",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "energyaustralia-ene1000072mrg4-eme": {
+          "name": "Balance Plan - My Connect (AGN Murray Valley (NSW))",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:48a0b21ba5182be72648d3f852be3e5079457a9d2355a2e1e0acf4a9be575ca5",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "energyaustralia-ene1000073mrg4-eme": {
+          "name": "Balance Plan - My Connect (AGN Albury)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:377f7802b06b86e5228f56d08afd76406531715e93e85a0d87aca23e1a203c9d",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "energyaustralia-ene379833mrg26-eme": {
+          "name": "Flexi Plan (AGN Metro/Barossa/Peterborough)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:229d2f96b450bb13481c2420591a839d37ebee8e6e942da18ef65546b7b116aa",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "origin": {
+      "name": "Origin Energy",
+      "tariffs": {
+        "origin-ori1133141mrg2-eme": {
+          "name": "Origin Affinity Variable ePlus Ongoing - One Big Switch (AGN Adelong, Gundagai and Tumut)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:388cadeb3a7705ee1df4fb0b21e2664944aae2a6237ab8d7baf8934c61ec40ae",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "origin-ori1133161mrg2-eme": {
+          "name": "Origin Affinity Variable ePlus Ongoing - One Big Switch (AGN - Brisbane and Riverview)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:d7d8b514c8797e74a78a06980066c24742b3473ee90647b4ad2626fe2b515adf",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "origin-ori1133163mrg2-eme": {
+          "name": "Origin Affinity Variable ePlus Ongoing - One Big Switch (AGN - Wide Bay (Unregulated))",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:db879c72629011bc4febe3b9ad84f78d3303b4c79887d87cef9f58099d1cc1d5",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "origin-ori1133165mrg2-eme": {
+          "name": "Origin Affinity Variable ePlus Ongoing - One Big Switch (AGN - Northern)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:ec2af64b467eebe83a1b79a8e0286dd1b0697490e803ba2b8597bc6b676572e7",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    }
+  }
 }

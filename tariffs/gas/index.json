@@ -3,11 +3,11 @@
   "countries": {
     "AU": {
       "availability": "partial",
-      "checksum": "sha256:e805ab04cefc00e5ffb2cf5583e68da6000edfe4eb231674136974a8c08ef421",
+      "checksum": "sha256:f6863b20326519cc76438b319513d44eaa8b2295b580554d8583ef1d906a0515",
       "path": "au/index.json",
-      "providers": 0,
+      "providers": 3,
       "reason": "Retailer gas plans read from the Consumer Data Right endpoints, added by hand for chosen retailers. Plans with seasonal periods, banded supply charges or tiers quoted for different periods are skipped. Each plan is one area of a retailer, named by its distributor.",
-      "tariffs": 0
+      "tariffs": 12
     },
     "GB": {
       "availability": "available",

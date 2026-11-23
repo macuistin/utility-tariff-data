@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "Origin Affinity Variable ePlus Ongoing - One Big Switch (AGN Adelong, Gundagai and Tumut)",
+  "provider": "Origin Energy",
+  "service": "gas",
+  "effective_from": "2026-10-01",
+  "source": {
+    "id": "au-cdr-energy-gas",
+    "url": "https://cdr.energymadeeasy.gov.au/origin/cds-au/v1/energy/plans/ORI1133141MRG2@EME"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "Single rate"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "Single rate": "0.13716"
+      },
+      "standing": "0.83926"
+    }
+  }
+}

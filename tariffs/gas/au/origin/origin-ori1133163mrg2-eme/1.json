@@ -1,0 +1,56 @@
+{
+  "schema": 1,
+  "name": "Origin Affinity Variable ePlus Ongoing - One Big Switch (AGN - Wide Bay (Unregulated))",
+  "provider": "Origin Energy",
+  "service": "gas",
+  "effective_from": "2026-10-01",
+  "source": {
+    "id": "au-cdr-energy-gas",
+    "url": "https://cdr.energymadeeasy.gov.au/origin/cds-au/v1/energy/plans/ORI1133163MRG2@EME"
+  },
+  "prices_include_tax": false,
+  "bill": {
+    "total": {
+      "kind": "tax",
+      "mode": "added",
+      "name": "GST",
+      "of": {
+        "kind": "sum",
+        "of": {
+          "energy": {
+            "blocks": {
+              "tier1": {
+                "from_kwh": "0",
+                "price": "0.148212",
+                "upto_kwh": "55.555556"
+              },
+              "tier2": {
+                "from_kwh": "55.555556",
+                "price": "0.13806"
+              }
+            },
+            "kind": "tiered_energy",
+            "limits": "day"
+          },
+          "standing": {
+            "kind": "per_day"
+          }
+        }
+      },
+      "percent": "$country.vat_percent"
+    }
+  },
+  "bands": [
+    {
+      "name": "Single rate"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "Single rate": "0.148212"
+      },
+      "standing": "0.26427"
+    }
+  }
+}
