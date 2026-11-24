@@ -187,6 +187,14 @@
       "latest": "2026-11-16",
       "checksum": "sha256:6c026228577330ee533f9127e88455c1f482c74662f46922dfc3f13953d07951"
     },
+    "MX": {
+      "path": "mx/index.json",
+      "sources": [
+        "cne-lp-gas"
+      ],
+      "latest": "2026-11-22",
+      "checksum": "sha256:6b5a8e2622ad427185dbe63cd33199e941c58e46613fc2ffb12f67d161321a0a"
+    },
     "NL": {
       "path": "nl/index.json",
       "sources": [

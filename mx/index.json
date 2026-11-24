@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "country": "MX",
+  "sources": {
+    "cne-lp-gas": {
+      "fuel": "LP gas, residential maximum price (gas LP, precio m\u00e1ximo al usuario final)",
+      "currency": "MXN",
+      "latest": "2026-11-22",
+      "weeks": {
+        "2026-11-22": {
+          "path": "cne-lp-gas/2026-11-22.json",
+          "checksum": "sha256:3b0e03910f60f82923d9ef0ec9d2d723f45c52e37e1f458b01525e922eadc82d"
+        }
+      }
+    }
+  }
+}
