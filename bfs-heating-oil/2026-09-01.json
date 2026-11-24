@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "service": "heating-oil",
+  "source": "bfs-heating-oil",
+  "fuel": "heating oil, 3,001 - 6,000 l delivery",
+  "currency": "CHF",
+  "unit": "l",
+  "price_date": "2026-09-01",
+  "fetched": "2026-11-24",
+  "source_url": "https://statistik.admin.ch/de/konsumentenpreise",
+  "credit": "Source: Swiss Federal Statistical Office (BFS), LIK average energy prices (su-d-05.02.91). The BFS says these averages are a by-product of the price index and do not show how prices move.",
+  "conversion": {
+    "from_unit": "100 l",
+    "litres_per_unit": "100",
+    "note": "The BFS publishes francs per 100 litres. This store divides by 100 for francs per litre."
+  },
+  "rows": [
+    {
+      "label": "average",
+      "scope": {
+        "country": "CH"
+      },
+      "price": "1.5394",
+      "source_price": "153.94"
+    }
+  ]
+}

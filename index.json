@@ -34,6 +34,14 @@
       "latest": "2026-10-01",
       "checksum": "sha256:a47fac1ac5f1e2d5ff0e7fd6400231b4333da73b87b20665bdd0cfafe4e5482c"
     },
+    "CH": {
+      "path": "ch/index.json",
+      "sources": [
+        "bfs-heating-oil"
+      ],
+      "latest": "2026-10-01",
+      "checksum": "sha256:569a49fb39c50cd2257c120efff1eef8b347cd0b37d4a7ad5335f026deb31e49"
+    },
     "CY": {
       "path": "cy/index.json",
       "sources": [

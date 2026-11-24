@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "country": "CH",
+  "sources": {
+    "bfs-heating-oil": {
+      "fuel": "heating oil, 3,001 - 6,000 l delivery",
+      "currency": "CHF",
+      "latest": "2026-10-01",
+      "weeks": {
+        "2026-08-01": {
+          "path": "bfs-heating-oil/2026-08-01.json",
+          "checksum": "sha256:de6e9e7c8232753c77002e60291987ea6c4ca07979a93c2f4b07436c043a27ec"
+        },
+        "2026-09-01": {
+          "path": "bfs-heating-oil/2026-09-01.json",
+          "checksum": "sha256:f0579f3cf681f0ef4beebec253ece5b6ab2509287735a3e5de708e53cda405c6"
+        },
+        "2026-10-01": {
+          "path": "bfs-heating-oil/2026-10-01.json",
+          "checksum": "sha256:41139e4341d0d4a9457fab871dceebe330658e59e68e1d83c5d1e4afaf5c9c96"
+        }
+      }
+    }
+  }
+}
