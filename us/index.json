@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "country": "US",
+  "sources": {
+    "eia-heating-oil": {
+      "fuel": "No. 2 heating oil, residential",
+      "currency": "USD",
+      "latest": "2026-11-16",
+      "weeks": {
+        "2026-10-05": {
+          "path": "eia-heating-oil/2026-10-05.json",
+          "checksum": "sha256:678bcd3b301b41384f4ebd83c37f557633ca98d2d9b41f020d6858962b20ddf0"
+        },
+        "2026-10-12": {
+          "path": "eia-heating-oil/2026-10-12.json",
+          "checksum": "sha256:5f8d14e99165038daa0ce02495aa823390342a93f0e1734490eafe7be6bc2e33"
+        },
+        "2026-10-19": {
+          "path": "eia-heating-oil/2026-10-19.json",
+          "checksum": "sha256:c30a758c7f676ef835a8d3b18c4e252696a485f92d4837dba89cfba9906afce1"
+        },
+        "2026-10-26": {
+          "path": "eia-heating-oil/2026-10-26.json",
+          "checksum": "sha256:05bbebd343edb5e27189917d28c94fbfb8538d14ba7c005197d37d1bda2438f1"
+        },
+        "2026-11-02": {
+          "path": "eia-heating-oil/2026-11-02.json",
+          "checksum": "sha256:f877fb527ece96bd9ecf4793e927e0c012bed69d0467b8e95452d25b8afc413c"
+        },
+        "2026-11-09": {
+          "path": "eia-heating-oil/2026-11-09.json",
+          "checksum": "sha256:10363c344011e810a8b3dbf48b72ea57879246a7c5afa531ac22ba346b65d280"
+        },
+        "2026-11-16": {
+          "path": "eia-heating-oil/2026-11-16.json",
+          "checksum": "sha256:bb9e0152e224a2ab8d56b6ab984374951ed6725192874f4c3aa1c5ff61a65a6f"
+        }
+      }
+    }
+  }
+}

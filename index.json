@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "service": "heating-oil",
+  "countries": {
+    "US": {
+      "path": "us/index.json",
+      "sources": [
+        "eia-heating-oil"
+      ],
+      "latest": "2026-11-16",
+      "checksum": "sha256:3591ae50555526424d635c09b930c5bbacc23ff293d9c1acb701e4ab7f92f1ad"
+    }
+  }
+}

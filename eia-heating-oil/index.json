@@ -1,13 +1,20 @@
 {
   "schema": 1,
   "source": "eia-heating-oil",
-  "dates": [
-    "2026-10-05",
-    "2026-10-12",
-    "2026-10-19",
-    "2026-10-26",
-    "2026-11-02",
-    "2026-11-09",
-    "2026-11-16"
-  ]
+  "countries": [
+    "US"
+  ],
+  "fuel": "No. 2 heating oil, residential",
+  "currency": "USD",
+  "unit": "l",
+  "latest": "2026-11-16",
+  "weeks": {
+    "2026-10-05": "sha256:678bcd3b301b41384f4ebd83c37f557633ca98d2d9b41f020d6858962b20ddf0",
+    "2026-10-12": "sha256:5f8d14e99165038daa0ce02495aa823390342a93f0e1734490eafe7be6bc2e33",
+    "2026-10-19": "sha256:c30a758c7f676ef835a8d3b18c4e252696a485f92d4837dba89cfba9906afce1",
+    "2026-10-26": "sha256:05bbebd343edb5e27189917d28c94fbfb8538d14ba7c005197d37d1bda2438f1",
+    "2026-11-02": "sha256:f877fb527ece96bd9ecf4793e927e0c012bed69d0467b8e95452d25b8afc413c",
+    "2026-11-09": "sha256:10363c344011e810a8b3dbf48b72ea57879246a7c5afa531ac22ba346b65d280",
+    "2026-11-16": "sha256:bb9e0152e224a2ab8d56b6ab984374951ed6725192874f4c3aa1c5ff61a65a6f"
+  }
 }
