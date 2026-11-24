@@ -1,0 +1,50 @@
+{
+  "schema": 1,
+  "name": "my london flexible plan",
+  "provider": "my london",
+  "service": "gas",
+  "effective_from": "2026-11-24",
+  "source": {
+    "id": "octopus-energy-gb-gas",
+    "url": "https://api.octopus.energy/v1/products/LP-VAR-23-04-01/"
+  },
+  "bands": [
+    {
+      "name": "Single rate"
+    }
+  ],
+  "areas": {
+    "a": {
+      "label": "Eastern England (A)",
+      "rates": {
+        "Single rate": "0.079114"
+      },
+      "region": "GSP-A",
+      "standing": "0.283807"
+    },
+    "c": {
+      "label": "London (C)",
+      "rates": {
+        "Single rate": "0.081462"
+      },
+      "region": "GSP-C",
+      "standing": "0.292408"
+    },
+    "h": {
+      "label": "Southern England (H)",
+      "rates": {
+        "Single rate": "0.081675"
+      },
+      "region": "GSP-H",
+      "standing": "0.281994"
+    },
+    "j": {
+      "label": "South East England (J)",
+      "rates": {
+        "Single rate": "0.080463"
+      },
+      "region": "GSP-J",
+      "standing": "0.283001"
+    }
+  }
+}

@@ -67,6 +67,21 @@
         }
       }
     },
+    "electric-ireland": {
+      "name": "Electric Ireland",
+      "tariffs": {
+        "electric-ireland-energysaver-10-gas": {
+          "name": "EnergySaver 10% Gas",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:3b29ff1cb02a5cd8764a8c0de083a64a8acc0b3e330a06cb94ecb6e7e15720bd",
+              "effective_from": "2026-10-14",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
     "sse-airtricity": {
       "name": "SSE Airtricity",
       "tariffs": {

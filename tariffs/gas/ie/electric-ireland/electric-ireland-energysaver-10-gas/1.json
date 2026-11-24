@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "name": "EnergySaver 10% Gas",
+  "provider": "Electric Ireland",
+  "service": "gas",
+  "effective_from": "2026-10-14",
+  "source": {
+    "id": "electric-ireland-gas",
+    "url": "https://www.electricireland.ie/switch/new-customer/priceplan-charges?pricePlanId=ESG10"
+  },
+  "bands": [
+    {
+      "name": "Single rate"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "Single rate": "0.11972"
+      },
+      "standing": "0.410164"
+    }
+  }
+}

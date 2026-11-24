@@ -42,6 +42,36 @@
     }
   },
   "providers": {
+    "co-op-energy": {
+      "name": "Co-op Energy",
+      "tariffs": {
+        "co-op-energy-coop-var-23-04-01": {
+          "name": "Co-op Flexible",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:b4ba8df57af1d572fee2328048404bc819e9137d9b6b230df783443ed1ace4a8",
+              "effective_from": "2026-11-24",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "my-london": {
+      "name": "my london",
+      "tariffs": {
+        "my-london-lp-var-23-04-01": {
+          "name": "my london flexible plan",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:e306c0cfd58c848709e0cc8fead606c5f1648bef480b91b638e4e3ea0450af5b",
+              "effective_from": "2026-11-24",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
     "octopus-energy": {
       "name": "Octopus Energy",
       "tariffs": {
