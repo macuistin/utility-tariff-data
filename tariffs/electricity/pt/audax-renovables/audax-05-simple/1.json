@@ -1,0 +1,88 @@
+{
+  "schema": 1,
+  "name": "TOP T4 - Fixo de 12 meses, simple",
+  "provider": "Audax Renovables",
+  "effective_from": "2026-11-16",
+  "source": {
+    "id": "pt-erse-offers",
+    "url": "https://simuladorprecos.erse.pt/"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "1-15-kva": {
+      "label": "1.15 kVA",
+      "rates": {
+        "All day": "0.163"
+      },
+      "standing": "1.7011"
+    },
+    "10-35-kva": {
+      "label": "10.35 kVA",
+      "rates": {
+        "All day": "0.163"
+      },
+      "standing": "2.1592"
+    },
+    "13-8-kva": {
+      "label": "13.8 kVA",
+      "rates": {
+        "All day": "0.163"
+      },
+      "standing": "2.331"
+    },
+    "17-25-kva": {
+      "label": "17.25 kVA",
+      "rates": {
+        "All day": "0.163"
+      },
+      "standing": "2.5029"
+    },
+    "2-3-kva": {
+      "label": "2.3 kVA",
+      "rates": {
+        "All day": "0.163"
+      },
+      "standing": "1.7583"
+    },
+    "20-7-kva": {
+      "label": "20.7 kVA",
+      "rates": {
+        "All day": "0.163"
+      },
+      "standing": "2.6747"
+    },
+    "3-45-kva": {
+      "label": "3.45 kVA",
+      "rates": {
+        "All day": "0.163"
+      },
+      "standing": "1.8156"
+    },
+    "4-6-kva": {
+      "label": "4.6 kVA",
+      "rates": {
+        "All day": "0.163"
+      },
+      "standing": "1.8729"
+    },
+    "5-75-kva": {
+      "label": "5.75 kVA",
+      "rates": {
+        "All day": "0.163"
+      },
+      "standing": "1.9302"
+    },
+    "6-9-kva": {
+      "label": "6.9 kVA",
+      "rates": {
+        "All day": "0.163"
+      },
+      "standing": "1.9874"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "Categoria A",
+  "provider": "Media Mesolcina Energia",
+  "effective_from": "2026-01-01",
+  "source": {
+    "id": "ch-elcom",
+    "url": "https://www.strompreis.elcom.admin.ch/operator/858"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "label": "Grono, Lostallo, Soazza",
+      "rates": {
+        "All day": "0.2292"
+      },
+      "standing": "0.454795"
+    }
+  }
+}

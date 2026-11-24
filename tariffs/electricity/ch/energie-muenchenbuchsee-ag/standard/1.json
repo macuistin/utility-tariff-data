@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "S EMAG Wasser + S EMAG NS",
+  "provider": "Energie Münchenbuchsee AG",
+  "effective_from": "2026-01-01",
+  "source": {
+    "id": "ch-elcom",
+    "url": "https://www.strompreis.elcom.admin.ch/operator/80"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "label": "Münchenbuchsee",
+      "rates": {
+        "All day": "0.3023"
+      },
+      "standing": "0.460274"
+    }
+  }
+}

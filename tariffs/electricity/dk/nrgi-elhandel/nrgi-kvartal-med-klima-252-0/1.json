@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "NRGi Kvartal med klima",
+  "provider": "NRGi Elhandel",
+  "effective_from": "2025-11-07",
+  "effective_to": "2027-04-09",
+  "source": {
+    "id": "dk-elpris",
+    "url": "https://elpris.dk/"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "All day": "1.6636"
+      },
+      "standing": "0.76274"
+    }
+  }
+}

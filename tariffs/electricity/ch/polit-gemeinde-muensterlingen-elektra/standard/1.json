@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "Haushalt",
+  "provider": "Polit. Gemeinde Münsterlingen, Elektra",
+  "effective_from": "2026-01-01",
+  "source": {
+    "id": "ch-elcom",
+    "url": "https://www.strompreis.elcom.admin.ch/operator/654"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "label": "Münsterlingen",
+      "rates": {
+        "All day": "0.2648"
+      },
+      "standing": "0.263014"
+    }
+  }
+}

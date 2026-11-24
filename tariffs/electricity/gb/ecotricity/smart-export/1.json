@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "name": "Smart Export Tariff",
+  "provider": "Ecotricity",
+  "direction": "export",
+  "effective_from": "2026-11-24",
+  "source": {
+    "id": "seg-pages-gb",
+    "url": "https://www.ecotricity.co.uk/your-green-energy/smart-export-tariff"
+  },
+  "bands": [
+    {
+      "name": "Flat"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "Flat": "0.12"
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "Energie ET + Standard",
+  "provider": "Gemeindebetriebe Lotzwil, Elektrizitätsversorgung",
+  "effective_from": "2026-01-01",
+  "source": {
+    "id": "ch-elcom",
+    "url": "https://www.strompreis.elcom.admin.ch/operator/322"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "label": "Lotzwil",
+      "rates": {
+        "All day": "0.2823"
+      },
+      "standing": "0.427397"
+    }
+  }
+}

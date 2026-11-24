@@ -1,0 +1,257 @@
+{
+  "schema": 1,
+  "name": "FastEnergi 6",
+  "provider": "Andel Energi",
+  "effective_from": "2026-11-20",
+  "effective_to": "2026-11-26",
+  "source": {
+    "id": "dk-elpris",
+    "url": "https://elpris.dk/"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "014": {
+      "label": "Aars-Hornum El-forsyning (014)",
+      "rates": {
+        "All day": "1.605"
+      },
+      "standing": "0.526027"
+    },
+    "031": {
+      "label": "Nord Energi Net A/S (031)",
+      "rates": {
+        "All day": "1.605"
+      },
+      "standing": "0.526027"
+    },
+    "051": {
+      "label": "Elinord A/S (051)",
+      "rates": {
+        "All day": "1.605"
+      },
+      "standing": "0.526027"
+    },
+    "085": {
+      "label": "Læsø Elnet A/S (085)",
+      "rates": {
+        "All day": "1.605"
+      },
+      "standing": "0.526027"
+    },
+    "131": {
+      "label": "N1 A/S (131)",
+      "rates": {
+        "All day": "1.605"
+      },
+      "standing": "0.526027"
+    },
+    "141": {
+      "label": "Hammel Elforsyning (141)",
+      "rates": {
+        "All day": "1.605"
+      },
+      "standing": "0.526027"
+    },
+    "145": {
+      "label": "Dinel A/S (145)",
+      "rates": {
+        "All day": "1.605"
+      },
+      "standing": "0.526027"
+    },
+    "151": {
+      "label": "Konstant Net A/S (151)",
+      "rates": {
+        "All day": "1.605"
+      },
+      "standing": "0.526027"
+    },
+    "154": {
+      "label": "Elnet Midt A/S (154)",
+      "rates": {
+        "All day": "1.605"
+      },
+      "standing": "0.526027"
+    },
+    "244": {
+      "label": "TRE-FOR El-Net A/S (244)",
+      "rates": {
+        "All day": "1.605"
+      },
+      "standing": "0.526027"
+    },
+    "331": {
+      "label": "Netselskabet Elværk A/S (331)",
+      "rates": {
+        "All day": "1.605"
+      },
+      "standing": "0.526027"
+    },
+    "341": {
+      "label": "GEV NET A/S (341)",
+      "rates": {
+        "All day": "1.605"
+      },
+      "standing": "0.526027"
+    },
+    "342": {
+      "label": "Ikast El Net A/S (342)",
+      "rates": {
+        "All day": "1.605"
+      },
+      "standing": "0.526027"
+    },
+    "344": {
+      "label": "N1 - Evonet (344)",
+      "rates": {
+        "All day": "1.605"
+      },
+      "standing": "0.526027"
+    },
+    "347": {
+      "label": "NOE Net A/S (347)",
+      "rates": {
+        "All day": "1.605"
+      },
+      "standing": "0.526027"
+    },
+    "348": {
+      "label": "RAH Net a/s (348)",
+      "rates": {
+        "All day": "1.605"
+      },
+      "standing": "0.526027"
+    },
+    "351": {
+      "label": "L-NET (351)",
+      "rates": {
+        "All day": "1.605"
+      },
+      "standing": "0.526027"
+    },
+    "357": {
+      "label": "Forsyning Elnet A/S (357)",
+      "rates": {
+        "All day": "1.605"
+      },
+      "standing": "0.526027"
+    },
+    "370": {
+      "label": "Aal El-net a.m.b.a (370)",
+      "rates": {
+        "All day": "1.605"
+      },
+      "standing": "0.526027"
+    },
+    "371": {
+      "label": "Hjerting Transformatorforening (371)",
+      "rates": {
+        "All day": "1.605"
+      },
+      "standing": "0.526027"
+    },
+    "381": {
+      "label": "Hurup Elværk - Net A/S (381)",
+      "rates": {
+        "All day": "1.605"
+      },
+      "standing": "0.526027"
+    },
+    "384": {
+      "label": "Tarm Elværk Net A/S (384)",
+      "rates": {
+        "All day": "1.605"
+      },
+      "standing": "0.526027"
+    },
+    "385": {
+      "label": "Videbæk Elnet A/S (385)",
+      "rates": {
+        "All day": "1.605"
+      },
+      "standing": "0.526027"
+    },
+    "396": {
+      "label": "Sunds Elforsyning (396)",
+      "rates": {
+        "All day": "1.605"
+      },
+      "standing": "0.526027"
+    },
+    "531": {
+      "label": "Ravdex A/S (531)",
+      "rates": {
+        "All day": "1.605"
+      },
+      "standing": "0.526027"
+    },
+    "532": {
+      "label": "Veksel A/S (532)",
+      "rates": {
+        "All day": "1.605"
+      },
+      "standing": "0.526027"
+    },
+    "533": {
+      "label": "FLOW Elnet A/S (533)",
+      "rates": {
+        "All day": "1.605"
+      },
+      "standing": "0.526027"
+    },
+    "543": {
+      "label": "Vores Elnet A/S (543)",
+      "rates": {
+        "All day": "1.605"
+      },
+      "standing": "0.526027"
+    },
+    "584": {
+      "label": "Midtfyns Elforsyning Amba (584)",
+      "rates": {
+        "All day": "1.605"
+      },
+      "standing": "0.526027"
+    },
+    "740": {
+      "label": "Cerius A/S (740)",
+      "rates": {
+        "All day": "1.6473"
+      },
+      "standing": "0.526027"
+    },
+    "757": {
+      "label": "Elektrus A/S (757)",
+      "rates": {
+        "All day": "1.6473"
+      },
+      "standing": "0.526027"
+    },
+    "791": {
+      "label": "Radius Elnet A/S (791)",
+      "rates": {
+        "All day": "1.6473"
+      },
+      "standing": "0.526027"
+    },
+    "860": {
+      "label": "Zeanet A/S (860)",
+      "rates": {
+        "All day": "1.6473"
+      },
+      "standing": "0.526027"
+    },
+    "911": {
+      "label": "TREFOR El-Net Øst A/S (911)",
+      "rates": {
+        "All day": "1.6473"
+      },
+      "standing": "0.526027"
+    }
+  }
+}

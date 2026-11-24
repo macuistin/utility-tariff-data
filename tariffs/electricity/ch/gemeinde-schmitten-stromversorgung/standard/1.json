@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "EWS Tarif 1, Einheitstarif",
+  "provider": "Gemeinde Schmitten, Stromversorgung",
+  "effective_from": "2026-01-01",
+  "source": {
+    "id": "ch-elcom",
+    "url": "https://www.strompreis.elcom.admin.ch/operator/780"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "label": "Schmitten (GR)",
+      "rates": {
+        "All day": "0.2328"
+      },
+      "standing": "0.493151"
+    }
+  }
+}

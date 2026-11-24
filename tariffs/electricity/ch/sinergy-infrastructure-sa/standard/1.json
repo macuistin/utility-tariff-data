@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "Catégorie 1",
+  "provider": "Sinergy Infrastructure SA",
+  "effective_from": "2026-01-01",
+  "source": {
+    "id": "ch-elcom",
+    "url": "https://www.strompreis.elcom.admin.ch/operator/798"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "bfs-6136": {
+      "label": "Martigny",
+      "rates": {
+        "All day": "0.2223"
+      },
+      "standing": "0.420822"
+    },
+    "bfs-6137": {
+      "label": "Martigny-Combe",
+      "rates": {
+        "All day": "0.2143"
+      },
+      "standing": "0.420822"
+    }
+  }
+}

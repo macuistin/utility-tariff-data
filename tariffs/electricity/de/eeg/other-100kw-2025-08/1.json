@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "name": "EEG feed-in, other installation to 100 kW, commissioned 1 Aug 2025 to 31 Jan 2026",
+  "provider": "EEG feed-in tariff",
+  "direction": "export",
+  "effective_from": "2025-08-01",
+  "source": {
+    "id": "de-eeg",
+    "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/ElektrizitaetundGas/ErneuerbareEnergien/EEG_Foerderung/Archiv_VergSaetze/start.html"
+  },
+  "bands": [
+    {
+      "name": "Export"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "Export": "0.0632"
+      }
+    }
+  }
+}

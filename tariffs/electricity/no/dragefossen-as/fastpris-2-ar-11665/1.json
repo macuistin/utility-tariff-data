@@ -1,0 +1,48 @@
+{
+  "schema": 1,
+  "name": "Fastpris 2 år",
+  "provider": "Dragefossen AS",
+  "effective_from": "2026-03-26",
+  "source": {
+    "id": "no-forbrukerradet",
+    "url": "https://strom-api.forbrukerradet.no/products/grid/339"
+  },
+  "bill": {
+    "total": {
+      "kind": "tax",
+      "mode": "included",
+      "name": "VAT",
+      "of": {
+        "kind": "sum",
+        "of": {
+          "energy": {
+            "kind": "energy_by_band",
+            "round_bands": true
+          },
+          "monthly_fee": {
+            "amount": "73.75",
+            "kind": "per_period",
+            "per": "month",
+            "share": "days_in_period"
+          }
+        }
+      },
+      "percent": "$country.vat_percent"
+    }
+  },
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "no4": {
+      "label": "NO4 Nord",
+      "rates": {
+        "All day": "0.68625"
+      },
+      "region": "NO4",
+      "standing": "0"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "Einheitstarif Standard",
+  "provider": "Einheitsgemeinde Raperswilen, Elektrizität",
+  "effective_from": "2026-01-01",
+  "source": {
+    "id": "ch-elcom",
+    "url": "https://www.strompreis.elcom.admin.ch/operator/456"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "label": "Raperswilen",
+      "rates": {
+        "All day": "0.274"
+      },
+      "standing": "0.690411"
+    }
+  }
+}

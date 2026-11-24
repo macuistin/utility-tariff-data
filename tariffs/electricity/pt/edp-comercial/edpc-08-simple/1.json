@@ -1,0 +1,88 @@
+{
+  "schema": 1,
+  "name": "Eletricidade - Oferta de Preço Fixo durante 12 meses, simple",
+  "provider": "EDP Comercial",
+  "effective_from": "2026-05-07",
+  "source": {
+    "id": "pt-erse-offers",
+    "url": "https://simuladorprecos.erse.pt/"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "1-15-kva": {
+      "label": "1.15 kVA",
+      "rates": {
+        "All day": "0.2465"
+      },
+      "standing": "0.1411"
+    },
+    "10-35-kva": {
+      "label": "10.35 kVA",
+      "rates": {
+        "All day": "0.2391"
+      },
+      "standing": "0.8485"
+    },
+    "13-8-kva": {
+      "label": "13.8 kVA",
+      "rates": {
+        "All day": "0.2404"
+      },
+      "standing": "1.0943"
+    },
+    "17-25-kva": {
+      "label": "17.25 kVA",
+      "rates": {
+        "All day": "0.2404"
+      },
+      "standing": "1.3777"
+    },
+    "2-3-kva": {
+      "label": "2.3 kVA",
+      "rates": {
+        "All day": "0.2465"
+      },
+      "standing": "0.211"
+    },
+    "20-7-kva": {
+      "label": "20.7 kVA",
+      "rates": {
+        "All day": "0.2404"
+      },
+      "standing": "1.7068"
+    },
+    "3-45-kva": {
+      "label": "3.45 kVA",
+      "rates": {
+        "All day": "0.2391"
+      },
+      "standing": "0.2891"
+    },
+    "4-6-kva": {
+      "label": "4.6 kVA",
+      "rates": {
+        "All day": "0.2391"
+      },
+      "standing": "0.4347"
+    },
+    "5-75-kva": {
+      "label": "5.75 kVA",
+      "rates": {
+        "All day": "0.2391"
+      },
+      "standing": "0.5203"
+    },
+    "6-9-kva": {
+      "label": "6.9 kVA",
+      "rates": {
+        "All day": "0.2391"
+      },
+      "standing": "0.578"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "KN.basic (E) + KN (N)",
+  "provider": "Einwohnergemeinde Schafisheim, Elektrizitätsversorgung",
+  "effective_from": "2026-01-01",
+  "source": {
+    "id": "ch-elcom",
+    "url": "https://www.strompreis.elcom.admin.ch/operator/463"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "label": "Schafisheim",
+      "rates": {
+        "All day": "0.2283"
+      },
+      "standing": "0.328767"
+    }
+  }
+}

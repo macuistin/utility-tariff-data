@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "name": "Sunndal variabel pris",
+  "provider": "Sunndal Energi AS",
+  "effective_from": "2026-11-24",
+  "source": {
+    "id": "no-forbrukerradet",
+    "url": "https://strom-api.forbrukerradet.no/products/grid/5"
+  },
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "no1": {
+      "label": "NO1 Øst",
+      "rates": {
+        "All day": "2.4999"
+      },
+      "region": "NO1",
+      "standing": "0"
+    },
+    "no3": {
+      "label": "NO3 Midt",
+      "rates": {
+        "All day": "1.8999"
+      },
+      "region": "NO3",
+      "standing": "0"
+    },
+    "no5": {
+      "label": "NO5 Vest",
+      "rates": {
+        "All day": "2.4999"
+      },
+      "region": "NO5",
+      "standing": "0"
+    }
+  }
+}

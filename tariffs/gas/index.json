@@ -9,6 +9,18 @@
       "reason": "Retailer gas plans read from the Consumer Data Right endpoints, added by hand for chosen retailers. Plans with seasonal periods, banded supply charges or tiers quoted for different periods are skipped. Each plan is one area of a retailer, named by its distributor.",
       "tariffs": 12
     },
+    "DK": {
+      "availability": "partial",
+      "checksum": "sha256:d39767d45b02652bf550d660ddecef7a2b6474cb0e1fd1ae1f21449d4c87229c",
+      "path": "dk/index.json",
+      "providers": 0,
+      "reason": "Household and small business gas products of every supplier, from the regulator's gas price portal, for a yearly use up to 6,000 m3. Each plan is a whole bill including VAT: the unit rate holds the gas price, the distribution tariff, the emergency supply tariff and the gas taxes, and the standing charge holds the distributor's system tariff, the meter charge and the supplier's fees. Most products have a price that changes each month, and a plan holds the price listed on the day it was read. Introductory offers and spot products are not held.",
+      "reason_local": {
+        "language": "da",
+        "text": "Gasprodukter til husholdninger og mindre virksomheder fra alle gasleverandører, læst fra Forsyningstilsynets prisportal for gas, for et årligt forbrug op til 6.000 m3. Hver tarif er en hel regning inklusive moms: enhedsprisen rummer gasprisen, distributionstariffen, nødforsyningstariffen og gasafgifterne, og den faste betaling rummer distributionsselskabets systemtarif, målerbetalingen og leverandørens gebyrer. De fleste produkter har en pris, der skifter hver måned, og en tarif har den pris, der var oplyst den dag, den blev læst. Introtilbud og spotprodukter er ikke med."
+      },
+      "tariffs": 0
+    },
     "GB": {
       "availability": "available",
       "checksum": "sha256:cec0299cb96b3efe2d37abc7469d7ec7152b412abeda543f3e70164639a6a146",
@@ -16,12 +28,36 @@
       "providers": 8,
       "tariffs": 29
     },
+    "HK": {
+      "availability": "partial",
+      "checksum": "sha256:0e47e6b9319ab6676650f31c56bd76875fa416dcfd9f17980b99faca7032aced",
+      "path": "hk/index.json",
+      "providers": 0,
+      "reason": "The town gas tariff for households. The fuel cost adjustment, which changes each month and is added to every unit of gas, is not held, so a bill is the basic tariff only. Concession schemes and business tariffs are not held.",
+      "reason_local": {
+        "language": "zh",
+        "text": "住宅用戶的煤氣收費。每月調整並加於每單位煤氣的燃料調整費未有收錄，因此賬單只計算基本收費。優惠計劃及工商業收費亦未有收錄。"
+      },
+      "tariffs": 0
+    },
     "IE": {
       "availability": "available",
       "checksum": "sha256:2aa5f8603bdff123250a7220134e573ec501058053da9be2758728446dc976d4",
       "path": "ie/index.json",
       "providers": 3,
       "tariffs": 6
+    },
+    "PL": {
+      "availability": "partial",
+      "checksum": "sha256:33b48c2e5fd3aa7a282e39f60f022bbd43c90bb0f142c151a95c8dc10c62f895",
+      "path": "pl/index.json",
+      "providers": 0,
+      "reason": "One supplier's gas tariff approved by the regulator, for household groups by yearly use, each group an area, and the prepayment group. These are supply prices only: the price of gas and the supplier's subscription, excluding VAT and at the excise exempt rate for households. The distribution charges are set by the distribution system operator's own tariff and are not held, so a bill needs both and a bill priced from one plan is not a real bill.",
+      "reason_local": {
+        "language": "pl",
+        "text": "Taryfa jednego sprzedawcy na gaz zatwierdzona przez Prezesa URE, dla grup taryfowych gospodarstw domowych według rocznego zużycia, każda grupa jako obszar, oraz grupa przedpłatowa. Są to wyłącznie ceny sprzedaży: cena gazu i opłata abonamentowa sprzedawcy, bez VAT i z uwzględnieniem zwolnienia od akcyzy dla gospodarstw domowych. Opłaty dystrybucyjne określa taryfa operatora systemu dystrybucyjnego i nie są tu ujęte, więc rachunek wymaga obu części, a rachunek wyliczony z jednej taryfy nie jest prawdziwym rachunkiem."
+      },
+      "tariffs": 0
     },
     "PT": {
       "availability": "partial",
@@ -34,6 +70,13 @@
         "text": "Ofertas de gás para clientes domésticos de todos os comercializadores e a tarifa regulada, lidas do simulador de preços da entidade reguladora, para fornecimentos em baixa pressão até 10 000 m3 por ano. Cada escalão de consumo é uma área. O IVA e as taxas não estão nos preços e a taxa de IVA depende do fornecimento, por isso uma fatura não tem linha de imposto. Não estão incluídas as ofertas indexadas ao mercado grossista, as ofertas com um serviço pago, as ofertas duais nem os preços que o simulador indica com mais de seis casas decimais."
       },
       "tariffs": 70
+    },
+    "SG": {
+      "availability": "available",
+      "checksum": "sha256:f24bedb7fed8eb1df49504270684b3206fe0760cbf3bd8a0ecf1e8e9fb2e6467",
+      "path": "sg/index.json",
+      "providers": 0,
+      "tariffs": 0
     }
   }
 }

@@ -1,0 +1,938 @@
+{
+  "schema": 1,
+  "country": "DE",
+  "currency": "EUR",
+  "timezone": "Europe/Berlin",
+  "vat_percent": "19",
+  "availability": "partial",
+  "reason": "Only the default supply (Grundversorgung) tariff of the local default supplier is held, for one postcode in each of the largest cities and state capitals. Prices include VAT, grid charges and levies, as a default tariff is quoted all-in. Other tariffs of these and other suppliers are not held.",
+  "reason_local": {
+    "language": "de",
+    "text": "Es ist nur der Grundversorgungstarif des örtlichen Grundversorgers hinterlegt, für je eine Postleitzahl in den größten Städten und Landeshauptstädten. Die Preise enthalten Umsatzsteuer, Netzentgelte und Umlagen, da ein Grundversorgungstarif als Endpreis angegeben wird. Andere Tarife dieser und anderer Anbieter sind nicht hinterlegt."
+  },
+  "inputs": {
+    "bill_start_day": {
+      "default": 1,
+      "max": 28,
+      "min": 1,
+      "type": "integer"
+    }
+  },
+  "bill": {
+    "period": {
+      "rule": "monthly",
+      "start_day": "$input.bill_start_day"
+    },
+    "total": {
+      "kind": "tax",
+      "mode": "included",
+      "name": "USt",
+      "of": {
+        "kind": "sum",
+        "of": {
+          "energy": {
+            "kind": "energy_by_band",
+            "round_bands": true
+          },
+          "standing": {
+            "kind": "per_day"
+          }
+        }
+      },
+      "percent": "$country.vat_percent"
+    }
+  },
+  "providers": {
+    "badenova-energie-gmbh": {
+      "name": "badenova Energie GmbH",
+      "tariffs": {
+        "oekostrom-pur": {
+          "name": "Ökostrom PUR",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:e5db75d54fa6316d64fb63a187870d3cd643eda958244ded0534daf2190f11b5",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "bs-energy-braunschweiger-versorgungs-ag-co-kg": {
+      "name": "BS|ENERGY Braunschweiger Versorgungs-AG & Co. KG",
+      "tariffs": {
+        "grundversorgung-haushalt": {
+          "name": "Grundversorgung Haushalt",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:2b5df25b782c87a90328ae3bd8c3ffed2ea382801686db6c80eb603006eb7dc4",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "dortmunder-energie-und-wasserversorgung-gmbh": {
+      "name": "Dortmunder Energie- und Wasserversorgung GmbH",
+      "tariffs": {
+        "unser-strom-standard": {
+          "name": "Unser Strom.standard",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:e0a634eb31ffd33ba58a9f72ca026a326ea18abdb2b8b321ae667efe4cd97951",
+              "effective_from": "2026-04-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "e-on-energie-deutschland-gmbh": {
+      "name": "E.ON Energie Deutschland GmbH",
+      "tariffs": {
+        "e-on-grundversorgung-strom-hh": {
+          "name": "E.ON Grundversorgung Strom HH",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:4174ed005ae8180d5218b602fc3f97280adb268ac60f6ecd19e223c7106cb9fe",
+              "effective_from": "2026-02-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "eeg": {
+      "name": "EEG feed-in tariff",
+      "tariffs": {
+        "building-10kw-full-2023-01": {
+          "direction": "export",
+          "name": "EEG feed-in, building to 10 kW, full feed-in, commissioned 1 Jan 2023 to 31 Jan 2024",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:8806a395067c77476f9c6d39107017c5cf11aeda3421d5eb652e5c75ccf19421",
+              "effective_from": "2023-01-01",
+              "effective_to": null
+            }
+          }
+        },
+        "building-10kw-full-2024-02": {
+          "direction": "export",
+          "name": "EEG feed-in, building to 10 kW, full feed-in, commissioned 1 Feb 2024 to 31 Jul 2024",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:f5f9e11308169a38520d871bef5987f9e07ed397d3dd3a6aaa1925945fdfe6d2",
+              "effective_from": "2024-02-01",
+              "effective_to": null
+            }
+          }
+        },
+        "building-10kw-full-2024-08": {
+          "direction": "export",
+          "name": "EEG feed-in, building to 10 kW, full feed-in, commissioned 1 Aug 2024 to 31 Jan 2025",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:e4e652f11950ad8f9784a37fab826966afa109077028dc5cc0fecce251501dde",
+              "effective_from": "2024-08-01",
+              "effective_to": null
+            }
+          }
+        },
+        "building-10kw-full-2025-02": {
+          "direction": "export",
+          "name": "EEG feed-in, building to 10 kW, full feed-in, commissioned 1 Feb 2025 to 31 Jul 2025",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:bc54091c1b1a52cf662d31d31d14669733ab893b48fe761a4c182697364eeb7f",
+              "effective_from": "2025-02-01",
+              "effective_to": null
+            }
+          }
+        },
+        "building-10kw-full-2025-08": {
+          "direction": "export",
+          "name": "EEG feed-in, building to 10 kW, full feed-in, commissioned 1 Aug 2025 to 31 Jan 2026",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:cbcddf0657ca7b95680bad6922b73a40902eae9d306b91aa2a3f057a03aed100",
+              "effective_from": "2025-08-01",
+              "effective_to": null
+            }
+          }
+        },
+        "building-10kw-full-2026-02": {
+          "direction": "export",
+          "name": "EEG feed-in, building to 10 kW, full feed-in, commissioned 1 Feb 2026 to 31 Jul 2026",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:8062cfc5bb8a4c58a9be4749c0bfd8ff56adee3fad44d080ca7c376eb796a34a",
+              "effective_from": "2026-02-01",
+              "effective_to": null
+            }
+          }
+        },
+        "building-10kw-full-2026-08": {
+          "direction": "export",
+          "name": "EEG feed-in, building to 10 kW, full feed-in, commissioned 1 Aug 2026 to 31 Dec 2026",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:3b7053336e3a600c6255aab048578a36b4c1b226a937be20f2276e3a5b5434bf",
+              "effective_from": "2026-08-01",
+              "effective_to": null
+            }
+          }
+        },
+        "building-10kw-surplus-2023-01": {
+          "direction": "export",
+          "name": "EEG feed-in, building to 10 kW, surplus feed-in, commissioned 1 Jan 2023 to 31 Jan 2024",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:852109be232bff9adda44fda5c8c6a1fb18053a3f20be64fbb51d4c8fbdc21e1",
+              "effective_from": "2023-01-01",
+              "effective_to": null
+            }
+          }
+        },
+        "building-10kw-surplus-2024-02": {
+          "direction": "export",
+          "name": "EEG feed-in, building to 10 kW, surplus feed-in, commissioned 1 Feb 2024 to 31 Jul 2024",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:524e6ac0d0caa333b368c6106361f0377dfd098bcc301bcc132cd8e2e093426e",
+              "effective_from": "2024-02-01",
+              "effective_to": null
+            }
+          }
+        },
+        "building-10kw-surplus-2024-08": {
+          "direction": "export",
+          "name": "EEG feed-in, building to 10 kW, surplus feed-in, commissioned 1 Aug 2024 to 31 Jan 2025",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:f425e68071d4e0943693d4cbe3898cf358436f56373703ba77c51d5105b99ba2",
+              "effective_from": "2024-08-01",
+              "effective_to": null
+            }
+          }
+        },
+        "building-10kw-surplus-2025-02": {
+          "direction": "export",
+          "name": "EEG feed-in, building to 10 kW, surplus feed-in, commissioned 1 Feb 2025 to 31 Jul 2025",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:ed17024b5e007b4430cc51ad3a0c754cdf1b36ee92f4e22f56bb32157dbc2702",
+              "effective_from": "2025-02-01",
+              "effective_to": null
+            }
+          }
+        },
+        "building-10kw-surplus-2025-08": {
+          "direction": "export",
+          "name": "EEG feed-in, building to 10 kW, surplus feed-in, commissioned 1 Aug 2025 to 31 Jan 2026",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:622a1537d696ccbe2fea11fe9793d55188856db71c3882d1451254cc81350857",
+              "effective_from": "2025-08-01",
+              "effective_to": null
+            }
+          }
+        },
+        "building-10kw-surplus-2026-02": {
+          "direction": "export",
+          "name": "EEG feed-in, building to 10 kW, surplus feed-in, commissioned 1 Feb 2026 to 31 Jul 2026",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:014e016539da7f67ad0157d890da9aaf8dbc7bd5bfbe8d710351c98aa050ad5d",
+              "effective_from": "2026-02-01",
+              "effective_to": null
+            }
+          }
+        },
+        "building-10kw-surplus-2026-08": {
+          "direction": "export",
+          "name": "EEG feed-in, building to 10 kW, surplus feed-in, commissioned 1 Aug 2026 to 31 Dec 2026",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:bfc359085ad911d96a3cfde91dba0377ab145378ad1d68b70d3cdbdec9dd8d27",
+              "effective_from": "2026-08-01",
+              "effective_to": null
+            }
+          }
+        },
+        "other-100kw-2023-01": {
+          "direction": "export",
+          "name": "EEG feed-in, other installation to 100 kW, commissioned 1 Jan 2023 to 31 Jan 2024",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:66a510478285ac9d9fe01d04385c8c6d1e389e55357ce33e7e91a496906a86e2",
+              "effective_from": "2023-01-01",
+              "effective_to": null
+            }
+          }
+        },
+        "other-100kw-2024-02": {
+          "direction": "export",
+          "name": "EEG feed-in, other installation to 100 kW, commissioned 1 Feb 2024 to 31 Jul 2024",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:873ac7b54f2c525211066c5c000f49cce2b5f776dfe6d2bb24882464f081e159",
+              "effective_from": "2024-02-01",
+              "effective_to": null
+            }
+          }
+        },
+        "other-100kw-2024-08": {
+          "direction": "export",
+          "name": "EEG feed-in, other installation to 100 kW, commissioned 1 Aug 2024 to 31 Jan 2025",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:b8c258c71746f9f3289774b808429889006e12bdbd6e684463865bc2071478a9",
+              "effective_from": "2024-08-01",
+              "effective_to": null
+            }
+          }
+        },
+        "other-100kw-2025-02": {
+          "direction": "export",
+          "name": "EEG feed-in, other installation to 100 kW, commissioned 1 Feb 2025 to 31 Jul 2025",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:6f4ab63e7a6c1453917a153baf089729097b0e116a5cda7c40d5605918b607a3",
+              "effective_from": "2025-02-01",
+              "effective_to": null
+            }
+          }
+        },
+        "other-100kw-2025-08": {
+          "direction": "export",
+          "name": "EEG feed-in, other installation to 100 kW, commissioned 1 Aug 2025 to 31 Jan 2026",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:68e3a3b45e0a481214ff966622679c8116051e7625207bc59984a9a608899086",
+              "effective_from": "2025-08-01",
+              "effective_to": null
+            }
+          }
+        },
+        "other-100kw-2026-02": {
+          "direction": "export",
+          "name": "EEG feed-in, other installation to 100 kW, commissioned 1 Feb 2026 to 31 Jul 2026",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:7f15797b5709e18a720a02f560e33c2461cdfe234447257e7c33be9fa2d1ba03",
+              "effective_from": "2026-02-01",
+              "effective_to": null
+            }
+          }
+        },
+        "other-100kw-2026-08": {
+          "direction": "export",
+          "name": "EEG feed-in, other installation to 100 kW, commissioned 1 Aug 2026 to 31 Dec 2026",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:4d9076beb82a6e6406a615a6fc5a09394e7db6f83dad913e97aa3c612b54e531",
+              "effective_from": "2026-08-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "eins-energie-in-sachsen-gmbh-co-kg": {
+      "name": "eins energie in sachsen GmbH & Co. KG",
+      "tariffs": {
+        "einsstrom-basis-hh": {
+          "name": "einsstrom Basis HH",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:e766ae272bfbbb3b875c9e06ddbca8a704e625a7021ba212d393b959266a8bbd",
+              "effective_from": "2026-03-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "enbw-energie-baden-wuerttemberg-ag": {
+      "name": "EnBW Energie Baden-Württemberg AG",
+      "tariffs": {
+        "enbw-komfort-hh": {
+          "name": "EnBW Komfort HH",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:54a83d30bfc50a93efd86df06da1c46cac46add856a93254f839ccdc8d68d3d0",
+              "effective_from": "2026-01-01",
+              "effective_to": "2026-12-31"
+            }
+          }
+        }
+      }
+    },
+    "enercity-ag": {
+      "name": "enercity AG",
+      "tariffs": {
+        "enercity-strom-natuerlich-versorgt": {
+          "name": "enercity Strom natürlich versorgt",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:c34a49c6e700bb06770971e7a778374c1a8116724d2f90fabf32648ff34a434f",
+              "effective_from": "2026-04-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "energie-saarlorlux-ag": {
+      "name": "Energie SaarLorLux AG",
+      "tariffs": {
+        "grundversorgungstarif-hh": {
+          "name": "Grundversorgungstarif HH",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:2e23dd3d308a47c1a0ac4ce7eb97d8f28f29aa7ae34ba0c987d45d3399055b09",
+              "effective_from": "2026-04-01",
+              "effective_to": null
+            }
+          }
+        },
+        "grundversorgungstarif-hh-regiofonds": {
+          "name": "Grundversorgungstarif HH RegioFonds",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:01dd9b80b91c9e459e63d28fbe529e03a1c726dcf0e270e470cf57328c1cac6e",
+              "effective_from": "2026-04-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "energie-und-wasser-potsdam-gmbh": {
+      "name": "Energie und Wasser Potsdam GmbH",
+      "tariffs": {
+        "ewp-strom-grundversorgung-hh": {
+          "name": "EWP Strom Grundversorgung HH",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:09e63472400af6a9cc43fc4d2367b9c6859d2a8bf2b6db3b71dad0060554fb4d",
+              "effective_from": "2026-01-01",
+              "effective_to": "2026-12-31"
+            }
+          }
+        }
+      }
+    },
+    "energie-und-wasserversorgung-bonn-rhein-sieg-gmbh": {
+      "name": "Energie- und Wasserversorgung Bonn/Rhein-Sieg GmbH",
+      "tariffs": {
+        "bonnbasis": {
+          "name": "BonnBasis",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:a28840bb04877ab97f2413cb70d92da661aad8ce9e0cb0509a2333f818d27cbb",
+              "effective_from": "2026-04-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "entega-plus-gmbh": {
+      "name": "ENTEGA Plus GmbH",
+      "tariffs": {
+        "entega-basis-strom-mainz-hh": {
+          "name": "ENTEGA Basis Strom Mainz HH",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:80c5ae602f80c1af81cd10e643e516a7a8940b700bb651ff2a015fca649cbe1e",
+              "effective_from": "2024-01-01",
+              "effective_to": "2026-12-31"
+            }
+          }
+        }
+      }
+    },
+    "eswe-versorgungs-ag": {
+      "name": "ESWE Versorgungs AG",
+      "tariffs": {
+        "eswe-komfort-strom-hh": {
+          "name": "ESWE Komfort STROM HH",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:51d0299b1d1f9e007890da1deae0439dffb1ca6b790c4902d2a89ce72307b669",
+              "effective_from": "2026-01-01",
+              "effective_to": "2026-12-31"
+            }
+          }
+        }
+      }
+    },
+    "evh-gmbh": {
+      "name": "EVH GmbH",
+      "tariffs": {
+        "grundversorgung-hh": {
+          "name": "Grundversorgung HH",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:76d9198606b70045482f699b18f6471c041b7490a8b4ee42bf3c0d3a394afd85",
+              "effective_from": "2025-03-01",
+              "effective_to": "2026-12-31"
+            }
+          }
+        }
+      }
+    },
+    "mainova-ag": {
+      "name": "Mainova AG",
+      "tariffs": {
+        "mainova-strom-classic-hh": {
+          "name": "Mainova Strom Classic HH",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:24d04eaa63ca8c0c74274c5ab7b418a7ee3a2f1a6393984e5f96462b9e5c3894",
+              "effective_from": "2026-01-01",
+              "effective_to": "2026-12-31"
+            }
+          }
+        },
+        "mainova-strom-classic-hh-oekopremium": {
+          "name": "Mainova Strom Classic HH ÖkoPremium",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:b548a1e9f995b15480e043310595caa1598273644d28e321690ab9d6febab6a3",
+              "effective_from": "2026-01-01",
+              "effective_to": "2026-12-31"
+            }
+          }
+        },
+        "mainova-strom-kombi-hh": {
+          "name": "Mainova Strom Kombi HH",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:c1204f9424076290c45851673d6dbb26c56aad207cd224cf40b13869e49251e2",
+              "effective_from": "2026-01-01",
+              "effective_to": "2026-12-31"
+            }
+          }
+        },
+        "mainova-strom-kombi-hh-oekopremium": {
+          "name": "Mainova Strom Kombi HH ÖkoPremium",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:41de4d8f05cf7581f17ff246203d9ab551de2973040ac60096e221c414096624",
+              "effective_from": "2026-01-01",
+              "effective_to": "2026-12-31"
+            }
+          }
+        }
+      }
+    },
+    "mvv-energie-ag": {
+      "name": "MVV Energie AG",
+      "tariffs": {
+        "classica-strom": {
+          "name": "CLASSICA Strom",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:791ce3606588410bcc3abc65ddd887adac6ad42562ce8ed9861d72db09eb487f",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "n-ergie-aktiengesellschaft": {
+      "name": "N-ERGIE Aktiengesellschaft",
+      "tariffs": {
+        "strom-extra-hh": {
+          "name": "Strom Extra HH",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:98ff17ff7fbd949c0ecea21ac9935acf852c1b574a384388bdb89c41a53aa78c",
+              "effective_from": "2026-01-01",
+              "effective_to": "2026-12-31"
+            }
+          }
+        },
+        "strom-standard-hh": {
+          "name": "Strom Standard HH",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:2f8765f9f703c504d42aa73f2d4c5404d2a2dafc218c588c82a8df3f174f3411",
+              "effective_from": "2026-01-01",
+              "effective_to": "2026-12-31"
+            }
+          }
+        }
+      }
+    },
+    "new-niederrhein-energie-und-wasser-gmbh": {
+      "name": "NEW Niederrhein Energie und Wasser GmbH",
+      "tariffs": {
+        "new-grundversorgung-strom-hh": {
+          "name": "NEW Grundversorgung Strom HH",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:3fcf54721f968a6c04717e5e5995285b7e1105681eb5ff0f88b9983a8d6b0c17",
+              "effective_from": "2026-03-01",
+              "effective_to": "2026-11-30"
+            }
+          }
+        }
+      }
+    },
+    "rheinenergie-ag": {
+      "name": "RheinEnergie AG",
+      "tariffs": {
+        "fairregio-strom-basis": {
+          "name": "FairRegio Strom basis",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:168307f6265f3414b4584ee5b5ceb1458abf925e98447556dc4c32e9ee188397",
+              "effective_from": "2026-01-01",
+              "effective_to": "2026-12-31"
+            }
+          }
+        }
+      }
+    },
+    "sachsenenergie-ag": {
+      "name": "SachsenEnergie AG",
+      "tariffs": {
+        "strom-klassik": {
+          "name": "Strom Klassik",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:686e81ff32d1418da941ced7c898461513bdd6bfc833cf447d0f0bac8767302b",
+              "effective_from": "2026-07-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "stadtwerke-augsburg-energie-gmbh": {
+      "name": "Stadtwerke Augsburg Energie GmbH",
+      "tariffs": {
+        "swa-strom-basis-hh": {
+          "name": "swa Strom Basis HH",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:1a4b96f48c0d66b480653f8970f4e83ecb617bac61904175699d08ebe3878612",
+              "effective_from": "2026-07-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "stadtwerke-bielefeld-gmbh": {
+      "name": "Stadtwerke Bielefeld GmbH",
+      "tariffs": {
+        "meinbeststrom": {
+          "name": "meinBestStrom",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:20fa5a74d5fcfa78548fed9b2a7acdcf711e2471b828f79b53f8b6cc6f4d033a",
+              "effective_from": "2026-01-01",
+              "effective_to": "2026-12-31"
+            }
+          }
+        }
+      }
+    },
+    "stadtwerke-bochum-gmbh": {
+      "name": "Stadtwerke Bochum GmbH",
+      "tariffs": {
+        "stadtwerkebasis-strom-hh": {
+          "name": "StadtwerkeBasis Strom HH",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:83a2bd1bc4470152dc2e48112eeb44e9f5de969dc4c13df0d10fa1d2d3cf68a3",
+              "effective_from": "2026-01-01",
+              "effective_to": "2026-12-31"
+            }
+          }
+        }
+      }
+    },
+    "stadtwerke-duesseldorf-ag": {
+      "name": "Stadtwerke Düsseldorf AG",
+      "tariffs": {
+        "duesselstrom-klassik": {
+          "name": "Düsselstrom Klassik",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:eac3997c8ed4db3a19c64e8c57a8c177ab007e03f1814e34feba9546f8058c6f",
+              "effective_from": "2026-06-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "stadtwerke-duisburg-ag": {
+      "name": "Stadtwerke Duisburg AG",
+      "tariffs": {
+        "partnerstrom-classic": {
+          "name": "PartnerStrom Classic",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:98221b73044377654f175e9cf3d4fb2dd08729faca419cf08badf662a0f00d3e",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "stadtwerke-karlsruhe-gmbh": {
+      "name": "Stadtwerke Karlsruhe GmbH",
+      "tariffs": {
+        "basis-strom-grundversorgung": {
+          "name": "Basis Strom Grundversorgung",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:9f1e54223c22400048ea4e4c215653978c922d99808a8cce96e524481c071509",
+              "effective_from": "2026-03-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "stadtwerke-kiel-ag": {
+      "name": "Stadtwerke Kiel AG",
+      "tariffs": {
+        "strom-basis": {
+          "name": "Strom Basis",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:f7b45835008ad85a241c32bdcc675b21dde842ec717673a14e30aa5499147f37",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "stadtwerke-leipzig-gmbh": {
+      "name": "Stadtwerke Leipzig GmbH",
+      "tariffs": {
+        "l-strom-basis-grundversorgung": {
+          "name": "L-Strom basis (Grundversorgung)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:fcd1555a74c6de90b5b2ae64abbe2af001bd7527ce2fe42202b002614d1c3fb6",
+              "effective_from": "2026-01-01",
+              "effective_to": "2026-12-31"
+            }
+          }
+        }
+      }
+    },
+    "stadtwerke-luebeck-energie-gmbh": {
+      "name": "Stadtwerke Lübeck Energie GmbH",
+      "tariffs": {
+        "travestrom-komfort-hh": {
+          "name": "TraveStrom Komfort HH",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:75f0a44ffb71cb4c3a4108346a4f3bd7fa8169f36eae3bb4942aea0725d16c4f",
+              "effective_from": "2026-04-01",
+              "effective_to": "2026-12-31"
+            }
+          }
+        }
+      }
+    },
+    "stadtwerke-muenster-gmbh": {
+      "name": "Stadtwerke Münster GmbH",
+      "tariffs": {
+        "muenster-ideal-grundversorgung": {
+          "name": "Münster:ideal (Grundversorgung)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:1907ae4b6c52631bcc2345b92bfd1b201308485dd437121d53c68856fca65c4a",
+              "effective_from": "2026-01-01",
+              "effective_to": "2026-12-31"
+            }
+          }
+        }
+      }
+    },
+    "stadtwerke-rostock-ag": {
+      "name": "Stadtwerke Rostock AG",
+      "tariffs": {
+        "strom-basis-hh": {
+          "name": "STROM BASIS HH",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:407c3b7e3c1e8b7eca5a22620b350c57666f8f8c5c3f51f5f7e9aedbbb899792",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "stadtwerke-schwerin-gmbh": {
+      "name": "Stadtwerke Schwerin GmbH",
+      "tariffs": {
+        "grundversorgung-hh": {
+          "name": "Grundversorgung HH",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:9de1c762b9065e89751db8a0a8785dbc004def9c41e7a4df75830971f05d4b1e",
+              "effective_from": "2026-02-01",
+              "effective_to": "2026-12-31"
+            }
+          }
+        }
+      }
+    },
+    "staedtische-werke-aktiengesellschaft-kassel": {
+      "name": "Städtische Werke Aktiengesellschaft, Kassel",
+      "tariffs": {
+        "kassel-strom-basis-haushalt": {
+          "name": "Kassel Strom basis Haushalt",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:5ebebd664a124fff376261554fc84722c8dd97b3dc196baa40c8de71c5aa9b2d",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "staedtische-werke-magdeburg-gmbh-co-kg": {
+      "name": "Städtische Werke Magdeburg GmbH & Co. KG",
+      "tariffs": {
+        "swm-basis-strom-grundversorgung-hh": {
+          "name": "SWM Basis Strom Grundversorgung HH",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:aa8606cc03ea1659e1e6fe1668d113e7be1cf30ea2d56c342e291ebe2284ecb9",
+              "effective_from": "2026-01-01",
+              "effective_to": "2026-12-31"
+            }
+          }
+        }
+      }
+    },
+    "stawag-stadt-und-staedteregionswerke-aachen-ag": {
+      "name": "STAWAG - Stadt- und Städteregionswerke Aachen AG",
+      "tariffs": {
+        "stawag-strom-basis": {
+          "name": "STAWAG Strom Basis",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:afd9d569921773f0de27420f984f168521a8223fa8eaeff398775d000365a111",
+              "effective_from": "2026-01-01",
+              "effective_to": "2026-12-31"
+            }
+          }
+        }
+      }
+    },
+    "swb-vertrieb-bremen-gmbh": {
+      "name": "swb Vertrieb Bremen GmbH",
+      "tariffs": {
+        "swb-strom-basis-extra-hh": {
+          "name": "swb Strom basis extra HH",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:e7879d9e834610796c0112beb905e5b999c6dd66338167ef6cfc0769afca3dd7",
+              "effective_from": "2026-01-01",
+              "effective_to": "2026-12-31"
+            }
+          }
+        },
+        "swb-strom-basis-hh": {
+          "name": "swb Strom basis HH",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:be36a3bc804a323f1cb86475975e6aee94869c9d604d8d601b2eb2c6e5823beb",
+              "effective_from": "2026-01-01",
+              "effective_to": "2026-12-31"
+            }
+          }
+        }
+      }
+    },
+    "swe-energie-gmbh": {
+      "name": "SWE Energie GmbH",
+      "tariffs": {
+        "grund-und-ersatzversorgung-hh": {
+          "name": "Grund- und Ersatzversorgung HH",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:e46e86deb2f666770b7cd54ece552f53adc7a1a5e588c6d4e2ab647a7badfe5a",
+              "effective_from": "2026-03-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "swm-stadtwerke-muenchen-gmbh": {
+      "name": "SWM Stadtwerke München GmbH",
+      "tariffs": {
+        "grund-und-ersatzversorgung-hh": {
+          "name": "Grund- und Ersatzversorgung HH",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:97c5b8ae20e1debab898171afdecc22b4618b31c851670d652f0ff5cc1a5a5b1",
+              "effective_from": "2026-02-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "vattenfall-europe-sales-gmbh": {
+      "name": "Vattenfall Europe Sales GmbH",
+      "tariffs": {
+        "berlin-basis-privatstrom": {
+          "name": "Berlin Basis Privatstrom",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:20e0317f763d4f32d7678da5e551a2cfd7a69e3defde0bf5f7857407e8b3c491",
+              "effective_from": "2026-04-01",
+              "effective_to": null
+            }
+          }
+        },
+        "hamburg-basis-privatstrom": {
+          "name": "Hamburg Basis Privatstrom",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:eeab6a0878a89d9a7e7b894e8fd95d6c1305d7021fd5e74497e6ce4261c4dfac",
+              "effective_from": "2026-04-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "wsw-energie-wasser-ag": {
+      "name": "WSW Energie & Wasser AG",
+      "tariffs": {
+        "wsw-strom-classic": {
+          "name": "WSW STROM CLASSIC",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:f307fb8525dca0233f551553f17b776da464a408211ad213d3f7f58288157492",
+              "effective_from": "2026-01-01",
+              "effective_to": "2026-12-31"
+            }
+          }
+        }
+      }
+    }
+  }
+}

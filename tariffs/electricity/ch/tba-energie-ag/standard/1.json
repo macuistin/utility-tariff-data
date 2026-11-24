@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "energie small + tba private",
+  "provider": "tba energie ag",
+  "effective_from": "2026-01-01",
+  "source": {
+    "id": "ch-elcom",
+    "url": "https://www.strompreis.elcom.admin.ch/operator/743"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "label": "Aarburg",
+      "rates": {
+        "All day": "0.2523"
+      },
+      "standing": "0.493151"
+    }
+  }
+}

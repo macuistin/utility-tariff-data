@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "Privat",
+  "provider": "Gemeinde Lantsch/Lenz, Elektrizitätsversorgung",
+  "effective_from": "2026-01-01",
+  "source": {
+    "id": "ch-elcom",
+    "url": "https://www.strompreis.elcom.admin.ch/operator/527"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "label": "Lantsch/Lenz",
+      "rates": {
+        "All day": "0.2408"
+      },
+      "standing": "0.539178"
+    }
+  }
+}

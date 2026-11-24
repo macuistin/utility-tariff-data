@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "Grøn Fast",
+  "provider": "ENLY",
+  "effective_from": "2025-09-19",
+  "effective_to": "2039-08-01",
+  "source": {
+    "id": "dk-elpris",
+    "url": "https://elpris.dk/"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "All day": "1.568"
+      },
+      "standing": "0"
+    }
+  }
+}

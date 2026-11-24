@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "name": "SEG Beyond Exclusive",
+  "provider": "OVO",
+  "direction": "export",
+  "effective_from": "2026-11-24",
+  "source": {
+    "id": "seg-pages-gb",
+    "url": "https://www.ovoenergy.com/smart-export-guarantee"
+  },
+  "bands": [
+    {
+      "name": "Flat"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "Flat": "0.12"
+      }
+    }
+  }
+}

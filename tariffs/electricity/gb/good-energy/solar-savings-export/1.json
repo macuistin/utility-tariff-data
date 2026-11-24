@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "name": "Solar Savings",
+  "provider": "Good Energy",
+  "direction": "export",
+  "effective_from": "2026-11-24",
+  "source": {
+    "id": "good-energy-gb",
+    "url": "https://www.goodenergy.co.uk/wp-content/uploads/2026/07/Solar-Savings-TIL-290626-Live.pdf"
+  },
+  "bands": [
+    {
+      "name": "Flat"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "Flat": "0.12"
+      }
+    }
+  }
+}

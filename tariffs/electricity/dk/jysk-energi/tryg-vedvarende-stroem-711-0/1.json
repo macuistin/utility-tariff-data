@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "Tryg Vedvarende Strøm",
+  "provider": "Jysk Energi",
+  "effective_from": "2026-11-04",
+  "effective_to": "2026-12-31",
+  "source": {
+    "id": "dk-elpris",
+    "url": "https://elpris.dk/"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "All day": "1.296"
+      },
+      "standing": "1.288767"
+    }
+  }
+}

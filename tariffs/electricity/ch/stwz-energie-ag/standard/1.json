@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "ECO + Haushalt & Gewerbe",
+  "provider": "StWZ Energie AG",
+  "effective_from": "2026-01-01",
+  "source": {
+    "id": "ch-elcom",
+    "url": "https://www.strompreis.elcom.admin.ch/operator/740"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "bfs-4285": {
+      "label": "Strengelbach",
+      "rates": {
+        "All day": "0.2868"
+      },
+      "standing": "0.373151"
+    },
+    "bfs-4289": {
+      "label": "Zofingen",
+      "rates": {
+        "All day": "0.2848"
+      },
+      "standing": "0.373151"
+    }
+  }
+}

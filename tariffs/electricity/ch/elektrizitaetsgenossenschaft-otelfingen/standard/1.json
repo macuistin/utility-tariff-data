@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "WT Opt / Naturstrom basic Zert + Wahltarif WT Opt",
+  "provider": "Elektrizitätsgenossenschaft Otelfingen",
+  "effective_from": "2026-01-01",
+  "source": {
+    "id": "ch-elcom",
+    "url": "https://www.strompreis.elcom.admin.ch/operator/268"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "label": "Otelfingen",
+      "rates": {
+        "All day": "0.2963"
+      },
+      "standing": "0.476712"
+    }
+  }
+}

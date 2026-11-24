@@ -1,0 +1,64 @@
+{
+  "schema": 1,
+  "name": "Tarifa ESTABLE 24H",
+  "provider": "electricadealginet.com",
+  "effective_from": "2025-01-01",
+  "source": {
+    "id": "es-cnmc",
+    "url": "https://comparador.cnmc.gob.es/api/APIPublica/ofertas?fecha=24/11/2026"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "Valle"
+    },
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "holidays": "weekend",
+      "hours": "08:00-00:00",
+      "name": "Llano"
+    },
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "holidays": "weekend",
+      "hours": "10:00-14:00",
+      "name": "Punta"
+    },
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "holidays": "weekend",
+      "hours": "18:00-22:00",
+      "name": "Punta 2"
+    }
+  ],
+  "areas": {
+    "mainland": {
+      "label": "Mainland Spain",
+      "rates": {
+        "Llano": "0.1295",
+        "Punta": "0.1295",
+        "Punta 2": "0.1295",
+        "Valle": "0.1295"
+      },
+      "standing": "0"
+    }
+  }
+}

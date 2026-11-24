@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "name": "Sunndal fastpris 1 år",
+  "provider": "Sunndal Energi AS",
+  "effective_from": "2026-08-31",
+  "effective_to": "2027-06-12",
+  "source": {
+    "id": "no-forbrukerradet",
+    "url": "https://strom-api.forbrukerradet.no/products/grid/249"
+  },
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "no3": {
+      "label": "NO3 Midt",
+      "rates": {
+        "All day": "0.9599"
+      },
+      "region": "NO3",
+      "standing": "0"
+    }
+  }
+}

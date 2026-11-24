@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "NRGi Kvartal",
+  "provider": "NRGi Elhandel",
+  "effective_from": "2025-11-08",
+  "effective_to": "2027-11-12",
+  "source": {
+    "id": "dk-elpris",
+    "url": "https://elpris.dk/"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "All day": "1.6426"
+      },
+      "standing": "0.76274"
+    }
+  }
+}

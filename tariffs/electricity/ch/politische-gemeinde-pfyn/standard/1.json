@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "Haushalt (E) + Haushalt (N)",
+  "provider": "Politische Gemeinde Pfyn",
+  "effective_from": "2026-01-01",
+  "source": {
+    "id": "ch-elcom",
+    "url": "https://www.strompreis.elcom.admin.ch/operator/403"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "label": "Pfyn",
+      "rates": {
+        "All day": "0.2483"
+      },
+      "standing": "0.460274"
+    }
+  }
+}

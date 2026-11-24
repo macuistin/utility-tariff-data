@@ -1,0 +1,51 @@
+{
+  "schema": 1,
+  "country": "PL",
+  "currency": "PLN",
+  "timezone": "Europe/Warsaw",
+  "vat_percent": "23",
+  "availability": "partial",
+  "reason": "One supplier's gas tariff approved by the regulator, for household groups by yearly use, each group an area, and the prepayment group. These are supply prices only: the price of gas and the supplier's subscription, excluding VAT and at the excise exempt rate for households. The distribution charges are set by the distribution system operator's own tariff and are not held, so a bill needs both and a bill priced from one plan is not a real bill.",
+  "reason_local": {
+    "language": "pl",
+    "text": "Taryfa jednego sprzedawcy na gaz zatwierdzona przez Prezesa URE, dla grup taryfowych gospodarstw domowych według rocznego zużycia, każda grupa jako obszar, oraz grupa przedpłatowa. Są to wyłącznie ceny sprzedaży: cena gazu i opłata abonamentowa sprzedawcy, bez VAT i z uwzględnieniem zwolnienia od akcyzy dla gospodarstw domowych. Opłaty dystrybucyjne określa taryfa operatora systemu dystrybucyjnego i nie są tu ujęte, więc rachunek wymaga obu części, a rachunek wyliczony z jednej taryfy nie jest prawdziwym rachunkiem."
+  },
+  "inputs": {
+    "bill_start_day": {
+      "default": 1,
+      "max": 28,
+      "min": 1,
+      "type": "integer"
+    }
+  },
+  "bill": {
+    "period": {
+      "rule": "monthly",
+      "start_day": "$input.bill_start_day"
+    },
+    "total": {
+      "kind": "tax",
+      "mode": "added",
+      "name": "VAT",
+      "of": {
+        "kind": "sum",
+        "of": {
+          "energy": {
+            "kind": "energy_by_band",
+            "round_bands": true
+          },
+          "standing": {
+            "kind": "per_day"
+          }
+        }
+      },
+      "percent": "$country.vat_percent"
+    }
+  },
+  "units": {
+    "gas": {
+      "display": "kWh"
+    }
+  },
+  "providers": {}
+}

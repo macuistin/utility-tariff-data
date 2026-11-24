@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "E IBI + N IBI Mini",
+  "provider": "Industrielle Betriebe Interlaken (IBI) AG",
+  "effective_from": "2026-01-01",
+  "source": {
+    "id": "ch-elcom",
+    "url": "https://www.strompreis.elcom.admin.ch/operator/620"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "label": "Interlaken, Matten bei Interlaken, Unterseen",
+      "rates": {
+        "All day": "0.2614"
+      },
+      "standing": "0.378082"
+    }
+  }
+}

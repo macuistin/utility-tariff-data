@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "country": "HK",
+  "currency": "HKD",
+  "timezone": "Asia/Hong_Kong",
+  "vat_percent": "0",
+  "availability": "partial",
+  "reason": "The town gas tariff for households. The fuel cost adjustment, which changes each month and is added to every unit of gas, is not held, so a bill is the basic tariff only. Concession schemes and business tariffs are not held.",
+  "reason_local": {
+    "language": "zh",
+    "text": "住宅用戶的煤氣收費。每月調整並加於每單位煤氣的燃料調整費未有收錄，因此賬單只計算基本收費。優惠計劃及工商業收費亦未有收錄。"
+  },
+  "inputs": {
+    "bill_start_day": {
+      "default": 1,
+      "max": 28,
+      "min": 1,
+      "type": "integer"
+    }
+  },
+  "bill": {
+    "period": {
+      "rule": "monthly",
+      "start_day": "$input.bill_start_day"
+    },
+    "total": {
+      "kind": "sum",
+      "of": {
+        "energy": {
+          "kind": "energy_by_band",
+          "round_bands": true
+        },
+        "standing": {
+          "kind": "per_day"
+        }
+      }
+    }
+  },
+  "units": {
+    "gas": {
+      "display": "MJ"
+    }
+  },
+  "providers": {}
+}

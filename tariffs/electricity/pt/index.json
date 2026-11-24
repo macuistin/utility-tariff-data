@@ -37,6 +37,731 @@
     }
   },
   "providers": {
+    "audax-renovables": {
+      "name": "Audax Renovables",
+      "tariffs": {
+        "audax-01-simple": {
+          "name": "TOP T0 - Fixo de 12 meses, simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:ebc5b12e4b134c13ba45e203152461afe7df597b6c1105360eaf47c96a9cbd95",
+              "effective_from": "2026-11-16",
+              "effective_to": null
+            }
+          }
+        },
+        "audax-01-two-rate-daily": {
+          "name": "TOP T0 - Fixo de 12 meses, two-rate, daily cycle",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:2ff1c3b50652043f78a7c5a7c8199c9af3217d3f7f197b66aade0f533725949c",
+              "effective_from": "2026-11-16",
+              "effective_to": null
+            }
+          }
+        },
+        "audax-02-simple": {
+          "name": "TOP T1 - Fixo de 12 meses, simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:14b8e48e43226b523f28bb537f015933cd301d8d593df0cf2162fb611f0d7c5c",
+              "effective_from": "2026-11-16",
+              "effective_to": null
+            }
+          }
+        },
+        "audax-02-two-rate-daily": {
+          "name": "TOP T1 - Fixo de 12 meses, two-rate, daily cycle",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:e482b8b5060045d967e7d4289258b5f33f9e6e8656e2424034ece730964a6d02",
+              "effective_from": "2026-11-16",
+              "effective_to": null
+            }
+          }
+        },
+        "audax-03-simple": {
+          "name": "TOP T2 - Fixo de 12 meses, simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:d452429cddb27c3693160cff7d28b8c222cfc7c84ea977bf56a95c77cf0709f8",
+              "effective_from": "2026-11-16",
+              "effective_to": null
+            }
+          }
+        },
+        "audax-03-two-rate-daily": {
+          "name": "TOP T2 - Fixo de 12 meses, two-rate, daily cycle",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:5c44619496c258fcfa6af65229e0f022315e39b1efe1bbbd2dbc6ba8649e4cfd",
+              "effective_from": "2026-11-16",
+              "effective_to": null
+            }
+          }
+        },
+        "audax-04-simple": {
+          "name": "TOP T3 - Fixo de 12 meses, simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:d2b12646d2ff96ce578b2dd277cf4f4230ce0fc19aa546399f9ab707a167bf1e",
+              "effective_from": "2026-11-16",
+              "effective_to": null
+            }
+          }
+        },
+        "audax-04-two-rate-daily": {
+          "name": "TOP T3 - Fixo de 12 meses, two-rate, daily cycle",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:403f93977ad3dda936c36387d35cfa92b8506715f72c234c7b35704b2075988d",
+              "effective_from": "2026-11-16",
+              "effective_to": null
+            }
+          }
+        },
+        "audax-05-simple": {
+          "name": "TOP T4 - Fixo de 12 meses, simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:991ea2b5b6b1f19b131cbbad91d817f34ab016f73bfeac2e602d9deaa2aa3047",
+              "effective_from": "2026-11-16",
+              "effective_to": null
+            }
+          }
+        },
+        "audax-05-two-rate-daily": {
+          "name": "TOP T4 - Fixo de 12 meses, two-rate, daily cycle",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:743ad2a5390ae3f38820f7ea1b9d32e43ed8c319c80bed39ea04dba2f0fbdd28",
+              "effective_from": "2026-11-16",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "edp-comercial": {
+      "name": "EDP Comercial",
+      "tariffs": {
+        "edpc-08-simple": {
+          "name": "Eletricidade - Oferta de Preço Fixo durante 12 meses, simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:8f853bc0173ae1d97c017fe0748936282a092500f110fb3f2a86400ae8783ef5",
+              "effective_from": "2026-05-07",
+              "effective_to": null
+            }
+          }
+        },
+        "edpc-08-two-rate-daily": {
+          "name": "Eletricidade - Oferta de Preço Fixo durante 12 meses, two-rate, daily cycle",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:61f5dba97339bd87b58d9da1a80348e6bd9bfccc73785fea965762544175f5da",
+              "effective_from": "2026-05-07",
+              "effective_to": null
+            }
+          }
+        },
+        "edpc-09-simple": {
+          "name": "Eletricidade - Parceria Pingo Doce, simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:e5f513f739f13827f63e6898626d2416ae958630f4c35328755517d99793a08a",
+              "effective_from": "2026-05-07",
+              "effective_to": null
+            }
+          }
+        },
+        "edpc-09-two-rate-daily": {
+          "name": "Eletricidade - Parceria Pingo Doce, two-rate, daily cycle",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:781e230036bad6fbfa886ae463055778dffa49111e391d05390326297f6c76eb",
+              "effective_from": "2026-05-07",
+              "effective_to": null
+            }
+          }
+        },
+        "edpc-10-simple": {
+          "name": "Eletricidade, simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:3c4520d258cf8625dc422992c790e252116daf4bccff3dbd018af05bb69a9cbb",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        },
+        "edpc-10-two-rate-daily": {
+          "name": "Eletricidade, two-rate, daily cycle",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:6f3df7cbfa704ffb318def44e41a06530bec0f9dd3b92a4bb36f95145f8cd84a",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        },
+        "edpc-11-simple": {
+          "name": "Eletricidade Campanha desconto para sempre DD+FE (desconto por débito direto e fatura eletrónica), simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:2335d7b6bbc19a0a4563f0f7da5cceb1cb0e5bf25f0c653ed17220c56605087a",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "edpc-11-two-rate-daily": {
+          "name": "Eletricidade Campanha desconto para sempre DD+FE (desconto por débito direto e fatura eletrónica), two-rate, daily cycle",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:446b095799c6bfffecf28dfcae8894990b014c51d9971c54734babed0e981646",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "edpc-12-simple": {
+          "name": "Eletricidade Campanha desconto para sempre DD ou FE (desconto por débito direto ou fatura eletrónica), simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:f1a4b504d4aea6948fad1791e57b779f2bbf306781e3567f99b49aece013e36d",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "edpc-12-two-rate-daily": {
+          "name": "Eletricidade Campanha desconto para sempre DD ou FE (desconto por débito direto ou fatura eletrónica), two-rate, daily cycle",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:f489108c7f64a1ff972d390b65ba9baae8e7b3ea670be6f9afdc4a319115b2e6",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "edpc-13-simple": {
+          "name": "Eletricidade DD+FE - Digital (desconto por débito direto e fatura eletrónica), simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:9c3b343960911f172280cc7c15fdb5cae042ca815a75aa6e9c867a0f8f6184f1",
+              "effective_from": "2026-07-07",
+              "effective_to": null
+            }
+          }
+        },
+        "edpc-13-two-rate-daily": {
+          "name": "Eletricidade DD+FE - Digital (desconto por débito direto e fatura eletrónica), two-rate, daily cycle",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:ac697081c6129d827ed155c79a0987817867435009f4f590917af41b146ea71a",
+              "effective_from": "2026-07-07",
+              "effective_to": null
+            }
+          }
+        },
+        "edpc-14-simple": {
+          "name": "Eletricidade DD+FE - Oferta 100€ (desconto por débito direto e fatura eletrónica), simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:b6f0675d8c29d03b19179dabb5c8861fe369e842e92caaae403217137c8e9026",
+              "effective_from": "2026-10-06",
+              "effective_to": null
+            }
+          }
+        },
+        "edpc-14-two-rate-daily": {
+          "name": "Eletricidade DD+FE - Oferta 100€ (desconto por débito direto e fatura eletrónica), two-rate, daily cycle",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:60a6e421b46f27dd45bfd683046dc7db4dd23ce2c9dd6e61e76bbe8fa4fc8ff5",
+              "effective_from": "2026-10-06",
+              "effective_to": null
+            }
+          }
+        },
+        "edpc-15-simple": {
+          "name": "Eletricidade DD+FE (desconto por débito direto e fatura eletrónica), simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:b1f357816a2f63ea271438a2c9517123958df102d20591cc100b9b183a48cc0e",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        },
+        "edpc-15-two-rate-daily": {
+          "name": "Eletricidade DD+FE (desconto por débito direto e fatura eletrónica), two-rate, daily cycle",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:880bb2ae6fd9ce52c3f59ed22891260a4dbf71859c3678ca40d7cc0fb71ac890",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        },
+        "edpc-16-simple": {
+          "name": "Eletricidade DD+FE Campanha 15% Energia (desconto por débito direto e fatura eletrónica), simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:a78b12440b052072ea6bf5f6510aab6b5e0bf33a0283e23dbef7cef774f27cdd",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        },
+        "edpc-16-two-rate-daily": {
+          "name": "Eletricidade DD+FE Campanha 15% Energia (desconto por débito direto e fatura eletrónica), two-rate, daily cycle",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:3eb107f823271db4c2fcdd90d4baa31fbae73ad2116f77533d657ff381920230",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        },
+        "edpc-17-simple": {
+          "name": "Eletricidade DD+FE Campanha 30% Potência (desconto por débito direto e fatura eletrónica), simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:943ccb795843e17a2a882887bd979aca3d9b09341fd598033b26bcb16ebe096c",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        },
+        "edpc-17-two-rate-daily": {
+          "name": "Eletricidade DD+FE Campanha 30% Potência (desconto por débito direto e fatura eletrónica), two-rate, daily cycle",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:6732a0c0af8cb35c395bd1ed2c345ea8f84b2179606a8ec8a0d715cf47a7990c",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        },
+        "edpc-18-simple": {
+          "name": "Eletricidade DD ou FE (desconto por débito direto ou fatura eletrónica), simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:4af6bc34898905b0ec731efe53e18e913f343e86c23689835c5f85d4feb66488",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        },
+        "edpc-18-two-rate-daily": {
+          "name": "Eletricidade DD ou FE (desconto por débito direto ou fatura eletrónica), two-rate, daily cycle",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:b3e15cdc34cca2b4735467177651c6469c1079c06bd94f49020651aebbf5e6a7",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        },
+        "edpc-37-two-rate-daily": {
+          "name": "Eletricidade Mobilidade Elétrica Verde VE20 DD+FE (desconto por débito direto e fatura eletrónica), two-rate, daily cycle",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:89aef906f50b1e1c96a31e359eeeb7bed07c778f3af994ddad049468dc2736d9",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "endesa": {
+      "name": "Endesa",
+      "tariffs": {
+        "end-03-simple": {
+          "name": "Quero+ Luz, simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:45703ea4d1f90aaedc5ba878bc0a835eed7b9800ec53c6911c7280509f91433d",
+              "effective_from": "2026-10-15",
+              "effective_to": null
+            }
+          }
+        },
+        "end-03-two-rate-daily": {
+          "name": "Quero+ Luz, two-rate, daily cycle",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:26a5821d513402a435b3e0b5bee84a4a9f2f56f96db6b729c041c330c1fd5993",
+              "effective_from": "2026-10-15",
+              "effective_to": null
+            }
+          }
+        },
+        "end-04-simple": {
+          "name": "Quero+ Luz + Plano Amigo, simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:885b2dbaf2012756bbc3799f4690a0929c5c3f4782ae3e2c912c2d579e7eb1bd",
+              "effective_from": "2026-10-15",
+              "effective_to": null
+            }
+          }
+        },
+        "end-04-two-rate-daily": {
+          "name": "Quero+ Luz + Plano Amigo, two-rate, daily cycle",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:e564fed4f96796a7d663012d5ebb2f46ff5426976099a77e6bfa2ae1159a5d13",
+              "effective_from": "2026-10-15",
+              "effective_to": null
+            }
+          }
+        },
+        "end-09-simple": {
+          "name": "Quero+ Luz (DD), simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:0004bc31e891b3254541139bd5f345c5236218e6a7834351873c0a2158427710",
+              "effective_from": "2026-10-15",
+              "effective_to": null
+            }
+          }
+        },
+        "end-09-two-rate-daily": {
+          "name": "Quero+ Luz (DD), two-rate, daily cycle",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:6731a930f285c884d0e0d2653276104fde675957220ce9343a5a67aaca2641e5",
+              "effective_from": "2026-10-15",
+              "effective_to": null
+            }
+          }
+        },
+        "end-10-simple": {
+          "name": "Quero+ Luz + Plano Amigo (DD), simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:ee6411c65a56c390030e4976a017d151aaaee46bb022dcb0604bdc56005863db",
+              "effective_from": "2026-10-15",
+              "effective_to": null
+            }
+          }
+        },
+        "end-10-two-rate-daily": {
+          "name": "Quero+ Luz + Plano Amigo (DD), two-rate, daily cycle",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:577d92756f18a538773496de28dd6cfc176ef84d1328128af5a746b7416646f1",
+              "effective_from": "2026-10-15",
+              "effective_to": null
+            }
+          }
+        },
+        "end-100-simple": {
+          "name": "Tarifa Stores luz + Plano Amigo, simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:992571e64b618cea39a4b32dfaad980e4442925bd93b578d470cc38c52bf0476",
+              "effective_from": "2026-10-15",
+              "effective_to": null
+            }
+          }
+        },
+        "end-100-two-rate-daily": {
+          "name": "Tarifa Stores luz + Plano Amigo, two-rate, daily cycle",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:5251d539a0c170d012d273c0038d4b8a8e79773612495e96817a2be4e8fbaea7",
+              "effective_from": "2026-10-15",
+              "effective_to": null
+            }
+          }
+        },
+        "end-103-simple": {
+          "name": "Tarifa Tranquilidade + Plano Amigo, simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:ee65b18f92d27e37ca2f81c956f3d53d3cc12a27126a04ce49a767d6a9dea73b",
+              "effective_from": "2026-10-15",
+              "effective_to": null
+            }
+          }
+        },
+        "end-103-two-rate-daily": {
+          "name": "Tarifa Tranquilidade + Plano Amigo, two-rate, daily cycle",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:6d015b7482a366f482de3cff3ce6f72c681537cfba2a76e2e2a070706351d1e2",
+              "effective_from": "2026-10-15",
+              "effective_to": null
+            }
+          }
+        },
+        "end-11-simple": {
+          "name": "Quero+ Luz (FD), simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:d16cfa21fc0d7bee3c608ebde1ebba4ef0bead09172adae30fa2428c2eb66b1a",
+              "effective_from": "2026-10-15",
+              "effective_to": null
+            }
+          }
+        },
+        "end-11-two-rate-daily": {
+          "name": "Quero+ Luz (FD), two-rate, daily cycle",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:f79cef59355d47ea7944f1fe0f940ebb5055e4fe0cc815de1aadd2c12424645b",
+              "effective_from": "2026-10-15",
+              "effective_to": null
+            }
+          }
+        },
+        "end-12-simple": {
+          "name": "Quero+ Luz + Plano Amigo (FD), simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:36dfa92523b0a1993cdd90e761c440c2b38906f61bd9da35b24b9b7cce9904f5",
+              "effective_from": "2026-10-15",
+              "effective_to": null
+            }
+          }
+        },
+        "end-12-two-rate-daily": {
+          "name": "Quero+ Luz + Plano Amigo (FD), two-rate, daily cycle",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:4b4ff2f61219f22a17eda3c906f5dde344d2db627e44b6b98656781d2ec065f2",
+              "effective_from": "2026-10-15",
+              "effective_to": null
+            }
+          }
+        },
+        "end-17-simple": {
+          "name": "Quero+ Luz (FD+DD), simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:aed127ae7a5579403c7e6852419102883210a9093d199c02e2b1d41561a1a497",
+              "effective_from": "2026-10-15",
+              "effective_to": null
+            }
+          }
+        },
+        "end-17-two-rate-daily": {
+          "name": "Quero+ Luz (FD+DD), two-rate, daily cycle",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:8450137a4c8708d900f6a8bdeaaf88c6b23fe4a785294551c7e8bb6d317ae693",
+              "effective_from": "2026-10-15",
+              "effective_to": null
+            }
+          }
+        },
+        "end-18-simple": {
+          "name": "Quero+ Luz + Plano Amigo (FD+DD), simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:40471d29509c056becb11a42b2a3365cd4dec988f98d43813652623f023ff865",
+              "effective_from": "2026-10-15",
+              "effective_to": null
+            }
+          }
+        },
+        "end-18-two-rate-daily": {
+          "name": "Quero+ Luz + Plano Amigo (FD+DD), two-rate, daily cycle",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:caf2d3a5357a13893776287dfdae7cbb93d949026d08aa1bdb23dc78c375e4ae",
+              "effective_from": "2026-10-15",
+              "effective_to": null
+            }
+          }
+        },
+        "end-41-simple": {
+          "name": "Tarifa A Sua Empresa, simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:321494eb89f74bc48cb9207c744115dacaede1af1dcf148ab0eefbdfe1e1527c",
+              "effective_from": "2026-10-15",
+              "effective_to": null
+            }
+          }
+        },
+        "end-41-two-rate-daily": {
+          "name": "Tarifa A Sua Empresa, two-rate, daily cycle",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:b27e18b706361fb4de651992f8726cfda551f4f4699f00f4b035bd283d01d412",
+              "effective_from": "2026-10-15",
+              "effective_to": null
+            }
+          }
+        },
+        "end-68-simple": {
+          "name": "Tarifa Aniversário, simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:52ec1827251fbd3c68d7b8dac0007aee92712a938a7e6e8b5d86a6ec49a98680",
+              "effective_from": "2026-11-06",
+              "effective_to": null
+            }
+          }
+        },
+        "end-69-simple": {
+          "name": "Tarifa Aniversário + Plano Amigo, simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:f591aa5f470f1a878bb6f2c835b7fc614153d6de32fd9c54ad8c3b8224f21476",
+              "effective_from": "2026-11-06",
+              "effective_to": null
+            }
+          }
+        },
+        "end-71-simple": {
+          "name": "Tarifa Digital luz, simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:261bafe4449565d4dc6a127da01621486484c2613a93e5aa01a96edd79a2eee9",
+              "effective_from": "2026-10-15",
+              "effective_to": null
+            }
+          }
+        },
+        "end-71-two-rate-daily": {
+          "name": "Tarifa Digital luz, two-rate, daily cycle",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:9138f9b94cfd71fc381d070f0c6f30cb2c66f1877b558ab8b6eaf541e45dfc44",
+              "effective_from": "2026-10-15",
+              "effective_to": null
+            }
+          }
+        },
+        "end-72-simple": {
+          "name": "Tarifa Digital luz + Plano Amigo, simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:f306a9a92119e7fac05cdea8e1094ebe14a2362297934216d3821008335645d0",
+              "effective_from": "2026-10-15",
+              "effective_to": null
+            }
+          }
+        },
+        "end-72-two-rate-daily": {
+          "name": "Tarifa Digital luz + Plano Amigo, two-rate, daily cycle",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:578bfdfcc2c5162455d2e024fa4a56f589c5ae0e2e5e7c51c951d0355916bd44",
+              "effective_from": "2026-10-15",
+              "effective_to": null
+            }
+          }
+        },
+        "end-84-simple": {
+          "name": "Tarifa Happy, simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:a3e86516fc28ae6002b8f1771118158cf0287b97c74d4f42fa04391c9b1ed544",
+              "effective_from": "2026-10-15",
+              "effective_to": null
+            }
+          }
+        },
+        "end-84-two-rate-daily": {
+          "name": "Tarifa Happy, two-rate, daily cycle",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:01fdbb33514d7e32bc4d7db4263923b0f70266153c34dec306edfcbe2a9433b9",
+              "effective_from": "2026-10-15",
+              "effective_to": null
+            }
+          }
+        },
+        "end-85-simple": {
+          "name": "Tarifa Happy + Plano Amigo, simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:0e28b8d058d3437b4e65264bc54f7c064b3f0a6af8313af04cfd60f39c32d54e",
+              "effective_from": "2026-10-15",
+              "effective_to": null
+            }
+          }
+        },
+        "end-85-two-rate-daily": {
+          "name": "Tarifa Happy + Plano Amigo, two-rate, daily cycle",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:1e624506f875f2674c046cdce956006fb5544c96046004916b152cd6b172bc5b",
+              "effective_from": "2026-10-15",
+              "effective_to": null
+            }
+          }
+        },
+        "end-92-simple": {
+          "name": "Tarifa Simples, simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:a3679b330b1a10e35d45f03c213850096a396b02cef40ba53451dbc1bcf4ad81",
+              "effective_from": "2026-10-15",
+              "effective_to": null
+            }
+          }
+        },
+        "end-93-simple": {
+          "name": "Tarifa Simples + Plano Amigo, simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:da4af5b50acb882fec8a064e5060dddc5f70b0ff1c798c48ab8654aca37e7c65",
+              "effective_from": "2026-10-15",
+              "effective_to": null
+            }
+          }
+        },
+        "end-94-simple": {
+          "name": "Tarifa Tranquilidade, simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:7d2f7cab15213ca71e894cfbf508353a2c5759c39ecb4a7b12ec30e9b8adecb5",
+              "effective_from": "2026-10-15",
+              "effective_to": null
+            }
+          }
+        },
+        "end-94-two-rate-daily": {
+          "name": "Tarifa Tranquilidade, two-rate, daily cycle",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:03fdd1f6b5aa1eb39213b44e5cc48cf7933ccf5c77551239adf3c9c0ea2070b3",
+              "effective_from": "2026-10-15",
+              "effective_to": null
+            }
+          }
+        },
+        "end-99-simple": {
+          "name": "Tarifa Stores luz, simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:dbc054b84082d23352c0b77950cc27633094b1d64eac128a9aa88df55238a6fe",
+              "effective_from": "2026-10-15",
+              "effective_to": null
+            }
+          }
+        },
+        "end-99-two-rate-daily": {
+          "name": "Tarifa Stores luz, two-rate, daily cycle",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:3fc88707c74753d45566ba11e6da872802371a39ffc517cd7c328233b372eb03",
+              "effective_from": "2026-10-15",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
     "erse-cur": {
       "name": "ERSE regulated tariff (CUR)",
       "tariffs": {
@@ -46,6 +771,761 @@
             "1": {
               "checksum": "sha256:d4ec7fcca54db41185c32031a5dadacfa6a81304becf14dc4c7ba5885ecd6946",
               "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "ezu-energia": {
+      "name": "EZU Energia",
+      "tariffs": {
+        "ezuenergia-01-simple": {
+          "name": "Tarifa EZU26 Multibanco (pagamento MB), simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:6ffc1902968f9217be0afb317d19163d33712bc7be8ad5e2eae3d8d8073b3c69",
+              "effective_from": "2026-08-17",
+              "effective_to": null
+            }
+          }
+        },
+        "ezuenergia-01-two-rate-daily": {
+          "name": "Tarifa EZU26 Multibanco (pagamento MB), two-rate, daily cycle",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:cf3734ce6ce5ae06bf36aff680e93f79a4e979434b0e873f2f73b6edb49fcdb8",
+              "effective_from": "2026-08-17",
+              "effective_to": null
+            }
+          }
+        },
+        "ezuenergia-02-simple": {
+          "name": "Tarifa EZU Premium (pagamento débito direto e fatura eletrónica), simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:a4950a99051d382b06456162a8122d979a3167eca2eadd85103c126455cc5993",
+              "effective_from": "2026-08-17",
+              "effective_to": null
+            }
+          }
+        },
+        "ezuenergia-02-two-rate-daily": {
+          "name": "Tarifa EZU Premium (pagamento débito direto e fatura eletrónica), two-rate, daily cycle",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:8f6a7e03bd5b0a8a691382a3794a53c4b928aa20bacb25b80f007f63b7a68010",
+              "effective_from": "2026-08-17",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "goldenergy": {
+      "name": "Goldenergy",
+      "tariffs": {
+        "gold-106-simple": {
+          "name": "Preço Fixo a Prazo, simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:dcce526f6277f40dfeb06a987f7df3c2b83ab349caddf7fa0194bbf7a3bf3ea7",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "gold-106-two-rate-daily": {
+          "name": "Preço Fixo a Prazo, two-rate, daily cycle",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:404c0b910800729f304f1897fa46af5b143cfb135b55534064934eb949498e71",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "ibelectra": {
+      "name": "Ibelectra",
+      "tariffs": {
+        "ibelectra-05-simple": {
+          "name": "Solução Conforto (Não requer adesão às modalidades pagamento DD ou envio FE.), simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:b802c6832532ce685422984c98b7c8875c05a579206226590fc9cc9ddf5275e9",
+              "effective_from": "2026-06-01",
+              "effective_to": null
+            }
+          }
+        },
+        "ibelectra-05-two-rate-daily": {
+          "name": "Solução Conforto (Não requer adesão às modalidades pagamento DD ou envio FE.), two-rate, daily cycle",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:8fb175b97f0860ecb39200162ea8b566b460d851ce6e68efafb66b64d1ace12e",
+              "effective_from": "2026-06-01",
+              "effective_to": null
+            }
+          }
+        },
+        "ibelectra-08-simple": {
+          "name": "Solução Segura (Não requer a adesão adesão à modalidade de pagamento DD ou FE), simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:ccf1b49823434890c8e4c3617033a13ff1785750b2fceecbf5d1e83cfcf66fcd",
+              "effective_from": "2026-06-01",
+              "effective_to": null
+            }
+          }
+        },
+        "ibelectra-08-two-rate-daily": {
+          "name": "Solução Segura (Não requer a adesão adesão à modalidade de pagamento DD ou FE), two-rate, daily cycle",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:f0417509d4cd30220aa99c1941a4e03a78813e13112b42a2e4decce0ed440d84",
+              "effective_from": "2026-06-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "iberdrola": {
+      "name": "Iberdrola",
+      "tariffs": {
+        "ibd-22-simple": {
+          "name": "Mais Casa (Oferta 40€) - FE e DDC (Com adesão a fatura eletrónica e domiciliação bancária), simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:f1691a40a5eff5645b1911667370f9cae5844f95b2a20d9e41748636ad575920",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "ibd-22-two-rate-daily": {
+          "name": "Mais Casa (Oferta 40€) - FE e DDC (Com adesão a fatura eletrónica e domiciliação bancária), two-rate, daily cycle",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:0cd527c7789b2b7c1478fdeb26a975c2262d2fcf2f05d01b317095e8dcbb7e47",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "ibd-24-simple": {
+          "name": "Mais Casa (Oferta 40€) - FE ou DDC (Com adesão a fatura eletrónica ou domiciliação bancária), simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:9511b37b0b05d466073d460930ccee4c69aecffeebb35c8fc43b12af5c358b45",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "ibd-24-two-rate-daily": {
+          "name": "Mais Casa (Oferta 40€) - FE ou DDC (Com adesão a fatura eletrónica ou domiciliação bancária), two-rate, daily cycle",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:98f755d0a04460bd1d5c9ce09f31e6deb23768c2b6ee4964ed0f58d6f2a89772",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "ibd-25-simple": {
+          "name": "Mais Casa (Oferta 40€) (Sem adesões obrigatórias), simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:d610f2f7af2e7d4140417d1ca6c0bedf5402cfc520c6ca9de072f193d7a11aaf",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "ibd-25-two-rate-daily": {
+          "name": "Mais Casa (Oferta 40€) (Sem adesões obrigatórias), two-rate, daily cycle",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:c135e5b53ce6ae348ffdd1fadbb43408c4bd7e7b3289c946925b36afcc8579c1",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "ibd-27-simple": {
+          "name": "Mais Casa Amigo (Oferta 40€ + 30€) - FE e DDC (Com adesão a fatura eletrónica e domiciliação bancária), simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:515afbd249da109aebfb0cffff9820a6a584cec4256b44336992df895f37d982",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "ibd-27-two-rate-daily": {
+          "name": "Mais Casa Amigo (Oferta 40€ + 30€) - FE e DDC (Com adesão a fatura eletrónica e domiciliação bancária), two-rate, daily cycle",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:fd4f88dd3672eae125d3aaf317e9e4c045b818f9046fdedca399cb86fe33e6b0",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "ibd-29-simple": {
+          "name": "Mais Casa Amigo (Oferta 40€ + 30€) - FE ou DDC (Com adesão a fatura eletrónica ou domiciliação bancária), simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:8822ebf8dcc8353ebec8d580088caa2b5c3360c09325fb56d38410e3885c524c",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "ibd-29-two-rate-daily": {
+          "name": "Mais Casa Amigo (Oferta 40€ + 30€) - FE ou DDC (Com adesão a fatura eletrónica ou domiciliação bancária), two-rate, daily cycle",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:f31aed1ebbf3df1b50bdc8bc987a7c60978ed1401eef21fa696d2afd78f3dd41",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "ibd-30-simple": {
+          "name": "Mais Casa Amigo (Oferta 40€ + 30€) (Sem adesões obrigatórias), simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:96fbf215bc00cee037825f6f5dd24cd333f0237959f0d18f4f96ab3d348be634",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "ibd-30-two-rate-daily": {
+          "name": "Mais Casa Amigo (Oferta 40€ + 30€) (Sem adesões obrigatórias), two-rate, daily cycle",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:b690ddbe0aaa64fe1b2728ae69b56c436419a3a46f57a6680c36023526df3ba8",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "ibd-33-simple": {
+          "name": "Mais Digital Amigo (Oferta 30€) (Sem adesões obrigatórias), simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:ff4c136c5b18a85dd4bccc8e3f8ba3fe39fdc5c5edad2471a4a9dbcc002ccb07",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "ibd-33-two-rate-daily": {
+          "name": "Mais Digital Amigo (Oferta 30€) (Sem adesões obrigatórias), two-rate, daily cycle",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:8d92b6e60216496e4ebe3a3f52998eb66daa1191ef19875331f5c14314e7ffe2",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "ibd-34-simple": {
+          "name": "Mais Digital (Sem adesões obrigatórias), simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:c1fccee903ce43b94ca0f2b7df470fe49311453aa9f3d3105229c4b01170ae5e",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "ibd-34-two-rate-daily": {
+          "name": "Mais Digital (Sem adesões obrigatórias), two-rate, daily cycle",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:07e1c2331deda11cb187ae66f2cee6ca5ff8a8d62d25613eb4647e08e7c438ba",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "ibd-36-simple": {
+          "name": "Mais Energia - FE e DDC (Com adesão a fatura eletrónica e domiciliação bancária), simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:c0ee91b3b82345199d67e3c6855eede7cbbea428577c8522d63ebc622b70d22c",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "ibd-36-two-rate-daily": {
+          "name": "Mais Energia - FE e DDC (Com adesão a fatura eletrónica e domiciliação bancária), two-rate, daily cycle",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:779315dce22356b5ae4d30314c69227abe6231973a5706eb48794655bdc2ec8c",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "ibd-38-simple": {
+          "name": "Mais Energia Amigo (Oferta 30€) - FE e DDC (Com adesão a fatura eletrónica e domiciliação bancária), simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:12c66405cc7bfa51c30560cc1162c3073dc55866eb41c7e7aa2b4058193dfb9c",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "ibd-38-two-rate-daily": {
+          "name": "Mais Energia Amigo (Oferta 30€) - FE e DDC (Com adesão a fatura eletrónica e domiciliação bancária), two-rate, daily cycle",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:1717efe725ab3da6918f3e1b9289201acb17662d33f09052b39282dbbe31c78d",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "ibd-50-simple": {
+          "name": "Poupança Inteligente - FE e DDC (Com adesão a fatura eletrónica e domiciliação bancária), simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:4efbaca7751174707fb16e0d69c0ade9e83429f78f2e627549261cb5155c7682",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "ibd-51-simple": {
+          "name": "Poupança Inteligente - FE ou DDC (Com adesão a fatura eletrónica ou domiciliação bancária), simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:886287f077f650b8240f4212c56ff69a9b86dece611ccf0a3c483872d30d15aa",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "ibd-52-simple": {
+          "name": "Poupança Inteligente Amigo (Oferta 30€) - FE e DDC (Com adesão a fatura eletrónica e domiciliação bancária), simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:15c3e2c392577d484a5bf34f92dda60c5eacc72ae2921675c3db093b81684ad3",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "ibd-53-simple": {
+          "name": "Poupança Inteligente Amigo (Oferta 30€) - FE ou DDC (Com adesão a fatura eletrónica ou domiciliação bancária), simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:43607dd979e9b9d297ec4ebd2d0ba7bbab3a7afd01c647390c207a9d9a17c902",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "ibd-54-simple": {
+          "name": "Poupança Inteligente Amigo (Oferta 30€) (Sem adesões obrigatórias), simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:ab6054b23e750a0f551cc6368ba560970279ff3bb9f81c84f7c96ffaeea4bc0b",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "ibd-61-simple": {
+          "name": "Poupança Inteligente (Sem adesões obrigatórias), simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:f2e57c7c59089bc028999e399f5f9551818147b8e5c0cfd667404d22fdad2d48",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "jaf-plus": {
+      "name": "JAF Plus",
+      "tariffs": {
+        "jafplus-03-simple": {
+          "name": "Mais Energia, simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:5fb24298c534a78dcc9e637417efaa8b6854ff1e1c68868cedae3b195a7478f8",
+              "effective_from": "2026-09-25",
+              "effective_to": null
+            }
+          }
+        },
+        "jafplus-03-two-rate-daily": {
+          "name": "Mais Energia, two-rate, daily cycle",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:3153d9556ce1184fbc8bcbb56b2e44ef92954e76cda2b38fad84380feeff8f5f",
+              "effective_from": "2026-09-25",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "luzboa": {
+      "name": "Luzboa",
+      "tariffs": {
+        "luzboa-04-simple": {
+          "name": "ROCKWATT POP, simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:e6c29ab8c2577b342d8ef8173e800fdc5eeddbc2cd0923ab162d73fa213a58c9",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        },
+        "luzboa-04-two-rate-daily": {
+          "name": "ROCKWATT POP, two-rate, daily cycle",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:594605ef0ff172eb68cf0695be430eb2a1ba28c46c5b864aa363d8a07ea4e4d3",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "luzigas": {
+      "name": "Luzigás",
+      "tariffs": {
+        "luzigas-02-simple": {
+          "name": "SUPER LIG FIXO, simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:1af499ae41ce13ca1e7d514ef673a1b23b4562e7e477571e59980d293ee5d705",
+              "effective_from": "2026-11-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "meo-energia": {
+      "name": "MEO Energia",
+      "tariffs": {
+        "meoenergia-02-simple": {
+          "name": "MEO + MEO Energia FIXA DD FE M4 11.26 (aplicável exclusivamente a clientes com adesão à fatura eletrónica e débito direto e, ainda, com serviço de comunicações eletrónicas da MEO ativo), simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:4c4581ef61bd6af5103702859144af65dadbfbdc7c026a605e129a856cadbde9",
+              "effective_from": "2026-11-16",
+              "effective_to": null
+            }
+          }
+        },
+        "meoenergia-02-two-rate-daily": {
+          "name": "MEO + MEO Energia FIXA DD FE M4 11.26 (aplicável exclusivamente a clientes com adesão à fatura eletrónica e débito direto e, ainda, com serviço de comunicações eletrónicas da MEO ativo), two-rate, daily cycle",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:527f72af639c01143d32aa20d89644e0b7ca40dd733d3298f0ebb85b2879c4b2",
+              "effective_from": "2026-11-16",
+              "effective_to": null
+            }
+          }
+        },
+        "meoenergia-03-simple": {
+          "name": "MEO Energia FIXA DD FE 11.26 (Aplicável exclusivamente a clientes com adesão à fatura eletrónica e débito direto), simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:de1ee24034bd68415be7f6c44040c75097c608db95c553343e6f1750cd75177f",
+              "effective_from": "2026-11-16",
+              "effective_to": null
+            }
+          }
+        },
+        "meoenergia-03-two-rate-daily": {
+          "name": "MEO Energia FIXA DD FE 11.26 (Aplicável exclusivamente a clientes com adesão à fatura eletrónica e débito direto), two-rate, daily cycle",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:d79460de4cf6e82950a204a68b47e16ae950885a573b0ff9e797f505e631d195",
+              "effective_from": "2026-11-16",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "oeneo": {
+      "name": "Oeneo",
+      "tariffs": {
+        "oeneo-02-simple": {
+          "name": "PRIME, simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:8c72a89383528d814842225f6de4c4e9e32a6617b8acfbf766086a9ccb5ae179",
+              "effective_from": "2026-09-01",
+              "effective_to": null
+            }
+          }
+        },
+        "oeneo-02-two-rate-daily": {
+          "name": "PRIME, two-rate, daily cycle",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:3e04d5d175bfc7835d760a45d583927857e99987de3bbaf691cbe62a14d7a3d9",
+              "effective_from": "2026-09-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "repsol": {
+      "name": "Repsol",
+      "tariffs": {
+        "repsol-09-simple": {
+          "name": "Tarifa Santander Eletricidade FE (Tarifa Santander Eletricidade - 10% Desc (FE)), simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:a83108b34ab532c97be9cba94850a2e6d8877b32a63ba810d01f62da952838ac",
+              "effective_from": "2026-10-19",
+              "effective_to": null
+            }
+          }
+        },
+        "repsol-100-simple": {
+          "name": "VIVA+ Eletricidade FE (VIVA+ Eletricidade - 7% Desc (FE)), simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:0c3639c21b7a9e4e51ec59de101d5b04b16d680321b49708e584aa40a98f764c",
+              "effective_from": "2026-10-19",
+              "effective_to": null
+            }
+          }
+        },
+        "repsol-12-simple": {
+          "name": "Tarifa Santander Eletricidade DD (Tarifa Santander Eletricidade - 16% Desc (DD)), simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:7f4a891f8cbeee5518c342caf21162286105e1c71f20804f6cf68193675cad25",
+              "effective_from": "2026-10-19",
+              "effective_to": null
+            }
+          }
+        },
+        "repsol-121-simple": {
+          "name": "VIVA+ Parcerias Eletricidade FE (VIVA+ Parcerias Eletricidade - 10% Desc (FE)), simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:c21766b466140c72e7380a13299658cb15547f96ba2ae24a5e0edce04d2cc82f",
+              "effective_from": "2026-10-19",
+              "effective_to": null
+            }
+          }
+        },
+        "repsol-124-simple": {
+          "name": "VIVA+ Parcerias Eletricidade DD (VIVA+ Parcerias Eletricidade - 16% Desc (DD)), simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:d4d0d720788ebaf47a6f9b34deab8ac4a835e5af8e33d620cc167e35d882afcc",
+              "effective_from": "2026-10-19",
+              "effective_to": null
+            }
+          }
+        },
+        "repsol-125-simple": {
+          "name": "VIVA+ Parcerias Eletricidade DD + FE (VIVA+ Parcerias Eletricidade - 18% Desc (DD + FE)), simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:27e3056c15de06cef0f267c6d5720879ae5542f71c42883ec0c75221cb0d7520",
+              "effective_from": "2026-10-19",
+              "effective_to": null
+            }
+          }
+        },
+        "repsol-128-simple": {
+          "name": "VIVA+ Parcerias Eletricidade (VIVA+ Parcerias Eletricidade - 8% Desc), simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:594e74e1ed114fcb4239c4abfe6680751f039d7d49af21e1d5916743f5afcc9e",
+              "effective_from": "2026-10-19",
+              "effective_to": null
+            }
+          }
+        },
+        "repsol-13-simple": {
+          "name": "Tarifa Santander Eletricidade DD + FE (Tarifa Santander Eletricidade - 18% Desc (DD + FE)), simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:b72ef401f593319a8fb3b6ff950a6754de120f61ac27cbacf6599e7a1837e3b9",
+              "effective_from": "2026-10-19",
+              "effective_to": null
+            }
+          }
+        },
+        "repsol-16-simple": {
+          "name": "Tarifa Santander Eletricidade (Tarifa Santander Eletricidade - 8% Desc), simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:18d32055c44ad17ace5d066571f884491e22d8f08e82647d251dee64b58855b8",
+              "effective_from": "2026-10-19",
+              "effective_to": null
+            }
+          }
+        },
+        "repsol-37-simple": {
+          "name": "Tarifa Vodafone Eletricidade FE (Tarifa Vodafone Eletricidade - 10% Desc (FE)), simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:5ba2595fcc434bbb7205739022924013ee6a8d9a6f01575c07205b5c442c2a27",
+              "effective_from": "2026-10-19",
+              "effective_to": null
+            }
+          }
+        },
+        "repsol-40-simple": {
+          "name": "Tarifa Vodafone Eletricidade DD (Tarifa Vodafone Eletricidade - 16% Desc (DD)), simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:ced84e39402fabf6173835242084ae3775b52a98f54b25d77d3faa0e9b0f9eaf",
+              "effective_from": "2026-10-19",
+              "effective_to": null
+            }
+          }
+        },
+        "repsol-41-simple": {
+          "name": "Tarifa Vodafone Eletricidade DD + FE (Tarifa Vodafone Eletricidade - 18% Desc (DD + FE)), simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:383e03c44c738fe34a07fe5d7d4dacdab20f6eb7e2877a11ef00f345eb1bd5ca",
+              "effective_from": "2026-10-19",
+              "effective_to": null
+            }
+          }
+        },
+        "repsol-44-simple": {
+          "name": "Tarifa Vodafone Eletricidade (Tarifa Vodafone Eletricidade - 8% Desc), simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:2b3026b85fdabe4bea5a6c288a821db165162a84a1d3454bcf88db6e7d9502b8",
+              "effective_from": "2026-10-19",
+              "effective_to": null
+            }
+          }
+        },
+        "repsol-65-simple": {
+          "name": "VIVA Eletricidade DD + FE (VIVA Eletricidade - 10% Desc (DD + FE)), simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:29151c060e5173212ea3efaf487fb5acb8ef2a5ac0306d1bcd165612ce961fe4",
+              "effective_from": "2026-10-19",
+              "effective_to": null
+            }
+          }
+        },
+        "repsol-68-simple": {
+          "name": "VIVA Eletricidade FE (VIVA Eletricidade - 2% Desc (FE)), simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:fd9aad54e4a9f7914cc06b5856a5c11bc2bd31cb52edd412fd87c45d653441c7",
+              "effective_from": "2026-10-19",
+              "effective_to": null
+            }
+          }
+        },
+        "repsol-71-simple": {
+          "name": "VIVA Eletricidade DD (VIVA Eletricidade - 8% Desc (DD)), simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:f5d15a0abae3d51537f9067a9e87e9ba24daabaf5e7e78e9caf918915249d381",
+              "effective_from": "2026-10-19",
+              "effective_to": null
+            }
+          }
+        },
+        "repsol-88-simple": {
+          "name": "VIVA Eletricidade (VIVA Eletricidade), simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:364a0f78f4a72fd625f88f956cdd0225937fa2a341635c8b1c16972494abd6b2",
+              "effective_from": "2026-10-19",
+              "effective_to": null
+            }
+          }
+        },
+        "repsol-88-two-rate-daily": {
+          "name": "VIVA Eletricidade (VIVA Eletricidade), two-rate, daily cycle",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:75277c4acdf8ca22eebfbff31dc70306e4689045afbea834cfc816d4fd5962f2",
+              "effective_from": "2026-10-19",
+              "effective_to": null
+            }
+          }
+        },
+        "repsol-95-simple": {
+          "name": "VIVA+ Eletricidade DD (VIVA+ Eletricidade - 13% Desc (DD)), simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:4dc331418c0773c722ff00994f78d24b7e40a35f3e0a137d9268bb0f7777ee77",
+              "effective_from": "2026-10-19",
+              "effective_to": null
+            }
+          }
+        },
+        "repsol-96-simple": {
+          "name": "VIVA+ Eletricidade DD + FE (VIVA+ Eletricidade - 15% Desc (DD + FE)), simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:53198320502e326001cbc8d4d38f0441a54b0dacdda1266ee3d48fb969e5a043",
+              "effective_from": "2026-10-19",
+              "effective_to": null
+            }
+          }
+        },
+        "repsol-99-simple": {
+          "name": "VIVA+ Eletricidade (VIVA+ Eletricidade - 5% Desc (Bem-vindo à Repsol)), simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:601f4588ce96f584980ca5585bf43d452e81d41b7a6318d220ac3895ad2d8df9",
+              "effective_from": "2026-10-19",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "yes-energy": {
+      "name": "YES Energy",
+      "tariffs": {
+        "yesenergy-01-simple": {
+          "name": "#SMARTLIVING (Contratação Electronica, Pagamento por Debito Direto), simple",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:49382a4b631d766559f0898181e13f3122e9030e2a7ac5b10973f76fdb5987ea",
+              "effective_from": "2026-11-01",
+              "effective_to": null
+            }
+          }
+        },
+        "yesenergy-01-two-rate-daily": {
+          "name": "#SMARTLIVING (Contratação Electronica, Pagamento por Debito Direto), two-rate, daily cycle",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:92adef6cbf6573c532410e896a8f28a16df0104bb9ea9e7bd32ee9925d690e98",
+              "effective_from": "2026-11-01",
               "effective_to": null
             }
           }

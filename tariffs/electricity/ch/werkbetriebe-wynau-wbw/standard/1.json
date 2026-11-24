@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "Standard",
+  "provider": "Werkbetriebe Wynau (WBW)",
+  "effective_from": "2026-01-01",
+  "source": {
+    "id": "ch-elcom",
+    "url": "https://www.strompreis.elcom.admin.ch/operator/580"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "label": "Wynau",
+      "rates": {
+        "All day": "0.3033"
+      },
+      "standing": "0.345205"
+    }
+  }
+}

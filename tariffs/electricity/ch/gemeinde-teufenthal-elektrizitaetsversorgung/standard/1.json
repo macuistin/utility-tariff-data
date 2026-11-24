@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "Basic (E) + Basic (N)",
+  "provider": "Gemeinde Teufenthal, Elektrizitätsversorgung",
+  "effective_from": "2026-01-01",
+  "source": {
+    "id": "ch-elcom",
+    "url": "https://www.strompreis.elcom.admin.ch/operator/354"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "label": "Teufenthal (AG)",
+      "rates": {
+        "All day": "0.2683"
+      },
+      "standing": "0.526027"
+    }
+  }
+}

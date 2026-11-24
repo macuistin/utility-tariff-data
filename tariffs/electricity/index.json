@@ -3,15 +3,15 @@
   "countries": {
     "AT": {
       "availability": "partial",
-      "checksum": "sha256:314320723a86ced55e8d92588175702c6e7642c16f72811edaf87507c2c7bb64",
+      "checksum": "sha256:5d9632643849593da03cde9d88ecd491664a22f04b436ce922176b21e74ffb6d",
       "path": "at/index.json",
-      "providers": 26,
+      "providers": 27,
       "reason": "Only the supplier's energy price and base charge are held, from E-Control's tariff calculator. A bill also has grid charges, levies, the municipal tax and any discounts, none of which are in these plans, so a bill priced from them is below a real bill.",
       "reason_local": {
         "language": "de",
         "text": "Es sind nur der Energiepreis und der Grundpreis des Lieferanten hinterlegt, aus dem Tarifkalkulator der E-Control. Eine Rechnung enthält außerdem Netzentgelte, Abgaben, die Gemeindeabgabe und etwaige Rabatte, die in diesen Tarifen nicht enthalten sind. Eine daraus berechnete Rechnung liegt daher unter einer echten Rechnung."
       },
-      "tariffs": 45
+      "tariffs": 46
     },
     "AU": {
       "availability": "partial",
@@ -75,15 +75,15 @@
     },
     "CH": {
       "availability": "partial",
-      "checksum": "sha256:4c224d05b7ed11f9fbcd2ac01a58ed236680a08079f5cfd38ac2516103719185",
+      "checksum": "sha256:bb94c61618ea5a1ca8227211000a0e3ca441094c47d918ea36b63bbb02565960",
       "path": "ch/index.json",
-      "providers": 2,
+      "providers": 214,
       "reason": "Only utilities whose tariffs are on the Strompreise Schweiz data hub are held, and for each only the electricity and grid tariffs the utility marks as its standard. Metering, fees and municipal charges are not in the plans, so a bill priced from them is below a real bill.",
       "reason_local": {
         "language": "de",
         "text": "Es sind nur Werke hinterlegt, deren Tarife auf dem Datenportal Strompreise Schweiz stehen, und je Werk nur die Strom- und Netztarife, die das Werk als Standard kennzeichnet. Messung, Gebühren und Gemeindeabgaben sind in den Tarifen nicht enthalten. Eine daraus berechnete Rechnung liegt daher unter einer echten Rechnung."
       },
-      "tariffs": 2
+      "tariffs": 214
     },
     "CM": {
       "availability": "partial",
@@ -94,26 +94,40 @@
       "tariffs": 1
     },
     "DE": {
-      "availability": "unavailable",
-      "checked": "2026-11-10",
-      "reason": "No regulator tariff register exists. The comparison sites hold the plans and their terms have not been checked."
+      "availability": "partial",
+      "checksum": "sha256:07d208066cdc6b82896ad81e1bf6c539d9024e07af4439156434cda962afa27d",
+      "path": "de/index.json",
+      "providers": 40,
+      "reason": "Only the default supply (Grundversorgung) tariff of the local default supplier is held, for one postcode in each of the largest cities and state capitals. Prices include VAT, grid charges and levies, as a default tariff is quoted all-in. Other tariffs of these and other suppliers are not held.",
+      "reason_local": {
+        "language": "de",
+        "text": "Es ist nur der Grundversorgungstarif des örtlichen Grundversorgers hinterlegt, für je eine Postleitzahl in den größten Städten und Landeshauptstädten. Die Preise enthalten Umsatzsteuer, Netzentgelte und Umlagen, da ein Grundversorgungstarif als Endpreis angegeben wird. Andere Tarife dieser und anderer Anbieter sind nicht hinterlegt."
+      },
+      "tariffs": 67
     },
     "DK": {
       "availability": "partial",
-      "checksum": "sha256:b2c94c7e0c1de7d8b0261771e0834893b79ce60e5df630e002519109683b150a",
+      "checksum": "sha256:98f0663970a28d467a82413d690884c4d498292f3f964c2b1d316fe32a8ff244",
       "path": "dk/index.json",
-      "providers": 25,
+      "providers": 44,
       "reason": "Only the grid charge of each network company is held, from Energinet's price list. A bill also has the supplier's price, Energinet's charges, the electricity tax and the subscription, none of which are in these plans, so the standing charge is 0 and a bill priced from them is not a real bill.",
       "reason_local": {
         "language": "da",
         "text": "Kun nettariffen for hvert netselskab er med, fra Energinets prisliste. En regning indeholder også elleverandørens pris, Energinets gebyrer, elafgiften og abonnementet, som ikke er med i disse tariffer. Derfor er det faste gebyr 0, og en regning beregnet ud fra dem er ikke en rigtig regning."
       },
-      "tariffs": 30
+      "tariffs": 67
     },
     "ES": {
-      "availability": "unavailable",
-      "checked": "2026-11-10",
-      "reason": "The regulated PVPC tariff is indexed to the hourly wholesale price and has weekday periods, which the format cannot express. The ESIOS API needs a personal token."
+      "availability": "partial",
+      "checksum": "sha256:0b31a4f2959f520512eb7cb3738e3e91db95a62822b1b197f9aa1cead0323be9",
+      "path": "es/index.json",
+      "providers": 25,
+      "reason": "Fixed-price household offers (2.0TD) from the CNMC comparator, for the mainland and the Balearic Islands. Only the energy prices by period are held, with VAT and the electricity tax on them. The power term, priced per kW of contracted power per year and billed by the day, is not held, nor are the meter rental, the social bonus financing and promotions, so a bill is short of those. Indexed offers (PVPC), offers with the supplier's own hours, the Canary Islands, Ceuta and Melilla are not held. Prices are as the comparator lists them, which can lag a supplier's own page.",
+      "reason_local": {
+        "language": "es",
+        "text": "Se incluyen las ofertas de precio fijo para hogares (2.0TD) del comparador de la CNMC, para la Península y las Illes Balears. Solo se guardan los precios de la energía por periodo, con el IVA y el impuesto sobre la electricidad. No se guarda el término de potencia, que se fija por kW contratado y año y se factura por días, ni el alquiler del contador, la financiación del bono social y las promociones, así que la factura no los incluye. No se incluyen las ofertas indexadas (PVPC), las de horarios propios del comercializador, ni Canarias, Ceuta y Melilla. Los precios son los que figuran en el comparador, que pueden ir por detrás de la web del comercializador."
+      },
+      "tariffs": 54
     },
     "FR": {
       "availability": "partial",
@@ -129,10 +143,10 @@
     },
     "GB": {
       "availability": "available",
-      "checksum": "sha256:6a51f4053fd7a207cae3ffd77221a81606c70ed3fb9197d40b700211131520aa",
+      "checksum": "sha256:547f1ec3a571dcf4b07322ed35cf2be05b079e297c5e896fe2fb8185244f5ee1",
       "path": "gb/index.json",
-      "providers": 6,
-      "tariffs": 30
+      "providers": 10,
+      "tariffs": 52
     },
     "IE": {
       "availability": "available",
@@ -187,17 +201,29 @@
       "checked": "2026-11-10",
       "reason": "No regulator plan list was found. Searched only briefly."
     },
+    "NO": {
+      "availability": "partial",
+      "checksum": "sha256:92f65448bcc86ae6690016c9f14d9c66d3725d6fdbb085c72aa78d2f3a787a52",
+      "path": "no/index.json",
+      "providers": 29,
+      "reason": "Only the supplier's energy price and monthly fee are held, for fixed and variable price contracts, from Forbrukerrådet's price comparison. The grid tariff and the electricity tax, which the grid company bills, are not included, so a bill priced from these plans is below a real bill. Spot price contracts, Norgespris and surplus buy-back are not held. Prices include 25% VAT; the VAT-free prices of Nordland, Troms and Finnmark are not held.",
+      "reason_local": {
+        "language": "nb",
+        "text": "Bare strømleverandørens energipris og faste månedsbeløp er lagt inn, for fastpris- og variabelprisavtaler, fra Forbrukerrådets strømprisoversikt. Nettleie og forbruksavgift, som nettselskapet fakturerer, er ikke med, så en regning beregnet fra disse avtalene blir lavere enn en ekte regning. Spotprisavtaler, Norgespris og plusskundeavtaler er ikke lagt inn. Prisene er med 25 % merverdiavgift; de mva-frie prisene i Nordland, Troms og Finnmark er ikke lagt inn."
+      },
+      "tariffs": 66
+    },
     "PT": {
       "availability": "partial",
-      "checksum": "sha256:ea4ddee26187d3ebc13f0d6051bd8bc638dd3523da1f77b1ae38e4e4f159d662",
+      "checksum": "sha256:8b79327f31e32fd8ac60fe50172d390db821d778c932b37a35cbae62eac110e3",
       "path": "pt/index.json",
-      "providers": 1,
+      "providers": 15,
       "reason": "Only the regulated simple tariff of the last resort supplier for mainland supplies up to 20.7 kVA is held, from the regulator's workbook. VAT and the electricity duty are not in the prices and the VAT rate depends on the supply, so a bill carries no tax line. Most customers are on a market offer, not this tariff.",
       "reason_local": {
         "language": "pt",
         "text": "Apenas a tarifa simples regulada do comercializador de último recurso, para o continente e potências até 20,7 kVA, lida do ficheiro da entidade reguladora. O IVA e o imposto especial sobre o consumo de eletricidade não estão nos preços e a taxa de IVA depende do fornecimento, por isso uma fatura não tem linha de imposto. A maioria dos clientes tem uma oferta de mercado, e não esta tarifa."
       },
-      "tariffs": 1
+      "tariffs": 142
     },
     "SE": {
       "availability": "unavailable",

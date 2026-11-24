@@ -1,0 +1,852 @@
+{
+  "schema": 1,
+  "country": "NO",
+  "currency": "NOK",
+  "timezone": "Europe/Oslo",
+  "vat_percent": "25",
+  "availability": "partial",
+  "reason": "Only the supplier's energy price and monthly fee are held, for fixed and variable price contracts, from Forbrukerrådet's price comparison. The grid tariff and the electricity tax, which the grid company bills, are not included, so a bill priced from these plans is below a real bill. Spot price contracts, Norgespris and surplus buy-back are not held. Prices include 25% VAT; the VAT-free prices of Nordland, Troms and Finnmark are not held.",
+  "reason_local": {
+    "language": "nb",
+    "text": "Bare strømleverandørens energipris og faste månedsbeløp er lagt inn, for fastpris- og variabelprisavtaler, fra Forbrukerrådets strømprisoversikt. Nettleie og forbruksavgift, som nettselskapet fakturerer, er ikke med, så en regning beregnet fra disse avtalene blir lavere enn en ekte regning. Spotprisavtaler, Norgespris og plusskundeavtaler er ikke lagt inn. Prisene er med 25 % merverdiavgift; de mva-frie prisene i Nordland, Troms og Finnmark er ikke lagt inn."
+  },
+  "inputs": {
+    "bill_start_day": {
+      "default": 1,
+      "max": 28,
+      "min": 1,
+      "type": "integer"
+    }
+  },
+  "bill": {
+    "period": {
+      "rule": "monthly",
+      "start_day": "$input.bill_start_day"
+    },
+    "total": {
+      "kind": "tax",
+      "mode": "included",
+      "name": "VAT",
+      "of": {
+        "kind": "sum",
+        "of": {
+          "energy": {
+            "kind": "energy_by_band",
+            "round_bands": true
+          },
+          "standing": {
+            "kind": "per_day"
+          }
+        }
+      },
+      "percent": "$country.vat_percent"
+    }
+  },
+  "providers": {
+    "agva-kraft": {
+      "name": "Agva Kraft",
+      "tariffs": {
+        "agva-kraft-variabel-11438": {
+          "name": "Agva Kraft Variabel",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:8ecbedd865af99fa54ad68ecdcd636d07c0b10e2a935a8e3d99e2f91020dc0be",
+              "effective_from": "2026-11-24",
+              "effective_to": null
+            }
+          }
+        },
+        "agva-variabelpris-11439": {
+          "name": "Agva Variabelpris",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:be3a6a5cfb2f6b38d3d3e7ef6c96a5a9d514c9f996e609954d47ac8312788df7",
+              "effective_from": "2026-11-24",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "baerum-energiomsetning-as": {
+      "name": "Bærum Energiomsetning AS",
+      "tariffs": {
+        "fastpris-1-ar-12593": {
+          "name": "Fastpris 1 år",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:e07a588b48ac979b2e71f7ddc7dab8033f5eca8b08816a32b7785943aea142b7",
+              "effective_from": "2026-11-19",
+              "effective_to": null
+            }
+          }
+        },
+        "fastpris-10-ar-12513": {
+          "name": "Fastpris 10 år",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:3d3cef4119243328abd3892da0c456bddff6163a642a77b0b66c868975a44e3d",
+              "effective_from": "2026-09-23",
+              "effective_to": null
+            }
+          }
+        },
+        "fastpris-2-ar-12510": {
+          "name": "Fastpris 2 år",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:1283b8623851deede4a3c2c54806a9251eb2be42f2e314e0661e3fcd3f21c3a8",
+              "effective_from": "2026-11-20",
+              "effective_to": null
+            }
+          }
+        },
+        "fastpris-3-ar-12511": {
+          "name": "Fastpris 3 år",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:d3896cf071409629d8a6658a7fdc7ab0344a219679f12ce0ee2165c66dc3d640",
+              "effective_from": "2026-11-19",
+              "effective_to": null
+            }
+          }
+        },
+        "fastpris-5-ar-12512": {
+          "name": "Fastpris 5 år",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:0bf2b2b26168985e843edef3b62ec320c12617b765b73fc65e68ebad4fa6502c",
+              "effective_from": "2026-09-23",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "bodo-energi-kraftsalg-as": {
+      "name": "Bodø Energi Kraftsalg AS",
+      "tariffs": {
+        "fastpris-1-ar-12623": {
+          "name": "Fastpris 1 år",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:28c6e57a32919121f5a15beb2bfa8f487246902abe885d58944ccf688e8c7bae",
+              "effective_from": "2026-09-10",
+              "effective_to": null
+            }
+          }
+        },
+        "fastpris-3-ar-10153": {
+          "name": "Fastpris 3 år",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:5a7082ceadfdccc2a894eb11dd054f1bd2e044504ad2d5160cd44dc5c65195b0",
+              "effective_from": "2026-09-10",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "cheap-energy-norge-as": {
+      "name": "Cheap Energy Norge AS",
+      "tariffs": {
+        "cheap-fast-12-12442": {
+          "name": "Cheap fast 12",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:5c8df6d06e7632c744512f18174a67d9998e77f9478b371c13ca7f757f8b4357",
+              "effective_from": "2026-11-19",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "dalane-energisalg-as": {
+      "name": "Dalane Energisalg AS",
+      "tariffs": {
+        "standard-variabel-10676": {
+          "name": "Standard Variabel",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:ce4c4d59eaf2260ec0cb27226161f4fd03ce8ed252fa9899b7b8f66d5f12ac9e",
+              "effective_from": "2026-11-24",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "dragefossen-as": {
+      "name": "Dragefossen AS",
+      "tariffs": {
+        "fastpris-2-ar-11665": {
+          "name": "Fastpris 2 år",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:f81d4dc93938fc1fff3875fabf6df3ef1447015ddde0b72d9e7b040b7544b437",
+              "effective_from": "2026-03-26",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "fjordkraft-as": {
+      "name": "Fjordkraft AS",
+      "tariffs": {
+        "forutsigbar-strompris-11192": {
+          "name": "Forutsigbar Strømpris",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:89d1f67c65226e9a0a9ab405a238961527832bdab72d74c3fa72411572a8282c",
+              "effective_from": "2026-11-24",
+              "effective_to": null
+            }
+          }
+        },
+        "garantistrom-11979": {
+          "name": "Garantistrøm",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:bd9cb6e85e6f6173912eb04afc66ddd0cc0aaa990c197cfea58027e5ff948a07",
+              "effective_from": "2026-11-24",
+              "effective_to": null
+            }
+          }
+        },
+        "garantistrom-nord-11170": {
+          "name": "Garantistrøm Nord",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:88abc401d1c4defc5bb1dab1d227d082b0a382b18da855c13be4080c87ad8495",
+              "effective_from": "2026-11-24",
+              "effective_to": null
+            }
+          }
+        },
+        "stabil-strompris-10383": {
+          "name": "Stabil Strømpris",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:6c4416cfe6a250a80f384ada4a75dcc6b0e7514ddff9f7a5352cfdd953adc28e",
+              "effective_from": "2026-11-24",
+              "effective_to": null
+            }
+          }
+        },
+        "variabel-strompris-11342": {
+          "name": "Variabel Strømpris",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:f1443235591fb2768b2c29b6bb33492341febc4f13046defd29071636e9172d7",
+              "effective_from": "2026-11-24",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "fortum": {
+      "name": "Fortum",
+      "tariffs": {
+        "variabelpris-12030": {
+          "name": "Variabelpris",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:0145ae786d39f8e7f67a654a66ea5ae2c96ea71ecf3ec03dee5ba5a818bf5b15",
+              "effective_from": "2026-11-24",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "fosenkraft-energi": {
+      "name": "FosenKraft Energi",
+      "tariffs": {
+        "fastkraft-11905": {
+          "name": "Fastkraft",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:7b8df5dd228161355167c5e39e55408de7f52fff92085271d3ef95f35705ced0",
+              "effective_from": "2026-04-29",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "haugaland-kraft-energi-as": {
+      "name": "Haugaland Kraft Energi AS",
+      "tariffs": {
+        "fastpris-5-ar-12178": {
+          "name": "Fastpris 5 år",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:4d6caf129c8029451193abe3e1f530e753a371b65b6764bb078c616f6110f6cd",
+              "effective_from": "2026-08-28",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "helgeland-kraft-strom-as": {
+      "name": "Helgeland Kraft Strøm AS",
+      "tariffs": {
+        "fastpris-1-ar-10042": {
+          "name": "Fastpris 1 år",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:76df8099be02c2af283ab6e64f61be1fb572b359becc4e5a54079ca5167bf4b5",
+              "effective_from": "2026-09-23",
+              "effective_to": null
+            }
+          }
+        },
+        "fastpris-3-ar-10102": {
+          "name": "Fastpris 3 år",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:259f9d2280919c3c5a0ca0211324626bd7607038d213261c34e9d710db1d6a15",
+              "effective_from": "2026-09-23",
+              "effective_to": null
+            }
+          }
+        },
+        "variabel-kraft-11754": {
+          "name": "Variabel Kraft",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:99bbc0d21f2ea2e1cfab41023bf75b33d9811e837f28921a5f962a35ae53fdd3",
+              "effective_from": "2026-11-24",
+              "effective_to": null
+            }
+          }
+        },
+        "variabel-kraft-sor-11460": {
+          "name": "Variabel Kraft Sør",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:b1e3f6adbce549d7cd3e8ea796b9eb13e95ee5fae34df383a00802060c9bffee",
+              "effective_from": "2026-11-24",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "hurum-kraft-as": {
+      "name": "Hurum Kraft AS",
+      "tariffs": {
+        "hurum-kraft-lavpris-10499": {
+          "name": "Hurum Kraft Lavpris",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:4206a35e64041e1ded5b56a9cfc91fe8cb7fdac11ee12787ff522da2642c61de",
+              "effective_from": "2026-11-24",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "ishavskraft-as": {
+      "name": "Ishavskraft AS",
+      "tariffs": {
+        "fastpris-1-ar-nord-norge-12422": {
+          "name": "Fastpris 1 år Nord-Norge",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:4e06bc8632f3a4d6b9e19fae3247742a9559502941bb5cda1e0982d89c3047eb",
+              "effective_from": "2026-09-09",
+              "effective_to": null
+            }
+          }
+        },
+        "fastpris-3-ar-nord-norge-12423": {
+          "name": "Fastpris 3 år Nord-Norge",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:b5451e762cf900680e30f142c4a8943c8c1257e0020cdf78d114a39229946fd1",
+              "effective_from": "2026-09-09",
+              "effective_to": null
+            }
+          }
+        },
+        "fastpris-privat-1-ar-12525": {
+          "name": "Fastpris Privat 1 år",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:46dcbe6f42e8ff7063987db4c96eddc8dd98557c5ada73fb4ab9063ed7b27340",
+              "effective_from": "2025-09-30",
+              "effective_to": null
+            }
+          }
+        },
+        "fastpris-privat-3-ar-12526": {
+          "name": "Fastpris Privat 3 år",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:beda61bbef727946c977ebe767262b33ceb54b58c80d2c9783c6b377486be93f",
+              "effective_from": "2025-09-30",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "istad-kraft-as": {
+      "name": "Istad Kraft AS",
+      "tariffs": {
+        "istad-fast-1-ar-10813": {
+          "name": "Istad Fast 1 år",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:57bcd1cdc82af60b6c391b5db86ff9a88dcee2a0907ca45af6155ce42247c710",
+              "effective_from": "2026-11-16",
+              "effective_to": null
+            }
+          }
+        },
+        "istad-fast-2-ar-10115": {
+          "name": "Istad Fast 2 år",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:19d5caa584e7ed291e4e684978429a2350150c58be2c1fc840ede64939242f90",
+              "effective_from": "2026-11-16",
+              "effective_to": null
+            }
+          }
+        },
+        "istad-fast-3-ar-10117": {
+          "name": "Istad Fast 3 år",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:3c76196f88adb43e5244dd4eb202b2073da6d720fd5d5180c93373be0bd25429",
+              "effective_from": "2026-11-16",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "kilden-kraft-as": {
+      "name": "Kilden Kraft AS",
+      "tariffs": {
+        "fastpris-1-ar-12258": {
+          "name": "Fastpris 1 år",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:8f9129365ce94fb547a7b069c550e736ff183a429d01c5a073f016a94a6f0ebe",
+              "effective_from": "2026-11-19",
+              "effective_to": null
+            }
+          }
+        },
+        "fastpris-10-ar-12262": {
+          "name": "Fastpris 10 år",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:435c0694a87494e36a22b45abdb03f81e95f916814534e1d5409eb5bc96194d8",
+              "effective_from": "2026-09-23",
+              "effective_to": null
+            }
+          }
+        },
+        "fastpris-2-ar-12292": {
+          "name": "Fastpris 2 år",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:480201f05975557dc7fa45a4f3c215806679e2a45dc50879b5082eb5fbc3f73a",
+              "effective_from": "2026-11-19",
+              "effective_to": null
+            }
+          }
+        },
+        "fastpris-3-ar-12260": {
+          "name": "Fastpris 3 år",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:5d397aa10e83609d8e9b45291cb24039ccd2cadf6558c8c0f61d643067ac0cc4",
+              "effective_from": "2026-11-19",
+              "effective_to": null
+            }
+          }
+        },
+        "fastpris-5-ar-12261": {
+          "name": "Fastpris 5 år",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:64f11c26914090cefd8c933d021674d27d4fc343276b70ed890c7bb6b4d34b07",
+              "effective_from": "2026-09-23",
+              "effective_to": null
+            }
+          }
+        },
+        "fastpris-6-mnd-12257": {
+          "name": "Fastpris 6 mnd",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:fe98b705e6846ebedc8e371df6dab3cb0a62ec0ad57a931b8aeb71e3428256aa",
+              "effective_from": "2026-07-16",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "kraftriket-as": {
+      "name": "Kraftriket AS",
+      "tariffs": {
+        "variabelstrom-11309": {
+          "name": "Variabelstrøm",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:8e6f9b031c67903f66ad8000ab19443b20acbc2923dcfd0becf4907d043d1f72",
+              "effective_from": "2026-11-24",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "neas-as": {
+      "name": "NEAS AS",
+      "tariffs": {
+        "neas-basis-10186": {
+          "name": "NEAS Basis",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:09e638d492c71aa50cc10edfbb5706afa9320c8002c869497cb2586292c149f8",
+              "effective_from": "2026-11-24",
+              "effective_to": null
+            }
+          }
+        },
+        "neas-fast-1-ar-10155": {
+          "name": "NEAS Fast 1 år",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:c321cd90cabb96e34677389b465fc68986e906b440f9fa1defb8eb214b8941b0",
+              "effective_from": "2026-11-09",
+              "effective_to": null
+            }
+          }
+        },
+        "neas-fast-3-ar-11149": {
+          "name": "NEAS Fast 3 år",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:0ba6e9679656ccac0a0b403e49beda9c1f8b3f82d658083ae91cf86eaf3e85e5",
+              "effective_from": "2026-11-09",
+              "effective_to": null
+            }
+          }
+        },
+        "neas-fast-6-mnd-11148": {
+          "name": "NEAS Fast 6 mnd",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:e4808d51a0596cc8f69457cf5eae25d7f9463bef1f16e281d739fdd1d76c4aa9",
+              "effective_from": "2026-11-09",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "notodden-energi-as": {
+      "name": "Notodden Energi AS",
+      "tariffs": {
+        "ne-fastpris-1-ar-12138": {
+          "name": "NE Fastpris 1 år",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:86f5e7ff2f726aff65d8b90ef5198be3279088944003518d247516903393e20f",
+              "effective_from": "2026-09-24",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "nte-marked-as": {
+      "name": "NTE Marked AS",
+      "tariffs": {
+        "variabel-12698": {
+          "name": "Variabel",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:758a0bbe55a88357753cf8df9ff0dbbf5942e941ee9b4dc87ad1dd6e0c122b66",
+              "effective_from": "2026-11-24",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "polar-kraft-as": {
+      "name": "Polar Kraft AS",
+      "tariffs": {
+        "polar-fast-5-ar-10988": {
+          "name": "Polar Fast 5 år",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:ac64471ce1d100d6479e1decb1732545aa756215fdfc64ae33d1fe630d2ec3de",
+              "effective_from": "2026-07-02",
+              "effective_to": null
+            }
+          }
+        },
+        "polar-fast-5-ar-midt-12008": {
+          "name": "Polar Fast 5 år - Midt",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:298054ddcd4642104dd0215d47dcc1475cd7351d781200f9e9f52ce0c526764f",
+              "effective_from": "2026-07-02",
+              "effective_to": null
+            }
+          }
+        },
+        "polar-fast-5-ar-sor-11136": {
+          "name": "Polar Fast 5 år - Sør",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:b9bfd93b890f4545e7d72e67f0b0929311ae495df183e351b1b901d6df41ab09",
+              "effective_from": "2026-07-02",
+              "effective_to": null
+            }
+          }
+        },
+        "polar-fastpris-1-ar-11847": {
+          "name": "Polar Fastpris 1 år",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:91089141fee296dc3d1357d2afe7751681b92f68f5c02e552d4e58ed0a394bf6",
+              "effective_from": "2026-07-02",
+              "effective_to": null
+            }
+          }
+        },
+        "polar-fastpris-3-ar-11848": {
+          "name": "Polar Fastpris 3 år",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:83acf1de96c5c20e85933a76526cbcdfa39efddf3646b29eebe28f6fcbc985e9",
+              "effective_from": "2026-11-17",
+              "effective_to": null
+            }
+          }
+        },
+        "polar-variabel-10995": {
+          "name": "Polar Variabel",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:53f74424bec148656bd1b7d9bf59148ee0a72159b79c030c908487f6720ce585",
+              "effective_from": "2026-11-24",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "rauma-energi-as": {
+      "name": "Rauma Energi AS",
+      "tariffs": {
+        "fastpris-3-ar-11116": {
+          "name": "Fastpris 3 år",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:5f3227a20f38884b1fb1f82b2102bdd75daf83edf36d6d2f4634753ea064a80d",
+              "effective_from": "2023-12-01",
+              "effective_to": null
+            }
+          }
+        },
+        "forutsigbar-strompris-11336": {
+          "name": "Forutsigbar strømpris",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:66a3f51f74ac5ce1b2be3b799992ef98a2e09221d70c61b55b38d660c69c87ee",
+              "effective_from": "2026-11-24",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "saga-energi-as": {
+      "name": "Saga Energi AS",
+      "tariffs": {
+        "lavpris-11081": {
+          "name": "LAVPRIS",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:215fa673219d1a70d87bf317b5dda1452437e06346cd08d5c59a9bb8f62e05ec",
+              "effective_from": "2026-11-24",
+              "effective_to": null
+            }
+          }
+        },
+        "vari-energi-introduksjonskampanje-12301": {
+          "name": "Vari Energi – introduksjonskampanje",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:ad0b40d3dbe35ba05c87af86377bbc6c0b71381c8f7e060dfc3600abc26f6c89",
+              "effective_from": "2026-08-28",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "sodvin-as": {
+      "name": "Sodvin AS",
+      "tariffs": {
+        "fastprisavtale-private-no3-12-mnd-12757": {
+          "name": "Fastprisavtale Private NO3 12 mnd",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:1179dad83905cf5b18e7970f889d4ad1aae9a78071229be92f3c2729290f16be",
+              "effective_from": "2026-11-23",
+              "effective_to": null
+            }
+          }
+        },
+        "fastprisavtale-private-no3-6-mnd-12755": {
+          "name": "Fastprisavtale Private NO3 6 mnd",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:84dea582e70bea9ff0827cde916441f13658aba2093044aea78551a080eeeebc",
+              "effective_from": "2026-11-23",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "sunndal-energi-as": {
+      "name": "Sunndal Energi AS",
+      "tariffs": {
+        "sunndal-fastpris-1-ar-12014": {
+          "name": "Sunndal fastpris 1 år",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:9db1cc2ed7557534bfa87a5fd2732857c52e12f17d6cd2d10788fcf9487c8aa1",
+              "effective_from": "2026-08-31",
+              "effective_to": "2027-06-12"
+            }
+          }
+        },
+        "sunndal-variabel-pris-11172": {
+          "name": "Sunndal variabel pris",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:194edca262d115d46643309085e7cfb20bf69a3ba2a65ddaa69f060fe9a41056",
+              "effective_from": "2026-11-24",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "svorka-as": {
+      "name": "Svorka AS",
+      "tariffs": {
+        "svorka-fastpris-11859": {
+          "name": "Svorka Fastpris",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:d735cf02d41618d35a6158b9c09c91bbf62348bb017c19fe9e7db3f311a2e3a5",
+              "effective_from": "2025-10-07",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "trondelagkraft-as": {
+      "name": "TrøndelagKraft AS",
+      "tariffs": {
+        "forutsigbar-strompris-11983": {
+          "name": "Forutsigbar Strømpris",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:fc03389b689df8ed7ba0e9e033751434190ec6038f77bd00d265f89f15ef510e",
+              "effective_from": "2026-11-24",
+              "effective_to": null
+            }
+          }
+        },
+        "garantistrom-11416": {
+          "name": "Garantistrøm",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:8f904f6f7bb68b74738f21de8e40d4d3c3d3a62e11329eaf4853d3768d915884",
+              "effective_from": "2026-11-24",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "varanger-kraftmarked-as": {
+      "name": "Varanger KraftMarked AS",
+      "tariffs": {
+        "fastpris-1-ar-12620": {
+          "name": "Fastpris 1 år",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:fb45c373a37a3cb3740116ca2b816c82a0b40182adc0d99a7fddfa6ce5c931f7",
+              "effective_from": "2026-08-28",
+              "effective_to": null
+            }
+          }
+        },
+        "fastpris-2-ar-12375": {
+          "name": "Fastpris 2 år",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:38d537dc30d37f324b5a18cbc424c3a10039ecd704d325f1d59040366d81a889",
+              "effective_from": "2026-08-28",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "vibb-as": {
+      "name": "Vibb AS",
+      "tariffs": {
+        "variabel-strom-12531": {
+          "name": "Variabel strøm",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:85695ddccf3fb4fb117cbcb193175d9139a98888da0fe28b05d059392ae4298a",
+              "effective_from": "2026-11-24",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "voss-energi-kraft-as": {
+      "name": "Voss Energi Kraft AS",
+      "tariffs": {
+        "flytande-kraft-11053": {
+          "name": "Flytande Kraft",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:964a74776fce906752e5cba87b3faad4bafa1f434a99cc0ace5f065115d251a1",
+              "effective_from": "2026-11-24",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    }
+  }
+}

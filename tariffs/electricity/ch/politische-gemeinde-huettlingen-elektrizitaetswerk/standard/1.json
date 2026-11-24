@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "Aqua Solar (Standardprodukt) + Haushalt",
+  "provider": "Politische Gemeinde Hüttlingen, Elektrizitätswerk",
+  "effective_from": "2026-01-01",
+  "source": {
+    "id": "ch-elcom",
+    "url": "https://www.strompreis.elcom.admin.ch/operator/651"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "label": "Hüttlingen",
+      "rates": {
+        "All day": "0.33885"
+      },
+      "standing": "0.328767"
+    }
+  }
+}

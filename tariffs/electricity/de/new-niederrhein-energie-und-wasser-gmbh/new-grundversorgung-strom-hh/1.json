@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "name": "NEW Grundversorgung Strom HH",
+  "provider": "NEW Niederrhein Energie und Wasser GmbH",
+  "effective_from": "2026-03-01",
+  "effective_to": "2026-11-30",
+  "source": {
+    "id": "de-grundversorgung",
+    "url": "https://api.oeg-kraken.energy/v1/graphql/"
+  },
+  "bands": [
+    {
+      "name": "Single rate"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "Single rate": "0.3598"
+      },
+      "standing": "0.623425"
+    }
+  }
+}

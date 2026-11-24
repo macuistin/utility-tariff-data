@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "Strom Small Standard",
+  "provider": "Regio Energie Amriswil (REA)",
+  "effective_from": "2026-01-01",
+  "source": {
+    "id": "ch-elcom",
+    "url": "https://www.strompreis.elcom.admin.ch/operator/744"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "bfs-4416": {
+      "label": "Hefenhofen",
+      "rates": {
+        "All day": "0.2448"
+      },
+      "standing": "0.591781"
+    },
+    "bfs-4461": {
+      "label": "Amriswil",
+      "rates": {
+        "All day": "0.2463"
+      },
+      "standing": "0.591781"
+    }
+  }
+}

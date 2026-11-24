@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "HN",
+  "provider": "ELEKTRA Genossenschaft Abtwil",
+  "effective_from": "2026-01-01",
+  "source": {
+    "id": "ch-elcom",
+    "url": "https://www.strompreis.elcom.admin.ch/operator/86"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "label": "Abtwil",
+      "rates": {
+        "All day": "0.2478"
+      },
+      "standing": "0.391233"
+    }
+  }
+}

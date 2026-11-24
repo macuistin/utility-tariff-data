@@ -1,0 +1,48 @@
+{
+  "schema": 1,
+  "name": "Fastpris 1 år",
+  "provider": "Helgeland Kraft Strøm AS",
+  "effective_from": "2026-09-23",
+  "source": {
+    "id": "no-forbrukerradet",
+    "url": "https://strom-api.forbrukerradet.no/products/grid/339"
+  },
+  "bill": {
+    "total": {
+      "kind": "tax",
+      "mode": "included",
+      "name": "VAT",
+      "of": {
+        "kind": "sum",
+        "of": {
+          "energy": {
+            "kind": "energy_by_band",
+            "round_bands": true
+          },
+          "monthly_fee": {
+            "amount": "48.75",
+            "kind": "per_period",
+            "per": "month",
+            "share": "days_in_period"
+          }
+        }
+      },
+      "percent": "$country.vat_percent"
+    }
+  },
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "no4": {
+      "label": "NO4 Nord",
+      "rates": {
+        "All day": "0.612"
+      },
+      "region": "NO4",
+      "standing": "0"
+    }
+  }
+}

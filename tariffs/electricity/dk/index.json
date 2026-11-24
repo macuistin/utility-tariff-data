@@ -43,6 +43,101 @@
     }
   },
   "providers": {
+    "andel-energi": {
+      "name": "Andel Energi",
+      "tariffs": {
+        "fastenergi-12-479-0": {
+          "name": "FastEnergi 12",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:a8b09a4b9d54db25af3332353434a8225e76e19f1f366a52fd59810290370df0",
+              "effective_from": "2026-11-20",
+              "effective_to": "2026-11-26"
+            }
+          }
+        },
+        "fastenergi-6-272-0": {
+          "name": "FastEnergi 6",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:cc5a06059c1b385b00ed3a9a31793456c35a2b545186accd6ed80e458527e09a",
+              "effective_from": "2026-11-20",
+              "effective_to": "2026-11-26"
+            }
+          }
+        },
+        "maanedsenergi-273-0": {
+          "name": "MånedsEnergi",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:c38dfa1a814eadf180bf287b6e497c7a3e158fc455ab987edd1f131ce08f2755",
+              "effective_from": "2026-11-01",
+              "effective_to": "2026-11-30"
+            }
+          }
+        }
+      }
+    },
+    "aura": {
+      "name": "AURA",
+      "tariffs": {
+        "aura-fastel-5108-0": {
+          "name": "AURA FastEl",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:97207b4bd150231c0a75529d320815e29b21a2ff5e5ba65557eecfb3fce82783",
+              "effective_from": "2026-10-01",
+              "effective_to": "2026-12-31"
+            }
+          }
+        },
+        "aura-fastel-5109-0": {
+          "name": "AURA FastEl",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:df8b757eed4c1ef31318c9f381e19222d24abaede7281ac2cc7958aa78a52983",
+              "effective_from": "2026-10-01",
+              "effective_to": "2026-12-31"
+            }
+          }
+        },
+        "aura-fastel-rabat-500-kr-739-0": {
+          "name": "AURA FastEl Rabat 500 kr.",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:6217e123a90394307b4a2fd4f1f287e1a7173bcc53a833d1a3a475907eb46ef3",
+              "effective_from": "2026-10-01",
+              "effective_to": "2026-12-31"
+            }
+          }
+        },
+        "aura-fastel-rabat-500-kr-740-0": {
+          "name": "AURA FastEl Rabat 500 kr",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:2a8c8444bf30a1c2f3e032109525862810805ec1d20fc88f177a41f9965a400b",
+              "effective_from": "2026-10-01",
+              "effective_to": "2026-12-31"
+            }
+          }
+        }
+      }
+    },
+    "bornholms-energi": {
+      "name": "Bornholms Energi",
+      "tariffs": {
+        "maanedsenergi-577-0": {
+          "name": "MånedsEnergi",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:5b86cdaebd905e1ea92b54cfc08f52bf996b8552bb2d2d43e9741be780708e23",
+              "effective_from": "2026-11-01",
+              "effective_to": "2026-11-30"
+            }
+          }
+        }
+      }
+    },
     "cerius-a-s": {
       "name": "Cerius A/S",
       "tariffs": {
@@ -53,6 +148,21 @@
               "checksum": "sha256:4105dc38a90c4ac22cc8ffe99e42dbceba3cf7942b51df787ec69296f79ecf42",
               "effective_from": "2026-10-01",
               "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "dansk-stroem": {
+      "name": "Dansk Strøm",
+      "tariffs": {
+        "fast-rabat-331-0": {
+          "name": "Fast + Rabat",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:728ddd37ab4571ae469b14d91592baee813627365ac39855b85d1db68b0c2b88",
+              "effective_from": "2026-10-22",
+              "effective_to": "2029-11-01"
             }
           }
         }
@@ -113,6 +223,151 @@
         }
       }
     },
+    "energi-fyn-handel": {
+      "name": "Energi Fyn Handel",
+      "tariffs": {
+        "kvartalsel-563-0": {
+          "name": "KvartalsEl",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:7824572676ab5fbabef78e4bfbbfcce8fd3f312aedc9b4d912befc09db84b250",
+              "effective_from": "2020-12-18",
+              "effective_to": null
+            }
+          }
+        },
+        "kvartalsel-657-0": {
+          "name": "KvartalsEl",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:83c6041cf7bb07681011924a140a05602208fba1d49e38fa7c1c9e121c6784cb",
+              "effective_from": "2025-08-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "energi-viborg": {
+      "name": "Energi Viborg",
+      "tariffs": {
+        "dit-el-5095-0": {
+          "name": "Dit El",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:c7b1c44ce4ce8f4d832fb867f884857c2778f592791dbdaae88e744b487ea40c",
+              "effective_from": "2026-10-01",
+              "effective_to": "2026-12-31"
+            }
+          }
+        },
+        "dit-el-med-klima-el-6516-0": {
+          "name": "Dit El med Klima El",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:77830d0712bb9d7ec93b769fe27376d566996b23f968f6338b2d3bdce9748b0b",
+              "effective_from": "2026-10-01",
+              "effective_to": "2026-12-31"
+            }
+          }
+        },
+        "saml-el-5103-0": {
+          "name": "Saml El",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:5ba4ca96b0b1a0a9b74cb2f63faa9052aa71bc2e349304377b58ebf8a8e62bb8",
+              "effective_from": "2026-10-01",
+              "effective_to": "2026-12-31"
+            }
+          }
+        },
+        "saml-el-klima-6514-0": {
+          "name": "Saml El Klima",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:438dca9504a101d374b27d3b7b65a98616cdebbc7b6a879cf13efccc15aec721",
+              "effective_from": "2026-10-01",
+              "effective_to": "2026-12-31"
+            }
+          }
+        }
+      }
+    },
+    "energidrift": {
+      "name": "Energidrift",
+      "tariffs": {
+        "fastpris-180-0": {
+          "name": "Fastpris",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:3b34ffcc7bfde712cbd736231683593c7e387111fac51166c98f80f0bb83a226",
+              "effective_from": "2026-09-01",
+              "effective_to": "2026-11-30"
+            }
+          }
+        }
+      }
+    },
+    "energix": {
+      "name": "EnergiX",
+      "tariffs": {
+        "fast-x-615-0": {
+          "name": "Fast X+",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:fd485d70b790e5a58b9f1e19e7cf18a8c2acdac7cee0b46e85cfb277e5f0a065",
+              "effective_from": "2025-09-29",
+              "effective_to": "2027-09-30"
+            }
+          }
+        }
+      }
+    },
+    "enly": {
+      "name": "ENLY",
+      "tariffs": {
+        "groen-fast-245-0": {
+          "name": "Grøn Fast",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:037bbb364bf79f483db48451e0c0aad0af47c680dedc062edeb57fd5486e245b",
+              "effective_from": "2025-09-19",
+              "effective_to": "2039-08-01"
+            }
+          }
+        }
+      }
+    },
+    "ewii-energi": {
+      "name": "EWII Energi",
+      "tariffs": {
+        "fastpris-583-0": {
+          "name": "Fastpris",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:1582cd7d59ac99b1cc3e2e14ab56123d1cd652799daaa4ac871a4cb7a1656766",
+              "effective_from": "2026-09-01",
+              "effective_to": "2027-01-06"
+            }
+          }
+        }
+      }
+    },
+    "fair-stroem": {
+      "name": "Fair Strøm",
+      "tariffs": {
+        "fair-fast-698-0": {
+          "name": "Fair fast",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:a8881971ad6f2239816425b762e44b009537f36c4b0de13b8bebfdb0266b62b0",
+              "effective_from": "2026-02-10",
+              "effective_to": "2030-02-01"
+            }
+          }
+        }
+      }
+    },
     "flow-elnet-a-s": {
       "name": "FLOW Elnet A/S",
       "tariffs": {
@@ -138,6 +393,41 @@
               "checksum": "sha256:8e6f72ecb0833be6355b4f0fbf3076866a0b395d64225da2b5089a10c56e9ba6",
               "effective_from": "2026-10-01",
               "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "jysk-energi": {
+      "name": "Jysk Energi",
+      "tariffs": {
+        "fast-groen-stroem-317-0": {
+          "name": "Fast Grøn Strøm",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:25bccf78e6efc40aef1f86adb574e19c7cf49162d68696cef62af022b406ff31",
+              "effective_from": "2026-10-01",
+              "effective_to": "2026-12-31"
+            }
+          }
+        },
+        "fast-stroem-318-0": {
+          "name": "Fast Strøm",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:49ac582259627fc69fbc26d1bc2f441eda5052c9e42ebc10d85877cd7b05eb61",
+              "effective_from": "2026-10-01",
+              "effective_to": "2026-12-31"
+            }
+          }
+        },
+        "tryg-vedvarende-stroem-711-0": {
+          "name": "Tryg Vedvarende Strøm",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:265749023f4f4a869c5de24e22c56ba7a5ae2e4e406a0b78639510c217bdcb10",
+              "effective_from": "2026-11-04",
+              "effective_to": "2026-12-31"
             }
           }
         }
@@ -313,6 +603,106 @@
         }
       }
     },
+    "norlys-energi": {
+      "name": "Norlys Energi",
+      "tariffs": {
+        "fastel-1-aar-476-0": {
+          "name": "FastEl 1 år",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:1b1524039a79a4b390fc750631511c31b594d848b95c07f405a006f5ed400a56",
+              "effective_from": "2026-01-01",
+              "effective_to": "2026-12-31"
+            }
+          }
+        },
+        "maanedsel-552-0": {
+          "name": "MånedsEl",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:7177e8ff87f0c1e7309182ba232a7d6cdf2ccc07e2abf6b81d01f83e69f1ab53",
+              "effective_from": "2026-11-01",
+              "effective_to": "2026-11-30"
+            }
+          }
+        }
+      }
+    },
+    "nrgi-elhandel": {
+      "name": "NRGi Elhandel",
+      "tariffs": {
+        "nrgi-fast-486-0": {
+          "name": "NRGi Fast",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:ac40823bb151a37395fe2df0ba9bcc07014fade7ed5ae8dc1036d2d187e6e7d5",
+              "effective_from": "2025-02-01",
+              "effective_to": "2027-07-31"
+            }
+          }
+        },
+        "nrgi-kvartal-298-0": {
+          "name": "NRGi Kvartal",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:c6934f9b45cbaeb4910006d90cab75125a259f85b43e0f4f2c81cc4bf23b5409",
+              "effective_from": "2025-11-08",
+              "effective_to": "2027-11-12"
+            }
+          }
+        },
+        "nrgi-kvartal-med-klima-252-0": {
+          "name": "NRGi Kvartal med klima",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:2d8fbc7a1a675e90f313f4590f6037895e96152dd787050255e36b525f879c2e",
+              "effective_from": "2025-11-07",
+              "effective_to": "2027-04-09"
+            }
+          }
+        }
+      }
+    },
+    "oersted-erhverv": {
+      "name": "Ørsted Erhverv",
+      "tariffs": {
+        "fast-maanedsel-vind-727-0": {
+          "name": "Fast MånedsEl +Vind",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:061086095965373c466f902962087eba2e406c9bb8bc862d4992a2dfdfa61a9f",
+              "effective_from": "2026-11-01",
+              "effective_to": "2026-11-30"
+            }
+          }
+        },
+        "flexpris-726-0": {
+          "name": "Flexpris",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:1f3bd60478676ab61e5c17037e8d1e999c55475c0bb09db49c6b8f09602ebe92",
+              "effective_from": "2026-11-01",
+              "effective_to": "2026-11-30"
+            }
+          }
+        }
+      }
+    },
+    "ok": {
+      "name": "OK",
+      "tariffs": {
+        "ok-el-fastpris-481-0": {
+          "name": "OK El Fastpris",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:3a871142fd891a077b6104878f5e85a88c702d220d7382603d00ef40acafd9bb",
+              "effective_from": "2026-11-23",
+              "effective_to": "2026-11-30"
+            }
+          }
+        }
+      }
+    },
     "radius-elnet-a-s": {
       "name": "Radius Elnet A/S",
       "tariffs": {
@@ -353,6 +743,31 @@
               "checksum": "sha256:77623134eeded8cf58f68eacb05a1eb929cfe6957adaa0e4ee82274e99bb35bb",
               "effective_from": "2026-10-01",
               "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "sefenergi": {
+      "name": "SEFEnergi",
+      "tariffs": {
+        "aarstidsel-fastpris-3-mdr-595-0": {
+          "name": "ÅrstidsEl Fastpris 3 mdr.",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:2aa55233472f99836e18ba7d021144270ecaefbe2c1754b0e45530ac03bea90b",
+              "effective_from": "2026-10-01",
+              "effective_to": "2026-12-31"
+            }
+          }
+        },
+        "helaarsel-fastpris-12-mdr-597-0": {
+          "name": "HelårsEl Fastpris 12 mdr",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:11afabd0f1a409764fe213db74a6f7418cea6a42dc8c22645e6bc67d29f68444",
+              "effective_from": "2026-10-28",
+              "effective_to": "2026-11-30"
             }
           }
         }
@@ -418,6 +833,31 @@
         }
       }
     },
+    "ungstrom": {
+      "name": "Ungstrom",
+      "tariffs": {
+        "fastpris-privat-320-0": {
+          "name": "Fastpris Privat",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:c8190b925282f230f84e18df8839dd4dd8b3f71eaaf5a0fb88d19992e30c5833",
+              "effective_from": "2023-08-02",
+              "effective_to": "2028-02-11"
+            }
+          }
+        },
+        "studie-fast-663-0": {
+          "name": "Studie fast",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:10549d089392f5321dee567572ab4ca04d85dcdea4db48a3f9a8f01c0e3772b5",
+              "effective_from": "2025-02-01",
+              "effective_to": "2027-11-19"
+            }
+          }
+        }
+      }
+    },
     "veksel-a-s": {
       "name": "Veksel A/S",
       "tariffs": {
@@ -438,6 +878,31 @@
               "checksum": "sha256:5a6696b321fa742d8ba8f9b556a80d0725f93beb0cba07c98b66ccb1f8bc2653",
               "effective_from": "2026-10-01",
               "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "verdo-go-green": {
+      "name": "Verdo Go Green",
+      "tariffs": {
+        "fast-kvartalspris-541-0": {
+          "name": "Fast kvartalspris",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:65b60af4dfd6f2804a270242dd53cedef90342a35e2db61fdd36b66b7d04a734",
+              "effective_from": "2026-10-01",
+              "effective_to": "2026-12-31"
+            }
+          }
+        },
+        "fast-kvartalspris-bolig2-646-0": {
+          "name": "Fast kvartalspris Bolig2",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:d3237e912d6c9075f51c2e53089e238a57c8be5ddb321134cdacb4c83e18d2c9",
+              "effective_from": "2026-10-01",
+              "effective_to": "2026-12-31"
             }
           }
         }

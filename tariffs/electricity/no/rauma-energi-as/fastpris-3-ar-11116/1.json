@@ -1,0 +1,56 @@
+{
+  "schema": 1,
+  "name": "Fastpris 3 år",
+  "provider": "Rauma Energi AS",
+  "effective_from": "2023-12-01",
+  "source": {
+    "id": "no-forbrukerradet",
+    "url": "https://strom-api.forbrukerradet.no/products/grid/249"
+  },
+  "bill": {
+    "total": {
+      "kind": "tax",
+      "mode": "included",
+      "name": "VAT",
+      "of": {
+        "kind": "sum",
+        "of": {
+          "energy": {
+            "kind": "energy_by_band",
+            "round_bands": true
+          },
+          "monthly_fee": {
+            "amount": "39",
+            "kind": "per_period",
+            "per": "month",
+            "share": "days_in_period"
+          }
+        }
+      },
+      "percent": "$country.vat_percent"
+    }
+  },
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "no3": {
+      "label": "NO3 Midt",
+      "rates": {
+        "All day": "0.7948"
+      },
+      "region": "NO3",
+      "standing": "0"
+    },
+    "no4": {
+      "label": "NO4 Nord",
+      "rates": {
+        "All day": "0.6448"
+      },
+      "region": "NO4",
+      "standing": "0"
+    }
+  }
+}

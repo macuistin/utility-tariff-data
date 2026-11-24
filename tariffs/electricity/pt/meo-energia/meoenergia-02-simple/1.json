@@ -1,0 +1,88 @@
+{
+  "schema": 1,
+  "name": "MEO + MEO Energia FIXA DD FE M4 11.26 (aplicável exclusivamente a clientes com adesão à fatura eletrónica e débito direto e, ainda, com serviço de comunicações eletrónicas da MEO ativo), simple",
+  "provider": "MEO Energia",
+  "effective_from": "2026-11-16",
+  "source": {
+    "id": "pt-erse-offers",
+    "url": "https://simuladorprecos.erse.pt/"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "1-15-kva": {
+      "label": "1.15 kVA",
+      "rates": {
+        "All day": "0.1599"
+      },
+      "standing": "0.19"
+    },
+    "10-35-kva": {
+      "label": "10.35 kVA",
+      "rates": {
+        "All day": "0.1599"
+      },
+      "standing": "0.75"
+    },
+    "13-8-kva": {
+      "label": "13.8 kVA",
+      "rates": {
+        "All day": "0.1599"
+      },
+      "standing": "0.9"
+    },
+    "17-25-kva": {
+      "label": "17.25 kVA",
+      "rates": {
+        "All day": "0.1599"
+      },
+      "standing": "1.1"
+    },
+    "2-3-kva": {
+      "label": "2.3 kVA",
+      "rates": {
+        "All day": "0.1599"
+      },
+      "standing": "0.24"
+    },
+    "20-7-kva": {
+      "label": "20.7 kVA",
+      "rates": {
+        "All day": "0.1599"
+      },
+      "standing": "1.3"
+    },
+    "3-45-kva": {
+      "label": "3.45 kVA",
+      "rates": {
+        "All day": "0.1599"
+      },
+      "standing": "0.3"
+    },
+    "4-6-kva": {
+      "label": "4.6 kVA",
+      "rates": {
+        "All day": "0.1599"
+      },
+      "standing": "0.4"
+    },
+    "5-75-kva": {
+      "label": "5.75 kVA",
+      "rates": {
+        "All day": "0.1599"
+      },
+      "standing": "0.5"
+    },
+    "6-9-kva": {
+      "label": "6.9 kVA",
+      "rates": {
+        "All day": "0.1599"
+      },
+      "standing": "0.6"
+    }
+  }
+}

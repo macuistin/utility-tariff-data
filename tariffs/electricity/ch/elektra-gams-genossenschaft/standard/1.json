@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "E-DT 02 + N-DT 02",
+  "provider": "Elektra Gams Genossenschaft",
+  "effective_from": "2026-01-01",
+  "source": {
+    "id": "ch-elcom",
+    "url": "https://www.strompreis.elcom.admin.ch/operator/134"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "label": "Gams",
+      "rates": {
+        "All day": "0.2983"
+      },
+      "standing": "0.532603"
+    }
+  }
+}

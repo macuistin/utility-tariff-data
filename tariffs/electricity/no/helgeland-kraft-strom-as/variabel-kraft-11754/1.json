@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "Variabel Kraft",
+  "provider": "Helgeland Kraft Strøm AS",
+  "effective_from": "2026-11-24",
+  "source": {
+    "id": "no-forbrukerradet",
+    "url": "https://strom-api.forbrukerradet.no/products/grid/339"
+  },
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "no4": {
+      "label": "NO4 Nord",
+      "rates": {
+        "All day": "0.8375"
+      },
+      "region": "NO4",
+      "standing": "0"
+    }
+  }
+}

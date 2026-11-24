@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "Eletricidade Campanha desconto para sempre DD ou FE (desconto por débito direto ou fatura eletrónica), two-rate, daily cycle",
+  "provider": "EDP Comercial",
+  "effective_from": "2026-10-01",
+  "source": {
+    "id": "pt-erse-offers",
+    "url": "https://simuladorprecos.erse.pt/"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "Day"
+    },
+    {
+      "hours": "22:00-08:00",
+      "name": "Off-peak"
+    }
+  ],
+  "areas": {
+    "10-35-kva": {
+      "label": "10.35 kVA",
+      "rates": {
+        "Day": "0.1838",
+        "Off-peak": "0.1063"
+      },
+      "standing": "0.9793"
+    },
+    "13-8-kva": {
+      "label": "13.8 kVA",
+      "rates": {
+        "Day": "0.1879",
+        "Off-peak": "0.1104"
+      },
+      "standing": "1.2118"
+    },
+    "17-25-kva": {
+      "label": "17.25 kVA",
+      "rates": {
+        "Day": "0.1879",
+        "Off-peak": "0.1104"
+      },
+      "standing": "1.5643"
+    },
+    "20-7-kva": {
+      "label": "20.7 kVA",
+      "rates": {
+        "Day": "0.1879",
+        "Off-peak": "0.1104"
+      },
+      "standing": "1.8184"
+    },
+    "3-45-kva": {
+      "label": "3.45 kVA",
+      "rates": {
+        "Day": "0.1838",
+        "Off-peak": "0.1063"
+      },
+      "standing": "0.404"
+    },
+    "4-6-kva": {
+      "label": "4.6 kVA",
+      "rates": {
+        "Day": "0.1838",
+        "Off-peak": "0.1063"
+      },
+      "standing": "0.5431"
+    },
+    "5-75-kva": {
+      "label": "5.75 kVA",
+      "rates": {
+        "Day": "0.1838",
+        "Off-peak": "0.1063"
+      },
+      "standing": "0.6389"
+    },
+    "6-9-kva": {
+      "label": "6.9 kVA",
+      "rates": {
+        "Day": "0.1838",
+        "Off-peak": "0.1063"
+      },
+      "standing": "0.7336"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "name": "EEG feed-in, building to 10 kW, surplus feed-in, commissioned 1 Feb 2025 to 31 Jul 2025",
+  "provider": "EEG feed-in tariff",
+  "direction": "export",
+  "effective_from": "2025-02-01",
+  "source": {
+    "id": "de-eeg",
+    "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/ElektrizitaetundGas/ErneuerbareEnergien/EEG_Foerderung/Archiv_VergSaetze/start.html"
+  },
+  "bands": [
+    {
+      "name": "Export"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "Export": "0.0794"
+      }
+    }
+  }
+}

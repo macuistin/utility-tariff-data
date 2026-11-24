@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "Grundpreis",
+  "provider": "Gemeinde Salenstein, Stromversorgung",
+  "effective_from": "2026-01-01",
+  "source": {
+    "id": "ch-elcom",
+    "url": "https://www.strompreis.elcom.admin.ch/operator/375"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "label": "Salenstein",
+      "rates": {
+        "All day": "0.3098"
+      },
+      "standing": "0.509589"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "Tarif 1 NS",
+  "provider": "Impianti elettrici Bivio società cooperativa",
+  "effective_from": "2026-01-01",
+  "source": {
+    "id": "ch-elcom",
+    "url": "https://www.strompreis.elcom.admin.ch/operator/369"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "label": "Surses",
+      "rates": {
+        "All day": "0.1839"
+      },
+      "standing": "0.60274"
+    }
+  }
+}

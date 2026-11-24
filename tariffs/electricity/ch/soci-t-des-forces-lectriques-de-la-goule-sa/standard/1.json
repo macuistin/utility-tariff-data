@@ -1,0 +1,88 @@
+{
+  "schema": 1,
+  "name": "La Goule Energy Blue, Tarif unique + BT TU",
+  "provider": "Société des Forces Électriques de La Goule SA",
+  "effective_from": "2026-01-01",
+  "source": {
+    "id": "ch-elcom",
+    "url": "https://www.strompreis.elcom.admin.ch/operator/716"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "bfs-432": {
+      "label": "Cormoret, Mont-Tramelan, Renan (BE), Villeret",
+      "rates": {
+        "All day": "0.257"
+      },
+      "standing": "0.545753"
+    },
+    "bfs-433": {
+      "label": "Cortébert",
+      "rates": {
+        "All day": "0.259"
+      },
+      "standing": "0.545753"
+    },
+    "bfs-434": {
+      "label": "Courtelary, Sonvilier",
+      "rates": {
+        "All day": "0.258"
+      },
+      "standing": "0.545753"
+    },
+    "bfs-435": {
+      "label": "La Ferrière, Le Bémont (JU), Saignelégier",
+      "rates": {
+        "All day": "0.255"
+      },
+      "standing": "0.545753"
+    },
+    "bfs-443": {
+      "label": "Saint-Imier",
+      "rates": {
+        "All day": "0.2612"
+      },
+      "standing": "0.545753"
+    },
+    "bfs-6436": {
+      "label": "Le Locle",
+      "rates": {
+        "All day": "0.261"
+      },
+      "standing": "0.545753"
+    },
+    "bfs-6742": {
+      "label": "Les Bois",
+      "rates": {
+        "All day": "0.253"
+      },
+      "standing": "0.545753"
+    },
+    "bfs-6743": {
+      "label": "La Chaux-des-Breuleux, Les Breuleux",
+      "rates": {
+        "All day": "0.251"
+      },
+      "standing": "0.545753"
+    },
+    "bfs-6753": {
+      "label": "Muriaux",
+      "rates": {
+        "All day": "0.256"
+      },
+      "standing": "0.545753"
+    },
+    "bfs-6754": {
+      "label": "Le Noirmont",
+      "rates": {
+        "All day": "0.2505"
+      },
+      "standing": "0.545753"
+    }
+  }
+}

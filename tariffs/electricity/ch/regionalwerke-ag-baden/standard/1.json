@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "primastrom + Netz - OL7",
+  "provider": "Regionalwerke AG Baden",
+  "effective_from": "2026-01-01",
+  "source": {
+    "id": "ch-elcom",
+    "url": "https://www.strompreis.elcom.admin.ch/operator/667"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "bfs-4021": {
+      "label": "Baden",
+      "rates": {
+        "All day": "0.2331"
+      },
+      "standing": "0.493151"
+    },
+    "bfs-4026": {
+      "label": "Ennetbaden",
+      "rates": {
+        "All day": "0.2323"
+      },
+      "standing": "0.493151"
+    }
+  }
+}

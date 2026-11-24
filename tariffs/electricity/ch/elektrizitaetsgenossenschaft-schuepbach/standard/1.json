@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "Einheitstarif + NS Einheitstarif",
+  "provider": "Elektrizitätsgenossenschaft Schüpbach",
+  "effective_from": "2026-01-01",
+  "source": {
+    "id": "ch-elcom",
+    "url": "https://www.strompreis.elcom.admin.ch/operator/284"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "bfs-903": {
+      "label": "Lauperswil",
+      "rates": {
+        "All day": "0.2633"
+      },
+      "standing": "0.328767"
+    },
+    "bfs-907": {
+      "label": "Signau",
+      "rates": {
+        "All day": "0.2708"
+      },
+      "standing": "0.328767"
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "schema": 1,
+  "name": "Eletricidade Campanha desconto para sempre DD ou FE (desconto por débito direto ou fatura eletrónica), simple",
+  "provider": "EDP Comercial",
+  "effective_from": "2026-10-01",
+  "source": {
+    "id": "pt-erse-offers",
+    "url": "https://simuladorprecos.erse.pt/"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "1-15-kva": {
+      "label": "1.15 kVA",
+      "rates": {
+        "All day": "0.1478"
+      },
+      "standing": "0.134"
+    },
+    "10-35-kva": {
+      "label": "10.35 kVA",
+      "rates": {
+        "All day": "0.1587"
+      },
+      "standing": "0.8061"
+    },
+    "13-8-kva": {
+      "label": "13.8 kVA",
+      "rates": {
+        "All day": "0.1591"
+      },
+      "standing": "1.0396"
+    },
+    "17-25-kva": {
+      "label": "17.25 kVA",
+      "rates": {
+        "All day": "0.1591"
+      },
+      "standing": "1.3088"
+    },
+    "2-3-kva": {
+      "label": "2.3 kVA",
+      "rates": {
+        "All day": "0.1478"
+      },
+      "standing": "0.2005"
+    },
+    "20-7-kva": {
+      "label": "20.7 kVA",
+      "rates": {
+        "All day": "0.1591"
+      },
+      "standing": "1.6215"
+    },
+    "3-45-kva": {
+      "label": "3.45 kVA",
+      "rates": {
+        "All day": "0.1587"
+      },
+      "standing": "0.2746"
+    },
+    "4-6-kva": {
+      "label": "4.6 kVA",
+      "rates": {
+        "All day": "0.1587"
+      },
+      "standing": "0.413"
+    },
+    "5-75-kva": {
+      "label": "5.75 kVA",
+      "rates": {
+        "All day": "0.1587"
+      },
+      "standing": "0.4943"
+    },
+    "6-9-kva": {
+      "label": "6.9 kVA",
+      "rates": {
+        "All day": "0.1587"
+      },
+      "standing": "0.5491"
+    }
+  }
+}

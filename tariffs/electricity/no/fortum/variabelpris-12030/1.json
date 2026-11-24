@@ -1,0 +1,57 @@
+{
+  "schema": 1,
+  "name": "Variabelpris",
+  "provider": "Fortum",
+  "effective_from": "2026-11-24",
+  "source": {
+    "id": "no-forbrukerradet",
+    "url": "https://strom-api.forbrukerradet.no/products/grid/5"
+  },
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "no1": {
+      "label": "NO1 Øst",
+      "rates": {
+        "All day": "2.48"
+      },
+      "region": "NO1",
+      "standing": "0"
+    },
+    "no2": {
+      "label": "NO2 Sør",
+      "rates": {
+        "All day": "2.48"
+      },
+      "region": "NO2",
+      "standing": "0"
+    },
+    "no3": {
+      "label": "NO3 Midt",
+      "rates": {
+        "All day": "1.99"
+      },
+      "region": "NO3",
+      "standing": "0"
+    },
+    "no4": {
+      "label": "NO4 Nord",
+      "rates": {
+        "All day": "1.29"
+      },
+      "region": "NO4",
+      "standing": "0"
+    },
+    "no5": {
+      "label": "NO5 Vest",
+      "rates": {
+        "All day": "2.48"
+      },
+      "region": "NO5",
+      "standing": "0"
+    }
+  }
+}

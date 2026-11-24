@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "KN-S + KN-S (c + n + n+)",
+  "provider": "Energie Hunzenschwil AG (ENH)",
+  "effective_from": "2026-01-01",
+  "source": {
+    "id": "ch-elcom",
+    "url": "https://www.strompreis.elcom.admin.ch/operator/750"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "label": "Hunzenschwil",
+      "rates": {
+        "All day": "0.2653"
+      },
+      "standing": "0.542466"
+    }
+  }
+}

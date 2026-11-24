@@ -1,0 +1,149 @@
+{
+  "schema": 1,
+  "name": "EV Double Gold",
+  "provider": "Utility Warehouse",
+  "timezone": "UTC",
+  "effective_from": "2026-10-01",
+  "source": {
+    "id": "utility-warehouse-gb",
+    "url": "https://assets.ctfassets.net/0sn9t583vfn4/7nPtjAaEFg1u3PfzYHS1kK/e57a122bda7b5fc82f4f7b9e3e7f1d49/UW_-_EV_Double_Gold_October_2026_-_Energy_Tariff_Label.pdf.pdf"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "Peak"
+    },
+    {
+      "hours": "00:00-05:00",
+      "name": "Off-peak"
+    }
+  ],
+  "areas": {
+    "a": {
+      "label": "Eastern England (A)",
+      "rates": {
+        "Off-peak": "0.075",
+        "Peak": "0.3052"
+      },
+      "region": "GSP-A",
+      "standing": "0.51892"
+    },
+    "b": {
+      "label": "East Midlands (B)",
+      "rates": {
+        "Off-peak": "0.075",
+        "Peak": "0.28873"
+      },
+      "region": "GSP-B",
+      "standing": "0.50963"
+    },
+    "c": {
+      "label": "London (C)",
+      "rates": {
+        "Off-peak": "0.075",
+        "Peak": "0.30618"
+      },
+      "region": "GSP-C",
+      "standing": "0.42511"
+    },
+    "d": {
+      "label": "Merseyside and North Wales (D)",
+      "rates": {
+        "Off-peak": "0.075",
+        "Peak": "0.31808"
+      },
+      "region": "GSP-D",
+      "standing": "0.66964"
+    },
+    "e": {
+      "label": "West Midlands (E)",
+      "rates": {
+        "Off-peak": "0.075",
+        "Peak": "0.29129"
+      },
+      "region": "GSP-E",
+      "standing": "0.56832"
+    },
+    "f": {
+      "label": "North East England (F)",
+      "rates": {
+        "Off-peak": "0.075",
+        "Peak": "0.28729"
+      },
+      "region": "GSP-F",
+      "standing": "0.60923"
+    },
+    "g": {
+      "label": "North West England (G)",
+      "rates": {
+        "Off-peak": "0.075",
+        "Peak": "0.30425"
+      },
+      "region": "GSP-G",
+      "standing": "0.45068"
+    },
+    "h": {
+      "label": "Southern England (H)",
+      "rates": {
+        "Off-peak": "0.075",
+        "Peak": "0.30416"
+      },
+      "region": "GSP-H",
+      "standing": "0.47698"
+    },
+    "j": {
+      "label": "South East England (J)",
+      "rates": {
+        "Off-peak": "0.075",
+        "Peak": "0.30801"
+      },
+      "region": "GSP-J",
+      "standing": "0.52424"
+    },
+    "k": {
+      "label": "South Wales (K)",
+      "rates": {
+        "Off-peak": "0.075",
+        "Peak": "0.30407"
+      },
+      "region": "GSP-K",
+      "standing": "0.5458"
+    },
+    "l": {
+      "label": "South Western England (L)",
+      "rates": {
+        "Off-peak": "0.075",
+        "Peak": "0.30322"
+      },
+      "region": "GSP-L",
+      "standing": "0.55744"
+    },
+    "m": {
+      "label": "Yorkshire (M)",
+      "rates": {
+        "Off-peak": "0.075",
+        "Peak": "0.29046"
+      },
+      "region": "GSP-M",
+      "standing": "0.6108"
+    },
+    "n": {
+      "label": "Southern Scotland (N)",
+      "rates": {
+        "Off-peak": "0.075",
+        "Peak": "0.29576"
+      },
+      "region": "GSP-N",
+      "standing": "0.61663"
+    },
+    "p": {
+      "label": "Northern Scotland (P)",
+      "rates": {
+        "Off-peak": "0.075",
+        "Peak": "0.30082"
+      },
+      "region": "GSP-P",
+      "standing": "0.55493"
+    }
+  }
+}

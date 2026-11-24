@@ -1,0 +1,88 @@
+{
+  "schema": 1,
+  "name": "PRIME, simple",
+  "provider": "Oeneo",
+  "effective_from": "2026-09-01",
+  "source": {
+    "id": "pt-erse-offers",
+    "url": "https://simuladorprecos.erse.pt/"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "1-15-kva": {
+      "label": "1.15 kVA",
+      "rates": {
+        "All day": "0.16485"
+      },
+      "standing": "0.1909"
+    },
+    "10-35-kva": {
+      "label": "10.35 kVA",
+      "rates": {
+        "All day": "0.16485"
+      },
+      "standing": "0.7106"
+    },
+    "13-8-kva": {
+      "label": "13.8 kVA",
+      "rates": {
+        "All day": "0.16485"
+      },
+      "standing": "0.8927"
+    },
+    "17-25-kva": {
+      "label": "17.25 kVA",
+      "rates": {
+        "All day": "0.16485"
+      },
+      "standing": "1.0646"
+    },
+    "2-3-kva": {
+      "label": "2.3 kVA",
+      "rates": {
+        "All day": "0.16485"
+      },
+      "standing": "0.2481"
+    },
+    "20-7-kva": {
+      "label": "20.7 kVA",
+      "rates": {
+        "All day": "0.16485"
+      },
+      "standing": "1.2364"
+    },
+    "3-45-kva": {
+      "label": "3.45 kVA",
+      "rates": {
+        "All day": "0.16485"
+      },
+      "standing": "0.3095"
+    },
+    "4-6-kva": {
+      "label": "4.6 kVA",
+      "rates": {
+        "All day": "0.16485"
+      },
+      "standing": "0.3668"
+    },
+    "5-75-kva": {
+      "label": "5.75 kVA",
+      "rates": {
+        "All day": "0.16485"
+      },
+      "standing": "0.4448"
+    },
+    "6-9-kva": {
+      "label": "6.9 kVA",
+      "rates": {
+        "All day": "0.16485"
+      },
+      "standing": "0.5388"
+    }
+  }
+}

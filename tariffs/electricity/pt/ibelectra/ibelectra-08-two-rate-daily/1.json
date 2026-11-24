@@ -1,0 +1,102 @@
+{
+  "schema": 1,
+  "name": "Solução Segura (Não requer a adesão adesão à modalidade de pagamento DD ou FE), two-rate, daily cycle",
+  "provider": "Ibelectra",
+  "effective_from": "2026-06-01",
+  "source": {
+    "id": "pt-erse-offers",
+    "url": "https://simuladorprecos.erse.pt/"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "Day"
+    },
+    {
+      "hours": "22:00-08:00",
+      "name": "Off-peak"
+    }
+  ],
+  "areas": {
+    "1-15-kva": {
+      "label": "1.15 kVA",
+      "rates": {
+        "Day": "0.201775",
+        "Off-peak": "0.123435"
+      },
+      "standing": "0.12761"
+    },
+    "10-35-kva": {
+      "label": "10.35 kVA",
+      "rates": {
+        "Day": "0.201775",
+        "Off-peak": "0.123435"
+      },
+      "standing": "0.72205"
+    },
+    "13-8-kva": {
+      "label": "13.8 kVA",
+      "rates": {
+        "Day": "0.201775",
+        "Off-peak": "0.123435"
+      },
+      "standing": "0.95136"
+    },
+    "17-25-kva": {
+      "label": "17.25 kVA",
+      "rates": {
+        "Day": "0.201775",
+        "Off-peak": "0.123435"
+      },
+      "standing": "1.1808"
+    },
+    "2-3-kva": {
+      "label": "2.3 kVA",
+      "rates": {
+        "Day": "0.201775",
+        "Off-peak": "0.123435"
+      },
+      "standing": "0.19261"
+    },
+    "20-7-kva": {
+      "label": "20.7 kVA",
+      "rates": {
+        "Day": "0.201775",
+        "Off-peak": "0.123435"
+      },
+      "standing": "1.39875"
+    },
+    "3-45-kva": {
+      "label": "3.45 kVA",
+      "rates": {
+        "Day": "0.201775",
+        "Off-peak": "0.123435"
+      },
+      "standing": "0.25773"
+    },
+    "4-6-kva": {
+      "label": "4.6 kVA",
+      "rates": {
+        "Day": "0.201775",
+        "Off-peak": "0.123435"
+      },
+      "standing": "0.32625"
+    },
+    "5-75-kva": {
+      "label": "5.75 kVA",
+      "rates": {
+        "Day": "0.201775",
+        "Off-peak": "0.123435"
+      },
+      "standing": "0.39705"
+    },
+    "6-9-kva": {
+      "label": "6.9 kVA",
+      "rates": {
+        "Day": "0.201775",
+        "Off-peak": "0.123435"
+      },
+      "standing": "0.50409"
+    }
+  }
+}

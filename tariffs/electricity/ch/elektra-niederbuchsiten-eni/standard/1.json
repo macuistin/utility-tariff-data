@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "Standard",
+  "provider": "Elektra Niederbuchsiten (ENI)",
+  "effective_from": "2026-01-01",
+  "source": {
+    "id": "ch-elcom",
+    "url": "https://www.strompreis.elcom.admin.ch/operator/166"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "label": "Niederbuchsiten",
+      "rates": {
+        "All day": "0.2738"
+      },
+      "standing": "0.394521"
+    }
+  }
+}

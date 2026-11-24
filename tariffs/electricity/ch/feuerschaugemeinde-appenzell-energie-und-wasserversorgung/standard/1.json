@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "Basis + SDN400",
+  "provider": "Feuerschaugemeinde Appenzell, Energie- und Wasserversorgung",
+  "effective_from": "2026-01-01",
+  "source": {
+    "id": "ch-elcom",
+    "url": "https://www.strompreis.elcom.admin.ch/operator/566"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "label": "Appenzell, Gonten, Schlatt-Haslen, Schwende-Rüte",
+      "rates": {
+        "All day": "0.2413"
+      },
+      "standing": "0.42411"
+    }
+  }
+}

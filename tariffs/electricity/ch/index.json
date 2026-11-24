@@ -43,6 +43,66 @@
     }
   },
   "providers": {
+    "aew-energie-ag": {
+      "name": "AEW Energie AG",
+      "tariffs": {
+        "standard": {
+          "name": "AEW Energie classic + AEW Classic",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:8eeec4017a571b6eea03dac288fbf2b27252a276f67ad441e80eb829150078d7",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "alpen-energie-dorfgemeinde-meiringen": {
+      "name": "Alpen Energie Dorfgemeinde Meiringen",
+      "tariffs": {
+        "standard": {
+          "name": "Easy",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:32c5a2b515ffcd264d174a1c0a767081bb7a3c034825009311afbdc1df56315c",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "arni-energie-ag": {
+      "name": "Arni Energie AG",
+      "tariffs": {
+        "standard": {
+          "name": "Standard Energie (GV) + Standard (Haushalt)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:44fe63018b7e709559fa5d870fe5df0e82a3aae5c9c82ffbd65988c0731b0afb",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "azienda-elettrica-grevasalvas": {
+      "name": "Azienda Elettrica Grevasalvas",
+      "tariffs": {
+        "standard": {
+          "name": "Tarif 1, NS",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:89e73dc1a902732e829cd03b347167951f61853c2e7dc01051ff6e48713b349b",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
     "bkw": {
       "name": "BKW Energie AG",
       "tariffs": {
@@ -58,6 +118,501 @@
         }
       }
     },
+    "burgergemeinde-eischoll-elektrizitaetswerk": {
+      "name": "Burgergemeinde Eischoll, Elektrizitätswerk",
+      "tariffs": {
+        "standard": {
+          "name": "Niederspannung (NS) kleiner 40 A (Haushaltungen)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:240f1cd2ea904942856f40a5f2fd1250f76e0950233d66f6523e5e8c178809c0",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "comune-di-bregaglia-azienda-elettrica": {
+      "name": "Comune di Bregaglia, Azienda Elettrica",
+      "tariffs": {
+        "standard": {
+          "name": "Tariffa 1",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:269bbf04b7d7ab76dc0dc01d3d1b6558d7b07f8d3ee3544e6eaf8d19fbd5d379",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "comune-di-buseno-azienda-elettrica": {
+      "name": "Comune di Buseno, Azienda Elettrica",
+      "tariffs": {
+        "standard": {
+          "name": "Categoria A",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:9008702b6070cfc8359d6fc06df25ee5359f6571ce5557f4ce3a050fbc43d76a",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "dorfkorporation-mosnang-elektrizitaets-und-wasserversorgung": {
+      "name": "Dorfkorporation Mosnang, Elektrizitäts- und Wasserversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "Haushalt < 50 MWh",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:49d5797b64324e7a23858b6810fbd1eece834c02ace7b3772840a071e8f78d03",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "einheitsgemeinde-ermatingen-elektrizitaetsversorgung": {
+      "name": "Einheitsgemeinde Ermatingen, Elektrizitätsversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "Haushalt (E) + Haushalt (N)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:3414da95660dcc5b6eeeddb3a2cb2fc5d995aa2b1193d45ae9f7000aa94d008d",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "einheitsgemeinde-muellheim-elektrizitaetsversorgung": {
+      "name": "Einheitsgemeinde Müllheim, Elektrizitätsversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "Grundpreis",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:9b8d5547ad780ad2bfc6e2ac48da23face18352e29cdedba1cc99a49d3d7f6cf",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "einheitsgemeinde-raperswilen-elektrizitaet": {
+      "name": "Einheitsgemeinde Raperswilen, Elektrizität",
+      "tariffs": {
+        "standard": {
+          "name": "Einheitstarif Standard",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:e852243de7ac7c00498f1d4c0a3e80c8e9ca471cc10373682a49349f90a2d6e1",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "einwohner-ortsbuergergemeinde-niederwil-ag-elektrizitaetsversorgung": {
+      "name": "Einwohner- & Ortsbürgergemeinde Niederwil AG, Elektrizitätsversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "Kleinbezüger",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:290129b737b107af4f3dee6ca445d68454109200a1fee36cce885a10b36a1351",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "einwohnergemeinde-aarwangen-elektrizitaetsversorgung": {
+      "name": "Einwohnergemeinde Aarwangen, Elektrizitätsversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "Standard",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:df3ebd8afa66466a87c9b0c605e509629453a7846ea12d5064f0f8d2769b693a",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "einwohnergemeinde-aegerten-elektroversorgung": {
+      "name": "Einwohnergemeinde Aegerten, Elektroversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "Energie Standard + NS Standard",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:2c7d30698fe7de0e6b3dd32efc9185cb2c06eca7646ce203127f882588645fab",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "einwohnergemeinde-bellmund-elektrizitaetsversorgung": {
+      "name": "Einwohnergemeinde Bellmund, Elektrizitätsversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "Energie Bellmund + Netz Standard",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:8594c5f36abc1f67e1fdaf6c4c5ad9109519981e76e640da54f67f9cd6da1c3a",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "einwohnergemeinde-bettwil-elektrizitaetsversorgung": {
+      "name": "Einwohnergemeinde Bettwil, Elektrizitätsversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "Classic Normal",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:92b0f72517565f1051e3a9c6a572cee87f6587148b0a320c9e0a3552eb6b0b87",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "einwohnergemeinde-biglen-stromversorgung": {
+      "name": "Einwohnergemeinde Biglen, Stromversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "Standard Energie (GV) + Standard (Haushalt)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:b08abfbcc48315561c8f6f973a875d7ca69f2500163698471d9810c083942ebb",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "einwohnergemeinde-birmenstorf-ag-elektrizitaetsversorgung": {
+      "name": "Einwohnergemeinde Birmenstorf AG, Elektrizitätsversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "HG (E) + HG (N)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:5445bcd5dce9d6d36ae236c1d9b561e0a4aaad6fe04839a84225bb212898c3df",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "einwohnergemeinde-bruegg-elektrizitaetsversorgung": {
+      "name": "Einwohnergemeinde Brügg, Elektrizitätsversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "Standard + NS Standard",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:e686d40555fc3531478c4c2f209ea6de3e832be90d903b58904892ad8c7916b0",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "einwohnergemeinde-bueetigen-elektroversorgung": {
+      "name": "Einwohnergemeinde Büetigen, Elektroversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "Elektrizität Abgabe Energie + Elektrizität Abgabe Netz",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:8a86020bb573cb4a7705a8da44144fdeeedf8e104c778230717e12645128d44a",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "einwohnergemeinde-dintikon-elektrizitaetswerk": {
+      "name": "Einwohnergemeinde Dintikon, Elektrizitätswerk",
+      "tariffs": {
+        "standard": {
+          "name": "Dintikon GRÜN (E) + HG (N)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:21f7a66ff93308d7cff99c2382247be4a8c63dd41f31029104eeec9bccc10f12",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "einwohnergemeinde-ins-elektrizitaetsversorgung": {
+      "name": "Einwohnergemeinde Ins, Elektrizitätsversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "Energie Standard + NS Haushalt",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:64d3240ba517b55241027ecbe59586a931e1a12e8002ff69f5efe7c93d8704ad",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "einwohnergemeinde-madiswil-elektrizitaetsversorgung": {
+      "name": "Einwohnergemeinde Madiswil, Elektrizitätsversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "Energie + Standard",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:feb5ee394606ad2b9d9beb6a45bef367c81d81ed12816aa68f062ad1c0e914a8",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "einwohnergemeinde-melchnau-elektrizitaetsversorgung": {
+      "name": "Einwohnergemeinde Melchnau, Elektrizitätsversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "Blau + Haushalt Standard",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:b993eafbed80285de1b079ae783d1115e549b898b890f695b4a117a8866df2a0",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "einwohnergemeinde-nidau-elektrizitaetsversorgung": {
+      "name": "Einwohnergemeinde Nidau, Elektrizitätsversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "Energie Nidau + Standard",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:42a2862682b87ce727c5d943fb67091af522ed79bec0ff7e590bdc1f11673e37",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "einwohnergemeinde-niederbipp-elektrizitaetsversorgung": {
+      "name": "Einwohnergemeinde Niederbipp, Elektrizitätsversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "Standard",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:05cfd03f69c72b3d83afe8de2339ef7e06895edf74218728acad0ff9083c58bf",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "einwohnergemeinde-pieterlen-stromverkauf": {
+      "name": "Einwohnergemeinde Pieterlen, Stromverkauf",
+      "tariffs": {
+        "standard": {
+          "name": "Energie Standard + NS Standard",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:9471565deb8466a770e7778d61458e53eecc96fcaf85eceb4eaeb4c1b3fd22e6",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "einwohnergemeinde-port-elektrizitaetversorgung": {
+      "name": "Einwohnergemeinde Port, Elektrizitätversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "Energie Port + Netztarif Standard",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:0f8eaaec556df41bed79d631bcad2bef6dca1558870c39d66365ba536553790b",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "einwohnergemeinde-roggwil-elektrizitaetswerk": {
+      "name": "Einwohnergemeinde Roggwil, Elektrizitätswerk",
+      "tariffs": {
+        "standard": {
+          "name": "BasisStrom < 50MWh + NS T1",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:4e59e021d91f097faa8e295710ed555be7572c5081b585c1c255063818301356",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "einwohnergemeinde-safnern-elektroversorgung": {
+      "name": "Einwohnergemeinde Safnern, Elektroversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "gbsaf.haushalt + gbsaf.ns.et",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:d4c0e8233a4a581ddb20e1dca56cfd91b8f52b3001ddbd4094c5044aa089e1cb",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "einwohnergemeinde-schafisheim-elektrizitaetsversorgung": {
+      "name": "Einwohnergemeinde Schafisheim, Elektrizitätsversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "KN.basic (E) + KN (N)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:cf49f30dfe9fc811418a30a603bd873e3922eabd12025943e8f98bee9aa6ee0b",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "einwohnergemeinde-siselen-elektrizitaetsversorgung": {
+      "name": "Einwohnergemeinde Siselen, Elektrizitätsversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "Standard + NS Standard",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:98a03bcb17184807f42c387d500e695e11b02e20d008c05c909187221c1ba013",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "einwohnergemeinde-unterlunkhofen-elektrizitaetsversorgung": {
+      "name": "Einwohnergemeinde Unterlunkhofen, Elektrizitätsversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "E (E) + E (N)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:8a6d28cffd0d06949f0e18b7a11524e177a6814f8427d2f129088f8008da65f0",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "einwohnergemeinde-wilderswil-elektrizitaetsversorgung": {
+      "name": "Einwohnergemeinde Wilderswil, Elektrizitätsversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "Kleinbezüger + NS Kleinbezüger",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:eb26dbf2c519b32743c81586f4cd8d5a4fac177b20dc5dd10ed677baccd00f30",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "einwohnergemeinde-windisch-elektrizitaetsversorgung": {
+      "name": "Einwohnergemeinde Windisch, Elektrizitätsversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "KN J",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:2f1b759d83b499eea78c74d23c9d5661f3d9d1ed4243d5522d351f84052b04ee",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "einwohnergemeinde-wohlenschwil-elektrizitaetsversorgung": {
+      "name": "Einwohnergemeinde Wohlenschwil, Elektrizitätsversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "Energiepreis + Netznutzungspreis",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:a94eb88902293a488d0cc5c7ae7c5b426168c90784805f2b54f94e88de36d585",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "einwohnergemeinde-zeihen-elektra-elektrizitaetsversorgung": {
+      "name": "Einwohnergemeinde Zeihen, Elektra, Elektrizitätsversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "ST (E) + ST (N)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:88fcf1dfcd6094100f700e6d459dc29b156dab764027090657f930792d25c17a",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
     "ekz": {
       "name": "EKZ (Elektrizitätswerke des Kantons Zürich)",
       "tariffs": {
@@ -66,6 +621,2631 @@
           "revisions": {
             "1": {
               "checksum": "sha256:b41d98288577addf5504ba0dc263580c13d5ed12c8c2c2e1c94a5b4e66adb24e",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "elektra-andwil-stromversorgung": {
+      "name": "Elektra Andwil Stromversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "Basis-Einfachtarif <50'000 kWh",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:6b86b8eb22ac2e43890f0d271a7701db6d47ced94d99ffe271fba5c23f51e6d4",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "elektra-berg-sg-stromversorgung": {
+      "name": "Elektra Berg SG, Stromversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "Haushalt (Leistungstarif < 50‘000 kWh)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:84f00cba6355aff277bd6691817a17c587cd6cb11f0cfee153e5705ace36675f",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "elektra-berneck-stromversorgung": {
+      "name": "Elektra Berneck, Stromversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "Einheitstarif (T01)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:ad2cf61ec528fd2e7aa364504357f37bd279f0fb34ee4bb252cbddfa04ae3c13",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "elektra-boettstein": {
+      "name": "Elektra Böttstein",
+      "tariffs": {
+        "standard": {
+          "name": "KN-26",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:de25a93126e4e2d33bdba0f2f67aec60d9a2cfd34505b8a1e1fc7b8ecf318958",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "elektra-fulenbach-efu": {
+      "name": "Elektra Fulenbach (EFU)",
+      "tariffs": {
+        "standard": {
+          "name": "Basistarif",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:2992d09dfce008f56baf824ea38a50f10c5ef63fcdb5d25ebe4b0f9cf0c04604",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "elektra-gams-genossenschaft": {
+      "name": "Elektra Gams Genossenschaft",
+      "tariffs": {
+        "standard": {
+          "name": "E-DT 02 + N-DT 02",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:f64b7763bc7443013c2c80c21900a25829bd649892c4360289363f161998371d",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "elektra-genossenschaft-abtwil": {
+      "name": "ELEKTRA Genossenschaft Abtwil",
+      "tariffs": {
+        "standard": {
+          "name": "HN",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:b7b9e22bf9217d5712a9c19be8d479095fa7ace66f36cec1324eee0e15860f0e",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "elektra-genossenschaft-arni-islisberg": {
+      "name": "Elektra Genossenschaft Arni-Islisberg",
+      "tariffs": {
+        "standard": {
+          "name": "classic Haushalt (E) + classic Haushalt und Gewerbe (N)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:8801ac42557459a048409ccc06d6f35d1f7387d169a9e27e23ef8a0136da47e7",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "elektra-genossenschaft-fischbach-goeslikon": {
+      "name": "Elektra-Genossenschaft, Fischbach-Göslikon",
+      "tariffs": {
+        "standard": {
+          "name": "Basis (E) + Basis (N)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:0c66ec1198863ff8b20577ad9538c94528a565585bc479ab07d52a624de965ac",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "elektra-genossenschaft-kaiserstuhl": {
+      "name": "Elektra Genossenschaft Kaiserstuhl",
+      "tariffs": {
+        "standard": {
+          "name": "Basis",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:263d4a65e04e121ad27d6ec9ecb86b608fb62ea044fe1e1ee2eb1f373ddbf7c0",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "elektra-genossenschaft-leibstadt": {
+      "name": "Elektra Genossenschaft Leibstadt",
+      "tariffs": {
+        "standard": {
+          "name": "Classic (E) + Classic (N)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:d59088ff77f48074be6c7a7b9e11a8d073bb3bf4de4143e6471a3f8fff654b3d",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "elektra-genossenschaft-rietheim": {
+      "name": "Elektra Genossenschaft Rietheim",
+      "tariffs": {
+        "standard": {
+          "name": "Basis",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:86b206dee7caa024696978b2bd2d856ef54bd33b75830f21e2308cd4ca846a12",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "elektra-genossenschaft-rottenschwil-werd": {
+      "name": "Elektra-Genossenschaft Rottenschwil-Werd",
+      "tariffs": {
+        "standard": {
+          "name": "Basistarif",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:5cd6aa60be26a1172e7e266ea9569fdd1cc2cadca9fcc8549b97d204bbdcbdce",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "elektra-hergiswil-dorf-genossenschaft": {
+      "name": "Elektra Hergiswil-Dorf Genossenschaft",
+      "tariffs": {
+        "standard": {
+          "name": "Basistarif Energie + Basistarif Netznutzung",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:255e7f05d1886f1340f3f14b6ca44e55e00c716de6e099cdd7540ebefd4e6341",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "elektra-kesswil": {
+      "name": "Elektra Kesswil",
+      "tariffs": {
+        "standard": {
+          "name": "Haushalt/ Kleingewerbe (E) - ELK01 + Haushalt/ Kleingewerbe (N) - ELK01",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:d21274b44da421c20862ebf1b28d06aab62849585d7af49c68f06fe473af56cb",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "elektra-korporation-ekw": {
+      "name": "Elektra Korporation EKW",
+      "tariffs": {
+        "standard": {
+          "name": "EKW basic Energie + EKW basic Netz",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:f60106a9eaa8d61f852bbd8aa568573233630b5413a0b6b80ebaa3104eb04c9e",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "elektra-niederbuchsiten-eni": {
+      "name": "Elektra Niederbuchsiten (ENI)",
+      "tariffs": {
+        "standard": {
+          "name": "Standard",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:0dc28865ca89bead82e49371829cfe7e2b16165dab2f47903328f9008398a29b",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "elektra-remetschwil-genossenschaft": {
+      "name": "ELEKTRA REMETSCHWIL, Genossenschaft",
+      "tariffs": {
+        "standard": {
+          "name": "NSN  (E) + NSN (N)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:a3e1a0e56b9c811ad98fbabc107290ab0a4fec99db57c874378df92df8c4c8e3",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "elektra-seeberg-grasswil-riedtwil-genossenschaft": {
+      "name": "Elektra Seeberg-Grasswil-Riedtwil Genossenschaft",
+      "tariffs": {
+        "standard": {
+          "name": "Standard + NS Standard",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:a0ac2dc3fb6184f23a74009a2d81fdc5b0a81a2d01dc18282e1cb97f20a2f004",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "elektra-steinebrunn": {
+      "name": "Elektra Steinebrunn",
+      "tariffs": {
+        "standard": {
+          "name": "ELS 01 Haushalt(Basistarif) E + ELS 01 Haushalt(Basistarif)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:c0946115d9f003b10af349fc9a53a9e09246c2d9bcb48233c337db393318af87",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "elektra-ufhusen-genossenschaft": {
+      "name": "ELEKTRA UFHUSEN Genossenschaft",
+      "tariffs": {
+        "standard": {
+          "name": "Kern / Sonne",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:a14401e8e0ef4ff97d90c383dfc7b81f036f6f49f01d508d556148c1c42483e0",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "elektra-untereggen": {
+      "name": "Elektra Untereggen",
+      "tariffs": {
+        "standard": {
+          "name": "Haushalt",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:83d2a839fa3278d5aa53ed9bf18447c82603229b930502736d0ff1ac107cd042",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "elektra-walzenhausen": {
+      "name": "Elektra Walzenhausen",
+      "tariffs": {
+        "standard": {
+          "name": "Haushalt und Gewerbe",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:80d342116f6aa5f160fd7e033e72fd1f1b9b52b410d4f42f50d5ac8a8db094b3",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "elektra-widen-betriebs-ag": {
+      "name": "Elektra Widen Betriebs AG",
+      "tariffs": {
+        "standard": {
+          "name": "Widen Grüen (E) + Haushalt / Gewerbe (N)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:cd8b66b02a30029895e21849121701ab90cbbc292b9ae8ae945cfcae46f96a71",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "elektra-wolfwil-ag": {
+      "name": "Elektra Wolfwil AG",
+      "tariffs": {
+        "standard": {
+          "name": "Basistarif",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:a1ee039a515c70af4375cbcb38c65a8049c647b70a6fd2e1ecc60d0a4e3786f2",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "elektra-zihlschlacht-riet": {
+      "name": "Elektra Zihlschlacht-Riet",
+      "tariffs": {
+        "standard": {
+          "name": "eigenes Netz Haushalt GV + Haushalt",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:baef20953ac492a28429c937ed5c3c9aa4101e9d8494a6817de4a336aec982bc",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "elektragenossenschaft-mellikon": {
+      "name": "Elektragenossenschaft Mellikon",
+      "tariffs": {
+        "standard": {
+          "name": "Basis",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:090ffcf5fad7c1b4aaeaf3472651852b30652beb8c110e6c1391ff8065b022cb",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "elektragenossenschaft-olsberg": {
+      "name": "ELEKTRAGENOSSENSCHAFT OLSBERG",
+      "tariffs": {
+        "standard": {
+          "name": "EH/GH (E) + EH/GH (N)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:65f319a40a2aaafff6135bced77dbb6a1cb95f5ef0d22739855ebc277974f956",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "elektrakorporation-wagerswil-wagerswil": {
+      "name": "Elektrakorporation Wagerswil Wagerswil",
+      "tariffs": {
+        "standard": {
+          "name": "Grundpreistarif",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:a2f12d529232e8250e8a6efcf52832bd07114f4c57abd1c43a94f64f8c7e5b72",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "elektrizitaet-wasser-neuenhof-ewn": {
+      "name": "Elektrizität Wasser Neuenhof ewn",
+      "tariffs": {
+        "standard": {
+          "name": "primastrom + Netz - OL7",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:a98ceb89b420e679dc5c4c3c0eac0d971d39b01e2aabb609a021a91bae502ec5",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "elektrizitaets-genossenschaft-benzenschwil": {
+      "name": "Elektrizitäts-Genossenschaft Benzenschwil",
+      "tariffs": {
+        "standard": {
+          "name": "Privat und Gewerbekunden bis 50'000 kWh Jahresverbrauch",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:13e6cd96b52ef41af501aabc1283a241ca82cbdbd436a542f5820ab9957908d6",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "elektrizitaets-genossenschaft-boswil-buenzen": {
+      "name": "Elektrizitäts-Genossenschaft Boswil-Bünzen",
+      "tariffs": {
+        "standard": {
+          "name": "KN (E) + KN (N)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:18f3fb7937820aed078d9b67bd8ef5e412fc8366cf3861c125b81bd7f9c0a171",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "elektrizitaets-genossenschaft-ego-oberwil-i-s": {
+      "name": "Elektrizitäts-Genossenschaft (EGO) Oberwil i.S.",
+      "tariffs": {
+        "standard": {
+          "name": "ego power + NS ego power",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:16eb98171749e6b89366f652f2245acc079b93e48349d363d2d16ab39103c75b",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "elektrizitaets-und-wasserwerk-ew-sevelen": {
+      "name": "Elektrizitäts- und Wasserwerk (EW Sevelen)",
+      "tariffs": {
+        "standard": {
+          "name": "easy",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:8cac49f19b68701a8e180b5b8a54f8835a6040d587acc41f66f6a08ade87c98c",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "elektrizitaetsgenossenschaft-binn": {
+      "name": "Elektrizitätsgenossenschaft Binn",
+      "tariffs": {
+        "standard": {
+          "name": "easy light + NS ET1",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:74cd08dcd654f02b0931dc017667302484a43933f99d5c89e00f8d383277d341",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "elektrizitaetsgenossenschaft-brueschwil-sonnenberg": {
+      "name": "Elektrizitätsgenossenschaft Brüschwil-Sonnenberg",
+      "tariffs": {
+        "standard": {
+          "name": "Tarif B",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:3249d5cc8ac0e99eb5f3411718fed33a033cc699120dc7dc819762e4defdfdb6",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "elektrizitaetsgenossenschaft-hermetschwil-staffeln": {
+      "name": "Elektrizitätsgenossenschaft Hermetschwil-Staffeln",
+      "tariffs": {
+        "standard": {
+          "name": "EHS pow (E) + EHS pow (N)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:4041fc8a8df80c12c554076c7c66bdbc9aef7b7ff400a2f3b958cef81bca72ba",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "elektrizitaetsgenossenschaft-jonen": {
+      "name": "Elektrizitätsgenossenschaft Jonen",
+      "tariffs": {
+        "standard": {
+          "name": "Haushalt (E) + Haushalt (N)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:77a063baac76f078667b6aa5deb6b8a5a95d677d06949ea444c290b20b1c86bf",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "elektrizitaetsgenossenschaft-otelfingen": {
+      "name": "Elektrizitätsgenossenschaft Otelfingen",
+      "tariffs": {
+        "standard": {
+          "name": "WT Opt / Naturstrom basic Zert + Wahltarif WT Opt",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:1ee59cceed8d51d8d76e3bb6621b69bf1e4a5421d78bde01571541c8dc4fb9fc",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "elektrizitaetsgenossenschaft-schangnau": {
+      "name": "Elektrizitätsgenossenschaft Schangnau",
+      "tariffs": {
+        "standard": {
+          "name": "easy light + NS ET",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:4238ba6d956508d9aa0f347969577098c31e99520d953ec5ad5d996dbab79b3f",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "elektrizitaetsgenossenschaft-schuepbach": {
+      "name": "Elektrizitätsgenossenschaft Schüpbach",
+      "tariffs": {
+        "standard": {
+          "name": "Einheitstarif + NS Einheitstarif",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:4dbd363930d15749401f36577c9143b47133ef0c4c8197749f8e56ccceecfc00",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "elektrizitaetsgenossenschaft-sins": {
+      "name": "Elektrizitätsgenossenschaft Sins",
+      "tariffs": {
+        "standard": {
+          "name": "Sins Regenbogen (E) + Kleinbezüger Niederspannung 0.4kV (Netz)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:491109c3015c26629b31db63e75a160c64d94070c185a2481b1df6b053837bd9",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "elektrizitaetsversorgung-egerkingen": {
+      "name": "Elektrizitätsversorgung Egerkingen",
+      "tariffs": {
+        "standard": {
+          "name": "Energie_Haushalt + Gewerbe + ÖB + Netz_Haushalt + Gewerbe + ÖB",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:cacdcdc4d4a02cbc237953074008fa7ef2791da6a5e6e073d2da10f7b59b31ac",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "elektrizitaetsversorgung-ried-st-stephan-ag": {
+      "name": "Elektrizitätsversorgung Ried-St. Stephan AG",
+      "tariffs": {
+        "standard": {
+          "name": "Standard",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:969e6b0f07ed5908e834c88ae64b0cfc3c0e7a7062ac5bf12ffe4fc2c7515e98",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "elektrizitaetswerk-goeschenen": {
+      "name": "Elektrizitätswerk Göschenen",
+      "tariffs": {
+        "standard": {
+          "name": "Energie Basis + Basis",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:f2ab9ad6ec4a702c7e7db76baf28c5d45493bd0c95643967db81d92e146eac68",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "elektrizitaetswerk-langrickenbach": {
+      "name": "Elektrizitaetswerk Langrickenbach",
+      "tariffs": {
+        "standard": {
+          "name": "Grundpreistarif",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:9511a1fd7307d684924d8754dedc7e1a880dbe026a1ac3218329f30b20e20df8",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "elektrizitaetswerk-obergoms-ag": {
+      "name": "Elektrizitätswerk Obergoms AG",
+      "tariffs": {
+        "standard": {
+          "name": "H - Einfachtarifzähler ohne Leistungsabrechnung",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:d7e2d12321fdcc6789aafa30982b78c3fdccf36aa7a88ce25321f83b3bcd5c04",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "elektrizitaetswerk-sennwald-genossenschaft": {
+      "name": "Elektrizitätswerk Sennwald Genossenschaft",
+      "tariffs": {
+        "standard": {
+          "name": "Standard 01 E + Standard 01 NN",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:36911ba1a9fe869dcbb492fb021ace8cca1720482f9fc8f852352a3d752d49b6",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "elektro-genossenschaft-ulisbach": {
+      "name": "Elektro-Genossenschaft Ulisbach",
+      "tariffs": {
+        "standard": {
+          "name": "Haushalt Basis",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:8346d6391b0ae5e927aaa9c697f7af345b73b4f57309b32ac616d89982b44eda",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "elektrogenossenschaft-bisisthal": {
+      "name": "Elektrogenossenschaft Bisisthal",
+      "tariffs": {
+        "standard": {
+          "name": "Haushalt + Hauhalt",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:2ae13d288d47d9dcf540e2a518350ab7f585814e36a57c35b85791f7fe323127",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "elektrogenossenschaft-moos-dieselbach": {
+      "name": "Elektrogenossenschaft Moos-Dieselbach",
+      "tariffs": {
+        "standard": {
+          "name": "Haushalt",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:10c14bd55d55e764b9fea0b1cda6365a538a06d50b572454bf34a51b78dec524",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "elektrokorporation-wald-st-peterzell": {
+      "name": "Elektrokorporation Wald - St. Peterzell",
+      "tariffs": {
+        "standard": {
+          "name": "Haushalt H1N7",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:0535acec0a0acb82254b397f9f042a8902008d8178f7aee737ef8a2b64cba2aa",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "enercom-kirchberg-ag": {
+      "name": "EnerCom Kirchberg AG",
+      "tariffs": {
+        "standard": {
+          "name": "EnerCom fix blau + NS ET",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:fc0604f4a9156558c0151a5d055666a69752369a0dc58a2e350f51158d688da0",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "energie-ag-sumiswald": {
+      "name": "Energie AG Sumiswald",
+      "tariffs": {
+        "standard": {
+          "name": "Energie ET + Standard NS",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:b2edd6347f07194a90619b4624439e7d0e6f8f4fd5afc7bc8dd7ba7ae28a91c3",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "energie-grosshoechstetten-ag": {
+      "name": "Energie Grosshöchstetten AG",
+      "tariffs": {
+        "standard": {
+          "name": "Standard + NS Standard",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:853f0a009d4e86c1ab92b946790ccbe9d0fe5523823ec734b5e1a9994169197d",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "energie-hunzenschwil-ag-enh": {
+      "name": "Energie Hunzenschwil AG (ENH)",
+      "tariffs": {
+        "standard": {
+          "name": "KN-S + KN-S (c + n + n+)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:9ee905b83d7383adc5b54264dcad37755546c0d53c97eb51c1a49042ef8e1b46",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "energie-kestenholz": {
+      "name": "Energie Kestenholz",
+      "tariffs": {
+        "standard": {
+          "name": "Basistarif",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:2f68e8a7f63b0a09c429a1e6272d4b860bb6e5bd68de901ef000ad24052f1639",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "energie-muenchenbuchsee-ag": {
+      "name": "Energie Münchenbuchsee AG",
+      "tariffs": {
+        "standard": {
+          "name": "S EMAG Wasser + S EMAG NS",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:4aed75a2048dcfd41d7a711c40f1d3cf434e2db833a8e049de0f4f4689ca5adb",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "energie-service-biel-bienne-esb": {
+      "name": "Energie Service Biel/Bienne (ESB)",
+      "tariffs": {
+        "standard": {
+          "name": "Classique Seeland + Classique",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:3ca47d2640ea5fb4edaf3bd8efa54fa904eace0a18b0b84d0f72cdd1d48ce1da",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "energie-versorgung-riggisberg-evr-ag": {
+      "name": "Energie Versorgung Riggisberg (EVR) AG",
+      "tariffs": {
+        "standard": {
+          "name": "Haushalt erneuerbar + NS ET",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:5da6a695b3310f2d392af0f5e75c755f266d776963448aacac1b1e9000cd4303",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "energie-wasser-bern": {
+      "name": "Energie Wasser Bern",
+      "tariffs": {
+        "standard": {
+          "name": "ewb.Natur.STROM Einfachtarif + Home",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:5863d5177d0dcf3e986b3348b06b5e790d6614995fe5ac23c84fa9386a2355eb",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "energie-wettingen-ag": {
+      "name": "Energie Wettingen AG",
+      "tariffs": {
+        "standard": {
+          "name": "WASSERSTROM + BASIC",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:0b30c13fea8c12269b2697fec600b9335821651353ffce77055cff753841720d",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "energiegenossenschaft-diemtigtal": {
+      "name": "Energiegenossenschaft Diemtigtal",
+      "tariffs": {
+        "standard": {
+          "name": "Standard",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:02c67eb451078afdc2f85c6e19cc59334c82ce668385997da26aee3411ced091",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "energieversorgung-bueren-ag": {
+      "name": "Energieversorgung Büren AG",
+      "tariffs": {
+        "standard": {
+          "name": "evb.haushalt.blau + evb.ns.et",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:cdb24209faf1259ef199c0e2e575bb2e02441eb3c2d7c446db32e00fae67953e",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "ev-gebenstorf-ag": {
+      "name": "EV Gebenstorf AG",
+      "tariffs": {
+        "standard": {
+          "name": "KN 26",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:e91b8529c5c9e63f5a048925a852c06bfca62b592cc3fa29741688c2a4e20949",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "evolon-ag": {
+      "name": "Evolon AG",
+      "tariffs": {
+        "standard": {
+          "name": "Einheitstarif + NS ET",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:fa17101761c073ac5b6ae81fd0e584fc05e738ace5978fe75f7198f935720220",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "ew-oftringen-ag": {
+      "name": "EW Oftringen AG",
+      "tariffs": {
+        "standard": {
+          "name": "EWO Energie small + EWO Netz home & business",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:6859f230811438481a3bc8777586c919949b3b2c614a476982858dcf7e20cc17",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "ew-rothrist-ag": {
+      "name": "EW Rothrist AG",
+      "tariffs": {
+        "standard": {
+          "name": "EWR.Energie S Basis + EWR.Netz S",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:4171a4d7eb9818c0efd787498b344c443e628d592641cfb0231800d6379baf1e",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "ew-wald-ag": {
+      "name": "EW WALD AG",
+      "tariffs": {
+        "standard": {
+          "name": "Haushalt & Kleingewerbe ecco + Haushalt & Kleingewerbe",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:d49a1b6936032b2d91caeeeceebcaca7c55d4fb9e125c8b72362cacbae02ac6f",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "ewd": {
+      "name": "EWD",
+      "tariffs": {
+        "standard": {
+          "name": "EWD Basis + NST 4 nicht steuerbar",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:72de7860ac9ed0acb80a170f5a9533e7ee19bb35a847cf2c9b6335db605f62df",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "ews-energie-ag": {
+      "name": "EWS Energie AG",
+      "tariffs": {
+        "standard": {
+          "name": "EWS Basic Energie + EWS Basic Netz",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:17ff7fbed4cf87543793589c02317ed13a2b85eae7e53f73aae762ce498263b5",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "feuerschaugemeinde-appenzell-energie-und-wasserversorgung": {
+      "name": "Feuerschaugemeinde Appenzell, Energie- und Wasserversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "Basis + SDN400",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:f5cbe5252ced4f6b0483057cc8b675f7afc67bca06f2b4428fcf365c1ae45a22",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "gebnet-ag": {
+      "name": "GEBNET AG",
+      "tariffs": {
+        "standard": {
+          "name": "Standard Energie (GV) + Standard",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:37ee69a131bb4bda622edc067147183b17510f249a3ab4b1c10c50f54d7875b3",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "gemeinde-albula-alvra": {
+      "name": "Gemeinde Albula/Alvra",
+      "tariffs": {
+        "standard": {
+          "name": "Tarif A NS, Einheitstarif",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:0ab0381c12c2cebb4dec0b54af312fbdd48f61ca0c8ae11aa75ad9f7cf26d40e",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "gemeinde-amlikon-bissegg-stromversorgung": {
+      "name": "Gemeinde Amlikon-Bissegg, Stromversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "Haushalt (E) + Haushalt (N)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:34311de7420d158e0fa6a10ee54250f48e73832b3c96e112fdd9e2d03e59860f",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "gemeinde-bargen-be-elektrizitaetsversorgung": {
+      "name": "Gemeinde Bargen BE, Elektrizitätsversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "Energie Bargen + Standard NS",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:caef433ec872cc745ab3242ab4b836ddf2039c35e90cf0c84068d15cab4e8947",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "gemeinde-berikon-elektrizitaetsversorgung": {
+      "name": "Gemeinde Berikon, Elektrizitätsversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "EVB Standard",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:57b28872b88c22e13b3b6d68ad85a7bcde14521a5f460584234c0aa6a7f60f33",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "gemeinde-besenbueren-elektrizitaetsversorgung": {
+      "name": "Gemeinde Besenbüren, Elektrizitätsversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "KN (E) + KN (N)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:f57ebf6dfa8eb887f5790b8d9b0c94b986a0ad393a669b8177431025c576405d",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "gemeinde-buettikon-abt-elektrizitaetsversorgung": {
+      "name": "Gemeinde Büttikon, Abt. Elektrizitätsversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "Kleinbezüger (E) + Kleinbezüger (N)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:10caaa3f925a3503b970aba960b0c0a2f789fbc726ddaa71ed17c403d535ef53",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "gemeinde-diessenhofen-elektrizitaetsversorgung": {
+      "name": "Gemeinde Diessenhofen, Elektrizitätsversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "Basistarif",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:8306ad5538eecd445971a80a6ccc053bdeb7b49cea109d930127f1a820ebcede",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "gemeinde-eriswil-elektrizitaetsversorgung": {
+      "name": "Gemeinde Eriswil, Elektrizitätsversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "Standard + NS Standard",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:1addebe9f7c3b903cd3d4e731b4c37dde6a35fe0d475eba2f5a1324eea534f10",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "gemeinde-erlen-elektrizitaetsversorgung": {
+      "name": "Gemeinde Erlen, Elektrizitätsversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "Haushalt",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:ec3e837881d368708e25855203284300e13b17aa54fc0a8fde9265af9d2029b6",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "gemeinde-fehraltorf-elektrizitaet": {
+      "name": "Gemeinde Fehraltorf, Elektrizität",
+      "tariffs": {
+        "standard": {
+          "name": "Fehraltorfer Strom ET E + Fehraltorfer Strom ET N",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:73c5ca8fa275a5064c7a338d0a565e34adb44c4a80e38b3edd2c9a7a411f98cf",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "gemeinde-guettingen-elektrizitaetswerk": {
+      "name": "Gemeinde Güttingen, Elektrizitätswerk",
+      "tariffs": {
+        "standard": {
+          "name": "Grundpreis",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:d0f2b8319dc1a2cdb58c1cb6041a0d386bf6b8c55fce22e81a537c891cc3347f",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "gemeinde-lantsch-lenz-elektrizitaetsversorgung": {
+      "name": "Gemeinde Lantsch/Lenz, Elektrizitätsversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "Privat",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:7dac024add19532ac8bec2bddaf7971057d7bd79b7d050c7306cc2b811e9916b",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "gemeinde-mellingen-elektrizitaetsversorgung": {
+      "name": "Gemeinde Mellingen, Elektrizitätsversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "primastrom + OL7",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:e5790967fd7377a77ccc85ca3328135bec3c8549b9112637c5d5ed1c7590bd2f",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "gemeinde-murgenthal-elektrizitaetsversorgung": {
+      "name": "Gemeinde Murgenthal, Elektrizitätsversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "Standard + NS Standard",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:d3b2bb2309a583ecde58301fca68d762b9b88beb72cbbac05ad2b344bbc0d65b",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "gemeinde-oberwil-bei-bueren-energieversorgung": {
+      "name": "Gemeinde Oberwil bei Büren, Energieversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "Energie Haushalte + Standard",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:3974a7ea496c2e425aec8985dba9f86e7d962e45c97f242efea748be79d0409e",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "gemeinde-rheinwald-elektrizitaetsversorgung": {
+      "name": "Gemeinde Rheinwald, Elektrizitätsversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "Tarif NE 7 , Einheitstarif",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:798ca76c40d8e113f4b199fadf094caf0e01af9f9cf28b3f2c61ab91568636dd",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "gemeinde-rupperswil-elektrizitaetsversorgung": {
+      "name": "Gemeinde Rupperswil, Elektrizitätsversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "KN (Energie) + KN (Netz)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:baedd5f4556a4f17fab2b225d9a13abc2f1de7ce915c5ea4e076339b2f30c831",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "gemeinde-salenstein-stromversorgung": {
+      "name": "Gemeinde Salenstein, Stromversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "Grundpreis",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:cedc3f51dca2c2dd6c938eef2e5826640ee102c1828f6a3e09de40bf5a94c8cd",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "gemeinde-scharans-elektrizitaetswerk": {
+      "name": "Gemeinde Scharans, Elektrizitätswerk",
+      "tariffs": {
+        "standard": {
+          "name": "Einheitstarif",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:a76bf0897967ca1d308b9a96480f091a2c842ea08c8b839fc23dd12c9e851cbc",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "gemeinde-schmitten-stromversorgung": {
+      "name": "Gemeinde Schmitten, Stromversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "EWS Tarif 1, Einheitstarif",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:e369b65b2e5138bcbe7b6f567af6d5c4d20e1604e623d20dfd6276d0ba59d54d",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "gemeinde-schoeftland-elektrizitaetsversorgung": {
+      "name": "Gemeinde Schöftland, Elektrizitätsversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "a.ns comfort / classic (E) + a.ns comfort / classic (N)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:6e1fa81a681c0fd27010f1a3910a8ba8123bb243dc1167699695ab15f8632721",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "gemeinde-simplon-dorf-elektrizitaetsversorgung": {
+      "name": "Gemeinde Simplon Dorf, Elektrizitätsversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "Basistarif",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:3285d61028b759974dbef51ed93280c0b1df6077f5575134cba5cee6ec490c0e",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "gemeinde-surses-elektrizitaetsversorgung": {
+      "name": "Gemeinde Surses, Elektrizitätsversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "Tarif 1 NS",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:e706adfe710acb09c08034f29c827510f4dd3adc07d940a2b80a3aabbe6da8ea",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "gemeinde-teufenthal-elektrizitaetsversorgung": {
+      "name": "Gemeinde Teufenthal, Elektrizitätsversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "Basic (E) + Basic (N)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:cc38f6e095cca18db969b1f8a1d58e8dc394c9590eed7522f403d098347d734c",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "gemeinde-thusis-energieversorgung": {
+      "name": "Gemeinde Thusis, Energieversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "Einheitstarif",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:9e4f480fe38892b920395e98c23dc41970989d1edd9aff2b1f76bd5de17a30a3",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "gemeinde-ueken-elektrizitaetsversorgung": {
+      "name": "Gemeinde Ueken, Elektrizitätsversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "KN (E) + KN (N)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:98b8015ff56b6628902d31a90293761999e287e42ed3e3682f9c43513eec6b9e",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "gemeinde-wagenhausen-elektrizitaetsversorgung": {
+      "name": "Gemeinde Wagenhausen, Elektrizitätsversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "Haushalt (E) + Haushalt (N)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:79e017104ee314ab380d988dfe926d038c5e637aa49b781d16fac925cd9292af",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "gemeinde-warth-weiningen-elektrizitaetsversorgung": {
+      "name": "Gemeinde Warth-Weiningen, Elektrizitätsversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "Haushalt (E) + Haushalt (N)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:3f285460eb4381a0616455a9d5959e6d294443b1d92dc4dc4c305813346474bd",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "gemeindebetriebe-lotzwil-elektrizitaetsversorgung": {
+      "name": "Gemeindebetriebe Lotzwil, Elektrizitätsversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "Energie ET + Standard",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:5e9aaaf71f2bc9e2eea1c2d886dcec66b30165f4186086ade951689b96de8963",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "gemeindewerke-rueti-zh": {
+      "name": "Gemeindewerke Rüti (ZH)",
+      "tariffs": {
+        "standard": {
+          "name": "GWR Wasserenergie HGL",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:bbf547e74ef8b89a02d05e1e00f56729a8b5fbdf52f23be60bcad1fc8ae26ada",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "genossenschaft-elektra-busslingen": {
+      "name": "genossenschaft elektra busslingen",
+      "tariffs": {
+        "standard": {
+          "name": "KN-E + KN-N",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:1ba3b5489a11d74ec0a75c12f27edcdccdf7f4e07e226b8159e339f445cf6c31",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "genossenschaft-elektra-ehrendingen": {
+      "name": "Genossenschaft Elektra Ehrendingen",
+      "tariffs": {
+        "standard": {
+          "name": "Lägerestrom Basic",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:d911ae0225b31ca2f7de47463bfd82e71b5286131798bad49beebececfd8409f",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "genossenschaft-elektra-fislisbach": {
+      "name": "Genossenschaft ELEKTRA Fislisbach",
+      "tariffs": {
+        "standard": {
+          "name": "Basis",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:763e17b25384b3a5e57a32507cd009dad69e47971fc264a9a8db2be8f099e0d8",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "genossenschaft-elektra-jegenstorf": {
+      "name": "Genossenschaft Elektra, Jegenstorf",
+      "tariffs": {
+        "standard": {
+          "name": "elektraaqua+ + elektra b",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:6ee18617349223b33a547807bcfdca3b802b44adab45437aa51a8cb236fbdce4",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "genossenschaft-elektra-koppigen-willadingen": {
+      "name": "Genossenschaft Elektra Koppigen-Willadingen",
+      "tariffs": {
+        "standard": {
+          "name": "easy + NS ET",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:f911bef44f3bcea1264edad96f93900824e40b4007cd3949712f9c121d7175df",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "genossenschaft-elektra-oberrohrdorf": {
+      "name": "Genossenschaft ELEKTRA Oberrohrdorf",
+      "tariffs": {
+        "standard": {
+          "name": "PK (E) + PK (N)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:78663acfeee73fd20b25ba0e05091137b8bdb325a2dd4339857687d9bed17fb2",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "genossenschaft-elektra-roggwil-freidorf": {
+      "name": "Genossenschaft Elektra Roggwil-Freidorf",
+      "tariffs": {
+        "standard": {
+          "name": "ST - Haushalt < 50'000",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:2cb16b764c9ef11ffdda528deb315942f7b98ff52b4716078ddac0da58913018",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "genossenschaft-elektra-thal": {
+      "name": "Genossenschaft Elektra Thal",
+      "tariffs": {
+        "standard": {
+          "name": "ET Basis",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:b4013bbebaba35b1d97daf4aec63bdd13a0c0ed2e7b601007a1b296b185825e5",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "genossenschaft-elektra-vogelsang": {
+      "name": "Genossenschaft Elektra Vogelsang",
+      "tariffs": {
+        "standard": {
+          "name": "Normaltarif",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:f9e470ba064a21f195a96a66f5812d1dee934ee99b8f3b801b9cd2fc5b531658",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "genossenschaft-elektrizitaetswerk-raeterschen-ewr": {
+      "name": "Genossenschaft Elektrizitätswerk Räterschen EWR",
+      "tariffs": {
+        "standard": {
+          "name": "Haushalt & Gewerbe (HGT / GWT)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:786e6e923350d7c581bee5cd561a7bbc9d312baa57b55b9b2cae5c58f32a2562",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "genossenschaft-ew-romanshorn": {
+      "name": "Genossenschaft EW Romanshorn",
+      "tariffs": {
+        "standard": {
+          "name": "Haushalt",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:72f96e7a1386fdcf623e1b8fb84f9602d5f001f64effea84ee432427729ded5c",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "genossenschaft-werk-bichelsee-balterswil": {
+      "name": "Genossenschaft Werk Bichelsee-Balterswil",
+      "tariffs": {
+        "standard": {
+          "name": "Haushalt (E) + Haushalt (N)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:ffe04fc263750e4eeaf54fdce2ef7611240cb8b83e7843256182adcf9b5cb3a0",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "ib-langenthal-ag": {
+      "name": "IB Langenthal AG",
+      "tariffs": {
+        "standard": {
+          "name": "BasisStrom + NS T1",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:da741ceeedb9ed03676a2d770d4f4601728a55fc3321ff09e1c0309034ae80e5",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "ibb-strom-ag": {
+      "name": "IBB Strom AG",
+      "tariffs": {
+        "standard": {
+          "name": "Basis",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:a228cb40c84066d9a45774e6b17ddae0eea961590762332df69db42d7c4fa31a",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "ibc-energie-wasser-chur-ibc": {
+      "name": "IBC Energie Wasser Chur (IBC)",
+      "tariffs": {
+        "standard": {
+          "name": "VivaPower Grischa + Strom Netz H",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:7e8120155d9bd5fc4f56ead71666cc7b995e4996300e37a9cee8903e0b7f191a",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "impianti-elettrici-bivio-societ-cooperativa": {
+      "name": "Impianti elettrici Bivio società cooperativa",
+      "tariffs": {
+        "standard": {
+          "name": "Tarif 1 NS",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:45949cc481daeba079e9d41f0eba4c5c6516c1d650111d1e753e0933d65c8b98",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "industrielle-betriebe-huttwil-ag": {
+      "name": "Industrielle Betriebe Huttwil AG",
+      "tariffs": {
+        "standard": {
+          "name": "Energie Standard + NS Standard",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:6dcaf3ad9eb3fe74ccc99de4415eca64dc62cd4b117df5753ec1be28023b5158",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "industrielle-betriebe-interlaken-ibi-ag": {
+      "name": "Industrielle Betriebe Interlaken (IBI) AG",
+      "tariffs": {
+        "standard": {
+          "name": "E IBI + N IBI Mini",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:e9f54ffe1bc2f01dc829c11f99284884330b3a3ded166ab030caeadb8dae3946",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "infrawerkemuensingen-iwm": {
+      "name": "InfraWerkeMünsingen (IWM)",
+      "tariffs": {
+        "standard": {
+          "name": "BASIS INFRABLAU + BASIS",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:ced0e96924ed79b0502f680f5602a0656b266a908ac4cebf71c3259097175241",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "localnet-ag": {
+      "name": "Localnet AG",
+      "tariffs": {
+        "standard": {
+          "name": "Standard + NS",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:0ba5ca20d3ed312467a985692e98ef666a0fc999a653932afc30671d3c09682c",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "lst-energie-ag": {
+      "name": "LST Energie AG",
+      "tariffs": {
+        "standard": {
+          "name": "Haushalt (E) + Haushalt (N)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:feee8fc56a7210fd3bad52b7035f220290fe9cf03cfd5b4f52ba2bccb05bf593",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "media-mesolcina-energia": {
+      "name": "Media Mesolcina Energia",
+      "tariffs": {
+        "standard": {
+          "name": "Categoria A",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:8d77696a5ebf55bbcaf502bd55a91c11a9df5e9b0c37536a90e10d4f7502df69",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "munizipalgemeinde-eisten-stromversorgung": {
+      "name": "Munizipalgemeinde Eisten, Stromversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "NS Kunden mit Einheitstarifzähler < 60A",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:c35dfa9c6bf5aeac87b15705c07ebccbbf01720fb0632c93810dc01ffa49c61a",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "polit-gemeinde-muensterlingen-elektra": {
+      "name": "Polit. Gemeinde Münsterlingen, Elektra",
+      "tariffs": {
+        "standard": {
+          "name": "Haushalt",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:be9fddc1177e1d905b9ffd0308c43f77e79bb45b14863a9414c58ccce2155bd3",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "politische-gemeinde-basadingen-schlattingen-elektrizitaet": {
+      "name": "Politische Gemeinde Basadingen-Schlattingen , Elektrizität",
+      "tariffs": {
+        "standard": {
+          "name": "Haushalt (E) + Haushalt (N)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:872d9643faf9993b8ec37be1d7a77a346e8ac2150352ef2a270d3d4f084e85ec",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "politische-gemeinde-benken-zh-elektrizitaetsversorgung": {
+      "name": "Politische Gemeinde Benken ZH, Elektrizitätsversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "Haushalt Tarif Standard",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:ec52c0d2aa0751e7e51b65ca414c3f40a6df6481d73af03f4f210e37c95c95db",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "politische-gemeinde-berlingen-elektizitaetsversorgung": {
+      "name": "Politische Gemeinde Berlingen, Elektizitätsversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "Haushalt DT",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:12e73fdd5fa4f6bef30052b70fc9e10df37a3ac828d18e6ae2552c6596ec808f",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "politische-gemeinde-bettwiesen-elektra": {
+      "name": "Politische Gemeinde Bettwiesen, Elektra",
+      "tariffs": {
+        "standard": {
+          "name": "Haushalt Basis",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:b2fe668ae7f77d3a43015765217690ff1e5f34bd5aa3c08c3c483147c30159d6",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "politische-gemeinde-birwinken-elektrizitaetsversorgung": {
+      "name": "Politische Gemeinde Birwinken, Elektrizitätsversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "Haushalt (E) + Haushalt (N)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:07b723d1f82b9a8f1a0beaa81a4fb7f3c32a518a13051be7dbafaf9ccf46dce4",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "politische-gemeinde-bottighofen-elektrizitaetsversorgung": {
+      "name": "Politische Gemeinde Bottighofen, Elektrizitätsversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "N7 - Grundtarif",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:f06f6ac944b33db8eb7913c35c0364d5103304e7e6d1b6d5a26c0a7557ab5027",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "politische-gemeinde-buerglen-tg-elektrizitaetsversorgung": {
+      "name": "Politische Gemeinde Bürglen TG, Elektrizitätsversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "Tarif Allgemein (E) + Tarif Allgemein (N)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:c839b1c53f3f25460ae661aa66a5f5efec061dc0eea7083e57ef08b5f0c207e7",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "politische-gemeinde-bussnang-elektrizitaetsversorgung": {
+      "name": "Politische Gemeinde Bussnang, Elektrizitätsversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "Haushalt (E) + Haushalt (N)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:fca9a0eb3a0ed1ac8dc46efe71d62293840ef927126bd337d75040a59cacc7c3",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "politische-gemeinde-eggersriet-elektra": {
+      "name": "Politische Gemeinde Eggersriet, Elektra",
+      "tariffs": {
+        "standard": {
+          "name": "Haushaltstarif",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:1839494feffde3474f12e285f8cc8407d1ee4115c4c7893b26d0b9647c78591e",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "politische-gemeinde-gottlieben-elektrizitaetsversorgung": {
+      "name": "Politische Gemeinde Gottlieben, Elektrizitätsversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "Haushalttarif Grundpreis",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:8c86064ad1211dc2fe6e9015a961e4213723d3c46b25162b70790bd416d21149",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "politische-gemeinde-haeggenschwil-elektrizitaetsversorgung": {
+      "name": "Politische Gemeinde, Häggenschwil, Elektrizitätsversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "(Basistarif) ELH02 Haushalt E + (Basistarif) ELH02 Haushalt",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:0667cbb457c154fb3adec6db169007571e8521f77ac29c8688ef6a5018da7fa4",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "politische-gemeinde-herdern-abwasser-wasser-elektragen-technische-werke": {
+      "name": "Politische Gemeinde Herdern Abwasser, Wasser- & Elektragen. Technische Werke",
+      "tariffs": {
+        "standard": {
+          "name": "Grundpreis",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:5b5fc43740959c9d6678779a9072c52a670e44c9ae3f48263c0c0ba77006b895",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "politische-gemeinde-hohentannen-stromversorgung": {
+      "name": "Politische Gemeinde Hohentannen, Stromversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "Grundpreis",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:b79719772aa98aabc83e2c4a4083accd29ecf83ec4bbc849ca6289709896c701",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "politische-gemeinde-huettlingen-elektrizitaetswerk": {
+      "name": "Politische Gemeinde Hüttlingen, Elektrizitätswerk",
+      "tariffs": {
+        "standard": {
+          "name": "Aqua Solar (Standardprodukt) + Haushalt",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:266dfa2287cfcae70ad2579b953e165e485c722b8dc8a44329d05d37ae12dc5c",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "politische-gemeinde-huettwilen-elektrizitaetswerk": {
+      "name": "Politische Gemeinde Hüttwilen, Elektrizitätswerk",
+      "tariffs": {
+        "standard": {
+          "name": "Haushalt (E) + Haushalt (N)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:4748c554ed4195c81f4a6e6de870fa9d45d63e39160c8dc92d7d8dad2fc5e62b",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "politische-gemeinde-kradolf-schoenenberg-elektrizitaet": {
+      "name": "Politische Gemeinde Kradolf-Schönenberg, Elektrizität",
+      "tariffs": {
+        "standard": {
+          "name": "Basic",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:a31743509733ef14c66be5d7aaee22f309b110a11b23f2c5aff723780cd4ae47",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "politische-gemeinde-lengwil-elektrizitaetswerk": {
+      "name": "Politische Gemeinde Lengwil, Elektrizitätswerk",
+      "tariffs": {
+        "standard": {
+          "name": "Grundpreis",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:0d9ce971dda804511f4e917d2866a02f33d2699d1aaa56c5fe3fd06fe5e9b2dd",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "politische-gemeinde-maerstetten-elektrizitaetsversorgung": {
+      "name": "Politische Gemeinde Märstetten, Elektrizitätsversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "Haushalt (E) + Haushalt (N)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:103adf9b92132d4fc440347afeba600a088b7832ac60b2c0c6bfd04e06210163",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "politische-gemeinde-mammern-elektrizitaet": {
+      "name": "Politische Gemeinde Mammern, Elektrizität",
+      "tariffs": {
+        "standard": {
+          "name": "Haushalte und Kleingewerbe",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:8182e21d276b66d775dbc6792772f9aaa66486d21a087a9bd0289a16bd6fd00b",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "politische-gemeinde-marbach-sg-elektrizitaetsversorgung": {
+      "name": "Politische Gemeinde Marbach SG, Elektrizitätsversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "Haushalt",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:171595353a84bc5902ca57fa1c6f9dcd9eedb7814adb47ab07ce9d0d7ec13b48",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "politische-gemeinde-mels-elektrizitaets-wasserwerk": {
+      "name": "Politische Gemeinde Mels, Elektrizitäts- & Wasserwerk",
+      "tariffs": {
+        "standard": {
+          "name": "Privatkunden & KMU",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:c287453c5a7401d6697f894bf62dedb60c49b801394efb6600b0aaa456f33403",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "politische-gemeinde-neunforn-elektrizitaetsversorgung": {
+      "name": "Politische Gemeinde Neunforn, Elektrizitätsversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "Haushalt (E) + Haushalt (N)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:2b2fc37c9f91447eef758faf6457c507a4e0c2a4349cacb8d85c042657d51e15",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "politische-gemeinde-niederhelfenschwil-elektra-stromversorgung": {
+      "name": "Politische Gemeinde Niederhelfenschwil, Elektra / Stromversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "Haushalt < 50'000 kWh",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:8ebe09ac59dd9f52f584dd7be5d2be8a39be46c1b10a9c2fceb94205836cfdec",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "politische-gemeinde-pfyn": {
+      "name": "Politische Gemeinde Pfyn",
+      "tariffs": {
+        "standard": {
+          "name": "Haushalt (E) + Haushalt (N)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:f013cb693e98dab564ae2438f14552e6aca986468e18ec4bb4bc9e26e195a4dd",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "politische-gemeinde-rorschacherberg-elektrizitaetsversorgung": {
+      "name": "Politische Gemeinde Rorschacherberg, Elektrizitätsversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "Haushalt (< 50'000 kWh)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:4551b919e62d360ea0cad140214c3ff172bd8a1fdb850808af93e57b3e4ae223",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "politische-gemeinde-schlatt-elektrizitaetversorgung": {
+      "name": "Politische Gemeinde Schlatt, Elektrizitätversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "Grundpreis",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:1b5ec70884f8c7c943ab576ba52d29c23474c9131e7b28cb3c580675f2c915cf",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "politische-gemeinde-steckborn": {
+      "name": "Politische Gemeinde Steckborn",
+      "tariffs": {
+        "standard": {
+          "name": "Haushalt",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:6af8572a3ad70219f973bafcd614ec08c493155b705492aa68881c3ecce0dcae",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "politische-gemeinde-taegerwilen-elektrizitaetswerk": {
+      "name": "Politische Gemeinde Tägerwilen, Elektrizitätswerk",
+      "tariffs": {
+        "standard": {
+          "name": "Grundpreis",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:c24c75089aa2f3519fc534ab48ae3e5d31febd3f26cce6fc3a1e67f49ad1d57c",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "politische-gemeinde-tuebach-elektrizitaetsversorgung": {
+      "name": "Politische Gemeinde Tübach, Elektrizitätsversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "ELT 02 Grundpreis < 50 MWh Standard-Lief. NATURSTROM BASIC",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:4118a61fddd0df05689415c59d8587c30d3cdf81b03afd6060879d2f07505338",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "politische-gemeinde-uesslingen-buch-elektrizitaetswerk": {
+      "name": "Politische Gemeinde Uesslingen-Buch, Elektrizitätswerk",
+      "tariffs": {
+        "standard": {
+          "name": "Haushalt (E) + Haushalt (N)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:df5126e11bca745bc1486d877ade00076735d2e2650c8777f13a966304e5d36e",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "politische-gemeinde-wigoltingen-elektrizitaetswerk": {
+      "name": "Politische Gemeinde Wigoltingen, Elektrizitätswerk",
+      "tariffs": {
+        "standard": {
+          "name": "Grundpreis",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:6de701cbac5c7aff935f5f58d036e47a79fe8dd4be053b1f5c1f92bfe27819a9",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "politische-gemeinde-wilen-b-wil-elektrizitaetsversorgung": {
+      "name": "Politische Gemeinde Wilen b. Wil, Elektrizitätsversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "Haushalt & Kleingewerbe",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:eecc413f4f1665dab04d160d4a39598262d542e2809711ad6204c00628df538f",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "regio-energie-amriswil-rea": {
+      "name": "Regio Energie Amriswil (REA)",
+      "tariffs": {
+        "standard": {
+          "name": "Strom Small Standard",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:a5af2026386ab41e21830b73bf86992f7b78609454af63b88749317fe5f99291",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "regionalwerke-ag-baden": {
+      "name": "Regionalwerke AG Baden",
+      "tariffs": {
+        "standard": {
+          "name": "primastrom + Netz - OL7",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:cf90f2a5b2e56a9bcc0109aea0cc0f111c3c3c5fc6fdeb8715a7d369b57d5ac6",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "sinergy-infrastructure-sa": {
+      "name": "Sinergy Infrastructure SA",
+      "tariffs": {
+        "standard": {
+          "name": "Catégorie 1",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:c5b9d30d001aa9b583f8f0795b247a652ee830687f7ba1d7fc97d813fe009462",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "soci-t-des-forces-lectriques-de-la-goule-sa": {
+      "name": "Société des Forces Électriques de La Goule SA",
+      "tariffs": {
+        "standard": {
+          "name": "La Goule Energy Blue, Tarif unique + BT TU",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:db5d8c32daeb2395491da80d5960c91ab6cb0c5d85c8045c3aebbc74d657eb22",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "societ-semplice-tra-i-comuni-concedenti-elin-prestazioni-di-servizio": {
+      "name": "Società Semplice Tra I Comuni, Concedenti Elin, Prestazioni di Servizio",
+      "tariffs": {
+        "standard": {
+          "name": "Categoria A",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:9cbca4eb24186f5f575c505398c267be9e69fca1a52657987ae9e5a1d2e31b90",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "stwz-energie-ag": {
+      "name": "StWZ Energie AG",
+      "tariffs": {
+        "standard": {
+          "name": "ECO + Haushalt & Gewerbe",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:9183c387189d8aa0c22da0e0f61536515f4adc390059980dafd44450baac37bf",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "tba-energie-ag": {
+      "name": "tba energie ag",
+      "tariffs": {
+        "standard": {
+          "name": "energie small + tba private",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:8ce0745851819541b7546992e350056e8dd215534d62ee2e28ff4ea8e2cc2dc8",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "technische-betriebe-altstaetten": {
+      "name": "Technische Betriebe Altstätten",
+      "tariffs": {
+        "standard": {
+          "name": "Energie Basis + Einfachtarif 01 Netz",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:6a541b13a606f1105e22d0d0d933e902e62f7048dc2a47732fecabaebc4d4cd1",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "technische-betriebe-glarus": {
+      "name": "Technische Betriebe Glarus",
+      "tariffs": {
+        "standard": {
+          "name": "tb.grid mix",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:f7e6b02e367d9b03a5a05aa4a75f74c7e08f80dc993bf2558c7e3394a5c6d385",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "technische-betriebe-kemmental-stromverkauf": {
+      "name": "Technische Betriebe Kemmental, Stromverkauf",
+      "tariffs": {
+        "standard": {
+          "name": "Grundpreistarif",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:f1a0cdbdc63252528ae2cd00562f212c3098dd66ba9ab9e27cbcfe53b1039017",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "technische-gemeindebetriebe-hauptwil-gottshaus-elektrizitaetsversorgung": {
+      "name": "Technische Gemeindebetriebe Hauptwil-Gottshaus, Elektrizitätsversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "Grundpreistarif",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:b6cea7817e7ef62a49c3f33b09aa1535318f29ce72dfe93192d846df2ff40f12",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "thurplus": {
+      "name": "Thurplus",
+      "tariffs": {
+        "standard": {
+          "name": "Tarif 1 Basistarif + Tarif 1 Basis",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:d5eb080e525bb49d8eaf02554374dc847c9687708daa754fa527f71cfe41f9a2",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "werkbetrieb-der-dorfgemeinde-matzingen": {
+      "name": "Werkbetrieb der Dorfgemeinde Matzingen",
+      "tariffs": {
+        "standard": {
+          "name": "Haushalt (E) + Haushalt (N)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:e798cdf9c984fe34e04122a0d555e4518c86e79385490f52462f9dba43d26c02",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "werkbetriebe-wynau-wbw": {
+      "name": "Werkbetriebe Wynau (WBW)",
+      "tariffs": {
+        "standard": {
+          "name": "Standard",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:4cdf956ce5b77dc55a60701ceae9f7601d39d003d2370a63bd91ca57025fced8",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "werke-rheineck-elektrizitaetsversorgung": {
+      "name": "Werke Rheineck, Elektrizitätsversorgung",
+      "tariffs": {
+        "standard": {
+          "name": "Haushalt und Kleingewerbe",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:766a8d0c8475a6843a83af8af53f8ae6b00a94365a9d396eb8746be955e0f425",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "wwz-energie-ag": {
+      "name": "WWZ Energie AG",
+      "tariffs": {
+        "standard": {
+          "name": "GV-Basis NaturStrom (Standard) + Basis NE 7",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:39dd875b8f2ffce6447a5380d313ec81cb8c10df7761644267fc73f79648a37c",
               "effective_from": "2026-01-01",
               "effective_to": null
             }

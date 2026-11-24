@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "Studie fast",
+  "provider": "Ungstrom",
+  "effective_from": "2025-02-01",
+  "effective_to": "2027-11-19",
+  "source": {
+    "id": "dk-elpris",
+    "url": "https://elpris.dk/"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "All day": "1.12"
+      },
+      "standing": "0.263014"
+    }
+  }
+}

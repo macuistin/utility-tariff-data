@@ -1,0 +1,54 @@
+{
+  "schema": 1,
+  "country": "DK",
+  "currency": "DKK",
+  "timezone": "Europe/Copenhagen",
+  "vat_percent": "25",
+  "availability": "partial",
+  "reason": "Household and small business gas products of every supplier, from the regulator's gas price portal, for a yearly use up to 6,000 m3. Each plan is a whole bill including VAT: the unit rate holds the gas price, the distribution tariff, the emergency supply tariff and the gas taxes, and the standing charge holds the distributor's system tariff, the meter charge and the supplier's fees. Most products have a price that changes each month, and a plan holds the price listed on the day it was read. Introductory offers and spot products are not held.",
+  "reason_local": {
+    "language": "da",
+    "text": "Gasprodukter til husholdninger og mindre virksomheder fra alle gasleverandører, læst fra Forsyningstilsynets prisportal for gas, for et årligt forbrug op til 6.000 m3. Hver tarif er en hel regning inklusive moms: enhedsprisen rummer gasprisen, distributionstariffen, nødforsyningstariffen og gasafgifterne, og den faste betaling rummer distributionsselskabets systemtarif, målerbetalingen og leverandørens gebyrer. De fleste produkter har en pris, der skifter hver måned, og en tarif har den pris, der var oplyst den dag, den blev læst. Introtilbud og spotprodukter er ikke med."
+  },
+  "inputs": {
+    "bill_start_day": {
+      "default": 1,
+      "max": 28,
+      "min": 1,
+      "type": "integer"
+    }
+  },
+  "bill": {
+    "period": {
+      "rule": "monthly",
+      "start_day": "$input.bill_start_day"
+    },
+    "total": {
+      "kind": "tax",
+      "mode": "included",
+      "name": "VAT",
+      "of": {
+        "kind": "sum",
+        "of": {
+          "energy": {
+            "kind": "energy_by_band",
+            "round_bands": true
+          },
+          "standing": {
+            "kind": "per_day"
+          }
+        }
+      },
+      "percent": "$country.vat_percent"
+    }
+  },
+  "units": {
+    "gas": {
+      "as_of": "2022-05-02",
+      "display": "m3",
+      "kwh_per_m3": "12.157",
+      "source": "https://evida.dk/media/wsfhudjq/regler-for-gasdistribution-version-5-0.pdf"
+    }
+  },
+  "providers": {}
+}

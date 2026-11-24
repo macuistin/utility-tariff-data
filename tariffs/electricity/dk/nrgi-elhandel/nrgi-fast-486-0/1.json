@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "NRGi Fast",
+  "provider": "NRGi Elhandel",
+  "effective_from": "2025-02-01",
+  "effective_to": "2027-07-31",
+  "source": {
+    "id": "dk-elpris",
+    "url": "https://elpris.dk/"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "All day": "2.46"
+      },
+      "standing": "0.76274"
+    }
+  }
+}

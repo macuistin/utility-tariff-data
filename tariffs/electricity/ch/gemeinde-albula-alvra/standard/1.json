@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "Tarif A NS, Einheitstarif",
+  "provider": "Gemeinde Albula/Alvra",
+  "effective_from": "2026-01-01",
+  "source": {
+    "id": "ch-elcom",
+    "url": "https://www.strompreis.elcom.admin.ch/operator/295"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "label": "Albula/Alvra",
+      "rates": {
+        "All day": "0.2575"
+      },
+      "standing": "0.394521"
+    }
+  }
+}

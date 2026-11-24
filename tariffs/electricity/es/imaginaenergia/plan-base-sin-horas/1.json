@@ -1,0 +1,63 @@
+{
+  "schema": 1,
+  "name": "PLAN BASE SIN HORAS",
+  "provider": "imaginaenergia.com",
+  "effective_from": "2026-11-20",
+  "source": {
+    "id": "es-cnmc",
+    "url": "https://comparador.cnmc.gob.es/api/APIPublica/ofertas?fecha=24/11/2026"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "Valle"
+    },
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "holidays": "weekend",
+      "hours": "08:00-00:00",
+      "name": "Llano"
+    },
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "holidays": "weekend",
+      "hours": "10:00-14:00",
+      "name": "Punta"
+    },
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "holidays": "weekend",
+      "hours": "18:00-22:00",
+      "name": "Punta 2"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "Llano": "0.139078",
+        "Punta": "0.139078",
+        "Punta 2": "0.139078",
+        "Valle": "0.139078"
+      },
+      "standing": "0"
+    }
+  }
+}

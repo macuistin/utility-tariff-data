@@ -1,0 +1,63 @@
+{
+  "schema": 1,
+  "name": "2.0TDL",
+  "provider": "catgas.cat",
+  "effective_from": "2026-10-30",
+  "source": {
+    "id": "es-cnmc",
+    "url": "https://comparador.cnmc.gob.es/api/APIPublica/ofertas?fecha=24/11/2026"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "Valle"
+    },
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "holidays": "weekend",
+      "hours": "08:00-00:00",
+      "name": "Llano"
+    },
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "holidays": "weekend",
+      "hours": "10:00-14:00",
+      "name": "Punta"
+    },
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "holidays": "weekend",
+      "hours": "18:00-22:00",
+      "name": "Punta 2"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "Llano": "0.2099",
+        "Punta": "0.2099",
+        "Punta 2": "0.2099",
+        "Valle": "0.2099"
+      },
+      "standing": "0"
+    }
+  }
+}

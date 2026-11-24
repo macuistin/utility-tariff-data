@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "GWR Wasserenergie HGL",
+  "provider": "Gemeindewerke Rüti (ZH)",
+  "effective_from": "2026-01-01",
+  "source": {
+    "id": "ch-elcom",
+    "url": "https://www.strompreis.elcom.admin.ch/operator/592"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "bfs-113": {
+      "label": "Dürnten",
+      "rates": {
+        "All day": "0.2703"
+      },
+      "standing": "0.328767"
+    }
+  }
+}

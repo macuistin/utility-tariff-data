@@ -1,0 +1,102 @@
+{
+  "schema": 1,
+  "name": "Tarifa Stores luz + Plano Amigo, two-rate, daily cycle",
+  "provider": "Endesa",
+  "effective_from": "2026-10-15",
+  "source": {
+    "id": "pt-erse-offers",
+    "url": "https://simuladorprecos.erse.pt/"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "Day"
+    },
+    {
+      "hours": "22:00-08:00",
+      "name": "Off-peak"
+    }
+  ],
+  "areas": {
+    "1-15-kva": {
+      "label": "1.15 kVA",
+      "rates": {
+        "Day": "0.17696",
+        "Off-peak": "0.12184"
+      },
+      "standing": "0.18952"
+    },
+    "10-35-kva": {
+      "label": "10.35 kVA",
+      "rates": {
+        "Day": "0.17696",
+        "Off-peak": "0.12184"
+      },
+      "standing": "0.81064"
+    },
+    "13-8-kva": {
+      "label": "13.8 kVA",
+      "rates": {
+        "Day": "0.17696",
+        "Off-peak": "0.12184"
+      },
+      "standing": "1.11304"
+    },
+    "17-25-kva": {
+      "label": "17.25 kVA",
+      "rates": {
+        "Day": "0.17696",
+        "Off-peak": "0.12184"
+      },
+      "standing": "1.3884"
+    },
+    "2-3-kva": {
+      "label": "2.3 kVA",
+      "rates": {
+        "Day": "0.17696",
+        "Off-peak": "0.12184"
+      },
+      "standing": "0.2552"
+    },
+    "20-7-kva": {
+      "label": "20.7 kVA",
+      "rates": {
+        "Day": "0.17696",
+        "Off-peak": "0.12184"
+      },
+      "standing": "1.73456"
+    },
+    "3-45-kva": {
+      "label": "3.45 kVA",
+      "rates": {
+        "Day": "0.17696",
+        "Off-peak": "0.12184"
+      },
+      "standing": "0.32688"
+    },
+    "4-6-kva": {
+      "label": "4.6 kVA",
+      "rates": {
+        "Day": "0.17696",
+        "Off-peak": "0.12184"
+      },
+      "standing": "0.4076"
+    },
+    "5-75-kva": {
+      "label": "5.75 kVA",
+      "rates": {
+        "Day": "0.17696",
+        "Off-peak": "0.12184"
+      },
+      "standing": "0.47888"
+    },
+    "6-9-kva": {
+      "label": "6.9 kVA",
+      "rates": {
+        "Day": "0.17696",
+        "Off-peak": "0.12184"
+      },
+      "standing": "0.5508"
+    }
+  }
+}

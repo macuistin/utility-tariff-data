@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "ELS 01 Haushalt(Basistarif) E + ELS 01 Haushalt(Basistarif)",
+  "provider": "Elektra Steinebrunn",
+  "effective_from": "2026-01-01",
+  "source": {
+    "id": "ch-elcom",
+    "url": "https://www.strompreis.elcom.admin.ch/operator/189"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "label": "Egnach",
+      "rates": {
+        "All day": "0.2543"
+      },
+      "standing": "0.673973"
+    }
+  }
+}

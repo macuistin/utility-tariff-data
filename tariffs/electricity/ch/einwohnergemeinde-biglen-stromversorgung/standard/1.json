@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "Standard Energie (GV) + Standard (Haushalt)",
+  "provider": "Einwohnergemeinde Biglen, Stromversorgung",
+  "effective_from": "2026-01-01",
+  "source": {
+    "id": "ch-elcom",
+    "url": "https://www.strompreis.elcom.admin.ch/operator/75"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "label": "Biglen",
+      "rates": {
+        "All day": "0.2718"
+      },
+      "standing": "0.405479"
+    }
+  }
+}

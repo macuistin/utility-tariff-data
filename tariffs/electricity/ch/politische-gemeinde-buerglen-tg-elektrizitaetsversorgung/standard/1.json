@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "Tarif Allgemein (E) + Tarif Allgemein (N)",
+  "provider": "Politische Gemeinde Bürglen TG, Elektrizitätsversorgung",
+  "effective_from": "2026-01-01",
+  "source": {
+    "id": "ch-elcom",
+    "url": "https://www.strompreis.elcom.admin.ch/operator/529"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "label": "Bürglen (TG)",
+      "rates": {
+        "All day": "0.2828"
+      },
+      "standing": "0.493151"
+    }
+  }
+}

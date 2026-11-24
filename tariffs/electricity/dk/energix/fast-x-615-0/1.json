@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "Fast X+",
+  "provider": "EnergiX",
+  "effective_from": "2025-09-29",
+  "effective_to": "2027-09-30",
+  "source": {
+    "id": "dk-elpris",
+    "url": "https://elpris.dk/"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "All day": "1.832"
+      },
+      "standing": "0"
+    }
+  }
+}

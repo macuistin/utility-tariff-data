@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "Kleinbezüger",
+  "provider": "Einwohner- & Ortsbürgergemeinde Niederwil AG, Elektrizitätsversorgung",
+  "effective_from": "2026-01-01",
+  "source": {
+    "id": "ch-elcom",
+    "url": "https://www.strompreis.elcom.admin.ch/operator/450"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "label": "Niederwil (AG)",
+      "rates": {
+        "All day": "0.2153"
+      },
+      "standing": "0.263014"
+    }
+  }
+}

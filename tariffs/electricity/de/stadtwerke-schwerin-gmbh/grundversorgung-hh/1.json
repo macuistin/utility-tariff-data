@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "name": "Grundversorgung HH",
+  "provider": "Stadtwerke Schwerin GmbH",
+  "effective_from": "2026-02-01",
+  "effective_to": "2026-12-31",
+  "source": {
+    "id": "de-grundversorgung",
+    "url": "https://api.oeg-kraken.energy/v1/graphql/"
+  },
+  "bands": [
+    {
+      "name": "Single rate"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "Single rate": "0.331832"
+      },
+      "standing": "0.463781"
+    }
+  }
+}

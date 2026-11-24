@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "(Basistarif) ELH02 Haushalt E + (Basistarif) ELH02 Haushalt",
+  "provider": "Politische Gemeinde, Häggenschwil, Elektrizitätsversorgung",
+  "effective_from": "2026-01-01",
+  "source": {
+    "id": "ch-elcom",
+    "url": "https://www.strompreis.elcom.admin.ch/operator/314"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "label": "Häggenschwil",
+      "rates": {
+        "All day": "0.2723"
+      },
+      "standing": "0.772603"
+    }
+  }
+}

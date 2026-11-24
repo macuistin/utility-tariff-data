@@ -1,0 +1,63 @@
+{
+  "schema": 1,
+  "name": "Carolina",
+  "provider": "wekiwi.es",
+  "effective_from": "2024-03-01",
+  "source": {
+    "id": "es-cnmc",
+    "url": "https://comparador.cnmc.gob.es/api/APIPublica/ofertas?fecha=24/11/2026"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "Valle"
+    },
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "holidays": "weekend",
+      "hours": "08:00-00:00",
+      "name": "Llano"
+    },
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "holidays": "weekend",
+      "hours": "10:00-14:00",
+      "name": "Punta"
+    },
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "holidays": "weekend",
+      "hours": "18:00-22:00",
+      "name": "Punta 2"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "Llano": "0.13816",
+        "Punta": "0.20008",
+        "Punta 2": "0.20008",
+        "Valle": "0.1064"
+      },
+      "standing": "0"
+    }
+  }
+}

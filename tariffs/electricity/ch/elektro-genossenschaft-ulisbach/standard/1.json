@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "Haushalt Basis",
+  "provider": "Elektro-Genossenschaft Ulisbach",
+  "effective_from": "2026-01-01",
+  "source": {
+    "id": "ch-elcom",
+    "url": "https://www.strompreis.elcom.admin.ch/operator/492"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "label": "Wattwil",
+      "rates": {
+        "All day": "0.2643"
+      },
+      "standing": "0.312329"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "name": "enercity Strom natürlich versorgt",
+  "provider": "enercity AG",
+  "effective_from": "2026-04-01",
+  "source": {
+    "id": "de-grundversorgung",
+    "url": "https://api.oeg-kraken.energy/v1/graphql/"
+  },
+  "bands": [
+    {
+      "name": "Single rate"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "Single rate": "0.3854"
+      },
+      "standing": "0.424"
+    }
+  }
+}

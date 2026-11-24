@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "name": "Export Only",
+  "provider": "Good Energy",
+  "direction": "export",
+  "effective_from": "2026-11-24",
+  "source": {
+    "id": "good-energy-gb",
+    "url": "https://www.goodenergy.co.uk/wp-content/uploads/2024/04/Export-Only-April-2024.pdf"
+  },
+  "bands": [
+    {
+      "name": "Flat"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "Flat": "0.04"
+      }
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "Mais Casa (Oferta 40€) - FE ou DDC (Com adesão a fatura eletrónica ou domiciliação bancária), two-rate, daily cycle",
+  "provider": "Iberdrola",
+  "effective_from": "2026-10-01",
+  "source": {
+    "id": "pt-erse-offers",
+    "url": "https://simuladorprecos.erse.pt/"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "Day"
+    },
+    {
+      "hours": "22:00-08:00",
+      "name": "Off-peak"
+    }
+  ],
+  "areas": {
+    "10-35-kva": {
+      "label": "10.35 kVA",
+      "rates": {
+        "Day": "0.199117",
+        "Off-peak": "0.107817"
+      },
+      "standing": "0.821451"
+    },
+    "13-8-kva": {
+      "label": "13.8 kVA",
+      "rates": {
+        "Day": "0.199117",
+        "Off-peak": "0.107817"
+      },
+      "standing": "1.065554"
+    },
+    "17-25-kva": {
+      "label": "17.25 kVA",
+      "rates": {
+        "Day": "0.199117",
+        "Off-peak": "0.107817"
+      },
+      "standing": "1.321858"
+    },
+    "20-7-kva": {
+      "label": "20.7 kVA",
+      "rates": {
+        "Day": "0.199117",
+        "Off-peak": "0.107817"
+      },
+      "standing": "1.574925"
+    },
+    "3-45-kva": {
+      "label": "3.45 kVA",
+      "rates": {
+        "Day": "0.199117",
+        "Off-peak": "0.107817"
+      },
+      "standing": "0.375077"
+    },
+    "4-6-kva": {
+      "label": "4.6 kVA",
+      "rates": {
+        "Day": "0.199117",
+        "Off-peak": "0.107817"
+      },
+      "standing": "0.497419"
+    },
+    "5-75-kva": {
+      "label": "5.75 kVA",
+      "rates": {
+        "Day": "0.199117",
+        "Off-peak": "0.107817"
+      },
+      "standing": "0.568384"
+    },
+    "6-9-kva": {
+      "label": "6.9 kVA",
+      "rates": {
+        "Day": "0.199117",
+        "Off-peak": "0.107817"
+      },
+      "standing": "0.628808"
+    }
+  }
+}

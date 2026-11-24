@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "Haushalt & Gewerbe (HGT / GWT)",
+  "provider": "Genossenschaft Elektrizitätswerk Räterschen EWR",
+  "effective_from": "2026-01-01",
+  "source": {
+    "id": "ch-elcom",
+    "url": "https://www.strompreis.elcom.admin.ch/operator/457"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "label": "Elsau",
+      "rates": {
+        "All day": "0.2803"
+      },
+      "standing": "0.279452"
+    }
+  }
+}

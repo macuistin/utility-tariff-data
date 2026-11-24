@@ -1,0 +1,102 @@
+{
+  "schema": 1,
+  "name": "TOP T1 - Fixo de 12 meses, two-rate, daily cycle",
+  "provider": "Audax Renovables",
+  "effective_from": "2026-11-16",
+  "source": {
+    "id": "pt-erse-offers",
+    "url": "https://simuladorprecos.erse.pt/"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "Day"
+    },
+    {
+      "hours": "22:00-08:00",
+      "name": "Off-peak"
+    }
+  ],
+  "areas": {
+    "1-15-kva": {
+      "label": "1.15 kVA",
+      "rates": {
+        "Day": "0.2831",
+        "Off-peak": "0.2417"
+      },
+      "standing": "0.5505"
+    },
+    "10-35-kva": {
+      "label": "10.35 kVA",
+      "rates": {
+        "Day": "0.2831",
+        "Off-peak": "0.2417"
+      },
+      "standing": "1.0086"
+    },
+    "13-8-kva": {
+      "label": "13.8 kVA",
+      "rates": {
+        "Day": "0.2831",
+        "Off-peak": "0.2417"
+      },
+      "standing": "1.1803"
+    },
+    "17-25-kva": {
+      "label": "17.25 kVA",
+      "rates": {
+        "Day": "0.2831",
+        "Off-peak": "0.2417"
+      },
+      "standing": "1.3523"
+    },
+    "2-3-kva": {
+      "label": "2.3 kVA",
+      "rates": {
+        "Day": "0.2831",
+        "Off-peak": "0.2417"
+      },
+      "standing": "0.6077"
+    },
+    "20-7-kva": {
+      "label": "20.7 kVA",
+      "rates": {
+        "Day": "0.2831",
+        "Off-peak": "0.2417"
+      },
+      "standing": "1.524"
+    },
+    "3-45-kva": {
+      "label": "3.45 kVA",
+      "rates": {
+        "Day": "0.2831",
+        "Off-peak": "0.2417"
+      },
+      "standing": "0.665"
+    },
+    "4-6-kva": {
+      "label": "4.6 kVA",
+      "rates": {
+        "Day": "0.2831",
+        "Off-peak": "0.2417"
+      },
+      "standing": "0.7223"
+    },
+    "5-75-kva": {
+      "label": "5.75 kVA",
+      "rates": {
+        "Day": "0.2831",
+        "Off-peak": "0.2417"
+      },
+      "standing": "0.7795"
+    },
+    "6-9-kva": {
+      "label": "6.9 kVA",
+      "rates": {
+        "Day": "0.2831",
+        "Off-peak": "0.2417"
+      },
+      "standing": "0.8368"
+    }
+  }
+}

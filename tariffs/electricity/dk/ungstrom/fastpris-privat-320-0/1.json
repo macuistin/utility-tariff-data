@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "Fastpris Privat",
+  "provider": "Ungstrom",
+  "effective_from": "2023-08-02",
+  "effective_to": "2028-02-11",
+  "source": {
+    "id": "dk-elpris",
+    "url": "https://elpris.dk/"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "All day": "1.184"
+      },
+      "standing": "0.76274"
+    }
+  }
+}

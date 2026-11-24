@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "ewb.Natur.STROM Einfachtarif + Home",
+  "provider": "Energie Wasser Bern",
+  "effective_from": "2026-01-01",
+  "source": {
+    "id": "ch-elcom",
+    "url": "https://www.strompreis.elcom.admin.ch/operator/519"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "label": "Bern",
+      "rates": {
+        "All day": "0.3118"
+      },
+      "standing": "0.256438"
+    }
+  }
+}

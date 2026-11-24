@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "EHS pow (E) + EHS pow (N)",
+  "provider": "Elektrizitätsgenossenschaft Hermetschwil-Staffeln",
+  "effective_from": "2026-01-01",
+  "source": {
+    "id": "ch-elcom",
+    "url": "https://www.strompreis.elcom.admin.ch/operator/145"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "label": "Bremgarten (AG)",
+      "rates": {
+        "All day": "0.2168"
+      },
+      "standing": "0.394521"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "Privat und Gewerbekunden bis 50'000 kWh Jahresverbrauch",
+  "provider": "Elektrizitäts-Genossenschaft Benzenschwil",
+  "effective_from": "2026-01-01",
+  "source": {
+    "id": "ch-elcom",
+    "url": "https://www.strompreis.elcom.admin.ch/operator/254"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "label": "Merenschwand",
+      "rates": {
+        "All day": "0.2398"
+      },
+      "standing": "0.328767"
+    }
+  }
+}

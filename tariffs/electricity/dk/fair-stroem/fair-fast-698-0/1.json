@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "Fair fast",
+  "provider": "Fair Strøm",
+  "effective_from": "2026-02-10",
+  "effective_to": "2030-02-01",
+  "source": {
+    "id": "dk-elpris",
+    "url": "https://elpris.dk/"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "All day": "1.96"
+      },
+      "standing": "0"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "Grundpreis",
+  "provider": "Einheitsgemeinde Müllheim, Elektrizitätsversorgung",
+  "effective_from": "2026-01-01",
+  "source": {
+    "id": "ch-elcom",
+    "url": "https://www.strompreis.elcom.admin.ch/operator/653"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "label": "Müllheim",
+      "rates": {
+        "All day": "0.3203"
+      },
+      "standing": "0.443836"
+    }
+  }
+}

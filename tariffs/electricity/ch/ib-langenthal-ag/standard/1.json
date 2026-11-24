@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "BasisStrom + NS T1",
+  "provider": "IB Langenthal AG",
+  "effective_from": "2026-01-01",
+  "source": {
+    "id": "ch-elcom",
+    "url": "https://www.strompreis.elcom.admin.ch/operator/622"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "label": "Langenthal",
+      "rates": {
+        "All day": "0.2676"
+      },
+      "standing": "0.443836"
+    }
+  }
+}

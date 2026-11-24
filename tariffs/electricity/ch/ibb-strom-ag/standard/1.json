@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "Basis",
+  "provider": "IBB Strom AG",
+  "effective_from": "2026-01-01",
+  "source": {
+    "id": "ch-elcom",
+    "url": "https://www.strompreis.elcom.admin.ch/operator/616"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "label": "Birr, Brugg, Böztal, Habsburg, Hausen (AG), Lupfig, Rüfenach, Villnachern",
+      "rates": {
+        "All day": "0.2362"
+      },
+      "standing": "0.394521"
+    }
+  }
+}

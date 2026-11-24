@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "Basis-Einfachtarif <50'000 kWh",
+  "provider": "Elektra Andwil Stromversorgung",
+  "effective_from": "2026-01-01",
+  "source": {
+    "id": "ch-elcom",
+    "url": "https://www.strompreis.elcom.admin.ch/operator/107"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "label": "Andwil (SG)",
+      "rates": {
+        "All day": "0.2898"
+      },
+      "standing": "0.443836"
+    }
+  }
+}

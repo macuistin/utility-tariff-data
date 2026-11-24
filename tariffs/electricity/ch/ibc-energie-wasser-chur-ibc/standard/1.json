@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "VivaPower Grischa + Strom Netz H",
+  "provider": "IBC Energie Wasser Chur (IBC)",
+  "effective_from": "2026-01-01",
+  "source": {
+    "id": "ch-elcom",
+    "url": "https://www.strompreis.elcom.admin.ch/operator/617"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "label": "Chur, Tschiertschen-Praden",
+      "rates": {
+        "All day": "0.2693"
+      },
+      "standing": "0.368219"
+    }
+  }
+}

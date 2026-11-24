@@ -1,0 +1,102 @@
+{
+  "schema": 1,
+  "name": "Mais Energia, two-rate, daily cycle",
+  "provider": "JAF Plus",
+  "effective_from": "2026-09-25",
+  "source": {
+    "id": "pt-erse-offers",
+    "url": "https://simuladorprecos.erse.pt/"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "Day"
+    },
+    {
+      "hours": "22:00-08:00",
+      "name": "Off-peak"
+    }
+  ],
+  "areas": {
+    "1-15-kva": {
+      "label": "1.15 kVA",
+      "rates": {
+        "Day": "0.2335",
+        "Off-peak": "0.1608"
+      },
+      "standing": "0.1073"
+    },
+    "10-35-kva": {
+      "label": "10.35 kVA",
+      "rates": {
+        "Day": "0.2335",
+        "Off-peak": "0.1608"
+      },
+      "standing": "0.7154"
+    },
+    "13-8-kva": {
+      "label": "13.8 kVA",
+      "rates": {
+        "Day": "0.2335",
+        "Off-peak": "0.1608"
+      },
+      "standing": "0.8872"
+    },
+    "17-25-kva": {
+      "label": "17.25 kVA",
+      "rates": {
+        "Day": "0.2335",
+        "Off-peak": "0.1608"
+      },
+      "standing": "1.1091"
+    },
+    "2-3-kva": {
+      "label": "2.3 kVA",
+      "rates": {
+        "Day": "0.2335",
+        "Off-peak": "0.1608"
+      },
+      "standing": "0.1645"
+    },
+    "20-7-kva": {
+      "label": "20.7 kVA",
+      "rates": {
+        "Day": "0.2335",
+        "Off-peak": "0.1608"
+      },
+      "standing": "1.2809"
+    },
+    "3-45-kva": {
+      "label": "3.45 kVA",
+      "rates": {
+        "Day": "0.2335",
+        "Off-peak": "0.1608"
+      },
+      "standing": "0.2718"
+    },
+    "4-6-kva": {
+      "label": "4.6 kVA",
+      "rates": {
+        "Day": "0.2335",
+        "Off-peak": "0.1608"
+      },
+      "standing": "0.3291"
+    },
+    "5-75-kva": {
+      "label": "5.75 kVA",
+      "rates": {
+        "Day": "0.2335",
+        "Off-peak": "0.1608"
+      },
+      "standing": "0.4364"
+    },
+    "6-9-kva": {
+      "label": "6.9 kVA",
+      "rates": {
+        "Day": "0.2335",
+        "Off-peak": "0.1608"
+      },
+      "standing": "0.4936"
+    }
+  }
+}

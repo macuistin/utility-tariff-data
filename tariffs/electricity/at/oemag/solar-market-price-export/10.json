@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "name": "OeMAG market price, solar and other sources except wind",
+  "provider": "OeMAG",
+  "direction": "export",
+  "effective_from": "2026-10-01",
+  "source": {
+    "id": "at-oemag",
+    "url": "https://www.oem-ag.at/marktpreis"
+  },
+  "bands": [
+    {
+      "name": "Export"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "Export": "0.14874"
+      }
+    }
+  }
+}

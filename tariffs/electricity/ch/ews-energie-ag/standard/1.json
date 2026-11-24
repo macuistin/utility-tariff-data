@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "name": "EWS Basic Energie + EWS Basic Netz",
+  "provider": "EWS Energie AG",
+  "effective_from": "2026-01-01",
+  "source": {
+    "id": "ch-elcom",
+    "url": "https://www.strompreis.elcom.admin.ch/operator/564"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "bfs-4131": {
+      "label": "Beinwil am See",
+      "rates": {
+        "All day": "0.2663"
+      },
+      "standing": "0.19726"
+    },
+    "bfs-4132": {
+      "label": "Birrwil",
+      "rates": {
+        "All day": "0.2563"
+      },
+      "standing": "0.19726"
+    },
+    "bfs-4135": {
+      "label": "Gontenschwil, Menziken, Reinach (AG), Zetzwil",
+      "rates": {
+        "All day": "0.2613"
+      },
+      "standing": "0.19726"
+    }
+  }
+}

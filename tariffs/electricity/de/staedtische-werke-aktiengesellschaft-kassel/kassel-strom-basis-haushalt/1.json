@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "name": "Kassel Strom basis Haushalt",
+  "provider": "Städtische Werke Aktiengesellschaft, Kassel",
+  "effective_from": "2026-01-01",
+  "source": {
+    "id": "de-grundversorgung",
+    "url": "https://api.oeg-kraken.energy/v1/graphql/"
+  },
+  "bands": [
+    {
+      "name": "Single rate"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "Single rate": "0.34616"
+      },
+      "standing": "0.412795"
+    }
+  }
+}

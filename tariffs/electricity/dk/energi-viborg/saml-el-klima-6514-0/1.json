@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "Saml El Klima",
+  "provider": "Energi Viborg",
+  "effective_from": "2026-10-01",
+  "effective_to": "2026-12-31",
+  "source": {
+    "id": "dk-elpris",
+    "url": "https://elpris.dk/"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "All day": "1.35"
+      },
+      "standing": "0"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "GV-Basis NaturStrom (Standard) + Basis NE 7",
+  "provider": "WWZ Energie AG",
+  "effective_from": "2026-01-01",
+  "source": {
+    "id": "ch-elcom",
+    "url": "https://www.strompreis.elcom.admin.ch/operator/788"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "bfs-1701": {
+      "label": "Baar, Cham, Oberägeri, Risch, Unterägeri, Walchwil, Zug",
+      "rates": {
+        "All day": "0.1927"
+      },
+      "standing": "0.322192"
+    },
+    "bfs-1703": {
+      "label": "Hünenberg",
+      "rates": {
+        "All day": "0.1974"
+      },
+      "standing": "0.322192"
+    }
+  }
+}

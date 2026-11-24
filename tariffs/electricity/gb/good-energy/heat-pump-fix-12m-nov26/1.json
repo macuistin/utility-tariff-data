@@ -1,0 +1,165 @@
+{
+  "schema": 1,
+  "name": "Good Energy Heat Pump Fix 12m Nov26",
+  "provider": "Good Energy",
+  "effective_from": "2026-10-23",
+  "source": {
+    "id": "good-energy-gb",
+    "url": "https://www.goodenergy.co.uk/wp-content/uploads/2026/10/Good-Energy-Heat-Pump-Fixed-12m-Nov26-1.pdf"
+  },
+  "bands": [
+    {
+      "name": "Peak"
+    },
+    {
+      "hours": "05:00-09:00",
+      "name": "Off-peak"
+    },
+    {
+      "hours": "13:00-16:00",
+      "name": "Off-peak 2"
+    }
+  ],
+  "areas": {
+    "a": {
+      "label": "Eastern England (A)",
+      "rates": {
+        "Off-peak": "0.16",
+        "Off-peak 2": "0.16",
+        "Peak": "0.3447"
+      },
+      "region": "GSP-A",
+      "standing": "0.5662"
+    },
+    "b": {
+      "label": "East Midlands (B)",
+      "rates": {
+        "Off-peak": "0.16",
+        "Off-peak 2": "0.16",
+        "Peak": "0.3375"
+      },
+      "region": "GSP-B",
+      "standing": "0.566"
+    },
+    "c": {
+      "label": "London (C)",
+      "rates": {
+        "Off-peak": "0.16",
+        "Off-peak 2": "0.16",
+        "Peak": "0.3448"
+      },
+      "region": "GSP-C",
+      "standing": "0.4583"
+    },
+    "d": {
+      "label": "Merseyside and North Wales (D)",
+      "rates": {
+        "Off-peak": "0.16",
+        "Off-peak 2": "0.16",
+        "Peak": "0.3527"
+      },
+      "region": "GSP-D",
+      "standing": "0.7096"
+    },
+    "e": {
+      "label": "West Midlands (E)",
+      "rates": {
+        "Off-peak": "0.16",
+        "Off-peak 2": "0.16",
+        "Peak": "0.3375"
+      },
+      "region": "GSP-E",
+      "standing": "0.6169"
+    },
+    "f": {
+      "label": "North East England (F)",
+      "rates": {
+        "Off-peak": "0.16",
+        "Off-peak 2": "0.16",
+        "Peak": "0.3435"
+      },
+      "region": "GSP-F",
+      "standing": "0.6656"
+    },
+    "g": {
+      "label": "North West England (G)",
+      "rates": {
+        "Off-peak": "0.16",
+        "Off-peak 2": "0.16",
+        "Peak": "0.3472"
+      },
+      "region": "GSP-G",
+      "standing": "0.5248"
+    },
+    "h": {
+      "label": "Southern England (H)",
+      "rates": {
+        "Off-peak": "0.16",
+        "Off-peak 2": "0.16",
+        "Peak": "0.3446"
+      },
+      "region": "GSP-H",
+      "standing": "0.5429"
+    },
+    "j": {
+      "label": "South East England (J)",
+      "rates": {
+        "Off-peak": "0.16",
+        "Off-peak 2": "0.16",
+        "Peak": "0.3463"
+      },
+      "region": "GSP-J",
+      "standing": "0.5801"
+    },
+    "k": {
+      "label": "South Wales (K)",
+      "rates": {
+        "Off-peak": "0.16",
+        "Off-peak 2": "0.16",
+        "Peak": "0.3424"
+      },
+      "region": "GSP-K",
+      "standing": "0.6046"
+    },
+    "l": {
+      "label": "South Western England (L)",
+      "rates": {
+        "Off-peak": "0.16",
+        "Off-peak 2": "0.16",
+        "Peak": "0.3468"
+      },
+      "region": "GSP-L",
+      "standing": "0.6158"
+    },
+    "m": {
+      "label": "Yorkshire (M)",
+      "rates": {
+        "Off-peak": "0.16",
+        "Off-peak 2": "0.16",
+        "Peak": "0.3372"
+      },
+      "region": "GSP-M",
+      "standing": "0.6529"
+    },
+    "n": {
+      "label": "Southern Scotland (N)",
+      "rates": {
+        "Off-peak": "0.16",
+        "Off-peak 2": "0.16",
+        "Peak": "0.3404"
+      },
+      "region": "GSP-N",
+      "standing": "0.6597"
+    },
+    "p": {
+      "label": "Northern Scotland (P)",
+      "rates": {
+        "Off-peak": "0.16",
+        "Off-peak 2": "0.16",
+        "Peak": "0.3541"
+      },
+      "region": "GSP-P",
+      "standing": "0.6031"
+    }
+  }
+}

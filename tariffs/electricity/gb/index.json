@@ -255,6 +255,22 @@
         }
       }
     },
+    "ecotricity": {
+      "name": "Ecotricity",
+      "tariffs": {
+        "smart-export": {
+          "direction": "export",
+          "name": "Smart Export Tariff",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:01d84630c4140ea686c78661db27aec886cd2d309fd0a2d096f53334ea67f8f0",
+              "effective_from": "2026-11-24",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
     "edf": {
       "name": "EDF",
       "tariffs": {
@@ -402,6 +418,104 @@
             "1": {
               "checksum": "sha256:cb677984ab8a691e485ab108cc162c3d2de8cde04d36f5524ae45ee3f9c071de",
               "effective_from": "2026-11-23",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "good-energy": {
+      "name": "Good Energy",
+      "tariffs": {
+        "18m-exclusive-renewal-fix-nov26": {
+          "name": "Good Energy 18m Exclusive Renewal Fix Nov26",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:b1b72a5ea4aea43f08f108e5b7464bc7f1d01a54d1b4f2c4c9b631c3d93bec4f",
+              "effective_from": "2026-11-05",
+              "effective_to": null
+            }
+          }
+        },
+        "18m-fix-nov26": {
+          "name": "Good Energy 18m Fix Nov26",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:ef7b4fc2abccd08322d7008740c5c4cd9e01809d1c51ebdfbd866d9631bbb3f4",
+              "effective_from": "2026-10-29",
+              "effective_to": null
+            }
+          }
+        },
+        "ev-charge-fix-12m-nov26": {
+          "name": "Good Energy EV Charge Fix 12m Nov26",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:319786a24b8c050bd5dfca2db682e9186bff4f1596c18b2043c9aec60bf4b6a7",
+              "effective_from": "2026-10-30",
+              "effective_to": null
+            }
+          }
+        },
+        "export-only-export": {
+          "direction": "export",
+          "name": "Export Only",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:437fd22730d182e4c9457a11001507e09ecdb68bbad28d0fd2a6cf7f9c73605d",
+              "effective_from": "2026-11-24",
+              "effective_to": null
+            }
+          }
+        },
+        "heat-pump-fix-12m-nov26": {
+          "name": "Good Energy Heat Pump Fix 12m Nov26",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:8369737a404eeaf3b936a2b7d68be30a52fb6ebc8649903068e6fe7cce0939b1",
+              "effective_from": "2026-10-23",
+              "effective_to": null
+            }
+          }
+        },
+        "solar-savings-exclusive-export": {
+          "direction": "export",
+          "name": "Solar Savings Exclusive",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:2be45f2344691b04c468ecb7610e097cb049bd43e1283d2a465e902751b0b009",
+              "effective_from": "2025-05-06",
+              "effective_to": null
+            }
+          }
+        },
+        "solar-savings-export": {
+          "direction": "export",
+          "name": "Solar Savings",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:a51efa2228435ae3168866550b37619ea57ff605ee57c6cab69eddfa42d24252",
+              "effective_from": "2026-11-24",
+              "effective_to": null
+            }
+          }
+        },
+        "standard": {
+          "name": "Good Energy Standard",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:e7ee862361a666d394dc77cc829d4d469f0a3ce7a21498743d32d8a69d599ac9",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "zapmap-exclusive-ev-bundle-nov26": {
+          "name": "Zapmap Exclusive EV Bundle Nov26",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:62f6a5175f2a29489166f35ed39fb2c7e9f93a78c3840aa8ede6520ca99b9662",
+              "effective_from": "2026-10-30",
               "effective_to": null
             }
           }
@@ -557,6 +671,33 @@
         }
       }
     },
+    "ovo-energy": {
+      "name": "OVO",
+      "tariffs": {
+        "seg-beyond-exclusive-export": {
+          "direction": "export",
+          "name": "SEG Beyond Exclusive",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:f54775ee8dfdc58da73b8f547ecce8436ef0c099b9bc95706ac550e88a1811b7",
+              "effective_from": "2026-11-24",
+              "effective_to": null
+            }
+          }
+        },
+        "seg-export": {
+          "direction": "export",
+          "name": "SEG",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:a1a4d9cdde6015352ed24a71b960f86ad4448e417da2102572d1e86a9b212bab",
+              "effective_from": "2026-11-24",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
     "sainsburys-energy": {
       "name": "Sainsbury's Energy",
       "tariffs": {
@@ -586,6 +727,111 @@
             "1": {
               "checksum": "sha256:197a572504707c34a7489afaac78ec5a27dcb2664f97a6a5b060b4d6abe15ecd",
               "effective_from": "2026-11-23",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "utility-warehouse": {
+      "name": "Utility Warehouse",
+      "tariffs": {
+        "ev-double-gold": {
+          "name": "EV Double Gold",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:12ab9b39c0496010ff7c75d723914ab8f4db8728a0cc441f8b5d13e477aac804",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "ev-gold": {
+          "name": "EV Gold",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:eec18233318d94b17fea738e97f2290147a6531e3345ce138fbf8d3d85204367",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "ev-value": {
+          "name": "EV Value",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:8514458617b82ee9907a9fae8382a249f8373813a3a09ee441e314f7be2d08fa",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "fixed-104": {
+          "name": "Fixed 104",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:9162ec5ff8e1bc45fba1d5feb4b6f6cc624be1066d656e24785e00a283167c11",
+              "effective_from": "2026-11-18",
+              "effective_to": null
+            }
+          }
+        },
+        "fixed-essentials-104": {
+          "name": "Fixed Essentials 104",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:5523834fb3820b44975e231e80a080308844fa056948527a6b0e1196e599b111",
+              "effective_from": "2026-11-18",
+              "effective_to": null
+            }
+          }
+        },
+        "fixed-saver-104": {
+          "name": "Fixed Saver 104",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:28296eb2aa80f1a0b38872af2de99dbe5b14974e8b0b6640dc2cd210fc7e699e",
+              "effective_from": "2026-11-18",
+              "effective_to": null
+            }
+          }
+        },
+        "fixed-start-104": {
+          "name": "Fixed Start 104",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:da7c7ab7c0100c096d5f7eaa92112adcd6e263bc8140f2eaf950ea9aa940de4a",
+              "effective_from": "2026-11-18",
+              "effective_to": null
+            }
+          }
+        },
+        "variable-double-gold": {
+          "name": "Variable Double Gold",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:652c200da43e40183dabda8d65876f85072e0d036a06bf2df7f08fbbe874a25e",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "variable-gold": {
+          "name": "Variable Gold",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:99e448990e967920779d892841191e0ea3a668e2512e03b4c6ad3d82f4729235",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "variable-value": {
+          "name": "Variable Value",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:50dbc40db2c045ac37b085c66287eb7812ee05965c5e94c3dad88ad0ef47abd4",
+              "effective_from": "2026-10-01",
               "effective_to": null
             }
           }

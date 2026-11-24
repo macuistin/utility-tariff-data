@@ -1,13 +1,5 @@
 {
   "countries": {
-    "DE": {
-      "checked": "2026-11-10",
-      "reason": "No regulator tariff register exists. The comparison sites hold the plans and their terms have not been checked."
-    },
-    "ES": {
-      "checked": "2026-11-10",
-      "reason": "The regulated PVPC tariff is indexed to the hourly wholesale price and has weekday periods, which the format cannot express. The ESIOS API needs a personal token."
-    },
     "IT": {
       "checked": "2026-11-10",
       "reason": "The ARERA Portale Offerte site is reachable, but the open-data file was not found. Many offers are indexed to the wholesale price, and only fixed-price offers could be held."

@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "name": "Solar Savings Exclusive",
+  "provider": "Good Energy",
+  "direction": "export",
+  "effective_from": "2025-05-06",
+  "source": {
+    "id": "good-energy-gb",
+    "url": "https://www.goodenergy.co.uk/wp-content/uploads/2026/03/SSE-TIL-May-25.pdf"
+  },
+  "bands": [
+    {
+      "name": "Flat"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "Flat": "0.25"
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "Energie Basis + Einfachtarif 01 Netz",
+  "provider": "Technische Betriebe Altstätten",
+  "effective_from": "2026-01-01",
+  "source": {
+    "id": "ch-elcom",
+    "url": "https://www.strompreis.elcom.admin.ch/operator/728"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "label": "Altstätten",
+      "rates": {
+        "All day": "0.2678"
+      },
+      "standing": "0.542466"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "Haushalt",
+  "provider": "Elektra Untereggen",
+  "effective_from": "2026-01-01",
+  "source": {
+    "id": "ch-elcom",
+    "url": "https://www.strompreis.elcom.admin.ch/operator/195"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "label": "Untereggen",
+      "rates": {
+        "All day": "0.3373"
+      },
+      "standing": "0.542466"
+    }
+  }
+}

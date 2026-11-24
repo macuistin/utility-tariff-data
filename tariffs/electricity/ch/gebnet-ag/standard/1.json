@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "name": "Standard Energie (GV) + Standard",
+  "provider": "GEBNET AG",
+  "effective_from": "2026-01-01",
+  "source": {
+    "id": "ch-elcom",
+    "url": "https://www.strompreis.elcom.admin.ch/operator/813"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "bfs-2445": {
+      "label": "Biezwil",
+      "rates": {
+        "All day": "0.3233"
+      },
+      "standing": "0.586301"
+    },
+    "bfs-2456": {
+      "label": "Buchegg, Lüterswil-Gächliwil",
+      "rates": {
+        "All day": "0.3333"
+      },
+      "standing": "0.586301"
+    },
+    "bfs-394": {
+      "label": "Wengi",
+      "rates": {
+        "All day": "0.3293"
+      },
+      "standing": "0.586301"
+    }
+  }
+}

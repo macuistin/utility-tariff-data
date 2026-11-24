@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "Einheitstarif + NS ET",
+  "provider": "Evolon AG",
+  "effective_from": "2026-01-01",
+  "source": {
+    "id": "ch-elcom",
+    "url": "https://www.strompreis.elcom.admin.ch/operator/901"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "label": "Aarberg, Grossaffoltern, Lyss, Seedorf (BE)",
+      "rates": {
+        "All day": "0.3058"
+      },
+      "standing": "0.427397"
+    }
+  }
+}

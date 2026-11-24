@@ -358,6 +358,67 @@
         }
       }
     },
+    "oemag": {
+      "name": "OeMAG",
+      "tariffs": {
+        "solar-market-price-export": {
+          "direction": "export",
+          "name": "OeMAG market price, solar and other sources except wind",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:bc61f10a48c53d1cd3a6aa8375bcab3ee98baf87f3f9a18e780932a4073af59d",
+              "effective_from": "2026-01-01",
+              "effective_to": "2026-01-31"
+            },
+            "10": {
+              "checksum": "sha256:5c587abb60d72a487b75c73473441c1c4306a2318e3560a0d4dd74fd08cec536",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            },
+            "2": {
+              "checksum": "sha256:bfc04c718924a6dfca7c3f641534957dc382d1bf023a70cbd89f2fa3a0a2d404",
+              "effective_from": "2026-02-01",
+              "effective_to": "2026-02-28"
+            },
+            "3": {
+              "checksum": "sha256:7597db213750e6a77f25775f0f39ca04f3ee8dc5a1f92bda76b7dd0762291200",
+              "effective_from": "2026-03-01",
+              "effective_to": "2026-03-31"
+            },
+            "4": {
+              "checksum": "sha256:befcd7540b7ca90616faa89126481afd7c61f6da253f1ce02837918a2c708baf",
+              "effective_from": "2026-04-01",
+              "effective_to": "2026-04-30"
+            },
+            "5": {
+              "checksum": "sha256:beef7f7bdfe4828e226bb0db56caf094262ce87c363be473ef4ae1bacb61301c",
+              "effective_from": "2026-05-01",
+              "effective_to": "2026-05-31"
+            },
+            "6": {
+              "checksum": "sha256:7a8e2b9b98e801763080dd0c6dc955d1daab3d96e894111fb812c84aaff373c3",
+              "effective_from": "2026-06-01",
+              "effective_to": "2026-06-30"
+            },
+            "7": {
+              "checksum": "sha256:8d55fedcff8fe835f271a242bc2286d9d712351c999fd634eaf53908e6cbabe2",
+              "effective_from": "2026-07-01",
+              "effective_to": "2026-07-31"
+            },
+            "8": {
+              "checksum": "sha256:ca1055f4da6794a70ea3798002fe7d92a18984136842218ba3f068198b56a159",
+              "effective_from": "2026-08-01",
+              "effective_to": "2026-08-31"
+            },
+            "9": {
+              "checksum": "sha256:45985220af1c9f41c448b213a2092ee901bb549a15f23857c1e2152965353066",
+              "effective_from": "2026-09-01",
+              "effective_to": "2026-09-30"
+            }
+          }
+        }
+      }
+    },
     "pkr-strom": {
       "name": "PKR Strom",
       "tariffs": {

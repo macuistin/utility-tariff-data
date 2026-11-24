@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "Classique Seeland + Classique",
+  "provider": "Energie Service Biel/Bienne (ESB)",
+  "effective_from": "2026-01-01",
+  "source": {
+    "id": "ch-elcom",
+    "url": "https://www.strompreis.elcom.admin.ch/operator/510"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "label": "Biel/Bienne",
+      "rates": {
+        "All day": "0.2538"
+      },
+      "standing": "0.512329"
+    }
+  }
+}

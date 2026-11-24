@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "AURA FastEl Rabat 500 kr.",
+  "provider": "AURA",
+  "effective_from": "2026-10-01",
+  "effective_to": "2026-12-31",
+  "source": {
+    "id": "dk-elpris",
+    "url": "https://elpris.dk/"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "All day": "1.3032"
+      },
+      "standing": "0.548055"
+    }
+  }
+}

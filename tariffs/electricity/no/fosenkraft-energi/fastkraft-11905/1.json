@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "name": "Fastkraft",
+  "provider": "FosenKraft Energi",
+  "effective_from": "2026-04-29",
+  "source": {
+    "id": "no-forbrukerradet",
+    "url": "https://strom-api.forbrukerradet.no/products/grid/5"
+  },
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "All day": "1.13"
+      },
+      "standing": "0"
+    }
+  }
+}

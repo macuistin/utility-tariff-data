@@ -1,0 +1,767 @@
+{
+  "schema": 1,
+  "country": "ES",
+  "currency": "EUR",
+  "timezone": "Europe/Madrid",
+  "vat_percent": "21",
+  "availability": "partial",
+  "reason": "Fixed-price household offers (2.0TD) from the CNMC comparator, for the mainland and the Balearic Islands. Only the energy prices by period are held, with VAT and the electricity tax on them. The power term, priced per kW of contracted power per year and billed by the day, is not held, nor are the meter rental, the social bonus financing and promotions, so a bill is short of those. Indexed offers (PVPC), offers with the supplier's own hours, the Canary Islands, Ceuta and Melilla are not held. Prices are as the comparator lists them, which can lag a supplier's own page.",
+  "reason_local": {
+    "language": "es",
+    "text": "Se incluyen las ofertas de precio fijo para hogares (2.0TD) del comparador de la CNMC, para la Península y las Illes Balears. Solo se guardan los precios de la energía por periodo, con el IVA y el impuesto sobre la electricidad. No se guarda el término de potencia, que se fija por kW contratado y año y se factura por días, ni el alquiler del contador, la financiación del bono social y las promociones, así que la factura no los incluye. No se incluyen las ofertas indexadas (PVPC), las de horarios propios del comercializador, ni Canarias, Ceuta y Melilla. Los precios son los que figuran en el comparador, que pueden ir por detrás de la web del comercializador."
+  },
+  "inputs": {
+    "bill_start_day": {
+      "default": 1,
+      "max": 28,
+      "min": 1,
+      "type": "integer"
+    }
+  },
+  "bill": {
+    "period": {
+      "rule": "monthly",
+      "start_day": "$input.bill_start_day"
+    },
+    "total": {
+      "kind": "tax",
+      "mode": "added",
+      "name": "IVA",
+      "of": {
+        "kind": "adjust",
+        "name": "Impuesto sobre la electricidad",
+        "of": {
+          "kind": "sum",
+          "of": {
+            "energy": {
+              "kind": "energy_by_band",
+              "round_bands": true
+            },
+            "standing": {
+              "kind": "per_day"
+            }
+          }
+        },
+        "percent": "$country.electricity_tax_percent"
+      },
+      "percent": "$country.vat_percent"
+    }
+  },
+  "holidays": {
+    "source": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-1066",
+    "years": {
+      "2024": [
+        "2024-01-01",
+        "2024-01-06",
+        "2024-05-01",
+        "2024-08-15",
+        "2024-10-12",
+        "2024-11-01",
+        "2024-12-06",
+        "2024-12-08",
+        "2024-12-25"
+      ],
+      "2025": [
+        "2025-01-01",
+        "2025-01-06",
+        "2025-05-01",
+        "2025-08-15",
+        "2025-10-12",
+        "2025-11-01",
+        "2025-12-06",
+        "2025-12-08",
+        "2025-12-25"
+      ],
+      "2026": [
+        "2026-01-01",
+        "2026-01-06",
+        "2026-05-01",
+        "2026-08-15",
+        "2026-10-12",
+        "2026-11-01",
+        "2026-12-06",
+        "2026-12-08",
+        "2026-12-25"
+      ],
+      "2027": [
+        "2027-01-01",
+        "2027-01-06",
+        "2027-05-01",
+        "2027-08-15",
+        "2027-10-12",
+        "2027-11-01",
+        "2027-12-06",
+        "2027-12-08",
+        "2027-12-25"
+      ]
+    }
+  },
+  "electricity_tax_percent": "5.11269632",
+  "providers": {
+    "agrienergia": {
+      "name": "agrienergia.com",
+      "tariffs": {
+        "tarifa-10-eficient": {
+          "name": "TARIFA 10 EFICIENT",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:526c8a89a0ed2eee3442f54f11943482dd4424231d484c22d05720f45ba63036",
+              "effective_from": "2026-11-02",
+              "effective_to": null
+            }
+          }
+        },
+        "tarifa-10-tranquilidad": {
+          "name": "TARIFA 10 TRANQUILIDAD",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:d5c7843caf55dee44d2b617445f446a5cdfe4021d86ad7fb0368e11a58c5006d",
+              "effective_from": "2026-11-02",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "bonarea-energia": {
+      "name": "bonarea-energia.com",
+      "tariffs": {
+        "tarifa-triple-solar": {
+          "name": "TARIFA TRIPLE SOLAR",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:f3553f3a8a34dd08f2c0161515c25d7475d8c8128b9044c55d636641043da2c2",
+              "effective_from": "2026-11-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "catgas": {
+      "name": "catgas.cat",
+      "tariffs": {
+        "2-0tdl": {
+          "name": "2.0TDL",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:49709fa7ad3a32369d39096247c6120e624e6ca6a1cfd0d0acd2782a0c8b0c68",
+              "effective_from": "2026-10-30",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "contigoenergia": {
+      "name": "contigoenergia.com",
+      "tariffs": {
+        "tarifa-luz-horas-ekoenergia": {
+          "name": "Tarifa luz Horas EKOenergía",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:65c2fb08ea47229bbe36e4950a5067112c577f762f979817c47d4e05cf022f4a",
+              "effective_from": "2026-05-14",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "electricadealginet": {
+      "name": "electricadealginet.com",
+      "tariffs": {
+        "tarifa-estable-24h": {
+          "name": "Tarifa ESTABLE 24H",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:5e5a916c34747fc07a20dc27935ef871e2a8a426db4e1fb2b7789130aed68336",
+              "effective_from": "2025-01-01",
+              "effective_to": null
+            }
+          }
+        },
+        "tarifa-estable-3-periodos": {
+          "name": "Tarifa ESTABLE 3 PERÍODOS",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:58e994f85e200f08a12ab41db605a387a1ea4b76588209ac3cf342fd21c99517",
+              "effective_from": "2025-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "elekluz": {
+      "name": "elekluz.com",
+      "tariffs": {
+        "2-0td-on-line-precio-unico": {
+          "name": "2.0TD ON LINE PRECIO UNICO",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:81627fe9677c35463e26ba8979b3bd0a053c7ff18aab055340407653756fa5b2",
+              "effective_from": "2026-10-21",
+              "effective_to": null
+            }
+          }
+        },
+        "2-0td-on-line-trihorario": {
+          "name": "2.0TD ON LINE TRIHORARIO",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:242d58abf29adfb4eb62411acaf47a56bfc072da3a69d1b9802dd2069a30f92a",
+              "effective_from": "2026-10-21",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "energiaelcorteingles": {
+      "name": "energiaelcorteingles.es",
+      "tariffs": {
+        "beneficiate": {
+          "name": "Benefíciate",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:b3574faaa862499207f2d521917f93c17e2bf3885192e4ed6e52f4ee021e5fbf",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "energianufri": {
+      "name": "energianufri.com",
+      "tariffs": {
+        "energia-nufri-calma": {
+          "name": "ENERGIA NUFRI - CALMA",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:a0abac57fedf083af958c0be03662272626aef3b94a925fa7fc34da011942187",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        },
+        "energia-nufri-con-horarios": {
+          "name": "ENERGIA NUFRI - CON HORARIOS",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:a4c04b29a9f6a667ac5b45de98a6578ca04d13a8e35dcf42fca57d4ce0f0c89a",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        },
+        "energia-nufri-flex": {
+          "name": "ENERGIA NUFRI - FLEX",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:d47aa54104a1d3a8cef572d5bc6c38b7377849a4028d475e887988a614445948",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        },
+        "energia-nufri-sin-horarios": {
+          "name": "ENERGIA NUFRI - SIN HORARIOS",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:dd9e98cc272b6afb2fee7eb7007a77afadf69b3f3eba4c4fb85c6f9c429314b9",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        },
+        "energia-nufri-solar": {
+          "name": "ENERGIA NUFRI - SOLAR",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:66acdeed7b8b3267dcefee62ba1d704649aea7e2c03d8955aa5b391a21530203",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        },
+        "energia-nufri-universal-con-horarios": {
+          "name": "ENERGIA NUFRI - UNIVERSAL CON HORARIOS",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:59c6636b04aa52e17c26ff22a60451bff19ccd564858be75ccc00141cf63ee94",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        },
+        "energia-nufri-universal-sin-horarios": {
+          "name": "ENERGIA NUFRI - UNIVERSAL SIN HORARIOS",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:2ff5609ef81130ab3cc5f2f9c12d87799aaa1fe7e0dea2a6dbcafc7e30c3cd98",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "energyavm": {
+      "name": "energyavm.es",
+      "tariffs": {
+        "formula-fija-3-periodos": {
+          "name": "Fórmula fija 3 PERIODOS",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:7c2f73828b6b3d7195d48f93722002536d0b535fcd04447373aaa379c7b20b8c",
+              "effective_from": "2026-10-07",
+              "effective_to": null
+            }
+          }
+        },
+        "formula-fija-unica-24horas": {
+          "name": "Fórmula Fija Única 24HORAS",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:f6907cc2803c72bf114b5dad12febc74ea44ffaaa6548ea16dc1de8c6d57297e",
+              "effective_from": "2026-10-07",
+              "effective_to": null
+            }
+          }
+        },
+        "telefonico-flexible-3-periodos": {
+          "name": "TELEFÓNICO. FLEXIBLE 3 PERIODOS",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:7b480c7f88dfc9c9a4ebdd875c2802b3bfad21ea884668486c60b9da12fa8922",
+              "effective_from": "2026-10-07",
+              "effective_to": null
+            }
+          }
+        },
+        "telefonico-precio-noche-y-findes": {
+          "name": "TELEFÓNICO. PRECIO NOCHE Y FINDES",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:74809482614bfad626a68ed6a68c42b92650fb6eaefc63ce8347b5ffb869ca45",
+              "effective_from": "2026-09-08",
+              "effective_to": null
+            }
+          }
+        },
+        "telefonico-precio-unico": {
+          "name": "TELEFÓNICO. PRECIO ÚNICO",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:6568ecd4010667ba78c384239fef032415f79b377ea46825541a89619e4d01ce",
+              "effective_from": "2026-10-07",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "estabanell": {
+      "name": "estabanell.com",
+      "tariffs": {
+        "tarifa-con-discriminacion-horaria": {
+          "name": "Tarifa con discriminación horaria",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:66ccf21b62262e9e639e5fd72d98eacdc65cef7c2d9b031638d1924c647c06e7",
+              "effective_from": "2026-11-01",
+              "effective_to": null
+            }
+          }
+        },
+        "tarifa-de-luz-24-horas": {
+          "name": "Tarifa de luz 24 horas",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:026aeca60c32992d4848a8eca7f49a79d3181ca2258137cf331319476721722b",
+              "effective_from": "2026-11-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "iberdrola": {
+      "name": "iberdrola.es",
+      "tariffs": {
+        "2-0td-plan-online-3-precios-0-10kw": {
+          "name": "2.0TD Plan Online 3 Precios (0-10kW)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:5be2aabbb7991617c39df44bb7fd28ad61be65f96d0a6db975576613d91c687c",
+              "effective_from": "2026-11-16",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "imaginaenergia": {
+      "name": "imaginaenergia.com",
+      "tariffs": {
+        "plan-base-noche-y-findes": {
+          "name": "PLAN BASE NOCHE Y FINDES",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:e14bb428843389b6a867d620d9834e9e7117ccca63a3f21e5cbc1fd3a5bb0750",
+              "effective_from": "2026-11-23",
+              "effective_to": null
+            }
+          }
+        },
+        "plan-base-noche-y-findes-4-8-mwh": {
+          "name": "PLAN BASE NOCHE Y FINDES 4-8 MWh",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:fc4893bd209ce18c95c6f981a136bd78c8b6e4dcbeae5e7b1b54d8a0e760ef08",
+              "effective_from": "2026-11-23",
+              "effective_to": null
+            }
+          }
+        },
+        "plan-base-sin-horas": {
+          "name": "PLAN BASE SIN HORAS",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:16df853db005ee5783b8ea2cf698fb80eb6f93140ba9829a561bad5c3d9dfcf9",
+              "effective_from": "2026-11-20",
+              "effective_to": null
+            }
+          }
+        },
+        "plan-base-sin-horas-4-8-mwh": {
+          "name": "PLAN BASE SIN HORAS 4-8 MWh",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:95732e7c917d4648415265900f5aee9e4b37c80c57ce7472bd9d8f669867b6fb",
+              "effective_from": "2026-11-20",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "inerenergia": {
+      "name": "inerenergia.es",
+      "tariffs": {
+        "la-clasica": {
+          "name": "LA CLASICA",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:17efefb8c544f0a819318ff21c3f057d50c6e75e99612395f45e4391e9363846",
+              "effective_from": "2026-11-05",
+              "effective_to": null
+            }
+          }
+        },
+        "tranquilidad": {
+          "name": "TRANQUILIDAD",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:58f243f351269e4efa70ea0ca3508e0791d3fe73a2477a8c32b8ab860f803c79",
+              "effective_from": "2026-11-05",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "lumisa": {
+      "name": "lumisa.es",
+      "tariffs": {
+        "2-0td-precio-fijo-24h": {
+          "name": "2.0TD Precio Fijo 24h",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:cd21bd4c78504fbd17b1cd07f5bce65ce22a60e5121e3b6c81c888388ff931d0",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "maisenerxia": {
+      "name": "maisenerxia.com",
+      "tariffs": {
+        "mais-estable": {
+          "name": "Máis Estable",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:8bb026ec07c2a0febc05a2c216466dcd479c88ad3fc4ed051cece366f0bd1f85",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        },
+        "mais-estable-50": {
+          "name": "Máis Estable 50",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:17e32f57e1bff978fc31a01b9a3b628924fa698634a1a82fb459a7dfc7f03175",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "masnorte": {
+      "name": "masnorte.es",
+      "tariffs": {
+        "masnorte-loto-2-0td": {
+          "name": "Masnorte LOTO 2.0TD",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:70a7f97dac5593b2a0ccd58a066a94d877a38ef282a9cdb5e88afb9abbdb4d1a",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "naturgy": {
+      "name": "naturgy.es",
+      "tariffs": {
+        "noche-luz": {
+          "name": "Noche Luz",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:1a1be8f524a2e58dbe3f193a79fe07d879ce01c0a7640f7f1eda164bd8704500",
+              "effective_from": "2026-10-31",
+              "effective_to": null
+            }
+          }
+        },
+        "por-uso-luz": {
+          "name": "Por Uso Luz",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:66d7f80a9d5957f3cbf39b1c6293f69f7935bd20a4a2673f951b38013c4d79d5",
+              "effective_from": "2026-10-31",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "niba": {
+      "name": "niba.es",
+      "tariffs": {
+        "niba-tres": {
+          "name": "niba Tres",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:a58d0bec0bb929da06ceba58b643720a3a099093623859a2c4dd2a636f85ea9d",
+              "effective_from": "2026-11-01",
+              "effective_to": null
+            }
+          }
+        },
+        "niba-zen": {
+          "name": "niba Zen",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:e07118f17cfb50ef3d13f70373a757f924e83e96e1ddeef6ab4e653a797ae584",
+              "effective_from": "2026-11-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "nobe": {
+      "name": "nobe.es",
+      "tariffs": {
+        "tarifa-tipo-2-0-td": {
+          "name": "Tarifa tipo 2.0 TD",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:eb86a06fdf82ec9630a14658921b872e43fd8bc4cd669c5579892338ab3be152",
+              "effective_from": "2026-09-24",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "nordy": {
+      "name": "nordy.es",
+      "tariffs": {
+        "tarifa-24-h": {
+          "name": "Tarifa 24 H",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:380f8bb26434d4bf980d7f841ef51691b390a79a0932de3313b3812f7c891eeb",
+              "effective_from": "2026-07-17",
+              "effective_to": null
+            }
+          }
+        },
+        "tarifa-fija-3p-nordy": {
+          "name": "Tarifa fija 3P Nordy",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:0818a3e503cc8a86c7a46417ac655a19ce655abf2bb69bd041dfb46a6ce31aaa",
+              "effective_from": "2026-06-12",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "octopusenergy": {
+      "name": "octopusenergy.es",
+      "tariffs": {
+        "octopus-3": {
+          "name": "OCTOPUS 3",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:07925a54b41f8a28ab0b1b771a5631e2eed63ee23969b3eff30f691576e10e4c",
+              "effective_from": "2026-10-02",
+              "effective_to": null
+            }
+          }
+        },
+        "octopus-go-vehiculo-electrico": {
+          "name": "OCTOPUS GO (Vehículo eléctrico)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:c09bb5eb18f5b6a7ee2d637b7dee6d4d1382c04e563f44992951799a53a2c5be",
+              "effective_from": "2026-06-16",
+              "effective_to": null
+            }
+          }
+        },
+        "octopus-relax": {
+          "name": "OCTOPUS RELAX",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:91b64a6c4df1f3356fb0364e784a6171d1baa60449b2f627b4a81ef42717e737",
+              "effective_from": "2026-07-27",
+              "effective_to": null
+            }
+          }
+        },
+        "octopus-solar": {
+          "name": "OCTOPUS SOLAR",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:2dce5532260bf2e5b02520abc62167e5f9485f156c436bdaa02d8809282ecb33",
+              "effective_from": "2026-09-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "papernest": {
+      "name": "papernest.es",
+      "tariffs": {
+        "tarifa-24h": {
+          "name": "Tarifa 24h",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:fdea6558649f546a498ad2e3b1eb9b80843058e2f916949ca12e3e6356664de1",
+              "effective_from": "2026-09-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "urusenergy": {
+      "name": "urusenergy.com",
+      "tariffs": {
+        "urus-3p": {
+          "name": "URUS 3P",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:1d305a1501501f142b36971b486cc84fb26831002389aee1375c187a4db4d7f9",
+              "effective_from": "2026-11-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "visalia": {
+      "name": "visalia.es",
+      "tariffs": {
+        "fijo-24-h": {
+          "name": "Fijo 24 h",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:fc18635d1f6ad081404ac93feb6e203153a971d0cc3774f4c313f287adf71bdd",
+              "effective_from": "2026-03-08",
+              "effective_to": null
+            }
+          }
+        },
+        "visalia-3-precios": {
+          "name": "Visalia 3 Precios",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:6752b24c2384f1849d6e67a3f39e9403ba0a941c75b96ed73b4f83c864e7910a",
+              "effective_from": "2026-03-08",
+              "effective_to": null
+            }
+          }
+        },
+        "visalia-luz-fijo-plan-ahorro-3-meses": {
+          "name": "Visalia Luz Fijo Plan Ahorro 3 meses",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:068d14c2a80958a26fc74babf5fd3cd2f560f673ddd3133892b4c5675ea18e5e",
+              "effective_from": "2026-04-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "wekiwi": {
+      "name": "wekiwi.es",
+      "tariffs": {
+        "carolina": {
+          "name": "Carolina",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:3075e61de421f8aa7251b9c0fb8807b735deafd5243f3b077364dc7e6b600611",
+              "effective_from": "2024-03-01",
+              "effective_to": null
+            }
+          }
+        },
+        "lorenzo": {
+          "name": "LORENZO",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:258138d7610ecfef78cff14fde17e637e3b028eec250315b7756a7e5924d841d",
+              "effective_from": "2024-03-01",
+              "effective_to": null
+            }
+          }
+        },
+        "maricalmen": {
+          "name": "MariCalmen",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:6bc03ca242c09d32bc8a44953f04f7ea0330a832cb983436c55f8069380faa5d",
+              "effective_from": "2025-09-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "Grundpreis",
+  "provider": "Gemeinde Güttingen, Elektrizitätswerk",
+  "effective_from": "2026-01-01",
+  "source": {
+    "id": "ch-elcom",
+    "url": "https://www.strompreis.elcom.admin.ch/operator/383"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "label": "Güttingen",
+      "rates": {
+        "All day": "0.3071"
+      },
+      "standing": "0.443836"
+    }
+  }
+}

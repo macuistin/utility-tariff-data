@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "ELT 02 Grundpreis < 50 MWh Standard-Lief. NATURSTROM BASIC",
+  "provider": "Politische Gemeinde Tübach, Elektrizitätsversorgung",
+  "effective_from": "2026-01-01",
+  "source": {
+    "id": "ch-elcom",
+    "url": "https://www.strompreis.elcom.admin.ch/operator/191"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "label": "Tübach",
+      "rates": {
+        "All day": "0.2769"
+      },
+      "standing": "0.588493"
+    }
+  }
+}

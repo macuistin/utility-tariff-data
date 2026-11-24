@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "name": "Agva Kraft Variabel",
+  "provider": "Agva Kraft",
+  "effective_from": "2026-11-24",
+  "source": {
+    "id": "no-forbrukerradet",
+    "url": "https://strom-api.forbrukerradet.no/products/grid/5"
+  },
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "All day": "1.49"
+      },
+      "standing": "0"
+    }
+  }
+}

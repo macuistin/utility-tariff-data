@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "Energie Port + Netztarif Standard",
+  "provider": "Einwohnergemeinde Port, Elektrizitätversorgung",
+  "effective_from": "2026-01-01",
+  "source": {
+    "id": "ch-elcom",
+    "url": "https://www.strompreis.elcom.admin.ch/operator/250"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "label": "Port",
+      "rates": {
+        "All day": "0.2803"
+      },
+      "standing": "0.542466"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "NSN  (E) + NSN (N)",
+  "provider": "ELEKTRA REMETSCHWIL, Genossenschaft",
+  "effective_from": "2026-01-01",
+  "source": {
+    "id": "ch-elcom",
+    "url": "https://www.strompreis.elcom.admin.ch/operator/92"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "label": "Remetschwil",
+      "rates": {
+        "All day": "0.2493"
+      },
+      "standing": "0.328767"
+    }
+  }
+}

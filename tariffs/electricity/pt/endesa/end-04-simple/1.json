@@ -1,0 +1,88 @@
+{
+  "schema": 1,
+  "name": "Quero+ Luz + Plano Amigo, simple",
+  "provider": "Endesa",
+  "effective_from": "2026-10-15",
+  "source": {
+    "id": "pt-erse-offers",
+    "url": "https://simuladorprecos.erse.pt/"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "1-15-kva": {
+      "label": "1.15 kVA",
+      "rates": {
+        "All day": "0.190318"
+      },
+      "standing": "0.28552"
+    },
+    "10-35-kva": {
+      "label": "10.35 kVA",
+      "rates": {
+        "All day": "0.190318"
+      },
+      "standing": "1.061412"
+    },
+    "13-8-kva": {
+      "label": "13.8 kVA",
+      "rates": {
+        "All day": "0.190318"
+      },
+      "standing": "1.3803"
+    },
+    "17-25-kva": {
+      "label": "17.25 kVA",
+      "rates": {
+        "All day": "0.190318"
+      },
+      "standing": "1.718452"
+    },
+    "2-3-kva": {
+      "label": "2.3 kVA",
+      "rates": {
+        "All day": "0.190318"
+      },
+      "standing": "0.374358"
+    },
+    "20-7-kva": {
+      "label": "20.7 kVA",
+      "rates": {
+        "All day": "0.190318"
+      },
+      "standing": "2.204868"
+    },
+    "3-45-kva": {
+      "label": "3.45 kVA",
+      "rates": {
+        "All day": "0.190318"
+      },
+      "standing": "0.444706"
+    },
+    "4-6-kva": {
+      "label": "4.6 kVA",
+      "rates": {
+        "All day": "0.190318"
+      },
+      "standing": "0.579468"
+    },
+    "5-75-kva": {
+      "label": "5.75 kVA",
+      "rates": {
+        "All day": "0.190318"
+      },
+      "standing": "0.681808"
+    },
+    "6-9-kva": {
+      "label": "6.9 kVA",
+      "rates": {
+        "All day": "0.190318"
+      },
+      "standing": "0.871438"
+    }
+  }
+}

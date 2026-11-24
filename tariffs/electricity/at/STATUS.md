@@ -1,11 +1,11 @@
-Last updated: 2026-11-18
+Last updated: 2026-11-24
 
 # Austria: electricity tariff status
 
 [All countries](../STATUS.md)
 
 - Coverage: partial. Only the supplier's energy price and base charge are held, from E-Control's tariff calculator. A bill also has grid charges, levies, the municipal tax and any discounts, none of which are in these plans, so a bill priced from them is below a real bill.
-- Held: 26 providers and 45 tariffs. 45 current, 0 upcoming, 0 ended, as of the date above.
+- Held: 27 providers and 46 tariffs. 46 current, 0 upcoming, 0 ended, as of the date above.
 
 | Provider | Tariff | Direction | Status today | Valid from | Valid to | Revisions | Last changed | Source |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -33,6 +33,7 @@ Last updated: 2026-11-18
 | MVM ONEnergy Austria GmbH | Stabilo Strom Oktober 26 | import | Current | 2026-11-17 | open | 1 | 2026-11-17 | at-econtrol |
 | nobile | nobile Local | import | Current | 2026-11-17 | open | 1 | 2026-11-17 | at-econtrol |
 | nobile | nobile Mix | import | Current | 2026-11-17 | open | 1 | 2026-11-17 | at-econtrol |
+| OeMAG | OeMAG market price, solar and other sources except wind | export | Current | 2026-01-01 | open | 10 | 2026-10-01 | at-oemag |
 | PKR Strom | Strom Daheim Aktiv | import | Current | 2026-11-17 | open | 1 | 2026-11-17 | at-econtrol |
 | PKR Strom | Strom Daheim | import | Current | 2026-11-17 | open | 1 | 2026-11-17 | at-econtrol |
 | Pullstrom | Pull Classic S 2024 | import | Current | 2026-11-17 | open | 1 | 2026-11-17 | at-econtrol |

@@ -1,0 +1,53 @@
+{
+  "schema": 1,
+  "name": "elektraaqua+ + elektra b",
+  "provider": "Genossenschaft Elektra, Jegenstorf",
+  "effective_from": "2026-01-01",
+  "source": {
+    "id": "ch-elcom",
+    "url": "https://www.strompreis.elcom.admin.ch/operator/132"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "bfs-310": {
+      "label": "Bätterkinden, Lohn-Ammannsegg, Rapperswil (BE), Rüdtligen-Alchenflüh",
+      "rates": {
+        "All day": "0.2713"
+      },
+      "standing": "0.345205"
+    },
+    "bfs-401": {
+      "label": "Aefligen",
+      "rates": {
+        "All day": "0.2802"
+      },
+      "standing": "0.345205"
+    },
+    "bfs-403": {
+      "label": "Bäriswil, Deisswil b. Münchenbuch., Fraubrunnen, Hindelbank, Iffwil, Jegenstorf, Lyssach, Messen, Unterramsern, Urtenen-Schönbühl, Wiggiswil, Zuzwil (BE)",
+      "rates": {
+        "All day": "0.2803"
+      },
+      "standing": "0.345205"
+    },
+    "bfs-411": {
+      "label": "Kernenried, Krauchthal, Mattstetten",
+      "rates": {
+        "All day": "0.2798"
+      },
+      "standing": "0.345205"
+    },
+    "bfs-544": {
+      "label": "Buchegg, Moosseedorf",
+      "rates": {
+        "All day": "0.2813"
+      },
+      "standing": "0.345205"
+    }
+  }
+}

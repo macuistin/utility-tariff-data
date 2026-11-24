@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "Energie ET + Standard NS",
+  "provider": "Energie AG Sumiswald",
+  "effective_from": "2026-01-01",
+  "source": {
+    "id": "ch-elcom",
+    "url": "https://www.strompreis.elcom.admin.ch/operator/507"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "label": "Sumiswald",
+      "rates": {
+        "All day": "0.2993"
+      },
+      "standing": "0.575342"
+    }
+  }
+}

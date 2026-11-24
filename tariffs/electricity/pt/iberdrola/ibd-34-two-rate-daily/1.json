@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "Mais Digital (Sem adesões obrigatórias), two-rate, daily cycle",
+  "provider": "Iberdrola",
+  "effective_from": "2026-10-01",
+  "source": {
+    "id": "pt-erse-offers",
+    "url": "https://simuladorprecos.erse.pt/"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "Day"
+    },
+    {
+      "hours": "22:00-08:00",
+      "name": "Off-peak"
+    }
+  ],
+  "areas": {
+    "10-35-kva": {
+      "label": "10.35 kVA",
+      "rates": {
+        "Day": "0.18488",
+        "Off-peak": "0.09904"
+      },
+      "standing": "0.89104"
+    },
+    "13-8-kva": {
+      "label": "13.8 kVA",
+      "rates": {
+        "Day": "0.18488",
+        "Off-peak": "0.09904"
+      },
+      "standing": "1.216"
+    },
+    "17-25-kva": {
+      "label": "17.25 kVA",
+      "rates": {
+        "Day": "0.18488",
+        "Off-peak": "0.09904"
+      },
+      "standing": "1.542"
+    },
+    "20-7-kva": {
+      "label": "20.7 kVA",
+      "rates": {
+        "Day": "0.18488",
+        "Off-peak": "0.09904"
+      },
+      "standing": "1.914"
+    },
+    "3-45-kva": {
+      "label": "3.45 kVA",
+      "rates": {
+        "Day": "0.18488",
+        "Off-peak": "0.09904"
+      },
+      "standing": "0.36104"
+    },
+    "4-6-kva": {
+      "label": "4.6 kVA",
+      "rates": {
+        "Day": "0.18488",
+        "Off-peak": "0.09904"
+      },
+      "standing": "0.48704"
+    },
+    "5-75-kva": {
+      "label": "5.75 kVA",
+      "rates": {
+        "Day": "0.18488",
+        "Off-peak": "0.09904"
+      },
+      "standing": "0.53304"
+    },
+    "6-9-kva": {
+      "label": "6.9 kVA",
+      "rates": {
+        "Day": "0.18488",
+        "Off-peak": "0.09904"
+      },
+      "standing": "0.634"
+    }
+  }
+}

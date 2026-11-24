@@ -1,0 +1,48 @@
+{
+  "schema": 1,
+  "name": "Polar Fast 5 år - Midt",
+  "provider": "Polar Kraft AS",
+  "effective_from": "2026-07-02",
+  "source": {
+    "id": "no-forbrukerradet",
+    "url": "https://strom-api.forbrukerradet.no/products/grid/249"
+  },
+  "bill": {
+    "total": {
+      "kind": "tax",
+      "mode": "included",
+      "name": "VAT",
+      "of": {
+        "kind": "sum",
+        "of": {
+          "energy": {
+            "kind": "energy_by_band",
+            "round_bands": true
+          },
+          "monthly_fee": {
+            "amount": "48.75",
+            "kind": "per_period",
+            "per": "month",
+            "share": "days_in_period"
+          }
+        }
+      },
+      "percent": "$country.vat_percent"
+    }
+  },
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "no3": {
+      "label": "NO3 Midt",
+      "rates": {
+        "All day": "1.2975"
+      },
+      "region": "NO3",
+      "standing": "0"
+    }
+  }
+}
