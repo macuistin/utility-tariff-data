@@ -32,5 +32,21 @@
       }
     }
   },
-  "providers": {}
+  "providers": {
+    "taipower": {
+      "name": "Taiwan Power Company (Taipower)",
+      "tariffs": {
+        "residential": {
+          "name": "Residential, non-time-of-use",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:29744bcaf2b5bbae2acd1cd3b1f139ad6443756e00d7b60d869c2ea79c6ec2a0",
+              "effective_from": "2025-10-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    }
+  }
 }

@@ -1,0 +1,117 @@
+{
+  "schema": 1,
+  "name": "Residential, non-time-of-use",
+  "provider": "Taiwan Power Company (Taipower)",
+  "effective_from": "2025-10-01",
+  "source": {
+    "id": "tw-taipower",
+    "url": "https://service.taipower.com.tw/data/opendata/apply/file/d007008/001.json"
+  },
+  "bill": {
+    "total": {
+      "kind": "sum",
+      "of": {
+        "non_summer": {
+          "bands": [
+            "Non-summer"
+          ],
+          "blocks": {
+            "block_1": {
+              "from_kwh": "0",
+              "price": "1.78",
+              "upto_kwh": "120"
+            },
+            "block_2": {
+              "from_kwh": "120",
+              "price": "2.26",
+              "upto_kwh": "330"
+            },
+            "block_3": {
+              "from_kwh": "330",
+              "price": "3.13",
+              "upto_kwh": "500"
+            },
+            "block_4": {
+              "from_kwh": "500",
+              "price": "4.24",
+              "upto_kwh": "700"
+            },
+            "block_5": {
+              "from_kwh": "700",
+              "price": "5.27",
+              "upto_kwh": "1000"
+            },
+            "block_6": {
+              "from_kwh": "1000",
+              "price": "7.03"
+            }
+          },
+          "kind": "tiered_energy",
+          "limits": "month"
+        },
+        "summer": {
+          "bands": [
+            "Summer"
+          ],
+          "blocks": {
+            "block_1": {
+              "from_kwh": "0",
+              "price": "1.78",
+              "upto_kwh": "120"
+            },
+            "block_2": {
+              "from_kwh": "120",
+              "price": "2.55",
+              "upto_kwh": "330"
+            },
+            "block_3": {
+              "from_kwh": "330",
+              "price": "3.8",
+              "upto_kwh": "500"
+            },
+            "block_4": {
+              "from_kwh": "500",
+              "price": "5.14",
+              "upto_kwh": "700"
+            },
+            "block_5": {
+              "from_kwh": "700",
+              "price": "6.44",
+              "upto_kwh": "1000"
+            },
+            "block_6": {
+              "from_kwh": "1000",
+              "price": "8.86"
+            }
+          },
+          "kind": "tiered_energy",
+          "limits": "month"
+        }
+      }
+    }
+  },
+  "bands": [
+    {
+      "name": "Non-summer"
+    },
+    {
+      "hours": "00:00-23:59",
+      "months": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "name": "Summer"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "Non-summer": "1.78",
+        "Summer": "1.78"
+      },
+      "standing": "0"
+    }
+  }
+}
