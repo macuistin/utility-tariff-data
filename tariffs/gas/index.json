@@ -9,6 +9,18 @@
       "reason": "Retailer gas plans read from the Consumer Data Right endpoints, added by hand for chosen retailers. Plans with seasonal periods, banded supply charges or tiers quoted for different periods are skipped. Each plan is one area of a retailer, named by its distributor.",
       "tariffs": 12
     },
+    "CA": {
+      "availability": "partial",
+      "checksum": "sha256:4a4f1f78ca29d8d32b142034891886784822ac1f90efb275b0bcf490ffc14b9c",
+      "path": "ca/index.json",
+      "providers": 0,
+      "reason": "Only FortisBC's residential natural gas rates in British Columbia are held, for Mainland and Vancouver Island and for Fort Nelson, from its rates page. The charges per gigajoule are held per kWh. Sales tax differs by province and is not in the prices, so a bill carries no tax line. Canada spans six time zones, so a tariff names its own where it differs.",
+      "reason_local": {
+        "language": "fr",
+        "text": "Seuls les tarifs résidentiels de gaz naturel de FortisBC en Colombie-Britannique sont inclus, pour le continent et l'île de Vancouver et pour Fort Nelson, tirés de sa page de tarifs. Les frais par gigajoule sont exprimés par kWh. La taxe de vente varie selon la province et n'est pas comprise dans les prix, de sorte qu'une facture ne comporte aucune ligne de taxe. Le Canada couvre six fuseaux horaires, c'est pourquoi un tarif indique le sien lorsqu'il diffère."
+      },
+      "tariffs": 0
+    },
     "DK": {
       "availability": "partial",
       "checksum": "sha256:d39767d45b02652bf550d660ddecef7a2b6474cb0e1fd1ae1f21449d4c87229c",
@@ -18,6 +30,18 @@
       "reason_local": {
         "language": "da",
         "text": "Gasprodukter til husholdninger og mindre virksomheder fra alle gasleverandører, læst fra Forsyningstilsynets prisportal for gas, for et årligt forbrug op til 6.000 m3. Hver tarif er en hel regning inklusive moms: enhedsprisen rummer gasprisen, distributionstariffen, nødforsyningstariffen og gasafgifterne, og den faste betaling rummer distributionsselskabets systemtarif, målerbetalingen og leverandørens gebyrer. De fleste produkter har en pris, der skifter hver måned, og en tarif har den pris, der var oplyst den dag, den blev læst. Introtilbud og spotprodukter er ikke med."
+      },
+      "tariffs": 0
+    },
+    "ES": {
+      "availability": "partial",
+      "checksum": "sha256:85b86e68d8f00708442b62eb5affe7754bbcab513f9979933b54b9f64592d6a0",
+      "path": "es/index.json",
+      "providers": 0,
+      "reason": "The regulated household gas tariff (TUR) for the three groups by yearly use, from the CNMC comparator, with VAT and the special tax on hydrocarbons per kWh. The fixed term is per customer per month. The meter rental is not held, so a bill is short of it. Gas offers on the free market are not held, because the comparator gives their prices as free text only.",
+      "reason_local": {
+        "language": "es",
+        "text": "Se incluye la tarifa de último recurso de gas (TUR) para los tres grupos por consumo anual, del comparador de la CNMC, con el IVA y el impuesto especial sobre hidrocarburos por kWh. El término fijo es por cliente y mes. No se guarda el alquiler del contador, así que la factura no lo incluye. No se incluyen las ofertas de gas del mercado libre, porque el comparador solo da sus precios como texto."
       },
       "tariffs": 0
     },

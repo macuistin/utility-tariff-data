@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "country": "CA",
+  "currency": "CAD",
+  "timezone": "America/Toronto",
+  "vat_percent": "0",
+  "availability": "partial",
+  "reason": "Only FortisBC's residential natural gas rates in British Columbia are held, for Mainland and Vancouver Island and for Fort Nelson, from its rates page. The charges per gigajoule are held per kWh. Sales tax differs by province and is not in the prices, so a bill carries no tax line. Canada spans six time zones, so a tariff names its own where it differs.",
+  "reason_local": {
+    "language": "fr",
+    "text": "Seuls les tarifs résidentiels de gaz naturel de FortisBC en Colombie-Britannique sont inclus, pour le continent et l'île de Vancouver et pour Fort Nelson, tirés de sa page de tarifs. Les frais par gigajoule sont exprimés par kWh. La taxe de vente varie selon la province et n'est pas comprise dans les prix, de sorte qu'une facture ne comporte aucune ligne de taxe. Le Canada couvre six fuseaux horaires, c'est pourquoi un tarif indique le sien lorsqu'il diffère."
+  },
+  "inputs": {
+    "bill_start_day": {
+      "default": 1,
+      "max": 28,
+      "min": 1,
+      "type": "integer"
+    }
+  },
+  "bill": {
+    "period": {
+      "rule": "monthly",
+      "start_day": "$input.bill_start_day"
+    },
+    "total": {
+      "kind": "sum",
+      "of": {
+        "energy": {
+          "kind": "energy_by_band",
+          "round_bands": true
+        },
+        "standing": {
+          "kind": "per_day"
+        }
+      }
+    }
+  },
+  "units": {
+    "gas": {
+      "display": "GJ"
+    }
+  },
+  "providers": {}
+}

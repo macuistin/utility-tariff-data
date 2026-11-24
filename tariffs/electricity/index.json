@@ -143,10 +143,10 @@
     },
     "GB": {
       "availability": "available",
-      "checksum": "sha256:547f1ec3a571dcf4b07322ed35cf2be05b079e297c5e896fe2fb8185244f5ee1",
+      "checksum": "sha256:a3013d5aab0acccd335a7223cd9e7aa63c3112cba8ec456d4a6c2e352f14ce73",
       "path": "gb/index.json",
       "providers": 10,
-      "tariffs": 52
+      "tariffs": 64
     },
     "IE": {
       "availability": "available",

@@ -286,20 +286,44 @@
         },
         "edf-simply-fixed-apr2028-v4": {
           "name": "Simply Fixed Apr28v4",
+          "replaced_by": "edf/edf-simply-fixed-apr2028-v5",
           "revisions": {
             "1": {
-              "checksum": "sha256:a9b3b533b0559b9242cac60401aa9729832f9777512dd12540ed8b7d680c1f44",
+              "checksum": "sha256:eb041e74f7e432756bb326b08d5225c7d8f0c35fcb9ff439a700302ae06c8dd4",
               "effective_from": "2026-11-24",
+              "effective_to": "2026-11-25"
+            }
+          }
+        },
+        "edf-simply-fixed-apr2028-v5": {
+          "name": "Simply Fixed Apr28v5",
+          "replaces": "edf/edf-simply-fixed-apr2028-v4",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:2d451ec5970827eb7d369757a9e3acf33abd88d2d094ea9d584bdf7351edf5ef",
+              "effective_from": "2026-11-25",
               "effective_to": null
             }
           }
         },
         "edf-simply-fixed-nov2027-v5": {
           "name": "Simply Fixed Nov27v5",
+          "replaced_by": "edf/edf-simply-fixed-nov2027-v6",
           "revisions": {
             "1": {
-              "checksum": "sha256:0537df209fe8e1fa367bc7d49bd91de3c35720ff3635a82236eff32c38f1a252",
+              "checksum": "sha256:f19b4fbadd1c456e18fd1e75c95b534b714675e86e75f19e09c4c5683f65b211",
               "effective_from": "2026-11-24",
+              "effective_to": "2026-11-25"
+            }
+          }
+        },
+        "edf-simply-fixed-nov2027-v6": {
+          "name": "Simply Fixed Nov27v6",
+          "replaces": "edf/edf-simply-fixed-nov2027-v5",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:c219166073af2d8c577ee13081e83d41abb3d9dc74348e3cde76d8f9dbfa0ee9",
+              "effective_from": "2026-11-25",
               "effective_to": null
             }
           }
@@ -321,10 +345,22 @@
       "tariffs": {
         "eon-next-next-direct-fixed-18m-v2": {
           "name": "Next Direct Fixed 18m v2",
+          "replaced_by": "eon-next/eon-next-next-direct-fixed-18m-v3",
           "revisions": {
             "1": {
-              "checksum": "sha256:955d276eeee67373f4149fdc4aa687c5627623c6308c97480eedf2984f429d1f",
+              "checksum": "sha256:1ec8d5a7a9bf8d95f256d4b7a0929ee17a20b6279a78de3d5d66bb64eeb020c2",
               "effective_from": "2026-11-24",
+              "effective_to": "2026-11-25"
+            }
+          }
+        },
+        "eon-next-next-direct-fixed-18m-v3": {
+          "name": "Next Direct Fixed 18m v3",
+          "replaces": "eon-next/eon-next-next-direct-fixed-18m-v2",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:e15b7cf64d5dd9f9bc96f9a48966a6fc7e431c5ce02f322829832cd0800bb53c",
+              "effective_from": "2026-11-25",
               "effective_to": null
             }
           }
@@ -353,20 +389,44 @@
         },
         "eon-next-next-fixed-12m-v172": {
           "name": "Next Fixed 12m v172",
+          "replaced_by": "eon-next/eon-next-next-fixed-12m-v173",
           "revisions": {
             "1": {
-              "checksum": "sha256:dcfd2afdeb763d83b048e3382cae6fd9767fb604a57a23568a251b8fc8e9f246",
+              "checksum": "sha256:5e467de6bd5b24a0009ab855f0941ff3fde96c8acf320b568f5f91b74c31cfe6",
               "effective_from": "2026-11-23",
+              "effective_to": "2026-11-24"
+            }
+          }
+        },
+        "eon-next-next-fixed-12m-v173": {
+          "name": "Next Fixed 12m v173",
+          "replaces": "eon-next/eon-next-next-fixed-12m-v172",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:71da8435bbca39e648668636baf45e7e29065fd9d7c548385c9cdb06cac17deb",
+              "effective_from": "2026-11-24",
               "effective_to": null
             }
           }
         },
         "eon-next-next-fixed-24m-v87": {
           "name": "Next Fixed 24m v87",
+          "replaced_by": "eon-next/eon-next-next-fixed-24m-v88",
           "revisions": {
             "1": {
-              "checksum": "sha256:a1fc2c11e5511e1e77327e15f0e31728cd7bfd8e096cc275106070bead7f4731",
+              "checksum": "sha256:06ed02fa1b4d3177305a103f8b35ed04d2e15fbeb32712c096b0c0c28fbd5b06",
               "effective_from": "2026-11-23",
+              "effective_to": "2026-11-24"
+            }
+          }
+        },
+        "eon-next-next-fixed-24m-v88": {
+          "name": "Next Fixed 24m v88",
+          "replaces": "eon-next/eon-next-next-fixed-24m-v87",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:3428a47b1c624f875e2c802a138744449a8479fca4e1d708e80ed9e5870c633a",
+              "effective_from": "2026-11-24",
               "effective_to": null
             }
           }
@@ -394,30 +454,66 @@
         },
         "eon-next-next-lower-daily-fixed-24m-v87": {
           "name": "Next Lower Daily Fixed 24m v87",
+          "replaced_by": "eon-next/eon-next-next-lower-daily-fixed-24m-v88",
           "revisions": {
             "1": {
-              "checksum": "sha256:e1f7f177e36e89322a4a1587a9ef38da3f1b6a39acf234b41f3a4eaa0cfdf84c",
+              "checksum": "sha256:ddd0ca86ba525e1249b7752860575fedece55d2c441f217cb8e316e25c024844",
               "effective_from": "2026-11-23",
+              "effective_to": "2026-11-24"
+            }
+          }
+        },
+        "eon-next-next-lower-daily-fixed-24m-v88": {
+          "name": "Next Lower Daily Fixed 24m v88",
+          "replaces": "eon-next/eon-next-next-lower-daily-fixed-24m-v87",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:8c09d92437c2fc4908bcbc07664a743299c1cc01b3885614a0eb6e2f5986ceca",
+              "effective_from": "2026-11-24",
               "effective_to": null
             }
           }
         },
         "eon-next-next-secure-fixed-12m-v106": {
           "name": "Next Secure Fixed 12m v106",
+          "replaced_by": "eon-next/eon-next-next-secure-fixed-12m-v107",
           "revisions": {
             "1": {
-              "checksum": "sha256:0107c61d255b9b6e1dbb894ab8274b58a292c999eaee3e8e13aee7f76b88f0ca",
+              "checksum": "sha256:ceb039d75b5eea5bfb712d85e7724994049f27e003168d97b6a1afac87e0c30e",
               "effective_from": "2026-11-23",
+              "effective_to": "2026-11-24"
+            }
+          }
+        },
+        "eon-next-next-secure-fixed-12m-v107": {
+          "name": "Next Secure Fixed 12m v107",
+          "replaces": "eon-next/eon-next-next-secure-fixed-12m-v106",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:773e568fdc4074f9c556f21ccd0acd977e35d665583bef0b8826a109312b3f5b",
+              "effective_from": "2026-11-24",
               "effective_to": null
             }
           }
         },
         "eon-next-next-secure-fixed-24m-v61": {
           "name": "Next Secure Fixed 24m v61",
+          "replaced_by": "eon-next/eon-next-next-secure-fixed-24m-v62",
           "revisions": {
             "1": {
-              "checksum": "sha256:cb677984ab8a691e485ab108cc162c3d2de8cde04d36f5524ae45ee3f9c071de",
+              "checksum": "sha256:3787cf26ff9d9a6794145371ca29364888ee2e7f6b2f4a6cfff1726e1c4283fa",
               "effective_from": "2026-11-23",
+              "effective_to": "2026-11-24"
+            }
+          }
+        },
+        "eon-next-next-secure-fixed-24m-v62": {
+          "name": "Next Secure Fixed 24m v62",
+          "replaces": "eon-next/eon-next-next-secure-fixed-24m-v61",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:01d048ab223b645a2c9cb1ecc378bffd6f3189b9853e4b71816d0c80d99fe454",
+              "effective_from": "2026-11-24",
               "effective_to": null
             }
           }
@@ -453,6 +549,16 @@
             "1": {
               "checksum": "sha256:319786a24b8c050bd5dfca2db682e9186bff4f1596c18b2043c9aec60bf4b6a7",
               "effective_from": "2026-10-30",
+              "effective_to": null
+            }
+          }
+        },
+        "ev-charge-fix-18m-dec26": {
+          "name": "Good Energy EV Charge Fix 18m Dec26",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:c0707643089e871fe2308ae62d961fe5e8ee04d669e5f1a68bc18364c0934892",
+              "effective_from": "2026-11-25",
               "effective_to": null
             }
           }
@@ -510,13 +616,25 @@
             }
           }
         },
-        "zapmap-exclusive-ev-bundle-nov26": {
-          "name": "Zapmap Exclusive EV Bundle Nov26",
+        "zapmap-exclusive-ev-bundle-dec26": {
+          "name": "Zapmap Exclusive EV Bundle Dec26",
+          "replaces": "good-energy/zapmap-exclusive-ev-bundle-nov26",
           "revisions": {
             "1": {
-              "checksum": "sha256:62f6a5175f2a29489166f35ed39fb2c7e9f93a78c3840aa8ede6520ca99b9662",
-              "effective_from": "2026-10-30",
+              "checksum": "sha256:81c6f6320f5be2ebf3d707655e864a111466b06fe33f597b661af90b75d5356f",
+              "effective_from": "2026-11-25",
               "effective_to": null
+            }
+          }
+        },
+        "zapmap-exclusive-ev-bundle-nov26": {
+          "name": "Zapmap Exclusive EV Bundle Nov26",
+          "replaced_by": "good-energy/zapmap-exclusive-ev-bundle-dec26",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:84fd460b72d7f760657c1844cee69ac4f8e4962142d27db57fa0f2f852b3728c",
+              "effective_from": "2026-10-30",
+              "effective_to": "2026-11-25"
             }
           }
         }
@@ -703,20 +821,44 @@
       "tariffs": {
         "sainsburys-energy-fix-and-save-12m-v44": {
           "name": "Sainsburys Energy Fix and Save 12m v44",
+          "replaced_by": "sainsburys-energy/sainsburys-energy-fix-and-save-12m-v45",
           "revisions": {
             "1": {
-              "checksum": "sha256:71b85aebaa87db5758957aaa6cbb9e4596b155435bd57000082cc6c3276b9afb",
+              "checksum": "sha256:84a3f5a237bbd3152a4993057397737c8b6f9e137e5b526519b811a7f4d83373",
               "effective_from": "2026-11-23",
+              "effective_to": "2026-11-24"
+            }
+          }
+        },
+        "sainsburys-energy-fix-and-save-12m-v45": {
+          "name": "Sainsburys Energy Fix and Save 12m v45",
+          "replaces": "sainsburys-energy/sainsburys-energy-fix-and-save-12m-v44",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:79cf0ec1a231853ace6ecf56e111d4d3418fd9986c0dfefc4cbf5a6df2e792a6",
+              "effective_from": "2026-11-24",
               "effective_to": null
             }
           }
         },
         "sainsburys-fix-and-reward-fixed-24m-v63": {
           "name": "Sainsburys Fix and Reward Fixed 24m v63",
+          "replaced_by": "sainsburys-energy/sainsburys-fix-and-reward-fixed-24m-v64",
           "revisions": {
             "1": {
-              "checksum": "sha256:c7bc753f336a0cc354938647259547e1fd5a796055e88df94a60dcd26962383c",
+              "checksum": "sha256:198722f7f0f589d57f5b9655193684f32b98c0820cbf169aeb0ddef9e20bd076",
               "effective_from": "2026-11-23",
+              "effective_to": "2026-11-24"
+            }
+          }
+        },
+        "sainsburys-fix-and-reward-fixed-24m-v64": {
+          "name": "Sainsburys Fix and Reward Fixed 24m v64",
+          "replaces": "sainsburys-energy/sainsburys-fix-and-reward-fixed-24m-v63",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:c2f9c0cb7bef6491570b2b948606d780bcfa98529301e87b1889f9c8e8da2767",
+              "effective_from": "2026-11-24",
               "effective_to": null
             }
           }

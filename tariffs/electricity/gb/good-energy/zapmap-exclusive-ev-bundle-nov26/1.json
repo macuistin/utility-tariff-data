@@ -3,10 +3,12 @@
   "name": "Zapmap Exclusive EV Bundle Nov26",
   "provider": "Good Energy",
   "effective_from": "2026-10-30",
+  "effective_to": "2026-11-25",
   "source": {
     "id": "good-energy-gb",
     "url": "https://www.goodenergy.co.uk/wp-content/uploads/2026/10/Zapmap-Exclusive-EV-Bundle-Nov26.pdf"
   },
+  "replaced_by": "good-energy/zapmap-exclusive-ev-bundle-dec26",
   "bands": [
     {
       "name": "Peak"

@@ -3,10 +3,12 @@
   "name": "Sainsburys Fix and Reward Fixed 24m v63",
   "provider": "Sainsbury's Energy",
   "effective_from": "2026-11-23",
+  "effective_to": "2026-11-24",
   "source": {
     "id": "kraken-import-gb",
     "url": "https://api.eonnext-kraken.energy/v1/products/SAINSBURYS_FIX_AND_REWARD_FIXED_24M_V63/"
   },
+  "replaced_by": "sainsburys-energy/sainsburys-fix-and-reward-fixed-24m-v64",
   "bands": [
     {
       "name": "Single rate"

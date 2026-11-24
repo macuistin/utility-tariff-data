@@ -1,0 +1,52 @@
+{
+  "schema": 1,
+  "country": "ES",
+  "currency": "EUR",
+  "timezone": "Europe/Madrid",
+  "vat_percent": "21",
+  "availability": "partial",
+  "reason": "The regulated household gas tariff (TUR) for the three groups by yearly use, from the CNMC comparator, with VAT and the special tax on hydrocarbons per kWh. The fixed term is per customer per month. The meter rental is not held, so a bill is short of it. Gas offers on the free market are not held, because the comparator gives their prices as free text only.",
+  "reason_local": {
+    "language": "es",
+    "text": "Se incluye la tarifa de último recurso de gas (TUR) para los tres grupos por consumo anual, del comparador de la CNMC, con el IVA y el impuesto especial sobre hidrocarburos por kWh. El término fijo es por cliente y mes. No se guarda el alquiler del contador, así que la factura no lo incluye. No se incluyen las ofertas de gas del mercado libre, porque el comparador solo da sus precios como texto."
+  },
+  "inputs": {
+    "bill_start_day": {
+      "default": 1,
+      "max": 28,
+      "min": 1,
+      "type": "integer"
+    }
+  },
+  "bill": {
+    "period": {
+      "rule": "monthly",
+      "start_day": "$input.bill_start_day"
+    },
+    "total": {
+      "kind": "tax",
+      "mode": "added",
+      "name": "IVA",
+      "of": {
+        "kind": "sum",
+        "of": {
+          "energy": {
+            "kind": "energy_by_band",
+            "round_bands": true
+          },
+          "standing": {
+            "kind": "per_day"
+          }
+        }
+      },
+      "percent": "$country.vat_percent"
+    }
+  },
+  "hydrocarbon_tax": "0.00234",
+  "units": {
+    "gas": {
+      "display": "kWh"
+    }
+  },
+  "providers": {}
+}

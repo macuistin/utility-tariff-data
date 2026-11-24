@@ -1,0 +1,130 @@
+{
+  "schema": 1,
+  "name": "Next Secure Fixed 12m v107",
+  "provider": "E.ON Next",
+  "effective_from": "2026-11-24",
+  "source": {
+    "id": "kraken-import-gb",
+    "url": "https://api.eonnext-kraken.energy/v1/products/NEXT_SECURE_FIXED_12M_V107/"
+  },
+  "replaces": "eon-next/eon-next-next-secure-fixed-12m-v106",
+  "bands": [
+    {
+      "name": "Single rate"
+    }
+  ],
+  "areas": {
+    "a": {
+      "label": "Eastern England (A)",
+      "rates": {
+        "Single rate": "0.28868"
+      },
+      "region": "GSP-A",
+      "standing": "0.60621"
+    },
+    "b": {
+      "label": "East Midlands (B)",
+      "rates": {
+        "Single rate": "0.28006"
+      },
+      "region": "GSP-B",
+      "standing": "0.60046"
+    },
+    "c": {
+      "label": "London (C)",
+      "rates": {
+        "Single rate": "0.28654"
+      },
+      "region": "GSP-C",
+      "standing": "0.50509"
+    },
+    "d": {
+      "label": "Merseyside and North Wales (D)",
+      "rates": {
+        "Single rate": "0.2942"
+      },
+      "region": "GSP-D",
+      "standing": "0.76723"
+    },
+    "e": {
+      "label": "West Midlands (E)",
+      "rates": {
+        "Single rate": "0.27956"
+      },
+      "region": "GSP-E",
+      "standing": "0.65994"
+    },
+    "f": {
+      "label": "North East England (F)",
+      "rates": {
+        "Single rate": "0.2828"
+      },
+      "region": "GSP-F",
+      "standing": "0.70608"
+    },
+    "g": {
+      "label": "North West England (G)",
+      "rates": {
+        "Single rate": "0.29529"
+      },
+      "region": "GSP-G",
+      "standing": "0.53731"
+    },
+    "h": {
+      "label": "Southern England (H)",
+      "rates": {
+        "Single rate": "0.29193"
+      },
+      "region": "GSP-H",
+      "standing": "0.56413"
+    },
+    "j": {
+      "label": "South East England (J)",
+      "rates": {
+        "Single rate": "0.29268"
+      },
+      "region": "GSP-J",
+      "standing": "0.61186"
+    },
+    "k": {
+      "label": "South Wales (K)",
+      "rates": {
+        "Single rate": "0.29123"
+      },
+      "region": "GSP-K",
+      "standing": "0.63928"
+    },
+    "l": {
+      "label": "South Western England (L)",
+      "rates": {
+        "Single rate": "0.29567"
+      },
+      "region": "GSP-L",
+      "standing": "0.64553"
+    },
+    "m": {
+      "label": "Yorkshire (M)",
+      "rates": {
+        "Single rate": "0.27512"
+      },
+      "region": "GSP-M",
+      "standing": "0.70671"
+    },
+    "n": {
+      "label": "Southern Scotland (N)",
+      "rates": {
+        "Single rate": "0.28124"
+      },
+      "region": "GSP-N",
+      "standing": "0.70191"
+    },
+    "p": {
+      "label": "Northern Scotland (P)",
+      "rates": {
+        "Single rate": "0.3005"
+      },
+      "region": "GSP-P",
+      "standing": "0.63665"
+    }
+  }
+}
