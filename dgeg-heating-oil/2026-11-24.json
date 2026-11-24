@@ -1,0 +1,1312 @@
+{
+  "schema": 1,
+  "service": "heating-oil",
+  "source": "dgeg-heating-oil",
+  "fuel": "heating gas oil (gas\u00f3leo de aquecimento)",
+  "currency": "EUR",
+  "unit": "l",
+  "price_date": "2026-11-24",
+  "fetched": "2026-11-24",
+  "source_url": "https://precoscombustiveis.dgeg.gov.pt/",
+  "credit": "Source: Dire\u00e7\u00e3o-Geral de Energia e Geologia (DGEG), precoscombustiveis.dgeg.gov.pt. Each price is as its seller last updated it, at the date and time given with it.",
+  "rows": [
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Beja",
+        "area": "Alvito",
+        "supplier": "Manuel & Jos\u00e9 de Carvalho,Lda"
+      },
+      "price": "2.112",
+      "updated": "2026-11-23T07:40"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Porto",
+        "area": "Amarante",
+        "supplier": "POSTO DE FREGIM"
+      },
+      "price": "2.085",
+      "updated": "2026-11-23T11:10"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Porto",
+        "area": "Amarante",
+        "supplier": "Posto Vila Caiz"
+      },
+      "price": "2.085",
+      "updated": "2026-11-23T11:15"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Aveiro",
+        "area": "Anadia",
+        "supplier": "ALVES BANDEIRA Vilarinho do Bairro"
+      },
+      "price": "2.144",
+      "updated": "2026-11-23T11:00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Coimbra",
+        "area": "Arganil",
+        "supplier": "Cepsa Coja"
+      },
+      "price": "2.015",
+      "updated": "2026-11-23T09:15"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Coimbra",
+        "area": "Arganil",
+        "supplier": "MOEVE Arganil II (CBR/ARG) - GOMAPE de Ant\u00f3nio M\u00e1rio Dias Marques"
+      },
+      "price": "2.038",
+      "updated": "2026-11-24T09:50"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Braga",
+        "area": "Barcelos",
+        "supplier": "CASP - \u00c1REA DE SERVI\u00c7O PORTAS DO C\u00c1VADO, LDA."
+      },
+      "price": "2.022",
+      "updated": "2026-11-24T00:00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Braga",
+        "area": "Barcelos",
+        "supplier": "PA Coop de Vila Boa"
+      },
+      "price": "2.067",
+      "updated": "2026-11-23T08:25"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Braga",
+        "area": "Barcelos",
+        "supplier": "PA Feitos -Barcelos"
+      },
+      "price": "1.972",
+      "updated": "2026-11-23T14:55"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Braga",
+        "area": "Barcelos",
+        "supplier": "Petrolagoinha Com\u00e9rcio de Combust\u00edveis e Lubrificantes, Lda."
+      },
+      "price": "2.024",
+      "updated": "2026-11-16T22:00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Leiria",
+        "area": "Batalha",
+        "supplier": "ALVES BANDEIRA Vale de Our\u00e9m"
+      },
+      "price": "2.144",
+      "updated": "2026-11-23T11:00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Vila Real",
+        "area": "Boticas",
+        "supplier": "GALP Boticas"
+      },
+      "price": "2.114",
+      "updated": "2026-11-23T07:00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Bragan\u00e7a",
+        "area": "Bragan\u00e7a",
+        "supplier": "AUTO - QUEIROGAL - PA Galp Santa Combas de Rossas"
+      },
+      "price": "2.114",
+      "updated": "2026-11-24T00:05"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Bragan\u00e7a",
+        "area": "Bragan\u00e7a",
+        "supplier": "GASPE Bragan\u00e7a"
+      },
+      "price": "2.112",
+      "updated": "2026-11-23T11:15"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Bragan\u00e7a",
+        "area": "Bragan\u00e7a",
+        "supplier": "PETROIZEDA"
+      },
+      "price": "2.100",
+      "updated": "2026-11-23T10:05"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Braga",
+        "area": "Cabeceiras de Basto",
+        "supplier": "PETRO BASTO ENERGIA -  Cabeceira de Basto"
+      },
+      "price": "2.090",
+      "updated": "2026-11-23T14:35"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Coimbra",
+        "area": "Cantanhede",
+        "supplier": "Irm\u00e3os Teixeira, Lda. (Cadima) - PA Alves Bandeira Cadima"
+      },
+      "price": "2.150",
+      "updated": "2026-11-23T15:00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Coimbra",
+        "area": "Cantanhede",
+        "supplier": "PA Corticeiro de Cima - Apolin\u00e1rio & Filho"
+      },
+      "price": "2.000",
+      "updated": "2026-11-23T20:30"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Coimbra",
+        "area": "Cantanhede",
+        "supplier": "Posto de Combust\u00edveis - Febres"
+      },
+      "price": "2.199",
+      "updated": "2026-11-23T09:25"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Castelo Branco",
+        "area": "Castelo Branco",
+        "supplier": "Jos\u00e9 Louren\u00e7o e Filhos Lda. - CASTELO BRANCO"
+      },
+      "price": "2.032",
+      "updated": "2026-11-23T09:10"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Viseu",
+        "area": "Castro Daire",
+        "supplier": "GALP Castro Daire - LDL Combust\u00edveis, Lda"
+      },
+      "price": "2.112",
+      "updated": "2026-11-23T16:40"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Viseu",
+        "area": "Castro Daire",
+        "supplier": "PA Alva"
+      },
+      "price": "2.067",
+      "updated": "2026-11-23T18:20"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Santar\u00e9m",
+        "area": "Chamusca",
+        "supplier": "ALVES BANDEIRA Carregueira"
+      },
+      "price": "2.144",
+      "updated": "2026-11-23T11:00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Vila Real",
+        "area": "Chaves",
+        "supplier": "CEPSA  Chaves - ( Av da Galiza )"
+      },
+      "price": "2.015",
+      "updated": "2026-11-20T15:10"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Vila Real",
+        "area": "Chaves",
+        "supplier": "GALP MONTE FAISCA"
+      },
+      "price": "2.050",
+      "updated": "2026-11-23T11:50"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Castelo Branco",
+        "area": "Covilh\u00e3",
+        "supplier": "PA  Casegas"
+      },
+      "price": "2.080",
+      "updated": "2026-11-23T12:10"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Braga",
+        "area": "Fafe",
+        "supplier": "PETRO BASTO ENERGIA - Fafe"
+      },
+      "price": "2.090",
+      "updated": "2026-11-23T12:20"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Coimbra",
+        "area": "Figueira da Foz",
+        "supplier": "ALVES BANDEIRA Alhadas"
+      },
+      "price": "2.144",
+      "updated": "2026-11-23T11:00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Coimbra",
+        "area": "Figueira da Foz",
+        "supplier": "FERNANDO AZENHA"
+      },
+      "price": "2.144",
+      "updated": "2026-11-24T00:00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Castelo Branco",
+        "area": "Fund\u00e3o",
+        "supplier": "FREITAS Silvares"
+      },
+      "price": "2.110",
+      "updated": "2026-11-23T09:35"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Castelo Branco",
+        "area": "Fund\u00e3o",
+        "supplier": "REPSOL Escarigo"
+      },
+      "price": "2.089",
+      "updated": "2026-11-23T00:00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Braga",
+        "area": "Guimar\u00e3es",
+        "supplier": "BP- VERMIL"
+      },
+      "price": "2.137",
+      "updated": "2026-11-16T18:10"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Braga",
+        "area": "Guimar\u00e3es",
+        "supplier": "Combust\u00edveis Polvoreira, Lda"
+      },
+      "price": "2.112",
+      "updated": "2026-11-23T20:10"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Braga",
+        "area": "Guimar\u00e3es",
+        "supplier": "PETROBRITO 1"
+      },
+      "price": "2.040",
+      "updated": "2026-11-23T20:30"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Braga",
+        "area": "Guimar\u00e3es",
+        "supplier": "TFGEST Guimar\u00e3es"
+      },
+      "price": "2.112",
+      "updated": "2026-11-24T07:00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Leiria",
+        "area": "Leiria",
+        "supplier": "AB Fonseca Combustiveis - Produtos BP"
+      },
+      "price": "1.999",
+      "updated": "2026-11-22T22:00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Leiria",
+        "area": "Leiria",
+        "supplier": "ALVES BANDEIRA Cortes"
+      },
+      "price": "2.144",
+      "updated": "2026-11-23T11:00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Leiria",
+        "area": "Leiria",
+        "supplier": "Bp Confraria - Leiria"
+      },
+      "price": "1.990",
+      "updated": "2026-11-23T09:40"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Leiria",
+        "area": "Leiria",
+        "supplier": "DIGUIPNEUS, LDA - Cardosos"
+      },
+      "price": "1.930",
+      "updated": "2026-11-24T09:25"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Leiria",
+        "area": "Leiria",
+        "supplier": "Galp- Rua da Base A\u00e9rea n.\u00ba 365 (Monte Real) GUI Monte Real"
+      },
+      "price": "2.080",
+      "updated": "2026-11-23T09:45"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Leiria",
+        "area": "Leiria",
+        "supplier": "NADP Bajouca"
+      },
+      "price": "2.112",
+      "updated": "2026-11-23T08:50"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Leiria",
+        "area": "Leiria",
+        "supplier": "P A COLMEIAS"
+      },
+      "price": "2.250",
+      "updated": "2026-11-23T00:00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Porto",
+        "area": "Lousada",
+        "supplier": "Petro S\u00e3o Gon\u00e7alo"
+      },
+      "price": "2.112",
+      "updated": "2026-11-23T20:30"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Porto",
+        "area": "Lousada",
+        "supplier": "Petro- C.C. Carro Cheio,Supermercado,Lda."
+      },
+      "price": "2.112",
+      "updated": "2026-11-23T19:15"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Guarda",
+        "area": "Manteigas",
+        "supplier": "PASV -  Senhora dos Verdes"
+      },
+      "price": "2.116",
+      "updated": "2026-11-23T13:00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Porto",
+        "area": "Marco de Canaveses",
+        "supplier": "Carcouto Combustiveis Lda / FREITAS Pa\u00e7os de Gaiolo"
+      },
+      "price": "2.112",
+      "updated": "2026-11-23T08:00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Aveiro",
+        "area": "Mealhada",
+        "supplier": "ALVES BANDEIRA Mealhada"
+      },
+      "price": "2.144",
+      "updated": "2026-11-23T11:00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Guarda",
+        "area": "Meda",
+        "supplier": "PA ABEL CANADINHAS Meda"
+      },
+      "price": "2.200",
+      "updated": "2026-11-24T00:00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Viana do Castelo",
+        "area": "Melga\u00e7o",
+        "supplier": "CEPSA Melga\u00e7o (Roussas)"
+      },
+      "price": "2.200",
+      "updated": "2026-11-23T00:00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Viana do Castelo",
+        "area": "Melga\u00e7o",
+        "supplier": "Manuel Artur Rodrigues"
+      },
+      "price": "2.100",
+      "updated": "2026-11-23T10:00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Viana do Castelo",
+        "area": "Melga\u00e7o",
+        "supplier": "PETRO  LAMAS"
+      },
+      "price": "2.100",
+      "updated": "2026-11-23T10:20"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Coimbra",
+        "area": "Mira",
+        "supplier": "Fernando Oliveira Inocencio, Unipessoal Lda."
+      },
+      "price": "1.940",
+      "updated": "2026-11-23T09:00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Coimbra",
+        "area": "Miranda do Corvo",
+        "supplier": "Gasodue\u00e7a - PA Gen\u00e9rico Me\u00e3s"
+      },
+      "price": "1.990",
+      "updated": "2026-11-23T22:05"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Bragan\u00e7a",
+        "area": "Miranda do Douro",
+        "supplier": "Posto Galp Malhadas"
+      },
+      "price": "2.099",
+      "updated": "2026-11-23T13:40"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Bragan\u00e7a",
+        "area": "Mirandela",
+        "supplier": "Posto de Abastecimento Bou\u00e7a - Mirandela"
+      },
+      "price": "2.089",
+      "updated": "2026-11-23T23:50"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Viseu",
+        "area": "Moimenta da Beira",
+        "supplier": "PA Alvite (Moimenta da Beira)"
+      },
+      "price": "2.100",
+      "updated": "2026-11-23T10:05"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Viseu",
+        "area": "Moimenta da Beira",
+        "supplier": "PETRODEMO"
+      },
+      "price": "2.134",
+      "updated": "2026-11-16T18:45"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Viana do Castelo",
+        "area": "Mon\u00e7\u00e3o",
+        "supplier": "PA Mazedo - FG Combust\u00edveis"
+      },
+      "price": "1.960",
+      "updated": "2026-11-23T14:25"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Vila Real",
+        "area": "Montalegre",
+        "supplier": "PA Ch\u00e3 / GASPE Penedones"
+      },
+      "price": "2.167",
+      "updated": "2026-11-16T11:40"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Beja",
+        "area": "Odemira",
+        "supplier": "Flor de Campilhas"
+      },
+      "price": "2.056",
+      "updated": "2026-11-24T07:35"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Aveiro",
+        "area": "Oliveira de Azem\u00e9is",
+        "supplier": "TFGest - Loureiro"
+      },
+      "price": "2.100",
+      "updated": "2026-11-24T06:00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Viseu",
+        "area": "Oliveira de Frades",
+        "supplier": "MOTOPAL - PAULO LOUREN\u00c7O, UNIP,LDA"
+      },
+      "price": "2.144",
+      "updated": "2026-11-23T14:45"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Viseu",
+        "area": "Oliveira de Frades",
+        "supplier": "Somelgas-Sociedade de Electrodomesticos Gas e Energias, Lda"
+      },
+      "price": "2.100",
+      "updated": "2026-11-23T09:00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Coimbra",
+        "area": "Oliveira do Hospital",
+        "supplier": "ANTONIO & LUIS MATIAS, LDA"
+      },
+      "price": "2.129",
+      "updated": "2026-11-23T01:15"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Santar\u00e9m",
+        "area": "Our\u00e9m",
+        "supplier": "ALVES BANDEIRA Rio de Couros"
+      },
+      "price": "2.144",
+      "updated": "2026-11-23T11:00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Santar\u00e9m",
+        "area": "Our\u00e9m",
+        "supplier": "PA Matas AUTO PO\u00c7AS"
+      },
+      "price": "1.870",
+      "updated": "2026-11-24T09:45"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Santar\u00e9m",
+        "area": "Our\u00e9m",
+        "supplier": "PETROLIVAL"
+      },
+      "price": "1.950",
+      "updated": "2026-11-23T16:25"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Santar\u00e9m",
+        "area": "Our\u00e9m",
+        "supplier": "VIEIRA DE SOUSA E SIMOES, LDA"
+      },
+      "price": "2.000",
+      "updated": "2026-11-23T11:45"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Santar\u00e9m",
+        "area": "Our\u00e9m",
+        "supplier": "Valente Rosa, Lda"
+      },
+      "price": "1.950",
+      "updated": "2026-11-17T11:35"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Aveiro",
+        "area": "Ovar",
+        "supplier": "Petrovaz - S. Vicente"
+      },
+      "price": "1.900",
+      "updated": "2026-11-23T15:00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Porto",
+        "area": "P\u00f3voa de Varzim",
+        "supplier": "LIMA & LIMA, Lda"
+      },
+      "price": "2.112",
+      "updated": "2026-11-23T16:00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Porto",
+        "area": "Pa\u00e7os de Ferreira",
+        "supplier": "PAGRIPACENSE"
+      },
+      "price": "2.067",
+      "updated": "2026-11-17T16:10"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Viana do Castelo",
+        "area": "Paredes de Coura",
+        "supplier": "Gepoil | Prio Paredes de Coura"
+      },
+      "price": "2.079",
+      "updated": "2026-11-23T11:05"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Porto",
+        "area": "Penafiel",
+        "supplier": "CEPSA CABE\u00c7A SANTA"
+      },
+      "price": "1.965",
+      "updated": "2026-11-23T00:00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Porto",
+        "area": "Penafiel",
+        "supplier": "Gestroil - Penafiel"
+      },
+      "price": "1.905",
+      "updated": "2026-11-23T11:50"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Porto",
+        "area": "Penafiel",
+        "supplier": "js e sf"
+      },
+      "price": "2.110",
+      "updated": "2026-11-23T13:00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Leiria",
+        "area": "Pombal",
+        "supplier": "AB Louri\u00e7al"
+      },
+      "price": "2.144",
+      "updated": "2026-11-23T14:10"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Leiria",
+        "area": "Pombal",
+        "supplier": "ALVES BANDEIRA Carri\u00e7o"
+      },
+      "price": "2.144",
+      "updated": "2026-11-23T11:00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Leiria",
+        "area": "Pombal",
+        "supplier": "COPOMBAL,CRL - PA Repsol Pombal"
+      },
+      "price": "2.200",
+      "updated": "2026-11-23T09:30"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Leiria",
+        "area": "Pombal",
+        "supplier": "PA - Petromoderno"
+      },
+      "price": "1.721",
+      "updated": "2026-11-23T00:00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Castelo Branco",
+        "area": "Proen\u00e7a-a-Nova",
+        "supplier": "Jos\u00e9 Louren\u00e7o e Filhos Lda - Proen\u00e7a-a-Nova"
+      },
+      "price": "2.112",
+      "updated": "2026-11-23T09:10"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Vila Real",
+        "area": "Ribeira de Pena",
+        "supplier": "PETROCERVA, LDA"
+      },
+      "price": "2.060",
+      "updated": "2026-11-24T11:55"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Santar\u00e9m",
+        "area": "Rio Maior",
+        "supplier": "ALVES BANDEIRA Arrouquelas"
+      },
+      "price": "2.144",
+      "updated": "2026-11-23T11:00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Viseu",
+        "area": "S\u00e1t\u00e3o",
+        "supplier": "Barreirinho - S\u00e1t\u00e3o"
+      },
+      "price": "2.049",
+      "updated": "2026-11-23T14:50"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Viseu",
+        "area": "S\u00e1t\u00e3o",
+        "supplier": "PETROLEITAO"
+      },
+      "price": "2.139",
+      "updated": "2026-11-24T09:45"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Aveiro",
+        "area": "S\u00e3o Jo\u00e3o da Madeira",
+        "supplier": "PA PETROZONA S\u00e3o Jo\u00e3o da Madeira"
+      },
+      "price": "2.040",
+      "updated": "2026-11-22T22:50"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Viseu",
+        "area": "S\u00e3o Jo\u00e3o da Pesqueira",
+        "supplier": "Combust\u00edveis 222"
+      },
+      "price": "2.110",
+      "updated": "2026-11-23T08:35"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Viseu",
+        "area": "S\u00e3o Pedro do Sul",
+        "supplier": "PA Gen\u00e9rico - Figueiredo de Alva"
+      },
+      "price": "2.120",
+      "updated": "2026-11-23T18:20"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Vila Real",
+        "area": "Sabrosa",
+        "supplier": "FHS COMBUST\u00cdVEIS, LDA."
+      },
+      "price": "2.150",
+      "updated": "2026-11-23T08:00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Guarda",
+        "area": "Sabugal",
+        "supplier": "CLGF.LDA"
+      },
+      "price": "2.112",
+      "updated": "2026-11-23T08:45"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Aveiro",
+        "area": "Santa Maria da Feira",
+        "supplier": "Petro Lopes de Isidro Sa Lopes Lda"
+      },
+      "price": "2.020",
+      "updated": "2026-11-23T09:15"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Vila Real",
+        "area": "Santa Marta de Penagui\u00e3o",
+        "supplier": "TF GEST MAR\u00c3O"
+      },
+      "price": "2.180",
+      "updated": "2026-11-18T20:00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Santar\u00e9m",
+        "area": "Santar\u00e9m",
+        "supplier": "GASOSILVA"
+      },
+      "price": "2.200",
+      "updated": "2026-11-16T18:15"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Santar\u00e9m",
+        "area": "Santar\u00e9m",
+        "supplier": "PA Feiteira"
+      },
+      "price": "2.215",
+      "updated": "2026-11-23T00:00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Viseu",
+        "area": "Sernancelhe",
+        "supplier": "COMBSANTOS SARZEDA P19"
+      },
+      "price": "2.070",
+      "updated": "2026-11-24T08:10"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Viseu",
+        "area": "Sernancelhe",
+        "supplier": "PA Peroferreiro"
+      },
+      "price": "2.170",
+      "updated": "2026-11-18T17:05"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Viseu",
+        "area": "Tabua\u00e7o",
+        "supplier": "Soeiro Combustiveis"
+      },
+      "price": "2.077",
+      "updated": "2026-11-24T14:45"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Viseu",
+        "area": "Tarouca",
+        "supplier": "PA Tarouca - Dalvares - Posto de Abastecimento Sasa"
+      },
+      "price": "2.069",
+      "updated": "2026-11-23T00:00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Viseu",
+        "area": "Tondela",
+        "supplier": "Posto de Lageosa do D\u00e3o"
+      },
+      "price": "2.094",
+      "updated": "2026-11-23T19:40"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Viseu",
+        "area": "Tondela",
+        "supplier": "SIMAVIA-Vilar de Besteiros"
+      },
+      "price": "1.979",
+      "updated": "2026-11-24T00:00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Guarda",
+        "area": "Trancoso",
+        "supplier": "BP Trancoso"
+      },
+      "price": "2.099",
+      "updated": "2026-11-23T11:00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Guarda",
+        "area": "Trancoso",
+        "supplier": "MF Freches - Redil"
+      },
+      "price": "2.100",
+      "updated": "2026-11-23T19:00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Aveiro",
+        "area": "Vagos",
+        "supplier": "Malhadauto- Combustiveis, Lda"
+      },
+      "price": "2.170",
+      "updated": "2026-11-23T11:20"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Braga",
+        "area": "Vieira do Minho",
+        "supplier": "PAC VALCARCE Salamonde"
+      },
+      "price": "2.094",
+      "updated": "2026-11-24T00:00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Braga",
+        "area": "Vila Nova de Famalic\u00e3o",
+        "supplier": "ALVES BANDEIRA Landim"
+      },
+      "price": "2.144",
+      "updated": "2026-11-23T11:00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Braga",
+        "area": "Vila Nova de Famalic\u00e3o",
+        "supplier": "FREITAS Arnoso (RS Combustiveis)"
+      },
+      "price": "2.012",
+      "updated": "2026-11-23T22:15"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Braga",
+        "area": "Vila Nova de Famalic\u00e3o",
+        "supplier": "G. M. I - VERMOIM- V. N. DE FAMALIC\u00c3O"
+      },
+      "price": "1.944",
+      "updated": "2026-11-24T00:05"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Braga",
+        "area": "Vila Nova de Famalic\u00e3o",
+        "supplier": "PRIO Pousada de Saramagos"
+      },
+      "price": "1.990",
+      "updated": "2026-11-23T00:00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Braga",
+        "area": "Vila Nova de Famalic\u00e3o",
+        "supplier": "TF GEST FRADELOS"
+      },
+      "price": "2.142",
+      "updated": "2026-11-24T07:00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Porto",
+        "area": "Vila Nova de Gaia",
+        "supplier": "ALVES BANDEIRA Olival"
+      },
+      "price": "2.144",
+      "updated": "2026-11-23T11:00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Porto",
+        "area": "Vila Nova de Gaia",
+        "supplier": "CFSJMGE- CRL_GRIJO1"
+      },
+      "price": "2.095",
+      "updated": "2026-11-23T15:55"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Viseu",
+        "area": "Vila Nova de Paiva",
+        "supplier": "Primos Soares & Irm\u00e3os Ld\u00aa"
+      },
+      "price": "1.950",
+      "updated": "2026-11-24T00:00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Vila Real",
+        "area": "Vila Pouca de Aguiar",
+        "supplier": "Coopaguirense"
+      },
+      "price": "2.035",
+      "updated": "2026-11-23T14:35"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Vila Real",
+        "area": "Vila Real",
+        "supplier": "ALVES BANDEIRA Sardoeira"
+      },
+      "price": "2.144",
+      "updated": "2026-11-23T11:00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Braga",
+        "area": "Vila Verde",
+        "supplier": "FREITAS Ribeira do Neiva"
+      },
+      "price": "2.050",
+      "updated": "2026-11-23T09:45"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Viseu",
+        "area": "Viseu",
+        "supplier": "PA  de Calde"
+      },
+      "price": "2.167",
+      "updated": "2026-11-23T19:55"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Aveiro",
+        "area": "\u00c1gueda",
+        "supplier": "PA MOEVE \u00c1GUEDA"
+      },
+      "price": "2.015",
+      "updated": "2026-11-23T00:00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "PT",
+        "region": "Leiria",
+        "area": "\u00d3bidos",
+        "supplier": "ALVES BANDEIRA \u00d3bidos"
+      },
+      "price": "2.144",
+      "updated": "2026-11-23T11:00"
+    }
+  ]
+}

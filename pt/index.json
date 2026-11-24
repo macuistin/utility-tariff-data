@@ -2,6 +2,17 @@
   "schema": 1,
   "country": "PT",
   "sources": {
+    "dgeg-heating-oil": {
+      "fuel": "heating gas oil (gas\u00f3leo de aquecimento)",
+      "currency": "EUR",
+      "latest": "2026-11-24",
+      "weeks": {
+        "2026-11-24": {
+          "path": "dgeg-heating-oil/2026-11-24.json",
+          "checksum": "sha256:b6b835e83912cbdad51ff6d20944283502cbf1da3659fd3f5211b67d4f63524e"
+        }
+      }
+    },
     "eu-weekly-oil-bulletin": {
       "fuel": "heating gas oil, with taxes",
       "currency": "EUR",

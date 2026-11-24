@@ -190,10 +190,11 @@
     "PT": {
       "path": "pt/index.json",
       "sources": [
+        "dgeg-heating-oil",
         "eu-weekly-oil-bulletin"
       ],
-      "latest": "2026-11-16",
-      "checksum": "sha256:a859d072af1df239611399aa401461610302753b8ec918529cb906d3f1dfaf50"
+      "latest": "2026-11-24",
+      "checksum": "sha256:5603500d14481f49bfc7ca0a19a6a32396dd4ce157bea660b080b97a7ac7f880"
     },
     "RO": {
       "path": "ro/index.json",

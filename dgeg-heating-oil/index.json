@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "source": "dgeg-heating-oil",
+  "countries": [
+    "PT"
+  ],
+  "fuel": "heating gas oil (gas\u00f3leo de aquecimento)",
+  "currency": "EUR",
+  "unit": "l",
+  "latest": "2026-11-24",
+  "weeks": {
+    "2026-11-24": "sha256:b6b835e83912cbdad51ff6d20944283502cbf1da3659fd3f5211b67d4f63524e"
+  }
+}
