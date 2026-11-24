@@ -12,6 +12,17 @@
           "checksum": "sha256:5583d8102c983ba79d45b6d60f77c9ebbbd805f6ad15b2e5275acd0fe5c28d59"
         }
       }
+    },
+    "oilprices-ie": {
+      "fuel": "kerosene, 500 litre delivery",
+      "currency": "EUR",
+      "latest": "2026-11-24",
+      "weeks": {
+        "2026-11-24": {
+          "path": "oilprices-ie/2026-11-24.json",
+          "checksum": "sha256:5ec001787d3893bac0448ec1013f061161f85d878fb17cf213f0f856d148c5c5"
+        }
+      }
     }
   }
 }

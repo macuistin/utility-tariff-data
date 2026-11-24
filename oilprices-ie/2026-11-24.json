@@ -1,0 +1,2813 @@
+{
+  "schema": 1,
+  "service": "heating-oil",
+  "source": "oilprices-ie",
+  "fuel": "kerosene, 500 litre delivery",
+  "currency": "EUR",
+  "unit": "l",
+  "price_date": "2026-11-24",
+  "fetched": "2026-11-24",
+  "source_url": "https://www.oilprices.ie/",
+  "credit": "Source: oilprices.ie. Prices are as listed there for a 500 litre delivery of kerosene.",
+  "conversion": {
+    "from_unit": "500 l delivery",
+    "litres_per_unit": "500",
+    "note": "Prices are for a 500 litre delivery, divided by 500 by this store. A larger delivery costs less per litre."
+  },
+  "rows": [
+    {
+      "label": "average",
+      "scope": {
+        "country": "IE",
+        "area": "Carlow"
+      },
+      "price": "1.467000",
+      "source_price": "733.50"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "country": "IE",
+        "area": "Cavan"
+      },
+      "price": "1.470800",
+      "source_price": "735.40"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "country": "IE",
+        "area": "Clare"
+      },
+      "price": "1.472800",
+      "source_price": "736.40"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "country": "IE",
+        "area": "Cork"
+      },
+      "price": "1.466640",
+      "source_price": "733.32"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "country": "IE",
+        "area": "Donegal"
+      },
+      "price": "1.461460",
+      "source_price": "730.73"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "country": "IE",
+        "area": "Dublin"
+      },
+      "price": "1.478880",
+      "source_price": "739.44"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "country": "IE",
+        "area": "Galway"
+      },
+      "price": "1.483740",
+      "source_price": "741.87"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "country": "IE",
+        "area": "Kerry"
+      },
+      "price": "1.439620",
+      "source_price": "719.81"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "country": "IE",
+        "area": "Kildare"
+      },
+      "price": "1.478280",
+      "source_price": "739.14"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "country": "IE",
+        "area": "Kilkenny"
+      },
+      "price": "1.456580",
+      "source_price": "728.29"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "country": "IE",
+        "area": "Laois"
+      },
+      "price": "1.467060",
+      "source_price": "733.53"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "country": "IE",
+        "area": "Leitrim"
+      },
+      "price": "1.475680",
+      "source_price": "737.84"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "country": "IE",
+        "area": "Limerick"
+      },
+      "price": "1.448800",
+      "source_price": "724.40"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "country": "IE",
+        "area": "Longford"
+      },
+      "price": "1.467500",
+      "source_price": "733.75"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "country": "IE",
+        "area": "Louth"
+      },
+      "price": "1.451980",
+      "source_price": "725.99"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "country": "IE",
+        "area": "Mayo"
+      },
+      "price": "1.484580",
+      "source_price": "742.29"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "country": "IE",
+        "area": "Meath"
+      },
+      "price": "1.466520",
+      "source_price": "733.26"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "country": "IE",
+        "area": "Monaghan"
+      },
+      "price": "1.449780",
+      "source_price": "724.89"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "country": "IE",
+        "area": "Offaly"
+      },
+      "price": "1.468280",
+      "source_price": "734.14"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "country": "IE",
+        "area": "Roscommon"
+      },
+      "price": "1.484200",
+      "source_price": "742.10"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "country": "IE",
+        "area": "Sligo"
+      },
+      "price": "1.477600",
+      "source_price": "738.80"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "country": "IE",
+        "area": "Tipperary"
+      },
+      "price": "1.458780",
+      "source_price": "729.39"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "country": "IE",
+        "area": "Waterford"
+      },
+      "price": "1.457180",
+      "source_price": "728.59"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "country": "IE",
+        "area": "Westmeath"
+      },
+      "price": "1.468180",
+      "source_price": "734.09"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "country": "IE",
+        "area": "Wexford"
+      },
+      "price": "1.469260",
+      "source_price": "734.63"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "country": "IE",
+        "area": "Wicklow"
+      },
+      "price": "1.480180",
+      "source_price": "740.09"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Carlow",
+        "supplier": "Certa"
+      },
+      "price": "1.458020",
+      "source_price": "729.01"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Carlow",
+        "supplier": "Kenny Fuels"
+      },
+      "price": "1.458000",
+      "source_price": "729.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Carlow",
+        "supplier": "Klass Oil"
+      },
+      "price": "1.458000",
+      "source_price": "729.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Carlow",
+        "supplier": "Mr Oil"
+      },
+      "price": "1.456000",
+      "source_price": "728.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Carlow",
+        "supplier": "Naas Oil"
+      },
+      "price": "1.498000",
+      "source_price": "749.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Carlow",
+        "supplier": "Perry Oil"
+      },
+      "price": "1.458000",
+      "source_price": "729.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Carlow",
+        "supplier": "Right Price Oil"
+      },
+      "price": "1.456000",
+      "source_price": "728.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Carlow",
+        "supplier": "Top Oil"
+      },
+      "price": "1.494000",
+      "source_price": "747.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Cavan",
+        "supplier": "Breffni Oils"
+      },
+      "price": "1.500000",
+      "source_price": "750.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Cavan",
+        "supplier": "Certa"
+      },
+      "price": "1.437940",
+      "source_price": "718.97"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Cavan",
+        "supplier": "Corrib Oil"
+      },
+      "price": "1.458000",
+      "source_price": "729.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Cavan",
+        "supplier": "Curran Oil"
+      },
+      "price": "1.470000",
+      "source_price": "735.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Cavan",
+        "supplier": "Duffy Oils"
+      },
+      "price": "1.440000",
+      "source_price": "720.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Cavan",
+        "supplier": "Gibneys of Oldcastle"
+      },
+      "price": "1.510000",
+      "source_price": "755.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Cavan",
+        "supplier": "Klass Oil"
+      },
+      "price": "1.458000",
+      "source_price": "729.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Cavan",
+        "supplier": "McCaughey Fuels"
+      },
+      "price": "1.460000",
+      "source_price": "730.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Cavan",
+        "supplier": "Skelly Oil"
+      },
+      "price": "1.480000",
+      "source_price": "740.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Cavan",
+        "supplier": "Top Oil"
+      },
+      "price": "1.494000",
+      "source_price": "747.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Clare",
+        "supplier": "Corrib Oil"
+      },
+      "price": "1.458000",
+      "source_price": "729.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Clare",
+        "supplier": "Cosgrave Oil"
+      },
+      "price": "1.438000",
+      "source_price": "719.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Clare",
+        "supplier": "Klass Oil"
+      },
+      "price": "1.458000",
+      "source_price": "729.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Clare",
+        "supplier": "MacMahon Oils"
+      },
+      "price": "1.490000",
+      "source_price": "745.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Clare",
+        "supplier": "Top Oil"
+      },
+      "price": "1.520000",
+      "source_price": "760.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Cork",
+        "supplier": "Amber Oil"
+      },
+      "price": "1.440000",
+      "source_price": "720.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Cork",
+        "supplier": "Corrib Oil"
+      },
+      "price": "1.458000",
+      "source_price": "729.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Cork",
+        "supplier": "Dan Oil"
+      },
+      "price": "1.441460",
+      "source_price": "720.73"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Cork",
+        "supplier": "Lee Oil"
+      },
+      "price": "1.500020",
+      "source_price": "750.01"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Cork",
+        "supplier": "MJK Oils"
+      },
+      "price": "1.440080",
+      "source_price": "720.04"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Cork",
+        "supplier": "McGuckian Oils"
+      },
+      "price": "1.480000",
+      "source_price": "740.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Cork",
+        "supplier": "Morris Oil"
+      },
+      "price": "1.441460",
+      "source_price": "720.73"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Cork",
+        "supplier": "O'Keeffe's (Rathmore) Ltd"
+      },
+      "price": "1.440000",
+      "source_price": "720.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Cork",
+        "supplier": "Top Oil"
+      },
+      "price": "1.520000",
+      "source_price": "760.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Cork",
+        "supplier": "Tria"
+      },
+      "price": "1.495920",
+      "source_price": "747.96"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Donegal",
+        "supplier": "A&N Fuels"
+      },
+      "price": "1.450000",
+      "source_price": "725.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Donegal",
+        "supplier": "A1 Heating Oil"
+      },
+      "price": "1.440000",
+      "source_price": "720.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Donegal",
+        "supplier": "Certa"
+      },
+      "price": "1.469940",
+      "source_price": "734.97"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Donegal",
+        "supplier": "Coyle Fuels"
+      },
+      "price": "1.450000",
+      "source_price": "725.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Donegal",
+        "supplier": "Donegal Oil"
+      },
+      "price": "1.490000",
+      "source_price": "745.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Donegal",
+        "supplier": "E&J Oil Services"
+      },
+      "price": "1.400000",
+      "source_price": "700.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Donegal",
+        "supplier": "Labs Fuels"
+      },
+      "price": "1.490000",
+      "source_price": "745.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Donegal",
+        "supplier": "McPartland Oils, Sligo Fuels"
+      },
+      "price": "1.500000",
+      "source_price": "750.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Donegal",
+        "supplier": "Mr Oil Man"
+      },
+      "price": "1.468000",
+      "source_price": "734.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Donegal",
+        "supplier": "O'Donnell Fuels"
+      },
+      "price": "1.448020",
+      "source_price": "724.01"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Donegal",
+        "supplier": "O'Hara Fuels"
+      },
+      "price": "1.480000",
+      "source_price": "740.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Donegal",
+        "supplier": "Springtown Fuels"
+      },
+      "price": "1.450000",
+      "source_price": "725.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Donegal",
+        "supplier": "Swilly Fuels"
+      },
+      "price": "1.450000",
+      "source_price": "725.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Donegal",
+        "supplier": "Top Oil"
+      },
+      "price": "1.476060",
+      "source_price": "738.03"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Donegal",
+        "supplier": "Whoriskey Oils"
+      },
+      "price": "1.460000",
+      "source_price": "730.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Dublin",
+        "supplier": "A1 Oil"
+      },
+      "price": "1.500000",
+      "source_price": "750.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Dublin",
+        "supplier": "Butterly"
+      },
+      "price": "1.486860",
+      "source_price": "743.43"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Dublin",
+        "supplier": "Capital Oil"
+      },
+      "price": "1.448000",
+      "source_price": "724.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Dublin",
+        "supplier": "Certa"
+      },
+      "price": "1.465960",
+      "source_price": "732.98"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Dublin",
+        "supplier": "Cheaper Oil"
+      },
+      "price": "1.448000",
+      "source_price": "724.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Dublin",
+        "supplier": "Curran Oil"
+      },
+      "price": "1.470000",
+      "source_price": "735.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Dublin",
+        "supplier": "Dublin Oil"
+      },
+      "price": "1.500000",
+      "source_price": "750.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Dublin",
+        "supplier": "Dundalk Oil"
+      },
+      "price": "1.440300",
+      "source_price": "720.15"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Dublin",
+        "supplier": "Euro Oil"
+      },
+      "price": "1.500000",
+      "source_price": "750.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Dublin",
+        "supplier": "Kiernan Oil"
+      },
+      "price": "1.478000",
+      "source_price": "739.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Dublin",
+        "supplier": "Kilbride Oil"
+      },
+      "price": "1.478000",
+      "source_price": "739.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Dublin",
+        "supplier": "Klass Oil"
+      },
+      "price": "1.458000",
+      "source_price": "729.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Dublin",
+        "supplier": "Liffey Oil"
+      },
+      "price": "1.456540",
+      "source_price": "728.27"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Dublin",
+        "supplier": "McLoughlins Oil Newbridge"
+      },
+      "price": "1.550000",
+      "source_price": "775.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Dublin",
+        "supplier": "Naas Oil"
+      },
+      "price": "1.498000",
+      "source_price": "749.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Dublin",
+        "supplier": "North City Oil"
+      },
+      "price": "1.500000",
+      "source_price": "750.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Dublin",
+        "supplier": "Right Price Oil"
+      },
+      "price": "1.448000",
+      "source_price": "724.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Dublin",
+        "supplier": "Top Oil"
+      },
+      "price": "1.494000",
+      "source_price": "747.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Galway",
+        "supplier": "Corrib Oil"
+      },
+      "price": "1.480000",
+      "source_price": "740.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Galway",
+        "supplier": "Klass Oil"
+      },
+      "price": "1.478000",
+      "source_price": "739.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Galway",
+        "supplier": "MacMahon Oils"
+      },
+      "price": "1.490000",
+      "source_price": "745.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Galway",
+        "supplier": "Mor Oil"
+      },
+      "price": "1.475500",
+      "source_price": "737.75"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Galway",
+        "supplier": "Oil Direct"
+      },
+      "price": "1.500100",
+      "source_price": "750.05"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Galway",
+        "supplier": "Right Price Oil"
+      },
+      "price": "1.466000",
+      "source_price": "733.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Galway",
+        "supplier": "Stewarts Oil"
+      },
+      "price": "1.480040",
+      "source_price": "740.02"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Galway",
+        "supplier": "Sweeney Oil"
+      },
+      "price": "1.490020",
+      "source_price": "745.01"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Galway",
+        "supplier": "Top Oil"
+      },
+      "price": "1.494000",
+      "source_price": "747.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Kerry",
+        "supplier": "Atlantic Oils"
+      },
+      "price": "1.430000",
+      "source_price": "715.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Kerry",
+        "supplier": "Corrib Oil"
+      },
+      "price": "1.458000",
+      "source_price": "729.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Kerry",
+        "supplier": "Geaney Oils"
+      },
+      "price": "1.430000",
+      "source_price": "715.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Kerry",
+        "supplier": "MJK Oils"
+      },
+      "price": "1.440080",
+      "source_price": "720.04"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Kerry",
+        "supplier": "O'Keeffe's (Rathmore) Ltd"
+      },
+      "price": "1.440000",
+      "source_price": "720.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Kildare",
+        "supplier": "A1 Oil"
+      },
+      "price": "1.500000",
+      "source_price": "750.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Kildare",
+        "supplier": "Capital Oil"
+      },
+      "price": "1.448000",
+      "source_price": "724.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Kildare",
+        "supplier": "Certa"
+      },
+      "price": "1.468000",
+      "source_price": "734.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Kildare",
+        "supplier": "Cheaper Oil"
+      },
+      "price": "1.448000",
+      "source_price": "724.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Kildare",
+        "supplier": "Curran Oil"
+      },
+      "price": "1.470000",
+      "source_price": "735.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Kildare",
+        "supplier": "Euro Oil"
+      },
+      "price": "1.500000",
+      "source_price": "750.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Kildare",
+        "supplier": "Kiernan Oil"
+      },
+      "price": "1.478000",
+      "source_price": "739.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Kildare",
+        "supplier": "Kilbride Oil"
+      },
+      "price": "1.478000",
+      "source_price": "739.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Kildare",
+        "supplier": "Klass Oil"
+      },
+      "price": "1.458000",
+      "source_price": "729.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Kildare",
+        "supplier": "Liffey Oil"
+      },
+      "price": "1.456540",
+      "source_price": "728.27"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Kildare",
+        "supplier": "McLoughlins Oil Newbridge"
+      },
+      "price": "1.550000",
+      "source_price": "775.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Kildare",
+        "supplier": "Naas Oil"
+      },
+      "price": "1.498000",
+      "source_price": "749.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Kildare",
+        "supplier": "North City Oil"
+      },
+      "price": "1.500000",
+      "source_price": "750.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Kildare",
+        "supplier": "Perry Oil"
+      },
+      "price": "1.458000",
+      "source_price": "729.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Kildare",
+        "supplier": "Right Price Oil"
+      },
+      "price": "1.448000",
+      "source_price": "724.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Kildare",
+        "supplier": "Top Oil"
+      },
+      "price": "1.494000",
+      "source_price": "747.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Kilkenny",
+        "supplier": "Amber Oil"
+      },
+      "price": "1.440000",
+      "source_price": "720.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Kilkenny",
+        "supplier": "Certa"
+      },
+      "price": "1.439980",
+      "source_price": "719.99"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Kilkenny",
+        "supplier": "Klass Oil"
+      },
+      "price": "1.458000",
+      "source_price": "729.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Kilkenny",
+        "supplier": "Morris Oil"
+      },
+      "price": "1.441460",
+      "source_price": "720.73"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Kilkenny",
+        "supplier": "Mr Oil"
+      },
+      "price": "1.440000",
+      "source_price": "720.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Kilkenny",
+        "supplier": "Top Oil"
+      },
+      "price": "1.520000",
+      "source_price": "760.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Laois",
+        "supplier": "Capital Oil"
+      },
+      "price": "1.438000",
+      "source_price": "719.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Laois",
+        "supplier": "Certa"
+      },
+      "price": "1.459960",
+      "source_price": "729.98"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Laois",
+        "supplier": "Corrib Oil"
+      },
+      "price": "1.480000",
+      "source_price": "740.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Laois",
+        "supplier": "Klass Oil"
+      },
+      "price": "1.458000",
+      "source_price": "729.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Laois",
+        "supplier": "Morris Oil"
+      },
+      "price": "1.441460",
+      "source_price": "720.73"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Laois",
+        "supplier": "Naas Oil"
+      },
+      "price": "1.498000",
+      "source_price": "749.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Laois",
+        "supplier": "Top Oil"
+      },
+      "price": "1.494000",
+      "source_price": "747.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Leitrim",
+        "supplier": "Breffni Oils"
+      },
+      "price": "1.500000",
+      "source_price": "750.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Leitrim",
+        "supplier": "Certa"
+      },
+      "price": "1.478000",
+      "source_price": "739.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Leitrim",
+        "supplier": "Corrib Oil"
+      },
+      "price": "1.480000",
+      "source_price": "740.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Leitrim",
+        "supplier": "Curran Oil"
+      },
+      "price": "1.470000",
+      "source_price": "735.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Leitrim",
+        "supplier": "E&J Oil Services"
+      },
+      "price": "1.400000",
+      "source_price": "700.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Leitrim",
+        "supplier": "Klass Oil"
+      },
+      "price": "1.458000",
+      "source_price": "729.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Leitrim",
+        "supplier": "McCormacks Fuels"
+      },
+      "price": "1.500000",
+      "source_price": "750.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Leitrim",
+        "supplier": "McPartland Oils, Sligo Fuels"
+      },
+      "price": "1.500000",
+      "source_price": "750.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Leitrim",
+        "supplier": "Mr Oil Man"
+      },
+      "price": "1.468000",
+      "source_price": "734.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Leitrim",
+        "supplier": "O'Hara Fuels"
+      },
+      "price": "1.480000",
+      "source_price": "740.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Leitrim",
+        "supplier": "Stewarts Oil"
+      },
+      "price": "1.480040",
+      "source_price": "740.02"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Leitrim",
+        "supplier": "Top Oil"
+      },
+      "price": "1.494000",
+      "source_price": "747.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Limerick",
+        "supplier": "Certa"
+      },
+      "price": "1.449960",
+      "source_price": "724.98"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Limerick",
+        "supplier": "Corrib Oil"
+      },
+      "price": "1.458000",
+      "source_price": "729.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Limerick",
+        "supplier": "Cosgrave Oil"
+      },
+      "price": "1.438000",
+      "source_price": "719.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Limerick",
+        "supplier": "Klass Oil"
+      },
+      "price": "1.458000",
+      "source_price": "729.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Limerick",
+        "supplier": "O'Keeffe's (Rathmore) Ltd"
+      },
+      "price": "1.440000",
+      "source_price": "720.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Longford",
+        "supplier": "Breffni Oils"
+      },
+      "price": "1.500000",
+      "source_price": "750.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Longford",
+        "supplier": "Certa"
+      },
+      "price": "1.478000",
+      "source_price": "739.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Longford",
+        "supplier": "Cheaper Oil"
+      },
+      "price": "1.448000",
+      "source_price": "724.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Longford",
+        "supplier": "Corrib Oil"
+      },
+      "price": "1.458000",
+      "source_price": "729.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Longford",
+        "supplier": "Curran Oil"
+      },
+      "price": "1.470000",
+      "source_price": "735.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Longford",
+        "supplier": "Klass Oil"
+      },
+      "price": "1.458000",
+      "source_price": "729.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Longford",
+        "supplier": "Right Price Oil"
+      },
+      "price": "1.448000",
+      "source_price": "724.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Longford",
+        "supplier": "Stewarts Oil"
+      },
+      "price": "1.480040",
+      "source_price": "740.02"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Louth",
+        "supplier": "Capital Oil"
+      },
+      "price": "1.428000",
+      "source_price": "714.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Louth",
+        "supplier": "Certa"
+      },
+      "price": "1.459960",
+      "source_price": "729.98"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Louth",
+        "supplier": "ClickOil.ie"
+      },
+      "price": "1.436000",
+      "source_price": "718.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Louth",
+        "supplier": "Duffy Oils"
+      },
+      "price": "1.440000",
+      "source_price": "720.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Louth",
+        "supplier": "Dundalk Oil"
+      },
+      "price": "1.440300",
+      "source_price": "720.15"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Louth",
+        "supplier": "EK Fuels"
+      },
+      "price": "1.430000",
+      "source_price": "715.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Louth",
+        "supplier": "Klass Oil"
+      },
+      "price": "1.458000",
+      "source_price": "729.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Louth",
+        "supplier": "Morgan Fuels"
+      },
+      "price": "1.509560",
+      "source_price": "754.78"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Louth",
+        "supplier": "Oil4U"
+      },
+      "price": "1.448020",
+      "source_price": "724.01"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Louth",
+        "supplier": "Right Price Oil"
+      },
+      "price": "1.428000",
+      "source_price": "714.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Louth",
+        "supplier": "Top Oil"
+      },
+      "price": "1.494000",
+      "source_price": "747.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Mayo",
+        "supplier": "Certa"
+      },
+      "price": "1.497980",
+      "source_price": "748.99"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Mayo",
+        "supplier": "Corconan Fuels"
+      },
+      "price": "1.482000",
+      "source_price": "741.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Mayo",
+        "supplier": "Corrib Oil"
+      },
+      "price": "1.480000",
+      "source_price": "740.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Mayo",
+        "supplier": "Klass Oil"
+      },
+      "price": "1.478000",
+      "source_price": "739.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Mayo",
+        "supplier": "Right Price Oil"
+      },
+      "price": "1.470000",
+      "source_price": "735.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Mayo",
+        "supplier": "Sweeney Oil"
+      },
+      "price": "1.490020",
+      "source_price": "745.01"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Mayo",
+        "supplier": "Top Oil"
+      },
+      "price": "1.494000",
+      "source_price": "747.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Meath",
+        "supplier": "A1 Oil"
+      },
+      "price": "1.500000",
+      "source_price": "750.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Meath",
+        "supplier": "Bective Oil"
+      },
+      "price": "1.430000",
+      "source_price": "715.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Meath",
+        "supplier": "Capital Oil"
+      },
+      "price": "1.428000",
+      "source_price": "714.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Meath",
+        "supplier": "Certa"
+      },
+      "price": "1.458020",
+      "source_price": "729.01"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Meath",
+        "supplier": "Cheaper Oil"
+      },
+      "price": "1.428000",
+      "source_price": "714.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Meath",
+        "supplier": "ClickOil.ie"
+      },
+      "price": "1.436000",
+      "source_price": "718.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Meath",
+        "supplier": "Curran Oil"
+      },
+      "price": "1.470000",
+      "source_price": "735.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Meath",
+        "supplier": "Duffy Oils"
+      },
+      "price": "1.440000",
+      "source_price": "720.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Meath",
+        "supplier": "Dundalk Oil"
+      },
+      "price": "1.440300",
+      "source_price": "720.15"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Meath",
+        "supplier": "Euro Oil"
+      },
+      "price": "1.500000",
+      "source_price": "750.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Meath",
+        "supplier": "Gibneys of Oldcastle"
+      },
+      "price": "1.510000",
+      "source_price": "755.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Meath",
+        "supplier": "Klass Oil"
+      },
+      "price": "1.458000",
+      "source_price": "729.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Meath",
+        "supplier": "Liffey Oil"
+      },
+      "price": "1.456540",
+      "source_price": "728.27"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Meath",
+        "supplier": "Morgan Fuels"
+      },
+      "price": "1.509560",
+      "source_price": "754.78"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Meath",
+        "supplier": "Naas Oil"
+      },
+      "price": "1.498000",
+      "source_price": "749.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Meath",
+        "supplier": "North City Oil"
+      },
+      "price": "1.500000",
+      "source_price": "750.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Meath",
+        "supplier": "Oil4U"
+      },
+      "price": "1.448020",
+      "source_price": "724.01"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Meath",
+        "supplier": "Right Price Oil"
+      },
+      "price": "1.428000",
+      "source_price": "714.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Meath",
+        "supplier": "Top Oil"
+      },
+      "price": "1.494000",
+      "source_price": "747.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Meath",
+        "supplier": "Trim Home Heating Oil"
+      },
+      "price": "1.498000",
+      "source_price": "749.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Monaghan",
+        "supplier": "Certa"
+      },
+      "price": "1.437940",
+      "source_price": "718.97"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Monaghan",
+        "supplier": "Duffy Oils"
+      },
+      "price": "1.440000",
+      "source_price": "720.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Monaghan",
+        "supplier": "Dundalk Oil"
+      },
+      "price": "1.440300",
+      "source_price": "720.15"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Monaghan",
+        "supplier": "Klass Oil"
+      },
+      "price": "1.458000",
+      "source_price": "729.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Monaghan",
+        "supplier": "McCaughey Fuels"
+      },
+      "price": "1.460000",
+      "source_price": "730.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Monaghan",
+        "supplier": "More Oils"
+      },
+      "price": "1.420000",
+      "source_price": "710.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Monaghan",
+        "supplier": "Oil4U"
+      },
+      "price": "1.448020",
+      "source_price": "724.01"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Monaghan",
+        "supplier": "Top Oil"
+      },
+      "price": "1.494000",
+      "source_price": "747.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Offaly",
+        "supplier": "Capital Oil"
+      },
+      "price": "1.456000",
+      "source_price": "728.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Offaly",
+        "supplier": "Certa"
+      },
+      "price": "1.478000",
+      "source_price": "739.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Offaly",
+        "supplier": "Cheaper Oil"
+      },
+      "price": "1.456000",
+      "source_price": "728.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Offaly",
+        "supplier": "Corrib Oil"
+      },
+      "price": "1.480000",
+      "source_price": "740.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Offaly",
+        "supplier": "Klass Oil"
+      },
+      "price": "1.458000",
+      "source_price": "729.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Offaly",
+        "supplier": "Right Price Oil"
+      },
+      "price": "1.456000",
+      "source_price": "728.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Offaly",
+        "supplier": "Top Oil"
+      },
+      "price": "1.494000",
+      "source_price": "747.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Roscommon",
+        "supplier": "Certa"
+      },
+      "price": "1.478000",
+      "source_price": "739.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Roscommon",
+        "supplier": "Cheaper Oil"
+      },
+      "price": "1.476000",
+      "source_price": "738.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Roscommon",
+        "supplier": "Corrib Oil"
+      },
+      "price": "1.480000",
+      "source_price": "740.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Roscommon",
+        "supplier": "Klass Oil"
+      },
+      "price": "1.478000",
+      "source_price": "739.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Roscommon",
+        "supplier": "McPartland Oils, Sligo Fuels"
+      },
+      "price": "1.500000",
+      "source_price": "750.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Roscommon",
+        "supplier": "Right Price Oil"
+      },
+      "price": "1.476000",
+      "source_price": "738.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Roscommon",
+        "supplier": "Stewarts Oil"
+      },
+      "price": "1.480040",
+      "source_price": "740.02"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Roscommon",
+        "supplier": "Sweeney Oil"
+      },
+      "price": "1.490020",
+      "source_price": "745.01"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Roscommon",
+        "supplier": "Top Oil"
+      },
+      "price": "1.494000",
+      "source_price": "747.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Roscommon",
+        "supplier": "Westmeath Oil"
+      },
+      "price": "1.490000",
+      "source_price": "745.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Sligo",
+        "supplier": "Certa"
+      },
+      "price": "1.494000",
+      "source_price": "747.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Sligo",
+        "supplier": "Corconan Fuels"
+      },
+      "price": "1.482000",
+      "source_price": "741.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Sligo",
+        "supplier": "E&J Oil Services"
+      },
+      "price": "1.400000",
+      "source_price": "700.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Sligo",
+        "supplier": "Klass Oil"
+      },
+      "price": "1.478000",
+      "source_price": "739.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Sligo",
+        "supplier": "McCormacks Fuels"
+      },
+      "price": "1.500000",
+      "source_price": "750.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Sligo",
+        "supplier": "McPartland Oils, Sligo Fuels"
+      },
+      "price": "1.500000",
+      "source_price": "750.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Sligo",
+        "supplier": "Mr Oil Man"
+      },
+      "price": "1.468000",
+      "source_price": "734.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Sligo",
+        "supplier": "O'Hara Fuels"
+      },
+      "price": "1.480000",
+      "source_price": "740.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Sligo",
+        "supplier": "Stewarts Oil"
+      },
+      "price": "1.480040",
+      "source_price": "740.02"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Sligo",
+        "supplier": "Top Oil"
+      },
+      "price": "1.494000",
+      "source_price": "747.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Tipperary",
+        "supplier": "Amber Oil"
+      },
+      "price": "1.440000",
+      "source_price": "720.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Tipperary",
+        "supplier": "Certa"
+      },
+      "price": "1.459960",
+      "source_price": "729.98"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Tipperary",
+        "supplier": "Corrib Oil"
+      },
+      "price": "1.480000",
+      "source_price": "740.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Tipperary",
+        "supplier": "Cosgrave Oil"
+      },
+      "price": "1.438000",
+      "source_price": "719.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Tipperary",
+        "supplier": "Klass Oil"
+      },
+      "price": "1.458000",
+      "source_price": "729.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Tipperary",
+        "supplier": "Morris Oil"
+      },
+      "price": "1.441460",
+      "source_price": "720.73"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Tipperary",
+        "supplier": "Top Oil"
+      },
+      "price": "1.494000",
+      "source_price": "747.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Waterford",
+        "supplier": "Amber Oil"
+      },
+      "price": "1.440000",
+      "source_price": "720.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Waterford",
+        "supplier": "Certa"
+      },
+      "price": "1.436000",
+      "source_price": "718.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Waterford",
+        "supplier": "Klass Oil"
+      },
+      "price": "1.458000",
+      "source_price": "729.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Waterford",
+        "supplier": "McCarthy's Homevalue"
+      },
+      "price": "1.446000",
+      "source_price": "723.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Waterford",
+        "supplier": "McGuckian Oils"
+      },
+      "price": "1.480000",
+      "source_price": "740.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Waterford",
+        "supplier": "Morris Oil"
+      },
+      "price": "1.441460",
+      "source_price": "720.73"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Waterford",
+        "supplier": "Mr Oil"
+      },
+      "price": "1.436000",
+      "source_price": "718.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Waterford",
+        "supplier": "Top Oil"
+      },
+      "price": "1.520000",
+      "source_price": "760.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Westmeath",
+        "supplier": "Capital Oil"
+      },
+      "price": "1.448000",
+      "source_price": "724.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Westmeath",
+        "supplier": "Certa"
+      },
+      "price": "1.478000",
+      "source_price": "739.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Westmeath",
+        "supplier": "Cheaper Oil"
+      },
+      "price": "1.448000",
+      "source_price": "724.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Westmeath",
+        "supplier": "Corrib Oil"
+      },
+      "price": "1.458000",
+      "source_price": "729.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Westmeath",
+        "supplier": "Curran Oil"
+      },
+      "price": "1.470000",
+      "source_price": "735.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Westmeath",
+        "supplier": "Gibneys of Oldcastle"
+      },
+      "price": "1.510000",
+      "source_price": "755.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Westmeath",
+        "supplier": "Klass Oil"
+      },
+      "price": "1.458000",
+      "source_price": "729.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Westmeath",
+        "supplier": "Oil4U"
+      },
+      "price": "1.448020",
+      "source_price": "724.01"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Westmeath",
+        "supplier": "Right Price Oil"
+      },
+      "price": "1.448000",
+      "source_price": "724.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Westmeath",
+        "supplier": "Top Oil"
+      },
+      "price": "1.494000",
+      "source_price": "747.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Westmeath",
+        "supplier": "Westmeath Oil"
+      },
+      "price": "1.490000",
+      "source_price": "745.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Wexford",
+        "supplier": "Certa"
+      },
+      "price": "1.458020",
+      "source_price": "729.01"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Wexford",
+        "supplier": "Kenny Fuels"
+      },
+      "price": "1.458000",
+      "source_price": "729.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Wexford",
+        "supplier": "Klass Oil"
+      },
+      "price": "1.458000",
+      "source_price": "729.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Wexford",
+        "supplier": "Mr Oil"
+      },
+      "price": "1.456000",
+      "source_price": "728.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Wexford",
+        "supplier": "Newline Oil"
+      },
+      "price": "1.458000",
+      "source_price": "729.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Wexford",
+        "supplier": "Perry Oil"
+      },
+      "price": "1.490000",
+      "source_price": "745.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Wexford",
+        "supplier": "Right Price Oil"
+      },
+      "price": "1.456000",
+      "source_price": "728.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Wexford",
+        "supplier": "Top Oil"
+      },
+      "price": "1.520000",
+      "source_price": "760.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Wicklow",
+        "supplier": "A1 Oil"
+      },
+      "price": "1.500000",
+      "source_price": "750.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Wicklow",
+        "supplier": "Capital Oil"
+      },
+      "price": "1.452000",
+      "source_price": "726.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Wicklow",
+        "supplier": "Certa"
+      },
+      "price": "1.474020",
+      "source_price": "737.01"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Wicklow",
+        "supplier": "Euro Oil"
+      },
+      "price": "1.500000",
+      "source_price": "750.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Wicklow",
+        "supplier": "Kenny Fuels"
+      },
+      "price": "1.456000",
+      "source_price": "728.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Wicklow",
+        "supplier": "Kiernan Oil"
+      },
+      "price": "1.478000",
+      "source_price": "739.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Wicklow",
+        "supplier": "Kilbride Oil"
+      },
+      "price": "1.478000",
+      "source_price": "739.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Wicklow",
+        "supplier": "Klass Oil"
+      },
+      "price": "1.458000",
+      "source_price": "729.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Wicklow",
+        "supplier": "Liffey Oil"
+      },
+      "price": "1.456540",
+      "source_price": "728.27"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Wicklow",
+        "supplier": "McLoughlins Oil Newbridge"
+      },
+      "price": "1.550000",
+      "source_price": "775.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Wicklow",
+        "supplier": "Naas Oil"
+      },
+      "price": "1.498000",
+      "source_price": "749.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Wicklow",
+        "supplier": "North City Oil"
+      },
+      "price": "1.500000",
+      "source_price": "750.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Wicklow",
+        "supplier": "Perry Oil"
+      },
+      "price": "1.456000",
+      "source_price": "728.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Wicklow",
+        "supplier": "Right Price Oil"
+      },
+      "price": "1.452000",
+      "source_price": "726.00"
+    },
+    {
+      "label": "supplier",
+      "scope": {
+        "country": "IE",
+        "area": "Wicklow",
+        "supplier": "Top Oil"
+      },
+      "price": "1.494000",
+      "source_price": "747.00"
+    }
+  ]
+}

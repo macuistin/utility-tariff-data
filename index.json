@@ -117,10 +117,11 @@
     "IE": {
       "path": "ie/index.json",
       "sources": [
-        "eu-weekly-oil-bulletin"
+        "eu-weekly-oil-bulletin",
+        "oilprices-ie"
       ],
-      "latest": "2026-11-16",
-      "checksum": "sha256:f6743247fd2d510e2b6710b379fa7cd2b9bf6aafcc6a494c6811df4826282483"
+      "latest": "2026-11-24",
+      "checksum": "sha256:aa142c4e285b9cc9d8853995d5b46fcb8069d9481ca7ea4a97fe3e0abbe7305b"
     },
     "IT": {
       "path": "it/index.json",

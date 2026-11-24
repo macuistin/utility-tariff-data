@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "source": "oilprices-ie",
+  "countries": [
+    "IE"
+  ],
+  "fuel": "kerosene, 500 litre delivery",
+  "currency": "EUR",
+  "unit": "l",
+  "latest": "2026-11-24",
+  "weeks": {
+    "2026-11-24": "sha256:5ec001787d3893bac0448ec1013f061161f85d878fb17cf213f0f856d148c5c5"
+  }
+}
