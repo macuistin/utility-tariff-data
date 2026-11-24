@@ -26,6 +26,14 @@
       "latest": "2026-11-16",
       "checksum": "sha256:fbb4bbde4db03c5b1bf4dbaea433d704d4055a76bc0c9efefa3356892b0821d7"
     },
+    "CA": {
+      "path": "ca/index.json",
+      "sources": [
+        "statcan-heating-oil"
+      ],
+      "latest": "2026-10-01",
+      "checksum": "sha256:a47fac1ac5f1e2d5ff0e7fd6400231b4333da73b87b20665bdd0cfafe4e5482c"
+    },
     "CY": {
       "path": "cy/index.json",
       "sources": [

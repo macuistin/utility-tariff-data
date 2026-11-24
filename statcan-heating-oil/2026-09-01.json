@@ -1,0 +1,163 @@
+{
+  "schema": 1,
+  "service": "heating-oil",
+  "source": "statcan-heating-oil",
+  "fuel": "household heating fuel",
+  "currency": "CAD",
+  "unit": "l",
+  "price_date": "2026-09-01",
+  "fetched": "2026-11-24",
+  "source_url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1810000101",
+  "credit": "Source: Statistics Canada, Table 18-10-0001-01. Adapted from Statistics Canada; this does not constitute an endorsement.",
+  "conversion": {
+    "from_unit": "cent per l",
+    "litres_per_unit": "1",
+    "note": "Statistics Canada publishes cents per litre. This store divides by 100 for dollars per litre."
+  },
+  "rows": [
+    {
+      "label": "average",
+      "scope": {
+        "country": "CA",
+        "area": "Charlottetown and Summerside, Prince Edward Island"
+      },
+      "price": "2.001",
+      "source_price": "200.1"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "country": "CA",
+        "area": "Halifax, Nova Scotia"
+      },
+      "price": "2.308",
+      "source_price": "230.8"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "country": "CA",
+        "area": "Montr\u00e9al, Quebec"
+      },
+      "price": "2.521",
+      "source_price": "252.1"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "country": "CA",
+        "area": "Ottawa-Gatineau, Ontario part, Ontario/Quebec"
+      },
+      "price": "2.5",
+      "source_price": "250.0"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "country": "CA",
+        "area": "Qu\u00e9bec, Quebec"
+      },
+      "price": "2.517",
+      "source_price": "251.7"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "country": "CA",
+        "area": "Regina, Saskatchewan"
+      },
+      "price": "1.921",
+      "source_price": "192.1"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "country": "CA",
+        "area": "Saint John, New Brunswick"
+      },
+      "price": "2.599",
+      "source_price": "259.9"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "country": "CA",
+        "area": "Saskatoon, Saskatchewan"
+      },
+      "price": "2.006",
+      "source_price": "200.6"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "country": "CA",
+        "area": "St. John's, Newfoundland and Labrador"
+      },
+      "price": "2.41",
+      "source_price": "241.0"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "country": "CA",
+        "area": "Thunder Bay, Ontario"
+      },
+      "price": "2.526",
+      "source_price": "252.6"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "country": "CA",
+        "area": "Toronto, Ontario"
+      },
+      "price": "2.593",
+      "source_price": "259.3"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "country": "CA",
+        "area": "Vancouver, British Columbia"
+      },
+      "price": "2.632",
+      "source_price": "263.2"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "country": "CA",
+        "area": "Victoria, British Columbia"
+      },
+      "price": "2.7",
+      "source_price": "270.0"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "country": "CA",
+        "area": "Whitehorse, Yukon"
+      },
+      "price": "2.284",
+      "source_price": "228.4"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "country": "CA",
+        "area": "Winnipeg, Manitoba"
+      },
+      "price": "2.078",
+      "source_price": "207.8"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "country": "CA",
+        "area": "Yellowknife, Northwest Territories"
+      },
+      "price": "2.253",
+      "source_price": "225.3"
+    }
+  ]
+}

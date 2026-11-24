@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "country": "CA",
+  "sources": {
+    "statcan-heating-oil": {
+      "fuel": "household heating fuel",
+      "currency": "CAD",
+      "latest": "2026-10-01",
+      "weeks": {
+        "2026-08-01": {
+          "path": "statcan-heating-oil/2026-08-01.json",
+          "checksum": "sha256:5e2d44c5618818b50f6bfdf00e5c37faf39f686d1fb3d526314ac319873cbf1c"
+        },
+        "2026-09-01": {
+          "path": "statcan-heating-oil/2026-09-01.json",
+          "checksum": "sha256:e7ea981f2d47dc79f5d7a9615ded254a1ba99a20580e5bf0718349b17475fe26"
+        },
+        "2026-10-01": {
+          "path": "statcan-heating-oil/2026-10-01.json",
+          "checksum": "sha256:b12de178eadcc45f1c41e8a95bf783ea6f100481e3da26e45769155732ce94bf"
+        }
+      }
+    }
+  }
+}
