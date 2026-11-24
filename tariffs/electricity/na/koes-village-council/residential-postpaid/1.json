@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "name": "Residential Postpaid",
+  "provider": "Koes Village Council",
+  "effective_from": "2026-11-01",
+  "source": {
+    "id": "na-ecb",
+    "url": "https://www.ecb.org.na/wp-content/uploads/2026/11/Koes-VC-SOAT-2026.pdf"
+  },
+  "prices_include_tax": false,
+  "bill": {
+    "total": {
+      "kind": "sum",
+      "of": {
+        "capacity": {
+          "bands": {
+            "all": {
+              "price": "7.63"
+            }
+          },
+          "kind": "connected_load",
+          "load": "supply_amps"
+        },
+        "energy": {
+          "kind": "energy_by_band",
+          "round_bands": true
+        }
+      }
+    }
+  },
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "All day": "2.3208"
+      },
+      "standing": "0"
+    }
+  }
+}

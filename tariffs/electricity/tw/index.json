@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "country": "TW",
+  "currency": "TWD",
+  "timezone": "Asia/Taipei",
+  "vat_percent": "0",
+  "availability": "partial",
+  "reason": "The residential non-time-of-use tariff of Taipower, from its open data file. The file states no tax, so a bill carries no tax line. The time-of-use tariffs are not held because their off-peak days follow the national holiday calendar.",
+  "inputs": {
+    "bill_start_day": {
+      "default": 1,
+      "max": 28,
+      "min": 1,
+      "type": "integer"
+    }
+  },
+  "bill": {
+    "period": {
+      "rule": "monthly",
+      "start_day": "$input.bill_start_day"
+    },
+    "total": {
+      "kind": "sum",
+      "of": {
+        "energy": {
+          "kind": "energy_by_band",
+          "round_bands": true
+        },
+        "standing": {
+          "kind": "per_day"
+        }
+      }
+    }
+  },
+  "providers": {}
+}

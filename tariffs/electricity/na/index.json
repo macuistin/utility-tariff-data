@@ -1,0 +1,657 @@
+{
+  "schema": 1,
+  "country": "NA",
+  "currency": "NAD",
+  "timezone": "Africa/Windhoek",
+  "vat_percent": "0",
+  "availability": "partial",
+  "reason": "The flat residential tariffs of the distributors in the Electricity Control Board's Schedules of Approved Tariffs, with the ECB levy, the NEF levy and any local authority surcharge added to the energy price. VAT is zero rated for residential supply. Inclining block and time-of-use tariffs are not held. A postpaid bill needs the supply size in amperes.",
+  "inputs": {
+    "bill_start_day": {
+      "default": 1,
+      "max": 28,
+      "min": 1,
+      "type": "integer"
+    }
+  },
+  "bill": {
+    "period": {
+      "rule": "monthly",
+      "start_day": "$input.bill_start_day"
+    },
+    "total": {
+      "kind": "sum",
+      "of": {
+        "energy": {
+          "kind": "energy_by_band",
+          "round_bands": true
+        },
+        "standing": {
+          "kind": "per_day"
+        }
+      }
+    }
+  },
+  "providers": {
+    "aroab-village-council": {
+      "name": "Aroab Village Council",
+      "tariffs": {
+        "residential-prepaid": {
+          "name": "Residential Prepaid",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:b3e397f48151dd379fe32cc77eaa174b186dce2fa3b720de1074363d18d405be",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "berseba-village-council": {
+      "name": "Berseba Village Council",
+      "tariffs": {
+        "residential-postpaid-15-amp": {
+          "name": "Residential Postpaid (15 Amp)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:4b7a987c2dd3a88cd7fad47182195e4cea3f2d3923a09cd6d76664e4c8cd0eab",
+              "effective_from": "2025-09-01",
+              "effective_to": null
+            }
+          }
+        },
+        "residential-prepaid": {
+          "name": "Residential Prepaid",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:7078b408d0912ed9f1421a2ba64d002db854df4f90f5a3ef4a77beac4328db1e",
+              "effective_from": "2025-09-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "bethanie-vc": {
+      "name": "Bethanie VC",
+      "tariffs": {
+        "residential-postpaid-15-45-amp": {
+          "name": "Residential Postpaid (15 - 45 Amp)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:ef3ded90e81df90167c1c0b9dca054b073cef0d29d77be779fdba0bb2ae90ad8",
+              "effective_from": "2025-09-01",
+              "effective_to": null
+            }
+          }
+        },
+        "residential-prepaid": {
+          "name": "Residential Prepaid",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:8de7a8367ac13e4a378a2f407817b55b006a9719d1e90a25109e2274bb83466f",
+              "effective_from": "2025-09-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "cenored": {
+      "name": "CENORED",
+      "tariffs": {
+        "residential-postpaid": {
+          "name": "Residential Postpaid",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:1aab994e3d826c674aaed1c56962c0010cd70bd95cc093df45f42857260add41",
+              "effective_from": "2025-07-01",
+              "effective_to": null
+            }
+          }
+        },
+        "residential-prepaid": {
+          "name": "Residential Prepaid",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:07facecadc56abb379259b2a53087c3e15428632c821b8b6d088d97fd7c6266f",
+              "effective_from": "2025-07-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "erongo-red": {
+      "name": "Erongo RED",
+      "tariffs": {
+        "residential-postpaid": {
+          "name": "Residential Postpaid",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:8c1ab71035b72a4032b5cacc82619cc2e5df6a1c6263891823f0443befe9a2cf",
+              "effective_from": "2026-09-01",
+              "effective_to": null
+            }
+          }
+        },
+        "residential-prepaid": {
+          "name": "Residential Prepaid",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:1f9287f10f31fc448f4d083ffb2be79b0bce87dc59619bfb837c780f23611d6e",
+              "effective_from": "2026-09-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "finkenstein-estate": {
+      "name": "Finkenstein Estate",
+      "tariffs": {
+        "residential-postpaid": {
+          "name": "Residential Postpaid",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:f16d1d51c306301f6504536c12d1a8a98f25aa769e5f5fb82139ce89a81b7543",
+              "effective_from": "2024-12-01",
+              "effective_to": null
+            }
+          }
+        },
+        "residential-prepaid": {
+          "name": "Residential Prepaid",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:19f8710f7808e9ddfbe197ddc2fcb602201ae4ee456785248f08870f779215eb",
+              "effective_from": "2024-12-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "gibeon-vc": {
+      "name": "Gibeon VC",
+      "tariffs": {
+        "residential-postpaid": {
+          "name": "Residential Postpaid",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:01683143171aed109368fe958c47c00421ec3d230b6735ef20ed9671f52f29c8",
+              "effective_from": "2025-08-01",
+              "effective_to": null
+            }
+          }
+        },
+        "residential-prepaid": {
+          "name": "Residential Prepaid",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:c8e44d7d889e8e087a9e087a34e6b9f494ac5cc9326ac63d83bc0e7f325c1a73",
+              "effective_from": "2025-08-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "gobabis-municipality": {
+      "name": "Gobabis Municipality",
+      "tariffs": {
+        "residential-postpaid": {
+          "name": "Residential Postpaid",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:2cbc609d789c364b4fc104fcdcae5ab1a0c28e52b8bc66dd25d722990e071e7c",
+              "effective_from": "2025-09-01",
+              "effective_to": null
+            }
+          }
+        },
+        "residential-prepaid": {
+          "name": "Residential Prepaid",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:d4f992343c46bf56285c5b7db7da4048ffb4ce6b07d9ec44971b4f0dcf9c598f",
+              "effective_from": "2025-09-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "hardap-rc": {
+      "name": "Hardap RC",
+      "tariffs": {
+        "residential-prepaid": {
+          "name": "Residential Prepaid",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:9d0ac057f1950de56a82a3338d2f33bd68c54b2cdc7a35b779d45a08495da089",
+              "effective_from": "2025-09-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "kalkrand-village-council": {
+      "name": "Kalkrand Village Council",
+      "tariffs": {
+        "residential-postpaid": {
+          "name": "Residential Postpaid",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:87d14b71c9ca123e8a7b31b64fb78ef60d4f5c11d55d74e784edf4eeadc9ede9",
+              "effective_from": "2025-09-01",
+              "effective_to": null
+            }
+          }
+        },
+        "residential-prepaid": {
+          "name": "Residential Prepaid",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:ff3dc3fd5cf8da5e649f6735cc178eaeb5bc3cc576363c6e80c1c955a22027f0",
+              "effective_from": "2025-09-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "karasburg-municipality": {
+      "name": "Karasburg Municipality",
+      "tariffs": {
+        "residential-postpaid": {
+          "name": "Residential Postpaid",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:ac1e22f7dc29c1208872505d8d0d02d98bf974057672dfa324e1ebb8a8f385c0",
+              "effective_from": "2025-09-01",
+              "effective_to": null
+            }
+          }
+        },
+        "residential-postpaid-above-50-kwh": {
+          "name": "Residential Postpaid Above 50 Kwh",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:60bbc31d45a8a709847c705a21c1fc0be364f5b255ad3f40e8ee22c95ee8fab1",
+              "effective_from": "2025-09-01",
+              "effective_to": null
+            }
+          }
+        },
+        "residential-prepaid": {
+          "name": "Residential Prepaid",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:f2ca71b9661cb2e3c87e97b30868a08d15c8ad7fae4cbf4f3c0ebc9446a754ba",
+              "effective_from": "2025-09-01",
+              "effective_to": null
+            }
+          }
+        },
+        "residential-prepaid-above-50-kwh": {
+          "name": "Residential Prepaid Above 50 Kwh",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:abd2bfe62923cf6c72ec8c24a835aa84b2f433a931a57b0f05ae956597b1a8b7",
+              "effective_from": "2025-09-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "karasburg-town-council": {
+      "name": "Karasburg Town Council",
+      "tariffs": {
+        "residential-postpaid": {
+          "name": "Residential Postpaid",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:153504a03576149244c1b320824a560b34b829b43d5fe3d1b454d3a69d6f61a0",
+              "effective_from": "2024-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "residential-postpaid-above-50-kwh": {
+          "name": "Residential Postpaid Above 50 Kwh",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:5a1d58f49cfb715c8ad9768df1a856d0fb6a0c6b8ff3e3a12e6019a717d455ee",
+              "effective_from": "2024-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "residential-prepaid": {
+          "name": "Residential Prepaid",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:1fe29af16406824470c91974bcf1c2b6ad2c32bcc045fe924efa422f529220ac",
+              "effective_from": "2024-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "residential-prepaid-above-50-kwh": {
+          "name": "Residential Prepaid Above 50 Kwh",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:5ec0e35baa188cd1391923bc8a0fd09d346c71ba95d806ab77952f8ba2f6b028",
+              "effective_from": "2024-10-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "koes-village-council": {
+      "name": "Koes Village Council",
+      "tariffs": {
+        "residential-postpaid": {
+          "name": "Residential Postpaid",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:454fafa870f309ef50241beab7141eb2ad504993bd7ba243fc62da3e0ccab3a5",
+              "effective_from": "2026-11-01",
+              "effective_to": null
+            }
+          }
+        },
+        "residential-prepaid": {
+          "name": "Residential Prepaid",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:ee4532dbc9a4d6088cd6aac00c9a48ecbd7546974f28144ecc65f70602a17530",
+              "effective_from": "2026-11-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "leonardville-village-council": {
+      "name": "Leonardville Village Council",
+      "tariffs": {
+        "residential-postpaid": {
+          "name": "Residential Postpaid",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:6f1bf0f100eb313f9e550862de13f58b1fa9abaff20a117b26689cf51bc5e9f4",
+              "effective_from": "2025-09-01",
+              "effective_to": null
+            }
+          }
+        },
+        "residential-prepaid": {
+          "name": "Residential Prepaid",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:bab3373ba08bdb8f0835fa6112c22d910deecc0ff4ac20dc8face0ea44bb86a9",
+              "effective_from": "2025-09-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "maltahohe-village-council": {
+      "name": "Maltahohe Village Council",
+      "tariffs": {
+        "residential-prepaid": {
+          "name": "Residential Prepaid",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:ac0a8e08f814f5672343f596b17b8cede5da716244c26d6dd416f00cbdf120a0",
+              "effective_from": "2025-09-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "mariental-municipality": {
+      "name": "Mariental Municipality",
+      "tariffs": {
+        "residential-postpaid": {
+          "name": "Residential Postpaid",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:6199b605313e5c70db1dc415ddf72a4f3cbdde196d1971e8d305d869a7b4fac8",
+              "effective_from": "2026-11-01",
+              "effective_to": null
+            }
+          }
+        },
+        "residential-prepaid": {
+          "name": "Residential Prepaid",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:9ba5e8c571233f8a28e301077e63f2f8c1e32a397cdb34b9779fe01c62ad7cbb",
+              "effective_from": "2026-11-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "nampower-distribution": {
+      "name": "NamPower Distribution",
+      "tariffs": {
+        "residential-postpaid": {
+          "name": "Residential Postpaid",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:5f79d4cf18ebdd7568b40cfa66f02ef5ca2ad7bed57a024cc59858f491130966",
+              "effective_from": "2026-09-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "nored": {
+      "name": "NORED",
+      "tariffs": {
+        "residential-prepaid": {
+          "name": "Residential Prepaid",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:07b6c59433e82d9bcf4fd1811a174d064c046730029f74eca9be1fda18168c6b",
+              "effective_from": "2026-09-01",
+              "effective_to": null
+            }
+          }
+        },
+        "residential-prepaid-3-phase": {
+          "name": "Residential Prepaid 3 Phase",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:7ed3e5057a3c2deb1397bc8f0d64693761843e261c0abc80156b1bd50a941214",
+              "effective_from": "2026-09-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "omaheke-rc": {
+      "name": "Omaheke RC",
+      "tariffs": {
+        "residential-postpaid": {
+          "name": "Residential Postpaid",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:1c32c14b803bdf6ba94543e82e081b265cef12f44b937cf922c08e445d245b6e",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "residential-prepaid": {
+          "name": "Residential Prepaid",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:27f97c9a2f24d258599e03b876bac3d8e1cb40e13620be52c0a648d3dfa43112",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "oranjemund": {
+      "name": "Oranjemund",
+      "tariffs": {
+        "residential-prepaid": {
+          "name": "Residential Prepaid",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:b60cccf3c13500349320316c33c1c4d4b787b90721c1ed10405ef80d1bb72ab5",
+              "effective_from": "2026-02-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "oshakati-premier-electric": {
+      "name": "Oshakati Premier Electric",
+      "tariffs": {
+        "residential-postpaid": {
+          "name": "Residential Postpaid",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:44d21b106aa19e03b4c65d546c5dc694cd4c96fc9835c12184fb28bde570fc37",
+              "effective_from": "2026-09-01",
+              "effective_to": null
+            }
+          }
+        },
+        "residential-prepaid": {
+          "name": "Residential Prepaid",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:e786575807a353fc49322772bc2d06ff5e44c2d145ffae5d0b4c1b1fa4125fae",
+              "effective_from": "2026-09-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "roshskor-township-pty-ltd": {
+      "name": "RoshSkor Township (Pty) Ltd",
+      "tariffs": {
+        "residential-post-paid-3-phase-flat": {
+          "name": "Residential Post Paid 3-Phase Flat",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:bab2346434d846b13753b4f2b697b97f7f1dcd8115575ddb0db830b9ca717e5f",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "residential-postpaid": {
+          "name": "Residential Postpaid",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:e9ca6fb9be8a1166368c5219f3bc39b3b77b83f8eb86fde3a48da5719ce3042e",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "residential-prepaid": {
+          "name": "Residential Prepaid",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:c233b12ef186e9ac326434a8ac1a3e63ad607d06675dca2d2cb5063ad10ad5c8",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "windhoek-municipality": {
+      "name": "Windhoek Municipality",
+      "tariffs": {
+        "residential-postpaid-over-20a": {
+          "name": "Residential Postpaid Over 20A",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:79fe078e8063778739dc86ba9f141f68c546e51d927c3519d5d548599fe6111c",
+              "effective_from": "2026-09-01",
+              "effective_to": null
+            }
+          }
+        },
+        "residential-prepaid": {
+          "name": "Residential Prepaid",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:ce20d1b12e541c3e3839bee2e18e75707b7a8b14359d201730c82dacc92522ff",
+              "effective_from": "2026-09-01",
+              "effective_to": null
+            }
+          }
+        },
+        "residential-up-to-20a": {
+          "name": "Residential Up To 20A",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:c86592e4b9d688f4d61456ecd41747bac46593544e0bd01cbdcdeeea536247e9",
+              "effective_from": "2026-09-01",
+              "effective_to": null
+            }
+          }
+        },
+        "residential-with-business-consent": {
+          "name": "Residential With Business Consent",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:ee333dd36de6340b79c7857a694c75d802b3d4a65340d72204f52dda15d1812a",
+              "effective_from": "2026-09-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "witvlei-vc": {
+      "name": "Witvlei VC",
+      "tariffs": {
+        "residential-postpaid": {
+          "name": "Residential Postpaid",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:2e8ce736f566577bbf4c221a8a4bd4a96c38d5522e62b27d1f19fcccb544b74d",
+              "effective_from": "2026-11-01",
+              "effective_to": null
+            }
+          }
+        },
+        "residential-prepaid": {
+          "name": "Residential Prepaid",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:6416135d9e14c8e1069fa8eb866aea9bb0d9e7e7bbb409af3a7131f42eeac447",
+              "effective_from": "2026-11-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    }
+  }
+}

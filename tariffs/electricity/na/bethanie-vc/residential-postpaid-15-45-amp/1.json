@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "name": "Residential Postpaid (15 - 45 Amp)",
+  "provider": "Bethanie VC",
+  "effective_from": "2025-09-01",
+  "source": {
+    "id": "na-ecb",
+    "url": "https://www.ecb.org.na/wp-content/uploads/2025/09/Bethanie-2025.pdf"
+  },
+  "prices_include_tax": false,
+  "bill": {
+    "total": {
+      "kind": "sum",
+      "of": {
+        "capacity": {
+          "bands": {
+            "all": {
+              "price": "6.51"
+            }
+          },
+          "kind": "connected_load",
+          "load": "supply_amps"
+        },
+        "energy": {
+          "kind": "energy_by_band",
+          "round_bands": true
+        }
+      }
+    }
+  },
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "All day": "2.7307"
+      },
+      "standing": "0"
+    }
+  }
+}

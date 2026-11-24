@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "name": "Residential Prepaid",
+  "provider": "Karasburg Town Council",
+  "effective_from": "2024-10-01",
+  "source": {
+    "id": "na-ecb",
+    "url": "https://www.ecb.org.na/wp-content/uploads/2025/08/Karasburg-Town-Council-2024.pdf"
+  },
+  "prices_include_tax": false,
+  "bill": {
+    "total": {
+      "kind": "sum",
+      "of": {
+        "energy": {
+          "kind": "energy_by_band",
+          "round_bands": true
+        }
+      }
+    }
+  },
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "All day": "2.2608"
+      },
+      "standing": "0"
+    }
+  }
+}

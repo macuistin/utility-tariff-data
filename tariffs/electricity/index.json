@@ -196,6 +196,19 @@
       "reason": "Only Enemalta's Residential and Domestic consumption tariffs on a single-phase supply are held. The Eco Reduction discount, the three-phase service charge and the maximum demand tariff are not, so a bill priced from them can differ from a real bill.",
       "tariffs": 2
     },
+    "MX": {
+      "availability": "unavailable",
+      "checked": "2026-11-24",
+      "reason": "The household tariffs (1 to 1F and DAC) are published only on CFE's tariff pages, which answer automated requests with a bot challenge, from cloud and GitHub runner addresses alike. No official open data or API was found. The Diario Oficial holds only the unsubsidised supply cost, not the tariff a household is billed."
+    },
+    "NA": {
+      "availability": "partial",
+      "checksum": "sha256:3a65b511e9976ca9187063475580035ab22d826da4090f124f3cbe7dc6aafeb0",
+      "path": "na/index.json",
+      "providers": 24,
+      "reason": "The flat residential tariffs of the distributors in the Electricity Control Board's Schedules of Approved Tariffs, with the ECB levy, the NEF levy and any local authority surcharge added to the energy price. VAT is zero rated for residential supply. Inclining block and time-of-use tariffs are not held. A postpaid bill needs the supply size in amperes.",
+      "tariffs": 50
+    },
     "NL": {
       "availability": "unavailable",
       "checked": "2026-11-10",
@@ -268,6 +281,14 @@
       "providers": 1,
       "reason": "Only T&TEC's residential Rate A is held, as published on its page with an effective date of September 2009. The minimum bill is not held. VAT on household electricity is not stated, so none is added.",
       "tariffs": 1
+    },
+    "TW": {
+      "availability": "partial",
+      "checksum": "sha256:51d4c4f1016d3e4cb972ed4b46d115405b610776fecdab44de188d819c9a1edb",
+      "path": "tw/index.json",
+      "providers": 0,
+      "reason": "The residential non-time-of-use tariff of Taipower, from its open data file. The file states no tax, so a bill carries no tax line. The time-of-use tariffs are not held because their off-peak days follow the national holiday calendar.",
+      "tariffs": 0
     },
     "UA": {
       "availability": "partial",

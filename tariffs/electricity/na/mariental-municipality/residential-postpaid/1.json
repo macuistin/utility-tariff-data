@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "name": "Residential Postpaid",
+  "provider": "Mariental Municipality",
+  "effective_from": "2026-11-01",
+  "source": {
+    "id": "na-ecb",
+    "url": "https://www.ecb.org.na/wp-content/uploads/2026/11/Mariental-SOAT-2026.pdf"
+  },
+  "prices_include_tax": false,
+  "bill": {
+    "total": {
+      "kind": "sum",
+      "of": {
+        "capacity": {
+          "bands": {
+            "all": {
+              "price": "10"
+            }
+          },
+          "kind": "connected_load",
+          "load": "supply_amps"
+        },
+        "energy": {
+          "kind": "energy_by_band",
+          "round_bands": true
+        }
+      }
+    }
+  },
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "All day": "1.9272"
+      },
+      "standing": "0"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema": 1,
+  "country": "MX",
+  "currency": "MXN",
+  "timezone": "America/Mexico_City",
+  "vat_percent": "16",
+  "availability": "partial",
+  "reason": "Piped natural gas for households in the Ecogas Chihuahua zone: the regulator's maximum service and distribution charges plus Ecogas's monthly gas price, before 16% IVA. Transport, storage and import charges, which a distributor may pass through, are not held. Other distributors and zones are not held: most publish no monthly gas price. Most homes use LP gas, which is in the heating oil series.",
+  "reason_local": {
+    "language": "es",
+    "text": "Gas natural por ducto para hogares en la zona Chihuahua de Ecogas: los cargos máximos de servicio y distribución aprobados por el regulador más el precio mensual del gas de Ecogas, antes del 16% de IVA. No se incluyen los cargos de transporte, almacenamiento e importación que un distribuidor puede trasladar. No se incluyen otros distribuidores ni zonas: la mayoría no publica un precio mensual del gas. La mayoría de los hogares usa gas LP, que está en la serie de precios de combustibles."
+  },
+  "inputs": {
+    "bill_start_day": {
+      "default": 1,
+      "max": 28,
+      "min": 1,
+      "type": "integer"
+    }
+  },
+  "bill": {
+    "period": {
+      "rule": "monthly",
+      "start_day": "$input.bill_start_day"
+    },
+    "total": {
+      "kind": "tax",
+      "mode": "added",
+      "name": "IVA",
+      "of": {
+        "kind": "sum",
+        "of": {
+          "energy": {
+            "kind": "energy_by_band",
+            "round_bands": true
+          },
+          "standing": {
+            "kind": "per_day"
+          }
+        }
+      },
+      "percent": "$country.vat_percent"
+    }
+  },
+  "units": {
+    "gas": {
+      "display": "GJ"
+    }
+  },
+  "providers": {}
+}
