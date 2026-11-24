@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "name": "Co-op Smart Export Guarantee November 2020 v1",
+  "provider": "Co-op Energy",
+  "direction": "export",
+  "effective_from": "2020-11-11",
+  "effective_to": "2022-02-01",
+  "source": {
+    "id": "kraken-export-gb",
+    "url": "https://api.octopus.energy/v1/products/COOP-SEG-FIX-12M-20-11-11/"
+  },
+  "bands": [
+    {
+      "name": "Flat"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "Flat": "0.03"
+      }
+    }
+  }
+}

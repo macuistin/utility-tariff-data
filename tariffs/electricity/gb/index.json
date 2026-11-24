@@ -223,6 +223,76 @@
     }
   },
   "providers": {
+    "co-op-energy": {
+      "name": "Co-op Energy",
+      "tariffs": {
+        "co-op-energy-coop-seg-eo-fix-12m-24-04-05": {
+          "direction": "export",
+          "name": "Co-op Smart Export Guarantee Export Only April 2024 v1",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:6f30320b94a3a1519fc4984982a23ad96f534a03084edad38e3336daae25d1cf",
+              "effective_from": "2024-04-05",
+              "effective_to": null
+            }
+          }
+        },
+        "co-op-energy-coop-seg-fix-12m-20-11-11": {
+          "direction": "export",
+          "name": "Co-op Smart Export Guarantee November 2020 v1",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:1c795cff456fcb09e9ed9daf81beab8cf904d0d220a38d192e1d9edb8bb6722a",
+              "effective_from": "2020-11-11",
+              "effective_to": "2022-02-01"
+            },
+            "2": {
+              "checksum": "sha256:1e81e2458dcc16954865ac3e9412c2fdbffac98f39cecd0c4247b8da2430394f",
+              "effective_from": "2022-02-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "eon-next": {
+      "name": "E.ON Next",
+      "tariffs": {
+        "eon-next-next-export-exclusive-v3": {
+          "direction": "export",
+          "name": "Next Export Exclusive v3",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:a1a142f137f1468e9e2360bcbbb2fadaa70c732ea155b80488ccd8a9b7893a0c",
+              "effective_from": "2025-10-31",
+              "effective_to": null
+            }
+          }
+        },
+        "eon-next-next-export-premium-v2": {
+          "direction": "export",
+          "name": "Next Export Premium v2",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:8914710fceb3f6cce707a25d15624980f3dd639263d851daee2974fd2ab7dd0a",
+              "effective_from": "2024-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "eon-next-next-flex-export-v1": {
+          "direction": "export",
+          "name": "Next Flex Export v1",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:5dc27e58cf5f7f5e95ee65edb74374bd0f06102a9096df841ddf8aa5f21a6ef0",
+              "effective_from": "2025-10-31",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
     "octopus-energy": {
       "name": "Octopus Energy",
       "tariffs": {

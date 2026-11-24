@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "name": "Next Export Exclusive v3",
+  "provider": "E.ON Next",
+  "direction": "export",
+  "effective_from": "2025-10-31",
+  "source": {
+    "id": "kraken-export-gb",
+    "url": "https://api.eonnext-kraken.energy/v1/products/NEXT_EXPORT_EXCLUSIVE_V3/"
+  },
+  "bands": [
+    {
+      "name": "Flat"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "Flat": "0.13"
+      }
+    }
+  }
+}

@@ -1,14 +1,19 @@
-Last updated: 2026-11-22
+Last updated: 2026-11-24
 
 # United Kingdom: electricity tariff status
 
 [All countries](../STATUS.md)
 
 - Coverage: available.
-- Held: 2 providers and 11 tariffs. 11 current, 0 upcoming, 0 ended, as of the date above.
+- Held: 4 providers and 16 tariffs. 16 current, 0 upcoming, 0 ended, as of the date above.
 
 | Provider | Tariff | Direction | Status today | Valid from | Valid to | Revisions | Last changed | Source |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Co-op Energy | Co-op Smart Export Guarantee Export Only April 2024 v1 | export | Current | 2024-04-05 | open | 1 | 2024-04-05 | kraken-export-gb |
+| Co-op Energy | Co-op Smart Export Guarantee November 2020 v1 | export | Current | 2020-11-11 | open | 2 | 2022-02-01 | kraken-export-gb |
+| E.ON Next | Next Export Exclusive v3 | export | Current | 2025-10-31 | open | 1 | 2025-10-31 | kraken-export-gb |
+| E.ON Next | Next Export Premium v2 | export | Current | 2024-10-01 | open | 1 | 2024-10-01 | kraken-export-gb |
+| E.ON Next | Next Flex Export v1 | export | Current | 2025-10-31 | open | 1 | 2025-10-31 | kraken-export-gb |
 | Octopus Energy | Agile Octopus October 2024 v1 | import | Current | 2026-11-17 | open | 2 | 2026-11-21 | octopus-energy-gb |
 | Octopus Energy | Octopus 12M Fixed November 2026 v2 | import | Current | 2026-11-09 | open | 2 | 2026-11-20 | octopus-energy-gb |
 | Octopus Energy | Octopus 18M Fixed November 2026 v2 | import | Current | 2026-11-09 | open | 2 | 2026-11-20 | octopus-energy-gb |
