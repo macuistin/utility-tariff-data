@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "source": "eu-weekly-oil-bulletin",
+  "countries": [
+    "AT",
+    "BE",
+    "BG",
+    "CY",
+    "CZ",
+    "DE",
+    "DK",
+    "EE",
+    "ES",
+    "FI",
+    "FR",
+    "GR",
+    "HR",
+    "HU",
+    "IE",
+    "IT",
+    "LT",
+    "LU",
+    "LV",
+    "MT",
+    "NL",
+    "PL",
+    "PT",
+    "RO",
+    "SE",
+    "SI",
+    "SK"
+  ],
+  "fuel": "heating gas oil, with taxes",
+  "currency": "EUR",
+  "unit": "l",
+  "latest": "2026-11-16",
+  "weeks": {
+    "2026-11-16": "sha256:5583d8102c983ba79d45b6d60f77c9ebbbd805f6ad15b2e5275acd0fe5c28d59"
+  }
+}

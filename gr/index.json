@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "country": "GR",
+  "sources": {
+    "eu-weekly-oil-bulletin": {
+      "fuel": "heating gas oil, with taxes",
+      "currency": "EUR",
+      "latest": "2026-11-16",
+      "weeks": {
+        "2026-11-16": {
+          "path": "eu-weekly-oil-bulletin/2026-11-16.json",
+          "checksum": "sha256:5583d8102c983ba79d45b6d60f77c9ebbbd805f6ad15b2e5275acd0fe5c28d59"
+        }
+      }
+    }
+  }
+}

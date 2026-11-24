@@ -2,6 +2,222 @@
   "schema": 1,
   "service": "heating-oil",
   "countries": {
+    "AT": {
+      "path": "at/index.json",
+      "sources": [
+        "eu-weekly-oil-bulletin"
+      ],
+      "latest": "2026-11-16",
+      "checksum": "sha256:a62ece15bd95acf86971866126d8e0edff023538648316130d624c2d77464c54"
+    },
+    "BE": {
+      "path": "be/index.json",
+      "sources": [
+        "eu-weekly-oil-bulletin"
+      ],
+      "latest": "2026-11-16",
+      "checksum": "sha256:b265e51d85f1bea3c3766b9c5078cfa05cc32fac2c62adccf6a05806a1adfee9"
+    },
+    "BG": {
+      "path": "bg/index.json",
+      "sources": [
+        "eu-weekly-oil-bulletin"
+      ],
+      "latest": "2026-11-16",
+      "checksum": "sha256:fbb4bbde4db03c5b1bf4dbaea433d704d4055a76bc0c9efefa3356892b0821d7"
+    },
+    "CY": {
+      "path": "cy/index.json",
+      "sources": [
+        "eu-weekly-oil-bulletin"
+      ],
+      "latest": "2026-11-16",
+      "checksum": "sha256:7a6789811daba5b33b1ede8ec2e24b34c1f71187ac1a7880a83bd475f4e38e41"
+    },
+    "CZ": {
+      "path": "cz/index.json",
+      "sources": [
+        "eu-weekly-oil-bulletin"
+      ],
+      "latest": "2026-11-16",
+      "checksum": "sha256:e7bd1f946178acf1ab1dd2e527d47ac527d43298dbd1aa15482f282a79019697"
+    },
+    "DE": {
+      "path": "de/index.json",
+      "sources": [
+        "eu-weekly-oil-bulletin"
+      ],
+      "latest": "2026-11-16",
+      "checksum": "sha256:e9e43ab78b25df0df41275a1468494e318ea58b8fad4d7fa40d918f9a38a6348"
+    },
+    "DK": {
+      "path": "dk/index.json",
+      "sources": [
+        "eu-weekly-oil-bulletin"
+      ],
+      "latest": "2026-11-16",
+      "checksum": "sha256:ac57ae831887384ab97852d466067ad9dc30edfab672718c5a2e3bc27ee95986"
+    },
+    "EE": {
+      "path": "ee/index.json",
+      "sources": [
+        "eu-weekly-oil-bulletin"
+      ],
+      "latest": "2026-11-16",
+      "checksum": "sha256:9bd913361aef17e2e92e0a65acaa5e5649ff75caacb0aa00d4a873f9644acb26"
+    },
+    "ES": {
+      "path": "es/index.json",
+      "sources": [
+        "eu-weekly-oil-bulletin"
+      ],
+      "latest": "2026-11-16",
+      "checksum": "sha256:59e0a0daa79956f166e38a7f1d721c849bc6fb40b09ab178c8f4ae539405f055"
+    },
+    "FI": {
+      "path": "fi/index.json",
+      "sources": [
+        "eu-weekly-oil-bulletin"
+      ],
+      "latest": "2026-11-16",
+      "checksum": "sha256:6170613492aff54fa7fef563ecb853fbc23a585b2dab563661b5cde81a615eb5"
+    },
+    "FR": {
+      "path": "fr/index.json",
+      "sources": [
+        "eu-weekly-oil-bulletin"
+      ],
+      "latest": "2026-11-16",
+      "checksum": "sha256:634461b2a15ba11bd3f4e3afe10c5d2f1089256b5c53680381d69028e66d768b"
+    },
+    "GR": {
+      "path": "gr/index.json",
+      "sources": [
+        "eu-weekly-oil-bulletin"
+      ],
+      "latest": "2026-11-16",
+      "checksum": "sha256:932dd2d2ba1c2dc5ce0d0a9d9b7d73d4a872b29ca61094b729261f5f6eb9a49e"
+    },
+    "HR": {
+      "path": "hr/index.json",
+      "sources": [
+        "eu-weekly-oil-bulletin"
+      ],
+      "latest": "2026-11-16",
+      "checksum": "sha256:7f52570a9eeb1d6f84e39833635465663494599b14655b7f49ebe992b3a095af"
+    },
+    "HU": {
+      "path": "hu/index.json",
+      "sources": [
+        "eu-weekly-oil-bulletin"
+      ],
+      "latest": "2026-11-16",
+      "checksum": "sha256:28eedbd7d8eb71c25fd998ebf6a7ce19602bb9de3c6798cc9d735b524854f71c"
+    },
+    "IE": {
+      "path": "ie/index.json",
+      "sources": [
+        "eu-weekly-oil-bulletin"
+      ],
+      "latest": "2026-11-16",
+      "checksum": "sha256:f6743247fd2d510e2b6710b379fa7cd2b9bf6aafcc6a494c6811df4826282483"
+    },
+    "IT": {
+      "path": "it/index.json",
+      "sources": [
+        "eu-weekly-oil-bulletin"
+      ],
+      "latest": "2026-11-16",
+      "checksum": "sha256:b9852bc0d6ba7973700948a99c60672cffba0f0113ee1a49aa6b8f1d0863cf7f"
+    },
+    "LT": {
+      "path": "lt/index.json",
+      "sources": [
+        "eu-weekly-oil-bulletin"
+      ],
+      "latest": "2026-11-16",
+      "checksum": "sha256:25c91494b4ca6817632891c050e133f96d1f999ce7f09d5d4fc3ccdc1c26844a"
+    },
+    "LU": {
+      "path": "lu/index.json",
+      "sources": [
+        "eu-weekly-oil-bulletin"
+      ],
+      "latest": "2026-11-16",
+      "checksum": "sha256:0fa59b88fdba7d11df35382a6eedf92164e1df6bade293acf8b7bc1e23a02519"
+    },
+    "LV": {
+      "path": "lv/index.json",
+      "sources": [
+        "eu-weekly-oil-bulletin"
+      ],
+      "latest": "2026-11-16",
+      "checksum": "sha256:fa5809d4ece3e8c05f3b285ef20acddd196df359f0473d7250b12809a31d4ebd"
+    },
+    "MT": {
+      "path": "mt/index.json",
+      "sources": [
+        "eu-weekly-oil-bulletin"
+      ],
+      "latest": "2026-11-16",
+      "checksum": "sha256:6c026228577330ee533f9127e88455c1f482c74662f46922dfc3f13953d07951"
+    },
+    "NL": {
+      "path": "nl/index.json",
+      "sources": [
+        "eu-weekly-oil-bulletin"
+      ],
+      "latest": "2026-11-16",
+      "checksum": "sha256:7ea05b7a09e2e61e54b0bdb07850bc0e77d4bf3580ed3b816710d808930b3569"
+    },
+    "PL": {
+      "path": "pl/index.json",
+      "sources": [
+        "eu-weekly-oil-bulletin"
+      ],
+      "latest": "2026-11-16",
+      "checksum": "sha256:1b85235f00d5e4eed85c50917ad060cc81972344ba90a3d87a20ed6b3083458b"
+    },
+    "PT": {
+      "path": "pt/index.json",
+      "sources": [
+        "eu-weekly-oil-bulletin"
+      ],
+      "latest": "2026-11-16",
+      "checksum": "sha256:a859d072af1df239611399aa401461610302753b8ec918529cb906d3f1dfaf50"
+    },
+    "RO": {
+      "path": "ro/index.json",
+      "sources": [
+        "eu-weekly-oil-bulletin"
+      ],
+      "latest": "2026-11-16",
+      "checksum": "sha256:7ff0b09bbe8a84181bf7b4b811fc67baae6db501608294a301de635af31126ff"
+    },
+    "SE": {
+      "path": "se/index.json",
+      "sources": [
+        "eu-weekly-oil-bulletin"
+      ],
+      "latest": "2026-11-16",
+      "checksum": "sha256:deb05f96d90c17335efa76aa7aa4bd68e30c80e9ae7f476e90d595b281e423b6"
+    },
+    "SI": {
+      "path": "si/index.json",
+      "sources": [
+        "eu-weekly-oil-bulletin"
+      ],
+      "latest": "2026-11-16",
+      "checksum": "sha256:ffe082d24332d6b7562f5def63de7e3256abc54aeece8cbd2a848469daa4b3a2"
+    },
+    "SK": {
+      "path": "sk/index.json",
+      "sources": [
+        "eu-weekly-oil-bulletin"
+      ],
+      "latest": "2026-11-16",
+      "checksum": "sha256:8225ec1bc4c52f8a15299514f949eebd5b24130976f922e733589fe066fe0142"
+    },
     "US": {
       "path": "us/index.json",
       "sources": [

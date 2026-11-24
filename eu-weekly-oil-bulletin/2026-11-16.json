@@ -1,0 +1,211 @@
+{
+  "schema": 1,
+  "service": "heating-oil",
+  "source": "eu-weekly-oil-bulletin",
+  "fuel": "heating gas oil, with taxes",
+  "currency": "EUR",
+  "unit": "l",
+  "price_date": "2026-11-16",
+  "fetched": "2026-11-24",
+  "source_url": "https://energy.ec.europa.eu/data-and-analysis/weekly-oil-bulletin_en",
+  "credit": "Source: European Commission, Weekly Oil Bulletin. The Commission does not endorse this store.",
+  "conversion": {
+    "from_unit": "1000 l",
+    "litres_per_unit": "1000",
+    "note": "Prices are converted from euros per 1000 litres by this store."
+  },
+  "rows": [
+    {
+      "label": "average",
+      "scope": {
+        "country": "AT"
+      },
+      "price": "1.739030",
+      "source_price": "1739.03"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "country": "BE"
+      },
+      "price": "1.380400",
+      "source_price": "1380.4"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "country": "CY"
+      },
+      "price": "1.553260",
+      "source_price": "1553.26"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "country": "CZ"
+      },
+      "price": "1.437039",
+      "source_price": "1437.039462911413"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "country": "DE"
+      },
+      "price": "1.657200",
+      "source_price": "1657.2"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "country": "DK"
+      },
+      "price": "2.328901",
+      "source_price": "2328.9008989726026"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "country": "EE"
+      },
+      "price": "1.660000",
+      "source_price": "1660"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "country": "ES"
+      },
+      "price": "1.409752",
+      "source_price": "1409.752"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "country": "FI"
+      },
+      "price": "1.956260",
+      "source_price": "1956.2595833333332"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "country": "FR"
+      },
+      "price": "1.703050",
+      "source_price": "1703.05"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "country": "GR"
+      },
+      "price": "1.455000",
+      "source_price": "1455"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "country": "HR"
+      },
+      "price": "1.560000",
+      "source_price": "1560"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "country": "HU"
+      },
+      "price": "1.922057",
+      "source_price": "1922.057283490162"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "country": "IE"
+      },
+      "price": "1.404450",
+      "source_price": "1404.4499999999998"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "country": "IT"
+      },
+      "price": "1.983910",
+      "source_price": "1983.91"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "country": "LT"
+      },
+      "price": "1.513420",
+      "source_price": "1513.42"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "country": "LU"
+      },
+      "price": "1.470000",
+      "source_price": "1470"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "country": "LV"
+      },
+      "price": "1.775880",
+      "source_price": "1775.88"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "country": "MT"
+      },
+      "price": "1.000000",
+      "source_price": "1000"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "country": "PL"
+      },
+      "price": "1.580165",
+      "source_price": "1580.165112196267"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "country": "PT"
+      },
+      "price": "2.128000",
+      "source_price": "2128"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "country": "RO"
+      },
+      "price": "1.514401",
+      "source_price": "1514.4012073589072"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "country": "SE"
+      },
+      "price": "1.745651",
+      "source_price": "1745.6511942316358"
+    },
+    {
+      "label": "average",
+      "scope": {
+        "country": "SI"
+      },
+      "price": "1.549960",
+      "source_price": "1549.96"
+    }
+  ]
+}
