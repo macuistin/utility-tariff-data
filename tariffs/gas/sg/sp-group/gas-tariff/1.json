@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "Gas tariff",
+  "provider": "SP Group",
+  "service": "gas",
+  "effective_from": "2026-10-01",
+  "source": {
+    "id": "sg-sp-group-gas",
+    "url": "https://www.spgroup.com.sg/our-services/utilities/tariff-information"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "All day": "0.2145"
+      },
+      "standing": "0"
+    }
+  }
+}

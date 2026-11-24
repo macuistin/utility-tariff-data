@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "Gas tariff, group W-0 (prepayment meter)",
+  "provider": "Energa Obrót",
+  "service": "gas",
+  "effective_from": "2026-03-21",
+  "source": {
+    "id": "pl-energa-gas",
+    "url": "https://www.energa.pl/dam/jcr:f695ec98-6333-46b0-8010-b7911db37dbb/Taryfa%20nr%2014%20dla%20Gazu%20Ziemnego%20Wysokometanowego%20ENERGA%20OBR%C3%93T%20SA%20obowi%C4%85zuj%C4%85ca%20od%2021%20marca%202026%20roku.pdf"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "All day": "0.20586"
+      },
+      "standing": "0"
+    }
+  }
+}

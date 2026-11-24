@@ -41,5 +41,31 @@
       "display": "GJ"
     }
   },
-  "providers": {}
+  "providers": {
+    "fortisbc": {
+      "name": "FortisBC",
+      "tariffs": {
+        "residential-fort-nelson": {
+          "name": "Residential, Fort Nelson",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:bdbccd9f767ac3fc63487d9780d91606db8ff22ee041a664d9985e8137a1891f",
+              "effective_from": "2026-07-01",
+              "effective_to": null
+            }
+          }
+        },
+        "residential-mainland": {
+          "name": "Residential, Mainland and Vancouver Island",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:963ec5d41b538344081ca3d9b70d286a4be166a6bd25fa5f9b51eb7190573675",
+              "effective_from": "2026-07-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    }
+  }
 }

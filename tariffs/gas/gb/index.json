@@ -72,20 +72,44 @@
         },
         "edf-simply-fixed-apr2028-v4": {
           "name": "Simply Fixed Apr28v4",
+          "replaced_by": "edf/edf-simply-fixed-apr2028-v5",
           "revisions": {
             "1": {
-              "checksum": "sha256:2462d1026119f1eb5e967350be9b3ed3c65be4e2e618ac705d6fb9798b010ace",
+              "checksum": "sha256:847319b5d66691814414eff7cff16054729bc211fbda267c97de7832aff7e08d",
               "effective_from": "2026-11-24",
+              "effective_to": "2026-11-25"
+            }
+          }
+        },
+        "edf-simply-fixed-apr2028-v5": {
+          "name": "Simply Fixed Apr28v5",
+          "replaces": "edf/edf-simply-fixed-apr2028-v4",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:6e322e9513d9531dfe0f16ea048aba3feecb18e8fe3834c0e985307867d661d8",
+              "effective_from": "2026-11-25",
               "effective_to": null
             }
           }
         },
         "edf-simply-fixed-nov2027-v5": {
           "name": "Simply Fixed Nov27v5",
+          "replaced_by": "edf/edf-simply-fixed-nov2027-v6",
           "revisions": {
             "1": {
-              "checksum": "sha256:e45e26cc6e330b3c1d17362a379e40b9d57d97eb799db29933c1923807777a64",
+              "checksum": "sha256:d8b443d4a43fff4db2460658d895675b85cded694803206937e45297fe6c0179",
               "effective_from": "2026-11-24",
+              "effective_to": "2026-11-25"
+            }
+          }
+        },
+        "edf-simply-fixed-nov2027-v6": {
+          "name": "Simply Fixed Nov27v6",
+          "replaces": "edf/edf-simply-fixed-nov2027-v5",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:b4f90e0b6bbf0ffc52f568ad58abf6a4387855cee32ceddf530a029ae644c25d",
+              "effective_from": "2026-11-25",
               "effective_to": null
             }
           }
@@ -107,30 +131,66 @@
       "tariffs": {
         "eon-next-next-direct-fixed-18m-v2": {
           "name": "Next Direct Fixed 18m v2",
+          "replaced_by": "eon-next/eon-next-next-direct-fixed-18m-v3",
           "revisions": {
             "1": {
-              "checksum": "sha256:8a5e6ae8df8a5425736798fa3bdd63fd962baf1beace23f2e1eb7d89974fbb31",
+              "checksum": "sha256:87de7ac6121d62be0ccd31eb03658167b67b2d2663a8faed1e2f4b2e8fe20518",
               "effective_from": "2026-11-24",
+              "effective_to": "2026-11-25"
+            }
+          }
+        },
+        "eon-next-next-direct-fixed-18m-v3": {
+          "name": "Next Direct Fixed 18m v3",
+          "replaces": "eon-next/eon-next-next-direct-fixed-18m-v2",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:64c268523b376d0ab2dfb2b3b578659963a2f0453ece27b2dc7245a3ec5035c4",
+              "effective_from": "2026-11-25",
               "effective_to": null
             }
           }
         },
         "eon-next-next-fixed-12m-v172": {
           "name": "Next Fixed 12m v172",
+          "replaced_by": "eon-next/eon-next-next-fixed-12m-v173",
           "revisions": {
             "1": {
-              "checksum": "sha256:9db5f96ac612094063026f7ab36088f01dd4cdd7dc17ab29ce8119e16128d0b1",
+              "checksum": "sha256:a200777229f7a4671e45bc5426c6b8afbe8e1fe605ffb0c1e2dd6ce9d450aa36",
               "effective_from": "2026-11-23",
+              "effective_to": "2026-11-24"
+            }
+          }
+        },
+        "eon-next-next-fixed-12m-v173": {
+          "name": "Next Fixed 12m v173",
+          "replaces": "eon-next/eon-next-next-fixed-12m-v172",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:6af4555dc3d01527ff55fdef6891319824b2889f4e20ac6f5ebda5e8c42e33c0",
+              "effective_from": "2026-11-24",
               "effective_to": null
             }
           }
         },
         "eon-next-next-fixed-24m-v87": {
           "name": "Next Fixed 24m v87",
+          "replaced_by": "eon-next/eon-next-next-fixed-24m-v88",
           "revisions": {
             "1": {
-              "checksum": "sha256:156bf7ee851739d300f692577d09c658728a5d7dd920321eef60acd7ee3533f4",
+              "checksum": "sha256:5c8cff92168876664fa53385d321e5ce78445d452739637d63cc126dbdf26ca9",
               "effective_from": "2026-11-23",
+              "effective_to": "2026-11-24"
+            }
+          }
+        },
+        "eon-next-next-fixed-24m-v88": {
+          "name": "Next Fixed 24m v88",
+          "replaces": "eon-next/eon-next-next-fixed-24m-v87",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:de64397ddc350176bc3c77044acccc6602842c030d1ede643cedc2ade6150f2c",
+              "effective_from": "2026-11-24",
               "effective_to": null
             }
           }
@@ -147,10 +207,22 @@
         },
         "eon-next-next-lower-daily-fixed-24m-v87": {
           "name": "Next Lower Daily Fixed 24m v87",
+          "replaced_by": "eon-next/eon-next-next-lower-daily-fixed-24m-v88",
           "revisions": {
             "1": {
-              "checksum": "sha256:b05347a8d99f0a2b0c333fca8eadeaac79ae88f1a36fd5ebbbbca86a3bab93a0",
+              "checksum": "sha256:f5654746e6db91f4053617ee197eb13977af2af98f1dcd056283bad52971435f",
               "effective_from": "2026-11-23",
+              "effective_to": "2026-11-24"
+            }
+          }
+        },
+        "eon-next-next-lower-daily-fixed-24m-v88": {
+          "name": "Next Lower Daily Fixed 24m v88",
+          "replaces": "eon-next/eon-next-next-lower-daily-fixed-24m-v87",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:3867c2a382ba628b84ab7e3a0ebe4305edfa111f3ae381c0d0171559fe7adb30",
+              "effective_from": "2026-11-24",
               "effective_to": null
             }
           }
@@ -262,25 +334,84 @@
         }
       }
     },
+    "ofgem-price-cap": {
+      "name": "Ofgem price cap",
+      "tariffs": {
+        "ofgem-gas-cap-direct-debit-and-other": {
+          "name": "Gas price cap, direct debit and other",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:db041ca4f3d3cc475d097a0b764889707e499318398249d2a545f80ff15f95f3",
+              "effective_from": "2026-10-01",
+              "effective_to": "2027-01-01"
+            }
+          }
+        },
+        "ofgem-gas-cap-prepayment": {
+          "name": "Gas price cap, prepayment",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:8f1984df94779da13e3df18c3161aa12fe2aded57915eb29b17e1d463969be51",
+              "effective_from": "2026-10-01",
+              "effective_to": "2027-01-01"
+            }
+          }
+        },
+        "ofgem-gas-cap-standard-credit": {
+          "name": "Gas price cap, standard credit",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:d6693b23d2a29b5b5d10565703810a3bfc506a392192045b84fa29a303465a60",
+              "effective_from": "2026-10-01",
+              "effective_to": "2027-01-01"
+            }
+          }
+        }
+      }
+    },
     "sainsburys-energy": {
       "name": "Sainsbury's Energy",
       "tariffs": {
         "sainsburys-energy-fix-and-save-12m-v44": {
           "name": "Sainsburys Energy Fix and Save 12m v44",
+          "replaced_by": "sainsburys-energy/sainsburys-energy-fix-and-save-12m-v45",
           "revisions": {
             "1": {
-              "checksum": "sha256:8f730a65fcbd030ad4fd006048b47a3bb0715bd6e13e43686af28bac84e5e6cd",
+              "checksum": "sha256:fca4eb54312ea96754113f1da9c07221d2b229d23bfbbcccb57809fd9361b98a",
               "effective_from": "2026-11-23",
+              "effective_to": "2026-11-24"
+            }
+          }
+        },
+        "sainsburys-energy-fix-and-save-12m-v45": {
+          "name": "Sainsburys Energy Fix and Save 12m v45",
+          "replaces": "sainsburys-energy/sainsburys-energy-fix-and-save-12m-v44",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:cb60cc445577f05e9a26927180493b85259de6ba9809883e69455bed3e904f6e",
+              "effective_from": "2026-11-24",
               "effective_to": null
             }
           }
         },
         "sainsburys-fix-and-reward-fixed-24m-v63": {
           "name": "Sainsburys Fix and Reward Fixed 24m v63",
+          "replaced_by": "sainsburys-energy/sainsburys-fix-and-reward-fixed-24m-v64",
           "revisions": {
             "1": {
-              "checksum": "sha256:87b0348fe642774bd6393dd3952ba85efcf7a19937edbf03c7bf31e6bfcc09c6",
+              "checksum": "sha256:15a12f75d097a6cc3bb18f34d192a07065b168beb112ffb6a1269531c77309f4",
               "effective_from": "2026-11-23",
+              "effective_to": "2026-11-24"
+            }
+          }
+        },
+        "sainsburys-fix-and-reward-fixed-24m-v64": {
+          "name": "Sainsburys Fix and Reward Fixed 24m v64",
+          "replaces": "sainsburys-energy/sainsburys-fix-and-reward-fixed-24m-v63",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:ba559038a5d8eec2d07a532b740b28b69d78dae516e78067460464db36ad096d",
+              "effective_from": "2026-11-24",
               "effective_to": null
             }
           }

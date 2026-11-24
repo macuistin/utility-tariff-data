@@ -48,5 +48,41 @@
       "display": "kWh"
     }
   },
-  "providers": {}
+  "providers": {
+    "cur": {
+      "name": "Comercializadoras de último recurso",
+      "tariffs": {
+        "tur-1": {
+          "name": "Tarifa de último recurso TUR 1 (up to 5,000 kWh a year)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:5bd03333008c1cb537ab15c1304719b0d221fc2d32ea6ff33db7753b213f74b6",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "tur-2": {
+          "name": "Tarifa de último recurso TUR 2 (5,000 to 15,000 kWh a year)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:2ac579e11a8e86ca95d52957f0a0511422b975833e806066e3dd639ef19cd76b",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "tur-3": {
+          "name": "Tarifa de último recurso TUR 3 (15,000 to 50,000 kWh a year)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:5ed7941dbd5c9340ff93de4b7fde17968d84f5d58ccec41d9982d1159c4452e3",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    }
+  }
 }

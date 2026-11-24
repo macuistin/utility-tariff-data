@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "Flex naturgas erhverv",
+  "provider": "SK Energi",
+  "service": "gas",
+  "customer_class": "commercial",
+  "effective_from": "2026-11-24",
+  "source": {
+    "id": "dk-gasprisguiden",
+    "url": "https://gasprisguiden.dk/151.html"
+  },
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "All day": "1.201777"
+      },
+      "standing": "6.113534"
+    }
+  }
+}

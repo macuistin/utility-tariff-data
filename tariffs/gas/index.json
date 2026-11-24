@@ -11,58 +11,58 @@
     },
     "CA": {
       "availability": "partial",
-      "checksum": "sha256:4a4f1f78ca29d8d32b142034891886784822ac1f90efb275b0bcf490ffc14b9c",
+      "checksum": "sha256:06279fb9395bd0b2357342691b3f9b926a5dc9b252e5163c3309bd4d993c1f77",
       "path": "ca/index.json",
-      "providers": 0,
+      "providers": 1,
       "reason": "Only FortisBC's residential natural gas rates in British Columbia are held, for Mainland and Vancouver Island and for Fort Nelson, from its rates page. The charges per gigajoule are held per kWh. Sales tax differs by province and is not in the prices, so a bill carries no tax line. Canada spans six time zones, so a tariff names its own where it differs.",
       "reason_local": {
         "language": "fr",
         "text": "Seuls les tarifs résidentiels de gaz naturel de FortisBC en Colombie-Britannique sont inclus, pour le continent et l'île de Vancouver et pour Fort Nelson, tirés de sa page de tarifs. Les frais par gigajoule sont exprimés par kWh. La taxe de vente varie selon la province et n'est pas comprise dans les prix, de sorte qu'une facture ne comporte aucune ligne de taxe. Le Canada couvre six fuseaux horaires, c'est pourquoi un tarif indique le sien lorsqu'il diffère."
       },
-      "tariffs": 0
+      "tariffs": 2
     },
     "DK": {
       "availability": "partial",
-      "checksum": "sha256:d39767d45b02652bf550d660ddecef7a2b6474cb0e1fd1ae1f21449d4c87229c",
+      "checksum": "sha256:fb6caa259564956323169f2117ea1eed0d620a0a2fef5590fb1b7297a6e7c78c",
       "path": "dk/index.json",
-      "providers": 0,
+      "providers": 9,
       "reason": "Household and small business gas products of every supplier, from the regulator's gas price portal, for a yearly use up to 6,000 m3. Each plan is a whole bill including VAT: the unit rate holds the gas price, the distribution tariff, the emergency supply tariff and the gas taxes, and the standing charge holds the distributor's system tariff, the meter charge and the supplier's fees. Most products have a price that changes each month, and a plan holds the price listed on the day it was read. Introductory offers and spot products are not held.",
       "reason_local": {
         "language": "da",
         "text": "Gasprodukter til husholdninger og mindre virksomheder fra alle gasleverandører, læst fra Forsyningstilsynets prisportal for gas, for et årligt forbrug op til 6.000 m3. Hver tarif er en hel regning inklusive moms: enhedsprisen rummer gasprisen, distributionstariffen, nødforsyningstariffen og gasafgifterne, og den faste betaling rummer distributionsselskabets systemtarif, målerbetalingen og leverandørens gebyrer. De fleste produkter har en pris, der skifter hver måned, og en tarif har den pris, der var oplyst den dag, den blev læst. Introtilbud og spotprodukter er ikke med."
       },
-      "tariffs": 0
+      "tariffs": 19
     },
     "ES": {
       "availability": "partial",
-      "checksum": "sha256:85b86e68d8f00708442b62eb5affe7754bbcab513f9979933b54b9f64592d6a0",
+      "checksum": "sha256:8928c6f1ec9aa6d5b3f7ea22c82773c4299947045dd82c78e6116e6227da894d",
       "path": "es/index.json",
-      "providers": 0,
+      "providers": 1,
       "reason": "The regulated household gas tariff (TUR) for the three groups by yearly use, from the CNMC comparator, with VAT and the special tax on hydrocarbons per kWh. The fixed term is per customer per month. The meter rental is not held, so a bill is short of it. Gas offers on the free market are not held, because the comparator gives their prices as free text only.",
       "reason_local": {
         "language": "es",
         "text": "Se incluye la tarifa de último recurso de gas (TUR) para los tres grupos por consumo anual, del comparador de la CNMC, con el IVA y el impuesto especial sobre hidrocarburos por kWh. El término fijo es por cliente y mes. No se guarda el alquiler del contador, así que la factura no lo incluye. No se incluyen las ofertas de gas del mercado libre, porque el comparador solo da sus precios como texto."
       },
-      "tariffs": 0
+      "tariffs": 3
     },
     "GB": {
       "availability": "available",
-      "checksum": "sha256:cec0299cb96b3efe2d37abc7469d7ec7152b412abeda543f3e70164639a6a146",
+      "checksum": "sha256:d82d9e3bb7c776a0920b736eeaf88179255e0041c00f6d1755e9e40800dce8f3",
       "path": "gb/index.json",
-      "providers": 8,
-      "tariffs": 29
+      "providers": 9,
+      "tariffs": 40
     },
     "HK": {
       "availability": "partial",
-      "checksum": "sha256:0e47e6b9319ab6676650f31c56bd76875fa416dcfd9f17980b99faca7032aced",
+      "checksum": "sha256:a3dc6662c27c8af35870a86207e397467bd6811ee1b2041e6dbd6a63fdb5732c",
       "path": "hk/index.json",
-      "providers": 0,
+      "providers": 1,
       "reason": "The town gas tariff for households. The fuel cost adjustment, which changes each month and is added to every unit of gas, is not held, so a bill is the basic tariff only. Concession schemes and business tariffs are not held.",
       "reason_local": {
         "language": "zh",
         "text": "住宅用戶的煤氣收費。每月調整並加於每單位煤氣的燃料調整費未有收錄，因此賬單只計算基本收費。優惠計劃及工商業收費亦未有收錄。"
       },
-      "tariffs": 0
+      "tariffs": 1
     },
     "IE": {
       "availability": "available",
@@ -73,15 +73,15 @@
     },
     "PL": {
       "availability": "partial",
-      "checksum": "sha256:33b48c2e5fd3aa7a282e39f60f022bbd43c90bb0f142c151a95c8dc10c62f895",
+      "checksum": "sha256:fdb9eff5a4b742e2a2f89ac387e0a34e7ad137252469cabf1e3dcfc857486202",
       "path": "pl/index.json",
-      "providers": 0,
+      "providers": 1,
       "reason": "One supplier's gas tariff approved by the regulator, for household groups by yearly use, each group an area, and the prepayment group. These are supply prices only: the price of gas and the supplier's subscription, excluding VAT and at the excise exempt rate for households. The distribution charges are set by the distribution system operator's own tariff and are not held, so a bill needs both and a bill priced from one plan is not a real bill.",
       "reason_local": {
         "language": "pl",
         "text": "Taryfa jednego sprzedawcy na gaz zatwierdzona przez Prezesa URE, dla grup taryfowych gospodarstw domowych według rocznego zużycia, każda grupa jako obszar, oraz grupa przedpłatowa. Są to wyłącznie ceny sprzedaży: cena gazu i opłata abonamentowa sprzedawcy, bez VAT i z uwzględnieniem zwolnienia od akcyzy dla gospodarstw domowych. Opłaty dystrybucyjne określa taryfa operatora systemu dystrybucyjnego i nie są tu ujęte, więc rachunek wymaga obu części, a rachunek wyliczony z jednej taryfy nie jest prawdziwym rachunkiem."
       },
-      "tariffs": 0
+      "tariffs": 2
     },
     "PT": {
       "availability": "partial",
@@ -97,10 +97,10 @@
     },
     "SG": {
       "availability": "available",
-      "checksum": "sha256:f24bedb7fed8eb1df49504270684b3206fe0760cbf3bd8a0ecf1e8e9fb2e6467",
+      "checksum": "sha256:fe2e3cb364450c444cd9417bba315ef84dbb84538ce7c012785bf5cae8bde482",
       "path": "sg/index.json",
-      "providers": 0,
-      "tariffs": 0
+      "providers": 1,
+      "tariffs": 1
     }
   }
 }

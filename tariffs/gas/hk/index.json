@@ -41,5 +41,21 @@
       "display": "MJ"
     }
   },
-  "providers": {}
+  "providers": {
+    "towngas": {
+      "name": "Towngas",
+      "tariffs": {
+        "household": {
+          "name": "Household town gas tariff",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:8c0ec0d2618ea548d45fb5090f4c0721e63457f561d53b93d00d7dc85eed06d3",
+              "effective_from": "2026-08-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    }
+  }
 }

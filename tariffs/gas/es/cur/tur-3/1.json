@@ -1,0 +1,52 @@
+{
+  "schema": 1,
+  "name": "Tarifa de último recurso TUR 3 (15,000 to 50,000 kWh a year)",
+  "provider": "Comercializadoras de último recurso",
+  "service": "gas",
+  "effective_from": "2026-10-01",
+  "source": {
+    "id": "es-cnmc-gas",
+    "url": "https://comparador.cnmc.gob.es/"
+  },
+  "prices_include_tax": false,
+  "bill": {
+    "total": {
+      "kind": "tax",
+      "mode": "added",
+      "name": "IVA",
+      "of": {
+        "kind": "sum",
+        "of": {
+          "energy": {
+            "kind": "energy_by_band",
+            "round_bands": true
+          },
+          "fixed_term": {
+            "amount": "19.32",
+            "kind": "per_period",
+            "per": "month",
+            "share": "days_in_period"
+          },
+          "hydrocarbon_tax": {
+            "amount": "$country.hydrocarbon_tax",
+            "kind": "per_kwh"
+          }
+        }
+      },
+      "percent": "$country.vat_percent"
+    }
+  },
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "All day": "0.04698799"
+      },
+      "standing": "0"
+    }
+  }
+}

@@ -37,5 +37,21 @@
       "percent": "$country.vat_percent"
     }
   },
-  "providers": {}
+  "providers": {
+    "sp-group": {
+      "name": "SP Group",
+      "tariffs": {
+        "gas-tariff": {
+          "name": "Gas tariff",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:a65d99cb6807bbf880eb083aab3319cef616a291cc068f761a902f62ac12cd8f",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    }
+  }
 }

@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "name": "FlexGas",
+  "provider": "Norlys",
+  "service": "gas",
+  "effective_from": "2026-11-24",
+  "source": {
+    "id": "dk-gasprisguiden",
+    "url": "https://gasprisguiden.dk/151.html"
+  },
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "All day": "1.228922"
+      },
+      "standing": "6.573808"
+    }
+  }
+}

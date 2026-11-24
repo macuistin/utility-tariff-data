@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "name": "Residential, Fort Nelson",
+  "provider": "FortisBC",
+  "service": "gas",
+  "timezone": "America/Fort_Nelson",
+  "effective_from": "2026-07-01",
+  "source": {
+    "id": "ca-fortisbc-gas",
+    "url": "https://www.fortisbc.com/accounts/billing-rates/natural-gas-rates/residential-rates"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "All day": "0.0387396"
+      },
+      "standing": "0.4216"
+    }
+  }
+}

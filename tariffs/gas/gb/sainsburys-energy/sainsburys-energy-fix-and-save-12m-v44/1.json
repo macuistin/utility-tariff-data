@@ -4,10 +4,12 @@
   "provider": "Sainsbury's Energy",
   "service": "gas",
   "effective_from": "2026-11-23",
+  "effective_to": "2026-11-24",
   "source": {
     "id": "kraken-gas-gb",
     "url": "https://api.eonnext-kraken.energy/v1/products/SAINSBURYS_ENERGY_FIX_AND_SAVE_12M_V44/"
   },
+  "replaced_by": "sainsburys-energy/sainsburys-energy-fix-and-save-12m-v45",
   "bands": [
     {
       "name": "Single rate"

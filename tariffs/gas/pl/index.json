@@ -47,5 +47,31 @@
       "display": "kWh"
     }
   },
-  "providers": {}
+  "providers": {
+    "energa-obrot": {
+      "name": "Energa Obrót",
+      "tariffs": {
+        "gas-tariff": {
+          "name": "Gas tariff, groups W-1 to W-4",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:08a748b96b934bc1e2a5feddb84764fe547cc3e40c7994e2dabfdb666a146a1f",
+              "effective_from": "2026-03-21",
+              "effective_to": null
+            }
+          }
+        },
+        "gas-tariff-prepayment": {
+          "name": "Gas tariff, group W-0 (prepayment meter)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:2008517d1baae2c2383924b8f6edd44a3a5362f8277931bba6109a6dea015c67",
+              "effective_from": "2026-03-21",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    }
+  }
 }

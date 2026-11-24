@@ -1,0 +1,102 @@
+{
+  "schema": 1,
+  "name": "Household town gas tariff",
+  "provider": "Towngas",
+  "service": "gas",
+  "effective_from": "2026-08-01",
+  "source": {
+    "id": "hk-towngas",
+    "url": "https://www.towngas.com/en/Household/Customer-Services/Tariff"
+  },
+  "bill": {
+    "total": {
+      "kind": "sum",
+      "of": {
+        "gas": {
+          "amount": "20",
+          "kind": "minimum",
+          "of": {
+            "blocks": {
+              "block1": {
+                "from_kwh": "0",
+                "price": "1.0728",
+                "upto_kwh": "138.888889"
+              },
+              "block10": {
+                "from_kwh": "57638.888889",
+                "price": "1.0422",
+                "upto_kwh": "71527.777778"
+              },
+              "block11": {
+                "from_kwh": "71527.777778",
+                "price": "1.0386"
+              },
+              "block2": {
+                "from_kwh": "138.888889",
+                "price": "1.0692",
+                "upto_kwh": "694.444444"
+              },
+              "block3": {
+                "from_kwh": "694.444444",
+                "price": "1.06776",
+                "upto_kwh": "2083.333333"
+              },
+              "block4": {
+                "from_kwh": "2083.333333",
+                "price": "1.06416",
+                "upto_kwh": "4861.111111"
+              },
+              "block5": {
+                "from_kwh": "4861.111111",
+                "price": "1.06056",
+                "upto_kwh": "9027.777778"
+              },
+              "block6": {
+                "from_kwh": "9027.777778",
+                "price": "1.05588",
+                "upto_kwh": "15972.222222"
+              },
+              "block7": {
+                "from_kwh": "15972.222222",
+                "price": "1.05228",
+                "upto_kwh": "29861.111111"
+              },
+              "block8": {
+                "from_kwh": "29861.111111",
+                "price": "1.04904",
+                "upto_kwh": "43750"
+              },
+              "block9": {
+                "from_kwh": "43750",
+                "price": "1.04544",
+                "upto_kwh": "57638.888889"
+              }
+            },
+            "kind": "tiered_energy",
+            "limits": "month"
+          },
+          "per": "month"
+        },
+        "maintenance": {
+          "amount": "11",
+          "kind": "per_period",
+          "per": "month",
+          "share": "days_in_period"
+        }
+      }
+    }
+  },
+  "bands": [
+    {
+      "name": "Single rate"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "Single rate": "1.0728"
+      },
+      "standing": "0"
+    }
+  }
+}

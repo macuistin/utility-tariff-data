@@ -50,5 +50,241 @@
       "source": "https://evida.dk/media/wsfhudjq/regler-for-gasdistribution-version-5-0.pdf"
     }
   },
-  "providers": {}
+  "providers": {
+    "andel-energi": {
+      "name": "Andel Energi",
+      "tariffs": {
+        "fastprisgas": {
+          "name": "FastPrisGas",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:fb6b8185d51d6e1140ed1af1fca5013fa77af316bf22664c461e95f31bf336cb",
+              "effective_from": "2026-11-24",
+              "effective_to": null
+            }
+          }
+        },
+        "fastprisgas-erhverv": {
+          "name": "FastPrisGas Erhverv",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:c8d0978ceae4ff20e6a91e81c6ec285759454ce3e8acf356be118b30e1c54b82",
+              "effective_from": "2026-11-24",
+              "effective_to": null
+            }
+          }
+        },
+        "maanedsgas": {
+          "name": "MånedsGas",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:bc41c1d5ee9a4f6c7009d8e1950540f1802fe5e8627194968904e6623bac2e55",
+              "effective_from": "2026-11-24",
+              "effective_to": null
+            }
+          }
+        },
+        "maanedsgas-erhverv": {
+          "name": "MånedsGas Erhverv",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:d2b18f54925fc0a40efdfaa83063966bfa6c94afa3a63e6f44d58e5c9387e043",
+              "effective_from": "2026-11-24",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "dcc-energi": {
+      "name": "DCC Energi",
+      "tariffs": {
+        "variabel-6-maaneder": {
+          "name": "Variabel 6 måneder",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:aa6a73a63796be8d5e6cd29ecb51edc468f6e67d460fd102a481c9b2158172b1",
+              "effective_from": "2026-11-24",
+              "effective_to": null
+            }
+          }
+        },
+        "variabel-6-maaneder-med-basis-service": {
+          "name": "Variabel 6 måneder med Basis Service",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:7b3ca0f6b6921f05aa58a3885709cad50c69c106693a579d54650fc5a623ae9d",
+              "effective_from": "2026-11-24",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "energi-fyn": {
+      "name": "Energi Fyn",
+      "tariffs": {
+        "flexgas-erhverv": {
+          "name": "Flexgas Erhverv",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:e8f165e91a8d32b38bc3e9b8858b72d54e2deadd4c8799ed6223bbd21eaac764",
+              "effective_from": "2026-11-24",
+              "effective_to": null
+            }
+          }
+        },
+        "flexgas-privat": {
+          "name": "Flexgas privat",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:9e5cf88d219f2f5333f768c669e8bfb4504cb1201a9121e332d8ba5a4483f36d",
+              "effective_from": "2026-11-24",
+              "effective_to": null
+            }
+          }
+        },
+        "fynsksupportgas-erhverv": {
+          "name": "FynskSupportGas Erhverv",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:279af14742e4cf3420c2c88f4050f528c707be6fc03b1edcd3721db9ec1b1834",
+              "effective_from": "2026-11-24",
+              "effective_to": null
+            }
+          }
+        },
+        "fysnksupportgas": {
+          "name": "FysnkSupportGas",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:fa1be48be0e62481c6c40e918ecbc5ac16249fa0b1a5ecdaf41b77985fa9e724",
+              "effective_from": "2026-11-24",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "enly": {
+      "name": "Enly",
+      "tariffs": {
+        "flexgas": {
+          "name": "FlexGas",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:1e12d39df67385759cadb50ee7023afc9eb48abcf0c54e2f6583f87c05cc1195",
+              "effective_from": "2026-11-24",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "norlys": {
+      "name": "Norlys",
+      "tariffs": {
+        "flexgas": {
+          "name": "FlexGas",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:27bc3fe7e9b37e609ac4320d4d71c6b9e073d452c20f780c776e8e445e704bcd",
+              "effective_from": "2026-11-24",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "ok": {
+      "name": "OK",
+      "tariffs": {
+        "ok-gas-erhverv-variabelpris": {
+          "name": "OK Gas Erhverv Variabelpris",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:1583fc54e559fbabfc9188277b5434396d8cf8cc0820f87e7eed329b047a5ecb",
+              "effective_from": "2026-11-24",
+              "effective_to": null
+            }
+          }
+        },
+        "ok-gas-variabelpris": {
+          "name": "OK Gas Variabelpris",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:f2d37e8620ef4a698af448028a0a915a61813d301898debb3845ee675e3ebc9f",
+              "effective_from": "2026-11-24",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "orsted": {
+      "name": "Ørsted",
+      "tariffs": {
+        "flexpris": {
+          "name": "Flexpris",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:04b82edaeb3d2f70e8d8b399457e784008b9a468bfeb37f91abed4324c0547b7",
+              "effective_from": "2026-11-24",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "sef-energi": {
+      "name": "SEF Energi",
+      "tariffs": {
+        "support-energi": {
+          "name": "Support Energi",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:dd754ddcaf66bc243aa0b1439a93de63e8b921f3070652cc8ffa27f14a995ca9",
+              "effective_from": "2026-11-24",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "sk-energi": {
+      "name": "SK Energi",
+      "tariffs": {
+        "flex-naturgas": {
+          "name": "Flex Naturgas",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:851d3ae3ec2f3eafbea748f5ec4e9198201e82df8cae916e66ddde047c69bdc6",
+              "effective_from": "2026-11-24",
+              "effective_to": null
+            }
+          }
+        },
+        "flex-naturgas-erhverv": {
+          "name": "Flex naturgas erhverv",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:4b0b3e3d50c8989a56fd786af34a53f5c1cdab2196775092d059f5787ded7d36",
+              "effective_from": "2026-11-24",
+              "effective_to": null
+            }
+          }
+        },
+        "kombi-flex": {
+          "name": "Kombi Flex",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:9b7eed20f669c24ed4fc9bc9e22099f2e181e7a6a4f11d031d876527148c6af4",
+              "effective_from": "2026-11-24",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    }
+  }
 }

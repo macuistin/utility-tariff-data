@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "Gas tariff, groups W-1 to W-4",
+  "provider": "Energa Obrót",
+  "service": "gas",
+  "effective_from": "2026-03-21",
+  "source": {
+    "id": "pl-energa-gas",
+    "url": "https://www.energa.pl/dam/jcr:f695ec98-6333-46b0-8010-b7911db37dbb/Taryfa%20nr%2014%20dla%20Gazu%20Ziemnego%20Wysokometanowego%20ENERGA%20OBR%C3%93T%20SA%20obowi%C4%85zuj%C4%85ca%20od%2021%20marca%202026%20roku.pdf"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "w-1": {
+      "label": "W-1, up to 300 m3 a year",
+      "rates": {
+        "All day": "0.19189"
+      },
+      "standing": "0.131178"
+    },
+    "w-2": {
+      "label": "W-2, 300 to 1,200 m3 a year",
+      "rates": {
+        "All day": "0.19112"
+      },
+      "standing": "0.196932"
+    },
+    "w-3": {
+      "label": "W-3, 1,200 to 8,000 m3 a year",
+      "rates": {
+        "All day": "0.19043"
+      },
+      "standing": "0.229808"
+    },
+    "w-4": {
+      "label": "W-4, over 8,000 m3 a year",
+      "rates": {
+        "All day": "0.1903"
+      },
+      "standing": "0.558575"
+    }
+  }
+}
