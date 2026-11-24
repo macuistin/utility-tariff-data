@@ -1,0 +1,68 @@
+{
+  "schema": 1,
+  "name": "Dual Fuel 24 Hour (electricity)",
+  "provider": "Energia",
+  "effective_from": "2026-10-12",
+  "source": {
+    "id": "energia",
+    "url": "https://www.energia.ie/about-energia/our-tariffs"
+  },
+  "export": "energia/energia-microgeneration-export",
+  "bill": {
+    "total": {
+      "kind": "sum",
+      "of": {
+        "charges": {
+          "kind": "tax",
+          "mode": "included",
+          "name": "VAT",
+          "of": {
+            "kind": "sum",
+            "of": {
+              "energy": {
+                "kind": "adjust",
+                "name": "Discount",
+                "of": {
+                  "kind": "energy_by_band",
+                  "round_bands": true
+                },
+                "percent": "-21"
+              },
+              "levy": {
+                "amount": "0.5559",
+                "kind": "per_period",
+                "per": "month",
+                "share": "days_in_period"
+              },
+              "standing": {
+                "kind": "per_day"
+              }
+            }
+          },
+          "percent": "$country.vat_percent"
+        }
+      }
+    }
+  },
+  "bands": [
+    {
+      "name": "24 Hour"
+    }
+  ],
+  "areas": {
+    "rural": {
+      "label": "Rural",
+      "rates": {
+        "24 Hour": "0.435"
+      },
+      "standing": "0.969507"
+    },
+    "urban": {
+      "label": "Urban",
+      "rates": {
+        "24 Hour": "0.435"
+      },
+      "standing": "0.762384"
+    }
+  }
+}

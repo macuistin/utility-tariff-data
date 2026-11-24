@@ -1,0 +1,126 @@
+{
+  "schema": 1,
+  "name": "Dual Fuel Day Night (electricity)",
+  "provider": "Energia",
+  "timezone": "UTC",
+  "effective_from": "2026-10-12",
+  "source": {
+    "id": "energia",
+    "url": "https://www.energia.ie/about-energia/our-tariffs"
+  },
+  "export": "energia/energia-microgeneration-export",
+  "bill": {
+    "period": {
+      "months": 2,
+      "rule": "monthly",
+      "start_day": "$input.bill_start_day",
+      "start_month": "$input.bill_start_month"
+    },
+    "total": {
+      "kind": "sum",
+      "of": {
+        "charges": {
+          "kind": "tax",
+          "mode": "included",
+          "name": "VAT",
+          "of": {
+            "kind": "sum",
+            "of": {
+              "energy": {
+                "kind": "adjust",
+                "name": "Discount",
+                "of": {
+                  "kind": "sum",
+                  "of": {
+                    "day": {
+                      "bands": [
+                        "Day"
+                      ],
+                      "blocks": {
+                        "standard": {
+                          "from_kwh": "0",
+                          "price": "0.4676",
+                          "upto_kwh": "3000"
+                        },
+                        "threshold": {
+                          "from_kwh": "3000",
+                          "price": "0.5182"
+                        }
+                      },
+                      "kind": "tiered_energy",
+                      "limits": "period"
+                    },
+                    "night": {
+                      "bands": [
+                        "Night"
+                      ],
+                      "blocks": {
+                        "standard": {
+                          "from_kwh": "0",
+                          "price": "0.2802",
+                          "upto_kwh": "2000"
+                        },
+                        "threshold": {
+                          "from_kwh": "2000",
+                          "price": "0.3156"
+                        }
+                      },
+                      "kind": "tiered_energy",
+                      "limits": "period"
+                    }
+                  }
+                },
+                "percent": "-21"
+              },
+              "levy": {
+                "amount": "0.5559",
+                "kind": "per_period",
+                "per": "month",
+                "share": "days_in_period"
+              },
+              "standing": {
+                "kind": "per_day"
+              }
+            }
+          },
+          "percent": "$country.vat_percent"
+        }
+      }
+    }
+  },
+  "inputs": {
+    "bill_start_month": {
+      "default": 1,
+      "max": 12,
+      "min": 1,
+      "type": "integer"
+    }
+  },
+  "bands": [
+    {
+      "name": "Day"
+    },
+    {
+      "hours": "23:00-08:00",
+      "name": "Night"
+    }
+  ],
+  "areas": {
+    "rural": {
+      "label": "Rural",
+      "rates": {
+        "Day": "0.4676",
+        "Night": "0.2802"
+      },
+      "standing": "1.214849"
+    },
+    "urban": {
+      "label": "Urban",
+      "rates": {
+        "Day": "0.4676",
+        "Night": "0.2802"
+      },
+      "standing": "0.954986"
+    }
+  }
+}

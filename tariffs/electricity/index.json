@@ -129,17 +129,17 @@
     },
     "GB": {
       "availability": "available",
-      "checksum": "sha256:ac1575293c377a3c6bc4a92ab688f16a58836006369406ea2137e28f45c91a12",
+      "checksum": "sha256:6a51f4053fd7a207cae3ffd77221a81606c70ed3fb9197d40b700211131520aa",
       "path": "gb/index.json",
-      "providers": 4,
-      "tariffs": 16
+      "providers": 6,
+      "tariffs": 30
     },
     "IE": {
       "availability": "available",
-      "checksum": "sha256:ac9570605ea5f57eecde717c4c58ccf7d24f95ba61370ccddad1855278731861",
+      "checksum": "sha256:7e9b3df3843802408bcd26dacf149e77dc32e408540fb984f62b7979c37c7a95",
       "path": "ie/index.json",
       "providers": 11,
-      "tariffs": 50
+      "tariffs": 61
     },
     "IN": {
       "availability": "partial",

@@ -442,6 +442,86 @@
     "energia": {
       "name": "Energia",
       "tariffs": {
+        "energia-24-hour": {
+          "name": "24 Hour",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:deaddb83cc11e88fbeac8ae9a32abcea384f2aedb534ee3f72a8c1baf62d4b8c",
+              "effective_from": "2026-10-12",
+              "effective_to": null
+            }
+          }
+        },
+        "energia-day-night": {
+          "name": "Day Night",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:8a3a693c542b4e598fcfd8f79c886db07e222692086e1cdded86a265ff55b97a",
+              "effective_from": "2026-10-16",
+              "effective_to": null
+            }
+          }
+        },
+        "energia-dual-fuel-24-hour": {
+          "name": "Dual Fuel 24 Hour (electricity)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:7a3c75cd37dddcd8eb3c48093ace5d86588b0752f8e0c709f4d763fa3d1704a4",
+              "effective_from": "2026-10-12",
+              "effective_to": null
+            }
+          }
+        },
+        "energia-dual-fuel-day-night": {
+          "name": "Dual Fuel Day Night (electricity)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:3f30e14f73387e42d2b71c4aa6703c4bf7cf6e220190cade9ecac254636dc73a",
+              "effective_from": "2026-10-12",
+              "effective_to": null
+            }
+          }
+        },
+        "energia-dual-fuel-smart-data": {
+          "name": "Dual Fuel Smart Data (electricity)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:864dcb29467ed28443eb4676ef4af1044268ae0d8a8d3d13a90e2e07ea3c9be9",
+              "effective_from": "2026-10-12",
+              "effective_to": null
+            }
+          }
+        },
+        "energia-dual-fuel-smart-standard": {
+          "name": "Dual Fuel Standard Smart (electricity)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:a792b697fb9dcc713a5d1a494cf123c5ebc55f5ef72adcd8ac9e3a59c818191e",
+              "effective_from": "2026-10-12",
+              "effective_to": null
+            }
+          }
+        },
+        "energia-ev-smart-drive": {
+          "name": "EV Smart Drive",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:dad2c7b32e1704753e17e6cc1c2636bbe0bc7f6d9b4ba5bbebf094c39b710d43",
+              "effective_from": "2026-10-12",
+              "effective_to": null
+            }
+          }
+        },
+        "energia-ev-smart-drive-plus": {
+          "name": "EV Smart Drive Plus",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:daacaa2b60cb06c0da865d1dad7b4fbdf80547cc6daf1c874eca32b9c0b2155d",
+              "effective_from": "2026-10-12",
+              "effective_to": null
+            }
+          }
+        },
         "energia-ev-smart-drive-plus-variable-price": {
           "name": "EV Smart Drive Plus Variable price",
           "revisions": {
@@ -483,6 +563,17 @@
             }
           }
         },
+        "energia-microgeneration-export": {
+          "direction": "export",
+          "name": "Microgeneration",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:31ea48145b88ad469b9c0f53fd5f7e36797eb1f47c30c8788a94d8d085b46a7a",
+              "effective_from": "2026-10-12",
+              "effective_to": null
+            }
+          }
+        },
         "energia-smart-24-hour-variable-price": {
           "name": "Smart 24 Hour Variable price",
           "revisions": {
@@ -494,6 +585,16 @@
             "2": {
               "checksum": "sha256:0ffd01883ee59a5a4ec8adb12c80c1bc9b215e4a1b66d2d84d8aa7498fb64895",
               "effective_from": "2026-11-23",
+              "effective_to": null
+            }
+          }
+        },
+        "energia-smart-data": {
+          "name": "Smart Data",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:34fe50a3415b0244f50fbd3dfb30641d9186ee18a1eb3d478097bd27ce1eb690",
+              "effective_from": "2026-10-12",
               "effective_to": null
             }
           }
@@ -524,6 +625,16 @@
             "2": {
               "checksum": "sha256:b384d984cfd246b6eccd611c0e1e54f103cc493ea4589f1489e26cca064c08d2",
               "effective_from": "2026-11-23",
+              "effective_to": null
+            }
+          }
+        },
+        "energia-smart-standard": {
+          "name": "Standard Smart",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:a5c42e3887323c7ae284d342266d22cc87ef8542ef36d79d90ce0c6c6e3ceec9",
+              "effective_from": "2026-10-12",
               "effective_to": null
             }
           }
@@ -707,6 +818,11 @@
             "3": {
               "checksum": "sha256:f15e8729eb26fd89299058e34c27498c9e7da98c9a4e50dac7bbbccfe2ba5b2b",
               "effective_from": "2026-11-23",
+              "effective_to": "2026-11-24"
+            },
+            "4": {
+              "checksum": "sha256:e4b5a2fcdea55deac74e8eb84903993d759ad9bf3611202451259b962eaaedf2",
+              "effective_from": "2026-11-24",
               "effective_to": null
             }
           }
@@ -727,6 +843,11 @@
             "3": {
               "checksum": "sha256:0c7a829bf7e5905ddcc892ebaf3b9c63d47276e0403d1e90133e7bbe5846657e",
               "effective_from": "2026-11-23",
+              "effective_to": "2026-11-24"
+            },
+            "4": {
+              "checksum": "sha256:5a4f2206c009249ea61c44c0ecb9d3baba2976c67090012baaa4f5829cc60dbf",
+              "effective_from": "2026-11-24",
               "effective_to": null
             }
           }

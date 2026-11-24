@@ -255,9 +255,64 @@
         }
       }
     },
+    "edf": {
+      "name": "EDF",
+      "tariffs": {
+        "edf-simply-fixed-2yr-nov2028-v5": {
+          "name": "Simply Fixed 2Yr Nov28v5",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:829012a46128b136a556e2b9cb1059ee1fefca29d239c3d04ecee64cdf304db8",
+              "effective_from": "2026-11-24",
+              "effective_to": null
+            }
+          }
+        },
+        "edf-simply-fixed-apr2028-v4": {
+          "name": "Simply Fixed Apr28v4",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:a9b3b533b0559b9242cac60401aa9729832f9777512dd12540ed8b7d680c1f44",
+              "effective_from": "2026-11-24",
+              "effective_to": null
+            }
+          }
+        },
+        "edf-simply-fixed-nov2027-v5": {
+          "name": "Simply Fixed Nov27v5",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:0537df209fe8e1fa367bc7d49bd91de3c35720ff3635a82236eff32c38f1a252",
+              "effective_from": "2026-11-24",
+              "effective_to": null
+            }
+          }
+        },
+        "edf-standard-variable": {
+          "name": "Standard Variable",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:44e08cf204587940d79da60aabe48c0caa96f9e0045bb7a8105101eceb40267a",
+              "effective_from": "2026-11-24",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
     "eon-next": {
       "name": "E.ON Next",
       "tariffs": {
+        "eon-next-next-direct-fixed-18m-v2": {
+          "name": "Next Direct Fixed 18m v2",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:955d276eeee67373f4149fdc4aa687c5627623c6308c97480eedf2984f429d1f",
+              "effective_from": "2026-11-24",
+              "effective_to": null
+            }
+          }
+        },
         "eon-next-next-export-exclusive-v3": {
           "direction": "export",
           "name": "Next Export Exclusive v3",
@@ -280,6 +335,36 @@
             }
           }
         },
+        "eon-next-next-fixed-12m-v172": {
+          "name": "Next Fixed 12m v172",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:dcfd2afdeb763d83b048e3382cae6fd9767fb604a57a23568a251b8fc8e9f246",
+              "effective_from": "2026-11-23",
+              "effective_to": null
+            }
+          }
+        },
+        "eon-next-next-fixed-24m-v87": {
+          "name": "Next Fixed 24m v87",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:a1fc2c11e5511e1e77327e15f0e31728cd7bfd8e096cc275106070bead7f4731",
+              "effective_from": "2026-11-23",
+              "effective_to": null
+            }
+          }
+        },
+        "eon-next-next-flex": {
+          "name": "Next Flex",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:b89f508e68e9abc8345991891c15f7306ab438fd4e6ab954ac3db911e2be4939",
+              "effective_from": "2026-11-24",
+              "effective_to": null
+            }
+          }
+        },
         "eon-next-next-flex-export-v1": {
           "direction": "export",
           "name": "Next Flex Export v1",
@@ -287,6 +372,36 @@
             "1": {
               "checksum": "sha256:5dc27e58cf5f7f5e95ee65edb74374bd0f06102a9096df841ddf8aa5f21a6ef0",
               "effective_from": "2025-10-31",
+              "effective_to": null
+            }
+          }
+        },
+        "eon-next-next-lower-daily-fixed-24m-v87": {
+          "name": "Next Lower Daily Fixed 24m v87",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:e1f7f177e36e89322a4a1587a9ef38da3f1b6a39acf234b41f3a4eaa0cfdf84c",
+              "effective_from": "2026-11-23",
+              "effective_to": null
+            }
+          }
+        },
+        "eon-next-next-secure-fixed-12m-v106": {
+          "name": "Next Secure Fixed 12m v106",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:0107c61d255b9b6e1dbb894ab8274b58a292c999eaee3e8e13aee7f76b88f0ca",
+              "effective_from": "2026-11-23",
+              "effective_to": null
+            }
+          }
+        },
+        "eon-next-next-secure-fixed-24m-v61": {
+          "name": "Next Secure Fixed 24m v61",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:cb677984ab8a691e485ab108cc162c3d2de8cde04d36f5524ae45ee3f9c071de",
+              "effective_from": "2026-11-23",
               "effective_to": null
             }
           }
@@ -437,6 +552,41 @@
               "checksum": "sha256:e97ee9856783689423603cd3943cea325d077e70b88c7d69d50facff43c13647",
               "effective_from": "2026-10-01",
               "effective_to": "2027-01-01"
+            }
+          }
+        }
+      }
+    },
+    "sainsburys-energy": {
+      "name": "Sainsbury's Energy",
+      "tariffs": {
+        "sainsburys-energy-fix-and-save-12m-v44": {
+          "name": "Sainsburys Energy Fix and Save 12m v44",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:71b85aebaa87db5758957aaa6cbb9e4596b155435bd57000082cc6c3276b9afb",
+              "effective_from": "2026-11-23",
+              "effective_to": null
+            }
+          }
+        },
+        "sainsburys-fix-and-reward-fixed-24m-v63": {
+          "name": "Sainsburys Fix and Reward Fixed 24m v63",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:c7bc753f336a0cc354938647259547e1fd5a796055e88df94a60dcd26962383c",
+              "effective_from": "2026-11-23",
+              "effective_to": null
+            }
+          }
+        },
+        "sainsburys-standard": {
+          "name": "Sainsbury's Standard Variable",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:197a572504707c34a7489afaac78ec5a27dcb2664f97a6a5b060b4d6abe15ecd",
+              "effective_from": "2026-11-23",
+              "effective_to": null
             }
           }
         }

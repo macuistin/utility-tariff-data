@@ -1,0 +1,120 @@
+{
+  "schema": 1,
+  "name": "EV Smart Drive",
+  "provider": "Energia",
+  "effective_from": "2026-10-12",
+  "source": {
+    "id": "energia",
+    "url": "https://www.energia.ie/about-energia/our-tariffs"
+  },
+  "export": "energia/energia-microgeneration-export",
+  "bill": {
+    "period": {
+      "months": 2,
+      "rule": "monthly",
+      "start_day": "$input.bill_start_day",
+      "start_month": "$input.bill_start_month"
+    },
+    "total": {
+      "kind": "sum",
+      "of": {
+        "charges": {
+          "kind": "tax",
+          "mode": "included",
+          "name": "VAT",
+          "of": {
+            "kind": "sum",
+            "of": {
+              "energy": {
+                "kind": "adjust",
+                "name": "Discount",
+                "of": {
+                  "kind": "sum",
+                  "of": {
+                    "charge_time": {
+                      "bands": [
+                        "Charge Time"
+                      ],
+                      "blocks": {
+                        "standard": {
+                          "from_kwh": "0",
+                          "price": "0.1361",
+                          "upto_kwh": "1000"
+                        },
+                        "threshold": {
+                          "from_kwh": "1000",
+                          "price": "0.1713"
+                        }
+                      },
+                      "kind": "tiered_energy",
+                      "limits": "period"
+                    },
+                    "day": {
+                      "bands": [
+                        "Day"
+                      ],
+                      "blocks": {
+                        "standard": {
+                          "from_kwh": "0",
+                          "price": "0.4462"
+                        }
+                      },
+                      "kind": "tiered_energy",
+                      "limits": "period"
+                    }
+                  }
+                },
+                "percent": "-10"
+              },
+              "levy": {
+                "amount": "0.5559",
+                "kind": "per_period",
+                "per": "month",
+                "share": "days_in_period"
+              },
+              "standing": {
+                "kind": "per_day"
+              }
+            }
+          },
+          "percent": "$country.vat_percent"
+        }
+      }
+    }
+  },
+  "inputs": {
+    "bill_start_month": {
+      "default": 1,
+      "max": 12,
+      "min": 1,
+      "type": "integer"
+    }
+  },
+  "bands": [
+    {
+      "name": "Day"
+    },
+    {
+      "hours": "02:00-06:00",
+      "name": "Charge Time"
+    }
+  ],
+  "areas": {
+    "rural": {
+      "label": "Rural",
+      "rates": {
+        "Charge Time": "0.1361",
+        "Day": "0.4462"
+      },
+      "standing": "1.181863"
+    },
+    "urban": {
+      "label": "Urban",
+      "rates": {
+        "Charge Time": "0.1361",
+        "Day": "0.4462"
+      },
+      "standing": "0.92937"
+    }
+  }
+}

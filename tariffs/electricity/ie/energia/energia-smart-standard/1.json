@@ -1,0 +1,80 @@
+{
+  "schema": 1,
+  "name": "Standard Smart",
+  "provider": "Energia",
+  "effective_from": "2026-10-12",
+  "source": {
+    "id": "energia",
+    "url": "https://www.energia.ie/about-energia/our-tariffs"
+  },
+  "export": "energia/energia-microgeneration-export",
+  "bill": {
+    "total": {
+      "kind": "sum",
+      "of": {
+        "charges": {
+          "kind": "tax",
+          "mode": "included",
+          "name": "VAT",
+          "of": {
+            "kind": "sum",
+            "of": {
+              "energy": {
+                "kind": "adjust",
+                "name": "Discount",
+                "of": {
+                  "kind": "energy_by_band",
+                  "round_bands": true
+                },
+                "percent": "-15"
+              },
+              "levy": {
+                "amount": "0.5559",
+                "kind": "per_period",
+                "per": "month",
+                "share": "days_in_period"
+              },
+              "standing": {
+                "kind": "per_day"
+              }
+            }
+          },
+          "percent": "$country.vat_percent"
+        }
+      }
+    }
+  },
+  "bands": [
+    {
+      "name": "Day"
+    },
+    {
+      "hours": "23:00-08:00",
+      "name": "Night"
+    },
+    {
+      "hours": "17:00-19:00",
+      "name": "Peak"
+    }
+  ],
+  "areas": {
+    "rural": {
+      "label": "Rural",
+      "rates": {
+        "Day": "0.4339",
+        "Night": "0.3161",
+        "Peak": "0.4967"
+      },
+      "standing": "0.969507"
+    },
+    "urban": {
+      "label": "Urban",
+      "rates": {
+        "Day": "0.4339",
+        "Night": "0.3161",
+        "Peak": "0.4967"
+      },
+      "standing": "0.762384"
+    }
+  }
+}

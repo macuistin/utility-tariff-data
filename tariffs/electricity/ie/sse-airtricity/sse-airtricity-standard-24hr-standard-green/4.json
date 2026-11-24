@@ -1,0 +1,58 @@
+{
+  "schema": 1,
+  "name": "Standard, 24hr Standard Green",
+  "provider": "Sse Airtricity",
+  "effective_from": "2026-11-24",
+  "source": {
+    "id": "selectra-ie",
+    "url": "https://www.sseairtricity.com/ie/home/help-centre/our-tariffs/current-offers"
+  },
+  "export": "sse-airtricity/sse-airtricity-microgen-export",
+  "bill": {
+    "total": {
+      "kind": "tax",
+      "mode": "included",
+      "name": "VAT",
+      "of": {
+        "kind": "sum",
+        "of": {
+          "energy": {
+            "kind": "energy_by_band",
+            "round_bands": true
+          },
+          "levy": {
+            "amount": "0.5559",
+            "kind": "per_period",
+            "per": "month",
+            "share": "days_in_period"
+          },
+          "standing": {
+            "kind": "per_day"
+          }
+        }
+      },
+      "percent": "$country.vat_percent"
+    }
+  },
+  "bands": [
+    {
+      "name": "24-Hour"
+    }
+  ],
+  "areas": {
+    "rural": {
+      "label": "Rural",
+      "rates": {
+        "24-Hour": "0.31501"
+      },
+      "standing": "0.962904"
+    },
+    "urban": {
+      "label": "Urban",
+      "rates": {
+        "24-Hour": "0.31501"
+      },
+      "standing": "0.767151"
+    }
+  }
+}

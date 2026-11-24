@@ -1,11 +1,11 @@
-Last updated: 2026-11-23
+Last updated: 2026-11-24
 
 # Ireland: electricity tariff status
 
 [All countries](../STATUS.md)
 
 - Coverage: available.
-- Held: 11 providers and 50 tariffs. 50 current, 0 upcoming, 0 ended, as of the date above.
+- Held: 11 providers and 61 tariffs. 61 current, 0 upcoming, 0 ended, as of the date above.
 
 | Provider | Tariff | Direction | Status today | Valid from | Valid to | Revisions | Last changed | Source |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -37,12 +37,23 @@ Last updated: 2026-11-23
 | Electric Ireland | Microgen Export | export | Current | 2026-11-13 | open | 1 | 2026-11-13 | electric-ireland |
 | Electric Ireland | NightSaver Standard Green | import | Current | 2026-11-09 | open | 3 | 2026-11-23 | selectra-ie |
 | Electric Ireland | Standard, 24hr Standard Green | import | Current | 2026-11-09 | open | 3 | 2026-11-23 | selectra-ie |
+| Energia | 24 Hour | import | Current | 2026-10-12 | open | 1 | 2026-10-12 | energia |
+| Energia | Day Night | import | Current | 2026-10-16 | open | 1 | 2026-10-16 | energia |
+| Energia | Dual Fuel 24 Hour (electricity) | import | Current | 2026-10-12 | open | 1 | 2026-10-12 | energia |
+| Energia | Dual Fuel Day Night (electricity) | import | Current | 2026-10-12 | open | 1 | 2026-10-12 | energia |
+| Energia | Dual Fuel Smart Data (electricity) | import | Current | 2026-10-12 | open | 1 | 2026-10-12 | energia |
+| Energia | Dual Fuel Standard Smart (electricity) | import | Current | 2026-10-12 | open | 1 | 2026-10-12 | energia |
+| Energia | EV Smart Drive | import | Current | 2026-10-12 | open | 1 | 2026-10-12 | energia |
+| Energia | EV Smart Drive Plus | import | Current | 2026-10-12 | open | 1 | 2026-10-12 | energia |
 | Energia | EV Smart Drive Plus Variable price | import | Current | 2026-11-17 | open | 2 | 2026-11-23 | selectra-ie |
 | Energia | EV Smart Drive Variable price | import | Current | 2026-11-16 | open | 2 | 2026-11-23 | selectra-ie |
 | Energia | Energia Microgen Export | export | Current | 2026-11-01 | open | 1 | 2026-11-01 | selectra-ie |
+| Energia | Microgeneration | export | Current | 2026-10-12 | open | 1 | 2026-10-12 | energia |
 | Energia | Smart 24 Hour Variable price | import | Current | 2026-11-16 | open | 2 | 2026-11-23 | selectra-ie |
+| Energia | Smart Data | import | Current | 2026-10-12 | open | 1 | 2026-10-12 | energia |
 | Energia | Smart Data Variable price | import | Current | 2026-11-16 | open | 2 | 2026-11-23 | selectra-ie |
 | Energia | Smart Day Night Variable price | import | Current | 2026-11-16 | open | 2 | 2026-11-23 | selectra-ie |
+| Energia | Standard Smart | import | Current | 2026-10-12 | open | 1 | 2026-10-12 | energia |
 | Energia | SST Variable price | import | Current | 2026-11-17 | open | 2 | 2026-11-23 | selectra-ie |
 | Energia | Standard, 24hr Standard Green | import | Current | 2026-11-09 | open | 3 | 2026-11-23 | selectra-ie |
 | Flogas | Flogas Microgen Export | export | Current | 2026-11-01 | open | 1 | 2026-11-01 | selectra-ie |
@@ -52,8 +63,8 @@ Last updated: 2026-11-23
 | Pinergy | Standard, 24hr Pay-as-you-go Green | import | Current | 2026-11-09 | open | 3 | 2026-11-23 | selectra-ie |
 | Prepaypower | Standard, 24hr Pay-as-you-go Green | import | Current | 2026-11-09 | open | 2 | 2026-11-23 | selectra-ie |
 | Sse Airtricity | Sse Airtricity Microgen Export | export | Current | 2026-11-01 | open | 1 | 2026-11-01 | selectra-ie |
-| Sse Airtricity | NightSaver Standard Green | import | Current | 2026-11-09 | open | 3 | 2026-11-23 | selectra-ie |
-| Sse Airtricity | Standard, 24hr Standard Green | import | Current | 2026-11-09 | open | 3 | 2026-11-23 | selectra-ie |
+| Sse Airtricity | NightSaver Standard Green | import | Current | 2026-11-09 | open | 4 | 2026-11-24 | selectra-ie |
+| Sse Airtricity | Standard, 24hr Standard Green | import | Current | 2026-11-09 | open | 4 | 2026-11-24 | selectra-ie |
 | Waterpower | NightSaver Standard Green | import | Current | 2026-11-09 | open | 2 | 2026-11-23 | selectra-ie |
 | Waterpower | Standard, 24hr Standard Green | import | Current | 2026-11-09 | open | 2 | 2026-11-23 | selectra-ie |
 | Yuno Energy | Yuno Energy Microgen Export | export | Current | 2026-11-01 | open | 1 | 2026-11-01 | selectra-ie |

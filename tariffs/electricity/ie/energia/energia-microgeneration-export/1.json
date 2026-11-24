@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "name": "Microgeneration",
+  "provider": "Energia",
+  "direction": "export",
+  "effective_from": "2026-10-12",
+  "source": {
+    "id": "energia",
+    "url": "https://www.energia.ie/about-energia/our-tariffs"
+  },
+  "bands": [
+    {
+      "name": "Export"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "Export": "0.185"
+      }
+    }
+  }
+}
