@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "service": "heating-oil",
+  "source": "desnz-heating-oil",
+  "fuel": "kerosene (standard grade burning oil)",
+  "currency": "GBP",
+  "unit": "l",
+  "price_date": "2026-08-01",
+  "fetched": "2026-11-24",
+  "source_url": "https://www.gov.uk/government/statistical-data-sets/oil-and-petroleum-products-monthly-statistics",
+  "credit": "Source: Department for Energy Security and Net Zero, table 4.1.1. Contains public sector information licensed under the Open Government Licence v3.0.",
+  "conversion": {
+    "from_unit": "penny per l",
+    "litres_per_unit": "1",
+    "note": "DESNZ publishes pence per litre. This store divides by 100 for pounds per litre."
+  },
+  "rows": [
+    {
+      "label": "average",
+      "scope": {
+        "country": "GB"
+      },
+      "price": "0.9001",
+      "source_price": "90.01"
+    }
+  ]
+}

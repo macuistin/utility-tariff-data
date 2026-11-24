@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "country": "GB",
+  "sources": {
+    "desnz-heating-oil": {
+      "fuel": "kerosene (standard grade burning oil)",
+      "currency": "GBP",
+      "latest": "2026-10-01",
+      "weeks": {
+        "2026-08-01": {
+          "path": "desnz-heating-oil/2026-08-01.json",
+          "checksum": "sha256:50771fcfb132b92e05af3101ee810bea454c383d7b23ff6b47f98f96b7e33de6"
+        },
+        "2026-09-01": {
+          "path": "desnz-heating-oil/2026-09-01.json",
+          "checksum": "sha256:ff41afcc8020efe1e931a977ed0f8e1fcb10ecb7f14c8a1030bec6e19df7d539"
+        },
+        "2026-10-01": {
+          "path": "desnz-heating-oil/2026-10-01.json",
+          "checksum": "sha256:09b857579d1598b2809dba08c69ed03c0b4d1c77c4d266b2f4fe7b0cea9b07a6"
+        }
+      }
+    }
+  }
+}

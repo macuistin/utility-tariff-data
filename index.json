@@ -98,6 +98,14 @@
       "latest": "2026-11-16",
       "checksum": "sha256:634461b2a15ba11bd3f4e3afe10c5d2f1089256b5c53680381d69028e66d768b"
     },
+    "GB": {
+      "path": "gb/index.json",
+      "sources": [
+        "desnz-heating-oil"
+      ],
+      "latest": "2026-10-01",
+      "checksum": "sha256:30aa3fc34a506435c0e90d82f5709179d3bcb867c3abe1592227ab84d9e29b51"
+    },
     "GR": {
       "path": "gr/index.json",
       "sources": [
