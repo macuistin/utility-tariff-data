@@ -284,11 +284,11 @@
     },
     "TW": {
       "availability": "partial",
-      "checksum": "sha256:51d4c4f1016d3e4cb972ed4b46d115405b610776fecdab44de188d819c9a1edb",
+      "checksum": "sha256:98f1ff10b95f4a7abae42ec42b45b4c9a307f09fb2a6dcb8d60d34bab66c62b5",
       "path": "tw/index.json",
-      "providers": 0,
+      "providers": 1,
       "reason": "The residential non-time-of-use tariff of Taipower, from its open data file. The file states no tax, so a bill carries no tax line. The time-of-use tariffs are not held because their off-peak days follow the national holiday calendar.",
-      "tariffs": 0
+      "tariffs": 1
     },
     "UA": {
       "availability": "partial",
