@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "Quero+ Gás (FD + DD)",
+  "provider": "Endesa",
+  "service": "gas",
+  "effective_from": "2026-10-15",
+  "source": {
+    "id": "pt-erse-offers-gas",
+    "url": "https://simuladorprecos.erse.pt/"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "step-1": {
+      "label": "Step 1, 0 to 220 m3 a year",
+      "rates": {
+        "All day": "0.116088"
+      },
+      "standing": "0.180012"
+    },
+    "step-2": {
+      "label": "Step 2, 221 to 500 m3 a year",
+      "rates": {
+        "All day": "0.112392"
+      },
+      "standing": "0.255528"
+    },
+    "step-3": {
+      "label": "Step 3, 501 to 1,000 m3 a year",
+      "rates": {
+        "All day": "0.104664"
+      },
+      "standing": "0.414456"
+    },
+    "step-4": {
+      "label": "Step 4, 1,001 to 10,000 m3 a year",
+      "rates": {
+        "All day": "0.103908"
+      },
+      "standing": "0.67326"
+    }
+  }
+}

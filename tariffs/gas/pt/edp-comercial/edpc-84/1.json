@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "name": "Gás DD+FE (desconto por débito direto e fatura eletrónica)",
+  "provider": "EDP Comercial",
+  "service": "gas",
+  "effective_from": "2026-10-01",
+  "source": {
+    "id": "pt-erse-offers-gas",
+    "url": "https://simuladorprecos.erse.pt/"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "step-1": {
+      "label": "Step 1, 0 to 220 m3 a year",
+      "rates": {
+        "All day": "0.094"
+      },
+      "standing": "0.0717"
+    },
+    "step-2": {
+      "label": "Step 2, 221 to 500 m3 a year",
+      "rates": {
+        "All day": "0.0913"
+      },
+      "standing": "0.1075"
+    },
+    "step-3": {
+      "label": "Step 3, 501 to 1,000 m3 a year",
+      "rates": {
+        "All day": "0.0897"
+      },
+      "standing": "0.1484"
+    },
+    "step-4": {
+      "label": "Step 4, 1,001 to 10,000 m3 a year",
+      "rates": {
+        "All day": "0.0895"
+      },
+      "standing": "0.2181"
+    }
+  }
+}

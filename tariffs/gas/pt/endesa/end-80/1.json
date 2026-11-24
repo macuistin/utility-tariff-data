@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "name": "Tarifa + Gás",
+  "provider": "Endesa",
+  "service": "gas",
+  "effective_from": "2026-10-15",
+  "source": {
+    "id": "pt-erse-offers-gas",
+    "url": "https://simuladorprecos.erse.pt/"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "step-1": {
+      "label": "Step 1, 0 to 220 m3 a year",
+      "rates": {
+        "All day": "0.08896"
+      },
+      "standing": "0.1288"
+    },
+    "step-2": {
+      "label": "Step 2, 221 to 500 m3 a year",
+      "rates": {
+        "All day": "0.08528"
+      },
+      "standing": "0.23896"
+    }
+  }
+}

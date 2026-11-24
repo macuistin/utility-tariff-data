@@ -1,0 +1,130 @@
+{
+  "schema": 1,
+  "name": "Good Energy Standard",
+  "provider": "Good Energy",
+  "service": "gas",
+  "effective_from": "2026-10-01",
+  "source": {
+    "id": "good-energy-gas-gb",
+    "url": "https://www.goodenergy.co.uk/wp-content/uploads/2026/11/TIL-SVT-with-Derogation-message.pdf"
+  },
+  "bands": [
+    {
+      "name": "Single rate"
+    }
+  ],
+  "areas": {
+    "a": {
+      "label": "Eastern England (A)",
+      "rates": {
+        "Single rate": "0.0824"
+      },
+      "region": "GSP-A",
+      "standing": "0.3292"
+    },
+    "b": {
+      "label": "East Midlands (B)",
+      "rates": {
+        "Single rate": "0.0828"
+      },
+      "region": "GSP-B",
+      "standing": "0.3292"
+    },
+    "c": {
+      "label": "London (C)",
+      "rates": {
+        "Single rate": "0.0854"
+      },
+      "region": "GSP-C",
+      "standing": "0.3292"
+    },
+    "d": {
+      "label": "Merseyside and North Wales (D)",
+      "rates": {
+        "Single rate": "0.0837"
+      },
+      "region": "GSP-D",
+      "standing": "0.3292"
+    },
+    "e": {
+      "label": "West Midlands (E)",
+      "rates": {
+        "Single rate": "0.0841"
+      },
+      "region": "GSP-E",
+      "standing": "0.3292"
+    },
+    "f": {
+      "label": "North East England (F)",
+      "rates": {
+        "Single rate": "0.083"
+      },
+      "region": "GSP-F",
+      "standing": "0.3292"
+    },
+    "g": {
+      "label": "North West England (G)",
+      "rates": {
+        "Single rate": "0.0828"
+      },
+      "region": "GSP-G",
+      "standing": "0.3292"
+    },
+    "h": {
+      "label": "Southern England (H)",
+      "rates": {
+        "Single rate": "0.0863"
+      },
+      "region": "GSP-H",
+      "standing": "0.3292"
+    },
+    "j": {
+      "label": "South East England (J)",
+      "rates": {
+        "Single rate": "0.0849"
+      },
+      "region": "GSP-J",
+      "standing": "0.3292"
+    },
+    "k": {
+      "label": "South Wales (K)",
+      "rates": {
+        "Single rate": "0.0859"
+      },
+      "region": "GSP-K",
+      "standing": "0.3292"
+    },
+    "l": {
+      "label": "South Western England (L)",
+      "rates": {
+        "Single rate": "0.0866"
+      },
+      "region": "GSP-L",
+      "standing": "0.3292"
+    },
+    "m": {
+      "label": "Yorkshire (M)",
+      "rates": {
+        "Single rate": "0.0834"
+      },
+      "region": "GSP-M",
+      "standing": "0.3292"
+    },
+    "n": {
+      "label": "Southern Scotland (N)",
+      "rates": {
+        "Single rate": "0.0817"
+      },
+      "region": "GSP-N",
+      "standing": "0.3292"
+    },
+    "p": {
+      "label": "Northern Scotland (P)",
+      "rates": {
+        "Single rate": "0.0816"
+      },
+      "region": "GSP-P",
+      "standing": "0.3292"
+    }
+  }
+}

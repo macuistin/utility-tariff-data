@@ -11,10 +11,10 @@
     },
     "GB": {
       "availability": "available",
-      "checksum": "sha256:0c0b8aee8f29088d714b61b9f0f3af2dcea317ff55e1189a74062ebecaeba272",
+      "checksum": "sha256:cec0299cb96b3efe2d37abc7469d7ec7152b412abeda543f3e70164639a6a146",
       "path": "gb/index.json",
-      "providers": 3,
-      "tariffs": 5
+      "providers": 8,
+      "tariffs": 29
     },
     "IE": {
       "availability": "available",
@@ -22,6 +22,18 @@
       "path": "ie/index.json",
       "providers": 3,
       "tariffs": 6
+    },
+    "PT": {
+      "availability": "partial",
+      "checksum": "sha256:60c65a1b36d318103ed78b41f03f9d6d47152f5cdf46761edd59bd7bdc1d491a",
+      "path": "pt/index.json",
+      "providers": 12,
+      "reason": "Household gas offers of every supplier and the regulated tariff, from the regulator's price simulator, for low-pressure supplies up to 10,000 m3 a year. Each consumption step is an area. VAT and levies are not in the prices and the VAT rate depends on the supply, so a bill carries no tax line. Offers indexed to the wholesale price, offers that include a paid service, dual fuel bundles and prices the simulator lists to more than six decimal places are not held.",
+      "reason_local": {
+        "language": "pt",
+        "text": "Ofertas de gás para clientes domésticos de todos os comercializadores e a tarifa regulada, lidas do simulador de preços da entidade reguladora, para fornecimentos em baixa pressão até 10 000 m3 por ano. Cada escalão de consumo é uma área. O IVA e as taxas não estão nos preços e a taxa de IVA depende do fornecimento, por isso uma fatura não tem linha de imposto. Não estão incluídas as ofertas indexadas ao mercado grossista, as ofertas com um serviço pago, as ofertas duais nem os preços que o simulador indica com mais de seis casas decimais."
+      },
+      "tariffs": 70
     }
   }
 }

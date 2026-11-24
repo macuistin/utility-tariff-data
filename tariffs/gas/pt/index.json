@@ -1,0 +1,806 @@
+{
+  "schema": 1,
+  "country": "PT",
+  "currency": "EUR",
+  "timezone": "Europe/Lisbon",
+  "vat_percent": "0",
+  "availability": "partial",
+  "reason": "Household gas offers of every supplier and the regulated tariff, from the regulator's price simulator, for low-pressure supplies up to 10,000 m3 a year. Each consumption step is an area. VAT and levies are not in the prices and the VAT rate depends on the supply, so a bill carries no tax line. Offers indexed to the wholesale price, offers that include a paid service, dual fuel bundles and prices the simulator lists to more than six decimal places are not held.",
+  "reason_local": {
+    "language": "pt",
+    "text": "Ofertas de gás para clientes domésticos de todos os comercializadores e a tarifa regulada, lidas do simulador de preços da entidade reguladora, para fornecimentos em baixa pressão até 10 000 m3 por ano. Cada escalão de consumo é uma área. O IVA e as taxas não estão nos preços e a taxa de IVA depende do fornecimento, por isso uma fatura não tem linha de imposto. Não estão incluídas as ofertas indexadas ao mercado grossista, as ofertas com um serviço pago, as ofertas duais nem os preços que o simulador indica com mais de seis casas decimais."
+  },
+  "inputs": {
+    "bill_start_day": {
+      "default": 1,
+      "max": 28,
+      "min": 1,
+      "type": "integer"
+    }
+  },
+  "bill": {
+    "period": {
+      "rule": "monthly",
+      "start_day": "$input.bill_start_day"
+    },
+    "total": {
+      "kind": "sum",
+      "of": {
+        "energy": {
+          "kind": "energy_by_band",
+          "round_bands": true
+        },
+        "standing": {
+          "kind": "per_day"
+        }
+      }
+    }
+  },
+  "units": {
+    "gas": {
+      "display": "kWh"
+    }
+  },
+  "providers": {
+    "audax-renovables": {
+      "name": "Audax Renovables",
+      "tariffs": {
+        "audax-06": {
+          "name": "TOP T1 - Fixo de 12 meses",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:6d66e40e6b3bc5c3305efeca62102564bbf21f3fa96a7fcc741252a9b5c2cd92",
+              "effective_from": "2026-11-16",
+              "effective_to": null
+            }
+          }
+        },
+        "audax-07": {
+          "name": "TOP T2 - Fixo de 12 meses",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:2984098705ba7501a53704104a973d4cd2b74de8c7d1e86f10edb27888313d76",
+              "effective_from": "2026-11-16",
+              "effective_to": null
+            }
+          }
+        },
+        "audax-08": {
+          "name": "TOP T3 - Fixo de 12 meses",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:1b557ad6aaa116b8933135b93e4b3a8e277f6dff500fd8fa1753245f67be9922",
+              "effective_from": "2026-11-16",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "dourogas": {
+      "name": "Dourogás",
+      "tariffs": {
+        "dourogas-01": {
+          "name": "Gás Natural - MAIS POUPANÇA",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:41b4952284f907a795990d29a68e5691476dfd38e0de46829e877ab71cc3affc",
+              "effective_from": "2026-11-01",
+              "effective_to": null
+            }
+          }
+        },
+        "dourogas-02": {
+          "name": "TARIFARIO_MAISLEVE",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:d85a5345b5de5bbeaaecf5811dbd4e1decc5af56a2df362bba602f6f94086fb5",
+              "effective_from": "2026-11-01",
+              "effective_to": null
+            }
+          }
+        },
+        "dourogas-03": {
+          "name": "TARIFARIO_SIMPLES",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:98e29209d327e22f086ae9744406894fb13f2c577a85f52a24deb473e4406ded",
+              "effective_from": "2026-11-01",
+              "effective_to": null
+            }
+          }
+        },
+        "dourogas-04": {
+          "name": "Gás Natural - Termo Fixo Zero",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:52c32fc55bb5ebca1c95b27de91bb96db4e59997817597fb5b38e0d885a4b93c",
+              "effective_from": "2026-11-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "edp-comercial": {
+      "name": "EDP Comercial",
+      "tariffs": {
+        "edpc-83": {
+          "name": "Gás",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:a092ee33d87605baa762d91ac147d08d1e2945a266d2b0af81f6c8301eb91384",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "edpc-84": {
+          "name": "Gás DD+FE (desconto por débito direto e fatura eletrónica)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:1943bc66029756edb97590cb309340ed563a0093d18d81415a584abd99a3413a",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "edpc-85": {
+          "name": "Gás DD ou FE (desconto por débito direto ou fatura eletrónica)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:24a2f974faacde46d45b30f34e80a6c79f234195fd17ced7611ee27b1557ca0e",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "endesa": {
+      "name": "Endesa",
+      "tariffs": {
+        "end-01": {
+          "name": "Quero+ Gás",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:d78c4310888fda14a47d106c1ef093914a3c92a1e7f3d07882ee940309b75f27",
+              "effective_from": "2026-10-15",
+              "effective_to": null
+            }
+          }
+        },
+        "end-02": {
+          "name": "Quero+ Gás + Plano Amigo",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:cf95aaac5fdf3fa5e4efc60dd9742f57e0ed12cb94e35b1a3188d6b08ba229cb",
+              "effective_from": "2026-10-15",
+              "effective_to": null
+            }
+          }
+        },
+        "end-05": {
+          "name": "Quero+ Gás (DD)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:f9408fbb7ebd9d86c0e71393cc7759f21a1ead4a0c87e9a6b9dd19e3453fb919",
+              "effective_from": "2026-10-15",
+              "effective_to": null
+            }
+          }
+        },
+        "end-06": {
+          "name": "Quero+ Gás + Plano Amigo (DD)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:003d42d9607976661f23715ab9717838bd341c96ff3d5769ff84dfb7c5e0bbe2",
+              "effective_from": "2026-10-15",
+              "effective_to": null
+            }
+          }
+        },
+        "end-07": {
+          "name": "Quero+ Gás (FD)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:163ec5d632f84e98c9278ee08264d7d3b67fd0af9037dd660e453baa631b63d4",
+              "effective_from": "2026-10-15",
+              "effective_to": null
+            }
+          }
+        },
+        "end-08": {
+          "name": "Quero+ Gás + Plano Amigo (FD)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:1a95813cd25a03277137aba03e1f14cb7632fc73ce5157f3c4a1ff5f10fe3e85",
+              "effective_from": "2026-10-15",
+              "effective_to": null
+            }
+          }
+        },
+        "end-13": {
+          "name": "Quero+ Gás (FD + DD)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:7c90905e241f65297ed4d3638f31b4b1f6b2acb621103ad5718f2a47b87c4bf9",
+              "effective_from": "2026-10-15",
+              "effective_to": null
+            }
+          }
+        },
+        "end-14": {
+          "name": "Quero+ Gás + Plano Amigo (FD + DD)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:5e271fdf791333a69169efdc54ba25e1df7dfcd71967867a13e4a2d7bb2ee4b5",
+              "effective_from": "2026-10-15",
+              "effective_to": null
+            }
+          }
+        },
+        "end-64": {
+          "name": "Tarifa Aniversário",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:771764715967de64fef3b30feafecd67bcafa16dfd6ac67f73d5e6cee513c486",
+              "effective_from": "2026-10-15",
+              "effective_to": null
+            }
+          }
+        },
+        "end-65": {
+          "name": "Tarifa Aniversário + Plano Amigo",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:b54c1aa2a1e69e999f32ec141dc1486aa70f5bbc31bf583190fcb54527cfbcda",
+              "effective_from": "2026-10-15",
+              "effective_to": null
+            }
+          }
+        },
+        "end-70": {
+          "name": "Tarifa Digital gás",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:a1579134d9dda44ed6feb868259cfa3312741fc4a1a57597726169577fc10f76",
+              "effective_from": "2026-10-15",
+              "effective_to": null
+            }
+          }
+        },
+        "end-73": {
+          "name": "Tarifa Digital gás + Plano Amigo",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:b2a0a7b98a87a6eba4006c06f19e4ef1987920f3335380b393d142149eb6dd26",
+              "effective_from": "2026-10-15",
+              "effective_to": null
+            }
+          }
+        },
+        "end-80": {
+          "name": "Tarifa + Gás",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:9c6c0fb78ddf568eb510acb6925b7cd55f6c360dec0c6863e53b33a5ff098cb5",
+              "effective_from": "2026-10-15",
+              "effective_to": null
+            }
+          }
+        },
+        "end-81": {
+          "name": "Tarifa +Gás + Plano Amigo",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:731ca93746d2a5877824ea33d184d8efe5f86475da8413f088312c620336abcc",
+              "effective_from": "2026-10-15",
+              "effective_to": null
+            }
+          }
+        },
+        "end-97": {
+          "name": "Tarifa Stores gás",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:e12acd1046da21febf58bfb8f78a4c9970670f24e59aaef4d5c39b250d8a1d85",
+              "effective_from": "2026-10-15",
+              "effective_to": null
+            }
+          }
+        },
+        "end-98": {
+          "name": "Tarifa Stores gás + Plano Amigo",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:f1a06c3bdce62f687f17361786db8a6ca46f3fe84aea31cefc64882d5a679bd4",
+              "effective_from": "2026-10-15",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "erse-cur": {
+      "name": "ERSE regulated tariff (CUR)",
+      "tariffs": {
+        "gas-low-pressure": {
+          "name": "Transitional gas tariff, up to 10,000 m3 a year",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:6de50ccc9b7dd91cbf90129093edb24dccdb697717103a2dcc1522af5f9b957b",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "galp": {
+      "name": "Galp",
+      "tariffs": {
+        "galp-146": {
+          "name": "Plano COMBINA GásNatural (DD) + NOS (Inclui descontos associados ao pagamento por débito direto)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:4fc60fd77ac01beba7680d1d6222b5805b7229537f9be5a3789adaa7365fc61f",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "galp-157": {
+          "name": "Plano COMBINA GásNatural (DD) (Inclui descontos associados ao pagamento por débito direto)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:3ddfceb6852f41c69085343a273e021550984543cf648d6941fef04e5858f3a9",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "galp-158": {
+          "name": "Plano COMBINA GásNatural + NOS",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:f6ed8db80621de30106abc598083c0b605259fdcd0d875bb7d00c9b2ff5b85f5",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "galp-167": {
+          "name": "Plano COMBINA GásNatural",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:4f3d402f503bbc8dade7ccec2c3c96c0d245711ada04ba49f8f639f4b71b522f",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "galp-38": {
+          "name": "Casa & Estrada Gás Natural & Combustível (DD) (Inclui descontos associados ao pagamento por débito direto)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:81165dbf2b484f80d56a5bfb23aed2f5a61d23cb20f2e96b32071241bec91712",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "galp-49": {
+          "name": "Casa & Estrada Gás Natural & Combustível",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:8362c9ce3b2715bd2df60321a244224f60dbfa1b2aa29a8f559062f4a1658f64",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "goldenergy": {
+      "name": "Goldenergy",
+      "tariffs": {
+        "gold-10": {
+          "name": "Monogás ACP+ (Apenas para clientes ACP)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:c8d3a6b8bb66cd21c68341e27f24e2bb12a460ea8b14100e1fa82511ef05a0f4",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "gold-12": {
+          "name": "Monogás ACP+ com desconto Campanha Amigo (Apenas para clientes ACP)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:07c74fd16616ed679411f14ec49cd6d16a8c3de696e191bf5e2cb9e386416bce",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "gold-22": {
+          "name": "Monogás ACP Mobilidade Elétrica CASA (Apenas para clientes ACP)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:ff873c9f2160fa0296590f3fe6b67083809f080fed27cb06a2dc273d6f095418",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "gold-24": {
+          "name": "Monogás ACP Mobilidade Elétrica CASA com desconto Campanha Amigo (Apenas para clientes ACP)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:dcd412c316a1a013fe01f9fdbf72d16cb988377c5d739823b790ad39dfd008ca",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "gold-33": {
+          "name": "Monogás ACP (Apenas para clientes ACP)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:ae78da4e562272c96187250a33ddf1c4bc7fa2e9657ad475b03a53e3aa6f3f9c",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "gold-36": {
+          "name": "Monogás ACP com desconto Campanha Amigo (Apenas para clientes ACP)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:78b180ae5a33b087cfaeb331f4dca398fa4530773aa75f909ebfebc59539a81c",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "gold-97": {
+          "name": "Gold Monogas",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:dfc298c63e54f514e23a7c94098fe7c2720a6b8c2978595b8260b88e5abedd04",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "iberdrola": {
+      "name": "Iberdrola",
+      "tariffs": {
+        "ibd-07": {
+          "name": "Mais Casa Gás (Sem adesões obrigatórias)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:f1d9cfc012eee1f6ff22c2ac55c72459e83568736891a0fb11810bb360a40e5f",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "ibd-09": {
+          "name": "Mais Casa Gás - FE e DDC (Com adesão a Fatura eletrónica e domiciliação bancária)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:ac356c761a178fe998b80a3200c9e470db0805741d8169c5f3634c7b6a9efe4c",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        },
+        "ibd-11": {
+          "name": "Mais Casa Gás - FE ou DDC (Com adesão a Fatura eletrónica ou domiciliação bancária)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:88ab0237234149d8c55a78ef6aae2a2baf9dfac64e5f33a4734208cd768d7285",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "jaf-plus": {
+      "name": "JAF Plus",
+      "tariffs": {
+        "jafplus-02": {
+          "name": "Mais Energia (Mais Energia)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:62a9b41ef5836a76be1473881c3640cca2c3925181105047f4df4001c2e7f6e3",
+              "effective_from": "2026-10-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "nossa-energia": {
+      "name": "Nossa Energia",
+      "tariffs": {
+        "nossaenergia-01": {
+          "name": "Tarifa Digital (Faturação mensal)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:b6e8f33d283001456d8c343f784784601305ba030b902557ca8930d177bcbc61",
+              "effective_from": "2026-11-09",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "plenitude": {
+      "name": "Plenitude",
+      "tariffs": {
+        "eniplenitude-09": {
+          "name": "TARIFA ENERGY (GAS)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:b46484f16d9b38492670f6ca5fb001eb1cc94e8e8804ffe4741558f368de0a0e",
+              "effective_from": "2026-11-05",
+              "effective_to": null
+            }
+          }
+        },
+        "eniplenitude-14": {
+          "name": "TARIFA POWER (GAS)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:9181b46e42ab10db8776000539289ae1e70c4c7af5fe04d949ec073e4c30dd93",
+              "effective_from": "2026-11-05",
+              "effective_to": null
+            }
+          }
+        },
+        "eniplenitude-17": {
+          "name": "TARIFA TS FÁCIL PLUS GAS (GAS)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:be65c4fbc6fa02a4a50e1a81175d6760b9abf21050ff12b453eaf537f7c451ce",
+              "effective_from": "2026-11-05",
+              "effective_to": null
+            }
+          }
+        },
+        "eniplenitude-22": {
+          "name": "TARIFA WEB FACIL PLUS GAS (GAS)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:923a3f9eb06ea25174d40967f7a79546c2893dc1cbc332a0274d34888329cc73",
+              "effective_from": "2026-11-05",
+              "effective_to": null
+            }
+          }
+        },
+        "eniplenitude-27": {
+          "name": "TARIFA FÁCIL PLUS GAS (GAS)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:48bf21dd4b97a8fd8621cc3a715319168310b4a196535f8ad604641385012183",
+              "effective_from": "2026-11-05",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "repsol": {
+      "name": "Repsol",
+      "tariffs": {
+        "repsol-117": {
+          "name": "VIVA+ Gás Natural DD (VIVA+ Gás Natural - 13% Desc (DD))",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:0658031678d6ed586122a69ffa6fa901b9782e798a28729880c1c331da243d07",
+              "effective_from": "2026-10-19",
+              "effective_to": null
+            }
+          }
+        },
+        "repsol-118": {
+          "name": "VIVA+ Gás Natural DD + FE (VIVA+ Gás Natural - 15% Desc (DD + FE))",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:9df67415244621c6293df7cb16f7a9db41dbc8101d738a74344496c9c1238a5e",
+              "effective_from": "2026-10-19",
+              "effective_to": null
+            }
+          }
+        },
+        "repsol-119": {
+          "name": "VIVA+ Gás Natural (VIVA+ Gás Natural - 5% Desc (Bem-vindo à Repsol))",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:0c3d117dafd7b63d5835dae0e4318c2566fbd2036704bde001189201a8e5ac0d",
+              "effective_from": "2026-10-19",
+              "effective_to": null
+            }
+          }
+        },
+        "repsol-120": {
+          "name": "VIVA+ Gás Natural FE (VIVA+ Gás Natural - 7% Desc (FE))",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:f306017c32d47bc0a1eaaffed7eb6a7ec87a5efa4adf43b5daa6c5c23fc50082",
+              "effective_from": "2026-10-19",
+              "effective_to": null
+            }
+          }
+        },
+        "repsol-145": {
+          "name": "VIVA+ Parcerias Gás FE (VIVA+ Parcerias Gás - 10% Desc (FE))",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:c12b844554ceb0eb94b75ae1db85c0ded1a0c19eb4517c499e2bfa7c3ab7c524",
+              "effective_from": "2026-10-19",
+              "effective_to": null
+            }
+          }
+        },
+        "repsol-146": {
+          "name": "VIVA+ Parcerias Gás DD (VIVA+ Parcerias Gás - 16% Desc (DD))",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:eb29e8162088d4d09688db0e11cd23f794b07c491c4b42fe62b2548cd6db1b17",
+              "effective_from": "2026-10-19",
+              "effective_to": null
+            }
+          }
+        },
+        "repsol-147": {
+          "name": "VIVA+ Parcerias Gás DD + FE (VIVA+ Parcerias Gás - 18% Desc (DD + FE))",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:01ef67b327665b1279796986126b4634a1a53ad976b165761be16d79b1703f15",
+              "effective_from": "2026-10-19",
+              "effective_to": null
+            }
+          }
+        },
+        "repsol-148": {
+          "name": "VIVA+ Parcerias Gás (VIVA+ Parcerias Gás - 8% Desc)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:566500459f52d5f7b81f1d0ec6892c8fa617907816067ca6deacae8137f81dd6",
+              "effective_from": "2026-10-19",
+              "effective_to": null
+            }
+          }
+        },
+        "repsol-33": {
+          "name": "Tarifa Santander Gás FE (Tarifa Santander Gás - 10% Desc (FE))",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:107efa16847314298697bc03fc16a6fc522366eaad94aac89f6c5a551b4f41c5",
+              "effective_from": "2026-10-19",
+              "effective_to": null
+            }
+          }
+        },
+        "repsol-34": {
+          "name": "Tarifa Santander Gás DD (Tarifa Santander Gás - 16% Desc (DD))",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:3b0c2ff7f67b4a49f0bd750b532fbe5aa19776ea1eb777cdbd906043f437e287",
+              "effective_from": "2026-10-19",
+              "effective_to": null
+            }
+          }
+        },
+        "repsol-35": {
+          "name": "Tarifa Santander Gás DD + FE (Tarifa Santander Gás - 18% Desc (DD + FE))",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:3daee36d75eb63ac836fa16c0d2766d1a5f1b4a4adfd083c77dd309cbd442ade",
+              "effective_from": "2026-10-19",
+              "effective_to": null
+            }
+          }
+        },
+        "repsol-36": {
+          "name": "Tarifa Santander Gás (Tarifa Santander Gás - 8% Desc)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:d08354ae9eda8ba5f0f1903cfe3cf5cd9ae49fe77ac99ba748c493fd7fd38707",
+              "effective_from": "2026-10-19",
+              "effective_to": null
+            }
+          }
+        },
+        "repsol-61": {
+          "name": "Tarifa Vodafone Gás FE (Tarifa Vodafone Gás - 10% Desc (FE))",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:a30e880424a284e1d517a0f71655fb58b09da02be64a7752f7d4fe17c17161b2",
+              "effective_from": "2026-10-19",
+              "effective_to": null
+            }
+          }
+        },
+        "repsol-62": {
+          "name": "Tarifa Vodafone Gás DD (Tarifa Vodafone Gás - 16% Desc (DD))",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:b3abfcc6585f5559edefa45ee4bdad829ddbb048b9f41b6ba5f7e8d7e0f5d636",
+              "effective_from": "2026-10-19",
+              "effective_to": null
+            }
+          }
+        },
+        "repsol-63": {
+          "name": "Tarifa Vodafone Gás DD + FE (Tarifa Vodafone Gás - 18% Desc (DD + FE))",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:d38f381ef2ef70b6724d70925f4d0b711d9f7fa741ffb29072a1259ab5c266cf",
+              "effective_from": "2026-10-19",
+              "effective_to": null
+            }
+          }
+        },
+        "repsol-64": {
+          "name": "Tarifa Vodafone Gás (Tarifa Vodafone Gás - 8% Desc)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:411e848e021b888c543db0b4025842a7fd23bcb1162d5398201a6da98cbf85bb",
+              "effective_from": "2026-10-19",
+              "effective_to": null
+            }
+          }
+        },
+        "repsol-89": {
+          "name": "VIVA Gás Natural DD + FE (VIVA Gás Natural - 10% Desc (DD + FE))",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:9621035cac3160250e1d0d6d637467a00816c7d5d09ecb71108127a0da12a785",
+              "effective_from": "2026-10-19",
+              "effective_to": null
+            }
+          }
+        },
+        "repsol-90": {
+          "name": "VIVA Gás Natural FE (VIVA Gás Natural - 2% Desc (FE))",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:493d1d6a4a6e1b75b1caafa2c0b1ea2c6b911779e6ac2dca6f68c5a8d7989f75",
+              "effective_from": "2026-10-19",
+              "effective_to": null
+            }
+          }
+        },
+        "repsol-91": {
+          "name": "VIVA Gás Natural DD (VIVA Gás Natural - 8% Desc (DD))",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:df0ec12bdb5916e96b67a11cbf38e582c3df53b5ff5b3c608e82b84dcc243fc8",
+              "effective_from": "2026-10-19",
+              "effective_to": null
+            }
+          }
+        },
+        "repsol-92": {
+          "name": "VIVA Gás Natural (VIVA Gás Natural)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:4d7b583216cb9981a9415df972a034a91fb713247f10ef0f504f6d27f0bb4926",
+              "effective_from": "2026-10-19",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    }
+  }
+}
