@@ -66,10 +66,10 @@
     },
     "IE": {
       "availability": "available",
-      "checksum": "sha256:2aa5f8603bdff123250a7220134e573ec501058053da9be2758728446dc976d4",
+      "checksum": "sha256:c25e472c24263a1ec08ecf835e8872ffbc89e2249ae8c34838cec91882269cd5",
       "path": "ie/index.json",
       "providers": 3,
-      "tariffs": 6
+      "tariffs": 9
     },
     "MX": {
       "availability": "partial",

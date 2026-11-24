@@ -1,5 +1,11 @@
 {
   "schema": 1,
   "service": "bundles",
-  "countries": {}
+  "countries": {
+    "IE": {
+      "bundles": 9,
+      "checksum": "sha256:163369b4927f5884a5db017e62ad9501c962b1f8c04fcdf9934c255d4d1f9f50",
+      "path": "ie/index.json"
+    }
+  }
 }

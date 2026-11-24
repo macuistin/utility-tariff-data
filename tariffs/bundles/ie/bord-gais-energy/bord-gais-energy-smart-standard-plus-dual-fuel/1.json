@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "name": "Smart Standard Plus Dual Fuel",
+  "provider": "Bord Gais Energy",
+  "effective_from": "2026-10-09",
+  "source": {
+    "id": "bord-gais-dual",
+    "url": "https://www.bordgaisenergy.ie/home/our-plans?isNewCustomer=YES&fuelType=DUAL"
+  },
+  "members": {
+    "electricity": "bord-gais-energy/bord-gais-energy-smart-standard-plus-dual-fuel",
+    "gas": "bord-gais-energy/bord-gais-energy-gas-standard-dual-fuel-25-discount"
+  }
+}

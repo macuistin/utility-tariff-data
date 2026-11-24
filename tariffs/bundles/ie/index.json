@@ -1,0 +1,146 @@
+{
+  "schema": 1,
+  "country": "IE",
+  "providers": {
+    "bord-gais-energy": {
+      "bundles": {
+        "bord-gais-energy-smart-all-day-dual-fuel": {
+          "members": {
+            "electricity": "bord-gais-energy/bord-gais-energy-smart-all-day-dual-fuel",
+            "gas": "bord-gais-energy/bord-gais-energy-gas-standard-dual-fuel-25-discount"
+          },
+          "name": "Smart All Day Dual Fuel",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:9ff8631ba3c7ce2c1ca7111f002f9d7536a2502cfce155b237b812542a1974dc",
+              "effective_from": "2026-10-09",
+              "effective_to": null,
+              "path": "ie/bord-gais-energy/bord-gais-energy-smart-all-day-dual-fuel/1.json"
+            }
+          }
+        },
+        "bord-gais-energy-smart-all-day-standard-variable-dual-fuel": {
+          "members": {
+            "electricity": "bord-gais-energy/bord-gais-energy-smart-all-day-standard-variable",
+            "gas": "bord-gais-energy/bord-gais-energy-gas-standard"
+          },
+          "name": "Smart All Day Standard Variable Dual Fuel",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:11bc0223e3d70f7058ef0ea19014119112bf54f4b2a93af006b223b926fff887",
+              "effective_from": "2026-10-09",
+              "effective_to": null,
+              "path": "ie/bord-gais-energy/bord-gais-energy-smart-all-day-standard-variable-dual-fuel/1.json"
+            }
+          }
+        },
+        "bord-gais-energy-smart-dynamic-dual-fuel": {
+          "members": {
+            "electricity": "bord-gais-energy/bord-gais-energy-smart-dynamic",
+            "gas": "bord-gais-energy/bord-gais-energy-gas-standard-dual-fuel-25-discount"
+          },
+          "name": "Smart Dynamic Dual Fuel",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:873a4afc49d84057c9d2fe73902d51fb373e461ceaf138335d1226ee7e543cb7",
+              "effective_from": "2026-10-09",
+              "effective_to": null,
+              "path": "ie/bord-gais-energy/bord-gais-energy-smart-dynamic-dual-fuel/1.json"
+            }
+          }
+        },
+        "bord-gais-energy-smart-ev-plus-dual-fuel": {
+          "members": {
+            "electricity": "bord-gais-energy/bord-gais-energy-smart-ev-plus-dual-fuel",
+            "gas": "bord-gais-energy/bord-gais-energy-gas-standard-dual-fuel-15-discount"
+          },
+          "name": "Smart EV Plus Dual Fuel",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:098d9d8176a41772c1f23c5366acd839f20d84d5ee156eb229c06fb9b8b4ffdc",
+              "effective_from": "2026-10-09",
+              "effective_to": null,
+              "path": "ie/bord-gais-energy/bord-gais-energy-smart-ev-plus-dual-fuel/1.json"
+            }
+          }
+        },
+        "bord-gais-energy-smart-standard-dual-fuel": {
+          "members": {
+            "electricity": "bord-gais-energy/bord-gais-energy-smart-standard-dual-fuel",
+            "gas": "bord-gais-energy/bord-gais-energy-gas-standard-dual-fuel-25-discount"
+          },
+          "name": "Smart Standard Dual Fuel",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:3d9205d2603a87cb28df7065684b4f8d531987d3e56ea9a6ed588db130c8b18f",
+              "effective_from": "2026-10-09",
+              "effective_to": null,
+              "path": "ie/bord-gais-energy/bord-gais-energy-smart-standard-dual-fuel/1.json"
+            }
+          }
+        },
+        "bord-gais-energy-smart-standard-plus-dual-fuel": {
+          "members": {
+            "electricity": "bord-gais-energy/bord-gais-energy-smart-standard-plus-dual-fuel",
+            "gas": "bord-gais-energy/bord-gais-energy-gas-standard-dual-fuel-25-discount"
+          },
+          "name": "Smart Standard Plus Dual Fuel",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:ce951add2a9a700a6fcca4d4ac231f611ccc7b163bddf15fbb39301830041a30",
+              "effective_from": "2026-10-09",
+              "effective_to": null,
+              "path": "ie/bord-gais-energy/bord-gais-energy-smart-standard-plus-dual-fuel/1.json"
+            }
+          }
+        },
+        "bord-gais-energy-smart-weekend-dual-fuel": {
+          "members": {
+            "electricity": "bord-gais-energy/bord-gais-energy-smart-weekend-dual-fuel",
+            "gas": "bord-gais-energy/bord-gais-energy-gas-standard-dual-fuel-25-discount"
+          },
+          "name": "Smart Weekend Dual Fuel",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:297c6b80ca5d64d609011cfc58131a8b24284e2cdd079e4726ec84e22ba0f2aa",
+              "effective_from": "2026-10-09",
+              "effective_to": null,
+              "path": "ie/bord-gais-energy/bord-gais-energy-smart-weekend-dual-fuel/1.json"
+            }
+          }
+        },
+        "bord-gais-energy-standard-24hr-dual-fuel": {
+          "members": {
+            "electricity": "bord-gais-energy/bord-gais-energy-standard-24hr-dual-fuel",
+            "gas": "bord-gais-energy/bord-gais-energy-gas-standard-dual-fuel-25-discount"
+          },
+          "name": "Standard 24hr Dual Fuel",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:bdc1cfba402fc8a311dd419c98246fabcfc8f342a19fabefa9142f9b5514f182",
+              "effective_from": "2026-10-09",
+              "effective_to": null,
+              "path": "ie/bord-gais-energy/bord-gais-energy-standard-24hr-dual-fuel/1.json"
+            }
+          }
+        },
+        "bord-gais-energy-standard-24hr-free-hive-dual-fuel": {
+          "members": {
+            "electricity": "bord-gais-energy/bord-gais-energy-standard-24hr-free-hive-dual-fuel",
+            "gas": "bord-gais-energy/bord-gais-energy-gas-standard-dual-fuel-12-discount"
+          },
+          "name": "Standard 24hr Free Hive Dual Fuel",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:25dc86e08f1c8437e8d15bb4c3f370cdb3ae8a61621e402154106c578a7d8fb0",
+              "effective_from": "2026-10-09",
+              "effective_to": null,
+              "path": "ie/bord-gais-energy/bord-gais-energy-standard-24hr-free-hive-dual-fuel/1.json"
+            }
+          }
+        }
+      },
+      "name": "Bord Gais Energy"
+    }
+  }
+}

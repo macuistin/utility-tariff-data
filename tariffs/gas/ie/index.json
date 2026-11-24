@@ -55,6 +55,36 @@
             }
           }
         },
+        "bord-gais-energy-gas-standard-dual-fuel-12-discount": {
+          "name": "Gas Standard Dual Fuel 12% discount",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:aa5289bda2bc8a6d44b02ee78b62180a0b94213de61cfbf79fe594cab30982ec",
+              "effective_from": "2026-10-09",
+              "effective_to": null
+            }
+          }
+        },
+        "bord-gais-energy-gas-standard-dual-fuel-15-discount": {
+          "name": "Gas Standard Dual Fuel 15% discount",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:e5d0f57805afe93ca1a13038d61fd1199949f0f1da352383ea50536537870d98",
+              "effective_from": "2026-10-09",
+              "effective_to": null
+            }
+          }
+        },
+        "bord-gais-energy-gas-standard-dual-fuel-25-discount": {
+          "name": "Gas Standard Dual Fuel 25% discount",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:23925cf69c1884c5d5ea2f316d99f9be08dc549d34e45a2cf5de13e90222d24a",
+              "effective_from": "2026-10-09",
+              "effective_to": null
+            }
+          }
+        },
         "bord-gais-energy-gas-standard-with-new-customer-discount": {
           "name": "Gas Standard with new customer discount",
           "revisions": {

@@ -5,19 +5,26 @@ Last updated: 2026-11-24
 [All countries](../STATUS.md)
 
 - Coverage: available.
-- Held: 11 providers and 61 tariffs. 61 current, 0 upcoming, 0 ended, as of the date above.
+- Held: 11 providers and 68 tariffs. 68 current, 0 upcoming, 0 ended, as of the date above.
 
 | Provider | Tariff | Direction | Status today | Valid from | Valid to | Revisions | Last changed | Source |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Bord Gais Energy | Bord Gais Energy Microgen Export | export | Current | 2026-11-01 | open | 1 | 2026-11-01 | selectra-ie |
 | Bord Gais Energy | NightSaver Standard Green | import | Current | 2026-11-09 | open | 4 | 2026-11-23 | selectra-ie |
 | Bord Gais Energy | Smart All Day | import | Current | 2026-11-01 | open | 1 | 2026-11-01 | bord-gais |
+| Bord Gais Energy | Smart All Day Dual Fuel | import | Current | 2026-11-01 | open | 1 | 2026-11-01 | bord-gais-dual |
 | Bord Gais Energy | Smart All Day Standard Variable | import | Current | 2026-11-01 | open | 1 | 2026-11-01 | bord-gais |
 | Bord Gais Energy | Smart Dynamic | import | Current | 2026-11-01 | open | 1 | 2026-11-01 | bord-gais |
 | Bord Gais Energy | Smart EV Plus | import | Current | 2026-11-01 | open | 1 | 2026-11-01 | bord-gais |
+| Bord Gais Energy | Smart EV Plus Dual Fuel | import | Current | 2026-11-01 | open | 1 | 2026-11-01 | bord-gais-dual |
 | Bord Gais Energy | Smart Standard | import | Current | 2026-11-01 | open | 1 | 2026-11-01 | bord-gais |
+| Bord Gais Energy | Smart Standard Dual Fuel | import | Current | 2026-11-01 | open | 1 | 2026-11-01 | bord-gais-dual |
 | Bord Gais Energy | Smart Standard Plus | import | Current | 2026-11-01 | open | 1 | 2026-11-01 | bord-gais |
+| Bord Gais Energy | Smart Standard Plus Dual Fuel | import | Current | 2026-11-01 | open | 1 | 2026-11-01 | bord-gais-dual |
 | Bord Gais Energy | Smart Weekend | import | Current | 2026-11-01 | open | 1 | 2026-11-01 | bord-gais |
+| Bord Gais Energy | Smart Weekend Dual Fuel | import | Current | 2026-11-01 | open | 1 | 2026-11-01 | bord-gais-dual |
+| Bord Gais Energy | Standard 24hr Dual Fuel | import | Current | 2026-11-01 | open | 1 | 2026-11-01 | bord-gais-dual |
+| Bord Gais Energy | Standard 24hr Free Hive Dual Fuel | import | Current | 2026-11-01 | open | 1 | 2026-11-01 | bord-gais-dual |
 | Bord Gais Energy | Standard, 24hr Standard Green | import | Current | 2026-11-09 | open | 3 | 2026-11-23 | selectra-ie |
 | Community Power | NightSaver Standard Green | import | Current | 2026-11-09 | open | 2 | 2026-11-23 | selectra-ie |
 | Community Power | Standard, 24hr Standard Green | import | Current | 2026-11-09 | open | 2 | 2026-11-23 | selectra-ie |

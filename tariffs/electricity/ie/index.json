@@ -86,6 +86,16 @@
             }
           }
         },
+        "bord-gais-energy-smart-all-day-dual-fuel": {
+          "name": "Smart All Day Dual Fuel",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:4d1bea3c2a50a63fd5cdd9f2c4edd6e52452029ccb5b662ad0c3a140e76dc34c",
+              "effective_from": "2026-11-01",
+              "effective_to": null
+            }
+          }
+        },
         "bord-gais-energy-smart-all-day-standard-variable": {
           "name": "Smart All Day Standard Variable",
           "revisions": {
@@ -116,11 +126,31 @@
             }
           }
         },
+        "bord-gais-energy-smart-ev-plus-dual-fuel": {
+          "name": "Smart EV Plus Dual Fuel",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:12cf7037155a92c86b9eaaa4c57ea0a06255f4c9abe1bcaa2ffb5a0e2705c765",
+              "effective_from": "2026-11-01",
+              "effective_to": null
+            }
+          }
+        },
         "bord-gais-energy-smart-standard": {
           "name": "Smart Standard",
           "revisions": {
             "1": {
               "checksum": "sha256:5b400bf26916e7b0fbdc5f21da4e9f99a4770b01dae18ff2d61ea597818fa2d4",
+              "effective_from": "2026-11-01",
+              "effective_to": null
+            }
+          }
+        },
+        "bord-gais-energy-smart-standard-dual-fuel": {
+          "name": "Smart Standard Dual Fuel",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:0678675dd650841317654876bc87a77b6d419019a7fd3bb0fdceef52e766740d",
               "effective_from": "2026-11-01",
               "effective_to": null
             }
@@ -136,11 +166,51 @@
             }
           }
         },
+        "bord-gais-energy-smart-standard-plus-dual-fuel": {
+          "name": "Smart Standard Plus Dual Fuel",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:e1670bed7bed37a81f11a8008ff860facf21eaf2adc58631967e7bb36be72870",
+              "effective_from": "2026-11-01",
+              "effective_to": null
+            }
+          }
+        },
         "bord-gais-energy-smart-weekend": {
           "name": "Smart Weekend",
           "revisions": {
             "1": {
               "checksum": "sha256:2b5c0dfc80fe10a7a9abc794ff8729ca467c9df7856c9fd2186149b7f8d9ec92",
+              "effective_from": "2026-11-01",
+              "effective_to": null
+            }
+          }
+        },
+        "bord-gais-energy-smart-weekend-dual-fuel": {
+          "name": "Smart Weekend Dual Fuel",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:a59d28bd428cdb9c4d64010bc649eb465aceabf725ca0f219bfead9a02b0cf21",
+              "effective_from": "2026-11-01",
+              "effective_to": null
+            }
+          }
+        },
+        "bord-gais-energy-standard-24hr-dual-fuel": {
+          "name": "Standard 24hr Dual Fuel",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:906d7ee872a7ecb17a383c90974139a17508fc6a48900a031d8370bbbfc678ed",
+              "effective_from": "2026-11-01",
+              "effective_to": null
+            }
+          }
+        },
+        "bord-gais-energy-standard-24hr-free-hive-dual-fuel": {
+          "name": "Standard 24hr Free Hive Dual Fuel",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:dbbfa1fec76749893a00f2a19e1bd198c614b8cdedf0a2c7841b79270930975d",
               "effective_from": "2026-11-01",
               "effective_to": null
             }
