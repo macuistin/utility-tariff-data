@@ -1,10 +1,10 @@
-Last updated: 2026-11-18
+Last updated: 2026-11-25
 
 # India: electricity tariff status
 
 [All countries](../STATUS.md)
 
-- Coverage: partial. Domestic tariffs of Karnataka, Delhi and Uttar Pradesh, read from OpenBijli's tariff books. Each needs the customer's sanctioned load in kW. Only values a book marks verified are held, so a monthly fuel adjustment or duty the book has not confirmed is missing and a bill priced from these is below a real one. Other states need charges per connection, two-month bills or conditions the format cannot hold yet.
+- Coverage: partial. Domestic tariffs of Karnataka, Delhi and Uttar Pradesh. Each needs the customer's sanctioned load in kW. Only values checked against the state's tariff order are held, so a monthly fuel adjustment or duty that has not been confirmed is missing and a bill priced from these is below a real one. Other states need charges per connection, two-month bills or conditions the format cannot hold yet.
 - Held: 13 providers and 18 tariffs. 18 current, 0 upcoming, 0 ended, as of the date above.
 
 | Provider | Tariff | Direction | Status today | Valid from | Valid to | Revisions | Last changed | Source |

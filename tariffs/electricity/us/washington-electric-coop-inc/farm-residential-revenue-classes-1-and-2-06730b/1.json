@@ -3,6 +3,9 @@
   "name": "Farm & Residential Revenue Classes 1 and 2",
   "provider": "Washington Electric Coop Inc",
   "timezone": "America/New_York",
+  "regions": [
+    "US-VT"
+  ],
   "effective_from": "2025-01-01",
   "source": {
     "id": "openei-urdb-us",

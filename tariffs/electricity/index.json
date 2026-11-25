@@ -3,10 +3,10 @@
   "countries": {
     "AT": {
       "availability": "partial",
-      "checksum": "sha256:5d9632643849593da03cde9d88ecd491664a22f04b436ce922176b21e74ffb6d",
+      "checksum": "sha256:91c917d5a05dc1fbe55986e91b07ef4b685e1d435d40e81255f884b4cffbde7f",
       "path": "at/index.json",
       "providers": 27,
-      "reason": "Only the supplier's energy price and base charge are held, from E-Control's tariff calculator. A bill also has grid charges, levies, the municipal tax and any discounts, none of which are in these plans, so a bill priced from them is below a real bill.",
+      "reason": "Only the supplier's energy price and base charge are held. A bill also has grid charges, levies, the municipal tax and any discounts, none of which are in these plans, so a bill priced from them is below a real bill.",
       "reason_local": {
         "language": "de",
         "text": "Es sind nur der Energiepreis und der Grundpreis des Lieferanten hinterlegt, aus dem Tarifkalkulator der E-Control. Eine Rechnung enthält außerdem Netzentgelte, Abgaben, die Gemeindeabgabe und etwaige Rabatte, die in diesen Tarifen nicht enthalten sind. Eine daraus berechnete Rechnung liegt daher unter einer echten Rechnung."
@@ -15,10 +15,10 @@
     },
     "AU": {
       "availability": "partial",
-      "checksum": "sha256:a38e7cfc1b3e6eddd32a1134df1d15bfc5a4c6f139bee0692b5ac1c96b864476",
+      "checksum": "sha256:790059276aa91101bd0ea799aa3637a94fda0fe36e285732ceef64bba1e1f2fc",
       "path": "au/index.json",
       "providers": 16,
-      "reason": "Retailer plans read from the Consumer Data Right endpoints, about 8 per retailer for 17 of 20 retailers. Plans with seasonal periods, volume tiers or weekday and weekend windows are skipped. Only New South Wales, Victoria, ACT and Tasmania are held, because the country block has one timezone and Queensland, South Australia, Western Australia and the Northern Territory use others.",
+      "reason": "Retailer plans, about 8 per retailer for 17 of 20 retailers. Plans with seasonal periods, volume tiers or weekday and weekend windows are skipped. Only New South Wales, Victoria, ACT and Tasmania are held, because the country block has one timezone and Queensland, South Australia, Western Australia and the Northern Territory use others.",
       "tariffs": 126
     },
     "BE": {
@@ -51,10 +51,10 @@
     },
     "BR": {
       "availability": "partial",
-      "checksum": "sha256:144eb67bbb72aa8616e93f18d4ece7052a4962411f3208907a8006fa8e80ff35",
+      "checksum": "sha256:ceb8769118d2916cb4f813b9c3f8d410d6b8750496109949dcd0ee7599494117",
       "path": "br/index.json",
       "providers": 42,
-      "reason": "Each distributor's residential conventional tariff, read from a third-party copy of ANEEL's tariff table. Taxes (ICMS, PIS and COFINS) and the monthly tariff flag surcharge are not in the prices, so a bill priced from them is below a real bill. The white tariff, low-income and pre-paid tariffs are not held.",
+      "reason": "Each distributor's residential conventional tariff. Taxes (ICMS, PIS and COFINS) and the monthly tariff flag surcharge are not in the prices, so a bill priced from them is below a real bill. The white tariff, low-income and pre-paid tariffs are not held.",
       "reason_local": {
         "language": "pt",
         "text": "A tarifa residencial convencional de cada distribuidora, lida de uma cópia de terceiros da tabela de tarifas da ANEEL. Os impostos (ICMS, PIS e COFINS) e o adicional da bandeira tarifária mensal não estão nos preços, por isso uma fatura calculada com eles fica abaixo de uma fatura real. A tarifa branca, a tarifa social de baixa renda e as tarifas pré-pagas não estão incluídas."
@@ -63,25 +63,25 @@
     },
     "CA": {
       "availability": "partial",
-      "checksum": "sha256:2030a48e010f7e7e16846c9901e6e0e9e5171263ffa9be92ff79cbe09e5a8a96",
+      "checksum": "sha256:1a155da023082adeb947836682f2362e96ae8b6448e16f68d55cfc8cd8d4a254",
       "path": "ca/index.json",
       "providers": 3,
-      "reason": "Only Hydro-Québec's domestic Rate D, Manitoba Hydro's residential standard rates and NB Power's residential rates are held, each from its own rate page or book. Sales tax differs by province and is not in the prices, so a bill carries no tax line. Canada spans six time zones, so a tariff names its own where it differs.",
+      "reason": "Only Hydro-Québec's domestic Rate D, Manitoba Hydro's residential standard rates and NB Power's residential rates are held, each from its own rate page or book. Sales tax differs by province. NB Power's plans add the HST that the province states, Hydro-Québec's rate adds GST and QST held by hand from Revenu Québec's table, and Manitoba Hydro has no tax line. Canada spans six time zones, so a tariff names its own where it differs.",
       "reason_local": {
         "language": "fr",
-        "text": "Seuls le tarif D de Hydro-Québec, les tarifs résidentiels standard de Manitoba Hydro et les tarifs résidentiels de NB Power sont inclus, chacun tiré de sa propre page ou de son propre recueil de tarifs. La taxe de vente varie selon la province et n'est pas comprise dans les prix, de sorte qu'une facture ne comporte aucune ligne de taxe. Le Canada couvre six fuseaux horaires, c'est pourquoi un tarif indique le sien lorsqu'il diffère."
+        "text": "Seuls le tarif D de Hydro-Québec, les tarifs résidentiels standard de Manitoba Hydro et les tarifs résidentiels de NB Power sont inclus, chacun tiré de sa propre page ou de son propre recueil de tarifs. La taxe de vente varie selon la province. Les tarifs de NB Power ajoutent la TVH que la province indique, le tarif de Hydro-Québec ajoute la TPS et la TVQ saisies à la main d'après le tableau de Revenu Québec, et Manitoba Hydro n'a pas de ligne de taxe. Le Canada couvre six fuseaux horaires, c'est pourquoi un tarif indique le sien lorsqu'il diffère."
       },
       "tariffs": 5
     },
     "CH": {
       "availability": "partial",
-      "checksum": "sha256:bb94c61618ea5a1ca8227211000a0e3ca441094c47d918ea36b63bbb02565960",
+      "checksum": "sha256:0df5ca2c0d069304c10e2a79e3fa004752ddd0499fdd850b0b8defd00cb263f0",
       "path": "ch/index.json",
       "providers": 214,
-      "reason": "Only utilities whose tariffs are on the Strompreise Schweiz data hub are held, and for each only the electricity and grid tariffs the utility marks as its standard. Metering, fees and municipal charges are not in the plans, so a bill priced from them is below a real bill.",
+      "reason": "Grid operators' standard household tariffs are held where the regulator's figures show one rate for all hours, with energy, grid, metering, the federal levy and the municipal charge included. Most operators price day and night apart, and those tariffs are not held. Two utilities are held from their own tariff files without metering and municipal charges, so a bill priced from them is below a real bill.",
       "reason_local": {
         "language": "de",
-        "text": "Es sind nur Werke hinterlegt, deren Tarife auf dem Datenportal Strompreise Schweiz stehen, und je Werk nur die Strom- und Netztarife, die das Werk als Standard kennzeichnet. Messung, Gebühren und Gemeindeabgaben sind in den Tarifen nicht enthalten. Eine daraus berechnete Rechnung liegt daher unter einer echten Rechnung."
+        "text": "Hinterlegt sind die Standardtarife für Haushalte jener Netzbetreiber, deren Zahlen bei der ElCom einen einzigen Preis für alle Stunden zeigen, mit Energie, Netz, Messung, Netzzuschlag und Gemeindeabgaben. Die meisten Betreiber haben Hoch- und Niedertarif, und diese Tarife sind nicht hinterlegt. Zwei Werke sind aus ihren eigenen Tarifdateien ohne Messung und Gemeindeabgaben hinterlegt. Eine daraus berechnete Rechnung liegt daher unter einer echten Rechnung."
       },
       "tariffs": 214
     },
@@ -107,13 +107,13 @@
     },
     "DK": {
       "availability": "partial",
-      "checksum": "sha256:98f0663970a28d467a82413d690884c4d498292f3f964c2b1d316fe32a8ff244",
+      "checksum": "sha256:238d31bd385325145ac1b6c573fbda1fc58446132a6054b3c767d60ef921b50b",
       "path": "dk/index.json",
       "providers": 44,
-      "reason": "Only the grid charge of each network company is held, from Energinet's price list. A bill also has the supplier's price, Energinet's charges, the electricity tax and the subscription, none of which are in these plans, so the standing charge is 0 and a bill priced from them is not a real bill.",
+      "reason": "Two kinds of plan are held, and a bill needs one of each. The network companies' plans hold only the grid charge, with a standing charge of 0. The suppliers' plans hold only the supply price and the supplier's subscription, and only fixed-price products, not spot products. The transmission system operator's charges and the electricity tax are in neither, so a bill priced from one plan is not a real bill.",
       "reason_local": {
         "language": "da",
-        "text": "Kun nettariffen for hvert netselskab er med, fra Energinets prisliste. En regning indeholder også elleverandørens pris, Energinets gebyrer, elafgiften og abonnementet, som ikke er med i disse tariffer. Derfor er det faste gebyr 0, og en regning beregnet ud fra dem er ikke en rigtig regning."
+        "text": "Der er to slags tariffer, og en regning kræver én af hver. Netselskabernes tariffer har kun nettariffen og et fast gebyr på 0. Elleverandørernes tariffer har kun elprisen og leverandørens abonnement, og kun produkter med fast pris, ikke spotprodukter. Transmissionsselskabets gebyrer og elafgiften er ikke med i nogen af dem, så en regning beregnet ud fra én tarif er ikke en rigtig regning."
       },
       "tariffs": 67
     },
@@ -157,10 +157,10 @@
     },
     "IN": {
       "availability": "partial",
-      "checksum": "sha256:4e5d100c5a19845ff8e7321643788900e8863a3241de3e5e910220dcde7359a2",
+      "checksum": "sha256:8e0c2d1cf63b30194b842bfff71e1b6e0e4a603743e442664a098ce24a405692",
       "path": "in/index.json",
       "providers": 13,
-      "reason": "Domestic tariffs of Karnataka, Delhi and Uttar Pradesh, read from OpenBijli's tariff books. Each needs the customer's sanctioned load in kW. Only values a book marks verified are held, so a monthly fuel adjustment or duty the book has not confirmed is missing and a bill priced from these is below a real one. Other states need charges per connection, two-month bills or conditions the format cannot hold yet.",
+      "reason": "Domestic tariffs of Karnataka, Delhi and Uttar Pradesh. Each needs the customer's sanctioned load in kW. Only values checked against the state's tariff order are held, so a monthly fuel adjustment or duty that has not been confirmed is missing and a bill priced from these is below a real one. Other states need charges per connection, two-month bills or conditions the format cannot hold yet.",
       "reason_local": {
         "language": "hi",
         "text": "केवल कर्नाटक, दिल्ली और उत्तर प्रदेश के घरेलू टैरिफ़ शामिल हैं, जो OpenBijli की टैरिफ़ पुस्तकों से लिए गए हैं। हर टैरिफ़ के लिए ग्राहक का स्वीकृत भार (किलोवाट में) चाहिए। केवल वही मान रखे गए हैं जिन्हें पुस्तक सत्यापित बताती है, इसलिए मासिक ईंधन समायोजन या शुल्क, जिसकी पुस्तक ने पुष्टि नहीं की, शामिल नहीं है और इनसे बना बिल असली बिल से कम होता है। अन्य राज्यों में प्रति कनेक्शन शुल्क, दो महीने के बिल या ऐसी शर्तें हैं जिन्हें यह प्रारूप अभी संभाल नहीं सकता।"
@@ -228,13 +228,13 @@
     },
     "PT": {
       "availability": "partial",
-      "checksum": "sha256:8b79327f31e32fd8ac60fe50172d390db821d778c932b37a35cbae62eac110e3",
+      "checksum": "sha256:0aef15da2759243c74111a463258bbea8691ad9450da2155cd20014bc9684b35",
       "path": "pt/index.json",
       "providers": 15,
-      "reason": "Only the regulated simple tariff of the last resort supplier for mainland supplies up to 20.7 kVA is held, from the regulator's workbook. VAT and the electricity duty are not in the prices and the VAT rate depends on the supply, so a bill carries no tax line. Most customers are on a market offer, not this tariff.",
+      "reason": "The regulated simple tariff of the last resort supplier for mainland supplies up to 20.7 kVA, from the regulator's workbook, and the household offers of every supplier from the regulator's price simulator, simple and two-rate on the daily cycle. Offers indexed to the wholesale price, offers with a paid service, dual fuel bundles, three-rate options and prices the simulator lists to more than six decimal places are not held. VAT and the electricity duty are not in the prices and the VAT rate depends on the supply, so a bill carries no tax line.",
       "reason_local": {
         "language": "pt",
-        "text": "Apenas a tarifa simples regulada do comercializador de último recurso, para o continente e potências até 20,7 kVA, lida do ficheiro da entidade reguladora. O IVA e o imposto especial sobre o consumo de eletricidade não estão nos preços e a taxa de IVA depende do fornecimento, por isso uma fatura não tem linha de imposto. A maioria dos clientes tem uma oferta de mercado, e não esta tarifa."
+        "text": "A tarifa simples regulada do comercializador de último recurso, para o continente e potências até 20,7 kVA, lida do ficheiro da entidade reguladora, e as ofertas para clientes domésticos de todos os comercializadores, lidas do simulador de preços da entidade reguladora, nas opções simples e bi-horária em ciclo diário. Não estão incluídas as ofertas indexadas ao mercado grossista, as ofertas com um serviço pago, as ofertas duais, a opção tri-horária nem os preços que o simulador indica com mais de seis casas decimais. O IVA e o imposto especial sobre o consumo de eletricidade não estão nos preços e a taxa de IVA depende do fornecimento, por isso uma fatura não tem linha de imposto."
       },
       "tariffs": 142
     },
@@ -308,10 +308,10 @@
     },
     "US": {
       "availability": "partial",
-      "checksum": "sha256:72180b9ec7ef1eb045440e4e240bc8afbd8fa1cf20764d2b03fd3a704f914361",
+      "checksum": "sha256:d77053bb7d36eecb7df35d03ff9fdff82abb8c56aceb5d756b219560dbaf99c1",
       "path": "us/index.json",
       "providers": 36,
-      "reason": "No tariffs are held yet. The United States keeps four main time zones and sales tax differs by state and is not in the prices, so a tariff names its own time zone and a bill carries no tax line. Tariffs will come from the OpenEI utility rate database.",
+      "reason": "Tariffs of a few dozen utilities are held, a sample of their residential rates, not every utility. Sales tax differs by state and is not in the prices, so a bill carries no tax line. The United States keeps four main time zones, so a tariff names its own.",
       "tariffs": 58
     },
     "UY": {

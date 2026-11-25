@@ -3,6 +3,9 @@
   "name": "SERVICE CLASSIFICATION NO. 4 RESIDENTIAL SERVICE - TIME-OF-USE RATE RSS (Non-Retail Access Rate Choice) Schedule I",
   "provider": "Rochester Gas & Electric Corp",
   "timezone": "America/New_York",
+  "regions": [
+    "US-NY"
+  ],
   "effective_from": "2025-05-01",
   "source": {
     "id": "openei-urdb-us",

@@ -5,7 +5,7 @@
   "timezone": "Europe/Vienna",
   "vat_percent": "20",
   "availability": "partial",
-  "reason": "Only the supplier's energy price and base charge are held, from E-Control's tariff calculator. A bill also has grid charges, levies, the municipal tax and any discounts, none of which are in these plans, so a bill priced from them is below a real bill.",
+  "reason": "Only the supplier's energy price and base charge are held. A bill also has grid charges, levies, the municipal tax and any discounts, none of which are in these plans, so a bill priced from them is below a real bill.",
   "reason_local": {
     "language": "de",
     "text": "Es sind nur der Energiepreis und der Grundpreis des Lieferanten hinterlegt, aus dem Tarifkalkulator der E-Control. Eine Rechnung enthält außerdem Netzentgelte, Abgaben, die Gemeindeabgabe und etwaige Rabatte, die in diesen Tarifen nicht enthalten sind. Eine daraus berechnete Rechnung liegt daher unter einer echten Rechnung."

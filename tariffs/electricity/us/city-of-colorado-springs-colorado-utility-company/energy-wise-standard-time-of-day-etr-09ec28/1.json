@@ -3,6 +3,9 @@
   "name": "Energy Wise Standard Time of Day (ETR)",
   "provider": "City of Colorado Springs, Colorado (Utility Company)",
   "timezone": "America/Denver",
+  "regions": [
+    "US-CO"
+  ],
   "effective_from": "2025-10-01",
   "source": {
     "id": "openei-urdb-us",

@@ -3,6 +3,9 @@
   "name": "TARIFF R-14 RESIDENTIAL SERVICE",
   "provider": "Orcas Power & Light Coop",
   "timezone": "America/Los_Angeles",
+  "regions": [
+    "US-WA"
+  ],
   "effective_from": "2025-01-01",
   "source": {
     "id": "openei-urdb-us",

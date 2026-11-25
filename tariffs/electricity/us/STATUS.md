@@ -1,10 +1,10 @@
-Last updated: 2026-11-18
+Last updated: 2026-11-25
 
 # United States: electricity tariff status
 
 [All countries](../STATUS.md)
 
-- Coverage: partial. No tariffs are held yet. The United States keeps four main time zones and sales tax differs by state and is not in the prices, so a tariff names its own time zone and a bill carries no tax line. Tariffs will come from the OpenEI utility rate database.
+- Coverage: partial. Tariffs of a few dozen utilities are held, a sample of their residential rates, not every utility. Sales tax differs by state and is not in the prices, so a bill carries no tax line. The United States keeps four main time zones, so a tariff names its own.
 - Held: 36 providers and 58 tariffs. 58 current, 0 upcoming, 0 ended, as of the date above.
 
 | Provider | Tariff | Direction | Status today | Valid from | Valid to | Revisions | Last changed | Source |

@@ -3,6 +3,9 @@
   "name": "Residential",
   "provider": "Cuivre River Electric Coop Inc",
   "timezone": "America/Chicago",
+  "regions": [
+    "US-MO"
+  ],
   "effective_from": "2025-01-01",
   "source": {
     "id": "openei-urdb-us",

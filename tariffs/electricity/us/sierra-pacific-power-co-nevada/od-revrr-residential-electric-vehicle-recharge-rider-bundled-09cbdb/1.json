@@ -3,6 +3,9 @@
   "name": "OD-REVRR- Residential Electric Vehicle Recharge Rider - Bundled",
   "provider": "Sierra Pacific Power Co (Nevada)",
   "timezone": "America/Los_Angeles",
+  "regions": [
+    "US-NV"
+  ],
   "effective_from": "2025-09-30",
   "source": {
     "id": "openei-urdb-us",

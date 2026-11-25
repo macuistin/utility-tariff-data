@@ -1,8 +1,8 @@
-Last updated: 2026-11-22
+Last updated: 2026-11-25
 
 # Australia: gas tariff status
 
-- Coverage: partial. Retailer gas plans read from the Consumer Data Right endpoints, added by hand for chosen retailers. Plans with seasonal periods, banded supply charges or tiers quoted for different periods are skipped. Each plan is one area of a retailer, named by its distributor.
+- Coverage: partial. Retailer gas plans, added by hand for chosen retailers. Plans with seasonal periods, banded supply charges or tiers quoted for different periods are skipped. Each plan is one area of a retailer, named by its distributor.
 - Held: 3 providers and 12 tariffs. 12 current, 0 upcoming, 0 ended, as of the date above.
 
 | Provider | Tariff | Direction | Status today | Valid from | Valid to | Revisions | Last changed | Source |

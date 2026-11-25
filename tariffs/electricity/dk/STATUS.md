@@ -1,10 +1,10 @@
-Last updated: 2026-11-24
+Last updated: 2026-11-25
 
 # Denmark: electricity tariff status
 
 [All countries](../STATUS.md)
 
-- Coverage: partial. Only the grid charge of each network company is held, from Energinet's price list. A bill also has the supplier's price, Energinet's charges, the electricity tax and the subscription, none of which are in these plans, so the standing charge is 0 and a bill priced from them is not a real bill.
+- Coverage: partial. Two kinds of plan are held, and a bill needs one of each. The network companies' plans hold only the grid charge, with a standing charge of 0. The suppliers' plans hold only the supply price and the supplier's subscription, and only fixed-price products, not spot products. The transmission system operator's charges and the electricity tax are in neither, so a bill priced from one plan is not a real bill.
 - Held: 44 providers and 67 tariffs. 67 current, 0 upcoming, 0 ended, as of the date above.
 
 | Provider | Tariff | Direction | Status today | Valid from | Valid to | Revisions | Last changed | Source |

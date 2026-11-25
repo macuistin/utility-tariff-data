@@ -5,10 +5,10 @@
   "timezone": "Europe/Zurich",
   "vat_percent": "8.1",
   "availability": "partial",
-  "reason": "Only utilities whose tariffs are on the Strompreise Schweiz data hub are held, and for each only the electricity and grid tariffs the utility marks as its standard. Metering, fees and municipal charges are not in the plans, so a bill priced from them is below a real bill.",
+  "reason": "Grid operators' standard household tariffs are held where the regulator's figures show one rate for all hours, with energy, grid, metering, the federal levy and the municipal charge included. Most operators price day and night apart, and those tariffs are not held. Two utilities are held from their own tariff files without metering and municipal charges, so a bill priced from them is below a real bill.",
   "reason_local": {
     "language": "de",
-    "text": "Es sind nur Werke hinterlegt, deren Tarife auf dem Datenportal Strompreise Schweiz stehen, und je Werk nur die Strom- und Netztarife, die das Werk als Standard kennzeichnet. Messung, Gebühren und Gemeindeabgaben sind in den Tarifen nicht enthalten. Eine daraus berechnete Rechnung liegt daher unter einer echten Rechnung."
+    "text": "Hinterlegt sind die Standardtarife für Haushalte jener Netzbetreiber, deren Zahlen bei der ElCom einen einzigen Preis für alle Stunden zeigen, mit Energie, Netz, Messung, Netzzuschlag und Gemeindeabgaben. Die meisten Betreiber haben Hoch- und Niedertarif, und diese Tarife sind nicht hinterlegt. Zwei Werke sind aus ihren eigenen Tarifdateien ohne Messung und Gemeindeabgaben hinterlegt. Eine daraus berechnete Rechnung liegt daher unter einer echten Rechnung."
   },
   "inputs": {
     "bill_start_day": {

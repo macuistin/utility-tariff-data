@@ -3,6 +3,9 @@
   "name": "Residential",
   "provider": "Peninsula Light Company",
   "timezone": "America/Los_Angeles",
+  "regions": [
+    "US-WA"
+  ],
   "effective_from": "2025-04-01",
   "source": {
     "id": "openei-urdb-us",

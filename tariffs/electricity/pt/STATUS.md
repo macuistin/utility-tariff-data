@@ -1,10 +1,10 @@
-Last updated: 2026-11-24
+Last updated: 2026-11-25
 
 # Portugal: electricity tariff status
 
 [All countries](../STATUS.md)
 
-- Coverage: partial. Only the regulated simple tariff of the last resort supplier for mainland supplies up to 20.7 kVA is held, from the regulator's workbook. VAT and the electricity duty are not in the prices and the VAT rate depends on the supply, so a bill carries no tax line. Most customers are on a market offer, not this tariff.
+- Coverage: partial. The regulated simple tariff of the last resort supplier for mainland supplies up to 20.7 kVA, from the regulator's workbook, and the household offers of every supplier from the regulator's price simulator, simple and two-rate on the daily cycle. Offers indexed to the wholesale price, offers with a paid service, dual fuel bundles, three-rate options and prices the simulator lists to more than six decimal places are not held. VAT and the electricity duty are not in the prices and the VAT rate depends on the supply, so a bill carries no tax line.
 - Held: 15 providers and 142 tariffs. 142 current, 0 upcoming, 0 ended, as of the date above.
 
 | Provider | Tariff | Direction | Status today | Valid from | Valid to | Revisions | Last changed | Source |

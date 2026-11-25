@@ -3,6 +3,9 @@
   "name": "Large Farm Service",
   "provider": "Alabama Power Co",
   "timezone": "America/Chicago",
+  "regions": [
+    "US-AL"
+  ],
   "effective_from": "2025-01-01",
   "source": {
     "id": "openei-urdb-us",

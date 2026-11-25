@@ -3,6 +3,9 @@
   "name": "TOUCH Program Residential (TOU)",
   "provider": "Cleco Power LLC",
   "timezone": "America/Chicago",
+  "regions": [
+    "US-LA"
+  ],
   "effective_from": "2025-07-01",
   "source": {
     "id": "openei-urdb-us",

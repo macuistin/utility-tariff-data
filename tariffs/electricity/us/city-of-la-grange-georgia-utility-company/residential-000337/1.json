@@ -3,6 +3,9 @@
   "name": "RESIDENTIAL",
   "provider": "City of La Grange, Georgia (Utility Company)",
   "timezone": "America/New_York",
+  "regions": [
+    "US-GA"
+  ],
   "effective_from": "2024-07-01",
   "source": {
     "id": "openei-urdb-us",

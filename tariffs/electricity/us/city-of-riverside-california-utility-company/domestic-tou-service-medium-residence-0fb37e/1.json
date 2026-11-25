@@ -3,6 +3,9 @@
   "name": "Domestic TOU Service - Medium Residence",
   "provider": "City of Riverside, California (Utility Company)",
   "timezone": "America/Los_Angeles",
+  "regions": [
+    "US-CA"
+  ],
   "effective_from": "2024-01-01",
   "source": {
     "id": "openei-urdb-us",

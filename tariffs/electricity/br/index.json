@@ -5,7 +5,7 @@
   "timezone": "America/Sao_Paulo",
   "vat_percent": "0",
   "availability": "partial",
-  "reason": "Each distributor's residential conventional tariff, read from a third-party copy of ANEEL's tariff table. Taxes (ICMS, PIS and COFINS) and the monthly tariff flag surcharge are not in the prices, so a bill priced from them is below a real bill. The white tariff, low-income and pre-paid tariffs are not held.",
+  "reason": "Each distributor's residential conventional tariff. Taxes (ICMS, PIS and COFINS) and the monthly tariff flag surcharge are not in the prices, so a bill priced from them is below a real bill. The white tariff, low-income and pre-paid tariffs are not held.",
   "reason_local": {
     "language": "pt",
     "text": "A tarifa residencial convencional de cada distribuidora, lida de uma cópia de terceiros da tabela de tarifas da ANEEL. Os impostos (ICMS, PIS e COFINS) e o adicional da bandeira tarifária mensal não estão nos preços, por isso uma fatura calculada com eles fica abaixo de uma fatura real. A tarifa branca, a tarifa social de baixa renda e as tarifas pré-pagas não estão incluídas."

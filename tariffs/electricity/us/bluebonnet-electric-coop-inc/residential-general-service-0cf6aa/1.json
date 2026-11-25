@@ -2,6 +2,9 @@
   "schema": 1,
   "name": "Residential General Service",
   "provider": "Bluebonnet Electric Coop, Inc",
+  "regions": [
+    "US-TX"
+  ],
   "effective_from": "2025-01-01",
   "source": {
     "id": "openei-urdb-us",

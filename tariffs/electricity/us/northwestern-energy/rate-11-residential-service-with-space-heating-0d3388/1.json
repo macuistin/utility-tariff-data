@@ -2,6 +2,9 @@
   "schema": 1,
   "name": "Rate 11: Residential Service with Space Heating",
   "provider": "NorthWestern Energy",
+  "regions": [
+    "US-SD"
+  ],
   "effective_from": "2025-05-01",
   "source": {
     "id": "openei-urdb-us",

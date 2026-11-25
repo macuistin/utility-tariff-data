@@ -3,6 +3,9 @@
   "name": "Schedule R1-EV, Residential Electric Vehicle",
   "provider": "Northern Virginia Elec Coop",
   "timezone": "America/New_York",
+  "regions": [
+    "US-VA"
+  ],
   "effective_from": "2025-01-01",
   "source": {
     "id": "openei-urdb-us",

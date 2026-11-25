@@ -5,7 +5,7 @@
   "timezone": "America/New_York",
   "vat_percent": "0",
   "availability": "partial",
-  "reason": "No tariffs are held yet. The United States keeps four main time zones and sales tax differs by state and is not in the prices, so a tariff names its own time zone and a bill carries no tax line. Tariffs will come from the OpenEI utility rate database.",
+  "reason": "Tariffs of a few dozen utilities are held, a sample of their residential rates, not every utility. Sales tax differs by state and is not in the prices, so a bill carries no tax line. The United States keeps four main time zones, so a tariff names its own.",
   "inputs": {
     "bill_start_day": {
       "default": 1,
@@ -32,15 +32,182 @@
       }
     }
   },
+  "regions": {
+    "US-AK": {
+      "name": "Alaska"
+    },
+    "US-AL": {
+      "name": "Alabama"
+    },
+    "US-AR": {
+      "name": "Arkansas"
+    },
+    "US-AZ": {
+      "name": "Arizona"
+    },
+    "US-CA": {
+      "name": "California"
+    },
+    "US-CO": {
+      "name": "Colorado"
+    },
+    "US-CT": {
+      "name": "Connecticut"
+    },
+    "US-DC": {
+      "name": "District of Columbia"
+    },
+    "US-DE": {
+      "name": "Delaware"
+    },
+    "US-FL": {
+      "name": "Florida"
+    },
+    "US-GA": {
+      "name": "Georgia"
+    },
+    "US-GU": {
+      "name": "Guam"
+    },
+    "US-HI": {
+      "name": "Hawaii"
+    },
+    "US-IA": {
+      "name": "Iowa"
+    },
+    "US-ID": {
+      "name": "Idaho"
+    },
+    "US-IL": {
+      "name": "Illinois"
+    },
+    "US-IN": {
+      "name": "Indiana"
+    },
+    "US-KS": {
+      "name": "Kansas"
+    },
+    "US-KY": {
+      "name": "Kentucky"
+    },
+    "US-LA": {
+      "name": "Louisiana"
+    },
+    "US-MA": {
+      "name": "Massachusetts"
+    },
+    "US-MD": {
+      "name": "Maryland"
+    },
+    "US-ME": {
+      "name": "Maine"
+    },
+    "US-MI": {
+      "name": "Michigan"
+    },
+    "US-MN": {
+      "name": "Minnesota"
+    },
+    "US-MO": {
+      "name": "Missouri"
+    },
+    "US-MS": {
+      "name": "Mississippi"
+    },
+    "US-MT": {
+      "name": "Montana"
+    },
+    "US-NC": {
+      "name": "North Carolina"
+    },
+    "US-ND": {
+      "name": "North Dakota"
+    },
+    "US-NE": {
+      "name": "Nebraska"
+    },
+    "US-NH": {
+      "name": "New Hampshire"
+    },
+    "US-NJ": {
+      "name": "New Jersey"
+    },
+    "US-NM": {
+      "name": "New Mexico"
+    },
+    "US-NV": {
+      "name": "Nevada"
+    },
+    "US-NY": {
+      "name": "New York"
+    },
+    "US-OH": {
+      "name": "Ohio"
+    },
+    "US-OK": {
+      "name": "Oklahoma"
+    },
+    "US-OR": {
+      "name": "Oregon"
+    },
+    "US-PA": {
+      "name": "Pennsylvania"
+    },
+    "US-PR": {
+      "name": "Puerto Rico"
+    },
+    "US-RI": {
+      "name": "Rhode Island"
+    },
+    "US-SC": {
+      "name": "South Carolina"
+    },
+    "US-SD": {
+      "name": "South Dakota"
+    },
+    "US-TN": {
+      "name": "Tennessee"
+    },
+    "US-TX": {
+      "name": "Texas"
+    },
+    "US-UT": {
+      "name": "Utah"
+    },
+    "US-VA": {
+      "name": "Virginia"
+    },
+    "US-VI": {
+      "name": "United States Virgin Islands"
+    },
+    "US-VT": {
+      "name": "Vermont"
+    },
+    "US-WA": {
+      "name": "Washington"
+    },
+    "US-WI": {
+      "name": "Wisconsin"
+    },
+    "US-WV": {
+      "name": "West Virginia"
+    },
+    "US-WY": {
+      "name": "Wyoming"
+    }
+  },
   "providers": {
     "aiken-electric-coop-inc": {
       "name": "Aiken Electric Coop Inc",
       "tariffs": {
         "single-phase-service-ap-0b30c9": {
           "name": "SINGLE-PHASE SERVICE AP",
+          "regions": [
+            "US-SC"
+          ],
           "revisions": {
             "1": {
-              "checksum": "sha256:a25fa3c50a477226f28f6886b11a160761993ea4eebb298b4531bacbeabdfa26",
+              "checksum": "sha256:683360bd8f9a3ad801ae2a73a595caca1131aae9d6cde228f1ce488b51e9fc6c",
               "effective_from": "2025-01-01",
               "effective_to": null
             }
@@ -53,9 +220,12 @@
       "tariffs": {
         "large-farm-service-0c6e1e": {
           "name": "Large Farm Service",
+          "regions": [
+            "US-AL"
+          ],
           "revisions": {
             "1": {
-              "checksum": "sha256:963b4cad9d5eecaaa07175c1a616d395930f2ea323906557f86ccbc8020916df",
+              "checksum": "sha256:18989272e0f7e11e20aa7739b6494e5e943008d1bc263de118ab0560eded0880",
               "effective_from": "2025-01-01",
               "effective_to": null
             }
@@ -63,9 +233,12 @@
         },
         "rate-rta-energy-0ed89d": {
           "name": "Rate RTA Energy",
+          "regions": [
+            "US-AL"
+          ],
           "revisions": {
             "1": {
-              "checksum": "sha256:fa8a2e282e2de806cea0e3bc0ae37615d071fefc341994fba0c93cd88787e2fc",
+              "checksum": "sha256:dd03b0347d89875acd356a1ecaea4a482b12bcf9e1a04720b7ed1c367a406e85",
               "effective_from": "2025-01-01",
               "effective_to": null
             }
@@ -93,9 +266,12 @@
       "tariffs": {
         "residential-all-electric-single-phase-05426a": {
           "name": "Residential All Electric - Single Phase",
+          "regions": [
+            "US-NC"
+          ],
           "revisions": {
             "1": {
-              "checksum": "sha256:390f51b134baee353ef7fe73a7388ecfbb5f8b56868989fcb374c12f0eed9cea",
+              "checksum": "sha256:e0d6c8a856f75dc3a3ce21947bcf7739d177d93d1e866f9394b9b2c8c4d89be9",
               "effective_from": "2024-10-02",
               "effective_to": null
             }
@@ -103,9 +279,12 @@
         },
         "residential-single-phase-032faa": {
           "name": "Residential - Single Phase",
+          "regions": [
+            "US-NC"
+          ],
           "revisions": {
             "1": {
-              "checksum": "sha256:5cc94405c5a2e838d0042f20db1dda829d73008ef22cfb35d80dda5de340df44",
+              "checksum": "sha256:8e5595a88b179bbb0083204d6a1761e01e329aeab2a9bc3f2261c1dedc5b9bdf",
               "effective_from": "2024-10-02",
               "effective_to": null
             }
@@ -113,9 +292,12 @@
         },
         "residential-tou-pilot-single-phase-0a59ea": {
           "name": "Residential TOU Pilot - Single Phase",
+          "regions": [
+            "US-NC"
+          ],
           "revisions": {
             "1": {
-              "checksum": "sha256:3dc21cad208ea39de8c8a2dd64a684b5ffc317a0abe742ff9be9a3d5b0da414a",
+              "checksum": "sha256:b59d4d98fdcb8cdbcfe66b458fe6f69e70afd03e5d5cf996768a6b957a695657",
               "effective_from": "2024-10-02",
               "effective_to": null
             }
@@ -128,9 +310,12 @@
       "tariffs": {
         "residential-general-service-0cf6aa": {
           "name": "Residential General Service",
+          "regions": [
+            "US-TX"
+          ],
           "revisions": {
             "1": {
-              "checksum": "sha256:9b8234f979e6cf7964fe9d185ff1074e79e10de8d8b2fc12e2d33a6b60a4e2d2",
+              "checksum": "sha256:a6c14d6dcf7f974d738f75bffda11837b22c7570cada89e66fc203244c4b0c95",
               "effective_from": "2025-01-01",
               "effective_to": null
             }
@@ -143,9 +328,12 @@
       "tariffs": {
         "residential-all-electric-service-single-phase-0d12ed": {
           "name": "Residential All Electric Service Single Phase",
+          "regions": [
+            "US-NC"
+          ],
           "revisions": {
             "1": {
-              "checksum": "sha256:276903d57e46b50d160aca075a92750461c75a4345fa989b5518b7349f0c88da",
+              "checksum": "sha256:12a09d326ec782cbafe70eff40e5e7df6cc399f0ee23ba393a7f594870b5032d",
               "effective_from": "2025-04-01",
               "effective_to": null
             }
@@ -158,9 +346,12 @@
       "tariffs": {
         "energy-wise-standard-time-of-day-etr-09ec28": {
           "name": "Energy Wise Standard Time of Day (ETR)",
+          "regions": [
+            "US-CO"
+          ],
           "revisions": {
             "1": {
-              "checksum": "sha256:32b87712aabc61dd5b2ff68a209640f46e80a107b2472a5f5e262080165f7cac",
+              "checksum": "sha256:c4f50e935d30dfa7b59e12e8a1220ceb2e942ae4e4be16fa03019c36bc37debd",
               "effective_from": "2025-10-01",
               "effective_to": null
             }
@@ -173,9 +364,12 @@
       "tariffs": {
         "residential-000337": {
           "name": "RESIDENTIAL",
+          "regions": [
+            "US-GA"
+          ],
           "revisions": {
             "1": {
-              "checksum": "sha256:2512a6b56094ad47e07907cae57b005e88a4942d7b7049ddfdab04f7881b6f84",
+              "checksum": "sha256:75ed2ccf18b14d22e33d4d82c3adeac74072e5daaf553815b27bfd6ffa1d64e5",
               "effective_from": "2024-07-01",
               "effective_to": null
             }
@@ -188,9 +382,12 @@
       "tariffs": {
         "domestic-tou-service-medium-residence-0fb37e": {
           "name": "Domestic TOU Service - Medium Residence",
+          "regions": [
+            "US-CA"
+          ],
           "revisions": {
             "1": {
-              "checksum": "sha256:db4de4a275901b7acc3dbd875cb9a1c9d40ba28a4ac1f1b664add61c3e17acba",
+              "checksum": "sha256:13a30d4442ecc6180c1286caa89b1f72ddd37daef7654e75dc31f36111288b7b",
               "effective_from": "2024-01-01",
               "effective_to": null
             }
@@ -203,9 +400,12 @@
       "tariffs": {
         "domestic-service-ce813b": {
           "name": "DOMESTIC SERVICE",
+          "regions": [
+            "US-CA"
+          ],
           "revisions": {
             "1": {
-              "checksum": "sha256:5d7663472317aa585dacc7f73430bc84585bab055bf408b6abd81693eba3ce27",
+              "checksum": "sha256:855dc5b45263aa9dfeaeebb222d1304899dbb94ceb0932a228f52225ca27f22e",
               "effective_from": "2025-01-01",
               "effective_to": null
             }
@@ -218,9 +418,12 @@
       "tariffs": {
         "touch-program-residential-tou-0c6e95": {
           "name": "TOUCH Program Residential (TOU)",
+          "regions": [
+            "US-LA"
+          ],
           "revisions": {
             "1": {
-              "checksum": "sha256:a1a53146eabf9867ae73be7cdec0a099f011021d2a98fe2d7490d2f4a8b99feb",
+              "checksum": "sha256:b5de29735a89fdb3955e727cda7dfc7c117ecef2e79bb39bfc14f571bdf26f12",
               "effective_from": "2025-07-01",
               "effective_to": null
             }
@@ -233,9 +436,12 @@
       "tariffs": {
         "residential-ecbb0b": {
           "name": "Residential",
+          "regions": [
+            "US-MO"
+          ],
           "revisions": {
             "1": {
-              "checksum": "sha256:8b3e404ec72a22d9da777074337ad43ed1a98d8ff794090ad16b96dfcbb0e678",
+              "checksum": "sha256:7e6a8f38f3d9c452408eb76d18babb5de958e28c28235e6356c82ec9f29e609f",
               "effective_from": "2025-01-01",
               "effective_to": null
             }
@@ -248,9 +454,12 @@
       "tariffs": {
         "residential-service-single-phase-rs-40c-0cf2db": {
           "name": "Residential Service Single Phase (RS-40C)",
+          "regions": [
+            "US-MS"
+          ],
           "revisions": {
             "1": {
-              "checksum": "sha256:8b37bfac80703f989d17187374bafc47625fc0c19694cdbcf68a0dead84b3494",
+              "checksum": "sha256:cfcdaa8cccbd33a179fe07814abe3d680c203d7073ec2a44d0ec5caed59d2b3f",
               "effective_from": "2025-07-01",
               "effective_to": null
             }
@@ -258,9 +467,12 @@
         },
         "residential-service-three-phase-rs-40c-0832ac": {
           "name": "Residential Service Three Phase (RS-40C)",
+          "regions": [
+            "US-MS"
+          ],
           "revisions": {
             "1": {
-              "checksum": "sha256:a0402f0b6bd23a102646e7dea2c735dbfdb0f6af0ec91ee66cb581e912c6e820",
+              "checksum": "sha256:2812ce15dc5fa74f7ef093ae1126b958045d9e29c8de53d475861205b7d09cd6",
               "effective_from": "2025-07-01",
               "effective_to": null
             }
@@ -273,9 +485,12 @@
       "tariffs": {
         "rate-code-1-residential-service-09adc8": {
           "name": "Rate Code 1 - Residential Service",
+          "regions": [
+            "US-FL"
+          ],
           "revisions": {
             "1": {
-              "checksum": "sha256:361bb73f146bad301ca7b4cf291b986b97a3696a8b640d734dbb2b0de5b9f320",
+              "checksum": "sha256:a7254067aae7890c8e4405f6590e9670cfb09200a22b60e9899d0e4e84acfbaa",
               "effective_from": "2025-07-01",
               "effective_to": null
             }
@@ -288,9 +503,12 @@
       "tariffs": {
         "d-residential-service-01cc8f": {
           "name": "D Residential Service",
+          "regions": [
+            "US-HI"
+          ],
           "revisions": {
             "1": {
-              "checksum": "sha256:1c6c60ae46147320cfa53350958ef61cce2fc81c3501bee81b3336ad3369a475",
+              "checksum": "sha256:c805a7eabd0f7b68fcb4bd42e421acaf84faff4d332af2a99c206451c64c7431",
               "effective_from": "2025-07-01",
               "effective_to": null
             }
@@ -303,9 +521,12 @@
       "tariffs": {
         "residential-electric-vehicle-service-00718a": {
           "name": "Residential Electric Vehicle Service",
+          "regions": [
+            "US-MN"
+          ],
           "revisions": {
             "1": {
-              "checksum": "sha256:31fb95a4f152ee08966d6a7208b528cedaa70b8702d917d7170af8c6d4a60034",
+              "checksum": "sha256:95b4d046c1e29b0012092bd17b4db78ab4bac4009593bf41d113733e146baf56",
               "effective_from": "2025-03-01",
               "effective_to": null
             }
@@ -313,9 +534,12 @@
         },
         "residential-electric-vehicle-service-renewable-energy-option-04a0cb": {
           "name": "Residential Electric Vehicle Service (Renewable Energy Option)",
+          "regions": [
+            "US-MN"
+          ],
           "revisions": {
             "1": {
-              "checksum": "sha256:477bb0d17ce168839976bd9b2c3a625625c56a7c690b9e3fe346b4238886592b",
+              "checksum": "sha256:fbd8e602c7939c8e6d0e72f85399dbbec9fd420e1b18b2fa722669d52cdc3152",
               "effective_from": "2025-03-01",
               "effective_to": null
             }
@@ -328,9 +552,12 @@
       "tariffs": {
         "general-service-small-residential-under-50-kw-0f5b57": {
           "name": "General Service Small (Residential) (Under 50 kW)",
+          "regions": [
+            "US-CO"
+          ],
           "revisions": {
             "1": {
-              "checksum": "sha256:7ce31c43cee5d61aff0ec38d5d4d6b61148e83e401f885163b620e608f9dda0b",
+              "checksum": "sha256:fc0767c76415c4b71611d96bb3c0f7b46da827dc5639af8dcf3a5fb78f40f190",
               "effective_from": "2025-01-01",
               "effective_to": null
             }
@@ -338,9 +565,12 @@
         },
         "general-service-whole-house-time-of-use-residential-04e30d": {
           "name": "General Service Whole House Time of Use (Residential)",
+          "regions": [
+            "US-CO"
+          ],
           "revisions": {
             "1": {
-              "checksum": "sha256:d53e6c5f8c5db4c43575fcf8ac18adc0e9d770ee43527293d9aaa2ea1e62e42e",
+              "checksum": "sha256:9a7c61f54fd98fd179d3b65dd307dda238bb60cb57bc17204eadaee5913690d3",
               "effective_from": "2025-01-01",
               "effective_to": null
             }
@@ -353,9 +583,12 @@
       "tariffs": {
         "sc1-zone-b-0a181e": {
           "name": "SC1- Zone B",
+          "regions": [
+            "US-NY"
+          ],
           "revisions": {
             "1": {
-              "checksum": "sha256:6caf6e73e4d3fc3ead859539295957ba929a48c0b397764671786d8bdce49b4b",
+              "checksum": "sha256:6afc09739dd6eb244842a69f99c0f1781dc57aca96e0f6e9dd41df100789cb50",
               "effective_from": "2025-01-30",
               "effective_to": null
             }
@@ -363,9 +596,12 @@
         },
         "sc1-zone-c-0e2bac": {
           "name": "SC1- Zone C",
+          "regions": [
+            "US-NY"
+          ],
           "revisions": {
             "1": {
-              "checksum": "sha256:defcc9126f00f663a07cbeb0b3b7e80a0e0451b987e3d279c7ff91fe2345a4bf",
+              "checksum": "sha256:6a25e75c495b778f7373dc2bb54854b174b0c61915ebd4f4d7f1ebfa051edbcd",
               "effective_from": "2025-01-30",
               "effective_to": null
             }
@@ -378,9 +614,12 @@
       "tariffs": {
         "schedule-r1-ev-residential-electric-vehicle-09e65c": {
           "name": "Schedule R1-EV, Residential Electric Vehicle",
+          "regions": [
+            "US-VA"
+          ],
           "revisions": {
             "1": {
-              "checksum": "sha256:affc4649f42989a43e78b2e875d214bea3dcf0e1d3260b700d03453a528b59f6",
+              "checksum": "sha256:dc2c0eaffdb53cb29df07264d83b7f9eca55b5b0089d3273bd91c244ef569352",
               "effective_from": "2025-01-01",
               "effective_to": null
             }
@@ -393,9 +632,12 @@
       "tariffs": {
         "rate-10-residential-electric-09d9cc": {
           "name": "Rate 10: Residential Electric",
+          "regions": [
+            "US-SD"
+          ],
           "revisions": {
             "1": {
-              "checksum": "sha256:157f062434d12dbd32c07ed26121d4c44ba1897f1264e90a4715787369a9922d",
+              "checksum": "sha256:c14c3a9a23b30fa9660bf7bc79c54c999b6703e79d170a57ca3304429c3380fe",
               "effective_from": "2025-05-01",
               "effective_to": null
             }
@@ -403,9 +645,12 @@
         },
         "rate-11-residential-service-with-space-heating-0d3388": {
           "name": "Rate 11: Residential Service with Space Heating",
+          "regions": [
+            "US-SD"
+          ],
           "revisions": {
             "1": {
-              "checksum": "sha256:b307421e5f3825d1daae87cb63e41d4913ad11b7b3aca311799a5c2555c7bcd2",
+              "checksum": "sha256:c65bd3cef7382d49a219092b2ba2504318ad11d7ea85ce7db3693332e869a8d9",
               "effective_from": "2025-05-01",
               "effective_to": null
             }
@@ -413,9 +658,12 @@
         },
         "rate-14-residential-space-heating-and-cooling-03b448": {
           "name": "Rate 14: Residential Space Heating and Cooling",
+          "regions": [
+            "US-SD"
+          ],
           "revisions": {
             "1": {
-              "checksum": "sha256:e004effbbec25a0b8054fa375d0e6ae415aca84bff02b0a8df82a6f5a05f4317",
+              "checksum": "sha256:0b1c045d1f96067b5c68a7fcebbe039b4bd1cdeea8c8ea81a33961abbaa1c3fb",
               "effective_from": "2025-05-01",
               "effective_to": null
             }
@@ -423,9 +671,12 @@
         },
         "rate-15-residential-dual-fuel-and-controlled-service-0d3389": {
           "name": "Rate 15: Residential Dual Fuel and Controlled Service.",
+          "regions": [
+            "US-SD"
+          ],
           "revisions": {
             "1": {
-              "checksum": "sha256:515aad634eadff21d30fe8310b1f28f281270fec086b3365e08e4ba9c8d5bec0",
+              "checksum": "sha256:52839faf913d634995fe0ccc0f6126b0e7e0e38cc6efab051f534cf1147602d4",
               "effective_from": "2025-05-01",
               "effective_to": null
             }
@@ -438,9 +689,12 @@
       "tariffs": {
         "residential-time-of-day-bundled-ohio-power-rate-zone-rs-tod-025dba": {
           "name": "Residential Time-of-Day Bundled Ohio Power Rate Zone (RS-TOD)",
+          "regions": [
+            "US-OH"
+          ],
           "revisions": {
             "1": {
-              "checksum": "sha256:1caf3a829e3b169721ab2d02d7b0aeea90e04dd245cb4a81253d612703f55093",
+              "checksum": "sha256:9e5b1a977ed27149af077aa475c4d66ca2052f1ad2147f6a602c76a816dfc672",
               "effective_from": "2025-01-01",
               "effective_to": null
             }
@@ -448,9 +702,12 @@
         },
         "residential-time-of-day-ohio-power-rate-zone-rs-tod-025db9": {
           "name": "Residential Time-of-Day  Ohio Power Rate Zone (RS-TOD)",
+          "regions": [
+            "US-OH"
+          ],
           "revisions": {
             "1": {
-              "checksum": "sha256:d766296552a6cdd0ca6d6ad5f62a72b2de94af4e94535e1e3e745d8ce329ec3b",
+              "checksum": "sha256:711f0124d6fe28cf957ebd7d2c4da608cfa502bbcebf5cdd40b61cfa21d49602",
               "effective_from": "2025-01-01",
               "effective_to": null
             }
@@ -463,9 +720,12 @@
       "tariffs": {
         "tariff-r-14-residential-service-070eac": {
           "name": "TARIFF R-14 RESIDENTIAL SERVICE",
+          "regions": [
+            "US-WA"
+          ],
           "revisions": {
             "1": {
-              "checksum": "sha256:c7e5db34901194539ec54f97d96d1b06a76829bbb78d6622c7d99ed546ba79ba",
+              "checksum": "sha256:0a320aff6596a70424e302779101a6b0243fa8b26b5d29cb62079630b00f37c5",
               "effective_from": "2025-01-01",
               "effective_to": null
             }
@@ -478,9 +738,12 @@
       "tariffs": {
         "residential-00dd5d": {
           "name": "Residential",
+          "regions": [
+            "US-WA"
+          ],
           "revisions": {
             "1": {
-              "checksum": "sha256:b8f466b74092ad1fcc5926cae20f643daaf4bd23af2f80d8ef20332afdafd32f",
+              "checksum": "sha256:772a027ca1bf81181bde3a9f2486ddd402b37b0d46d3675408444ebfff67c027",
               "effective_from": "2025-04-01",
               "effective_to": null
             }
@@ -493,9 +756,12 @@
       "tariffs": {
         "1a-residential-service-0e834c": {
           "name": "1A (Residential Service)",
+          "regions": [
+            "US-NM"
+          ],
           "revisions": {
             "1": {
-              "checksum": "sha256:88fa4bb67208a81b48c82a6766a9c50bba7719b003df0564827573db20106275",
+              "checksum": "sha256:6011eef715187865acaae1113ae73c254179d4361d3a0d4212fb6879925d7524",
               "effective_from": "2025-11-15",
               "effective_to": null
             }
@@ -503,9 +769,12 @@
         },
         "1a-residential-whole-house-electric-vehicle-rate-pilot-03d68c": {
           "name": "1A (Residential Whole House Electric Vehicle Rate Pilot)",
+          "regions": [
+            "US-NM"
+          ],
           "revisions": {
             "1": {
-              "checksum": "sha256:e4b52b7f4e11429097e05d26c2d322ae8cab196a76d6057f8906fbdf934bd11d",
+              "checksum": "sha256:5543e5b38c0f42ef162447a6a6923029d7e10a49b67741a4cd346b51713684e4",
               "effective_from": "2025-11-15",
               "effective_to": null
             }
@@ -513,9 +782,12 @@
         },
         "1b-residential-service-time-of-use-075cea": {
           "name": "1B (Residential Service Time-Of-Use)",
+          "regions": [
+            "US-NM"
+          ],
           "revisions": {
             "1": {
-              "checksum": "sha256:1923eec0ae8b47390fbf6089f2fb703b57a806d119b9cb9e16677b67b02792be",
+              "checksum": "sha256:dfc088fb91f95dec8982b515500109b96d392b94bc806bb2ac37a0a1e9c05ad4",
               "effective_from": "2025-11-15",
               "effective_to": null
             }
@@ -528,9 +800,12 @@
       "tariffs": {
         "residential-a28-single-phase-service-032fad": {
           "name": "Residential A28 - SINGLE-PHASE SERVICE",
+          "regions": [
+            "US-NC"
+          ],
           "revisions": {
             "1": {
-              "checksum": "sha256:bc0bfec0ba2fb571b5b54c7470ae905e1e5390d2ad00a8067c84d6df3290ac49",
+              "checksum": "sha256:df696adfd5597e34d68a0f79ce57f8980c8f0c438c8c4915b1b1ba332220753c",
               "effective_from": "2025-05-01",
               "effective_to": null
             }
@@ -538,9 +813,12 @@
         },
         "residential-a28ee-single-phase-energy-efficient-home-service-034d7a": {
           "name": "Residential A28EE - SINGLE-PHASE ENERGY EFFICIENT HOME SERVICE",
+          "regions": [
+            "US-NC"
+          ],
           "revisions": {
             "1": {
-              "checksum": "sha256:aec329e1b7184ae3f5328d26a03b95dc7af2479dd6265c87756e2952f20f3c9e",
+              "checksum": "sha256:8a3cde686ebac32ff1cc264b8ef0c4a8dd9cde8e6bee822d4ff09e760ccc5eb4",
               "effective_from": "2025-05-01",
               "effective_to": null
             }
@@ -548,9 +826,12 @@
         },
         "residential-a28tou-single-phase-time-of-use-service-0f180f": {
           "name": "Residential A28TOU - SINGLE-PHASE TIME OF USE SERVICE",
+          "regions": [
+            "US-NC"
+          ],
           "revisions": {
             "1": {
-              "checksum": "sha256:c8879072d4340018508acf87dd6efd68c637ae04e76c11d5e3c720182fcccd7d",
+              "checksum": "sha256:f844fbbe441d8d40e0a3cf94ba711ca2571acbd212f06ba0eba84ce6c1f92642",
               "effective_from": "2025-05-01",
               "effective_to": null
             }
@@ -563,9 +844,12 @@
       "tariffs": {
         "residential-service-0dc18c": {
           "name": "Residential Service",
+          "regions": [
+            "US-NC"
+          ],
           "revisions": {
             "1": {
-              "checksum": "sha256:069682eb4a858830f80be4cd654456ea2cfe2d09177d6ec9b696d8d2ed4c47a3",
+              "checksum": "sha256:104e31fde377835e3fde46fe7c78019424fe9ea005ad0bdc49ec108b67fc223c",
               "effective_from": "2025-01-01",
               "effective_to": null
             }
@@ -578,9 +862,12 @@
       "tariffs": {
         "service-classification-no-1-residential-service-rss-06c4d4": {
           "name": "SERVICE CLASSIFICATION NO. 1 - RESIDENTIAL SERVICE RSS",
+          "regions": [
+            "US-NY"
+          ],
           "revisions": {
             "1": {
-              "checksum": "sha256:71ee397e7cfdd81c2a5bcefb6ab3ec772d4b0b5679abc3ef17ea148e0b7af24f",
+              "checksum": "sha256:3f1d63e5d5d021e17285d0e1fd7b33d2e700e4c104f4960957e8f94e775e8ed8",
               "effective_from": "2025-05-01",
               "effective_to": null
             }
@@ -588,9 +875,12 @@
         },
         "service-classification-no-1-residential-service-rss-non-reta-0c367d": {
           "name": "SERVICE CLASSIFICATION NO. 1 - RESIDENTIAL SERVICE RSS (Non-Retail Access Choice)",
+          "regions": [
+            "US-NY"
+          ],
           "revisions": {
             "1": {
-              "checksum": "sha256:07894683a79f29dd16255a96014df5e3f8d8bd345ce30b81e2d1102cfe6de81c",
+              "checksum": "sha256:e72b3a03af79fbce838921f0a95b8f55924c81a6987d0faad2c42bcaa3ae5d1f",
               "effective_from": "2025-05-01",
               "effective_to": null
             }
@@ -598,9 +888,12 @@
         },
         "service-classification-no-4-residential-service-time-of-use-094e5a": {
           "name": "SERVICE CLASSIFICATION NO. 4 RESIDENTIAL SERVICE - TIME-OF-USE RATE RSS (Non-Retail Access Rate Choice) Schedule I",
+          "regions": [
+            "US-NY"
+          ],
           "revisions": {
             "1": {
-              "checksum": "sha256:4df9c6798f07f921f2ac6582949f9d6af2953a5a71f0c81b6b13053b8d1009b3",
+              "checksum": "sha256:3158d1dedd723e941382d6b2c6cb13911d81b2732c29ff48137864a0004a306d",
               "effective_from": "2025-05-01",
               "effective_to": null
             }
@@ -608,9 +901,12 @@
         },
         "service-classification-no-4-residential-service-time-of-use-09f1cc": {
           "name": "SERVICE CLASSIFICATION NO. 4 RESIDENTIAL SERVICE - TIME-OF-USE RATE RSS - Schedule II",
+          "regions": [
+            "US-NY"
+          ],
           "revisions": {
             "1": {
-              "checksum": "sha256:54c16073bfcc6e59f511fda76b3701b324c8f27d00ed0ed43ea938cb837be770",
+              "checksum": "sha256:485f690b938af9db9ce63920dec6f7cf9346a15fa2eff23fc937e19158dad604",
               "effective_from": "2025-05-01",
               "effective_to": null
             }
@@ -618,9 +914,12 @@
         },
         "service-classification-no-4-residential-service-time-of-use-0d4c5c": {
           "name": "SERVICE CLASSIFICATION NO. 4 RESIDENTIAL SERVICE - TIME-OF-USE RATE RSS (Non-Retail Access Rate Choice) Schedule II",
+          "regions": [
+            "US-NY"
+          ],
           "revisions": {
             "1": {
-              "checksum": "sha256:59f798861339db7945cfdc381ef0bd457ef7c149a393090e2aa20de9d62cdfb1",
+              "checksum": "sha256:60bd67909d1742e1321dacf9488ab01e21ed3cb9a6ef1b5f71a8caaf4803cd35",
               "effective_from": "2025-05-01",
               "effective_to": null
             }
@@ -628,9 +927,12 @@
         },
         "service-classification-no-4-residential-service-time-of-use-0ef118": {
           "name": "SERVICE CLASSIFICATION NO. 4 RESIDENTIAL SERVICE - TIME-OF-USE RATE RSS - Schedule I",
+          "regions": [
+            "US-NY"
+          ],
           "revisions": {
             "1": {
-              "checksum": "sha256:aef21b8a885bbe0fd331afeed7b174b6a1cd578e9a0d0f2a2d779ca7d530382f",
+              "checksum": "sha256:1c71590580e6e2be38bb3cb4a834695d2100a632425e20276a754df1f946a2c1",
               "effective_from": "2025-05-01",
               "effective_to": null
             }
@@ -643,9 +945,12 @@
       "tariffs": {
         "od-revrr-residential-electric-vehicle-recharge-rider-bundled-09cbdb": {
           "name": "OD-REVRR- Residential Electric Vehicle Recharge Rider - Bundled",
+          "regions": [
+            "US-NV"
+          ],
           "revisions": {
             "1": {
-              "checksum": "sha256:9c04ac494c77e41b330bd91365f833bb068080caf629a255b7607791c9fd4c35",
+              "checksum": "sha256:fb3dcf7fc4c55ebabb8347f456e5fc48d9f0d3c14e15aee9761d4ca0f1d68cef",
               "effective_from": "2025-09-30",
               "effective_to": null
             }
@@ -658,9 +963,12 @@
       "tariffs": {
         "residential-time-of-use-rate-schedule-rt-25-0bffbd": {
           "name": "RESIDENTIAL TIME-OF-USE RATE SCHEDULE RT-25",
+          "regions": [
+            "US-SC"
+          ],
           "revisions": {
             "1": {
-              "checksum": "sha256:61adc733f92f13054cdb2b95f4445659ffb42e7d27df63010186eae8b0737ff2",
+              "checksum": "sha256:2f78bf1f92a09eeff95ea68afa38d9b29623dd7eedd62676f94006b2ea5d6201",
               "effective_from": "2025-04-01",
               "effective_to": null
             }
@@ -673,9 +981,12 @@
       "tariffs": {
         "residential-08cb4b": {
           "name": "Residential",
+          "regions": [
+            "US-WI"
+          ],
           "revisions": {
             "1": {
-              "checksum": "sha256:c3627fd264cb692eb91a0478ffdf1f1a064b473ed191249adb65e6d27a8de269",
+              "checksum": "sha256:3defed8ff1ce316d9044d9b6a0c0d6a8ee7eb409f5e4ed45bb27fd32b3c7e124",
               "effective_from": "2025-01-01",
               "effective_to": null
             }
@@ -688,9 +999,12 @@
       "tariffs": {
         "residential-service-time-of-day-single-phase-ertd-0127bf": {
           "name": "Residential Service Time-of-Day (Single-Phase) ERTD",
+          "regions": [
+            "US-WI"
+          ],
           "revisions": {
             "1": {
-              "checksum": "sha256:8a1125fe52818a4dc82b798a96808ed473a2ab4f2feec8902f121537adc72e20",
+              "checksum": "sha256:21e9784962bdfc8bc5f93a42c08de893090175dff87d2d6f4ec992d05d6a7abe",
               "effective_from": "2025-01-01",
               "effective_to": null
             }
@@ -703,9 +1017,12 @@
       "tariffs": {
         "residential-time-of-use-rate-a-tou-0a80fa": {
           "name": "RESIDENTIAL TIME OF USE RATE A TOU",
+          "regions": [
+            "US-MA"
+          ],
           "revisions": {
             "1": {
-              "checksum": "sha256:2eafe6681f6848b5d6a2e0e89c9f7b0a85f73257c4a68370ecbc2300b3931c1b",
+              "checksum": "sha256:3d8f12a9d8aa134a9edcac53e49146a65ab75319c4b8d5cf8adb8d2c636c65ba",
               "effective_from": "2025-06-01",
               "effective_to": null
             }
@@ -718,9 +1035,12 @@
       "tariffs": {
         "residential-prepay-single-phase-03a250": {
           "name": "Residential Prepay - Single Phase",
+          "regions": [
+            "US-GA"
+          ],
           "revisions": {
             "1": {
-              "checksum": "sha256:3122c583804cd6b738e6ed7476e57659fe057d46eda09886cab576f550afc2cb",
+              "checksum": "sha256:056b1451a02404a249352888250ba0561c5a846facd459ecb566c52aa000f185",
               "effective_from": "2025-03-01",
               "effective_to": null
             }
@@ -728,9 +1048,12 @@
         },
         "residential-service-single-phase-05426e": {
           "name": "Residential Service - Single Phase",
+          "regions": [
+            "US-GA"
+          ],
           "revisions": {
             "1": {
-              "checksum": "sha256:8224d20bd00aca2e9a0a87704b85a56ff407197549c5ec233a77cca17f54b96b",
+              "checksum": "sha256:cd0ac280ddd577c18a1241f33c5b56539f41d71dc4343952c686acba0393db63",
               "effective_from": "2025-03-01",
               "effective_to": null
             }
@@ -743,9 +1066,13 @@
       "tariffs": {
         "residential-service-0545fc": {
           "name": "Residential Service",
+          "regions": [
+            "US-CA",
+            "US-NV"
+          ],
           "revisions": {
             "1": {
-              "checksum": "sha256:4ca4ef710057f6f2a0dcb1ab99dfbd4872104f9b5f794ef3e563d2a37e530163",
+              "checksum": "sha256:8171894f9fa31389b12ffc6c62dba46bfd2c4c2bccd999341fab94cc6ea5fd23",
               "effective_from": "2024-01-01",
               "effective_to": null
             }
@@ -758,9 +1085,12 @@
       "tariffs": {
         "residential-06adbb": {
           "name": "Residential",
+          "regions": [
+            "US-WI"
+          ],
           "revisions": {
             "1": {
-              "checksum": "sha256:8e15cd1cc1b171fe7f17a25c7282d2e59bc65c2701502753d33bcd472f230d33",
+              "checksum": "sha256:31ec2d69294023e2d1ec38e43feea90e0b35eb78b2bb5d35028a7a8d90d63a2c",
               "effective_from": "2025-01-01",
               "effective_to": null
             }
@@ -768,9 +1098,12 @@
         },
         "residential-nighttime-ev-charging-service-00e820": {
           "name": "Residential - Nighttime EV Charging Service",
+          "regions": [
+            "US-WI"
+          ],
           "revisions": {
             "1": {
-              "checksum": "sha256:cb2fb2bff8c74ff5692d25d67c7c58ad32621810e2b5f8beef0143674e4d0270",
+              "checksum": "sha256:8217d7896556bbd48b7dba065c5affd87e31d9b266d07c7094bc941f8b56bdbc",
               "effective_from": "2025-01-01",
               "effective_to": null
             }
@@ -783,9 +1116,12 @@
       "tariffs": {
         "farm-residential-revenue-classes-1-and-2-06730b": {
           "name": "Farm & Residential Revenue Classes 1 and 2",
+          "regions": [
+            "US-VT"
+          ],
           "revisions": {
             "1": {
-              "checksum": "sha256:3dbd59db05f6be67ecd9a6beccf15a031d4b8428015239420354b87579d86076",
+              "checksum": "sha256:ca6b13d2ce5a22437ce15a313308fab1b8571ffb5a65a4be53266d48260a68f6",
               "effective_from": "2025-01-01",
               "effective_to": null
             }

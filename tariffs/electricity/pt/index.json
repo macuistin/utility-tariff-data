@@ -5,10 +5,10 @@
   "timezone": "Europe/Lisbon",
   "vat_percent": "0",
   "availability": "partial",
-  "reason": "Only the regulated simple tariff of the last resort supplier for mainland supplies up to 20.7 kVA is held, from the regulator's workbook. VAT and the electricity duty are not in the prices and the VAT rate depends on the supply, so a bill carries no tax line. Most customers are on a market offer, not this tariff.",
+  "reason": "The regulated simple tariff of the last resort supplier for mainland supplies up to 20.7 kVA, from the regulator's workbook, and the household offers of every supplier from the regulator's price simulator, simple and two-rate on the daily cycle. Offers indexed to the wholesale price, offers with a paid service, dual fuel bundles, three-rate options and prices the simulator lists to more than six decimal places are not held. VAT and the electricity duty are not in the prices and the VAT rate depends on the supply, so a bill carries no tax line.",
   "reason_local": {
     "language": "pt",
-    "text": "Apenas a tarifa simples regulada do comercializador de último recurso, para o continente e potências até 20,7 kVA, lida do ficheiro da entidade reguladora. O IVA e o imposto especial sobre o consumo de eletricidade não estão nos preços e a taxa de IVA depende do fornecimento, por isso uma fatura não tem linha de imposto. A maioria dos clientes tem uma oferta de mercado, e não esta tarifa."
+    "text": "A tarifa simples regulada do comercializador de último recurso, para o continente e potências até 20,7 kVA, lida do ficheiro da entidade reguladora, e as ofertas para clientes domésticos de todos os comercializadores, lidas do simulador de preços da entidade reguladora, nas opções simples e bi-horária em ciclo diário. Não estão incluídas as ofertas indexadas ao mercado grossista, as ofertas com um serviço pago, as ofertas duais, a opção tri-horária nem os preços que o simulador indica com mais de seis casas decimais. O IVA e o imposto especial sobre o consumo de eletricidade não estão nos preços e a taxa de IVA depende do fornecimento, por isso uma fatura não tem linha de imposto."
   },
   "inputs": {
     "bill_start_day": {

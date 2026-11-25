@@ -1,11 +1,11 @@
-Last updated: 2026-11-18
+Last updated: 2026-11-25
 
 # Australia: electricity tariff status
 
 [All countries](../STATUS.md)
 
-- Coverage: partial. Retailer plans read from the Consumer Data Right endpoints, about 8 per retailer for 17 of 20 retailers. Plans with seasonal periods, volume tiers or weekday and weekend windows are skipped. Only New South Wales, Victoria, ACT and Tasmania are held, because the country block has one timezone and Queensland, South Australia, Western Australia and the Northern Territory use others.
-- Held: 16 providers and 126 tariffs. 124 current, 0 upcoming, 2 ended, as of the date above.
+- Coverage: partial. Retailer plans, about 8 per retailer for 17 of 20 retailers. Plans with seasonal periods, volume tiers or weekday and weekend windows are skipped. Only New South Wales, Victoria, ACT and Tasmania are held, because the country block has one timezone and Queensland, South Australia, Western Australia and the Northern Territory use others.
+- Held: 16 providers and 126 tariffs. 122 current, 0 upcoming, 4 ended, as of the date above.
 
 | Provider | Tariff | Direction | Status today | Valid from | Valid to | Revisions | Last changed | Source |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -49,8 +49,8 @@ Last updated: 2026-11-18
 | Dodo Power & Gas | Real Deal - Time of Use with Controlled Load (Powercor) | import | Current | 2026-07-26 | open | 2 | 2026-11-13 | au-cdr-energy |
 | Dodo Power & Gas | Real Deal - Time of Use with Controlled Load (Powercor) export | export | Current | 2026-07-26 | open | 1 | 2026-07-26 | au-cdr-energy |
 | Dodo Power & Gas | Real Deal - Single Rate with Controlled Load (United Energy) | import | Current | 2026-10-16 | open | 1 | 2026-10-16 | au-cdr-energy |
-| EnergyAustralia | Balance Plan - Third Party Offer (Essential Energy Standard + Essential Energy Far West + Essential Energy) | import | Current | 2026-10-15 | 2026-11-25 | 1 | 2026-10-15 | au-cdr-energy |
-| EnergyAustralia | Balance Plan - Third Party Offer (Endeavour) | import | Current | 2026-10-15 | 2026-11-25 | 1 | 2026-10-15 | au-cdr-energy |
+| EnergyAustralia | Balance Plan - Third Party Offer (Essential Energy Standard + Essential Energy Far West + Essential Energy) | import | Ended | 2026-10-15 | 2026-11-25 | 1 | 2026-10-15 | au-cdr-energy |
+| EnergyAustralia | Balance Plan - Third Party Offer (Endeavour) | import | Ended | 2026-10-15 | 2026-11-25 | 1 | 2026-10-15 | au-cdr-energy |
 | EnergyAustralia | VIC Seniors Offer - Peak Only - $200 Credit (Powercor) | import | Current | 2026-10-27 | open | 2 | 2026-11-13 | au-cdr-energy |
 | EnergyAustralia | VIC Seniors Offer - Peak Only - $200 Credit (Powercor) export | export | Current | 2026-10-27 | open | 1 | 2026-10-27 | au-cdr-energy |
 | EnergyAustralia | VIC Seniors Offer - Peak Only - $200 Credit (Jemena) | import | Current | 2026-10-27 | open | 2 | 2026-11-13 | au-cdr-energy |

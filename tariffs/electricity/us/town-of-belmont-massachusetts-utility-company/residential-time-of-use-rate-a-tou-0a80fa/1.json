@@ -3,6 +3,9 @@
   "name": "RESIDENTIAL TIME OF USE RATE A TOU",
   "provider": "Town of Belmont, Massachusetts (Utility Company)",
   "timezone": "America/New_York",
+  "regions": [
+    "US-MA"
+  ],
   "effective_from": "2025-06-01",
   "source": {
     "id": "openei-urdb-us",

@@ -3,6 +3,9 @@
   "name": "SC1- Zone B",
   "provider": "Niagara Mohawk Power Corp.",
   "timezone": "America/New_York",
+  "regions": [
+    "US-NY"
+  ],
   "effective_from": "2025-01-30",
   "source": {
     "id": "openei-urdb-us",

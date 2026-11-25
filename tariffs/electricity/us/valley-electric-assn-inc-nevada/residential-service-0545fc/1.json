@@ -3,6 +3,10 @@
   "name": "Residential Service",
   "provider": "Valley Electric Assn, Inc (Nevada)",
   "timezone": "America/Los_Angeles",
+  "regions": [
+    "US-CA",
+    "US-NV"
+  ],
   "effective_from": "2024-01-01",
   "source": {
     "id": "openei-urdb-us",

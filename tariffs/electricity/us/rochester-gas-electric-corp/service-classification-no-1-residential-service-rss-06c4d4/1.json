@@ -3,6 +3,9 @@
   "name": "SERVICE CLASSIFICATION NO. 1 - RESIDENTIAL SERVICE RSS",
   "provider": "Rochester Gas & Electric Corp",
   "timezone": "America/New_York",
+  "regions": [
+    "US-NY"
+  ],
   "effective_from": "2025-05-01",
   "source": {
     "id": "openei-urdb-us",

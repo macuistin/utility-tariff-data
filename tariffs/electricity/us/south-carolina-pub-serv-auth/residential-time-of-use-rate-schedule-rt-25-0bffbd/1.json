@@ -3,6 +3,9 @@
   "name": "RESIDENTIAL TIME-OF-USE RATE SCHEDULE RT-25",
   "provider": "South Carolina Pub Serv Auth",
   "timezone": "America/New_York",
+  "regions": [
+    "US-SC"
+  ],
   "effective_from": "2025-04-01",
   "source": {
     "id": "openei-urdb-us",

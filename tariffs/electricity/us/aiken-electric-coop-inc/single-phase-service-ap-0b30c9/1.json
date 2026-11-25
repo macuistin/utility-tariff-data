@@ -3,6 +3,9 @@
   "name": "SINGLE-PHASE SERVICE AP",
   "provider": "Aiken Electric Coop Inc",
   "timezone": "America/New_York",
+  "regions": [
+    "US-SC"
+  ],
   "effective_from": "2025-01-01",
   "source": {
     "id": "openei-urdb-us",

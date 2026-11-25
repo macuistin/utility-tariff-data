@@ -3,6 +3,9 @@
   "name": "Residential All Electric Service Single Phase",
   "provider": "Central Electric Membership Corporation",
   "timezone": "America/New_York",
+  "regions": [
+    "US-NC"
+  ],
   "effective_from": "2025-04-01",
   "source": {
     "id": "openei-urdb-us",

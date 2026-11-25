@@ -3,6 +3,9 @@
   "name": "Residential Prepay - Single Phase",
   "provider": "Tri-County Elec Member Corp",
   "timezone": "America/New_York",
+  "regions": [
+    "US-GA"
+  ],
   "effective_from": "2025-03-01",
   "source": {
     "id": "openei-urdb-us",

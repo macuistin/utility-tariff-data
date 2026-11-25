@@ -3,6 +3,9 @@
   "name": "Residential Service",
   "provider": "Roanoke Electric Member Corp",
   "timezone": "America/New_York",
+  "regions": [
+    "US-NC"
+  ],
   "effective_from": "2025-01-01",
   "source": {
     "id": "openei-urdb-us",

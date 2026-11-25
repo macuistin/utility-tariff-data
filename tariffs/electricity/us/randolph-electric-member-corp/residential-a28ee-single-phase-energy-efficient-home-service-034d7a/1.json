@@ -3,6 +3,9 @@
   "name": "Residential A28EE - SINGLE-PHASE ENERGY EFFICIENT HOME SERVICE",
   "provider": "Randolph Electric Member Corp",
   "timezone": "America/New_York",
+  "regions": [
+    "US-NC"
+  ],
   "effective_from": "2025-05-01",
   "source": {
     "id": "openei-urdb-us",

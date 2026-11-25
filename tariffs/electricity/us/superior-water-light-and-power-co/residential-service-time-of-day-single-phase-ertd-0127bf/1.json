@@ -3,6 +3,9 @@
   "name": "Residential Service Time-of-Day (Single-Phase) ERTD",
   "provider": "Superior Water, Light and Power Co",
   "timezone": "America/Chicago",
+  "regions": [
+    "US-WI"
+  ],
   "effective_from": "2025-01-01",
   "source": {
     "id": "openei-urdb-us",

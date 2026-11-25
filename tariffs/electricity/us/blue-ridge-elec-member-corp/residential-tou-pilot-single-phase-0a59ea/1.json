@@ -3,6 +3,9 @@
   "name": "Residential TOU Pilot - Single Phase",
   "provider": "Blue Ridge Elec Member Corp",
   "timezone": "America/New_York",
+  "regions": [
+    "US-NC"
+  ],
   "effective_from": "2024-10-02",
   "source": {
     "id": "openei-urdb-us",

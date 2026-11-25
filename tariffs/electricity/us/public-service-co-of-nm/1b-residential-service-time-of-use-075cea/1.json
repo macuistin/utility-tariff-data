@@ -3,6 +3,9 @@
   "name": "1B (Residential Service Time-Of-Use)",
   "provider": "Public Service Co of NM",
   "timezone": "America/Denver",
+  "regions": [
+    "US-NM"
+  ],
   "effective_from": "2025-11-15",
   "source": {
     "id": "openei-urdb-us",

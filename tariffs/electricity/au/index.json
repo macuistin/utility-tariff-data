@@ -5,7 +5,7 @@
   "timezone": "Australia/Sydney",
   "vat_percent": "10",
   "availability": "partial",
-  "reason": "Retailer plans read from the Consumer Data Right endpoints, about 8 per retailer for 17 of 20 retailers. Plans with seasonal periods, volume tiers or weekday and weekend windows are skipped. Only New South Wales, Victoria, ACT and Tasmania are held, because the country block has one timezone and Queensland, South Australia, Western Australia and the Northern Territory use others.",
+  "reason": "Retailer plans, about 8 per retailer for 17 of 20 retailers. Plans with seasonal periods, volume tiers or weekday and weekend windows are skipped. Only New South Wales, Victoria, ACT and Tasmania are held, because the country block has one timezone and Queensland, South Australia, Western Australia and the Northern Territory use others.",
   "inputs": {
     "bill_start_day": {
       "default": 1,

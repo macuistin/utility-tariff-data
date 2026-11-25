@@ -3,6 +3,9 @@
   "name": "Residential Service Three Phase (RS-40C)",
   "provider": "Entergy Mississippi Inc",
   "timezone": "America/Chicago",
+  "regions": [
+    "US-MS"
+  ],
   "effective_from": "2025-07-01",
   "source": {
     "id": "openei-urdb-us",

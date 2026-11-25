@@ -1,10 +1,10 @@
-Last updated: 2026-11-18
+Last updated: 2026-11-25
 
 # Brazil: electricity tariff status
 
 [All countries](../STATUS.md)
 
-- Coverage: partial. Each distributor's residential conventional tariff, read from a third-party copy of ANEEL's tariff table. Taxes (ICMS, PIS and COFINS) and the monthly tariff flag surcharge are not in the prices, so a bill priced from them is below a real bill. The white tariff, low-income and pre-paid tariffs are not held.
+- Coverage: partial. Each distributor's residential conventional tariff. Taxes (ICMS, PIS and COFINS) and the monthly tariff flag surcharge are not in the prices, so a bill priced from them is below a real bill. The white tariff, low-income and pre-paid tariffs are not held.
 - Held: 42 providers and 42 tariffs. 42 current, 0 upcoming, 0 ended, as of the date above.
 
 | Provider | Tariff | Direction | Status today | Valid from | Valid to | Revisions | Last changed | Source |

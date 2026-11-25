@@ -3,6 +3,9 @@
   "name": "General Service Small (Residential) (Under 50 kW)",
   "provider": "Mountain Parks Electric, Inc",
   "timezone": "America/Denver",
+  "regions": [
+    "US-CO"
+  ],
   "effective_from": "2025-01-01",
   "source": {
     "id": "openei-urdb-us",

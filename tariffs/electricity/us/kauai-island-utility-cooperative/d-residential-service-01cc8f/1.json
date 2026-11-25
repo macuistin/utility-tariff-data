@@ -3,6 +3,9 @@
   "name": "D Residential Service",
   "provider": "Kauai Island Utility Cooperative",
   "timezone": "Pacific/Honolulu",
+  "regions": [
+    "US-HI"
+  ],
   "effective_from": "2025-07-01",
   "source": {
     "id": "openei-urdb-us",

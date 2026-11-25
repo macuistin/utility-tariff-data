@@ -1,10 +1,10 @@
-Last updated: 2026-11-24
+Last updated: 2026-11-25
 
 # Austria: electricity tariff status
 
 [All countries](../STATUS.md)
 
-- Coverage: partial. Only the supplier's energy price and base charge are held, from E-Control's tariff calculator. A bill also has grid charges, levies, the municipal tax and any discounts, none of which are in these plans, so a bill priced from them is below a real bill.
+- Coverage: partial. Only the supplier's energy price and base charge are held. A bill also has grid charges, levies, the municipal tax and any discounts, none of which are in these plans, so a bill priced from them is below a real bill.
 - Held: 27 providers and 46 tariffs. 46 current, 0 upcoming, 0 ended, as of the date above.
 
 | Provider | Tariff | Direction | Status today | Valid from | Valid to | Revisions | Last changed | Source |

@@ -1,10 +1,10 @@
-Last updated: 2026-11-24
+Last updated: 2026-11-25
 
 # Switzerland: electricity tariff status
 
 [All countries](../STATUS.md)
 
-- Coverage: partial. Only utilities whose tariffs are on the Strompreise Schweiz data hub are held, and for each only the electricity and grid tariffs the utility marks as its standard. Metering, fees and municipal charges are not in the plans, so a bill priced from them is below a real bill.
+- Coverage: partial. Grid operators' standard household tariffs are held where the regulator's figures show one rate for all hours, with energy, grid, metering, the federal levy and the municipal charge included. Most operators price day and night apart, and those tariffs are not held. Two utilities are held from their own tariff files without metering and municipal charges, so a bill priced from them is below a real bill.
 - Held: 214 providers and 214 tariffs. 214 current, 0 upcoming, 0 ended, as of the date above.
 
 | Provider | Tariff | Direction | Status today | Valid from | Valid to | Revisions | Last changed | Source |

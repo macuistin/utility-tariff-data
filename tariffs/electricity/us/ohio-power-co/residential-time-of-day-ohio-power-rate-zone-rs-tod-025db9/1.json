@@ -3,6 +3,9 @@
   "name": "Residential Time-of-Day  Ohio Power Rate Zone (RS-TOD)",
   "provider": "Ohio Power Co",
   "timezone": "America/New_York",
+  "regions": [
+    "US-OH"
+  ],
   "effective_from": "2025-01-01",
   "source": {
     "id": "openei-urdb-us",

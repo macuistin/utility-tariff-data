@@ -3,6 +3,9 @@
   "name": "DOMESTIC SERVICE",
   "provider": "City of Santa Clara, California (Utility Company)",
   "timezone": "America/Los_Angeles",
+  "regions": [
+    "US-CA"
+  ],
   "effective_from": "2025-01-01",
   "source": {
     "id": "openei-urdb-us",

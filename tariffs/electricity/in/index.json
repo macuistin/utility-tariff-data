@@ -5,7 +5,7 @@
   "timezone": "Asia/Kolkata",
   "vat_percent": "0",
   "availability": "partial",
-  "reason": "Domestic tariffs of Karnataka, Delhi and Uttar Pradesh, read from OpenBijli's tariff books. Each needs the customer's sanctioned load in kW. Only values a book marks verified are held, so a monthly fuel adjustment or duty the book has not confirmed is missing and a bill priced from these is below a real one. Other states need charges per connection, two-month bills or conditions the format cannot hold yet.",
+  "reason": "Domestic tariffs of Karnataka, Delhi and Uttar Pradesh. Each needs the customer's sanctioned load in kW. Only values checked against the state's tariff order are held, so a monthly fuel adjustment or duty that has not been confirmed is missing and a bill priced from these is below a real one. Other states need charges per connection, two-month bills or conditions the format cannot hold yet.",
   "reason_local": {
     "language": "hi",
     "text": "केवल कर्नाटक, दिल्ली और उत्तर प्रदेश के घरेलू टैरिफ़ शामिल हैं, जो OpenBijli की टैरिफ़ पुस्तकों से लिए गए हैं। हर टैरिफ़ के लिए ग्राहक का स्वीकृत भार (किलोवाट में) चाहिए। केवल वही मान रखे गए हैं जिन्हें पुस्तक सत्यापित बताती है, इसलिए मासिक ईंधन समायोजन या शुल्क, जिसकी पुस्तक ने पुष्टि नहीं की, शामिल नहीं है और इनसे बना बिल असली बिल से कम होता है। अन्य राज्यों में प्रति कनेक्शन शुल्क, दो महीने के बिल या ऐसी शर्तें हैं जिन्हें यह प्रारूप अभी संभाल नहीं सकता।"

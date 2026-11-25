@@ -1,21 +1,21 @@
-Last updated: 2026-11-24
+Last updated: 2026-11-25
 
 # United Kingdom: gas tariff status
 
 - Coverage: available.
-- Held: 9 providers and 40 tariffs. 32 current, 3 upcoming, 5 ended, as of the date above.
+- Held: 9 providers and 40 tariffs. 32 current, 0 upcoming, 8 ended, as of the date above.
 
 | Provider | Tariff | Direction | Status today | Valid from | Valid to | Revisions | Last changed | Source |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Co-op Energy | Co-op Flexible | import | Current | 2026-11-24 | open | 1 | 2026-11-24 | octopus-energy-gb-gas |
 | EDF | Simply Fixed 2Yr Nov28v5 | import | Current | 2026-11-24 | open | 1 | 2026-11-24 | kraken-gas-gb |
-| EDF | Simply Fixed Apr28v4 | import | Current | 2026-11-24 | 2026-11-25 | 1 | 2026-11-24 | kraken-gas-gb |
-| EDF | Simply Fixed Apr28v5 | import | Upcoming | 2026-11-25 | open | 1 | 2026-11-25 | kraken-gas-gb |
-| EDF | Simply Fixed Nov27v5 | import | Current | 2026-11-24 | 2026-11-25 | 1 | 2026-11-24 | kraken-gas-gb |
-| EDF | Simply Fixed Nov27v6 | import | Upcoming | 2026-11-25 | open | 1 | 2026-11-25 | kraken-gas-gb |
+| EDF | Simply Fixed Apr28v4 | import | Ended | 2026-11-24 | 2026-11-25 | 1 | 2026-11-24 | kraken-gas-gb |
+| EDF | Simply Fixed Apr28v5 | import | Current | 2026-11-25 | open | 1 | 2026-11-25 | kraken-gas-gb |
+| EDF | Simply Fixed Nov27v5 | import | Ended | 2026-11-24 | 2026-11-25 | 1 | 2026-11-24 | kraken-gas-gb |
+| EDF | Simply Fixed Nov27v6 | import | Current | 2026-11-25 | open | 1 | 2026-11-25 | kraken-gas-gb |
 | EDF | Standard Variable | import | Current | 2026-11-24 | open | 1 | 2026-11-24 | kraken-gas-gb |
-| E.ON Next | Next Direct Fixed 18m v2 | import | Current | 2026-11-24 | 2026-11-25 | 1 | 2026-11-24 | kraken-gas-gb |
-| E.ON Next | Next Direct Fixed 18m v3 | import | Upcoming | 2026-11-25 | open | 1 | 2026-11-25 | kraken-gas-gb |
+| E.ON Next | Next Direct Fixed 18m v2 | import | Ended | 2026-11-24 | 2026-11-25 | 1 | 2026-11-24 | kraken-gas-gb |
+| E.ON Next | Next Direct Fixed 18m v3 | import | Current | 2026-11-25 | open | 1 | 2026-11-25 | kraken-gas-gb |
 | E.ON Next | Next Fixed 12m v172 | import | Ended | 2026-11-23 | 2026-11-24 | 1 | 2026-11-23 | kraken-gas-gb |
 | E.ON Next | Next Fixed 12m v173 | import | Current | 2026-11-24 | open | 1 | 2026-11-24 | kraken-gas-gb |
 | E.ON Next | Next Fixed 24m v87 | import | Ended | 2026-11-23 | 2026-11-24 | 1 | 2026-11-23 | kraken-gas-gb |

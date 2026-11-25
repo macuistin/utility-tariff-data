@@ -2,6 +2,9 @@
   "schema": 1,
   "name": "Rate Code 1 - Residential Service",
   "provider": "Florida Keys El Coop Assn, Inc",
+  "regions": [
+    "US-FL"
+  ],
   "effective_from": "2025-07-01",
   "source": {
     "id": "openei-urdb-us",

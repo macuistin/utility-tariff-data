@@ -5,10 +5,10 @@
   "timezone": "Europe/Copenhagen",
   "vat_percent": "25",
   "availability": "partial",
-  "reason": "Only the grid charge of each network company is held, from Energinet's price list. A bill also has the supplier's price, Energinet's charges, the electricity tax and the subscription, none of which are in these plans, so the standing charge is 0 and a bill priced from them is not a real bill.",
+  "reason": "Two kinds of plan are held, and a bill needs one of each. The network companies' plans hold only the grid charge, with a standing charge of 0. The suppliers' plans hold only the supply price and the supplier's subscription, and only fixed-price products, not spot products. The transmission system operator's charges and the electricity tax are in neither, so a bill priced from one plan is not a real bill.",
   "reason_local": {
     "language": "da",
-    "text": "Kun nettariffen for hvert netselskab er med, fra Energinets prisliste. En regning indeholder også elleverandørens pris, Energinets gebyrer, elafgiften og abonnementet, som ikke er med i disse tariffer. Derfor er det faste gebyr 0, og en regning beregnet ud fra dem er ikke en rigtig regning."
+    "text": "Der er to slags tariffer, og en regning kræver én af hver. Netselskabernes tariffer har kun nettariffen og et fast gebyr på 0. Elleverandørernes tariffer har kun elprisen og leverandørens abonnement, og kun produkter med fast pris, ikke spotprodukter. Transmissionsselskabets gebyrer og elafgiften er ikke med i nogen af dem, så en regning beregnet ud fra én tarif er ikke en rigtig regning."
   },
   "inputs": {
     "bill_start_day": {
