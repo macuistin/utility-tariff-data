@@ -260,11 +260,11 @@
     },
     "SK": {
       "availability": "partial",
-      "checksum": "sha256:12e21ccbc444a32b366745f24197dc5964f87dfc85383c99f38d5a4601cb12d5",
+      "checksum": "sha256:d1b4c572e5ca3b9897371764347e4f9984d5fa199086db4ca0237fe5e9be1e88",
       "path": "sk/index.json",
       "providers": 1,
       "reason": "Only ZSE's two single-rate household products are held, at the price for supplying the energy. The network charges, the monthly payments, the two-rate products and the targeted energy aid are not, so a bill priced from them differs from a real bill.",
-      "tariffs": 10
+      "tariffs": 14
     },
     "TJ": {
       "availability": "partial",

@@ -1,0 +1,65 @@
+{
+  "schema": 1,
+  "name": "DomovKlasik (DD2), VSD distribution D1",
+  "provider": "ZSE",
+  "effective_from": "2026-07-01",
+  "source": {
+    "id": "sk-vsd",
+    "url": "https://www.vsds.sk/mdoc/dso.B6000.A/doc/VSD_cennik_distribucie_elektriny-D-2026.pdf"
+  },
+  "bill": {
+    "total": {
+      "kind": "sum",
+      "of": {
+        "distribution": {
+          "kind": "tax",
+          "mode": "added",
+          "name": "VAT",
+          "of": {
+            "kind": "sum",
+            "of": {
+              "fixed": {
+                "amount": "1.3000",
+                "kind": "per_period",
+                "per": "month",
+                "share": "days_in_period"
+              },
+              "losses": {
+                "amount": "0.005267",
+                "kind": "per_kwh"
+              },
+              "network": {
+                "amount": "0.0511",
+                "kind": "per_kwh"
+              }
+            }
+          },
+          "percent": "$country.vat_percent"
+        },
+        "supply": {
+          "kind": "tax",
+          "mode": "included",
+          "name": "VAT",
+          "of": {
+            "kind": "energy_by_band",
+            "round_bands": true
+          },
+          "percent": "$country.vat_percent"
+        }
+      }
+    }
+  },
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "All day": "0.1467"
+      },
+      "standing": "0"
+    }
+  }
+}
