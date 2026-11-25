@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "service": "household-income",
+  "measures": {
+    "median-equivalised-disposable-income": "median, per equivalent adult, after tax, a year",
+    "gni-per-head": "mean, per head of population, before tax, a year"
+  },
+  "sources": {
+    "worldbank-gni-per-head": {
+      "latest": "2025",
+      "periods": {
+        "2023": {
+          "path": "worldbank-gni-per-head/2023.json",
+          "checksum": "sha256:7334b4fff743420b1c7e195c4931d2c7b4c638b24bcf33809d9f735d85091721"
+        },
+        "2024": {
+          "path": "worldbank-gni-per-head/2024.json",
+          "checksum": "sha256:e6f17cf5481220b5d65c9befc66e3dca65da7d61bda67c3d7b3b8b8e15ce184c"
+        },
+        "2025": {
+          "path": "worldbank-gni-per-head/2025.json",
+          "checksum": "sha256:4d6c1883b9dd3dc194bfbc4fc98888239d9ae83d951e8801f4b6cefd6362f8f8"
+        }
+      }
+    }
+  }
+}

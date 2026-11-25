@@ -1,0 +1,539 @@
+{
+  "schema": 1,
+  "service": "household-income",
+  "source": "worldbank-gni-per-head",
+  "period": "2025",
+  "fetched": "2026-11-25",
+  "source_url": "https://data.worldbank.org/indicator/NY.GNP.PCAP.CN",
+  "credit": "Source: World Bank, indicator NY.GNP.PCAP.CN, licensed CC BY 4.0.",
+  "rows": [
+    {
+      "measure": "gni-per-head",
+      "scope": {
+        "country": "AD"
+      },
+      "value": "48880.6281396434",
+      "currency": "EUR"
+    },
+    {
+      "measure": "gni-per-head",
+      "scope": {
+        "country": "AL"
+      },
+      "value": "1126131.35505069",
+      "currency": "ALL"
+    },
+    {
+      "measure": "gni-per-head",
+      "scope": {
+        "country": "AR"
+      },
+      "value": "18110130.9967968",
+      "currency": "ARS"
+    },
+    {
+      "measure": "gni-per-head",
+      "scope": {
+        "country": "AT"
+      },
+      "value": "55856.9805261218",
+      "currency": "EUR"
+    },
+    {
+      "measure": "gni-per-head",
+      "scope": {
+        "country": "AU"
+      },
+      "value": "97831.0201872493",
+      "currency": "AUD"
+    },
+    {
+      "measure": "gni-per-head",
+      "scope": {
+        "country": "BE"
+      },
+      "value": "54440.9528994407",
+      "currency": "EUR"
+    },
+    {
+      "measure": "gni-per-head",
+      "scope": {
+        "country": "BG"
+      },
+      "value": "17109.9185888542",
+      "currency": "EUR"
+    },
+    {
+      "measure": "gni-per-head",
+      "scope": {
+        "country": "BH"
+      },
+      "value": "10613.8220881973",
+      "currency": "BHD"
+    },
+    {
+      "measure": "gni-per-head",
+      "scope": {
+        "country": "BR"
+      },
+      "value": "57910.7124145324",
+      "currency": "BRL"
+    },
+    {
+      "measure": "gni-per-head",
+      "scope": {
+        "country": "CA"
+      },
+      "value": "77956.6913966423",
+      "currency": "CAD"
+    },
+    {
+      "measure": "gni-per-head",
+      "scope": {
+        "country": "CH"
+      },
+      "value": "94652.0705123832",
+      "currency": "CHF"
+    },
+    {
+      "measure": "gni-per-head",
+      "scope": {
+        "country": "CL"
+      },
+      "value": "16192434.1506444",
+      "currency": "CLP"
+    },
+    {
+      "measure": "gni-per-head",
+      "scope": {
+        "country": "CN"
+      },
+      "value": "99083.9515564292",
+      "currency": "CNY"
+    },
+    {
+      "measure": "gni-per-head",
+      "scope": {
+        "country": "CO"
+      },
+      "value": "34099641.4923285",
+      "currency": "COP"
+    },
+    {
+      "measure": "gni-per-head",
+      "scope": {
+        "country": "CY"
+      },
+      "value": "32862.390625",
+      "currency": "EUR"
+    },
+    {
+      "measure": "gni-per-head",
+      "scope": {
+        "country": "CZ"
+      },
+      "value": "751978.941988695",
+      "currency": "CZK"
+    },
+    {
+      "measure": "gni-per-head",
+      "scope": {
+        "country": "DE"
+      },
+      "value": "55475.5504975138",
+      "currency": "EUR"
+    },
+    {
+      "measure": "gni-per-head",
+      "scope": {
+        "country": "DK"
+      },
+      "value": "523385.454183096",
+      "currency": "DKK"
+    },
+    {
+      "measure": "gni-per-head",
+      "scope": {
+        "country": "EE"
+      },
+      "value": "30030.7184900745",
+      "currency": "EUR"
+    },
+    {
+      "measure": "gni-per-head",
+      "scope": {
+        "country": "ES"
+      },
+      "value": "34161.0202293451",
+      "currency": "EUR"
+    },
+    {
+      "measure": "gni-per-head",
+      "scope": {
+        "country": "FI"
+      },
+      "value": "50000.5667291722",
+      "currency": "EUR"
+    },
+    {
+      "measure": "gni-per-head",
+      "scope": {
+        "country": "FR"
+      },
+      "value": "44118.9051663206",
+      "currency": "EUR"
+    },
+    {
+      "measure": "gni-per-head",
+      "scope": {
+        "country": "GB"
+      },
+      "value": "43477.1798989536",
+      "currency": "GBP"
+    },
+    {
+      "measure": "gni-per-head",
+      "scope": {
+        "country": "GR"
+      },
+      "value": "23347.0017186413",
+      "currency": "EUR"
+    },
+    {
+      "measure": "gni-per-head",
+      "scope": {
+        "country": "HK"
+      },
+      "value": "488901.438877702",
+      "currency": "HKD"
+    },
+    {
+      "measure": "gni-per-head",
+      "scope": {
+        "country": "HR"
+      },
+      "value": "23733.1939786389",
+      "currency": "EUR"
+    },
+    {
+      "measure": "gni-per-head",
+      "scope": {
+        "country": "HU"
+      },
+      "value": "8928158.59457111",
+      "currency": "HUF"
+    },
+    {
+      "measure": "gni-per-head",
+      "scope": {
+        "country": "ID"
+      },
+      "value": "81154577.210499",
+      "currency": "IDR"
+    },
+    {
+      "measure": "gni-per-head",
+      "scope": {
+        "country": "IE"
+      },
+      "value": "79827.4440787788",
+      "currency": "EUR"
+    },
+    {
+      "measure": "gni-per-head",
+      "scope": {
+        "country": "IN"
+      },
+      "value": "233055.231464926",
+      "currency": "INR"
+    },
+    {
+      "measure": "gni-per-head",
+      "scope": {
+        "country": "IS"
+      },
+      "value": "12601010.6930612",
+      "currency": "ISK"
+    },
+    {
+      "measure": "gni-per-head",
+      "scope": {
+        "country": "IT"
+      },
+      "value": "38370.6972557515",
+      "currency": "EUR"
+    },
+    {
+      "measure": "gni-per-head",
+      "scope": {
+        "country": "JP"
+      },
+      "value": "5719985.82746788",
+      "currency": "JPY"
+    },
+    {
+      "measure": "gni-per-head",
+      "scope": {
+        "country": "KR"
+      },
+      "value": "52416055.9814338",
+      "currency": "KRW"
+    },
+    {
+      "measure": "gni-per-head",
+      "scope": {
+        "country": "LT"
+      },
+      "value": "28231.8358308713",
+      "currency": "EUR"
+    },
+    {
+      "measure": "gni-per-head",
+      "scope": {
+        "country": "LU"
+      },
+      "value": "88768.6507416627",
+      "currency": "EUR"
+    },
+    {
+      "measure": "gni-per-head",
+      "scope": {
+        "country": "LV"
+      },
+      "value": "23084.7543335596",
+      "currency": "EUR"
+    },
+    {
+      "measure": "gni-per-head",
+      "scope": {
+        "country": "ME"
+      },
+      "value": "13213.3772152473",
+      "currency": "EUR"
+    },
+    {
+      "measure": "gni-per-head",
+      "scope": {
+        "country": "MK"
+      },
+      "value": "545721.159047487",
+      "currency": "MKD"
+    },
+    {
+      "measure": "gni-per-head",
+      "scope": {
+        "country": "MT"
+      },
+      "value": "38102.2971677016",
+      "currency": "EUR"
+    },
+    {
+      "measure": "gni-per-head",
+      "scope": {
+        "country": "MX"
+      },
+      "value": "258980.605836219",
+      "currency": "MXN"
+    },
+    {
+      "measure": "gni-per-head",
+      "scope": {
+        "country": "MY"
+      },
+      "value": "54300.0944081187",
+      "currency": "MYR"
+    },
+    {
+      "measure": "gni-per-head",
+      "scope": {
+        "country": "NA"
+      },
+      "value": "81963.8632971208",
+      "currency": "NAD"
+    },
+    {
+      "measure": "gni-per-head",
+      "scope": {
+        "country": "NL"
+      },
+      "value": "63830.5741829238",
+      "currency": "EUR"
+    },
+    {
+      "measure": "gni-per-head",
+      "scope": {
+        "country": "NO"
+      },
+      "value": "1018585.35307359",
+      "currency": "NOK"
+    },
+    {
+      "measure": "gni-per-head",
+      "scope": {
+        "country": "NZ"
+      },
+      "value": "78957.0080162755",
+      "currency": "NZD"
+    },
+    {
+      "measure": "gni-per-head",
+      "scope": {
+        "country": "PE"
+      },
+      "value": "32203.805937068",
+      "currency": "PEN"
+    },
+    {
+      "measure": "gni-per-head",
+      "scope": {
+        "country": "PH"
+      },
+      "value": "275705.727429832",
+      "currency": "PHP"
+    },
+    {
+      "measure": "gni-per-head",
+      "scope": {
+        "country": "PL"
+      },
+      "value": "102994.162811193",
+      "currency": "PLN"
+    },
+    {
+      "measure": "gni-per-head",
+      "scope": {
+        "country": "PT"
+      },
+      "value": "27908.8969225084",
+      "currency": "EUR"
+    },
+    {
+      "measure": "gni-per-head",
+      "scope": {
+        "country": "RO"
+      },
+      "value": "98096.3146634451",
+      "currency": "RON"
+    },
+    {
+      "measure": "gni-per-head",
+      "scope": {
+        "country": "RS"
+      },
+      "value": "1487117.85893208",
+      "currency": "RSD"
+    },
+    {
+      "measure": "gni-per-head",
+      "scope": {
+        "country": "SE"
+      },
+      "value": "650455.428240326",
+      "currency": "SEK"
+    },
+    {
+      "measure": "gni-per-head",
+      "scope": {
+        "country": "SG"
+      },
+      "value": "107365.163000569",
+      "currency": "SGD"
+    },
+    {
+      "measure": "gni-per-head",
+      "scope": {
+        "country": "SI"
+      },
+      "value": "32872.4015434097",
+      "currency": "EUR"
+    },
+    {
+      "measure": "gni-per-head",
+      "scope": {
+        "country": "SK"
+      },
+      "value": "24549.2318153586",
+      "currency": "EUR"
+    },
+    {
+      "measure": "gni-per-head",
+      "scope": {
+        "country": "TH"
+      },
+      "value": "258074.537227194",
+      "currency": "THB"
+    },
+    {
+      "measure": "gni-per-head",
+      "scope": {
+        "country": "TR"
+      },
+      "value": "723151.729822984",
+      "currency": "TRY"
+    },
+    {
+      "measure": "gni-per-head",
+      "scope": {
+        "country": "UA"
+      },
+      "value": "242481.9375",
+      "currency": "UAH"
+    },
+    {
+      "measure": "gni-per-head",
+      "scope": {
+        "country": "UG"
+      },
+      "value": "4333396.02985284",
+      "currency": "UGX"
+    },
+    {
+      "measure": "gni-per-head",
+      "scope": {
+        "country": "US"
+      },
+      "value": "89488.5258184508",
+      "currency": "USD"
+    },
+    {
+      "measure": "gni-per-head",
+      "scope": {
+        "country": "UY"
+      },
+      "value": "984837.012638279",
+      "currency": "UYU"
+    },
+    {
+      "measure": "gni-per-head",
+      "scope": {
+        "country": "VN"
+      },
+      "value": "122894044.881121",
+      "currency": "VND"
+    },
+    {
+      "measure": "gni-per-head",
+      "scope": {
+        "country": "XK"
+      },
+      "value": "7132.12327971375",
+      "currency": "EUR"
+    },
+    {
+      "measure": "gni-per-head",
+      "scope": {
+        "country": "ZA"
+      },
+      "value": "115761.660872785",
+      "currency": "ZAR"
+    },
+    {
+      "measure": "gni-per-head",
+      "scope": {
+        "country": "ZM"
+      },
+      "value": "30170.3788725384",
+      "currency": "ZMW"
+    }
+  ]
+}

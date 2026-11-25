@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "service": "household-income",
+  "source": "worldbank-gni-per-head",
+  "period": "2024",
+  "fetched": "2026-11-25",
+  "source_url": "https://data.worldbank.org/indicator/NY.GNP.PCAP.CN",
+  "credit": "Source: World Bank, indicator NY.GNP.PCAP.CN, licensed CC BY 4.0.",
+  "rows": [
+    {
+      "measure": "gni-per-head",
+      "scope": {
+        "country": "BM"
+      },
+      "value": "146810.63184603",
+      "currency": "BMD"
+    }
+  ]
+}
