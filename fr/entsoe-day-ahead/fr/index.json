@@ -2,8 +2,8 @@
   "schema": 1,
   "feed": "entsoe-day-ahead",
   "area": "fr",
-  "latest": "2026-11-25",
+  "latest": "2026-11-26",
   "months": {
-    "2026-11": "sha256:61189bcef8b906715227dedf8e9805a104fd1cd0ec3c89d24a1c89eec3d76bed"
+    "2026-11": "sha256:654ef94cdf0097d887e4db27d10637742e150c9a3680aa86fe57e363f8e3326c"
   }
 }
