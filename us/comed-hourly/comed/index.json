@@ -2,8 +2,8 @@
   "schema": 1,
   "feed": "comed-hourly",
   "area": "comed",
-  "latest": "2026-11-23",
+  "latest": "2026-11-24",
   "months": {
-    "2026-11": "sha256:052f8a6c01c955cd514de618cb2596b55352e8cc371f91109ad93c000becf8f7"
+    "2026-11": "sha256:2062ce96faa6037f62de5a2f76950bf8d31f436cab681d2c93bc99f4fe893564"
   }
 }
