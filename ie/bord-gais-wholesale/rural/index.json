@@ -2,8 +2,8 @@
   "schema": 1,
   "feed": "bord-gais-wholesale",
   "area": "rural",
-  "latest": "2026-11-24",
+  "latest": "2026-11-25",
   "months": {
-    "2026-11": "sha256:9103251d597ff287f110b778dbd087bb5593ad4238c1ad26171cdbd384e4efa8"
+    "2026-11": "sha256:5218b13fa4327fe3f23c1aa4b1052c8d173dc048936d52f6fb4475baf6c6edff"
   }
 }
