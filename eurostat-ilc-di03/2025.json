@@ -1,0 +1,262 @@
+{
+  "schema": 1,
+  "service": "household-income",
+  "source": "eurostat-ilc-di03",
+  "period": "2025",
+  "fetched": "2026-11-25",
+  "source_url": "https://ec.europa.eu/eurostat/databrowser/view/ilc_di03/default/table",
+  "credit": "Source: Eurostat, table ilc_di03 (EU-SILC), reused under the Eurostat copyright policy.",
+  "rows": [
+    {
+      "measure": "median-equivalised-disposable-income",
+      "scope": {
+        "country": "AL"
+      },
+      "value": "582609",
+      "currency": "ALL"
+    },
+    {
+      "measure": "median-equivalised-disposable-income",
+      "scope": {
+        "country": "AT"
+      },
+      "value": "36546",
+      "currency": "EUR"
+    },
+    {
+      "measure": "median-equivalised-disposable-income",
+      "scope": {
+        "country": "BE"
+      },
+      "value": "31299",
+      "currency": "EUR"
+    },
+    {
+      "measure": "median-equivalised-disposable-income",
+      "scope": {
+        "country": "BG"
+      },
+      "value": "17333",
+      "currency": "BGN"
+    },
+    {
+      "measure": "median-equivalised-disposable-income",
+      "scope": {
+        "country": "CY"
+      },
+      "value": "22066",
+      "currency": "EUR"
+    },
+    {
+      "measure": "median-equivalised-disposable-income",
+      "scope": {
+        "country": "CZ"
+      },
+      "value": "381800",
+      "currency": "CZK"
+    },
+    {
+      "measure": "median-equivalised-disposable-income",
+      "scope": {
+        "country": "DE"
+      },
+      "value": "28891",
+      "currency": "EUR"
+    },
+    {
+      "measure": "median-equivalised-disposable-income",
+      "scope": {
+        "country": "DK"
+      },
+      "value": "269953",
+      "currency": "DKK"
+    },
+    {
+      "measure": "median-equivalised-disposable-income",
+      "scope": {
+        "country": "EE"
+      },
+      "value": "17146",
+      "currency": "EUR"
+    },
+    {
+      "measure": "median-equivalised-disposable-income",
+      "scope": {
+        "country": "ES"
+      },
+      "value": "20367",
+      "currency": "EUR"
+    },
+    {
+      "measure": "median-equivalised-disposable-income",
+      "scope": {
+        "country": "FI"
+      },
+      "value": "29740",
+      "currency": "EUR"
+    },
+    {
+      "measure": "median-equivalised-disposable-income",
+      "scope": {
+        "country": "FR"
+      },
+      "value": "26459",
+      "currency": "EUR"
+    },
+    {
+      "measure": "median-equivalised-disposable-income",
+      "scope": {
+        "country": "GR"
+      },
+      "value": "11700",
+      "currency": "EUR"
+    },
+    {
+      "measure": "median-equivalised-disposable-income",
+      "scope": {
+        "country": "HR"
+      },
+      "value": "15057",
+      "currency": "EUR"
+    },
+    {
+      "measure": "median-equivalised-disposable-income",
+      "scope": {
+        "country": "HU"
+      },
+      "value": "3475409",
+      "currency": "HUF"
+    },
+    {
+      "measure": "median-equivalised-disposable-income",
+      "scope": {
+        "country": "IE"
+      },
+      "value": "35138",
+      "currency": "EUR"
+    },
+    {
+      "measure": "median-equivalised-disposable-income",
+      "scope": {
+        "country": "IT"
+      },
+      "value": "22062",
+      "currency": "EUR"
+    },
+    {
+      "measure": "median-equivalised-disposable-income",
+      "scope": {
+        "country": "LT"
+      },
+      "value": "13982",
+      "currency": "EUR",
+      "note": "provisional"
+    },
+    {
+      "measure": "median-equivalised-disposable-income",
+      "scope": {
+        "country": "LU"
+      },
+      "value": "50046",
+      "currency": "EUR",
+      "note": "break in series"
+    },
+    {
+      "measure": "median-equivalised-disposable-income",
+      "scope": {
+        "country": "LV"
+      },
+      "value": "13983",
+      "currency": "EUR"
+    },
+    {
+      "measure": "median-equivalised-disposable-income",
+      "scope": {
+        "country": "MT"
+      },
+      "value": "22034",
+      "currency": "EUR"
+    },
+    {
+      "measure": "median-equivalised-disposable-income",
+      "scope": {
+        "country": "NL"
+      },
+      "value": "34466",
+      "currency": "EUR"
+    },
+    {
+      "measure": "median-equivalised-disposable-income",
+      "scope": {
+        "country": "NO"
+      },
+      "value": "487522",
+      "currency": "NOK"
+    },
+    {
+      "measure": "median-equivalised-disposable-income",
+      "scope": {
+        "country": "PL"
+      },
+      "value": "61976",
+      "currency": "PLN"
+    },
+    {
+      "measure": "median-equivalised-disposable-income",
+      "scope": {
+        "country": "PT"
+      },
+      "value": "14465",
+      "currency": "EUR"
+    },
+    {
+      "measure": "median-equivalised-disposable-income",
+      "scope": {
+        "country": "RO"
+      },
+      "value": "40725",
+      "currency": "RON"
+    },
+    {
+      "measure": "median-equivalised-disposable-income",
+      "scope": {
+        "country": "RS"
+      },
+      "value": "913478",
+      "currency": "RSD"
+    },
+    {
+      "measure": "median-equivalised-disposable-income",
+      "scope": {
+        "country": "SE"
+      },
+      "value": "326671",
+      "currency": "SEK"
+    },
+    {
+      "measure": "median-equivalised-disposable-income",
+      "scope": {
+        "country": "SI"
+      },
+      "value": "20416",
+      "currency": "EUR"
+    },
+    {
+      "measure": "median-equivalised-disposable-income",
+      "scope": {
+        "country": "SK"
+      },
+      "value": "12990",
+      "currency": "EUR",
+      "note": "break in series"
+    },
+    {
+      "measure": "median-equivalised-disposable-income",
+      "scope": {
+        "country": "TR"
+      },
+      "value": "214811",
+      "currency": "TRY"
+    }
+  ]
+}

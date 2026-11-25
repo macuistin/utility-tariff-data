@@ -6,6 +6,23 @@
     "gni-per-head": "mean, per head of population, before tax, a year"
   },
   "sources": {
+    "eurostat-ilc-di03": {
+      "latest": "2025",
+      "periods": {
+        "2023": {
+          "path": "eurostat-ilc-di03/2023.json",
+          "checksum": "sha256:892af5dbc1a608f529f03564aa92937e2102605ca20d1a42f2cc3e05bc54bf79"
+        },
+        "2024": {
+          "path": "eurostat-ilc-di03/2024.json",
+          "checksum": "sha256:4498e08f5fd3c6ad07014e3aa25064def5f67cdfb656ffd892fe8fa9d838a22a"
+        },
+        "2025": {
+          "path": "eurostat-ilc-di03/2025.json",
+          "checksum": "sha256:8972e4f36bcc4bb14dcf098d77e0838dd18b5b867627b7af375589d62c8b5ce4"
+        }
+      }
+    },
     "worldbank-gni-per-head": {
       "latest": "2025",
       "periods": {
