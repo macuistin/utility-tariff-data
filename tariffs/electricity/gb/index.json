@@ -297,11 +297,23 @@
         },
         "edf-simply-fixed-apr2028-v5": {
           "name": "Simply Fixed Apr28v5",
+          "replaced_by": "edf/edf-simply-fixed-apr2028-v6",
           "replaces": "edf/edf-simply-fixed-apr2028-v4",
           "revisions": {
             "1": {
-              "checksum": "sha256:2d451ec5970827eb7d369757a9e3acf33abd88d2d094ea9d584bdf7351edf5ef",
+              "checksum": "sha256:a751fd81ba28df37c5f7970bf13111672d7dd6b24805d75c69209b7c4f552bd2",
               "effective_from": "2026-11-25",
+              "effective_to": "2026-11-26"
+            }
+          }
+        },
+        "edf-simply-fixed-apr2028-v6": {
+          "name": "Simply Fixed Apr28v6",
+          "replaces": "edf/edf-simply-fixed-apr2028-v5",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:72ef6c7c857a39767dccf1c2f2e8a40be963d6ac85c2be37cf0df5da399bc560",
+              "effective_from": "2026-11-26",
               "effective_to": null
             }
           }
@@ -487,11 +499,23 @@
         },
         "eon-next-next-secure-fixed-12m-v107": {
           "name": "Next Secure Fixed 12m v107",
+          "replaced_by": "eon-next/eon-next-next-secure-fixed-12m-v108",
           "replaces": "eon-next/eon-next-next-secure-fixed-12m-v106",
           "revisions": {
             "1": {
-              "checksum": "sha256:773e568fdc4074f9c556f21ccd0acd977e35d665583bef0b8826a109312b3f5b",
+              "checksum": "sha256:fe4a183365d492d7948a675d08b862a6b18878a07a308367fc7cf04da2354c33",
               "effective_from": "2026-11-24",
+              "effective_to": "2026-11-25"
+            }
+          }
+        },
+        "eon-next-next-secure-fixed-12m-v108": {
+          "name": "Next Secure Fixed 12m v108",
+          "replaces": "eon-next/eon-next-next-secure-fixed-12m-v107",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:63c8905a7730830353ecfd7aaa3b6894e33cb10104a446402b9d733fb4ea13f7",
+              "effective_from": "2026-11-25",
               "effective_to": null
             }
           }
@@ -533,13 +557,25 @@
             }
           }
         },
-        "18m-fix-nov26": {
-          "name": "Good Energy 18m Fix Nov26",
+        "18m-fix-dec26": {
+          "name": "Good Energy 18m Fix Dec26",
+          "replaces": "good-energy/18m-fix-nov26",
           "revisions": {
             "1": {
-              "checksum": "sha256:ef7b4fc2abccd08322d7008740c5c4cd9e01809d1c51ebdfbd866d9631bbb3f4",
-              "effective_from": "2026-10-29",
+              "checksum": "sha256:1c28debc740602e27d4c577c90b3ff49975209dbca8cdd183ee540f1970eccb5",
+              "effective_from": "2026-11-25",
               "effective_to": null
+            }
+          }
+        },
+        "18m-fix-nov26": {
+          "name": "Good Energy 18m Fix Nov26",
+          "replaced_by": "good-energy/18m-fix-dec26",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:8258049e21d177a41d3f00fb19885c0743885a7c3c6bd5295b5b9daa7a0cde99",
+              "effective_from": "2026-10-29",
+              "effective_to": "2026-11-25"
             }
           }
         },
@@ -764,6 +800,11 @@
               "checksum": "sha256:06cb4ee8e07bc0755adc3e598b586533a5694cba8aedfcf7ee278971f5d88bd1",
               "effective_from": "2026-10-01",
               "effective_to": "2027-01-01"
+            },
+            "2": {
+              "checksum": "sha256:6db817fceafa7451bc4ff2639e51e85f8d3440f6f20ad13a0b6c6bff894d8d76",
+              "effective_from": "2027-01-01",
+              "effective_to": "2027-04-01"
             }
           }
         },
@@ -774,6 +815,11 @@
               "checksum": "sha256:2b0bea76089abb059685850d004e3f038e610bff1f27ade49864b8b2f435c7c8",
               "effective_from": "2026-10-01",
               "effective_to": "2027-01-01"
+            },
+            "2": {
+              "checksum": "sha256:0fe67095bb7d08ab3765104aa26dcfe67685de2c04f2aec112ff36edce3ec2cf",
+              "effective_from": "2027-01-01",
+              "effective_to": "2027-04-01"
             }
           }
         },
@@ -784,6 +830,11 @@
               "checksum": "sha256:e97ee9856783689423603cd3943cea325d077e70b88c7d69d50facff43c13647",
               "effective_from": "2026-10-01",
               "effective_to": "2027-01-01"
+            },
+            "2": {
+              "checksum": "sha256:1b01e59d676cafd8ed8316fd2959af13c315dd9fc22e5a5a411b43da6fc790d8",
+              "effective_from": "2027-01-01",
+              "effective_to": "2027-04-01"
             }
           }
         }
@@ -910,40 +961,88 @@
         },
         "fixed-104": {
           "name": "Fixed 104",
+          "replaced_by": "utility-warehouse/fixed-105",
           "revisions": {
             "1": {
-              "checksum": "sha256:9162ec5ff8e1bc45fba1d5feb4b6f6cc624be1066d656e24785e00a283167c11",
+              "checksum": "sha256:caf4bdb3cfde01092446f0365b072749fe5f7bf7b413f7f9047d35e85d8994b7",
               "effective_from": "2026-11-18",
+              "effective_to": "2026-11-25"
+            }
+          }
+        },
+        "fixed-105": {
+          "name": "Fixed 105",
+          "replaces": "utility-warehouse/fixed-104",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:273a989016197139d2154fb8b412e7b52620a7ddd87e222e380501e8255fee2f",
+              "effective_from": "2026-11-25",
               "effective_to": null
             }
           }
         },
         "fixed-essentials-104": {
           "name": "Fixed Essentials 104",
+          "replaced_by": "utility-warehouse/fixed-essentials-105",
           "revisions": {
             "1": {
-              "checksum": "sha256:5523834fb3820b44975e231e80a080308844fa056948527a6b0e1196e599b111",
+              "checksum": "sha256:7b1af81deb5c4d0684e67bc69110cb1717deeabbddca4ad7f0a7b5565f11fbe3",
               "effective_from": "2026-11-18",
+              "effective_to": "2026-11-25"
+            }
+          }
+        },
+        "fixed-essentials-105": {
+          "name": "Fixed Essentials 105",
+          "replaces": "utility-warehouse/fixed-essentials-104",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:bd45624f431080e71f4a2362fa41e1639a0921a338f680c3914bf7f80aa47eca",
+              "effective_from": "2026-11-25",
               "effective_to": null
             }
           }
         },
         "fixed-saver-104": {
           "name": "Fixed Saver 104",
+          "replaced_by": "utility-warehouse/fixed-saver-105",
           "revisions": {
             "1": {
-              "checksum": "sha256:28296eb2aa80f1a0b38872af2de99dbe5b14974e8b0b6640dc2cd210fc7e699e",
+              "checksum": "sha256:b8bb447fbdcc89aab4a73595db701cd4a5294a1a55b7471ea3df14a1b17fcec7",
               "effective_from": "2026-11-18",
+              "effective_to": "2026-11-25"
+            }
+          }
+        },
+        "fixed-saver-105": {
+          "name": "Fixed Saver 105",
+          "replaces": "utility-warehouse/fixed-saver-104",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:ee32c0ad3e6aeae4375747bce489fee65b7531b20eae79c7d6090b9f62a0214c",
+              "effective_from": "2026-11-25",
               "effective_to": null
             }
           }
         },
         "fixed-start-104": {
           "name": "Fixed Start 104",
+          "replaced_by": "utility-warehouse/fixed-start-105",
           "revisions": {
             "1": {
-              "checksum": "sha256:da7c7ab7c0100c096d5f7eaa92112adcd6e263bc8140f2eaf950ea9aa940de4a",
+              "checksum": "sha256:535119665043ed66e4053a729aa0728b05156182217a612628321cbf4b54a07a",
               "effective_from": "2026-11-18",
+              "effective_to": "2026-11-25"
+            }
+          }
+        },
+        "fixed-start-105": {
+          "name": "Fixed Start 105",
+          "replaces": "utility-warehouse/fixed-start-104",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:e13977c1fdecba4afd1d7727d5c5f19731bdea55fffd1fc142800238fe02d95f",
+              "effective_from": "2026-11-25",
               "effective_to": null
             }
           }

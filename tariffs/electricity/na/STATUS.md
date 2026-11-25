@@ -1,11 +1,11 @@
-Last updated: 2026-11-24
+Last updated: 2026-11-25
 
 # Namibia: electricity tariff status
 
 [All countries](../STATUS.md)
 
 - Coverage: partial. The flat residential tariffs of the distributors in the Electricity Control Board's Schedules of Approved Tariffs, with the ECB levy, the NEF levy and any local authority surcharge added to the energy price. VAT is zero rated for residential supply. Inclining block and time-of-use tariffs are not held. A postpaid bill needs the supply size in amperes.
-- Held: 24 providers and 50 tariffs. 50 current, 0 upcoming, 0 ended, as of the date above.
+- Held: 25 providers and 52 tariffs. 52 current, 0 upcoming, 0 ended, as of the date above.
 
 | Provider | Tariff | Direction | Status today | Valid from | Valid to | Revisions | Last changed | Source |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -53,6 +53,8 @@ Last updated: 2026-11-24
 | RoshSkor Township (Pty) Ltd | Residential Post Paid 3-Phase Flat | import | Current | 2026-10-01 | open | 1 | 2026-10-01 | na-ecb |
 | RoshSkor Township (Pty) Ltd | Residential Postpaid | import | Current | 2026-10-01 | open | 1 | 2026-10-01 | na-ecb |
 | RoshSkor Township (Pty) Ltd | Residential Prepaid | import | Current | 2026-10-01 | open | 1 | 2026-10-01 | na-ecb |
+| Tses VC | Residential Postpaid | import | Current | 2025-09-01 | open | 1 | 2025-09-01 | na-ecb |
+| Tses VC | Residential Prepaid | import | Current | 2025-09-01 | open | 1 | 2025-09-01 | na-ecb |
 | Windhoek Municipality | Residential Postpaid Over 20A | import | Current | 2026-09-01 | open | 1 | 2026-09-01 | na-ecb |
 | Windhoek Municipality | Residential Prepaid | import | Current | 2026-09-01 | open | 1 | 2026-09-01 | na-ecb |
 | Windhoek Municipality | Residential Up To 20A | import | Current | 2026-09-01 | open | 1 | 2026-09-01 | na-ecb |

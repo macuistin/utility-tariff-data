@@ -3,7 +3,7 @@
   "countries": {
     "AT": {
       "availability": "partial",
-      "checksum": "sha256:91c917d5a05dc1fbe55986e91b07ef4b685e1d435d40e81255f884b4cffbde7f",
+      "checksum": "sha256:41a037fc58557eaf89bb97123c36ee48c88a0de4f23204a2881858a733caf2cb",
       "path": "at/index.json",
       "providers": 27,
       "reason": "Only the supplier's energy price and base charge are held. A bill also has grid charges, levies, the municipal tax and any discounts, none of which are in these plans, so a bill priced from them is below a real bill.",
@@ -11,7 +11,7 @@
         "language": "de",
         "text": "Es sind nur der Energiepreis und der Grundpreis des Lieferanten hinterlegt, aus dem Tarifkalkulator der E-Control. Eine Rechnung enthält außerdem Netzentgelte, Abgaben, die Gemeindeabgabe und etwaige Rabatte, die in diesen Tarifen nicht enthalten sind. Eine daraus berechnete Rechnung liegt daher unter einer echten Rechnung."
       },
-      "tariffs": 46
+      "tariffs": 47
     },
     "AU": {
       "availability": "partial",
@@ -63,7 +63,7 @@
     },
     "CA": {
       "availability": "partial",
-      "checksum": "sha256:1a155da023082adeb947836682f2362e96ae8b6448e16f68d55cfc8cd8d4a254",
+      "checksum": "sha256:4f88ccaea81420708e254dfdb826653ba28181a3dde32984095907170a85349f",
       "path": "ca/index.json",
       "providers": 3,
       "reason": "Only Hydro-Québec's domestic Rate D, Manitoba Hydro's residential standard rates and NB Power's residential rates are held, each from its own rate page or book. Sales tax differs by province. NB Power's plans add the HST that the province states, Hydro-Québec's rate adds GST and QST held by hand from Revenu Québec's table, and Manitoba Hydro has no tax line. Canada spans six time zones, so a tariff names its own where it differs.",
@@ -119,7 +119,7 @@
     },
     "ES": {
       "availability": "partial",
-      "checksum": "sha256:0b31a4f2959f520512eb7cb3738e3e91db95a62822b1b197f9aa1cead0323be9",
+      "checksum": "sha256:3c4e8350b4184b0ff5b807f60f543088e7a76af179ec578e92263fe8eb2a3329",
       "path": "es/index.json",
       "providers": 25,
       "reason": "Fixed-price household offers (2.0TD) from the CNMC comparator, for the mainland and the Balearic Islands. Only the energy prices by period are held, with VAT and the electricity tax on them. The power term, priced per kW of contracted power per year and billed by the day, is not held, nor are the meter rental, the social bonus financing and promotions, so a bill is short of those. Indexed offers (PVPC), offers with the supplier's own hours, the Canary Islands, Ceuta and Melilla are not held. Prices are as the comparator lists them, which can lag a supplier's own page.",
@@ -127,7 +127,7 @@
         "language": "es",
         "text": "Se incluyen las ofertas de precio fijo para hogares (2.0TD) del comparador de la CNMC, para la Península y las Illes Balears. Solo se guardan los precios de la energía por periodo, con el IVA y el impuesto sobre la electricidad. No se guarda el término de potencia, que se fija por kW contratado y año y se factura por días, ni el alquiler del contador, la financiación del bono social y las promociones, así que la factura no los incluye. No se incluyen las ofertas indexadas (PVPC), las de horarios propios del comercializador, ni Canarias, Ceuta y Melilla. Los precios son los que figuran en el comparador, que pueden ir por detrás de la web del comercializador."
       },
-      "tariffs": 54
+      "tariffs": 55
     },
     "FR": {
       "availability": "partial",
@@ -143,17 +143,17 @@
     },
     "GB": {
       "availability": "available",
-      "checksum": "sha256:a3013d5aab0acccd335a7223cd9e7aa63c3112cba8ec456d4a6c2e352f14ce73",
+      "checksum": "sha256:710fe6fe9a3aaa09dfa8738a2e477dc98d231e49072817728929bdd090c60419",
       "path": "gb/index.json",
       "providers": 10,
-      "tariffs": 64
+      "tariffs": 71
     },
     "IE": {
       "availability": "available",
-      "checksum": "sha256:ee9633b27b3ae1b34190f9f492e3c3a748063e415e0b8038f7936d40793b844d",
+      "checksum": "sha256:79878ceefcba687ffa903ea97564f0cf767887aa2bf3ec4eba49aba14ddc0166",
       "path": "ie/index.json",
       "providers": 11,
-      "tariffs": 68
+      "tariffs": 69
     },
     "IN": {
       "availability": "partial",
@@ -203,11 +203,11 @@
     },
     "NA": {
       "availability": "partial",
-      "checksum": "sha256:3a65b511e9976ca9187063475580035ab22d826da4090f124f3cbe7dc6aafeb0",
+      "checksum": "sha256:24819da998e0c5907c2bb44f4d5f053e4920ed82259ffa349d710b9253e06701",
       "path": "na/index.json",
-      "providers": 24,
+      "providers": 25,
       "reason": "The flat residential tariffs of the distributors in the Electricity Control Board's Schedules of Approved Tariffs, with the ECB levy, the NEF levy and any local authority surcharge added to the energy price. VAT is zero rated for residential supply. Inclining block and time-of-use tariffs are not held. A postpaid bill needs the supply size in amperes.",
-      "tariffs": 50
+      "tariffs": 52
     },
     "NL": {
       "availability": "unavailable",
@@ -260,11 +260,11 @@
     },
     "SK": {
       "availability": "partial",
-      "checksum": "sha256:13a0ed80daa582911563c1c5693711e45fc3cd6e40a034b1fcff8597075a8a1e",
+      "checksum": "sha256:12e21ccbc444a32b366745f24197dc5964f87dfc85383c99f38d5a4601cb12d5",
       "path": "sk/index.json",
       "providers": 1,
       "reason": "Only ZSE's two single-rate household products are held, at the price for supplying the energy. The network charges, the monthly payments, the two-rate products and the targeted energy aid are not, so a bill priced from them differs from a real bill.",
-      "tariffs": 2
+      "tariffs": 10
     },
     "TJ": {
       "availability": "partial",

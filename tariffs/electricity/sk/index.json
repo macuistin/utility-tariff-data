@@ -46,12 +46,92 @@
             }
           }
         },
+        "domov-klasik-ssd-d1": {
+          "name": "DomovKlasik (DD2), SSD distribution D1",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:a96c8ab13a4ee5968defcc394a4e89016f3f28aee326208d377e2a4f24243c76",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        },
+        "domov-klasik-ssd-d2": {
+          "name": "DomovKlasik (DD2), SSD distribution D2",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:c52dd8c7821cd030b8abd309ece67756437cfbe229f370f1ec24261c5e6496b1",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        },
+        "domov-klasik-zsd-d1": {
+          "name": "DomovKlasik (DD2), ZSD distribution D1",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:a15c57dabdc13e801fead0391abcdf86ebb1d3eb289a2cfd88ba882f28dcd5a1",
+              "effective_from": "2026-07-01",
+              "effective_to": null
+            }
+          }
+        },
+        "domov-klasik-zsd-d2": {
+          "name": "DomovKlasik (DD2), ZSD distribution D2",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:947d03c76bb59e907deff6178855fd228618843b370ab3450b5eb3d8f13e32c5",
+              "effective_from": "2026-07-01",
+              "effective_to": null
+            }
+          }
+        },
         "domov-mini": {
           "name": "DomovMini (DD1)",
           "revisions": {
             "1": {
               "checksum": "sha256:1b7619dd70b6a16aa461dde809937559f05ce7e06f2e309ef2604c7dca0da2f7",
               "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        },
+        "domov-mini-ssd-d1": {
+          "name": "DomovMini (DD1), SSD distribution D1",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:0daf296b38f6bad5efd0c50a68c4ededefb668e70d3de2180bd8188483e8fd5f",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        },
+        "domov-mini-ssd-d2": {
+          "name": "DomovMini (DD1), SSD distribution D2",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:d6c6b59377d99394fab9d77cf43ab3811f8692db31ce55371c549e191971d930",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        },
+        "domov-mini-zsd-d1": {
+          "name": "DomovMini (DD1), ZSD distribution D1",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:6d29ffd7558ebb4547a30ea7abf0d5a0d70bd8d4888ca2cbb6e88f3ba880e69e",
+              "effective_from": "2026-07-01",
+              "effective_to": null
+            }
+          }
+        },
+        "domov-mini-zsd-d2": {
+          "name": "DomovMini (DD1), ZSD distribution D2",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:e7fe192d55d010f5d643011a2c9976aa73b7dbf9a6c421fe7af1a7ce9ed956e9",
+              "effective_from": "2026-07-01",
               "effective_to": null
             }
           }

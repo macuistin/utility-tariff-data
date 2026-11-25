@@ -1,0 +1,65 @@
+{
+  "schema": 1,
+  "name": "DomovKlasik (DD2), SSD distribution D1",
+  "provider": "ZSE",
+  "effective_from": "2026-01-01",
+  "source": {
+    "id": "sk-ssd",
+    "url": "https://www.ssd.sk/buxus/docs/dokumenty/cenniky_a_cenove_rozhodnutia_urso/0097_2026_E.pdf"
+  },
+  "bill": {
+    "total": {
+      "kind": "sum",
+      "of": {
+        "distribution": {
+          "kind": "tax",
+          "mode": "added",
+          "name": "VAT",
+          "of": {
+            "kind": "sum",
+            "of": {
+              "fixed": {
+                "amount": "1.35",
+                "kind": "per_period",
+                "per": "month",
+                "share": "days_in_period"
+              },
+              "losses": {
+                "amount": "0.0094107",
+                "kind": "per_kwh"
+              },
+              "network": {
+                "amount": "0.04451",
+                "kind": "per_kwh"
+              }
+            }
+          },
+          "percent": "$country.vat_percent"
+        },
+        "supply": {
+          "kind": "tax",
+          "mode": "included",
+          "name": "VAT",
+          "of": {
+            "kind": "energy_by_band",
+            "round_bands": true
+          },
+          "percent": "$country.vat_percent"
+        }
+      }
+    }
+  },
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "All day": "0.1467"
+      },
+      "standing": "0"
+    }
+  }
+}

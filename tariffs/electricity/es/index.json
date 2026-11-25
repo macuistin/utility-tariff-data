@@ -651,6 +651,16 @@
             }
           }
         },
+        "octopus-relax-duo": {
+          "name": "Octopus Relax Dúo",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:dd6466edf3a66ff0906558f8a50567449b267f791462503cafe5ae84e464085c",
+              "effective_from": "2026-11-22",
+              "effective_to": null
+            }
+          }
+        },
         "octopus-solar": {
           "name": "OCTOPUS SOLAR",
           "revisions": {

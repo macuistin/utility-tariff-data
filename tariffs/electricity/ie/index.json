@@ -116,6 +116,16 @@
             }
           }
         },
+        "bord-gais-energy-smart-dynamic-dynamic": {
+          "name": "Smart Dynamic Dynamic",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:a93442226bcda2614bb39603def9d5bea0073bed64433bc1a899c80dc0f20088",
+              "effective_from": "2026-11-25",
+              "effective_to": null
+            }
+          }
+        },
         "bord-gais-energy-smart-ev-plus": {
           "name": "Smart EV Plus",
           "revisions": {

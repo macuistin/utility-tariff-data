@@ -1,0 +1,131 @@
+{
+  "schema": 1,
+  "name": "Fixed Essentials 105",
+  "provider": "Utility Warehouse",
+  "effective_from": "2026-11-25",
+  "source": {
+    "id": "utility-warehouse-gb",
+    "url": "https://assets.ctfassets.net/0sn9t583vfn4/6y6SybYjhpd7H9mtgdyQMJ/e6e8dd709e00237e4e814588b0829f51/Energy_Tariff_Information_Label_-_Fixed_Essentials_105.pdf"
+  },
+  "prices_include_tax": false,
+  "replaces": "utility-warehouse/fixed-essentials-104",
+  "bands": [
+    {
+      "name": "Single rate"
+    }
+  ],
+  "areas": {
+    "a": {
+      "label": "Eastern England (A)",
+      "rates": {
+        "Single rate": "0.29158"
+      },
+      "region": "GSP-A",
+      "standing": "0.55108"
+    },
+    "b": {
+      "label": "East Midlands (B)",
+      "rates": {
+        "Single rate": "0.28037"
+      },
+      "region": "GSP-B",
+      "standing": "0.55831"
+    },
+    "c": {
+      "label": "London (C)",
+      "rates": {
+        "Single rate": "0.29271"
+      },
+      "region": "GSP-C",
+      "standing": "0.43783"
+    },
+    "d": {
+      "label": "Merseyside and North Wales (D)",
+      "rates": {
+        "Single rate": "0.30726"
+      },
+      "region": "GSP-D",
+      "standing": "0.70109"
+    },
+    "e": {
+      "label": "West Midlands (E)",
+      "rates": {
+        "Single rate": "0.28371"
+      },
+      "region": "GSP-E",
+      "standing": "0.60903"
+    },
+    "f": {
+      "label": "North East England (F)",
+      "rates": {
+        "Single rate": "0.2815"
+      },
+      "region": "GSP-F",
+      "standing": "0.66053"
+    },
+    "g": {
+      "label": "North West England (G)",
+      "rates": {
+        "Single rate": "0.29507"
+      },
+      "region": "GSP-G",
+      "standing": "0.52083"
+    },
+    "h": {
+      "label": "Southern England (H)",
+      "rates": {
+        "Single rate": "0.29485"
+      },
+      "region": "GSP-H",
+      "standing": "0.54239"
+    },
+    "j": {
+      "label": "South East England (J)",
+      "rates": {
+        "Single rate": "0.29607"
+      },
+      "region": "GSP-J",
+      "standing": "0.57328"
+    },
+    "k": {
+      "label": "South Wales (K)",
+      "rates": {
+        "Single rate": "0.29268"
+      },
+      "region": "GSP-K",
+      "standing": "0.59518"
+    },
+    "l": {
+      "label": "South Western England (L)",
+      "rates": {
+        "Single rate": "0.29463"
+      },
+      "region": "GSP-L",
+      "standing": "0.61114"
+    },
+    "m": {
+      "label": "Yorkshire (M)",
+      "rates": {
+        "Single rate": "0.28449"
+      },
+      "region": "GSP-M",
+      "standing": "0.64366"
+    },
+    "n": {
+      "label": "Southern Scotland (N)",
+      "rates": {
+        "Single rate": "0.29213"
+      },
+      "region": "GSP-N",
+      "standing": "0.66355"
+    },
+    "p": {
+      "label": "Northern Scotland (P)",
+      "rates": {
+        "Single rate": "0.28197"
+      },
+      "region": "GSP-P",
+      "standing": "0.63809"
+    }
+  }
+}

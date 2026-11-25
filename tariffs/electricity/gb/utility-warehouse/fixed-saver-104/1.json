@@ -3,11 +3,13 @@
   "name": "Fixed Saver 104",
   "provider": "Utility Warehouse",
   "effective_from": "2026-11-18",
+  "effective_to": "2026-11-25",
   "source": {
     "id": "utility-warehouse-gb",
     "url": "https://assets.ctfassets.net/0sn9t583vfn4/UWAFsYwbYmTSck9bDVFjs/8938386787449ab320886ba1963a02cf/Energy_Tariff_Information_Label_-_Fixed_Saver_104.pdf"
   },
   "prices_include_tax": false,
+  "replaced_by": "utility-warehouse/fixed-saver-105",
   "bands": [
     {
       "name": "Single rate"

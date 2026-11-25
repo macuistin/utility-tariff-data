@@ -1,11 +1,11 @@
-Last updated: 2026-11-24
+Last updated: 2026-11-25
 
 # Spain: electricity tariff status
 
 [All countries](../STATUS.md)
 
 - Coverage: partial. Fixed-price household offers (2.0TD) from the CNMC comparator, for the mainland and the Balearic Islands. Only the energy prices by period are held, with VAT and the electricity tax on them. The power term, priced per kW of contracted power per year and billed by the day, is not held, nor are the meter rental, the social bonus financing and promotions, so a bill is short of those. Indexed offers (PVPC), offers with the supplier's own hours, the Canary Islands, Ceuta and Melilla are not held. Prices are as the comparator lists them, which can lag a supplier's own page.
-- Held: 25 providers and 54 tariffs. 54 current, 0 upcoming, 0 ended, as of the date above.
+- Held: 25 providers and 55 tariffs. 55 current, 0 upcoming, 0 ended, as of the date above.
 
 | Provider | Tariff | Direction | Status today | Valid from | Valid to | Revisions | Last changed | Source |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -54,6 +54,7 @@ Last updated: 2026-11-24
 | octopusenergy.es | OCTOPUS 3 | import | Current | 2026-10-02 | open | 1 | 2026-10-02 | es-cnmc |
 | octopusenergy.es | OCTOPUS GO (Vehículo eléctrico) | import | Current | 2026-06-16 | open | 1 | 2026-06-16 | es-cnmc |
 | octopusenergy.es | OCTOPUS RELAX | import | Current | 2026-07-27 | open | 1 | 2026-07-27 | es-cnmc |
+| octopusenergy.es | Octopus Relax Dúo | import | Current | 2026-11-22 | open | 1 | 2026-11-22 | es-cnmc |
 | octopusenergy.es | OCTOPUS SOLAR | import | Current | 2026-09-01 | open | 1 | 2026-09-01 | es-cnmc |
 | papernest.es | Tarifa 24h | import | Current | 2026-09-01 | open | 1 | 2026-09-01 | es-cnmc |
 | urusenergy.com | URUS 3P | import | Current | 2026-11-01 | open | 1 | 2026-11-01 | es-cnmc |

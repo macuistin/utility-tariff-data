@@ -5,7 +5,7 @@ Last updated: 2026-11-25
 [All countries](../STATUS.md)
 
 - Coverage: partial. Only the supplier's energy price and base charge are held. A bill also has grid charges, levies, the municipal tax and any discounts, none of which are in these plans, so a bill priced from them is below a real bill.
-- Held: 27 providers and 46 tariffs. 46 current, 0 upcoming, 0 ended, as of the date above.
+- Held: 27 providers and 47 tariffs. 47 current, 0 upcoming, 0 ended, as of the date above.
 
 | Provider | Tariff | Direction | Status today | Valid from | Valid to | Revisions | Last changed | Source |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -43,6 +43,7 @@ Last updated: 2026-11-25
 | Stadtwerke Judenburg AG | Privat Fix | import | Current | 2026-11-17 | open | 1 | 2026-11-17 | at-econtrol |
 | Stadtwerke Judenburg AG | Landwirtschaft Fix | import | Current | 2026-11-17 | open | 1 | 2026-11-17 | at-econtrol |
 | STURM ENERGIE | Einfach.Klassisch. Haushalt Q4-2026 | import | Current | 2026-11-17 | open | 1 | 2026-11-17 | at-econtrol |
+| STURM ENERGIE | Einfach.Klassisch. Haushalt - Strom (Q4-2026) | import | Current | 2026-11-25 | open | 1 | 2026-11-25 | at-econtrol |
 | Voltino - Eine Marke der Wels Strom GmbH | VOLTINO Fix 26/02 | import | Current | 2026-11-17 | open | 1 | 2026-11-17 | at-econtrol |
 | Voltino - Eine Marke der Wels Strom GmbH | VOLTINO Flexi 26/02 | import | Current | 2026-11-17 | open | 1 | 2026-11-17 | at-econtrol |
 | W.E.B. grünstrom | W.E.B-Grünstrom basic | import | Current | 2026-11-17 | open | 1 | 2026-11-17 | at-econtrol |

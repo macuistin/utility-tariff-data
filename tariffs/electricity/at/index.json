@@ -536,6 +536,16 @@
               "effective_to": null
             }
           }
+        },
+        "p1278172": {
+          "name": "Einfach.Klassisch. Haushalt - Strom (Q4-2026)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:b5dd3b8edc1f0627ae51e055aa7b6a5c3b6684251d9eadd4b9e07f40b6e57db6",
+              "effective_from": "2026-11-25",
+              "effective_to": null
+            }
+          }
         }
       }
     },

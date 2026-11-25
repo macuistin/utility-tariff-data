@@ -3,11 +3,13 @@
   "name": "Fixed Essentials 104",
   "provider": "Utility Warehouse",
   "effective_from": "2026-11-18",
+  "effective_to": "2026-11-25",
   "source": {
     "id": "utility-warehouse-gb",
     "url": "https://assets.ctfassets.net/0sn9t583vfn4/3y1VuRsq4pKkav3LZaVyo3/08e51b37efe6c9f1045b7b902f9768be/Energy_Tariff_Information_Label_-_Fixed_Essentials_104.pdf"
   },
   "prices_include_tax": false,
+  "replaced_by": "utility-warehouse/fixed-essentials-105",
   "bands": [
     {
       "name": "Single rate"

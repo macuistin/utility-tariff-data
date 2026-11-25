@@ -583,6 +583,31 @@
         }
       }
     },
+    "tses-vc": {
+      "name": "Tses VC",
+      "tariffs": {
+        "residential-postpaid": {
+          "name": "Residential Postpaid",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:14b4cd3d745b8949039ab0356fe9972935368841c15769f9ae50f323d421703f",
+              "effective_from": "2025-09-01",
+              "effective_to": null
+            }
+          }
+        },
+        "residential-prepaid": {
+          "name": "Residential Prepaid",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:3ab6ddc99135b8bf6093e340ffa19f342dfe692a8b58180ee2d03ffc32629020",
+              "effective_from": "2025-09-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
     "windhoek-municipality": {
       "name": "Windhoek Municipality",
       "tariffs": {

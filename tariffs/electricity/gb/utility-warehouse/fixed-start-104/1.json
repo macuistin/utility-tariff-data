@@ -3,11 +3,13 @@
   "name": "Fixed Start 104",
   "provider": "Utility Warehouse",
   "effective_from": "2026-11-18",
+  "effective_to": "2026-11-25",
   "source": {
     "id": "utility-warehouse-gb",
     "url": "https://assets.ctfassets.net/0sn9t583vfn4/5HRy1V1U0ByHj2DE4q7VGc/82e60f7431626b1ae2b1ede52ea200de/Energy_Tariff_Information_Label_-_Fixed_Start_104.pdf"
   },
   "prices_include_tax": false,
+  "replaced_by": "utility-warehouse/fixed-start-105",
   "bands": [
     {
       "name": "Single rate"

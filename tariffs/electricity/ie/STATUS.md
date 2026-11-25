@@ -1,11 +1,11 @@
-Last updated: 2026-11-24
+Last updated: 2026-11-25
 
 # Ireland: electricity tariff status
 
 [All countries](../STATUS.md)
 
 - Coverage: available.
-- Held: 11 providers and 68 tariffs. 68 current, 0 upcoming, 0 ended, as of the date above.
+- Held: 11 providers and 69 tariffs. 69 current, 0 upcoming, 0 ended, as of the date above.
 
 | Provider | Tariff | Direction | Status today | Valid from | Valid to | Revisions | Last changed | Source |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -15,6 +15,7 @@ Last updated: 2026-11-24
 | Bord Gais Energy | Smart All Day Dual Fuel | import | Current | 2026-11-01 | open | 1 | 2026-11-01 | bord-gais-dual |
 | Bord Gais Energy | Smart All Day Standard Variable | import | Current | 2026-11-01 | open | 1 | 2026-11-01 | bord-gais |
 | Bord Gais Energy | Smart Dynamic | import | Current | 2026-11-01 | open | 1 | 2026-11-01 | bord-gais |
+| Bord Gais Energy | Smart Dynamic Dynamic | import | Current | 2026-11-25 | open | 1 | 2026-11-25 | selectra-ie |
 | Bord Gais Energy | Smart EV Plus | import | Current | 2026-11-01 | open | 1 | 2026-11-01 | bord-gais |
 | Bord Gais Energy | Smart EV Plus Dual Fuel | import | Current | 2026-11-01 | open | 1 | 2026-11-01 | bord-gais-dual |
 | Bord Gais Energy | Smart Standard | import | Current | 2026-11-01 | open | 1 | 2026-11-01 | bord-gais |

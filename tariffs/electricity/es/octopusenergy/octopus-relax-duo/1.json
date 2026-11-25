@@ -1,0 +1,129 @@
+{
+  "schema": 1,
+  "name": "Octopus Relax Dúo",
+  "provider": "octopusenergy.es",
+  "effective_from": "2026-11-22",
+  "source": {
+    "id": "es-cnmc",
+    "url": "https://comparador.cnmc.gob.es/api/APIPublica/ofertas?fecha=25/11/2026"
+  },
+  "prices_include_tax": false,
+  "bill": {
+    "period": {
+      "rule": "monthly",
+      "start_day": "$input.bill_start_day"
+    },
+    "total": {
+      "kind": "tax",
+      "mode": "added",
+      "name": "IVA",
+      "of": {
+        "kind": "sum",
+        "of": {
+          "meter_rental": {
+            "amount": "0.81",
+            "kind": "per_period",
+            "per": "month",
+            "share": "days_in_period"
+          },
+          "social_bonus": {
+            "amount": "9.011295",
+            "kind": "per_period",
+            "per": "year",
+            "share": "days_in_period"
+          },
+          "taxed": {
+            "kind": "adjust",
+            "name": "Impuesto sobre la electricidad",
+            "of": {
+              "kind": "sum",
+              "of": {
+                "energy": {
+                  "kind": "energy_by_band",
+                  "round_bands": true
+                },
+                "power_punta_llano": {
+                  "bands": {
+                    "all": {
+                      "price": "43.8"
+                    }
+                  },
+                  "kind": "connected_load",
+                  "load": "contracted_power",
+                  "per": "year"
+                },
+                "power_valle": {
+                  "bands": {
+                    "all": {
+                      "price": "43.8"
+                    }
+                  },
+                  "kind": "connected_load",
+                  "load": "contracted_power",
+                  "per": "year"
+                },
+                "standing": {
+                  "kind": "per_day"
+                }
+              }
+            },
+            "percent": "$country.electricity_tax_percent"
+          }
+        }
+      },
+      "percent": "$country.vat_percent"
+    }
+  },
+  "bands": [
+    {
+      "name": "Valle"
+    },
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "holidays": "weekend",
+      "hours": "08:00-00:00",
+      "name": "Llano"
+    },
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "holidays": "weekend",
+      "hours": "10:00-14:00",
+      "name": "Punta"
+    },
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "holidays": "weekend",
+      "hours": "18:00-22:00",
+      "name": "Punta 2"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "Llano": "0.135",
+        "Punta": "0.135",
+        "Punta 2": "0.135",
+        "Valle": "0.135"
+      },
+      "standing": "0"
+    }
+  }
+}

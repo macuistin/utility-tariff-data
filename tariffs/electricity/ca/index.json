@@ -98,9 +98,12 @@
       "tariffs": {
         "residential-standard": {
           "name": "Residential standard, up to 200 amp",
+          "regions": [
+            "CA-MB"
+          ],
           "revisions": {
             "1": {
-              "checksum": "sha256:06fba60825b412cc9acf5b879892c558ab30598b513ae255ee9f9d3c3288e1a3",
+              "checksum": "sha256:d52e4a1c23664df415184b7393fe4b84eb2e6aa849b0578924af10c7ff61e9e3",
               "effective_from": "2026-01-01",
               "effective_to": null
             }
@@ -108,9 +111,12 @@
         },
         "residential-standard-over-200-amp": {
           "name": "Residential standard, over 200 amp",
+          "regions": [
+            "CA-MB"
+          ],
           "revisions": {
             "1": {
-              "checksum": "sha256:4620ea612faea77940140555de1fccb80515e72536d7fc034977e20489b51d3e",
+              "checksum": "sha256:6576de3320af2aa9c85520920938c5c97671003e49e0789b035053ae2590f82d",
               "effective_from": "2026-01-01",
               "effective_to": null
             }

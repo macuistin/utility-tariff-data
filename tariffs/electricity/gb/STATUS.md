@@ -5,7 +5,7 @@ Last updated: 2026-11-25
 [All countries](../STATUS.md)
 
 - Coverage: available.
-- Held: 10 providers and 64 tariffs. 53 current, 0 upcoming, 11 ended, as of the date above.
+- Held: 10 providers and 71 tariffs. 53 current, 1 upcoming, 17 ended, as of the date above.
 
 | Provider | Tariff | Direction | Status today | Valid from | Valid to | Revisions | Last changed | Source |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -14,7 +14,8 @@ Last updated: 2026-11-25
 | Ecotricity | Smart Export Tariff | export | Current | 2026-11-24 | open | 1 | 2026-11-24 | seg-pages-gb |
 | EDF | Simply Fixed 2Yr Nov28v5 | import | Current | 2026-11-24 | open | 1 | 2026-11-24 | kraken-import-gb |
 | EDF | Simply Fixed Apr28v4 | import | Ended | 2026-11-24 | 2026-11-25 | 1 | 2026-11-24 | kraken-import-gb |
-| EDF | Simply Fixed Apr28v5 | import | Current | 2026-11-25 | open | 1 | 2026-11-25 | kraken-import-gb |
+| EDF | Simply Fixed Apr28v5 | import | Current | 2026-11-25 | 2026-11-26 | 1 | 2026-11-25 | kraken-import-gb |
+| EDF | Simply Fixed Apr28v6 | import | Upcoming | 2026-11-26 | open | 1 | 2026-11-26 | kraken-import-gb |
 | EDF | Simply Fixed Nov27v5 | import | Ended | 2026-11-24 | 2026-11-25 | 1 | 2026-11-24 | kraken-import-gb |
 | EDF | Simply Fixed Nov27v6 | import | Current | 2026-11-25 | open | 1 | 2026-11-25 | kraken-import-gb |
 | EDF | Standard Variable | import | Current | 2026-11-24 | open | 1 | 2026-11-24 | kraken-import-gb |
@@ -31,11 +32,13 @@ Last updated: 2026-11-25
 | E.ON Next | Next Lower Daily Fixed 24m v87 | import | Ended | 2026-11-23 | 2026-11-24 | 1 | 2026-11-23 | kraken-import-gb |
 | E.ON Next | Next Lower Daily Fixed 24m v88 | import | Current | 2026-11-24 | open | 1 | 2026-11-24 | kraken-import-gb |
 | E.ON Next | Next Secure Fixed 12m v106 | import | Ended | 2026-11-23 | 2026-11-24 | 1 | 2026-11-23 | kraken-import-gb |
-| E.ON Next | Next Secure Fixed 12m v107 | import | Current | 2026-11-24 | open | 1 | 2026-11-24 | kraken-import-gb |
+| E.ON Next | Next Secure Fixed 12m v107 | import | Ended | 2026-11-24 | 2026-11-25 | 1 | 2026-11-24 | kraken-import-gb |
+| E.ON Next | Next Secure Fixed 12m v108 | import | Current | 2026-11-25 | open | 1 | 2026-11-25 | kraken-import-gb |
 | E.ON Next | Next Secure Fixed 24m v61 | import | Ended | 2026-11-23 | 2026-11-24 | 1 | 2026-11-23 | kraken-import-gb |
 | E.ON Next | Next Secure Fixed 24m v62 | import | Current | 2026-11-24 | open | 1 | 2026-11-24 | kraken-import-gb |
 | Good Energy | Good Energy 18m Exclusive Renewal Fix Nov26 | import | Current | 2026-11-05 | open | 1 | 2026-11-05 | good-energy-gb |
-| Good Energy | Good Energy 18m Fix Nov26 | import | Current | 2026-10-29 | open | 1 | 2026-10-29 | good-energy-gb |
+| Good Energy | Good Energy 18m Fix Dec26 | import | Current | 2026-11-25 | open | 1 | 2026-11-25 | good-energy-gb |
+| Good Energy | Good Energy 18m Fix Nov26 | import | Ended | 2026-10-29 | 2026-11-25 | 1 | 2026-10-29 | good-energy-gb |
 | Good Energy | Good Energy EV Charge Fix 12m Nov26 | import | Current | 2026-10-30 | open | 1 | 2026-10-30 | good-energy-gb |
 | Good Energy | Good Energy EV Charge Fix 18m Dec26 | import | Current | 2026-11-25 | open | 1 | 2026-11-25 | good-energy-gb |
 | Good Energy | Export Only | export | Current | 2026-11-24 | open | 1 | 2026-11-24 | good-energy-gb |
@@ -53,9 +56,9 @@ Last updated: 2026-11-25
 | Octopus Energy | Octopus Outgoing Smart Export Guarantee October 2026 v1 | export | Current | 2026-10-21 | open | 1 | 2026-10-21 | octopus-energy-gb |
 | Octopus Energy | Outgoing Octopus | export | Current | 2024-10-26 | open | 2 | 2026-03-01 | octopus-energy-gb |
 | Octopus Energy | Flexible Octopus | import | Current | 2026-11-09 | open | 2 | 2026-11-21 | octopus-energy-gb |
-| Ofgem price cap | Price cap, direct debit and other, single rate | import | Current | 2026-10-01 | 2027-01-01 | 1 | 2026-10-01 | ofgem-price-cap |
-| Ofgem price cap | Price cap, prepayment, single rate | import | Current | 2026-10-01 | 2027-01-01 | 1 | 2026-10-01 | ofgem-price-cap |
-| Ofgem price cap | Price cap, standard credit, single rate | import | Current | 2026-10-01 | 2027-01-01 | 1 | 2026-10-01 | ofgem-price-cap |
+| Ofgem price cap | Price cap, direct debit and other, single rate | import | Current | 2026-10-01 | 2027-04-01 | 2 | 2026-10-01 | ofgem-price-cap |
+| Ofgem price cap | Price cap, prepayment, single rate | import | Current | 2026-10-01 | 2027-04-01 | 2 | 2026-10-01 | ofgem-price-cap |
+| Ofgem price cap | Price cap, standard credit, single rate | import | Current | 2026-10-01 | 2027-04-01 | 2 | 2026-10-01 | ofgem-price-cap |
 | OVO | SEG Beyond Exclusive | export | Current | 2026-11-24 | open | 1 | 2026-11-24 | seg-pages-gb |
 | OVO | SEG | export | Current | 2026-11-24 | open | 1 | 2026-11-24 | seg-pages-gb |
 | Sainsbury's Energy | Sainsburys Energy Fix and Save 12m v44 | import | Ended | 2026-11-23 | 2026-11-24 | 1 | 2026-11-23 | kraken-import-gb |
@@ -66,10 +69,14 @@ Last updated: 2026-11-25
 | Utility Warehouse | EV Double Gold | import | Current | 2026-10-01 | open | 1 | 2026-10-01 | utility-warehouse-gb |
 | Utility Warehouse | EV Gold | import | Current | 2026-10-01 | open | 1 | 2026-10-01 | utility-warehouse-gb |
 | Utility Warehouse | EV Value | import | Current | 2026-10-01 | open | 1 | 2026-10-01 | utility-warehouse-gb |
-| Utility Warehouse | Fixed 104 | import | Current | 2026-11-18 | open | 1 | 2026-11-18 | utility-warehouse-gb |
-| Utility Warehouse | Fixed Essentials 104 | import | Current | 2026-11-18 | open | 1 | 2026-11-18 | utility-warehouse-gb |
-| Utility Warehouse | Fixed Saver 104 | import | Current | 2026-11-18 | open | 1 | 2026-11-18 | utility-warehouse-gb |
-| Utility Warehouse | Fixed Start 104 | import | Current | 2026-11-18 | open | 1 | 2026-11-18 | utility-warehouse-gb |
+| Utility Warehouse | Fixed 104 | import | Ended | 2026-11-18 | 2026-11-25 | 1 | 2026-11-18 | utility-warehouse-gb |
+| Utility Warehouse | Fixed 105 | import | Current | 2026-11-25 | open | 1 | 2026-11-25 | utility-warehouse-gb |
+| Utility Warehouse | Fixed Essentials 104 | import | Ended | 2026-11-18 | 2026-11-25 | 1 | 2026-11-18 | utility-warehouse-gb |
+| Utility Warehouse | Fixed Essentials 105 | import | Current | 2026-11-25 | open | 1 | 2026-11-25 | utility-warehouse-gb |
+| Utility Warehouse | Fixed Saver 104 | import | Ended | 2026-11-18 | 2026-11-25 | 1 | 2026-11-18 | utility-warehouse-gb |
+| Utility Warehouse | Fixed Saver 105 | import | Current | 2026-11-25 | open | 1 | 2026-11-25 | utility-warehouse-gb |
+| Utility Warehouse | Fixed Start 104 | import | Ended | 2026-11-18 | 2026-11-25 | 1 | 2026-11-18 | utility-warehouse-gb |
+| Utility Warehouse | Fixed Start 105 | import | Current | 2026-11-25 | open | 1 | 2026-11-25 | utility-warehouse-gb |
 | Utility Warehouse | Variable Double Gold | import | Current | 2026-10-01 | open | 1 | 2026-10-01 | utility-warehouse-gb |
 | Utility Warehouse | Variable Gold | import | Current | 2026-10-01 | open | 1 | 2026-10-01 | utility-warehouse-gb |
 | Utility Warehouse | Variable Value | import | Current | 2026-10-01 | open | 1 | 2026-10-01 | utility-warehouse-gb |

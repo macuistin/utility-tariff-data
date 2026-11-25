@@ -3,6 +3,9 @@
   "name": "Residential standard, up to 200 amp",
   "provider": "Manitoba Hydro",
   "timezone": "America/Winnipeg",
+  "regions": [
+    "CA-MB"
+  ],
   "effective_from": "2026-01-01",
   "source": {
     "id": "ca-manitoba-hydro",
