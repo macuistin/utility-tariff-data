@@ -2,8 +2,8 @@
   "schema": 1,
   "feed": "energy-charts",
   "area": "it-north",
-  "latest": "2026-11-25",
+  "latest": "2026-11-26",
   "months": {
-    "2026-11": "sha256:0741a23c392c7599db1c4420140f9568c30ed532d7dd014d2d738198fcc68ce4"
+    "2026-11": "sha256:2697d6ac577a940e9bcd19c72e5e3e750cdad9feca8998125dd631b93ac31435"
   }
 }
