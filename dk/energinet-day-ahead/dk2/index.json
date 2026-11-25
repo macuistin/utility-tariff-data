@@ -2,8 +2,8 @@
   "schema": 1,
   "feed": "energinet-day-ahead",
   "area": "dk2",
-  "latest": "2026-11-25",
+  "latest": "2026-11-26",
   "months": {
-    "2026-11": "sha256:03385f3404ff184e16fd64aabe57eb1c9a13c8148f82c9f978dbd66e590da4b5"
+    "2026-11": "sha256:6b7815a231a64568c27e6748bc11834b4a98249867a9540fdeff5831da0783c7"
   }
 }
