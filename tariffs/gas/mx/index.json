@@ -47,5 +47,21 @@
       "display": "GJ"
     }
   },
-  "providers": {}
+  "providers": {
+    "ecogas": {
+      "name": "Ecogas",
+      "tariffs": {
+        "residencial-chihuahua": {
+          "name": "Residencial Chihuahua",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:555973ca7895e8505a332f7acbe4eec9b617c0a5c599b7d08bb3d6395dd238a1",
+              "effective_from": "2026-11-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    }
+  }
 }

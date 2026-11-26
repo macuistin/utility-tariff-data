@@ -1,0 +1,49 @@
+{
+  "schema": 1,
+  "name": "Residencial Chihuahua",
+  "provider": "Ecogas",
+  "service": "gas",
+  "timezone": "America/Chihuahua",
+  "effective_from": "2026-11-01",
+  "source": {
+    "id": "mx-ecogas-gas",
+    "url": "https://www.ecogas.com.mx/pdf/index.php?file=precioschihuahua.pdf"
+  },
+  "prices_include_tax": false,
+  "bill": {
+    "total": {
+      "kind": "tax",
+      "mode": "added",
+      "name": "IVA",
+      "of": {
+        "kind": "sum",
+        "of": {
+          "energy": {
+            "kind": "energy_by_band",
+            "round_bands": true
+          },
+          "service": {
+            "amount": "62.4404",
+            "kind": "per_period",
+            "per": "month",
+            "share": "days_in_period"
+          }
+        }
+      },
+      "percent": "$country.vat_percent"
+    }
+  },
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "All day": "1.03661748"
+      },
+      "standing": "0"
+    }
+  }
+}
