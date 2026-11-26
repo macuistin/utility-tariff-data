@@ -1,9 +1,5 @@
 {
   "countries": {
-    "IT": {
-      "checked": "2026-11-10",
-      "reason": "The ARERA Portale Offerte site is reachable, but the open-data file was not found. Many offers are indexed to the wholesale price, and only fixed-price offers could be held."
-    },
     "MX": {
       "checked": "2026-11-24",
       "reason": "The household tariffs (1 to 1F and DAC) are published only on CFE's tariff pages, which answer automated requests with a bot challenge, from cloud and GitHub runner addresses alike. No official open data or API was found. The Diario Oficial holds only the unsubsidised supply cost, not the tariff a household is billed."

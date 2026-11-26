@@ -1,4 +1,4 @@
-Last updated: 2026-11-24
+Last updated: 2026-11-26
 
 # Electricity tariffs: status of every country
 
@@ -18,7 +18,7 @@ Last updated: 2026-11-24
 | Iceland | IS | partial | 2026-11-18 | [IS](is/STATUS.md) |
 | India | IN | partial | 2026-11-18 | [IN](in/STATUS.md) |
 | Ireland | IE | available | 2026-11-11 | [IE](ie/STATUS.md) |
-| Italy | IT | unavailable | 2026-11-10 (checked) | The ARERA Portale Offerte site is reachable, but the open-data file was not found. Many offers are indexed to the wholesale price, and only fixed-price offers could be held. |
+| Italy | IT | partial | 2026-11-26 | [IT](it/STATUS.md) |
 | Malta | MT | partial | 2026-11-18 | [MT](mt/STATUS.md) |
 | Namibia | NA | partial | 2026-11-24 | [NA](na/STATUS.md) |
 | Netherlands | NL | unavailable | 2026-11-10 (checked) | No regulator plan list was found. Searched only briefly. |

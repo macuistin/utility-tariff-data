@@ -1,16 +1,16 @@
-Last updated: 2026-11-25
+Last updated: 2026-11-26
 
 # Denmark: electricity tariff status
 
 [All countries](../STATUS.md)
 
 - Coverage: partial. Two kinds of plan are held, and a bill needs one of each. The network companies' plans hold only the grid charge, with a standing charge of 0. The suppliers' plans hold only the supply price and the supplier's subscription, and only fixed-price products, not spot products. The transmission system operator's charges and the electricity tax are in neither, so a bill priced from one plan is not a real bill.
-- Held: 44 providers and 67 tariffs. 67 current, 0 upcoming, 0 ended, as of the date above.
+- Held: 44 providers and 67 tariffs. 65 current, 0 upcoming, 2 ended, as of the date above.
 
 | Provider | Tariff | Direction | Status today | Valid from | Valid to | Revisions | Last changed | Source |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Andel Energi | FastEnergi 12 | import | Current | 2026-11-20 | 2026-11-26 | 1 | 2026-11-20 | dk-elpris |
-| Andel Energi | FastEnergi 6 | import | Current | 2026-11-20 | 2026-11-26 | 1 | 2026-11-20 | dk-elpris |
+| Andel Energi | FastEnergi 12 | import | Ended | 2026-11-20 | 2026-11-26 | 1 | 2026-11-20 | dk-elpris |
+| Andel Energi | FastEnergi 6 | import | Ended | 2026-11-20 | 2026-11-26 | 1 | 2026-11-20 | dk-elpris |
 | Andel Energi | MånedsEnergi | import | Current | 2026-11-01 | 2026-11-30 | 1 | 2026-11-01 | dk-elpris |
 | AURA | AURA FastEl | import | Current | 2026-10-01 | 2026-12-31 | 1 | 2026-10-01 | dk-elpris |
 | AURA | AURA FastEl | import | Current | 2026-10-01 | 2026-12-31 | 1 | 2026-10-01 | dk-elpris |

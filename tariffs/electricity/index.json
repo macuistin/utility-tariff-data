@@ -176,9 +176,16 @@
       "tariffs": 5
     },
     "IT": {
-      "availability": "unavailable",
-      "checked": "2026-11-10",
-      "reason": "The ARERA Portale Offerte site is reachable, but the open-data file was not found. Many offers are indexed to the wholesale price, and only fixed-price offers could be held."
+      "availability": "partial",
+      "checksum": "sha256:2bf24cb068e9c71bf04ec7bf10738e5e640ea4a5db6ed78a177e5eab4a759c4e",
+      "path": "it/index.json",
+      "providers": 1,
+      "reason": "The fixed-price household electricity offers of Octopus Energy Italia, from its tariff page. The prices are the supplier's part only: the energy price and the fixed fee, before VAT and excise, with network losses. Transport and meter charges, system charges and taxes are not in them, so a bill is lower than a real one. Offers indexed to the wholesale price, offers with separate F1 and F23 prices, offers that can only be taken by phone and gas offers are not held. The ARERA Portale Offerte, which lists every offer, refuses automated requests.",
+      "reason_local": {
+        "language": "it",
+        "text": "Le offerte di energia elettrica a prezzo fisso per le famiglie di Octopus Energy Italia, lette dalla sua pagina delle tariffe. I prezzi comprendono solo la parte del fornitore: il prezzo dell'energia e la quota fissa, prima di IVA e accise, con le perdite di rete. Trasporto e gestione del contatore, oneri di sistema e imposte non sono inclusi, quindi una bolletta reale è più alta. Non sono incluse le offerte indicizzate al prezzo all'ingrosso, quelle con prezzi separati F1 e F23, quelle attivabili solo per telefono e le offerte gas. Il Portale Offerte di ARERA, che elenca tutte le offerte, rifiuta le richieste automatiche."
+      },
+      "tariffs": 3
     },
     "MK": {
       "availability": "partial",

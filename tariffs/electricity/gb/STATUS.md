@@ -1,11 +1,11 @@
-Last updated: 2026-11-25
+Last updated: 2026-11-26
 
 # United Kingdom: electricity tariff status
 
 [All countries](../STATUS.md)
 
 - Coverage: available.
-- Held: 10 providers and 71 tariffs. 53 current, 1 upcoming, 17 ended, as of the date above.
+- Held: 10 providers and 71 tariffs. 53 current, 0 upcoming, 18 ended, as of the date above.
 
 | Provider | Tariff | Direction | Status today | Valid from | Valid to | Revisions | Last changed | Source |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -14,8 +14,8 @@ Last updated: 2026-11-25
 | Ecotricity | Smart Export Tariff | export | Current | 2026-11-24 | open | 1 | 2026-11-24 | seg-pages-gb |
 | EDF | Simply Fixed 2Yr Nov28v5 | import | Current | 2026-11-24 | open | 1 | 2026-11-24 | kraken-import-gb |
 | EDF | Simply Fixed Apr28v4 | import | Ended | 2026-11-24 | 2026-11-25 | 1 | 2026-11-24 | kraken-import-gb |
-| EDF | Simply Fixed Apr28v5 | import | Current | 2026-11-25 | 2026-11-26 | 1 | 2026-11-25 | kraken-import-gb |
-| EDF | Simply Fixed Apr28v6 | import | Upcoming | 2026-11-26 | open | 1 | 2026-11-26 | kraken-import-gb |
+| EDF | Simply Fixed Apr28v5 | import | Ended | 2026-11-25 | 2026-11-26 | 1 | 2026-11-25 | kraken-import-gb |
+| EDF | Simply Fixed Apr28v6 | import | Current | 2026-11-26 | open | 1 | 2026-11-26 | kraken-import-gb |
 | EDF | Simply Fixed Nov27v5 | import | Ended | 2026-11-24 | 2026-11-25 | 1 | 2026-11-24 | kraken-import-gb |
 | EDF | Simply Fixed Nov27v6 | import | Current | 2026-11-25 | open | 1 | 2026-11-25 | kraken-import-gb |
 | EDF | Standard Variable | import | Current | 2026-11-24 | open | 1 | 2026-11-24 | kraken-import-gb |
