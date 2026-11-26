@@ -23,15 +23,27 @@
     },
     "BE": {
       "availability": "partial",
-      "checksum": "sha256:c9e34bc6ee78524bba0a238b2fbc7b2029df036cba58e5a1842f630b17984e6b",
+      "checksum": "sha256:3605ebfb689a30da71d56e01f4dc356521ff858f2c1c24ad3a1f99a9c1fdbd9e",
       "path": "be/index.json",
-      "providers": 1,
-      "reason": "Only Mega's fixed-price single-rate plans are held, from its monthly tariff cards. A bill also has network costs, the green-power contribution and levies, and a product may carry a sign-up discount, none of which are in these plans, so a bill priced from them is below a real bill.",
+      "providers": 4,
+      "reason": "Only the fixed-price single-rate plans of Mega, TotalEnergies, Eneco and Elegant are held, from their monthly tariff cards. A bill also has network costs, levies and the green-power contribution, and a product may carry a sign-up discount, none of which are in these plans, so a bill priced from them is below a real bill. The one exception is TotalEnergies, whose card price already includes the green-power contribution. Indexed and dynamic products are not held.",
       "reason_local": {
         "language": "nl",
-        "text": "Alleen de vastprijsplannen met enkelvoudige meter van Mega zijn opgenomen, uit de maandelijkse tariefkaarten. Een factuur bevat ook netwerkkosten, de bijdrage voor groene stroom en heffingen, en een product kan een instapkorting hebben. Die zitten niet in deze plannen, dus een daaruit berekende factuur ligt onder een echte factuur."
+        "text": "Alleen de vastprijsplannen met enkelvoudige meter van Mega, TotalEnergies, Eneco en Elegant zijn opgenomen, uit hun maandelijkse tariefkaarten. Een factuur bevat ook netwerkkosten, heffingen en de bijdrage voor groene stroom, en een product kan een instapkorting hebben. Die zitten niet in deze plannen, dus een daaruit berekende factuur ligt onder een echte factuur. Alleen de prijs van TotalEnergies bevat de bijdrage voor groene stroom al. Geïndexeerde en dynamische producten zijn niet opgenomen."
       },
-      "tariffs": 4
+      "tariffs": 9
+    },
+    "BG": {
+      "availability": "partial",
+      "checksum": "sha256:605606c1173477fc0cd389ad1b88cc4947d25085614cfae4d2ef639640d37779",
+      "path": "bg/index.json",
+      "providers": 3,
+      "reason": "The regulated household prices of EVN, Electrohold and ENERGO-PRO from the energy regulator's yearly price decision: the energy price (one rate, or day and night) and the four network charges, with VAT added. Free-market offers, the resort supplier Zlatni Pyasatsi and business customers are not held.",
+      "reason_local": {
+        "language": "bg",
+        "text": "Регулираните цени за битови клиенти на ЕВН, Електрохолд и ЕНЕРГО-ПРО от годишното решение за цените на енергийния регулатор: цената на енергията (една скала или дневна и нощна) и четирите мрежови цени, с добавен ДДС. Офертите на свободния пазар, курортният снабдител Златни пясъци и бизнес клиентите не са включени."
+      },
+      "tariffs": 6
     },
     "BH": {
       "availability": "partial",
@@ -75,13 +87,13 @@
     },
     "CH": {
       "availability": "partial",
-      "checksum": "sha256:0df5ca2c0d069304c10e2a79e3fa004752ddd0499fdd850b0b8defd00cb263f0",
+      "checksum": "sha256:df7453898f6c51a744cd7f655956ad23d0d8f2e031315d8d996060675d14fa09",
       "path": "ch/index.json",
       "providers": 214,
-      "reason": "Grid operators' standard household tariffs are held where the regulator's figures show one rate for all hours, with energy, grid, metering, the federal levy and the municipal charge included. Most operators price day and night apart, and those tariffs are not held. Two utilities are held from their own tariff files without metering and municipal charges, so a bill priced from them is below a real bill.",
+      "reason": "Grid operators' standard household tariffs are held where the regulator's figures show one rate for all hours, with energy, grid, metering, the federal levy and the municipal charge included. Where an operator prices day and night apart or by season, the tariff is held only when the operator's own tariff file gives the hours and the regulator's figures confirm it. The others are not held. Two utilities are held from their own tariff files without metering and municipal charges, so a bill priced from them is below a real bill.",
       "reason_local": {
         "language": "de",
-        "text": "Hinterlegt sind die Standardtarife für Haushalte jener Netzbetreiber, deren Zahlen bei der ElCom einen einzigen Preis für alle Stunden zeigen, mit Energie, Netz, Messung, Netzzuschlag und Gemeindeabgaben. Die meisten Betreiber haben Hoch- und Niedertarif, und diese Tarife sind nicht hinterlegt. Zwei Werke sind aus ihren eigenen Tarifdateien ohne Messung und Gemeindeabgaben hinterlegt. Eine daraus berechnete Rechnung liegt daher unter einer echten Rechnung."
+        "text": "Hinterlegt sind die Standardtarife für Haushalte jener Netzbetreiber, deren Zahlen bei der ElCom einen einzigen Preis für alle Stunden zeigen, mit Energie, Netz, Messung, Netzzuschlag und Gemeindeabgaben. Hat ein Betreiber Hoch- und Niedertarif oder Saisontarife, ist der Tarif nur hinterlegt, wenn die Tarifdatei des Betreibers die Zeiten nennt und die Zahlen der ElCom sie bestätigen. Die übrigen sind nicht hinterlegt. Zwei Werke sind aus ihren eigenen Tarifdateien ohne Messung und Gemeindeabgaben hinterlegt. Eine daraus berechnete Rechnung liegt daher unter einer echten Rechnung."
       },
       "tariffs": 214
     },
@@ -187,6 +199,18 @@
       },
       "tariffs": 3
     },
+    "JP": {
+      "availability": "partial",
+      "checksum": "sha256:74a19144467afbdeaca8c56383176df25bc67b77f21ff9c27904a821b7954c20",
+      "path": "jp/index.json",
+      "providers": 1,
+      "reason": "The standard household tariffs (10 to 60 amperes) of Hokuriku Electric Power, which supplies Toyama and Ishikawa, from its price page. Prices include consumption tax. The monthly fuel cost adjustment and the renewable energy levy are not in them, so a bill is lower than a real one. Other regions and suppliers are not held yet: several large utilities refuse automated requests.",
+      "reason_local": {
+        "language": "ja",
+        "text": "北陸電力（富山県・石川県）の標準的な家庭向け料金（10〜60アンペア）を、同社の料金ページから読み取っています。料金には消費税を含みます。毎月の燃料費調整額と再生可能エネルギー発電促進賦課金は含まれないため、実際の請求額より低くなります。他の地域・事業者はまだ対象外で、大手電力の一部は自動アクセスを拒否します。"
+      },
+      "tariffs": 14
+    },
     "MK": {
       "availability": "partial",
       "checksum": "sha256:472f6cf59d59e00c68247eabaa4631fc166b6952b21922bf564d91844769e38e",
@@ -232,6 +256,18 @@
         "text": "Bare strømleverandørens energipris og faste månedsbeløp er lagt inn, for fastpris- og variabelprisavtaler, fra Forbrukerrådets strømprisoversikt. Nettleie og forbruksavgift, som nettselskapet fakturerer, er ikke med, så en regning beregnet fra disse avtalene blir lavere enn en ekte regning. Spotprisavtaler, Norgespris og plusskundeavtaler er ikke lagt inn. Prisene er med 25 % merverdiavgift; de mva-frie prisene i Nordland, Troms og Finnmark er ikke lagt inn."
       },
       "tariffs": 66
+    },
+    "PL": {
+      "availability": "partial",
+      "checksum": "sha256:c370dac8e8dca5a515a7ba294e2a13ab044c576d8ac723222c184f9b08b1f301",
+      "path": "pl/index.json",
+      "providers": 2,
+      "reason": "The household electricity tariff for the single-rate group G11 of two suppliers (Enea and Energa-Obrót), each with the charges of its own network operator (Enea Operator and Energa-Operator), as net prices before 23% VAT: energy, excise, network, quality, renewable and cogeneration charges per kWh, and the fixed network charge, subscription and capacity charge as a daily standing charge, in an area for each supply (single or three phase) and yearly use step. A plan is valid only in its operator's network area. The two-zone groups (G12, G12w), the other suppliers (PGE, Tauron, Stoen) and prepayment meters are not held.",
+      "reason_local": {
+        "language": "pl",
+        "text": "Taryfa dla gospodarstw domowych w grupie jednostrefowej G11 dwóch sprzedawców (Enea i Energa-Obrót), każda z opłatami właściwego operatora sieci (Enea Operator i Energa-Operator), jako ceny netto przed VAT 23%: energia, akcyza, opłata sieciowa, jakościowa, OZE i kogeneracyjna za kWh oraz stała opłata sieciowa, abonament i opłata mocowa jako dzienna opłata stała, w obszarze dla każdego przyłącza (jedno- lub trójfazowe) i progu rocznego zużycia. Plan obowiązuje tylko na obszarze sieci danego operatora. Grupy dwustrefowe (G12, G12w), inni sprzedawcy (PGE, Tauron, Stoen) i liczniki przedpłatowe nie są uwzględnione."
+      },
+      "tariffs": 2
     },
     "PT": {
       "availability": "partial",

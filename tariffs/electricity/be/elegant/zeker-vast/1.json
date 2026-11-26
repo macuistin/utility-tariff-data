@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "name": "Zeker & Vast",
+  "provider": "Elegant",
+  "effective_from": "2026-11-01",
+  "source": {
+    "id": "be-elegant",
+    "url": "https://www.elegant.be/tariefkaarten"
+  },
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "flanders": {
+      "label": "Flanders",
+      "rates": {
+        "All day": "0.2173"
+      },
+      "region": "BE-VLG",
+      "standing": "0.328767"
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "schema": 1,
+  "name": "Regulated household, day and night",
+  "provider": "Electrohold Prodazhbi",
+  "effective_from": "2026-07-01",
+  "source": {
+    "id": "bg-kevr",
+    "url": "https://www.dker.bg/uploads/reshenia/2026/res-c-13-2026.pdf"
+  },
+  "prices_include_tax": false,
+  "bill": {
+    "total": {
+      "kind": "tax",
+      "mode": "added",
+      "name": "VAT",
+      "of": {
+        "kind": "sum",
+        "of": {
+          "access_distribution": {
+            "amount": "0.00347",
+            "kind": "per_kwh"
+          },
+          "access_transmission": {
+            "amount": "0.00018",
+            "kind": "per_kwh"
+          },
+          "distribution": {
+            "amount": "0.02391",
+            "kind": "per_kwh"
+          },
+          "energy": {
+            "kind": "energy_by_band",
+            "round_bands": true
+          },
+          "transmission": {
+            "amount": "0.00801",
+            "kind": "per_kwh"
+          }
+        }
+      },
+      "percent": "$country.vat_percent"
+    }
+  },
+  "bands": [
+    {
+      "name": "Day"
+    },
+    {
+      "hours": "23:00-07:00",
+      "months": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "name": "Night"
+    },
+    {
+      "hours": "22:00-06:00",
+      "months": [
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "name": "Night (winter)"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "Day": "0.09297",
+        "Night": "0.04103",
+        "Night (winter)": "0.04103"
+      },
+      "standing": "0"
+    }
+  }
+}

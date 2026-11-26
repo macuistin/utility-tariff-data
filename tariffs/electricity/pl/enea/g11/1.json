@@ -1,0 +1,74 @@
+{
+  "schema": 1,
+  "name": "G11, Enea Operator network",
+  "provider": "Enea",
+  "effective_from": "2026-02-01",
+  "source": {
+    "id": "pl-enea",
+    "url": "https://www.enea.pl/media/6583/taryfa-energii-elektrycznej-dla-odbiorcow-w-grupie-taryfowej-g-od-01012026-r.pdf"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "1-phase-1200-2800": {
+      "label": "G11, single-phase supply, 1,200 to 2,800 kWh a year",
+      "rates": {
+        "All day": "0.7921"
+      },
+      "standing": "0.872877"
+    },
+    "1-phase-500-1200": {
+      "label": "G11, single-phase supply, 500 to 1,200 kWh a year",
+      "rates": {
+        "All day": "0.7921"
+      },
+      "standing": "0.647014"
+    },
+    "1-phase-over-2800": {
+      "label": "G11, single-phase supply, over 2,800 kWh a year",
+      "rates": {
+        "All day": "0.7921"
+      },
+      "standing": "1.09874"
+    },
+    "1-phase-under-500": {
+      "label": "G11, single-phase supply, under 500 kWh a year",
+      "rates": {
+        "All day": "0.7921"
+      },
+      "standing": "0.449096"
+    },
+    "3-phase-1200-2800": {
+      "label": "G11, three-phase supply, 1,200 to 2,800 kWh a year",
+      "rates": {
+        "All day": "0.7921"
+      },
+      "standing": "0.970192"
+    },
+    "3-phase-500-1200": {
+      "label": "G11, three-phase supply, 500 to 1,200 kWh a year",
+      "rates": {
+        "All day": "0.7921"
+      },
+      "standing": "0.744329"
+    },
+    "3-phase-over-2800": {
+      "label": "G11, three-phase supply, over 2,800 kWh a year",
+      "rates": {
+        "All day": "0.7921"
+      },
+      "standing": "1.196055"
+    },
+    "3-phase-under-500": {
+      "label": "G11, three-phase supply, under 500 kWh a year",
+      "rates": {
+        "All day": "0.7921"
+      },
+      "standing": "0.546411"
+    }
+  }
+}

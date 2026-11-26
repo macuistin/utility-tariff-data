@@ -1,0 +1,77 @@
+{
+  "schema": 1,
+  "country": "PL",
+  "currency": "PLN",
+  "timezone": "Europe/Warsaw",
+  "vat_percent": "23",
+  "availability": "partial",
+  "reason": "The household electricity tariff for the single-rate group G11 of two suppliers (Enea and Energa-Obrót), each with the charges of its own network operator (Enea Operator and Energa-Operator), as net prices before 23% VAT: energy, excise, network, quality, renewable and cogeneration charges per kWh, and the fixed network charge, subscription and capacity charge as a daily standing charge, in an area for each supply (single or three phase) and yearly use step. A plan is valid only in its operator's network area. The two-zone groups (G12, G12w), the other suppliers (PGE, Tauron, Stoen) and prepayment meters are not held.",
+  "reason_local": {
+    "language": "pl",
+    "text": "Taryfa dla gospodarstw domowych w grupie jednostrefowej G11 dwóch sprzedawców (Enea i Energa-Obrót), każda z opłatami właściwego operatora sieci (Enea Operator i Energa-Operator), jako ceny netto przed VAT 23%: energia, akcyza, opłata sieciowa, jakościowa, OZE i kogeneracyjna za kWh oraz stała opłata sieciowa, abonament i opłata mocowa jako dzienna opłata stała, w obszarze dla każdego przyłącza (jedno- lub trójfazowe) i progu rocznego zużycia. Plan obowiązuje tylko na obszarze sieci danego operatora. Grupy dwustrefowe (G12, G12w), inni sprzedawcy (PGE, Tauron, Stoen) i liczniki przedpłatowe nie są uwzględnione."
+  },
+  "inputs": {
+    "bill_start_day": {
+      "default": 1,
+      "max": 28,
+      "min": 1,
+      "type": "integer"
+    }
+  },
+  "bill": {
+    "period": {
+      "rule": "monthly",
+      "start_day": "$input.bill_start_day"
+    },
+    "total": {
+      "kind": "tax",
+      "mode": "added",
+      "name": "VAT",
+      "of": {
+        "kind": "sum",
+        "of": {
+          "energy": {
+            "kind": "energy_by_band",
+            "round_bands": true
+          },
+          "standing": {
+            "kind": "per_day"
+          }
+        }
+      },
+      "percent": "$country.vat_percent"
+    }
+  },
+  "providers": {
+    "enea": {
+      "name": "Enea",
+      "tariffs": {
+        "g11": {
+          "name": "G11, Enea Operator network",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:a70b5c908acbe7250fcafa0e2e2280ba3fdd43a6a29785d4a43cfefd36c91792",
+              "effective_from": "2026-02-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "energa-obrot": {
+      "name": "Energa-Obrót",
+      "tariffs": {
+        "g11": {
+          "name": "G11, Energa-Operator network",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:c6f6b61c74ac8fe3f6645eef5ddf21ca9723edadae1b01bb729f8e943ceb46ad",
+              "effective_from": "2026-01-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    }
+  }
+}

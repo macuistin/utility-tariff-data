@@ -1,0 +1,66 @@
+{
+  "schema": 1,
+  "name": "Jūryō dentō Next, 40 A (従量電灯ネクスト)",
+  "provider": "Hokuriku Electric Power (北陸電力)",
+  "regions": [
+    "JP-16",
+    "JP-17"
+  ],
+  "effective_from": "2026-11-26",
+  "source": {
+    "id": "jp-hokuriku",
+    "url": "https://www.rikuden.co.jp/ryokin/minsei.html"
+  },
+  "bill": {
+    "total": {
+      "kind": "tax",
+      "mode": "included",
+      "name": "消費税",
+      "of": {
+        "kind": "sum",
+        "of": {
+          "basic": {
+            "amount": "1210.00",
+            "kind": "per_period",
+            "per": "month",
+            "share": "days_in_period"
+          },
+          "energy": {
+            "blocks": {
+              "block_1": {
+                "from_kwh": "0",
+                "price": "30.82",
+                "upto_kwh": "120"
+              },
+              "block_2": {
+                "from_kwh": "120",
+                "price": "34.71",
+                "upto_kwh": "300"
+              },
+              "block_3": {
+                "from_kwh": "300",
+                "price": "36.42"
+              }
+            },
+            "kind": "tiered_energy",
+            "limits": "month"
+          }
+        }
+      },
+      "percent": "$country.vat_percent"
+    }
+  },
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "All day": "30.82"
+      },
+      "standing": "0"
+    }
+  }
+}

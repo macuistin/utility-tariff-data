@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "name": "myComfort Vast",
+  "provider": "TotalEnergies",
+  "effective_from": "2026-11-01",
+  "source": {
+    "id": "be-totalenergies",
+    "url": "https://totalenergies.be/nl/particulieren/elektriciteit-en-aardgas/overzicht-tariefkaarten"
+  },
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "brussels": {
+      "label": "Brussels",
+      "rates": {
+        "All day": "0.2955"
+      },
+      "region": "BE-BRU",
+      "standing": "0.246575"
+    },
+    "flanders": {
+      "label": "Flanders",
+      "rates": {
+        "All day": "0.2699"
+      },
+      "region": "BE-VLG",
+      "standing": "0.246575"
+    },
+    "wallonia": {
+      "label": "Wallonia",
+      "rates": {
+        "All day": "0.2896"
+      },
+      "region": "BE-WAL",
+      "standing": "0.246575"
+    }
+  }
+}

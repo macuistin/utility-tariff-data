@@ -1,0 +1,74 @@
+{
+  "schema": 1,
+  "name": "G11, Energa-Operator network",
+  "provider": "Energa-Obrót",
+  "effective_from": "2026-01-01",
+  "source": {
+    "id": "pl-energa",
+    "url": "https://www.energa.pl/dam/jcr:1f730159-7aab-4815-8a17-e0f6f0a6a223/Taryfa%20ENERGA-OBR%C3%93T%20SA%20dla%20energii%20elektrycznej%20dla%20odbiorc%C3%B3w%20z%20grup%20taryfowych%20G%20obowi%C4%85zuj%C4%85ca%20od%201%20stycznia%202026%20roku.pdf"
+  },
+  "prices_include_tax": false,
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "1-phase-1200-2800": {
+      "label": "G11, single-phase supply, 1,200 to 2,800 kWh a year",
+      "rates": {
+        "All day": "0.8938"
+      },
+      "standing": "0.898521"
+    },
+    "1-phase-500-1200": {
+      "label": "G11, single-phase supply, 500 to 1,200 kWh a year",
+      "rates": {
+        "All day": "0.8938"
+      },
+      "standing": "0.672658"
+    },
+    "1-phase-over-2800": {
+      "label": "G11, single-phase supply, over 2,800 kWh a year",
+      "rates": {
+        "All day": "0.8938"
+      },
+      "standing": "1.124384"
+    },
+    "1-phase-under-500": {
+      "label": "G11, single-phase supply, under 500 kWh a year",
+      "rates": {
+        "All day": "0.8938"
+      },
+      "standing": "0.47474"
+    },
+    "3-phase-1200-2800": {
+      "label": "G11, three-phase supply, 1,200 to 2,800 kWh a year",
+      "rates": {
+        "All day": "0.8938"
+      },
+      "standing": "1.028055"
+    },
+    "3-phase-500-1200": {
+      "label": "G11, three-phase supply, 500 to 1,200 kWh a year",
+      "rates": {
+        "All day": "0.8938"
+      },
+      "standing": "0.802192"
+    },
+    "3-phase-over-2800": {
+      "label": "G11, three-phase supply, over 2,800 kWh a year",
+      "rates": {
+        "All day": "0.8938"
+      },
+      "standing": "1.253918"
+    },
+    "3-phase-under-500": {
+      "label": "G11, three-phase supply, under 500 kWh a year",
+      "rates": {
+        "All day": "0.8938"
+      },
+      "standing": "0.604274"
+    }
+  }
+}

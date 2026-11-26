@@ -10,6 +10,7 @@ Last updated: 2026-11-26
 | Belgium | BE | partial | 2026-11-23 | [BE](be/STATUS.md) |
 | Bermuda | BM | partial | 2026-11-18 | [BM](bm/STATUS.md) |
 | Brazil | BR | partial | 2026-11-18 | [BR](br/STATUS.md) |
+| Bulgaria | BG | partial | 2026-11-26 | [BG](bg/STATUS.md) |
 | Cameroon | CM | partial | 2026-11-18 | [CM](cm/STATUS.md) |
 | Canada | CA | partial | 2026-11-17 | [CA](ca/STATUS.md) |
 | Denmark | DK | partial | 2026-11-17 | [DK](dk/STATUS.md) |
@@ -19,12 +20,14 @@ Last updated: 2026-11-26
 | India | IN | partial | 2026-11-18 | [IN](in/STATUS.md) |
 | Ireland | IE | available | 2026-11-11 | [IE](ie/STATUS.md) |
 | Italy | IT | partial | 2026-11-26 | [IT](it/STATUS.md) |
+| Japan | JP | partial | 2026-11-26 | [JP](jp/STATUS.md) |
 | Malta | MT | partial | 2026-11-18 | [MT](mt/STATUS.md) |
 | Namibia | NA | partial | 2026-11-24 | [NA](na/STATUS.md) |
 | Netherlands | NL | unavailable | 2026-11-10 (checked) | No regulator plan list was found. Searched only briefly. |
 | Mexico | MX | unavailable | 2026-11-24 (checked) | The household tariffs (1 to 1F and DAC) are published only on CFE's tariff pages, which answer automated requests with a bot challenge, from cloud and GitHub runner addresses alike. No official open data or API was found. The Diario Oficial holds only the unsubsidised supply cost, not the tariff a household is billed. |
 | North Macedonia | MK | partial | 2026-11-20 | [MK](mk/STATUS.md) |
 | Norway | NO | partial | 2026-11-24 | [NO](no/STATUS.md) |
+| Poland | PL | partial | 2026-11-26 | [PL](pl/STATUS.md) |
 | Portugal | PT | partial | 2026-11-17 | [PT](pt/STATUS.md) |
 | Singapore | SG | available | 2026-11-17 | [SG](sg/STATUS.md) |
 | Slovakia | SK | partial | 2026-11-20 | [SK](sk/STATUS.md) |

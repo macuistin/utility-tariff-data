@@ -1,0 +1,119 @@
+{
+  "schema": 1,
+  "country": "BG",
+  "currency": "EUR",
+  "timezone": "Europe/Sofia",
+  "vat_percent": "20",
+  "availability": "partial",
+  "reason": "The regulated household prices of EVN, Electrohold and ENERGO-PRO from the energy regulator's yearly price decision: the energy price (one rate, or day and night) and the four network charges, with VAT added. Free-market offers, the resort supplier Zlatni Pyasatsi and business customers are not held.",
+  "reason_local": {
+    "language": "bg",
+    "text": "Регулираните цени за битови клиенти на ЕВН, Електрохолд и ЕНЕРГО-ПРО от годишното решение за цените на енергийния регулатор: цената на енергията (една скала или дневна и нощна) и четирите мрежови цени, с добавен ДДС. Офертите на свободния пазар, курортният снабдител Златни пясъци и бизнес клиентите не са включени."
+  },
+  "inputs": {
+    "bill_start_day": {
+      "default": 1,
+      "max": 28,
+      "min": 1,
+      "type": "integer"
+    }
+  },
+  "bill": {
+    "period": {
+      "rule": "monthly",
+      "start_day": "$input.bill_start_day"
+    },
+    "total": {
+      "kind": "tax",
+      "mode": "added",
+      "name": "VAT",
+      "of": {
+        "kind": "sum",
+        "of": {
+          "energy": {
+            "kind": "energy_by_band",
+            "round_bands": true
+          }
+        }
+      },
+      "percent": "$country.vat_percent"
+    }
+  },
+  "providers": {
+    "electrohold": {
+      "name": "Electrohold Prodazhbi",
+      "tariffs": {
+        "household-day-night": {
+          "name": "Regulated household, day and night",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:1f0ab32d20fd188b298584f75e08c992670292a251975a0396c75e6cdbc2182e",
+              "effective_from": "2026-07-01",
+              "effective_to": null
+            }
+          }
+        },
+        "household-one-rate": {
+          "name": "Regulated household, one rate",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:df540723f62ff2b531ca9b697a8d59ee0747d42631b28e565f7b887b077ddeb0",
+              "effective_from": "2026-07-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "energo-pro": {
+      "name": "ENERGO-PRO Prodazhbi",
+      "tariffs": {
+        "household-day-night": {
+          "name": "Regulated household, day and night",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:d09778b04be4e9a46314f69ea71b302cce4b1ca94c6ee654520e2c478209008f",
+              "effective_from": "2026-07-01",
+              "effective_to": null
+            }
+          }
+        },
+        "household-one-rate": {
+          "name": "Regulated household, one rate",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:b2b8d581b640f09c074368c6fd970a9574dbd7712b6c78deaf6da48a44b7e27a",
+              "effective_from": "2026-07-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "evn": {
+      "name": "EVN Bulgaria Elektrosnabdyavane",
+      "tariffs": {
+        "household-day-night": {
+          "name": "Regulated household, day and night",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:1ed4ad0a39128c59ce1609d5feb3454acedeabf7bfe3138974273653091afbbc",
+              "effective_from": "2026-07-01",
+              "effective_to": null
+            }
+          }
+        },
+        "household-one-rate": {
+          "name": "Regulated household, one rate",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:0c1fc9b5d852aa0508e6b86bccda3b255e0449f5ba37dda110731c9f0710d25a",
+              "effective_from": "2026-07-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "name": "Zon & Wind Fix One",
+  "provider": "Eneco",
+  "effective_from": "2026-11-01",
+  "source": {
+    "id": "be-eneco",
+    "url": "https://eneco.be/nl/elektriciteit-gas/tariefkaarten/"
+  },
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "flanders": {
+      "label": "Flanders",
+      "rates": {
+        "All day": "0.2489"
+      },
+      "region": "BE-VLG",
+      "standing": "0.178082"
+    },
+    "wallonia": {
+      "label": "Wallonia",
+      "rates": {
+        "All day": "0.2489"
+      },
+      "region": "BE-WAL",
+      "standing": "0.178082"
+    }
+  }
+}

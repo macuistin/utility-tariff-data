@@ -5,10 +5,10 @@
   "timezone": "Europe/Brussels",
   "vat_percent": "6",
   "availability": "partial",
-  "reason": "Only Mega's fixed-price single-rate plans are held, from its monthly tariff cards. A bill also has network costs, the green-power contribution and levies, and a product may carry a sign-up discount, none of which are in these plans, so a bill priced from them is below a real bill.",
+  "reason": "Only the fixed-price single-rate plans of Mega, TotalEnergies, Eneco and Elegant are held, from their monthly tariff cards. A bill also has network costs, levies and the green-power contribution, and a product may carry a sign-up discount, none of which are in these plans, so a bill priced from them is below a real bill. The one exception is TotalEnergies, whose card price already includes the green-power contribution. Indexed and dynamic products are not held.",
   "reason_local": {
     "language": "nl",
-    "text": "Alleen de vastprijsplannen met enkelvoudige meter van Mega zijn opgenomen, uit de maandelijkse tariefkaarten. Een factuur bevat ook netwerkkosten, de bijdrage voor groene stroom en heffingen, en een product kan een instapkorting hebben. Die zitten niet in deze plannen, dus een daaruit berekende factuur ligt onder een echte factuur."
+    "text": "Alleen de vastprijsplannen met enkelvoudige meter van Mega, TotalEnergies, Eneco en Elegant zijn opgenomen, uit hun maandelijkse tariefkaarten. Een factuur bevat ook netwerkkosten, heffingen en de bijdrage voor groene stroom, en een product kan een instapkorting hebben. Die zitten niet in deze plannen, dus een daaruit berekende factuur ligt onder een echte factuur. Alleen de prijs van TotalEnergies bevat de bijdrage voor groene stroom al. Geïndexeerde en dynamische producten zijn niet opgenomen."
   },
   "inputs": {
     "bill_start_day": {
@@ -43,6 +43,36 @@
     }
   },
   "providers": {
+    "elegant": {
+      "name": "Elegant",
+      "tariffs": {
+        "zeker-vast": {
+          "name": "Zeker & Vast",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:f7644d723f10f922da88e39b54ef5b68473c05a81979c4471ef31bc4a9894de0",
+              "effective_from": "2026-11-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "eneco": {
+      "name": "Eneco",
+      "tariffs": {
+        "zon-wind-fix-one": {
+          "name": "Zon & Wind Fix One",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:94f676dbee9c66d5aeb978e2c9341a632471eda295e0b1b71a1f5f3eda8f2f41",
+              "effective_from": "2026-11-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
     "mega": {
       "name": "Mega",
       "tariffs": {
@@ -81,6 +111,41 @@
           "revisions": {
             "1": {
               "checksum": "sha256:7e70985d4e8fe640b64f56ac016ae29f2430c351b165967ac21a2b0da7862c30",
+              "effective_from": "2026-11-01",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    },
+    "totalenergies": {
+      "name": "TotalEnergies",
+      "tariffs": {
+        "elektriciteit-vast": {
+          "name": "Elektriciteit Vast",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:323897f26af6eb38f78a3373747ba114997ebf4357ba18ab70d0cc0927fa62a7",
+              "effective_from": "2026-11-01",
+              "effective_to": null
+            }
+          }
+        },
+        "mycomfort-vast": {
+          "name": "myComfort Vast",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:9e24ae9a6999158af884629718340efd1d558e810298c282ae20ef09145749cc",
+              "effective_from": "2026-11-01",
+              "effective_to": null
+            }
+          }
+        },
+        "myessential-vast": {
+          "name": "myEssential Vast",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:01bfc6b9f96e5e3b912546a3912c60b7fcb8d3aa9f82ba292cfdfdac9dd8e5c2",
               "effective_from": "2026-11-01",
               "effective_to": null
             }

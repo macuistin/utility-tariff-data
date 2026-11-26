@@ -1,0 +1,391 @@
+{
+  "schema": 1,
+  "country": "JP",
+  "currency": "JPY",
+  "timezone": "Asia/Tokyo",
+  "vat_percent": "10",
+  "availability": "partial",
+  "reason": "The standard household tariffs (10 to 60 amperes) of Hokuriku Electric Power, which supplies Toyama and Ishikawa, from its price page. Prices include consumption tax. The monthly fuel cost adjustment and the renewable energy levy are not in them, so a bill is lower than a real one. Other regions and suppliers are not held yet: several large utilities refuse automated requests.",
+  "reason_local": {
+    "language": "ja",
+    "text": "北陸電力（富山県・石川県）の標準的な家庭向け料金（10〜60アンペア）を、同社の料金ページから読み取っています。料金には消費税を含みます。毎月の燃料費調整額と再生可能エネルギー発電促進賦課金は含まれないため、実際の請求額より低くなります。他の地域・事業者はまだ対象外で、大手電力の一部は自動アクセスを拒否します。"
+  },
+  "inputs": {
+    "bill_start_day": {
+      "default": 1,
+      "max": 28,
+      "min": 1,
+      "type": "integer"
+    }
+  },
+  "bill": {
+    "period": {
+      "rule": "monthly",
+      "start_day": "$input.bill_start_day"
+    },
+    "total": {
+      "kind": "tax",
+      "mode": "included",
+      "name": "消費税",
+      "of": {
+        "kind": "sum",
+        "of": {
+          "energy": {
+            "kind": "energy_by_band",
+            "round_bands": true
+          },
+          "standing": {
+            "kind": "per_day"
+          }
+        }
+      },
+      "percent": "$country.vat_percent"
+    }
+  },
+  "regions": {
+    "JP-01": {
+      "name": "Hokkaido"
+    },
+    "JP-02": {
+      "name": "Aomori"
+    },
+    "JP-03": {
+      "name": "Iwate"
+    },
+    "JP-04": {
+      "name": "Miyagi"
+    },
+    "JP-05": {
+      "name": "Akita"
+    },
+    "JP-06": {
+      "name": "Yamagata"
+    },
+    "JP-07": {
+      "name": "Fukushima"
+    },
+    "JP-08": {
+      "name": "Ibaraki"
+    },
+    "JP-09": {
+      "name": "Tochigi"
+    },
+    "JP-10": {
+      "name": "Gunma"
+    },
+    "JP-11": {
+      "name": "Saitama"
+    },
+    "JP-12": {
+      "name": "Chiba"
+    },
+    "JP-13": {
+      "name": "Tokyo"
+    },
+    "JP-14": {
+      "name": "Kanagawa"
+    },
+    "JP-15": {
+      "name": "Niigata"
+    },
+    "JP-16": {
+      "name": "Toyama"
+    },
+    "JP-17": {
+      "name": "Ishikawa"
+    },
+    "JP-18": {
+      "name": "Fukui"
+    },
+    "JP-19": {
+      "name": "Yamanashi"
+    },
+    "JP-20": {
+      "name": "Nagano"
+    },
+    "JP-21": {
+      "name": "Gifu"
+    },
+    "JP-22": {
+      "name": "Shizuoka"
+    },
+    "JP-23": {
+      "name": "Aichi"
+    },
+    "JP-24": {
+      "name": "Mie"
+    },
+    "JP-25": {
+      "name": "Shiga"
+    },
+    "JP-26": {
+      "name": "Kyoto"
+    },
+    "JP-27": {
+      "name": "Osaka"
+    },
+    "JP-28": {
+      "name": "Hyogo"
+    },
+    "JP-29": {
+      "name": "Nara"
+    },
+    "JP-30": {
+      "name": "Wakayama"
+    },
+    "JP-31": {
+      "name": "Tottori"
+    },
+    "JP-32": {
+      "name": "Shimane"
+    },
+    "JP-33": {
+      "name": "Okayama"
+    },
+    "JP-34": {
+      "name": "Hiroshima"
+    },
+    "JP-35": {
+      "name": "Yamaguchi"
+    },
+    "JP-36": {
+      "name": "Tokushima"
+    },
+    "JP-37": {
+      "name": "Kagawa"
+    },
+    "JP-38": {
+      "name": "Ehime"
+    },
+    "JP-39": {
+      "name": "Kochi"
+    },
+    "JP-40": {
+      "name": "Fukuoka"
+    },
+    "JP-41": {
+      "name": "Saga"
+    },
+    "JP-42": {
+      "name": "Nagasaki"
+    },
+    "JP-43": {
+      "name": "Kumamoto"
+    },
+    "JP-44": {
+      "name": "Oita"
+    },
+    "JP-45": {
+      "name": "Miyazaki"
+    },
+    "JP-46": {
+      "name": "Kagoshima"
+    },
+    "JP-47": {
+      "name": "Okinawa"
+    }
+  },
+  "providers": {
+    "hokuriku-electric": {
+      "name": "Hokuriku Electric Power (北陸電力)",
+      "tariffs": {
+        "jyuryo-b-10a": {
+          "name": "Jūryō dentō B, 10 A (従量電灯)",
+          "regions": [
+            "JP-16",
+            "JP-17"
+          ],
+          "revisions": {
+            "1": {
+              "checksum": "sha256:b970834132c4743335ba64cd8e696d12c57f6ef0527fa040b036d17a3d72da97",
+              "effective_from": "2026-11-26",
+              "effective_to": null
+            }
+          }
+        },
+        "jyuryo-b-15a": {
+          "name": "Jūryō dentō B, 15 A (従量電灯)",
+          "regions": [
+            "JP-16",
+            "JP-17"
+          ],
+          "revisions": {
+            "1": {
+              "checksum": "sha256:e430d42471707967c84afd4c170808390a02a5777fa06ca2d3b36eff87b680e3",
+              "effective_from": "2026-11-26",
+              "effective_to": null
+            }
+          }
+        },
+        "jyuryo-b-20a": {
+          "name": "Jūryō dentō B, 20 A (従量電灯)",
+          "regions": [
+            "JP-16",
+            "JP-17"
+          ],
+          "revisions": {
+            "1": {
+              "checksum": "sha256:a8188fe274ba892f480ce4f66cc92de7a70673c3aef580db33145a58c0764ffb",
+              "effective_from": "2026-11-26",
+              "effective_to": null
+            }
+          }
+        },
+        "jyuryo-b-30a": {
+          "name": "Jūryō dentō B, 30 A (従量電灯)",
+          "regions": [
+            "JP-16",
+            "JP-17"
+          ],
+          "revisions": {
+            "1": {
+              "checksum": "sha256:61f2399a5ac9ebc2d38f44b361a4b81dbcaa99c79dbc2c8c439d3e3e7d7a1d1c",
+              "effective_from": "2026-11-26",
+              "effective_to": null
+            }
+          }
+        },
+        "jyuryo-b-40a": {
+          "name": "Jūryō dentō B, 40 A (従量電灯)",
+          "regions": [
+            "JP-16",
+            "JP-17"
+          ],
+          "revisions": {
+            "1": {
+              "checksum": "sha256:0d87164ca4480680b074f279030cd70526ff3d24a60be9d521001458defe094c",
+              "effective_from": "2026-11-26",
+              "effective_to": null
+            }
+          }
+        },
+        "jyuryo-b-50a": {
+          "name": "Jūryō dentō B, 50 A (従量電灯)",
+          "regions": [
+            "JP-16",
+            "JP-17"
+          ],
+          "revisions": {
+            "1": {
+              "checksum": "sha256:8a7887287e79f0fb6cf64def67d8b9926e07f436a53423371f8ac6739c87f3a7",
+              "effective_from": "2026-11-26",
+              "effective_to": null
+            }
+          }
+        },
+        "jyuryo-b-60a": {
+          "name": "Jūryō dentō B, 60 A (従量電灯)",
+          "regions": [
+            "JP-16",
+            "JP-17"
+          ],
+          "revisions": {
+            "1": {
+              "checksum": "sha256:833702f039a9cd40451f29c3421b5935ae56f0af48dccc803fffacc39d8f70fc",
+              "effective_from": "2026-11-26",
+              "effective_to": null
+            }
+          }
+        },
+        "jyuryo-next-10a": {
+          "name": "Jūryō dentō Next, 10 A (従量電灯ネクスト)",
+          "regions": [
+            "JP-16",
+            "JP-17"
+          ],
+          "revisions": {
+            "1": {
+              "checksum": "sha256:dc49aa9cfee5b8f55b4e56bed2897d5fdc6c07aacfadd8ce8e5341e909912016",
+              "effective_from": "2026-11-26",
+              "effective_to": null
+            }
+          }
+        },
+        "jyuryo-next-15a": {
+          "name": "Jūryō dentō Next, 15 A (従量電灯ネクスト)",
+          "regions": [
+            "JP-16",
+            "JP-17"
+          ],
+          "revisions": {
+            "1": {
+              "checksum": "sha256:7e9a6d3efeebd08217bd770d864e3a2e5b2e816a9ecbbb570212c946ac80d7b3",
+              "effective_from": "2026-11-26",
+              "effective_to": null
+            }
+          }
+        },
+        "jyuryo-next-20a": {
+          "name": "Jūryō dentō Next, 20 A (従量電灯ネクスト)",
+          "regions": [
+            "JP-16",
+            "JP-17"
+          ],
+          "revisions": {
+            "1": {
+              "checksum": "sha256:dcb1b4d7f572f561ea40b7db06b7b370fd008a4a2b44e5bb200001fa34672b54",
+              "effective_from": "2026-11-26",
+              "effective_to": null
+            }
+          }
+        },
+        "jyuryo-next-30a": {
+          "name": "Jūryō dentō Next, 30 A (従量電灯ネクスト)",
+          "regions": [
+            "JP-16",
+            "JP-17"
+          ],
+          "revisions": {
+            "1": {
+              "checksum": "sha256:10da5201ce34eb2b424f6a47355b518ee24273a318cd02d5f8625e741f5b59e6",
+              "effective_from": "2026-11-26",
+              "effective_to": null
+            }
+          }
+        },
+        "jyuryo-next-40a": {
+          "name": "Jūryō dentō Next, 40 A (従量電灯ネクスト)",
+          "regions": [
+            "JP-16",
+            "JP-17"
+          ],
+          "revisions": {
+            "1": {
+              "checksum": "sha256:431ce62cfa2a0d38758dcf839c1d2a01a340022cfcb42dbf0a9a9ffcedf8f045",
+              "effective_from": "2026-11-26",
+              "effective_to": null
+            }
+          }
+        },
+        "jyuryo-next-50a": {
+          "name": "Jūryō dentō Next, 50 A (従量電灯ネクスト)",
+          "regions": [
+            "JP-16",
+            "JP-17"
+          ],
+          "revisions": {
+            "1": {
+              "checksum": "sha256:6077a7054704c5f3da55a7600742c5071bf9a16243941b28ddba9a854c9ba6d9",
+              "effective_from": "2026-11-26",
+              "effective_to": null
+            }
+          }
+        },
+        "jyuryo-next-60a": {
+          "name": "Jūryō dentō Next, 60 A (従量電灯ネクスト)",
+          "regions": [
+            "JP-16",
+            "JP-17"
+          ],
+          "revisions": {
+            "1": {
+              "checksum": "sha256:008fdfdd2da770d7b6ad8af1acb2e1f3cd89ed73558c2b19d9a12b0b97a12b5d",
+              "effective_from": "2026-11-26",
+              "effective_to": null
+            }
+          }
+        }
+      }
+    }
+  }
+}

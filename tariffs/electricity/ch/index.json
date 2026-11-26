@@ -5,10 +5,10 @@
   "timezone": "Europe/Zurich",
   "vat_percent": "8.1",
   "availability": "partial",
-  "reason": "Grid operators' standard household tariffs are held where the regulator's figures show one rate for all hours, with energy, grid, metering, the federal levy and the municipal charge included. Most operators price day and night apart, and those tariffs are not held. Two utilities are held from their own tariff files without metering and municipal charges, so a bill priced from them is below a real bill.",
+  "reason": "Grid operators' standard household tariffs are held where the regulator's figures show one rate for all hours, with energy, grid, metering, the federal levy and the municipal charge included. Where an operator prices day and night apart or by season, the tariff is held only when the operator's own tariff file gives the hours and the regulator's figures confirm it. The others are not held. Two utilities are held from their own tariff files without metering and municipal charges, so a bill priced from them is below a real bill.",
   "reason_local": {
     "language": "de",
-    "text": "Hinterlegt sind die Standardtarife für Haushalte jener Netzbetreiber, deren Zahlen bei der ElCom einen einzigen Preis für alle Stunden zeigen, mit Energie, Netz, Messung, Netzzuschlag und Gemeindeabgaben. Die meisten Betreiber haben Hoch- und Niedertarif, und diese Tarife sind nicht hinterlegt. Zwei Werke sind aus ihren eigenen Tarifdateien ohne Messung und Gemeindeabgaben hinterlegt. Eine daraus berechnete Rechnung liegt daher unter einer echten Rechnung."
+    "text": "Hinterlegt sind die Standardtarife für Haushalte jener Netzbetreiber, deren Zahlen bei der ElCom einen einzigen Preis für alle Stunden zeigen, mit Energie, Netz, Messung, Netzzuschlag und Gemeindeabgaben. Hat ein Betreiber Hoch- und Niedertarif oder Saisontarife, ist der Tarif nur hinterlegt, wenn die Tarifdatei des Betreibers die Zeiten nennt und die Zahlen der ElCom sie bestätigen. Die übrigen sind nicht hinterlegt. Zwei Werke sind aus ihren eigenen Tarifdateien ohne Messung und Gemeindeabgaben hinterlegt. Eine daraus berechnete Rechnung liegt daher unter einer echten Rechnung."
   },
   "inputs": {
     "bill_start_day": {

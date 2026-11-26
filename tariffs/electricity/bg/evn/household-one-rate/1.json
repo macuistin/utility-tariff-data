@@ -1,0 +1,57 @@
+{
+  "schema": 1,
+  "name": "Regulated household, one rate",
+  "provider": "EVN Bulgaria Elektrosnabdyavane",
+  "effective_from": "2026-07-01",
+  "source": {
+    "id": "bg-kevr",
+    "url": "https://www.dker.bg/uploads/reshenia/2026/res-c-13-2026.pdf"
+  },
+  "prices_include_tax": false,
+  "bill": {
+    "total": {
+      "kind": "tax",
+      "mode": "added",
+      "name": "VAT",
+      "of": {
+        "kind": "sum",
+        "of": {
+          "access_distribution": {
+            "amount": "0.00419",
+            "kind": "per_kwh"
+          },
+          "access_transmission": {
+            "amount": "0.00018",
+            "kind": "per_kwh"
+          },
+          "distribution": {
+            "amount": "0.02347",
+            "kind": "per_kwh"
+          },
+          "energy": {
+            "kind": "energy_by_band",
+            "round_bands": true
+          },
+          "transmission": {
+            "amount": "0.00801",
+            "kind": "per_kwh"
+          }
+        }
+      },
+      "percent": "$country.vat_percent"
+    }
+  },
+  "bands": [
+    {
+      "name": "All day"
+    }
+  ],
+  "areas": {
+    "all": {
+      "rates": {
+        "All day": "0.09297"
+      },
+      "standing": "0"
+    }
+  }
+}
