@@ -1,0 +1,20 @@
+{
+  "entries": [
+    {
+      "country": "SG",
+      "provider_id": "pub",
+      "provider": "PUB",
+      "tariff_id": "domestic-potable-water",
+      "name": "Domestic potable water (PUB, Singapore)",
+      "page": "https://www.pub.gov.sg/Public/WaterLoop/Water-Price",
+      "read_on": "2026-11-27",
+      "effective_from": "2025-04-01",
+      "check_by": "2027-04-01",
+      "yearly_fixed": "0",
+      "blocks": [["0", "40", "3.24"], ["40", null, "4.39"]],
+      "limits": "month",
+      "tax": "GST",
+      "skipped": "PUB: the sanitary appliance fee and the support for households"
+    }
+  ]
+}

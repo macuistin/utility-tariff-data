@@ -1,0 +1,10 @@
+PT Perusahaan Listrik Negara (Persero), Penetapan Penyesuaian Tarif Tenaga Listrik (Tariff Adjustment)
+Bulan Oktober - Desember 2026
+Jakarta 22 Oktober 2026
+Reguler, biaya pemakaian (Rp/kWh), tarif reguler
+R-1/TR 900 VA-RTM 1.352,00
+R-1/TR 1.300 VA 1.444,70
+R-1/TR 2.200 VA 1.444,70
+R-2/TR 3.500 VA s.d. 5.500 VA 1.699,53
+R-3/TR, TM 6.600 VA ke atas 1.699,53
+Rekening Minimum RM1 = 40 (Jam Nyala) x Daya tersambung (kVA) x Biaya Pemakaian

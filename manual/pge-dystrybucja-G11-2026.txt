@@ -1,0 +1,21 @@
+Taryfa PGE Dystrybucja S.A. dla usług dystrybucji energii elektrycznej
+Decyzja Prezesa URE DRE.WRE.4211.50.7.2025.JTr z dnia 17 grudnia 2025 r.
+Biuletyn Branżowy URE - Energia elektryczna Nr 269 (4799) 17 grudnia 2025 r.
+na okres od dnia 1 stycznia 2026 r. do dnia 31 grudnia 2026 r.
+
+7.9. Grupy taryfowe G (strona 59 z 66). Stawki opłat netto. Grupa taryfowa G11
+Składnik stały stawki sieciowej, układ 1-fazowy [zł/m-c]: 5,50
+Składnik stały stawki sieciowej, układ 3-fazowy [zł/m-c]: 9,98
+Składnik zmienny stawki sieciowej, całodobowy [zł/kWh]: 0,3469
+Stawka jakościowa [zł/kWh]: 0,0331
+Stawka opłaty abonamentowej w rozliczeniu jednomiesięcznym [zł/m-c]: 4,50
+Stawka opłaty abonamentowej w rozliczeniu dwumiesięcznym [zł/m-c]: 2,25
+Stawka opłaty abonamentowej w rozliczeniu sześciomiesięcznym [zł/m-c]: 0,75
+
+7.11. Stawka opłaty OZE (strona 60 z 66) [zł/MWh]: 7,30
+7.12. Stawka opłaty kogeneracyjnej [zł/MWh]: 3,00
+7.13. Stawka opłaty mocowej, odbiorcy zużywający rocznie:
+poniżej 500 kWh [zł na miesiąc]: 4,29
+od 500 kWh do 1 200 kWh [zł na miesiąc]: 10,31
+powyżej 1 200 kWh do 2 800 kWh [zł na miesiąc]: 17,18
+powyżej 2 800 kWh [zł na miesiąc]: 24,05

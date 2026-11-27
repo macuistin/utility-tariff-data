@@ -1,0 +1,353 @@
+CENNÍK ZA DISTRIBÚCIU ELEKTRINY
+Domácnosti       platný od 1. 7. 2026 do 31. 12. 2026
+
+
+                                                        1
+    Tento cenník bol vypracovaný v zmysle rozhodnutia Úradu pre reguláciu sie-
+    ťových odvetvi č. 0362/2025/E zo dňa 22. 6. 2026, ktorým sa mení rozhod-
+    nutie č. 0078/2026/E zo dňa 12. 12. 2025. Rozhodnutie je zverejnené aj na
+    webovom sídle www.vsdas.sk.
+
+
+
+
+2
+       Obsah
+
+
+I.      Všeobecné podmienky                                                 4
+        Definovanie pojmov                                                  6
+        Maximálna rezervovaná kapacita                                      6
+        Rezervovaná kapacita                                                6
+        Odberné miesta spoločných častí a zariadení bytového domu           6
+        Hlavný istič                                                        7
+        Podmienky pripojenia odberného miesta, zmeny sadzby                 7
+        Zmena rezervovanej kapacity                                         8
+II.     Tarify pre odberateľov elektriny v domácnostiach                    9
+III.    Tarify za nedodržanie zmluvných hodnôt                             11
+IV.     Ostatné tarify fakturované prevádzkovateľom distribučnej sústavy   11
+
+
+
+
+                                                                                3
+Tarify za prístup do distribučnej sústavy a distribúciu elektriny pre odberateľov
+elektriny v domácnostiach
+
+
+
+    I. Všeobecné podmienky
+
+1. Tarify, sadzby a podmienky pre ich uplatňovanie uvedené v tomto rozhodnutí
+   platia podľa vyhlášky Úradu pre reguláciu sieťových odvetví č. 154/2024 Z.z.,
+   ktorou sa ustanovuje cenová regulácia v elektroenergetike a niektoré pod-
+   mienky vykonávania regulovaných činností v elektroenergetike v znení neskor-
+   ších predpisov (ďalej len „cenová vyhláška“) pre odberateľov elektriny v do-
+   mácnostiach, (ďalej len „odberateľ elektriny v domácnosti“), ktorých odberné
+   miesta sú pripojené na nn napäťovú úroveň do 1 kV, klasifikované podľa § 3
+   písm. b) bod 9. zákona č. 251/2012 Z.z. o energetike a o zmene a doplnení
+   niektorých zákonov v znení neskorších predpisov (aj pre chaty, garáže, záhrady
+   a podobne, ak odber neslúži na podnikateľskú činnosť) do distribučnej sústa-
+   vy prevádzkovateľa distribučnej sústavy Východoslovenská distribučná, a.s.,
+   Mlynská 31, 042 91 Košice, IČO 36 599 361 (ďalej len „prevádzkovateľ distri-
+   bučnej sústavy“).
+2. Tarify za distribúciu elektriny zahŕňajú aj ceny za prístup do prenosovej sústa-
+   vy, prenos elektriny a straty elektriny pri prenose.
+3. Tarify a sadzby platia pre každé jedno odberné miesto samostatne.
+4. Za jedno samostatné odberné miesto sa považuje odberné elektrické zariade-
+   nie jedného odberateľa elektriny na súvislom pozemku, do ktorého sa uskutoč-
+   ňuje distribúcia elektriny a ktorého odber je meraný jednou meracou súpravou
+   vo vlastníctve prevádzkovateľa distribučnej sústavy; to platí aj v prípade, ak
+   súvislosť pozemku je prerušená verejnou komunikáciou.
+5. Meranie odberu elektriny sa uskutočňuje podľa podmienok merania definova-
+   ných v Technických podmienkach a v prevádzkovom poriadku.
+6. Prekročenie kapacity, dodávky alebo odberu jalovej elektriny na odbernom
+   mieste zraniteľného odberateľa v domácnosti nie je obsahom vyúčtovania dis-
+   tribúcie elektriny
+7. Prevádzkovateľ distribučnej sústavy fakturuje ceny za použitie distribučnej
+   sústavy odberného miesta na základe stavov určeného meradla stanove-
+   ných odpočtom alebo iným spôsobom stanoveným v prevádzkovom poriadku
+   a v termíne stanovenom prevádzkovateľom distribučnej sústavy. Požiadavky
+   na odpočet nad štandard, podmienky a ceny sú definované v prevádzkovom
+   poriadku a Cenníku služieb a poplatkov. Ak odberateľ elektriny neumožní prí-
+4
+    stup k určenému meradlu alebo neumožní vykonanie odpočtu, vyúčtovanie sa
+    vykoná náhradným spôsobom upraveným v prevádzkovom poriadku.
+8. Tarifa za prístup do distribučnej sústavy za časť fakturačného obdobia sa určí
+    pre konkrétne odberné miesto alikvotne podľa počtu dní platnosti zmluvy, na
+    základe ktorej sa poskytuje prístup do distribučnej sústavy tohto odberného
+    miesta. Za každý deň fakturovaného obdobia sa vyúčtuje 1/365 súčtu dvanás-
+    tich mesačných pevných zložiek tarify.
+9. Ak je odberné miesto alebo odovzdávacie miesto fakturované na základe me-
+    sačného odpočtu určeného meradla a fakturačné obdobie je zhodné s kalen-
+    dárnym mesiacom, potom sa fakturuje cena za prístup do distribučnej sústavy
+    v €/mesiac alebo v €/A/mesiac. Ak nie je zhodné, potom sa pri určení ceny za
+    prístup do distribučnej sústavy postupuje podľa bodu č. 8 tohto článku. Ak je
+    odberné miesto fakturované na základe ročného odpočtu určeného meradla,
+    potom sa pri určení ceny za prístup do distribučnej sústavy postupuje podľa
+    bodu č. 8 tohto článku.
+10. Tarify za prístup do distribučnej sústavy sú kalkulované pri štandardnom pri-
+    pojení odberného miesta v zmysle Technických podmienok prevádzkovateľa
+    distribučnej sústavy jedným vedením (odbočením od hlavného vedenia alebo
+    zaslučkovaním) z jedného napäťového uzla distribučnej sústavy prevádzkova-
+    teľ distribučnej sústavy. Pri pripojení odberateľa elektriny so zvláštnymi nárok-
+    mi na distribúciu elektriny (ďalej iba „nadštandardná distribúcia“) sa tarifa za
+    prístup do distribučnej sústavy osobitne stanovuje podľa ustanovení cenovej
+    vyhlášky.
+11. V prípade plánovaného začatia podnikania v odbernom mieste odberateľa
+    elektriny v domácnosti, je odberateľ povinný zabezpečiť rozdelenie elektroin-
+    štalácie tak, aby bolo možné samostatne merať elektrinu odoberanú pre po-
+    treby domácnosti a elektrinu odoberanú na podnikanie a u prevádzkovateľa
+    distribučnej sústavy požiadať o pripojenie nového odberného miesta na pod-
+    nikanie.
+12. Na odbernom mieste pre obecné byty nesmie obec podnikať v energetike
+    v zmysle § 4 ods. 2 zákona č. 251/20212 Z.z. o energetike a o zmene a doplnení
+    niektorých zákonov v znení neskorších predpisov a elektrina distribuovaná pre
+    spotrebu obecných bytov nesmie byť použitá na podnikanie.
+13. O zriadenie odberného miesta pre obecné byty žiada prevádzkovateľa distri-
+    bučnej sústavy žiadosťou v písomnej podobe obec. K žiadosti obec priloží aj
+    doklady preukazujúce splnenie podmienok v bode 12. tohto článku.
+14. Ak prevádzkovateľ distribučnej sústavy zistí, že odberné miesto pre obecné
+    byty nespĺňa podmienky bodu 12 tohto článku, má právo prehodnotiť pride-
+    lenie tarify pre domácnosť a dofakturovať spotrebu elektriny v sadzbe X3-C2
+    podľa podmienok tohto rozhodnutia.
+                                                                                   5
+15. Ak prevádzkovateľ distribučnej sústavy zistí, že odberné miesto, ktoré má
+    pridelenú tarifu pre domácnosť, je využívané na podnikateľské účely a teda
+    neslúži výlučne na vlastnú spotrebu fyzickej osoby v domácnosti, má právo
+    prehodnotiť pridelenie tarify pre domácnosť a prideliť odbernému miestu prí-
+    slušnú sadzbu pre odberateľov mimo domácnosti podľa podmienok tohto roz-
+    hodnutia. O tejto skutočnosti informuje prevádzkovateľ distribučnej sústavy
+    príslušného dodávateľa elektriny.
+16. Definovanie pojmov
+    16.1. Maximálna rezervovaná kapacita (ďalej len „MRK“) odberného miesta
+           je stanovená ampérickou hodnotou ističa pred elektromerom dohod-
+           nutá v zmluve o pripojení, resp. určená v pripojovacích podmienkach
+           prevádzkovateľa distribučnej sústavy a uvádza sa v ampéroch. Ak od-
+           berné miesto nie je vybavené hlavným ističom pred elektromerom ale-
+           bo nie je možné zistiť jeho hodnotu, za MRK sa považuje hodnota 50 A.
+    16.2. Rezervovaná kapacita (ďalej len „RK“) je hodnota výkonu dohodnutá na
+           základe zmluvy o prístupe do distribučnej sústavy a distribúcii elektriny
+           alebo na základe rámcovej distribučnej zmluvy, podľa ktorej sa fakturu-
+           je tarifa za prístup do distribučnej sústavy. RK pre domácnosti je totož-
+           ná s hodnotou MRK a je stanovená ampérickou hodnotou ističa pred
+           elektromerom. Ak odberné miesto nie je vybavené hlavným ističom
+           pred elektromerom alebo nie je možné zistiť jeho hodnotu, pre účely
+           fakturácie tarify za prístup do distribučnej sústavy je určená hodnota vo
+           výške 50A.
+    16.3. Odberné miesta spoločných častí a spoločných zariadení bytového
+           domu
+           16.3.1. Distribúcia a dodávka elektriny do odberných miest spoločných
+                     častí a spoločných zariadení bytového domu, ktoré sú spojené
+                     výlučne s užívaním len zranitelnými odberateľmi elektriny v do-
+                     mácnosti, sa považuje za distribúciu a dodávku elektriny pre
+                     odberateľa v domácnosti. Podrobnosti ustanovuje prevádzkový
+                     poriadok prevádzkovateľa distribučnej sústavy (ďalej len „pre-
+                     vádzkový poriadok“)
+           16.3.2. Ak správca bytového domu alebo spoločenstvo vlastníkov by-
+                     tov a nebytových priestorov vyhlási prevádzkovateľovi distri-
+                     bučnej sústavy spôsobom uvedeným v jeho prevádzkovom po-
+                     riadku, že spoločné časti a spoločné zariadenia bytového domu
+                     sú užívané:
+                     a) výlučne iba odberateľmi elektriny v domácnosti,
+                     b) poskytovateľmi verejných služieb, ktoré slúžia pre potreby
+                        domácností bytového domu (telekomunikačné a dátové,
+6
+                     služby poskytované držiteľmi licencií v oblasti telefónie, re-
+                     transmisie, dátových a telekomunikačných prenosov ako aj
+                     poskytovateľmi služieb v oblasti inžinierskych sietí - napr.
+                     teplovody, plynovody, vodovody a pod. prevádzkovateľ dis-
+                     tribučnej sústavy pridelí na odbernom mieste spoločných
+                     častí a spoločných zariadení bytového domu sadzbu za po-
+                     užitie distribučnej sústavy pre odberateľov elektriny v do-
+                     mácnosti
+        16.3.3. Podklady potrebné na preukázanie uvedených skutočností
+                  predloží správca bytového domu alebo spoločenstvo vlastníkov
+                  bytov a nebytových priestorov prevádzkovateľovi distribučnej
+                  sústavy spôsobom uvedeným v prevádzkovom poriadku sám,
+                  ak má uzatvorenú samostatnú zmluvu o prístupe do distribuč-
+                  nej sústavy a distribúcii elektriny pre dotknuté odberné miesta,
+                  inak prostredníctvom svojho dodávateľa elektriny, ak má uza-
+                  tvorenú s dodávateľom elektriny zmluvu o združenej dodávke
+                  elektriny do dotknutých odberných miest.
+16.4.   Ak je na odbernom mieste odberateľom územný samosprávny subjekt
+        obec (ďalej len „obec“) a prostredníctvom tohto odberného miesta sa
+        uskutočňuje distribúcia elektriny výlučne pre zabezpečenie fyzickej do-
+        dávky elektriny pre byty a nebytové priestory domácností (napr. soci-
+        álne byty) (ďalej len „obecné byty“), ktorých je výlučným vlastníkom
+        obec, považuje sa takéto odberné miesto za odberné miesto jedné-
+        ho odberateľa elektriny v domácnosti (ďalej len „odberné miesto pre
+        obecné byty“).
+16.5.   Hlavný istič pred elektromerom je istiace zariadenie odberateľa elek-
+        triny, ktoré svojou funkciou obmedzuje výšku maximálneho odobera-
+        ného elektrického výkonu (MRK) v odbernom mieste. Hlavný istič pred
+        elektromerom nesmie mať vyššiu ampérickú hodnotu ako je MRK od-
+        berného miesta a musí byť opatrený nezameniteľným označením jeho
+        prúdovej hodnoty a zabezpečený prevádzkovou plombou prevádzko-
+        vateľa distribučnej sústavy, pričom plombou musí byť opatrený hlavný
+        kryt ističa.
+16.6.   V prípade pripojenia nového odberného miesta do distribučnej sústavy,
+        resp. ukončenia odberu v priebehu kalendárneho mesiaca, je účtovaná
+        alikvotná časť tarify podľa bodu 8. a 9. tohto článku.
+16.7.   Sadzba pre odberné miesta domácností sa prideľuje na základe požia-
+        davky dodávateľa elektriny doručenej v zmysle TŠVD. Sadzba sa nemení
+        automaticky podľa výšky ročnej spotreby. Zmeniť sadzbu za predchá-
+        dzajúce obdobie nie je možné. Pre odberné miesta v mesačnom odpoč-
+                                                                                 7
+           tovom cykle, je možné sadzbu zmeniť len k 1. dňu v mesiaci nasledujú-
+           com po doručení takejto požiadavky.
+    16.8. Zvýšenie hodnoty MRK (ak to dovoľujú technické možnosti distribučnej
+           sústavy), resp. zníženie hodnoty MRK pri existujúcom odbernom mieste
+           je možné len uzavretím novej zmluvy o pripojení.
+    16.9. Pri zmene RK je odberateľ povinný predložiť PDS správu o odbornej pre-
+           hliadke a odbornej skúške (revízna správa) o výmene hlavného ističa
+           pred elektromerom.
+    16.10. Spoločné odberné a odovzdávacie miesto
+           Spoločné odberné a odovzdávacie miesto je miesto fyzického odberu
+           elektriny z distribučnej sústavy a zároveň fyzickej dodávky elektriny do
+           distribučnej sústavy. Prevádzkovateľ distribučnej sústavy uzatvorí pre
+           spoločné odberné a odovzdávacie miesto zvlášť zmluvu o pripojení pre
+           fyzický odber a zmluvu o pripojení pre fyzickú dodávku elektriny do dis-
+           tribučnej sústavy.
+    16.11. Pre odberné miesta, na ktorých prevádzkovateľ distribučnej sústavy na-
+           inštaloval na žiadosť odberateľa elektriny v domácnosti za účelom zdie-
+           ľania elektriny inteligentný merací systém, sa uplatní sadzba D3 Aktiv,
+           a to odo dňa, kedy bol odberateľovi elektriny v domácnosti inteligentný
+           merací systém nainštalovaný.
+
+
+
+
+8
+  II. Tarify za prístup do distribučnej sústavy
+      a distribúciu elektriny pre odberateľov elektriny
+      v domácnostiach
+
+                                                                   Tarifa za
+                                                                  distribúciu
+                                                                              Tarifa za
+                                              Tarifa za prístup    elektriny
+                                       Bod do distribučnej sústavy vrátane distribučné
+  Názov                     Spotreba                                           straty
+                Popis                 zlomu                        prenosu
+  sadzby                    elektriny
+                                      v kWh                        elektriny
+                                                    €/me- €/A/ €/kW/
+                                                                                     €/kWh           €/kWh
+                                                     siac mesiac mesiac
+       D1  Jedno-             Nižšia                1,3000        x                  0,0511
+                                          1 548
+       D2 pásmová             Vyššia                4,8211        x                  0,0238
+                                                                                                   0,005267
+       D3    Dvoj-
+                                                       x      0,2954                 0,0093
+      Aktiv pásmová
+Pozn.: Bod zlomu v kWh znamená objem ročnej spotreby elektriny, pri ktorom je cena za použitie distribučnej
+sústavy rovnaká pri nízkej a vysokej spotrebe. Pri objeme distribúcie elektriny vyššom ako je bod zlomu v kWh,
+je výhodnejšie byť zaradený v časti vyššej spotreby elektriny.
+
+
+1. Výška pevnej mesačnej platby za použitie distribučnej sústavy sa určí podľa ta-
+   buľky sadzieb pre každé odberné miesto samostatne, pre sadzbu X4-D3 Aktiv za
+   1A ampérickej hodnoty hlavného ističa (pred elektromerom).
+2. Výška platby za distribúciu elektriny sa vypočíta ako súčin tarify za distribúciu
+   elektriny a množstva odobranej elektriny v kWh za príslušné obdobie.
+3. Podmienky pre distribučné sadzby:
+   a) X4-D1 a X4-D2 – Jednopásmová sadzba pre jednotarifné odberné miesta,
+      ktoré využívajú obchodný produkt s nižšou spotrebou elektriny (X4-D1), resp.
+      s vyššou spotrebou elektriny (X4-D2). Sadzby sú určené pre odberné miesta
+      s bežnými elektrickými spotrebičmi, ktoré nemajú elektrické vykurovanie ani
+      elektrický ohrev vody (záhrady, garáže, chaty, byty a rodinné domy).
+      Nevidiacim odberateľom elektriny, ktorí sa preukážu odporúčaním z Únie ne-
+      vidiacich a slabozrakých Slovenska alebo osobám, ktoré sa ako odberatelia
+      elektriny starajú o nevidiacich, bývajú s nimi v spoločnej domácnosti a majú
+      takéto odporúčanie, uplatní sa po ich požiadaní pre sadzbu X4-D2 tarifa za
+      prístup do distribučnej sústavy vo výške 2,0986 €/mesiac za odberné miesto
+      trvalého pobytu nevidiaceho.
+
+                                                                                                                 9
+     b) X4-D3 Aktiv – Dvojpásmová sadzba s dvojtarifným meraním pre odberné
+        miesta s trojfázovým pripojením, ktoré využívajú obchodný produkt v pásme
+        VT a NT.
+        Sadzba je odporúčaná pre plne elektrifikovanú domácnosť s využitím elektri-
+        ny na vykurovanie, prípravu teplej úžitkovej vody, na varenie a ostatné účely.
+        Táto sadzba môže byť využitá aj pre odberné miesta s nabíjacou stanicou
+        elektrických vozidiel.
+        Pre bezpečné odoberanie sa odporúča, aby prívody elektrického obvodu vy-
+        kurovacích telies, resp. nabíjacej stanice boli inštalované napevno – bez zá-
+        suviek.
+        Nevidiacim odberateľom elektriny s pridelenou sadzbou X4-D3 Aktiv, ktorí
+        sa preukážu napr. odporúčaním z Únie nevidiacich a slabozrakých Slovenska
+        alebo osobám, ktoré sa ako odberatelia elektriny starajú o nevidiacich, býva-
+        jú s nimi v spoločnej domácnosti a majú takéto odporúčanie, uplatní sa po ich
+        požiadaní pre túto sadzbu tarifa za prístup do distribučnej sústavy vo výške
+        0,1651 €/A/mesiac za odberné miesto trvalého pobytu nevidiaceho.
+     c) V dvojtarifných sadzbách sa distribúcia elektriny poskytuje v rovnakej cene
+        platnosti VT a NT. Pásmo nízkej tarify sa poskytuje najmenej osem hodín den-
+        ne s určenými intervalmi času prevádzky v pásme NT, pričom aspoň jeden
+        interval sa poskytuje v nepretržitom trvaní minimálne tri hodiny. Odporúča
+        sa zabezpečenie blokovania elektrických spotrebičov proti ich zapnutiu v čase
+        platnosti vysokej tarify. Pravidlá pre časové ovládanie dvojtarifových meraní
+        sú uvedené na webovom sídle prevádzkovateľa distribučnej sústavy.
+     d) Odberným miestam s priradenou sadzbou X4-D1 a X4-D2, ktoré po 1. 1. 2026
+        inštalujú zariadenie na výrobu elektriny a/alebo zariadenie pre uskladnenie
+        elektriny, bude automaticky priradená sadzba X4-D3 Aktiv (sadzba X4-D3
+        platná do 31. 12. 2025) s časovým pásmom NT v trvaní osem hodín denne,
+        pokiaľ užívateľ distribučnej sústavy prostredníctvom svojho dodávateľa elek-
+        triny nepožiada o priradenie iného časového pásma VT a NT v sadzbe X4-D3
+        Aktiv. Nevidiaci odberatelia elektriny s pridelenou sadzbou X4-D2 budú pre-
+        radení do sadzby pre nevidiacich X4-D3 Aktiv.
+     e) Sadzba X4 -D4, D5 a D6 sa s účinnosťou k 01. 01. 2026 ruší. Odberateľom
+        elektriny v domácnosti, ktorí do 31. 12. 2025 využívali sadzbu X4 -D4, D5
+        a D6, prevádzkovateľ distribučnej sústavy s účinnosťou od 01. 01. 2026 prira-
+        dí sadzbu D3 Aktiv, pričom sa nemení od 01. 01. 2026 pre týchto odberateľov
+        pridelené časové pásmo VT a NT, ktoré majú k 31. 12. 2025.
+
+
+
+
+10
+  III. Tarify za nedodržanie zmluvných hodnôt
+
+V spoločnom odbernom a odovzdávacom mieste sa tarify za nedodržanie zmluv-
+ných hodnôt v odovzdávacom mieste podľa tohto článku uplatňujú u užívateľa dis-
+tribučnej sústavy podľa tohto rozhodnutia
+
+1. Prekročenie MRK v odovzdávacom mieste (výrobné zariadenie a/alebo zaria-
+   denie na uskladnenie elektriny)
+   1.1. Cena za prekročenie MRK sa vypočíta ako súčin tarify za prekročenie
+          MRK a prekročenia MRK v danom mesiaci. Prekročenie MRK sa vyhod-
+          nocuje mesačne a cena sa uplatňuje na celý mesiac, v ktorom došlo
+          k prekročeniu.
+   1.2. Tarifa za prekročenie MRK nad zmluvne dohodnutú alebo stanovenú
+          hodnotu sa fakturuje formou prirážky vo výške 16,5315 €/kW.
+
+
+
+  IV. Ostatné tarify fakturované prevádzkovateľom
+      distribučnej sústavy
+
+Odvod podľa § 10 ods. 1 písm. b) zákona o Národnom jadrovom fonde. Odvod nie
+je príjmom plynúcim z podnikania prevádzkovateľov sústav podľa § 10 ods. 9 záko-
+na o Národnom jadrovom fonde.
+
+
+Zoznam skratiek:
+IMS – inteligentný merací systém alebo určené meradlo s meraním štvrťhodinové-
+ho elektrického činného výkonu s mesačným odpočtom typu A
+Nameraný výkon – najvyššia nameraná stredná hodnota elektrického činného vý-
+konu v 15 minútovej meracej perióde, ktorý bol meraný počas kalendárneho me-
+siaca v dňoch pondelok až nedeľa počas celých 24 hodín denne.
+
+
+Tarify uvedené v tomto rozhodnutí sú bez dane z pridanej hodnoty a bez spot-
+rebnej dane z elektriny.
+
+
+                                                                              11
+Východoslovenská distribučná, a.s.
+Mlynská 31, 042 91 Košice
+www.vsds.sk
+info@vsdas.sk
+T: 0850 123 312
+

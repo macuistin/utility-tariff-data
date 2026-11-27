@@ -1,0 +1,20 @@
+{
+  "entries": [
+    {
+      "country": "AU",
+      "provider_id": "sa-water",
+      "provider": "SA Water",
+      "tariff_id": "residential-water",
+      "name": "Residential water supply (SA Water, state-wide)",
+      "page": "https://www.sawater.com.au/my-account/water-and-sewerage-prices/water-prices/residential-water-prices",
+      "read_on": "2026-11-27",
+      "effective_from": "2026-07-01",
+      "check_by": "2027-07-01",
+      "yearly_fixed": "352.00",
+      "blocks": [["0", "0.3836", "2.520"], ["0.3836", "1.4247", "3.597"], ["1.4247", null, "3.898"]],
+      "limits": "day",
+      "tax": null,
+      "skipped": "SA Water: sewerage (charged on property value, not use), recycled water and the rating on abuttal charge"
+    }
+  ]
+}
