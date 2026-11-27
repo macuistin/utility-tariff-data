@@ -1,0 +1,9 @@
+{
+  "schema": 1,
+  "feed": "elprisetjustnu",
+  "area": "se3",
+  "latest": "2026-11-28",
+  "months": {
+    "2026-11": "sha256:a737cdbc4f2d76dc35cdee6256cafedc89f84265cf77911fe7633e660d397cf7"
+  }
+}
