@@ -45,12 +45,52 @@
     "co-op-energy": {
       "name": "Co-op Energy",
       "tariffs": {
+        "co-op-energy-coop-fix-12m-26-11-27": {
+          "name": "Co-op 12M Fixed November 2026 v4",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:3c323659aef7053729589234cdfcdda9ef9d6dafd92137c3846e5fff02c82263",
+              "effective_from": "2026-11-27",
+              "effective_to": null
+            }
+          }
+        },
+        "co-op-energy-coop-fix-18m-26-11-27": {
+          "name": "Co-op 18M Fixed November 2026 v4",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:ad42bab53f4759ce27dd2a1aa4cfe69686816190ee818d99012989deac9e2a94",
+              "effective_from": "2026-11-27",
+              "effective_to": null
+            }
+          }
+        },
         "co-op-energy-coop-var-23-04-01": {
           "name": "Co-op Flexible",
           "revisions": {
             "1": {
               "checksum": "sha256:b4ba8df57af1d572fee2328048404bc819e9137d9b6b230df783443ed1ace4a8",
               "effective_from": "2026-11-24",
+              "effective_to": null
+            }
+          }
+        },
+        "co-op-energy-cp-12m-26-11-27": {
+          "name": "Co-op Community Power November 2026 v4",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:e4eb5c7fa573699d8ac499461783372b8f9157119a7f76947e327716e256a9bf",
+              "effective_from": "2026-11-27",
+              "effective_to": null
+            }
+          }
+        },
+        "co-op-energy-cp-18m-26-11-27": {
+          "name": "Co-op Community Power 18M Fixed November 2026 v4",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:36c07867bb2f30f1ab5e82781756730fc81b643af95ae74793fc0d2de0b40408",
+              "effective_from": "2026-11-27",
               "effective_to": null
             }
           }
@@ -62,10 +102,22 @@
       "tariffs": {
         "edf-simply-fixed-2yr-nov2028-v5": {
           "name": "Simply Fixed 2Yr Nov28v5",
+          "replaced_by": "edf/edf-simply-fixed-2yr-nov2028-v6",
           "revisions": {
             "1": {
-              "checksum": "sha256:5a3924a429f2a9b2ebdab3fc1147303aea4edcad9ed7e4f4f8fc01b8f1bad2e1",
+              "checksum": "sha256:3bbcb5400aebfb42a1135b88d86be7183256b84cdc78ef6da125be8c5fa44f03",
               "effective_from": "2026-11-24",
+              "effective_to": "2026-11-27"
+            }
+          }
+        },
+        "edf-simply-fixed-2yr-nov2028-v6": {
+          "name": "Simply Fixed 2Yr Nov28v6",
+          "replaces": "edf/edf-simply-fixed-2yr-nov2028-v5",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:5b7d023e7b14d462274fc39c2a0d43c3706cd75bfaa100dd06ae11fcaa6360d3",
+              "effective_from": "2026-11-27",
               "effective_to": null
             }
           }
@@ -92,6 +144,16 @@
             }
           }
         },
+        "edf-simply-fixed-may2028": {
+          "name": "Simply Fixed May28",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:b2dd92061c0e398becf18eb4cbdec2a2bd5a99a8a7d3a36ecae3325e8a5772f0",
+              "effective_from": "2026-11-27",
+              "effective_to": null
+            }
+          }
+        },
         "edf-simply-fixed-nov2027-v5": {
           "name": "Simply Fixed Nov27v5",
           "replaced_by": "edf/edf-simply-fixed-nov2027-v6",
@@ -105,11 +167,23 @@
         },
         "edf-simply-fixed-nov2027-v6": {
           "name": "Simply Fixed Nov27v6",
+          "replaced_by": "edf/edf-simply-fixed-nov2027-v7",
           "replaces": "edf/edf-simply-fixed-nov2027-v5",
           "revisions": {
             "1": {
-              "checksum": "sha256:b4f90e0b6bbf0ffc52f568ad58abf6a4387855cee32ceddf530a029ae644c25d",
+              "checksum": "sha256:f5b59521af5a41dd8444aa80a2bc0bd39a97a2d0262654e86cbc35a658fc0c9a",
               "effective_from": "2026-11-25",
+              "effective_to": "2026-11-27"
+            }
+          }
+        },
+        "edf-simply-fixed-nov2027-v7": {
+          "name": "Simply Fixed Nov27v7",
+          "replaces": "edf/edf-simply-fixed-nov2027-v6",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:ed4f5078129c62aedd1889c8f3ad9abef919cf7c794f7d007f73c26ad374f0f2",
+              "effective_from": "2026-11-27",
               "effective_to": null
             }
           }
@@ -229,10 +303,22 @@
         },
         "eon-next-next-secure-fixed-12m-v107": {
           "name": "Next Secure Fixed 12m v107",
+          "replaced_by": "eon-next/eon-next-next-secure-fixed-12m-v108",
           "revisions": {
             "1": {
-              "checksum": "sha256:2863f7b098aa9783929a92b0d3481ee233cff9bf316dadf89e2fc9943a3a0c9d",
+              "checksum": "sha256:50b018633e4685197d24469401634c8ee6fa31cc01d6aa3a0349f14a3dafd4c5",
               "effective_from": "2026-11-24",
+              "effective_to": "2026-11-27"
+            }
+          }
+        },
+        "eon-next-next-secure-fixed-12m-v108": {
+          "name": "Next Secure Fixed 12m v108",
+          "replaces": "eon-next/eon-next-next-secure-fixed-12m-v107",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:02e3f8b3caf171f62f1f39d6681ca33bb3a406eaad0790e6bd8e73ca43b67e96",
+              "effective_from": "2026-11-27",
               "effective_to": null
             }
           }
@@ -262,13 +348,25 @@
             }
           }
         },
-        "18m-fix-nov26": {
-          "name": "Good Energy 18m Fix Nov26",
+        "18m-fix-dec26": {
+          "name": "Good Energy 18m Fix Dec26",
+          "replaces": "good-energy/18m-fix-nov26",
           "revisions": {
             "1": {
-              "checksum": "sha256:a71a1bbe3a81d5ebefd74dcbc7691f005bae79f780e8ee3db34ea9eb1eac1fa7",
-              "effective_from": "2026-10-29",
+              "checksum": "sha256:2242dc837a9b7aa5f221b7205e7553affd7ab2681f527b5e7e405f3a2fc15dd3",
+              "effective_from": "2026-11-25",
               "effective_to": null
+            }
+          }
+        },
+        "18m-fix-nov26": {
+          "name": "Good Energy 18m Fix Nov26",
+          "replaced_by": "good-energy/18m-fix-dec26",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:b5c633ad2e9cca500049b6c1632fda8799fe1d82e9a95e7a4335fc811d4f0516",
+              "effective_from": "2026-10-29",
+              "effective_to": "2026-11-25"
             }
           }
         },
@@ -312,12 +410,32 @@
             }
           }
         },
+        "octopus-oe-fix-12m-26-11-27": {
+          "name": "Octopus 12M Fixed November 2026 v4",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:fdfb3580565d8bce1d858920a4f4e319738e19d690aad2eda65bfb2884746a59",
+              "effective_from": "2026-11-27",
+              "effective_to": null
+            }
+          }
+        },
         "octopus-oe-fix-18m-26-11-09": {
           "name": "Octopus 18M Fixed November 2026 v2",
           "revisions": {
             "1": {
               "checksum": "sha256:16adae26063faa1c8d586da2a1e97d309eeffdf365248a160d81a96ae332fed3",
               "effective_from": "2026-11-21",
+              "effective_to": null
+            }
+          }
+        },
+        "octopus-oe-fix-18m-26-11-27": {
+          "name": "Octopus 18M Fixed November 2026 v4",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:2eee86691095deeba5bc920aa1be1691a5e69c7e206b1fb013a4ebf645432b6a",
+              "effective_from": "2026-11-27",
               "effective_to": null
             }
           }
@@ -344,6 +462,11 @@
               "checksum": "sha256:db041ca4f3d3cc475d097a0b764889707e499318398249d2a545f80ff15f95f3",
               "effective_from": "2026-10-01",
               "effective_to": "2027-01-01"
+            },
+            "2": {
+              "checksum": "sha256:beb0f6b1eb0bae41e3254f3a7e45f89dc792ebd0c12e6289a06fcfd372b96707",
+              "effective_from": "2027-01-01",
+              "effective_to": "2027-04-01"
             }
           }
         },
@@ -354,6 +477,11 @@
               "checksum": "sha256:8f1984df94779da13e3df18c3161aa12fe2aded57915eb29b17e1d463969be51",
               "effective_from": "2026-10-01",
               "effective_to": "2027-01-01"
+            },
+            "2": {
+              "checksum": "sha256:04e91ff4d4dc36fb407c5ec2f09febc54834c4bead3cc3765ce3794ecd110880",
+              "effective_from": "2027-01-01",
+              "effective_to": "2027-04-01"
             }
           }
         },
@@ -364,6 +492,11 @@
               "checksum": "sha256:d6693b23d2a29b5b5d10565703810a3bfc506a392192045b84fa29a303465a60",
               "effective_from": "2026-10-01",
               "effective_to": "2027-01-01"
+            },
+            "2": {
+              "checksum": "sha256:67172649d24c43e61ad800000ad31633bca5a9c228599374dfcc294ab9ffd2fd",
+              "effective_from": "2027-01-01",
+              "effective_to": "2027-04-01"
             }
           }
         }
@@ -433,40 +566,88 @@
       "tariffs": {
         "fixed-104": {
           "name": "Fixed 104",
+          "replaced_by": "utility-warehouse/fixed-105",
           "revisions": {
             "1": {
-              "checksum": "sha256:de8d451dd9660eda6f792c6249c54344f1d8c4dd2f8e734a85c4656d6f14f2d1",
+              "checksum": "sha256:d635ef24c891b5884e53013af7944fd72757cea9c59024ad0bc887657efdb4cd",
               "effective_from": "2026-11-18",
+              "effective_to": "2026-11-25"
+            }
+          }
+        },
+        "fixed-105": {
+          "name": "Fixed 105",
+          "replaces": "utility-warehouse/fixed-104",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:49267ae867c858ae7f7eee954f687bc0d2aebac9e270d30b05e5e06f61189321",
+              "effective_from": "2026-11-25",
               "effective_to": null
             }
           }
         },
         "fixed-essentials-104": {
           "name": "Fixed Essentials 104",
+          "replaced_by": "utility-warehouse/fixed-essentials-105",
           "revisions": {
             "1": {
-              "checksum": "sha256:c2ca218d734dcc406c9fa95b61f66c94e4597ed2b295a4a23a3e8d2c50caeb39",
+              "checksum": "sha256:c0f0d804a8094d7dce2b72bda005e331cb2f1e10d941d3aabbd1c224e2423f09",
               "effective_from": "2026-11-18",
+              "effective_to": "2026-11-25"
+            }
+          }
+        },
+        "fixed-essentials-105": {
+          "name": "Fixed Essentials 105",
+          "replaces": "utility-warehouse/fixed-essentials-104",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:0e2a8967cf0174aa09d2edbc82a5a7131b03cd56e36ce4801307449e51f35a6f",
+              "effective_from": "2026-11-25",
               "effective_to": null
             }
           }
         },
         "fixed-saver-104": {
           "name": "Fixed Saver 104",
+          "replaced_by": "utility-warehouse/fixed-saver-105",
           "revisions": {
             "1": {
-              "checksum": "sha256:0181ea60a9d83c82c470f8e48ea2fa2069cd0b42a7636893b1ca96e57eb64156",
+              "checksum": "sha256:7ec58a473d155cbd327433ecd71a496f7f493f1eb1441175689433763204f184",
               "effective_from": "2026-11-18",
+              "effective_to": "2026-11-25"
+            }
+          }
+        },
+        "fixed-saver-105": {
+          "name": "Fixed Saver 105",
+          "replaces": "utility-warehouse/fixed-saver-104",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:574410a6f3ad533b810dbe881efaa469501c9bb64b0cfd606d62da4d139be483",
+              "effective_from": "2026-11-25",
               "effective_to": null
             }
           }
         },
         "fixed-start-104": {
           "name": "Fixed Start 104",
+          "replaced_by": "utility-warehouse/fixed-start-105",
           "revisions": {
             "1": {
-              "checksum": "sha256:17ca9dbb9de36945c018c3786eeb58bfb58bc47bd7c86dd09508b91f6db12314",
+              "checksum": "sha256:b2202465cf93f0c840bbb08744c6a31569dc3459e3d6705c29083a06ddf9a3e5",
               "effective_from": "2026-11-18",
+              "effective_to": "2026-11-25"
+            }
+          }
+        },
+        "fixed-start-105": {
+          "name": "Fixed Start 105",
+          "replaces": "utility-warehouse/fixed-start-104",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:125886987274faf96d4953b493e5c20033a215295f534a618825e96b80ea6eaa",
+              "effective_from": "2026-11-25",
               "effective_to": null
             }
           }

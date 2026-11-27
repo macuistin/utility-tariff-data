@@ -1,9 +1,9 @@
-Last updated: 2026-11-24
+Last updated: 2026-11-27
 
 # Portugal: gas tariff status
 
 - Coverage: partial. Household gas offers of every supplier and the regulated tariff, from the regulator's price simulator, for low-pressure supplies up to 10,000 m3 a year. Each consumption step is an area. VAT and levies are not in the prices and the VAT rate depends on the supply, so a bill carries no tax line. Offers indexed to the wholesale price, offers that include a paid service, dual fuel bundles and prices the simulator lists to more than six decimal places are not held.
-- Held: 12 providers and 70 tariffs. 70 current, 0 upcoming, 0 ended, as of the date above.
+- Held: 12 providers and 71 tariffs. 71 current, 0 upcoming, 0 ended, as of the date above.
 
 | Provider | Tariff | Direction | Status today | Valid from | Valid to | Revisions | Last changed | Source |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -56,6 +56,7 @@ Last updated: 2026-11-24
 | Plenitude | TARIFA POWER (GAS) | import | Current | 2026-11-05 | open | 1 | 2026-11-05 | pt-erse-offers-gas |
 | Plenitude | TARIFA TS FÁCIL PLUS GAS (GAS) | import | Current | 2026-11-05 | open | 1 | 2026-11-05 | pt-erse-offers-gas |
 | Plenitude | TARIFA WEB FACIL PLUS GAS (GAS) | import | Current | 2026-11-05 | open | 1 | 2026-11-05 | pt-erse-offers-gas |
+| Plenitude | TARIFA FÁCIL PLUS GAS (GAS) | import | Current | 2026-11-05 | open | 1 | 2026-11-05 | pt-erse-offers-gas |
 | Plenitude | TARIFA FÁCIL PLUS GAS (GAS) | import | Current | 2026-11-05 | open | 1 | 2026-11-05 | pt-erse-offers-gas |
 | Repsol | VIVA+ Gás Natural DD (VIVA+ Gás Natural - 13% Desc (DD)) | import | Current | 2026-10-19 | open | 1 | 2026-10-19 | pt-erse-offers-gas |
 | Repsol | VIVA+ Gás Natural DD + FE (VIVA+ Gás Natural - 15% Desc (DD + FE)) | import | Current | 2026-10-19 | open | 1 | 2026-10-19 | pt-erse-offers-gas |

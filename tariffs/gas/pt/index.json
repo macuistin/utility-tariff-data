@@ -585,6 +585,16 @@
             }
           }
         },
+        "eniplenitude-23": {
+          "name": "TARIFA FÁCIL PLUS GAS (GAS)",
+          "revisions": {
+            "1": {
+              "checksum": "sha256:48bf21dd4b97a8fd8621cc3a715319168310b4a196535f8ad604641385012183",
+              "effective_from": "2026-11-05",
+              "effective_to": null
+            }
+          }
+        },
         "eniplenitude-27": {
           "name": "TARIFA FÁCIL PLUS GAS (GAS)",
           "revisions": {

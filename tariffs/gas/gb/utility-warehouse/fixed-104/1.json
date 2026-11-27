@@ -4,11 +4,13 @@
   "provider": "Utility Warehouse",
   "service": "gas",
   "effective_from": "2026-11-18",
+  "effective_to": "2026-11-25",
   "source": {
     "id": "utility-warehouse-gas-gb",
     "url": "https://assets.ctfassets.net/0sn9t583vfn4/65si5BZ6tCxX1GhhpmeZpb/fb1a0c1edc8c3069cd9d73785506dc57/Energy_Tariff_Information_Label_-_Fixed_104.pdf"
   },
   "prices_include_tax": false,
+  "replaced_by": "utility-warehouse/fixed-105",
   "bands": [
     {
       "name": "Single rate"

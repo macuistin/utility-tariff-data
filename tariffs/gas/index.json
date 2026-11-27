@@ -3,7 +3,7 @@
   "countries": {
     "AU": {
       "availability": "partial",
-      "checksum": "sha256:c1ab9fe57cc9c3c0ef48308e458b6b2c0bfaa77da170a1fba483c4ccff390bd4",
+      "checksum": "sha256:c3f5b6fd971e750e0fb6a9267f32cee229ccfad93012e7895078948ae1b429cb",
       "path": "au/index.json",
       "providers": 3,
       "reason": "Retailer gas plans, added by hand for chosen retailers. Plans with seasonal periods, banded supply charges or tiers quoted for different periods are skipped. Each plan is one area of a retailer, named by its distributor.",
@@ -47,10 +47,10 @@
     },
     "GB": {
       "availability": "available",
-      "checksum": "sha256:d82d9e3bb7c776a0920b736eeaf88179255e0041c00f6d1755e9e40800dce8f3",
+      "checksum": "sha256:71226066cd4da0917acc73048379f74ea1b30139261e879109be923cc9984c1d",
       "path": "gb/index.json",
       "providers": 9,
-      "tariffs": 40
+      "tariffs": 55
     },
     "HK": {
       "availability": "partial",
@@ -97,7 +97,7 @@
     },
     "PT": {
       "availability": "partial",
-      "checksum": "sha256:60c65a1b36d318103ed78b41f03f9d6d47152f5cdf46761edd59bd7bdc1d491a",
+      "checksum": "sha256:d7c364a842824833da60e8c29c769cc64f18ecba8fd04f4b50202acbaf1807f4",
       "path": "pt/index.json",
       "providers": 12,
       "reason": "Household gas offers of every supplier and the regulated tariff, from the regulator's price simulator, for low-pressure supplies up to 10,000 m3 a year. Each consumption step is an area. VAT and levies are not in the prices and the VAT rate depends on the supply, so a bill carries no tax line. Offers indexed to the wholesale price, offers that include a paid service, dual fuel bundles and prices the simulator lists to more than six decimal places are not held.",
@@ -105,7 +105,7 @@
         "language": "pt",
         "text": "Ofertas de gás para clientes domésticos de todos os comercializadores e a tarifa regulada, lidas do simulador de preços da entidade reguladora, para fornecimentos em baixa pressão até 10 000 m3 por ano. Cada escalão de consumo é uma área. O IVA e as taxas não estão nos preços e a taxa de IVA depende do fornecimento, por isso uma fatura não tem linha de imposto. Não estão incluídas as ofertas indexadas ao mercado grossista, as ofertas com um serviço pago, as ofertas duais nem os preços que o simulador indica com mais de seis casas decimais."
       },
-      "tariffs": 70
+      "tariffs": 71
     },
     "SG": {
       "availability": "available",

@@ -4,11 +4,13 @@
   "provider": "EDF",
   "service": "gas",
   "effective_from": "2026-11-25",
+  "effective_to": "2026-11-27",
   "source": {
     "id": "kraken-gas-gb",
     "url": "https://api.edfgb-kraken.energy/v1/products/EDF_SIMPLY_FIXED_NOV2027_V6/"
   },
   "replaces": "edf/edf-simply-fixed-nov2027-v5",
+  "replaced_by": "edf/edf-simply-fixed-nov2027-v7",
   "bands": [
     {
       "name": "Single rate"

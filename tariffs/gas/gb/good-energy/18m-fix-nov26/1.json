@@ -4,10 +4,12 @@
   "provider": "Good Energy",
   "service": "gas",
   "effective_from": "2026-10-29",
+  "effective_to": "2026-11-25",
   "source": {
     "id": "good-energy-gas-gb",
     "url": "https://www.goodenergy.co.uk/wp-content/uploads/2026/10/DOM_FIX_18M_NOV26.pdf"
   },
+  "replaced_by": "good-energy/18m-fix-dec26",
   "bands": [
     {
       "name": "Single rate"

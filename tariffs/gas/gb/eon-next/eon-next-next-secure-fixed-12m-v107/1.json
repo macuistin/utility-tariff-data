@@ -4,10 +4,12 @@
   "provider": "E.ON Next",
   "service": "gas",
   "effective_from": "2026-11-24",
+  "effective_to": "2026-11-27",
   "source": {
     "id": "kraken-gas-gb",
     "url": "https://api.eonnext-kraken.energy/v1/products/NEXT_SECURE_FIXED_12M_V107/"
   },
+  "replaced_by": "eon-next/eon-next-next-secure-fixed-12m-v108",
   "bands": [
     {
       "name": "Single rate"
