@@ -1,0 +1,9 @@
+{
+  "schema": 1,
+  "feed": "hvakosterstrommen",
+  "area": "no4",
+  "latest": "2026-11-28",
+  "months": {
+    "2026-11": "sha256:f1906643fe134eadadae4db39aaf20e9b25a486f263ff04891b8d8d37cde4538"
+  }
+}
