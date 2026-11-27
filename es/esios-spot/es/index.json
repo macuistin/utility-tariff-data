@@ -2,8 +2,8 @@
   "schema": 1,
   "feed": "esios-spot",
   "area": "es",
-  "latest": "2026-11-27",
+  "latest": "2026-11-28",
   "months": {
-    "2026-11": "sha256:e86bb0765616e2fc25097963e4f69d51d7d85a42b76eca448b43bb622a511829"
+    "2026-11": "sha256:897f69bc20d09a204063cab2b77f3c0aad7c647a3f97ae1ef3bdc11f71e9f59f"
   }
 }
