@@ -2,8 +2,8 @@
   "schema": 1,
   "feed": "octopus-agile",
   "area": "f",
-  "latest": "2026-11-26",
+  "latest": "2026-11-27",
   "months": {
-    "2026-11": "sha256:02b1f2a2bcdfb54fcbb61d1150efb90817bda388d49c1077ace1a7620a8dc2b7"
+    "2026-11": "sha256:4f91151369c20afccfae6fa3b3ff156f7b5eaa39e2a049b6a52b5adef3d4fe25"
   }
 }
