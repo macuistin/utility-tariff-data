@@ -1,0 +1,9 @@
+{
+  "schema": 1,
+  "feed": "pse-rce",
+  "area": "pl",
+  "latest": "2026-11-27",
+  "months": {
+    "2026-11": "sha256:07933c43a6703f6426447f76899a0af8d7022e3e6986f418a0cf041e11bf9c6e"
+  }
+}
